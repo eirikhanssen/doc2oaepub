@@ -1,0 +1,5 @@
+#!/bin/bash
+timestamp=$(date +%Y-%m-%d-%H%M-%S)
+foldername="$1-$timestamp"
+mkdir $foldername && cd $foldername && unzip ../$1 && cd ..
+calabash doc2jats.xpl filename=$1 timestamp=$timestamp folder=$foldername
