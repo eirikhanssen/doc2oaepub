@@ -22,4 +22,6 @@
     
     <d2j:docx-flatten/>
     
+    <d2j:flat-docx-to-html/>
+    
 </p:declare-step>

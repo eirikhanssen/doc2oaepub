@@ -31,6 +31,12 @@
                 <rename to="h2">
                     <style>Heading2</style>
                 </rename>
+                <rename to="h3">
+                    <style>Heading3</style>
+                </rename>
+                <rename to="h4">
+                    <style>Heading4</style>
+                </rename>
                 <rename to="keywords">
                     <style>Keywords</style>
                 </rename>
@@ -48,6 +54,7 @@
                 <rename to="blockquote">
                     <style>Blokksitat</style>
                     <style>Blockquote</style>
+                    <style>Quotations</style>
                 </rename>
             </stylemapping>
         </xsl:variable>
