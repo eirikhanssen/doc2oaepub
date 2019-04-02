@@ -173,7 +173,7 @@
         
        <p:filter name="document" select="//pkg:part[@pkg_name='/word/document.xml']/pkg:xmlData/w:document"></p:filter>
        
-       <!--<p:delete name="remove-bookmarks" match="w:bookmarkStart|w:bookmarkEnd"></p:delete>-->
+       <p:delete name="remove-bookmarks" match="w:bookmarkStart|w:bookmarkEnd"></p:delete>
        
        <p:identity name="final"/>
     </p:declare-step>
