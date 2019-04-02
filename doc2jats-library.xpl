@@ -175,6 +175,12 @@
        
        <p:delete name="remove-bookmarks" match="w:bookmarkStart|w:bookmarkEnd"></p:delete>
        
+       <p:delete name="remove-lang" match="w:lang"></p:delete>
+       
+       <!--<p:insert name="merge-runs" match="w:r[following-sibling::w:r][functx:sequence-deep-equal(w:rPr, following-sibling::w:r/w:rPr)]" position="after"><p:input port="insertion"><p:inline><NEXT-HAS-DEEP-EQUAL-rPr/></p:inline></p:input></p:insert>-->
+        
+        <p:insert name="merge-runs" match="//w:r[deep-equal(w:rPr,following-sibling::w:r/w:rPr)]" position="first-child"><p:input port="insertion"><p:inline><NEXT_HAS_SAME_rPr/></p:inline></p:input></p:insert>
+       
        <p:identity name="final"/>
     </p:declare-step>
 
