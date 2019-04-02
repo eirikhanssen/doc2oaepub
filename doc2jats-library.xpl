@@ -101,4 +101,74 @@
         
     </p:declare-step>
 
+    <p:declare-step type="d2j:docx-flatten" name="docx-flatten">
+        <p:output port="result" sequence="true"/>
+        <p:serialization port="result" indent="true" method="xml" omit-xml-declaration="true"/>
+        <p:input port="source"/>
+        <p:input port="parameters" kind="parameter" sequence="true"/>
+        
+        <p:xslt name="xslt1" version="2.0">
+            <p:input port="source"/>
+            <p:input port="parameters"/>
+            <p:input port="stylesheet">
+                <p:inline>
+                    <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="2.0" xmlns:pkg="http://schemas.microsoft.com/office/2006/xmlPackage">
+                        <xsl:import href="doc2jats-functions.xsl"/>
+                        <xsl:param name="folder" select="folder"/>
+                        <xsl:strip-space elements="*"/>
+                        
+                        <xsl:template match="/pkg:package">
+                            <xsl:copy>
+                                <xsl:copy-of select="node() | @*"/>
+                                <xsl:call-template name="part"><xsl:with-param name="epath" select="$folder"/><xsl:with-param name="ipath" select="'/_rels/.rels'"/></xsl:call-template>
+                                <xsl:call-template name="part"><xsl:with-param name="epath" select="$folder"/><xsl:with-param name="ipath" select="'/word/_rels/document.xml.rels'"/></xsl:call-template>
+                            </xsl:copy>
+                        </xsl:template>
+                        
+                    </xsl:stylesheet>
+                </p:inline>
+            </p:input>
+            
+        </p:xslt> <!-- xslt1 -->
+        
+        <p:xslt name="xslt2" version="2.0">
+            <p:input port="source"/>
+            <p:input port="parameters"/>
+            <p:input port="stylesheet">
+                <p:inline>
+                    <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="2.0" 
+                        xmlns:pkg="http://schemas.microsoft.com/office/2006/xmlPackage"
+                        xmlns:rp="http://schemas.openxmlformats.org/package/2006/relationships">
+                        <xsl:import href="doc2jats-functions.xsl"/>
+                        <xsl:param name="folder"/>
+                        <xsl:strip-space elements="*"/>
+                        <xsl:variable name="test"><xsl:sequence select="//pkg:part[@pkg_name='/_rels/.rels']//rp:Relationship/string(@Target)"/></xsl:variable>
+                        <!--<xsl:variable name="rels"><xsl:sequence select="string(pkg:part[@pkg_name='/_rels/.rels']//@*)"></xsl:sequence></xsl:variable>-->
+                        <xsl:template match="/pkg:package">
+                            <xsl:copy>
+                                <xsl:copy-of select="node() | @*"/>
+                                <!-- 
+                            <xsl:for-each select="$rels/@pkg_name">
+                                    <xsl:call-template name="part"><xsl:with-param name="epath" select="$folder"/><xsl:with-param name="ipath" select="."/></xsl:call-template>    
+                            </xsl:for-each>
+                             -->
+                                <xsl:for-each select="//pkg:part[@pkg_name='/_rels/.rels']//rp:Relationship/string(@Target)">
+                                    <xsl:call-template name="part"><xsl:with-param name="epath" select="$folder"/><xsl:with-param name="ipath" select="concat('/',.)"/></xsl:call-template>
+                                </xsl:for-each>
+                                
+                                <xsl:for-each select="//pkg:part[@pkg_name='/word/_rels/document.xml.rels']//rp:Relationship[@Type != 'http://schemas.openxmlformats.org/officeDocument/2006/relationships/image']/string(@Target)">
+                                    <xsl:call-template name="part"><xsl:with-param name="epath" select="$folder"/><xsl:with-param name="ipath" select="concat('/word/',.)"/></xsl:call-template>
+                                </xsl:for-each>
+                            </xsl:copy>
+                        </xsl:template>
+                        
+                    </xsl:stylesheet>
+                </p:inline>
+            </p:input>
+        </p:xslt> <!-- xslt2 -->
+
+        <p:identity name="final"/>
+        
+    </p:declare-step>
+
 </p:library>

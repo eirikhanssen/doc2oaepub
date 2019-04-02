@@ -20,4 +20,6 @@
     
     <d2j:env/>
     
+    <d2j:docx-flatten/>
+    
 </p:declare-step>

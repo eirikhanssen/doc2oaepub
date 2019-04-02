@@ -4,8 +4,8 @@
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
     xmlns:pkg="http://schemas.microsoft.com/office/2006/xmlPackage"
     xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"
-    xmlns:f="https://eirikhanssen.com/ns/doc2jats-fn"
-    exclude-result-prefixes="xs"
+    xmlns:f="https://eirikhanssen.com/ns/doc2jats-functions"
+    exclude-result-prefixes="xs f"
     version="2.0">
     
     <xsl:template name="part">
