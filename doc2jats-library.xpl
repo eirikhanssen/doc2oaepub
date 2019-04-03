@@ -192,7 +192,8 @@
             <p:input port="stylesheet">
                 <p:inline>
                     <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-                        xmlns:f="https://eirikhanssen.com/ns/functions" version="2.0">
+                        xmlns:f="https://eirikhanssen.com/ns/functions" version="2.0"
+                        exclude-result-prefixes="f">
                         <xsl:import href="doc2jats-functions.xsl"/>
                         <xsl:strip-space elements="*"/>
                         
@@ -234,6 +235,8 @@
                 </p:inline>
             </p:input>
         </p:xslt>
+        
+        <p:delete match="w:rPr|w:spacing"/>
        
        <p:identity name="final"/>
     </p:declare-step>
