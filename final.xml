@@ -1,4 +1,6 @@
-<w:document xmlns:wpc="http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas"
+<w:document xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"
+            xmlns:pkg="http://schemas.microsoft.com/office/2006/xmlPackage"
+            xmlns:wpc="http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas"
             xmlns:cx="http://schemas.microsoft.com/office/drawing/2014/chartex"
             xmlns:cx1="http://schemas.microsoft.com/office/drawing/2015/9/8/chartex"
             xmlns:cx2="http://schemas.microsoft.com/office/drawing/2015/10/21/chartex"
@@ -29,189 +31,187 @@
             xmlns:wps="http://schemas.microsoft.com/office/word/2010/wordprocessingShape"
             xmlns:vt="http://schemas.openxmlformats.org/officeDocument/2006/docPropsVTypes"
             xmlns:d2j="http://eirikhanssen.no/doc2jats"
-            xmlns:pkg="http://schemas.microsoft.com/office/2006/xmlPackage"
-            xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"
             mc:Ignorable="w14 wp14">
    <w:body>
-      <w:p>
+      <p data-stylename="Heading1">
          <w:pPr>
             <w:pStyle w:val="Heading1"/>
-         </w:pPr>Artikkeltittel: undertittel</w:p>
-      <w:p>
+         </w:pPr>Artikkeltittel: undertittel</p>
+      <p data-stylename="Forfattere">
          <w:pPr>
             <w:pStyle w:val="Forfattere"/>
-         </w:pPr>Ola Nordmann og Kari Nordmann</w:p>
-      <w:p>
+         </w:pPr>Ola Nordmann og Kari Nordmann</p>
+      <p data-stylename="Kontaktinfo">
          <w:pPr>
             <w:pStyle w:val="Kontaktinfo"/>
-         </w:pPr>Kari Nordmann, professor ved Handelshøyskolen, OsloMet – storbyuniversitetet</w:p>
-      <w:p>
+         </w:pPr>Kari Nordmann, professor ved Handelshøyskolen, OsloMet – storbyuniversitetet</p>
+      <p data-stylename="Kontaktinfo">
          <w:pPr>
             <w:pStyle w:val="Kontaktinfo"/>
-         </w:pPr>Ola Nordmann, professor ved Senter for profesjonsstudier OsloMet – storbyuniversitetet</w:p>
-      <w:p>
+         </w:pPr>Ola Nordmann, professor ved Senter for profesjonsstudier OsloMet – storbyuniversitetet</p>
+      <p data-stylename="Kontaktinfo">
          <w:pPr>
             <w:pStyle w:val="Kontaktinfo"/>
-         </w:pPr>Korrespondanse: Kari Nordmann, professor ved Senter for profesjonsstudier OsloMet – storbyuniversitetet</w:p>
-      <w:p>
+         </w:pPr>Korrespondanse: Kari Nordmann, professor ved Senter for profesjonsstudier OsloMet – storbyuniversitetet</p>
+      <p data-stylename="Heading2">
          <w:pPr>
             <w:pStyle w:val="Heading2"/>
-         </w:pPr>Abstract</w:p>
-      <w:p>
+         </w:pPr>Abstract</p>
+      <p data-stylename="Abstract">
          <w:pPr>
             <w:pStyle w:val="Abstract"/>
-         </w:pPr>A sample abstract.</w:p>
-      <w:p>
+         </w:pPr>A sample abstract.</p>
+      <p data-stylename="Keywords">
          <w:pPr>
             <w:pStyle w:val="Keywords"/>
          </w:pPr>
-         <strong>Keywords:</strong> Management, gender, career, engineers, expectations</w:p>
-      <w:p>
+         <strong>Keywords:</strong> Management, gender, career, engineers, expectations</p>
+      <p data-stylename="Heading2">
          <w:pPr>
             <w:pStyle w:val="Heading2"/>
-         </w:pPr>Abstrakt</w:p>
-      <w:p>
+         </w:pPr>Abstrakt</p>
+      <p data-stylename="Abstrakt">
          <w:pPr>
             <w:pStyle w:val="Abstrakt"/>
-         </w:pPr>Et lite abstrakt.</w:p>
-      <w:p>
+         </w:pPr>Et lite abstrakt.</p>
+      <p data-stylename="Emneord">
          <w:pPr>
             <w:pStyle w:val="Emneord"/>
          </w:pPr>
-         <strong>Emneord:</strong> Ledelse, kjønn, karriere, ingeniører, forventninger</w:p>
-      <w:p>
+         <strong>Emneord:</strong> Ledelse, kjønn, karriere, ingeniører, forventninger</p>
+      <p data-stylename="Heading2">
          <w:pPr>
             <w:pStyle w:val="Heading2"/>
-         </w:pPr>Innledning</w:p>
-      <w:p>
+         </w:pPr>Innledning</p>
+      <p data-stylename="Normal">
          <w:pPr>
             <w:pStyle w:val="Normal"/>
-         </w:pPr>Fremdeles er kvinner underrepresentert i lederstillinger, både på lavere og høyere nivå i arbeidslivet. Mest ekstrem er situasjonen på høyeste nivå i næringslivet. I allmennaksjeselskaper er kun 7% av daglige ledere kvinner (Statistikkbanken SSB, 2017). Sammen med siviløkonomutdanningen er ingeniørutdanningene svært viktige leverandører av fremtidige ledere i privat sektor (Amdam &amp; Kvålshaugen, 2016:235). Karlsen (2012b:157) har tidligere vist at menn med ingeniørutdanning har større sjanse for å bli leder enn kvinner med tilsvarende utdanning. Samtidig jobber kvinnene oftere i offentlig sektor enn sin mannlige kolleger, og de tjener dårligere (Karlsen, 2012b:158).</w:p>
-      <w:p>
+         </w:pPr>Fremdeles er kvinner underrepresentert i lederstillinger, både på lavere og høyere nivå i arbeidslivet. Mest ekstrem er situasjonen på høyeste nivå i næringslivet. I allmennaksjeselskaper er kun 7% av daglige ledere kvinner (Statistikkbanken SSB, 2017). Sammen med siviløkonomutdanningen er ingeniørutdanningene svært viktige leverandører av fremtidige ledere i privat sektor (Amdam &amp; Kvålshaugen, 2016:235). Karlsen (2012b:157) har tidligere vist at menn med ingeniørutdanning har større sjanse for å bli leder enn kvinner med tilsvarende utdanning. Samtidig jobber kvinnene oftere i offentlig sektor enn sin mannlige kolleger, og de tjener dårligere (Karlsen, 2012b:158).</p>
+      <p data-stylename="Heading2">
          <w:pPr>
             <w:pStyle w:val="Heading2"/>
-         </w:pPr>Lister</w:p>
-      <w:p>
+         </w:pPr>Lister</p>
+      <p data-stylename="Heading3">
          <w:pPr>
             <w:pStyle w:val="Heading3"/>
-         </w:pPr>En ordnet liste:</w:p>
-      <w:p>
+         </w:pPr>En ordnet liste:</p>
+      <p data-stylename="ListParagraph">
          <w:pPr>
             <w:pStyle w:val="ListParagraph"/>
             <w:numPr>
                <w:ilvl w:val="0"/>
                <w:numId w:val="1"/>
             </w:numPr>
-         </w:pPr>ol num 1.1</w:p>
-      <w:p>
+         </w:pPr>ol num 1.1</p>
+      <p data-stylename="ListParagraph">
          <w:pPr>
             <w:pStyle w:val="ListParagraph"/>
             <w:numPr>
                <w:ilvl w:val="0"/>
                <w:numId w:val="1"/>
             </w:numPr>
-         </w:pPr>ol num 1.2</w:p>
-      <w:p>
+         </w:pPr>ol num 1.2</p>
+      <p data-stylename="ListParagraph">
          <w:pPr>
             <w:pStyle w:val="ListParagraph"/>
             <w:numPr>
                <w:ilvl w:val="0"/>
                <w:numId w:val="1"/>
             </w:numPr>
-         </w:pPr> ol num 1.3</w:p>
-      <w:p>
+         </w:pPr> ol num 1.3</p>
+      <p data-stylename="ListParagraph">
          <w:pPr>
             <w:pStyle w:val="ListParagraph"/>
             <w:numPr>
                <w:ilvl w:val="1"/>
                <w:numId w:val="1"/>
             </w:numPr>
-         </w:pPr>ol char 1.3.1</w:p>
-      <w:p>
+         </w:pPr>ol char 1.3.1</p>
+      <p data-stylename="ListParagraph">
          <w:pPr>
             <w:pStyle w:val="ListParagraph"/>
             <w:numPr>
                <w:ilvl w:val="1"/>
                <w:numId w:val="1"/>
             </w:numPr>
-         </w:pPr>ol char 1.3.2</w:p>
-      <w:p>
+         </w:pPr>ol char 1.3.2</p>
+      <p data-stylename="Heading3">
          <w:pPr>
             <w:pStyle w:val="Heading3"/>
-         </w:pPr>En punktliste:</w:p>
-      <w:p>
+         </w:pPr>En punktliste:</p>
+      <p data-stylename="ListParagraph">
          <w:pPr>
             <w:pStyle w:val="ListParagraph"/>
             <w:numPr>
                <w:ilvl w:val="0"/>
                <w:numId w:val="2"/>
             </w:numPr>
-         </w:pPr>ul 2.1</w:p>
-      <w:p>
+         </w:pPr>ul 2.1</p>
+      <p data-stylename="ListParagraph">
          <w:pPr>
             <w:pStyle w:val="ListParagraph"/>
             <w:numPr>
                <w:ilvl w:val="0"/>
                <w:numId w:val="2"/>
             </w:numPr>
-         </w:pPr>ul 2.2</w:p>
-      <w:p>
+         </w:pPr>ul 2.2</p>
+      <p data-stylename="ListParagraph">
          <w:pPr>
             <w:pStyle w:val="ListParagraph"/>
             <w:numPr>
                <w:ilvl w:val="1"/>
                <w:numId w:val="2"/>
             </w:numPr>
-         </w:pPr>ul 2.2.1</w:p>
-      <w:p>
+         </w:pPr>ul 2.2.1</p>
+      <p data-stylename="ListParagraph">
          <w:pPr>
             <w:pStyle w:val="ListParagraph"/>
             <w:numPr>
                <w:ilvl w:val="1"/>
                <w:numId w:val="2"/>
             </w:numPr>
-         </w:pPr>ul 2.2.2</w:p>
-      <w:p>
+         </w:pPr>ul 2.2.2</p>
+      <p data-stylename="Heading2">
          <w:pPr>
             <w:pStyle w:val="Heading2"/>
-         </w:pPr>En ordnet liste/uordnet-sub-liste:</w:p>
-      <w:p>
+         </w:pPr>En ordnet liste/uordnet-sub-liste:</p>
+      <p data-stylename="ListParagraph">
          <w:pPr>
             <w:pStyle w:val="ListParagraph"/>
             <w:numPr>
                <w:ilvl w:val="0"/>
                <w:numId w:val="3"/>
             </w:numPr>
-         </w:pPr>ol item 3.1</w:p>
-      <w:p>
+         </w:pPr>ol item 3.1</p>
+      <p data-stylename="ListParagraph">
          <w:pPr>
             <w:pStyle w:val="ListParagraph"/>
             <w:numPr>
                <w:ilvl w:val="0"/>
                <w:numId w:val="3"/>
             </w:numPr>
-         </w:pPr>ol item 3.2</w:p>
-      <w:p>
+         </w:pPr>ol item 3.2</p>
+      <p data-stylename="ListParagraph">
          <w:pPr>
             <w:pStyle w:val="ListParagraph"/>
             <w:numPr>
                <w:ilvl w:val="1"/>
                <w:numId w:val="4"/>
             </w:numPr>
-         </w:pPr>ul item 3.2.1</w:p>
-      <w:p>
+         </w:pPr>ul item 3.2.1</p>
+      <p data-stylename="ListParagraph">
          <w:pPr>
             <w:pStyle w:val="ListParagraph"/>
             <w:numPr>
                <w:ilvl w:val="1"/>
                <w:numId w:val="4"/>
             </w:numPr>
-         </w:pPr>ul item 3.2.2</w:p>
-      <w:p>
+         </w:pPr>ul item 3.2.2</p>
+      <p data-stylename="Heading2">
          <w:pPr>
             <w:pStyle w:val="Heading2"/>
-         </w:pPr>Figurer</w:p>
-      <w:p>
+         </w:pPr>Figurer</p>
+      <p data-stylename="ListParagraph">
          <w:pPr>
             <w:pStyle w:val="ListParagraph"/>
             <w:keepNext w:val="true"/>
@@ -292,25 +292,25 @@
                </w:pict>
             </mc:Fallback>
          </mc:AlternateContent>
-      </w:p>
-      <w:p>
+      </p>
+      <p data-stylename="Caption1">
          <w:pPr>
             <w:pStyle w:val="Caption1"/>
          </w:pPr>Figur <w:fldChar w:fldCharType="begin"/>
          <w:instrText> SEQ Figur \* ARABIC </w:instrText>
-         <w:fldChar w:fldCharType="separate"/>1<w:fldChar w:fldCharType="end"/>. The corridor within the corridor</w:p>
-      <w:p>
+         <w:fldChar w:fldCharType="separate"/>1<w:fldChar w:fldCharType="end"/>. The corridor within the corridor</p>
+      <p data-stylename="Heading2">
          <w:pPr>
             <w:pStyle w:val="Heading2"/>
-         </w:pPr>Tables</w:p>
-      <w:p>
+         </w:pPr>Tables</p>
+      <p data-stylename="Tabelletikett">
          <w:pPr>
             <w:pStyle w:val="Tabelletikett"/>
-         </w:pPr>Table 1</w:p>
-      <w:p>
+         </w:pPr>Table 1</p>
+      <p data-stylename="Tabellbeskrivelse">
          <w:pPr>
             <w:pStyle w:val="Tabellbeskrivelse"/>
-         </w:pPr>Demografiske data: Alder, utdanningsnivå og antall søsken fordelt på kjønn.</w:p>
+         </w:pPr>Demografiske data: Alder, utdanningsnivå og antall søsken fordelt på kjønn.</p>
       <w:tbl>
          <w:tblPr>
             <w:tblW w:w="9245" w:type="dxa"/>
@@ -353,12 +353,12 @@
                   <w:shd w:fill="auto" w:val="clear"/>
                   <w:vAlign w:val="center"/>
                </w:tcPr>
-               <w:p>
+               <p data-stylename="TabellKolonneoverskrift">
                   <w:pPr>
                      <w:pStyle w:val="TabellKolonneoverskrift"/>
                      <w:jc w:val="center"/>
                   </w:pPr>
-               </w:p>
+               </p>
             </w:tc>
             <w:tc>
                <w:tcPr>
@@ -371,11 +371,11 @@
                   <w:shd w:fill="auto" w:val="clear"/>
                   <w:vAlign w:val="center"/>
                </w:tcPr>
-               <w:p>
+               <p data-stylename="TabellKolonneoverskrift">
                   <w:pPr>
                      <w:pStyle w:val="TabellKolonneoverskrift"/>
                      <w:jc w:val="center"/>
-                  </w:pPr>Kvinner</w:p>
+                  </w:pPr>Kvinner</p>
             </w:tc>
             <w:tc>
                <w:tcPr>
@@ -388,11 +388,11 @@
                   <w:shd w:fill="auto" w:val="clear"/>
                   <w:vAlign w:val="center"/>
                </w:tcPr>
-               <w:p>
+               <p data-stylename="TabellKolonneoverskrift">
                   <w:pPr>
                      <w:pStyle w:val="TabellKolonneoverskrift"/>
                      <w:jc w:val="center"/>
-                  </w:pPr>Menn</w:p>
+                  </w:pPr>Menn</p>
             </w:tc>
          </w:tr>
          <w:tr>
@@ -404,10 +404,10 @@
                   <w:shd w:fill="auto" w:val="clear"/>
                   <w:vAlign w:val="center"/>
                </w:tcPr>
-               <w:p>
+               <p data-stylename="TabellRadoverskrift">
                   <w:pPr>
                      <w:pStyle w:val="TabellRadoverskrift"/>
-                  </w:pPr>Alder</w:p>
+                  </w:pPr>Alder</p>
             </w:tc>
             <w:tc>
                <w:tcPr>
@@ -416,11 +416,11 @@
                   <w:shd w:fill="auto" w:val="clear"/>
                   <w:vAlign w:val="center"/>
                </w:tcPr>
-               <w:p>
+               <p data-stylename="Normal">
                   <w:pPr>
                      <w:pStyle w:val="Normal"/>
                      <w:jc w:val="center"/>
-                  </w:pPr>23±5</w:p>
+                  </w:pPr>23±5</p>
             </w:tc>
             <w:tc>
                <w:tcPr>
@@ -429,11 +429,11 @@
                   <w:shd w:fill="auto" w:val="clear"/>
                   <w:vAlign w:val="center"/>
                </w:tcPr>
-               <w:p>
+               <p data-stylename="Normal">
                   <w:pPr>
                      <w:pStyle w:val="Normal"/>
                      <w:jc w:val="center"/>
-                  </w:pPr>27±8</w:p>
+                  </w:pPr>27±8</p>
             </w:tc>
          </w:tr>
          <w:tr>
@@ -445,10 +445,10 @@
                   <w:shd w:fill="auto" w:val="clear"/>
                   <w:vAlign w:val="center"/>
                </w:tcPr>
-               <w:p>
+               <p data-stylename="TabellRadoverskrift">
                   <w:pPr>
                      <w:pStyle w:val="TabellRadoverskrift"/>
-                  </w:pPr>Fullført utdanningsnivå</w:p>
+                  </w:pPr>Fullført utdanningsnivå</p>
             </w:tc>
             <w:tc>
                <w:tcPr>
@@ -457,11 +457,11 @@
                   <w:shd w:fill="auto" w:val="clear"/>
                   <w:vAlign w:val="center"/>
                </w:tcPr>
-               <w:p>
+               <p data-stylename="Normal">
                   <w:pPr>
                      <w:pStyle w:val="Normal"/>
                      <w:jc w:val="center"/>
-                  </w:pPr>15±5</w:p>
+                  </w:pPr>15±5</p>
             </w:tc>
             <w:tc>
                <w:tcPr>
@@ -470,11 +470,11 @@
                   <w:shd w:fill="auto" w:val="clear"/>
                   <w:vAlign w:val="center"/>
                </w:tcPr>
-               <w:p>
+               <p data-stylename="Normal">
                   <w:pPr>
                      <w:pStyle w:val="Normal"/>
                      <w:jc w:val="center"/>
-                  </w:pPr>14±5</w:p>
+                  </w:pPr>14±5</p>
             </w:tc>
          </w:tr>
          <w:tr>
@@ -489,13 +489,13 @@
                   <w:shd w:fill="auto" w:val="clear"/>
                   <w:vAlign w:val="center"/>
                </w:tcPr>
-               <w:p>
+               <p data-stylename="Normal">
                   <w:pPr>
                      <w:pStyle w:val="Normal"/>
                      <w:widowControl/>
                      <w:bidi w:val="0"/>
                      <w:jc w:val="left"/>
-                  </w:pPr>Antall søsken</w:p>
+                  </w:pPr>Antall søsken</p>
             </w:tc>
             <w:tc>
                <w:tcPr>
@@ -507,11 +507,11 @@
                   <w:shd w:fill="auto" w:val="clear"/>
                   <w:vAlign w:val="center"/>
                </w:tcPr>
-               <w:p>
+               <p data-stylename="Normal">
                   <w:pPr>
                      <w:pStyle w:val="Normal"/>
                      <w:jc w:val="center"/>
-                  </w:pPr>1±1</w:p>
+                  </w:pPr>1±1</p>
             </w:tc>
             <w:tc>
                <w:tcPr>
@@ -523,60 +523,60 @@
                   <w:shd w:fill="auto" w:val="clear"/>
                   <w:vAlign w:val="center"/>
                </w:tcPr>
-               <w:p>
+               <p data-stylename="Normal">
                   <w:pPr>
                      <w:pStyle w:val="Normal"/>
                      <w:jc w:val="center"/>
-                  </w:pPr>2±1</w:p>
+                  </w:pPr>2±1</p>
             </w:tc>
          </w:tr>
       </w:tbl>
-      <w:p>
+      <p data-stylename="Normal">
          <w:pPr>
             <w:pStyle w:val="Normal"/>
          </w:pPr>
-      </w:p>
-      <w:p>
+      </p>
+      <p data-stylename="Normal">
          <w:pPr>
             <w:pStyle w:val="Normal"/>
-         </w:pPr>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at blandit sapien. Quisque sit amet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at blandit sapien. Quisque sit amet.</w:p>
-      <w:p>
+         </w:pPr>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at blandit sapien. Quisque sit amet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at blandit sapien. Quisque sit amet.</p>
+      <p data-stylename="Heading2">
          <w:pPr>
             <w:pStyle w:val="Heading2"/>
-         </w:pPr>Et blokksitat</w:p>
-      <w:p>
+         </w:pPr>Et blokksitat</p>
+      <p data-stylename="Normal">
          <w:pPr>
             <w:pStyle w:val="Normal"/>
-         </w:pPr>Det er viktig å sitere ordentlig.</w:p>
-      <w:p>
+         </w:pPr>Det er viktig å sitere ordentlig.</p>
+      <p data-stylename="Blokksitat">
          <w:pPr>
             <w:pStyle w:val="Blokksitat"/>
-         </w:pPr>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at blandit sapien. Quisque sit amet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at blandit sapien. Quisque sit amet.</w:p>
-      <w:p>
+         </w:pPr>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at blandit sapien. Quisque sit amet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at blandit sapien. Quisque sit amet.</p>
+      <p data-stylename="Normal">
          <w:pPr>
             <w:pStyle w:val="Normal"/>
-         </w:pPr>Denne konklusjonen har imidlertid blitt tilbakevist av andre empiriske studier (Powell og Butterfield 1997; Storvik og Schøne 2008).</w:p>
-      <w:p>
+         </w:pPr>Denne konklusjonen har imidlertid blitt tilbakevist av andre empiriske studier (Powell og Butterfield 1997; Storvik og Schøne 2008).</p>
+      <p data-stylename="Heading2">
          <w:pPr>
             <w:pStyle w:val="Heading2"/>
-         </w:pPr>Referanser</w:p>
-      <w:p>
+         </w:pPr>Referanser</p>
+      <p data-stylename="Referanse">
          <w:pPr>
             <w:pStyle w:val="Referanse"/>
-         </w:pPr>Karlsen, H. (2012a). Gender and ethnic differences in occupational positions and earnings among nurses and engineers in Norway. Identical choices, unequal outcomes. <em>Work, Employment and Society 26</em>: (s.278-295). </w:p>
-      <w:p>
+         </w:pPr>Karlsen, H. (2012a). Gender and ethnic differences in occupational positions and earnings among nurses and engineers in Norway. Identical choices, unequal outcomes. <em>Work, Employment and Society 26</em>: (s.278-295). </p>
+      <p data-stylename="Referanse">
          <w:pPr>
             <w:pStyle w:val="Referanse"/>
-         </w:pPr>Karlsen, H. (2012b). <em>Not so unconventional after all? A Quantitative study of men in care-oriented study programmes and professional occupations in Norway.</em> Oslo: Høgskolen I Oslo og Akershus, Avhandling 2012:1.</w:p>
-      <w:p>
+         </w:pPr>Karlsen, H. (2012b). <em>Not so unconventional after all? A Quantitative study of men in care-oriented study programmes and professional occupations in Norway.</em> Oslo: Høgskolen I Oslo og Akershus, Avhandling 2012:1.</p>
+      <p data-stylename="Referanse">
          <w:pPr>
             <w:pStyle w:val="Referanse"/>
-         </w:pPr>Powell, G. &amp; Butterfield, D. (1997) Effects of Race and Gender on Promotions to Top Management in a Federal Department, <em>Academy of Management Journal 40</em>: 112-128.</w:p>
-      <w:p>
+         </w:pPr>Powell, G. &amp; Butterfield, D. (1997) Effects of Race and Gender on Promotions to Top Management in a Federal Department, <em>Academy of Management Journal 40</em>: 112-128.</p>
+      <p data-stylename="Referanse">
          <w:pPr>
             <w:pStyle w:val="Referanse"/>
             <w:ind w:left="720" w:hanging="720"/>
-         </w:pPr>Storvik, A. &amp; Schøne, P. (2008). In search of the glass ceiling: gender and recruitment to management in Norway’s state bureaucracy, <em>British Journal of Sociology 59</em>(4): (s.729-755).</w:p>
+         </w:pPr>Storvik, A. &amp; Schøne, P. (2008). In search of the glass ceiling: gender and recruitment to management in Norway’s state bureaucracy, <em>British Journal of Sociology 59</em>(4): (s.729-755).</p>
       <w:sectPr>
          <w:headerReference w:type="default" r:id="rId3"/>
          <w:headerReference w:type="first" r:id="rId4"/>

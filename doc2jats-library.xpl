@@ -214,6 +214,13 @@
                         
                         <xsl:template match="w:t"><xsl:apply-templates/></xsl:template>
                         
+                        <xsl:template match="w:p">
+                            <xsl:element name="p">
+                                <xsl:attribute name="data-stylename" select="w:pPr/w:pStyle/@w:val"></xsl:attribute>
+                                <xsl:apply-templates/>
+                            </xsl:element>
+                        </xsl:template>
+                        
                         <!-- translate paragraph elements depending on style name -->
                         <!--
                         
