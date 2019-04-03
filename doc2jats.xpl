@@ -26,7 +26,7 @@
     
     <d2j:docx-flatten name="flat-ocf"/>
     
-    <!--<d2j:flat-docx-to-html/>-->
+    <d2j:filter-w-document/>
     
     <p:identity name="final"/>
     

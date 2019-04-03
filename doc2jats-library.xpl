@@ -165,18 +165,27 @@
         
     </p:declare-step>
 
+    <p:declare-step type="d2j:filter-w-document" name="filter-w-document">
+        <p:output port="result" sequence="true"/>
+        <p:serialization port="result" indent="true" method="xml" omit-xml-declaration="true"/>
+        <p:input port="source"/>
+        <p:input port="parameters" kind="parameter" sequence="true"/>
+        
+        <p:filter name="document" select="//pkg:part[@pkg_name='/word/document.xml']/pkg:xmlData/w:document"></p:filter>
+        
+        <p:delete name="remove-bookmarks" match="w:bookmarkStart|w:bookmarkEnd"></p:delete>
+        
+        <p:delete name="remove-lang" match="w:lang"></p:delete>
+        
+        <p:identity name="final"/>
+    </p:declare-step>
+
     <p:declare-step type="d2j:flat-docx-to-html" name="docx-flatten">
         <p:output port="result" sequence="true"/>
         <p:serialization port="result" indent="true" method="xml" omit-xml-declaration="true"/>
         <p:input port="source"/>
         <p:input port="parameters" kind="parameter" sequence="true"/>
         
-       <p:filter name="document" select="//pkg:part[@pkg_name='/word/document.xml']/pkg:xmlData/w:document"></p:filter>
-       
-       <p:delete name="remove-bookmarks" match="w:bookmarkStart|w:bookmarkEnd"></p:delete>
-       
-       <p:delete name="remove-lang" match="w:lang"></p:delete>
-       
         <p:xslt name="translate-to-html-elements" version="2.0">
             <p:input port="source"/>
             <p:input port="parameters"/>
@@ -186,19 +195,6 @@
                         xmlns:f="https://eirikhanssen.com/ns/functions" version="2.0">
                         <xsl:import href="doc2jats-functions.xsl"/>
                         <xsl:strip-space elements="*"/>
-                        <!-- translate paragraph elements depending on style name -->
-                        
-                        <xsl:template match="w:p">
-                            <xsl:call-template name="elementFromStyle">
-                                <xsl:with-param name="source-element" select="."/>
-                            </xsl:call-template>
-                        </xsl:template>
-                        
-                        <xsl:template match="w:tc">
-                            <xsl:call-template name="tableElementFromStyle">
-                                <xsl:with-param name="source-element" select="."/>
-                            </xsl:call-template>
-                        </xsl:template>
                         
                         <xsl:template match="w:r">
                             <xsl:choose>
@@ -216,6 +212,23 @@
                         </xsl:template>
                         
                         <xsl:template match="w:t"><xsl:apply-templates/></xsl:template>
+                        
+                        <!-- translate paragraph elements depending on style name -->
+                        <!--
+                        
+                        <xsl:template match="w:p">
+                            <xsl:call-template name="elementFromStyle">
+                                <xsl:with-param name="source-element" select="."/>
+                            </xsl:call-template>
+                        </xsl:template>
+                        
+                        <xsl:template match="w:tc">
+                            <xsl:call-template name="tableElementFromStyle">
+                                <xsl:with-param name="source-element" select="."/>
+                            </xsl:call-template>
+                        </xsl:template>
+                        
+                        -->
                         
                     </xsl:stylesheet>
                 </p:inline>
