@@ -3,4 +3,4 @@ timestamp=$(date +%Y%m%d-%H%M%S)
 foldername="$1-$timestamp"
 mkdir $foldername && cd $foldername && unzip ../$1 && cd ..
 #calabash -p filename=$1 -p timestamp=$timestamp -p folder=$foldername doc2jats.xpl
-calabash -p folder=$foldername doc2jats.xpl
+calabash -p folder=$foldername doc2jats.xpl | pygmentize -l xml | less -R
