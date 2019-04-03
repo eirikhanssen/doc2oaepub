@@ -13,7 +13,9 @@
     
     <p:input port="parameters" kind="parameter"/>
     
-    <p:output port="result"/>
+    <p:output port="result">
+        <p:pipe port="result" step="store-xml"></p:pipe>
+    </p:output>
     <p:import href="doc2jats-library.xpl"/>
     
     <d2j:docx-root/>
@@ -22,6 +24,8 @@
     
     <d2j:docx-flatten/>
     
-    <d2j:flat-docx-to-html/>
+    <!--<d2j:flat-docx-to-html/>-->
+    
+    <p:store name="store-xml" href="out.xml" method="xml" encoding="UTF-8" indent="true" omit-xml-declaration="true"/>
     
 </p:declare-step>

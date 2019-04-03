@@ -177,9 +177,50 @@
        
        <p:delete name="remove-lang" match="w:lang"></p:delete>
        
-       <!--<p:insert name="merge-runs" match="w:r[following-sibling::w:r][functx:sequence-deep-equal(w:rPr, following-sibling::w:r/w:rPr)]" position="after"><p:input port="insertion"><p:inline><NEXT-HAS-DEEP-EQUAL-rPr/></p:inline></p:input></p:insert>-->
-        
-        <p:insert name="merge-runs" match="//w:r[deep-equal(w:rPr,following-sibling::w:r/w:rPr)]" position="first-child"><p:input port="insertion"><p:inline><NEXT_HAS_SAME_rPr/></p:inline></p:input></p:insert>
+        <p:xslt name="translate-to-html-elements" version="2.0">
+            <p:input port="source"/>
+            <p:input port="parameters"/>
+            <p:input port="stylesheet">
+                <p:inline>
+                    <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+                        xmlns:f="https://eirikhanssen.com/ns/functions" version="2.0">
+                        <xsl:import href="doc2jats-functions.xsl"/>
+                        <xsl:strip-space elements="*"/>
+                        <!-- translate paragraph elements depending on style name -->
+                        
+                        <xsl:template match="w:p">
+                            <xsl:call-template name="elementFromStyle">
+                                <xsl:with-param name="source-element" select="."/>
+                            </xsl:call-template>
+                        </xsl:template>
+                        
+                        <xsl:template match="w:tc">
+                            <xsl:call-template name="tableElementFromStyle">
+                                <xsl:with-param name="source-element" select="."/>
+                            </xsl:call-template>
+                        </xsl:template>
+                        
+                        <xsl:template match="w:r">
+                            <xsl:choose>
+                                <xsl:when test=".[w:rPr[w:i][w:b]]">
+                                    <strong><em><xsl:apply-templates/></em></strong>
+                                </xsl:when>
+                                <xsl:when test=".[w:rPr[w:i]]">
+                                    <em><xsl:apply-templates/></em>
+                                </xsl:when>
+                                <xsl:when test=".[w:rPr[w:b]]">
+                                    <strong><xsl:apply-templates/></strong>
+                                </xsl:when>
+                                <xsl:otherwise><xsl:apply-templates/></xsl:otherwise>
+                            </xsl:choose>
+                        </xsl:template>
+                        
+                        <xsl:template match="w:t"><xsl:apply-templates/></xsl:template>
+                        
+                    </xsl:stylesheet>
+                </p:inline>
+            </p:input>
+        </p:xslt>
        
        <p:identity name="final"/>
     </p:declare-step>
