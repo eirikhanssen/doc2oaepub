@@ -18,6 +18,16 @@
         </pkg:part>
     </xsl:template>
     
+    <xsl:function name="f:getListNumberFormat" as="text()">
+        <xsl:param name="needle" as="node()"></xsl:param>
+        <xsl:param name="haystack" as="node()"></xsl:param>
+        <!-- in the haystack, find the abstractnum matching the needle, and return the number format -->
+        <!-- first get the w:ilvl and w:numId from the needle part -->
+        <!-- w:numId from needle matches a w:abstractNumId from the haystack -->
+        <!-- pkg:package/pkp:part[@pkg_name="/word/numbering.xml"]/pkp:xmlData/w:numbering/w:abstractNum/w:lvl/w:numFmt/@w:val -->
+        <xsl:value-of select="'numeric'"/>
+    </xsl:function>
+    
     <xsl:function name="f:nameFromStyle" as="text()">
         <xsl:param name="node" as="node()"></xsl:param>
         

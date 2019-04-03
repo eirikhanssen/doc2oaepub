@@ -221,6 +221,16 @@
                             </xsl:element>
                         </xsl:template>
                         
+                        <xsl:template match="w:p[w:pPr/w:numPr]">
+                            <xsl:element name="li">
+                                <xsl:attribute name="data-stylename" select="w:pPr/w:pStyle/@w:val"></xsl:attribute>
+                                <xsl:attribute name="data-ilvl" select="w:pPr/w:numPr/w:ilvl/@w:val"></xsl:attribute>
+                                <xsl:attribute name="data-numId" select="w:pPr/w:numPr/w:numId/@w:val"></xsl:attribute>
+                                <!--<xsl:attribute name="data-format" select="f:getListNumberFormat(w:pPr/w:numPr,.)"></xsl:attribute>-->
+                                <xsl:apply-templates/>
+                            </xsl:element>
+                        </xsl:template>
+                        
                         <!-- translate paragraph elements depending on style name -->
                         <!--
                         
