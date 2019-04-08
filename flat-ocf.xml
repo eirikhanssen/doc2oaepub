@@ -32,7 +32,7 @@
              xmlns:pkg="http://schemas.microsoft.com/office/2006/xmlPackage"
              xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main">
    <env>
-      <folder>sample.docx-20190408-151602</folder>
+      <folder>sample.docx-20190408-153141</folder>
    </env>
    <pkg:part pkg_name="/_rels/.rels">
       <pkg:xmlData>
@@ -98,7 +98,7 @@
       <pkg:xmlData>
          <Properties xmlns="http://schemas.openxmlformats.org/officeDocument/2006/extended-properties">
             <Template>Normal</Template>
-            <TotalTime>55</TotalTime>
+            <TotalTime>0</TotalTime>
             <Pages>5</Pages>
             <Words>263</Words>
             <Characters>1502</Characters>
@@ -143,10 +143,10 @@
             <dc:creator>IEUser</dc:creator>
             <dc:description/>
             <cp:lastModifiedBy>eirikh</cp:lastModifiedBy>
-            <cp:revision>7</cp:revision>
+            <cp:revision>2</cp:revision>
             <cp:lastPrinted>2018-12-19T16:06:00Z</cp:lastPrinted>
-            <dcterms:created xsi:type="dcterms:W3CDTF">2019-01-15T09:59:00Z</dcterms:created>
-            <dcterms:modified xsi:type="dcterms:W3CDTF">2019-04-08T11:48:00Z</dcterms:modified>
+            <dcterms:created xsi:type="dcterms:W3CDTF">2019-04-08T13:16:00Z</dcterms:created>
+            <dcterms:modified xsi:type="dcterms:W3CDTF">2019-04-08T13:16:00Z</dcterms:modified>
             <dc:language>nb-NO</dc:language>
          </cp:coreProperties>
       </pkg:xmlData>
@@ -159,7 +159,7 @@
                     w14:textId="77777777"
                     w:rsidR="00A049D8"
                     w:rsidRPr="0094097C"
-                    w:rsidRDefault="0068184A">
+                    w:rsidRDefault="0098013D">
                   <w:pPr>
                      <w:pStyle w:val="Heading1"/>
                      <w:rPr>
@@ -184,61 +184,40 @@
                <w:p w14:paraId="0538734E"
                     w14:textId="77777777"
                     w:rsidR="00A049D8"
-                    w:rsidRDefault="0068184A">
+                    w:rsidRDefault="0098013D">
                   <w:pPr>
                      <w:pStyle w:val="Forfattere"/>
                   </w:pPr>
                   <w:r>
-                     <w:t>Ola Nordmann og Kari Nordma</w:t>
-                  </w:r>
-                  <w:bookmarkStart w:id="1" w:name="_GoBack"/>
-                  <w:bookmarkEnd w:id="1"/>
-                  <w:r>
-                     <w:t>nn</w:t>
+                     <w:t>Ola Nordmann og Kari Nordmann</w:t>
                   </w:r>
                </w:p>
                <w:p w14:paraId="61AC2A23"
                     w14:textId="77777777"
                     w:rsidR="00A049D8"
-                    w:rsidRDefault="0068184A">
+                    w:rsidRDefault="0098013D">
                   <w:pPr>
                      <w:pStyle w:val="Kontaktinfo"/>
                   </w:pPr>
                   <w:r>
-                     <w:t xml:space="preserve">Kari Nordmann, professor ved Handelshøyskolen, </w:t>
-                  </w:r>
-                  <w:proofErr w:type="spellStart"/>
-                  <w:r>
-                     <w:t>OsloMet</w:t>
-                  </w:r>
-                  <w:proofErr w:type="spellEnd"/>
-                  <w:r>
-                     <w:t xml:space="preserve"> – storbyuniversitetet</w:t>
+                     <w:t>Kari Nordmann, professor ved Handelshøyskolen, OsloMet – storbyuniversitetet</w:t>
                   </w:r>
                </w:p>
                <w:p w14:paraId="24D96066"
                     w14:textId="77777777"
                     w:rsidR="00A049D8"
-                    w:rsidRDefault="0068184A">
+                    w:rsidRDefault="0098013D">
                   <w:pPr>
                      <w:pStyle w:val="Kontaktinfo"/>
                   </w:pPr>
                   <w:r>
-                     <w:t xml:space="preserve">Ola Nordmann, professor ved Senter for profesjonsstudier </w:t>
-                  </w:r>
-                  <w:proofErr w:type="spellStart"/>
-                  <w:r>
-                     <w:t>OsloMet</w:t>
-                  </w:r>
-                  <w:proofErr w:type="spellEnd"/>
-                  <w:r>
-                     <w:t xml:space="preserve"> – storbyuniversitetet</w:t>
+                     <w:t>Ola Nordmann, professor ved Senter for profesjonsstudier OsloMet – storbyuniversitetet</w:t>
                   </w:r>
                </w:p>
                <w:p w14:paraId="4254012C"
                     w14:textId="77777777"
                     w:rsidR="00A049D8"
-                    w:rsidRDefault="0068184A">
+                    w:rsidRDefault="0098013D">
                   <w:pPr>
                      <w:pStyle w:val="Kontaktinfo"/>
                   </w:pPr>
@@ -246,21 +225,13 @@
                      <w:t xml:space="preserve">Korrespondanse: Kari </w:t>
                   </w:r>
                   <w:r>
-                     <w:t xml:space="preserve">Nordmann, professor ved Senter for profesjonsstudier </w:t>
-                  </w:r>
-                  <w:proofErr w:type="spellStart"/>
-                  <w:r>
-                     <w:t>OsloMet</w:t>
-                  </w:r>
-                  <w:proofErr w:type="spellEnd"/>
-                  <w:r>
-                     <w:t xml:space="preserve"> – storbyuniversitetet</w:t>
+                     <w:t>Nordmann, professor ved Senter for profesjonsstudier OsloMet – storbyuniversitetet</w:t>
                   </w:r>
                </w:p>
                <w:p w14:paraId="2BBDBFD7"
                     w14:textId="77777777"
                     w:rsidR="00A049D8"
-                    w:rsidRDefault="0068184A">
+                    w:rsidRDefault="0098013D">
                   <w:pPr>
                      <w:pStyle w:val="Heading2"/>
                   </w:pPr>
@@ -272,7 +243,7 @@
                     w14:textId="2AD11DA7"
                     w:rsidR="00A049D8"
                     w:rsidRPr="0094097C"
-                    w:rsidRDefault="0068184A">
+                    w:rsidRDefault="0098013D">
                   <w:pPr>
                      <w:pStyle w:val="Abstract"/>
                      <w:rPr>
@@ -285,20 +256,12 @@
                      </w:rPr>
                      <w:t>A</w:t>
                   </w:r>
-                  <w:r>
+                  <w:r w:rsidR="0068184A">
                      <w:rPr>
                         <w:lang w:val="en-GB"/>
                      </w:rPr>
-                     <w:t xml:space="preserve">n </w:t>
+                     <w:t>n ultra short</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
-                  <w:r>
-                     <w:rPr>
-                        <w:lang w:val="en-GB"/>
-                     </w:rPr>
-                     <w:t>ultra short</w:t>
-                  </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r w:rsidRPr="0094097C">
                      <w:rPr>
                         <w:lang w:val="en-GB"/>
@@ -309,7 +272,7 @@
                <w:p w14:paraId="16F7FD69"
                     w14:textId="77777777"
                     w:rsidR="00A049D8"
-                    w:rsidRDefault="0068184A">
+                    w:rsidRDefault="0098013D">
                   <w:pPr>
                      <w:pStyle w:val="Keywords"/>
                   </w:pPr>
@@ -326,7 +289,7 @@
                <w:p w14:paraId="42C1752B"
                     w14:textId="77777777"
                     w:rsidR="00A049D8"
-                    w:rsidRDefault="0068184A">
+                    w:rsidRDefault="0098013D">
                   <w:pPr>
                      <w:pStyle w:val="Heading2"/>
                      <w:rPr>
@@ -343,7 +306,7 @@
                <w:p w14:paraId="12B8CC2A"
                     w14:textId="77777777"
                     w:rsidR="00A049D8"
-                    w:rsidRDefault="0068184A">
+                    w:rsidRDefault="0098013D">
                   <w:pPr>
                      <w:pStyle w:val="Abstrakt"/>
                   </w:pPr>
@@ -354,7 +317,7 @@
                <w:p w14:paraId="567D1D0E"
                     w14:textId="77777777"
                     w:rsidR="00A049D8"
-                    w:rsidRDefault="0068184A">
+                    w:rsidRDefault="0098013D">
                   <w:pPr>
                      <w:pStyle w:val="Emneord"/>
                   </w:pPr>
@@ -374,7 +337,7 @@
                <w:p w14:paraId="18D08BF6"
                     w14:textId="77777777"
                     w:rsidR="00A049D8"
-                    w:rsidRDefault="0068184A">
+                    w:rsidRDefault="0098013D">
                   <w:pPr>
                      <w:pStyle w:val="Heading2"/>
                      <w:rPr>
@@ -397,33 +360,11 @@
                         <w:lang w:val="nb-NO"/>
                      </w:rPr>
                   </w:pPr>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r>
                      <w:rPr>
                         <w:lang w:val="nb-NO"/>
                      </w:rPr>
-                     <w:t>Lorem</w:t>
-                  </w:r>
-                  <w:proofErr w:type="spellEnd"/>
-                  <w:r>
-                     <w:rPr>
-                        <w:lang w:val="nb-NO"/>
-                     </w:rPr>
-                     <w:t xml:space="preserve"> </w:t>
-                  </w:r>
-                  <w:proofErr w:type="spellStart"/>
-                  <w:r>
-                     <w:rPr>
-                        <w:lang w:val="nb-NO"/>
-                     </w:rPr>
-                     <w:t>Ipsum</w:t>
-                  </w:r>
-                  <w:proofErr w:type="spellEnd"/>
-                  <w:r>
-                     <w:rPr>
-                        <w:lang w:val="nb-NO"/>
-                     </w:rPr>
-                     <w:t>.</w:t>
+                     <w:t>Lorem Ipsum.</w:t>
                   </w:r>
                </w:p>
                <w:p w14:paraId="2853E8E6"
@@ -435,33 +376,17 @@
                         <w:lang w:val="nb-NO"/>
                      </w:rPr>
                   </w:pPr>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r>
                      <w:rPr>
                         <w:lang w:val="nb-NO"/>
                      </w:rPr>
-                     <w:t>Lorem</w:t>
+                     <w:t>Lorem Ipsum</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
-                  <w:r>
-                     <w:rPr>
-                        <w:lang w:val="nb-NO"/>
-                     </w:rPr>
-                     <w:t xml:space="preserve"> </w:t>
-                  </w:r>
-                  <w:proofErr w:type="spellStart"/>
-                  <w:r>
-                     <w:rPr>
-                        <w:lang w:val="nb-NO"/>
-                     </w:rPr>
-                     <w:t>Ipsum</w:t>
-                  </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                </w:p>
                <w:p w14:paraId="02B35790"
                     w14:textId="77777777"
                     w:rsidR="00A049D8"
-                    w:rsidRDefault="0068184A">
+                    w:rsidRDefault="0098013D">
                   <w:pPr>
                      <w:pStyle w:val="Heading2"/>
                      <w:rPr>
@@ -478,7 +403,7 @@
                <w:p w14:paraId="3532DA9F"
                     w14:textId="77777777"
                     w:rsidR="00A049D8"
-                    w:rsidRDefault="0068184A">
+                    w:rsidRDefault="0098013D">
                   <w:pPr>
                      <w:pStyle w:val="Heading3"/>
                      <w:rPr>
@@ -495,7 +420,7 @@
                <w:p w14:paraId="7AF9DF26"
                     w14:textId="77777777"
                     w:rsidR="00A049D8"
-                    w:rsidRDefault="0068184A">
+                    w:rsidRDefault="0098013D">
                   <w:pPr>
                      <w:pStyle w:val="ListParagraph"/>
                      <w:numPr>
@@ -507,27 +432,13 @@
                      <w:rPr>
                         <w:lang w:val="nb-NO"/>
                      </w:rPr>
-                     <w:t xml:space="preserve">ol </w:t>
-                  </w:r>
-                  <w:proofErr w:type="spellStart"/>
-                  <w:r>
-                     <w:rPr>
-                        <w:lang w:val="nb-NO"/>
-                     </w:rPr>
-                     <w:t>num</w:t>
-                  </w:r>
-                  <w:proofErr w:type="spellEnd"/>
-                  <w:r>
-                     <w:rPr>
-                        <w:lang w:val="nb-NO"/>
-                     </w:rPr>
-                     <w:t xml:space="preserve"> 1.1</w:t>
+                     <w:t>ol num 1.1</w:t>
                   </w:r>
                </w:p>
                <w:p w14:paraId="5EF2C065"
                     w14:textId="77777777"
                     w:rsidR="00A049D8"
-                    w:rsidRDefault="0068184A">
+                    w:rsidRDefault="0098013D">
                   <w:pPr>
                      <w:pStyle w:val="ListParagraph"/>
                      <w:numPr>
@@ -539,27 +450,13 @@
                      <w:rPr>
                         <w:lang w:val="nb-NO"/>
                      </w:rPr>
-                     <w:t xml:space="preserve">ol </w:t>
-                  </w:r>
-                  <w:proofErr w:type="spellStart"/>
-                  <w:r>
-                     <w:rPr>
-                        <w:lang w:val="nb-NO"/>
-                     </w:rPr>
-                     <w:t>num</w:t>
-                  </w:r>
-                  <w:proofErr w:type="spellEnd"/>
-                  <w:r>
-                     <w:rPr>
-                        <w:lang w:val="nb-NO"/>
-                     </w:rPr>
-                     <w:t xml:space="preserve"> 1.2</w:t>
+                     <w:t>ol num 1.2</w:t>
                   </w:r>
                </w:p>
                <w:p w14:paraId="21CBCBD1"
                     w14:textId="77777777"
                     w:rsidR="00A049D8"
-                    w:rsidRDefault="0068184A">
+                    w:rsidRDefault="0098013D">
                   <w:pPr>
                      <w:pStyle w:val="ListParagraph"/>
                      <w:numPr>
@@ -572,27 +469,13 @@
                         <w:lang w:val="nb-NO"/>
                      </w:rPr>
                      <w:lastRenderedPageBreak/>
-                     <w:t xml:space="preserve"> ol </w:t>
-                  </w:r>
-                  <w:proofErr w:type="spellStart"/>
-                  <w:r>
-                     <w:rPr>
-                        <w:lang w:val="nb-NO"/>
-                     </w:rPr>
-                     <w:t>num</w:t>
-                  </w:r>
-                  <w:proofErr w:type="spellEnd"/>
-                  <w:r>
-                     <w:rPr>
-                        <w:lang w:val="nb-NO"/>
-                     </w:rPr>
-                     <w:t xml:space="preserve"> 1.3</w:t>
+                     <w:t xml:space="preserve"> ol num 1.3</w:t>
                   </w:r>
                </w:p>
                <w:p w14:paraId="2256E4B3"
                     w14:textId="77777777"
                     w:rsidR="00A049D8"
-                    w:rsidRDefault="0068184A">
+                    w:rsidRDefault="0098013D">
                   <w:pPr>
                      <w:pStyle w:val="ListParagraph"/>
                      <w:numPr>
@@ -604,27 +487,13 @@
                      <w:rPr>
                         <w:lang w:val="nb-NO"/>
                      </w:rPr>
-                     <w:t xml:space="preserve">ol </w:t>
-                  </w:r>
-                  <w:proofErr w:type="spellStart"/>
-                  <w:r>
-                     <w:rPr>
-                        <w:lang w:val="nb-NO"/>
-                     </w:rPr>
-                     <w:t>char</w:t>
-                  </w:r>
-                  <w:proofErr w:type="spellEnd"/>
-                  <w:r>
-                     <w:rPr>
-                        <w:lang w:val="nb-NO"/>
-                     </w:rPr>
-                     <w:t xml:space="preserve"> 1.3.1</w:t>
+                     <w:t>ol char 1.3.1</w:t>
                   </w:r>
                </w:p>
                <w:p w14:paraId="7A905D59"
                     w14:textId="77777777"
                     w:rsidR="00A049D8"
-                    w:rsidRDefault="0068184A">
+                    w:rsidRDefault="0098013D">
                   <w:pPr>
                      <w:pStyle w:val="ListParagraph"/>
                      <w:numPr>
@@ -636,33 +505,19 @@
                      <w:rPr>
                         <w:lang w:val="nb-NO"/>
                      </w:rPr>
-                     <w:t xml:space="preserve">ol </w:t>
-                  </w:r>
-                  <w:proofErr w:type="spellStart"/>
-                  <w:r>
-                     <w:rPr>
-                        <w:lang w:val="nb-NO"/>
-                     </w:rPr>
-                     <w:t>cha</w:t>
+                     <w:t>ol cha</w:t>
                   </w:r>
                   <w:r>
                      <w:rPr>
                         <w:lang w:val="nb-NO"/>
                      </w:rPr>
-                     <w:t>r</w:t>
-                  </w:r>
-                  <w:proofErr w:type="spellEnd"/>
-                  <w:r>
-                     <w:rPr>
-                        <w:lang w:val="nb-NO"/>
-                     </w:rPr>
-                     <w:t xml:space="preserve"> 1.3.2</w:t>
+                     <w:t>r 1.3.2</w:t>
                   </w:r>
                </w:p>
                <w:p w14:paraId="0F5A13A0"
                     w14:textId="77777777"
                     w:rsidR="00A049D8"
-                    w:rsidRDefault="0068184A">
+                    w:rsidRDefault="0098013D">
                   <w:pPr>
                      <w:pStyle w:val="Heading3"/>
                      <w:rPr>
@@ -679,7 +534,7 @@
                <w:p w14:paraId="0DAF9102"
                     w14:textId="77777777"
                     w:rsidR="00A049D8"
-                    w:rsidRDefault="0068184A">
+                    w:rsidRDefault="0098013D">
                   <w:pPr>
                      <w:pStyle w:val="ListParagraph"/>
                      <w:numPr>
@@ -697,7 +552,7 @@
                <w:p w14:paraId="235AAFD4"
                     w14:textId="77777777"
                     w:rsidR="00A049D8"
-                    w:rsidRDefault="0068184A">
+                    w:rsidRDefault="0098013D">
                   <w:pPr>
                      <w:pStyle w:val="ListParagraph"/>
                      <w:numPr>
@@ -715,7 +570,7 @@
                <w:p w14:paraId="69181109"
                     w14:textId="77777777"
                     w:rsidR="00A049D8"
-                    w:rsidRDefault="0068184A">
+                    w:rsidRDefault="0098013D">
                   <w:pPr>
                      <w:pStyle w:val="ListParagraph"/>
                      <w:numPr>
@@ -733,7 +588,7 @@
                <w:p w14:paraId="5B5268E0"
                     w14:textId="77777777"
                     w:rsidR="00A049D8"
-                    w:rsidRDefault="0068184A">
+                    w:rsidRDefault="0098013D">
                   <w:pPr>
                      <w:pStyle w:val="ListParagraph"/>
                      <w:numPr>
@@ -751,7 +606,7 @@
                <w:p w14:paraId="038E34B7"
                     w14:textId="77777777"
                     w:rsidR="00A049D8"
-                    w:rsidRDefault="0068184A">
+                    w:rsidRDefault="0098013D">
                   <w:pPr>
                      <w:pStyle w:val="Heading2"/>
                      <w:rPr>
@@ -768,7 +623,7 @@
                <w:p w14:paraId="01891412"
                     w14:textId="77777777"
                     w:rsidR="00A049D8"
-                    w:rsidRDefault="0068184A">
+                    w:rsidRDefault="0098013D">
                   <w:pPr>
                      <w:pStyle w:val="ListParagraph"/>
                      <w:numPr>
@@ -789,7 +644,7 @@
                <w:p w14:paraId="02D3A3E0"
                     w14:textId="77777777"
                     w:rsidR="00A049D8"
-                    w:rsidRDefault="0068184A">
+                    w:rsidRDefault="0098013D">
                   <w:pPr>
                      <w:pStyle w:val="ListParagraph"/>
                      <w:numPr>
@@ -810,7 +665,7 @@
                <w:p w14:paraId="0C4277BC"
                     w14:textId="77777777"
                     w:rsidR="00A049D8"
-                    w:rsidRDefault="0068184A">
+                    w:rsidRDefault="0098013D">
                   <w:pPr>
                      <w:pStyle w:val="ListParagraph"/>
                      <w:numPr>
@@ -831,7 +686,7 @@
                <w:p w14:paraId="6CF81E7A"
                     w14:textId="77777777"
                     w:rsidR="00A049D8"
-                    w:rsidRDefault="0068184A">
+                    w:rsidRDefault="0098013D">
                   <w:pPr>
                      <w:pStyle w:val="ListParagraph"/>
                      <w:numPr>
@@ -852,7 +707,7 @@
                <w:p w14:paraId="05B62236"
                     w14:textId="77777777"
                     w:rsidR="00A049D8"
-                    w:rsidRDefault="0068184A">
+                    w:rsidRDefault="0098013D">
                   <w:pPr>
                      <w:pStyle w:val="Heading2"/>
                      <w:rPr>
@@ -868,63 +723,83 @@
                   </w:r>
                </w:p>
                <w:p w14:paraId="374B1DC0"
-                    w14:textId="6E94CB60"
+                    w14:textId="6FAB218C"
                     w:rsidR="00A049D8"
-                    w:rsidRDefault="003F0CC5">
+                    w:rsidRDefault="0098013D">
                   <w:pPr>
                      <w:pStyle w:val="ListParagraph"/>
                      <w:keepNext/>
                      <w:ind w:left="0"/>
                   </w:pPr>
                   <w:r>
-                     <w:pict w14:anchorId="5D4B0681">
-                        <v:shapetype id="_x0000_t75"
-                                     coordsize="21600,21600"
-                                     o:spt="75"
-                                     o:preferrelative="t"
-                                     path="m@4@5l@4@11@9@11@9@5xe"
-                                     filled="f"
-                                     stroked="f">
-                           <v:stroke joinstyle="miter"/>
-                           <v:formulas>
-                              <v:f eqn="if lineDrawn pixelLineWidth 0"/>
-                              <v:f eqn="sum @0 1 0"/>
-                              <v:f eqn="sum 0 0 @1"/>
-                              <v:f eqn="prod @2 1 2"/>
-                              <v:f eqn="prod @3 21600 pixelWidth"/>
-                              <v:f eqn="prod @3 21600 pixelHeight"/>
-                              <v:f eqn="sum @0 0 1"/>
-                              <v:f eqn="prod @6 1 2"/>
-                              <v:f eqn="prod @7 21600 pixelWidth"/>
-                              <v:f eqn="sum @8 21600 0"/>
-                              <v:f eqn="prod @7 21600 pixelHeight"/>
-                              <v:f eqn="sum @10 21600 0"/>
-                           </v:formulas>
-                           <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
-                           <o:lock v:ext="edit" aspectratio="t"/>
-                        </v:shapetype>
-                        <v:shape id="_x0000_i1025"
-                                 type="#_x0000_t75"
-                                 style="width:449.75pt;height:449.75pt">
-                           <v:imagedata r:id="rId7" o:title="yellow-square"/>
-                        </v:shape>
-                     </w:pict>
+                     <w:rPr>
+                        <w:noProof/>
+                     </w:rPr>
+                     <w:drawing>
+                        <wp:inline distT="0"
+                                   distB="0"
+                                   distL="0"
+                                   distR="0"
+                                   wp14:anchorId="5D4B0681"
+                                   wp14:editId="17B757AC">
+                           <wp:extent cx="5711825" cy="5711825"/>
+                           <wp:effectExtent l="0" t="0" r="0" b="0"/>
+                           <wp:docPr id="2" name="Picture 1" descr="E:\yellow-square.png"/>
+                           <wp:cNvGraphicFramePr>
+                              <a:graphicFrameLocks xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main"
+                                                   noChangeAspect="1"/>
+                           </wp:cNvGraphicFramePr>
+                           <a:graphic xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main">
+                              <a:graphicData uri="http://schemas.openxmlformats.org/drawingml/2006/picture">
+                                 <pic:pic xmlns:pic="http://schemas.openxmlformats.org/drawingml/2006/picture">
+                                    <pic:nvPicPr>
+                                       <pic:cNvPr id="0" name="Picture 1" descr="E:\yellow-square.png"/>
+                                       <pic:cNvPicPr>
+                                          <a:picLocks noChangeAspect="1" noChangeArrowheads="1"/>
+                                       </pic:cNvPicPr>
+                                    </pic:nvPicPr>
+                                    <pic:blipFill>
+                                       <a:blip r:embed="rId7">
+                                          <a:extLst>
+                                             <a:ext uri="{28A0092B-C50C-407E-A947-70E740481C1C}">
+                                                <a14:useLocalDpi xmlns:a14="http://schemas.microsoft.com/office/drawing/2010/main" val="0"/>
+                                             </a:ext>
+                                          </a:extLst>
+                                       </a:blip>
+                                       <a:srcRect/>
+                                       <a:stretch>
+                                          <a:fillRect/>
+                                       </a:stretch>
+                                    </pic:blipFill>
+                                    <pic:spPr bwMode="auto">
+                                       <a:xfrm>
+                                          <a:off x="0" y="0"/>
+                                          <a:ext cx="5711825" cy="5711825"/>
+                                       </a:xfrm>
+                                       <a:prstGeom prst="rect">
+                                          <a:avLst/>
+                                       </a:prstGeom>
+                                       <a:noFill/>
+                                       <a:ln>
+                                          <a:noFill/>
+                                       </a:ln>
+                                    </pic:spPr>
+                                 </pic:pic>
+                              </a:graphicData>
+                           </a:graphic>
+                        </wp:inline>
+                     </w:drawing>
                   </w:r>
                </w:p>
                <w:p w14:paraId="57C12810"
                     w14:textId="2124CE04"
                     w:rsidR="00A049D8"
-                    w:rsidRDefault="0068184A">
+                    w:rsidRDefault="0098013D">
                   <w:pPr>
                      <w:pStyle w:val="Caption"/>
                   </w:pPr>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r>
-                     <w:t>Figur</w:t>
-                  </w:r>
-                  <w:proofErr w:type="spellEnd"/>
-                  <w:r>
-                     <w:t xml:space="preserve"> </w:t>
+                     <w:t xml:space="preserve">Figur </w:t>
                   </w:r>
                   <w:r>
                      <w:fldChar w:fldCharType="begin"/>
@@ -952,7 +827,7 @@
                     w14:textId="77777777"
                     w:rsidR="00A049D8"
                     w:rsidRPr="003F0CC5"
-                    w:rsidRDefault="0068184A">
+                    w:rsidRDefault="0098013D">
                   <w:pPr>
                      <w:pStyle w:val="Heading2"/>
                      <w:rPr>
@@ -969,23 +844,18 @@
                <w:p w14:paraId="0F310133"
                     w14:textId="77777777"
                     w:rsidR="00A049D8"
-                    w:rsidRDefault="0068184A">
+                    w:rsidRDefault="0098013D">
                   <w:pPr>
                      <w:pStyle w:val="Tabelletikett"/>
                   </w:pPr>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r>
-                     <w:t>Table</w:t>
-                  </w:r>
-                  <w:proofErr w:type="spellEnd"/>
-                  <w:r>
-                     <w:t xml:space="preserve"> 1</w:t>
+                     <w:t>Table 1</w:t>
                   </w:r>
                </w:p>
                <w:p w14:paraId="6607CD21"
                     w14:textId="77777777"
                     w:rsidR="00A049D8"
-                    w:rsidRDefault="0068184A">
+                    w:rsidRDefault="0098013D">
                   <w:pPr>
                      <w:pStyle w:val="Tabellbeskrivelse"/>
                   </w:pPr>
@@ -1050,7 +920,7 @@
                         <w:p w14:paraId="67D39873"
                              w14:textId="77777777"
                              w:rsidR="00A049D8"
-                             w:rsidRDefault="0068184A">
+                             w:rsidRDefault="0098013D">
                            <w:pPr>
                               <w:pStyle w:val="TabellKolonneoverskrift"/>
                            </w:pPr>
@@ -1072,7 +942,7 @@
                         <w:p w14:paraId="3B8C6DE9"
                              w14:textId="77777777"
                              w:rsidR="00A049D8"
-                             w:rsidRDefault="0068184A">
+                             w:rsidRDefault="0098013D">
                            <w:pPr>
                               <w:pStyle w:val="TabellKolonneoverskrift"/>
                            </w:pPr>
@@ -1092,7 +962,7 @@
                         <w:p w14:paraId="53B96ACE"
                              w14:textId="77777777"
                              w:rsidR="00A049D8"
-                             w:rsidRDefault="0068184A">
+                             w:rsidRDefault="0098013D">
                            <w:pPr>
                               <w:pStyle w:val="TabellRadoverskrift"/>
                            </w:pPr>
@@ -1111,7 +981,7 @@
                         <w:p w14:paraId="0B433715"
                              w14:textId="77777777"
                              w:rsidR="00A049D8"
-                             w:rsidRDefault="0068184A">
+                             w:rsidRDefault="0098013D">
                            <w:pPr>
                               <w:jc w:val="center"/>
                               <w:rPr>
@@ -1148,7 +1018,7 @@
                         <w:p w14:paraId="2CA4D6BB"
                              w14:textId="77777777"
                              w:rsidR="00A049D8"
-                             w:rsidRDefault="0068184A">
+                             w:rsidRDefault="0098013D">
                            <w:pPr>
                               <w:jc w:val="center"/>
                               <w:rPr>
@@ -1181,7 +1051,7 @@
                         <w:p w14:paraId="6E9C7F3E"
                              w14:textId="77777777"
                              w:rsidR="00A049D8"
-                             w:rsidRDefault="0068184A">
+                             w:rsidRDefault="0098013D">
                            <w:pPr>
                               <w:pStyle w:val="TabellRadoverskrift"/>
                            </w:pPr>
@@ -1199,7 +1069,7 @@
                         <w:p w14:paraId="04CA6F3A"
                              w14:textId="77777777"
                              w:rsidR="00A049D8"
-                             w:rsidRDefault="0068184A">
+                             w:rsidRDefault="0098013D">
                            <w:pPr>
                               <w:jc w:val="center"/>
                               <w:rPr>
@@ -1236,7 +1106,7 @@
                         <w:p w14:paraId="6519C7BB"
                              w14:textId="77777777"
                              w:rsidR="00A049D8"
-                             w:rsidRDefault="0068184A">
+                             w:rsidRDefault="0098013D">
                            <w:pPr>
                               <w:jc w:val="center"/>
                               <w:rPr>
@@ -1278,7 +1148,7 @@
                         <w:p w14:paraId="6C655E2D"
                              w14:textId="77777777"
                              w:rsidR="00A049D8"
-                             w:rsidRDefault="0068184A">
+                             w:rsidRDefault="0098013D">
                            <w:pPr>
                               <w:rPr>
                                  <w:lang w:val="nb-NO"/>
@@ -1304,7 +1174,7 @@
                         <w:p w14:paraId="07DADD23"
                              w14:textId="77777777"
                              w:rsidR="00A049D8"
-                             w:rsidRDefault="0068184A">
+                             w:rsidRDefault="0098013D">
                            <w:pPr>
                               <w:jc w:val="center"/>
                               <w:rPr>
@@ -1332,7 +1202,7 @@
                         <w:p w14:paraId="726233B2"
                              w14:textId="77777777"
                              w:rsidR="00A049D8"
-                             w:rsidRDefault="0068184A">
+                             w:rsidRDefault="0098013D">
                            <w:pPr>
                               <w:jc w:val="center"/>
                               <w:rPr>
@@ -1363,7 +1233,7 @@
                <w:p w14:paraId="1BF01706"
                     w14:textId="6A318F08"
                     w:rsidR="00A049D8"
-                    w:rsidRDefault="0068184A">
+                    w:rsidRDefault="0098013D">
                   <w:pPr>
                      <w:rPr>
                         <w:lang w:val="nb-NO"/>
@@ -1373,279 +1243,19 @@
                      <w:rPr>
                         <w:lang w:val="en-GB"/>
                      </w:rPr>
-                     <w:t xml:space="preserve">Lorem ipsum </w:t>
-                  </w:r>
-                  <w:proofErr w:type="spellStart"/>
-                  <w:r w:rsidRPr="0094097C">
-                     <w:rPr>
-                        <w:lang w:val="en-GB"/>
-                     </w:rPr>
-                     <w:t>dolor</w:t>
-                  </w:r>
-                  <w:proofErr w:type="spellEnd"/>
-                  <w:r w:rsidRPr="0094097C">
-                     <w:rPr>
-                        <w:lang w:val="en-GB"/>
-                     </w:rPr>
-                     <w:t xml:space="preserve"> sit </w:t>
-                  </w:r>
-                  <w:proofErr w:type="spellStart"/>
-                  <w:r w:rsidRPr="0094097C">
-                     <w:rPr>
-                        <w:lang w:val="en-GB"/>
-                     </w:rPr>
-                     <w:t>amet</w:t>
-                  </w:r>
-                  <w:proofErr w:type="spellEnd"/>
-                  <w:r w:rsidRPr="0094097C">
-                     <w:rPr>
-                        <w:lang w:val="en-GB"/>
-                     </w:rPr>
-                     <w:t xml:space="preserve">, </w:t>
-                  </w:r>
-                  <w:proofErr w:type="spellStart"/>
-                  <w:r w:rsidRPr="0094097C">
-                     <w:rPr>
-                        <w:lang w:val="en-GB"/>
-                     </w:rPr>
-                     <w:t>consectetur</w:t>
-                  </w:r>
-                  <w:proofErr w:type="spellEnd"/>
-                  <w:r w:rsidRPr="0094097C">
-                     <w:rPr>
-                        <w:lang w:val="en-GB"/>
-                     </w:rPr>
-                     <w:t xml:space="preserve"> </w:t>
-                  </w:r>
-                  <w:proofErr w:type="spellStart"/>
-                  <w:r w:rsidRPr="0094097C">
-                     <w:rPr>
-                        <w:lang w:val="en-GB"/>
-                     </w:rPr>
-                     <w:t>adipiscing</w:t>
-                  </w:r>
-                  <w:proofErr w:type="spellEnd"/>
-                  <w:r w:rsidRPr="0094097C">
-                     <w:rPr>
-                        <w:lang w:val="en-GB"/>
-                     </w:rPr>
-                     <w:t xml:space="preserve"> </w:t>
-                  </w:r>
-                  <w:proofErr w:type="spellStart"/>
-                  <w:r w:rsidRPr="0094097C">
-                     <w:rPr>
-                        <w:lang w:val="en-GB"/>
-                     </w:rPr>
-                     <w:t>elit</w:t>
-                  </w:r>
-                  <w:proofErr w:type="spellEnd"/>
-                  <w:r w:rsidRPr="0094097C">
-                     <w:rPr>
-                        <w:lang w:val="en-GB"/>
-                     </w:rPr>
-                     <w:t xml:space="preserve">. Nam at </w:t>
-                  </w:r>
-                  <w:proofErr w:type="spellStart"/>
-                  <w:r w:rsidRPr="0094097C">
-                     <w:rPr>
-                        <w:lang w:val="en-GB"/>
-                     </w:rPr>
-                     <w:t>blandit</w:t>
-                  </w:r>
-                  <w:proofErr w:type="spellEnd"/>
-                  <w:r w:rsidRPr="0094097C">
-                     <w:rPr>
-                        <w:lang w:val="en-GB"/>
-                     </w:rPr>
-                     <w:t xml:space="preserve"> </w:t>
-                  </w:r>
-                  <w:proofErr w:type="spellStart"/>
-                  <w:r w:rsidRPr="0094097C">
-                     <w:rPr>
-                        <w:lang w:val="en-GB"/>
-                     </w:rPr>
-                     <w:t>sapien</w:t>
-                  </w:r>
-                  <w:proofErr w:type="spellEnd"/>
-                  <w:r w:rsidRPr="0094097C">
-                     <w:rPr>
-                        <w:lang w:val="en-GB"/>
-                     </w:rPr>
-                     <w:t xml:space="preserve">. </w:t>
-                  </w:r>
-                  <w:proofErr w:type="spellStart"/>
-                  <w:r w:rsidRPr="0094097C">
-                     <w:rPr>
-                        <w:lang w:val="en-GB"/>
-                     </w:rPr>
-                     <w:t>Quisque</w:t>
-                  </w:r>
-                  <w:proofErr w:type="spellEnd"/>
-                  <w:r w:rsidRPr="0094097C">
-                     <w:rPr>
-                        <w:lang w:val="en-GB"/>
-                     </w:rPr>
-                     <w:t xml:space="preserve"> sit </w:t>
-                  </w:r>
-                  <w:proofErr w:type="spellStart"/>
-                  <w:r w:rsidRPr="0094097C">
-                     <w:rPr>
-                        <w:lang w:val="en-GB"/>
-                     </w:rPr>
-                     <w:t>amet</w:t>
-                  </w:r>
-                  <w:proofErr w:type="spellEnd"/>
-                  <w:r w:rsidRPr="0094097C">
-                     <w:rPr>
-                        <w:lang w:val="en-GB"/>
-                     </w:rPr>
-                     <w:t xml:space="preserve">. Lorem </w:t>
+                     <w:t xml:space="preserve">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at blandit sapien. Quisque sit amet. Lorem </w:t>
                   </w:r>
                   <w:r w:rsidRPr="0094097C">
                      <w:rPr>
                         <w:lang w:val="en-GB"/>
                      </w:rPr>
-                     <w:t xml:space="preserve">ipsum </w:t>
+                     <w:t xml:space="preserve">ipsum dolor sit amet, consectetur adipiscing elit. Nam at blandit sapien. </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
-                  <w:r w:rsidRPr="0094097C">
-                     <w:rPr>
-                        <w:lang w:val="en-GB"/>
-                     </w:rPr>
-                     <w:t>dolor</w:t>
-                  </w:r>
-                  <w:proofErr w:type="spellEnd"/>
-                  <w:r w:rsidRPr="0094097C">
-                     <w:rPr>
-                        <w:lang w:val="en-GB"/>
-                     </w:rPr>
-                     <w:t xml:space="preserve"> sit </w:t>
-                  </w:r>
-                  <w:proofErr w:type="spellStart"/>
-                  <w:r w:rsidRPr="0094097C">
-                     <w:rPr>
-                        <w:lang w:val="en-GB"/>
-                     </w:rPr>
-                     <w:t>amet</w:t>
-                  </w:r>
-                  <w:proofErr w:type="spellEnd"/>
-                  <w:r w:rsidRPr="0094097C">
-                     <w:rPr>
-                        <w:lang w:val="en-GB"/>
-                     </w:rPr>
-                     <w:t xml:space="preserve">, </w:t>
-                  </w:r>
-                  <w:proofErr w:type="spellStart"/>
-                  <w:r w:rsidRPr="0094097C">
-                     <w:rPr>
-                        <w:lang w:val="en-GB"/>
-                     </w:rPr>
-                     <w:t>consectetur</w:t>
-                  </w:r>
-                  <w:proofErr w:type="spellEnd"/>
-                  <w:r w:rsidRPr="0094097C">
-                     <w:rPr>
-                        <w:lang w:val="en-GB"/>
-                     </w:rPr>
-                     <w:t xml:space="preserve"> </w:t>
-                  </w:r>
-                  <w:proofErr w:type="spellStart"/>
-                  <w:r w:rsidRPr="0094097C">
-                     <w:rPr>
-                        <w:lang w:val="en-GB"/>
-                     </w:rPr>
-                     <w:t>adipiscing</w:t>
-                  </w:r>
-                  <w:proofErr w:type="spellEnd"/>
-                  <w:r w:rsidRPr="0094097C">
-                     <w:rPr>
-                        <w:lang w:val="en-GB"/>
-                     </w:rPr>
-                     <w:t xml:space="preserve"> </w:t>
-                  </w:r>
-                  <w:proofErr w:type="spellStart"/>
-                  <w:r w:rsidRPr="0094097C">
-                     <w:rPr>
-                        <w:lang w:val="en-GB"/>
-                     </w:rPr>
-                     <w:t>elit</w:t>
-                  </w:r>
-                  <w:proofErr w:type="spellEnd"/>
-                  <w:r w:rsidRPr="0094097C">
-                     <w:rPr>
-                        <w:lang w:val="en-GB"/>
-                     </w:rPr>
-                     <w:t xml:space="preserve">. Nam at </w:t>
-                  </w:r>
-                  <w:proofErr w:type="spellStart"/>
-                  <w:r w:rsidRPr="0094097C">
-                     <w:rPr>
-                        <w:lang w:val="en-GB"/>
-                     </w:rPr>
-                     <w:t>blandit</w:t>
-                  </w:r>
-                  <w:proofErr w:type="spellEnd"/>
-                  <w:r w:rsidRPr="0094097C">
-                     <w:rPr>
-                        <w:lang w:val="en-GB"/>
-                     </w:rPr>
-                     <w:t xml:space="preserve"> </w:t>
-                  </w:r>
-                  <w:proofErr w:type="spellStart"/>
-                  <w:r w:rsidRPr="0094097C">
-                     <w:rPr>
-                        <w:lang w:val="en-GB"/>
-                     </w:rPr>
-                     <w:t>sapien</w:t>
-                  </w:r>
-                  <w:proofErr w:type="spellEnd"/>
-                  <w:r w:rsidRPr="0094097C">
-                     <w:rPr>
-                        <w:lang w:val="en-GB"/>
-                     </w:rPr>
-                     <w:t xml:space="preserve">. </w:t>
-                  </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r>
                      <w:rPr>
                         <w:lang w:val="nb-NO"/>
                      </w:rPr>
-                     <w:t>Quisque</w:t>
-                  </w:r>
-                  <w:proofErr w:type="spellEnd"/>
-                  <w:r>
-                     <w:rPr>
-                        <w:lang w:val="nb-NO"/>
-                     </w:rPr>
-                     <w:t xml:space="preserve"> </w:t>
-                  </w:r>
-                  <w:proofErr w:type="spellStart"/>
-                  <w:r>
-                     <w:rPr>
-                        <w:lang w:val="nb-NO"/>
-                     </w:rPr>
-                     <w:t>sit</w:t>
-                  </w:r>
-                  <w:proofErr w:type="spellEnd"/>
-                  <w:r>
-                     <w:rPr>
-                        <w:lang w:val="nb-NO"/>
-                     </w:rPr>
-                     <w:t xml:space="preserve"> </w:t>
-                  </w:r>
-                  <w:proofErr w:type="spellStart"/>
-                  <w:r>
-                     <w:rPr>
-                        <w:lang w:val="nb-NO"/>
-                     </w:rPr>
-                     <w:t>amet</w:t>
-                  </w:r>
-                  <w:proofErr w:type="spellEnd"/>
-                  <w:r>
-                     <w:rPr>
-                        <w:lang w:val="nb-NO"/>
-                     </w:rPr>
-                     <w:t>.</w:t>
+                     <w:t>Quisque sit amet.</w:t>
                   </w:r>
                </w:p>
                <w:p w14:paraId="0A49048B"
@@ -1656,34 +1266,11 @@
                   <w:pPr>
                      <w:pStyle w:val="Tabelletikett"/>
                   </w:pPr>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r>
-                     <w:t>Table</w:t>
+                     <w:t xml:space="preserve">Table 2 ( </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
-                  <w:r>
-                     <w:t xml:space="preserve"> 2 </w:t>
-                  </w:r>
-                  <w:proofErr w:type="gramStart"/>
-                  <w:r>
-                     <w:t xml:space="preserve">( </w:t>
-                  </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r w:rsidR="0070160D">
-                     <w:t>rowspan</w:t>
-                  </w:r>
-                  <w:proofErr w:type="spellEnd"/>
-                  <w:proofErr w:type="gramEnd"/>
-                  <w:r w:rsidR="0070160D">
-                     <w:t xml:space="preserve"> og </w:t>
-                  </w:r>
-                  <w:proofErr w:type="spellStart"/>
-                  <w:r w:rsidR="0070160D">
-                     <w:t>colspan</w:t>
-                  </w:r>
-                  <w:proofErr w:type="spellEnd"/>
-                  <w:r w:rsidR="0070160D">
-                     <w:t>)</w:t>
+                     <w:t>rowspan og colspan)</w:t>
                   </w:r>
                </w:p>
                <w:tbl>
@@ -1699,9 +1286,9 @@
                                 w:noVBand="1"/>
                   </w:tblPr>
                   <w:tblGrid>
-                     <w:gridCol w:w="3080"/>
-                     <w:gridCol w:w="3081"/>
-                     <w:gridCol w:w="3081"/>
+                     <w:gridCol w:w="3020"/>
+                     <w:gridCol w:w="2999"/>
+                     <w:gridCol w:w="2997"/>
                   </w:tblGrid>
                   <w:tr w:rsidR="0070160D"
                         w14:paraId="728A4DA8"
@@ -1723,28 +1310,12 @@
                                  <w:lang w:val="nb-NO"/>
                               </w:rPr>
                            </w:pPr>
-                           <w:proofErr w:type="spellStart"/>
                            <w:r>
                               <w:rPr>
                                  <w:lang w:val="nb-NO"/>
                               </w:rPr>
-                              <w:t>Table</w:t>
+                              <w:t>Table header cell</w:t>
                            </w:r>
-                           <w:proofErr w:type="spellEnd"/>
-                           <w:r>
-                              <w:rPr>
-                                 <w:lang w:val="nb-NO"/>
-                              </w:rPr>
-                              <w:t xml:space="preserve"> header </w:t>
-                           </w:r>
-                           <w:proofErr w:type="spellStart"/>
-                           <w:r>
-                              <w:rPr>
-                                 <w:lang w:val="nb-NO"/>
-                              </w:rPr>
-                              <w:t>cell</w:t>
-                           </w:r>
-                           <w:proofErr w:type="spellEnd"/>
                         </w:p>
                      </w:tc>
                      <w:tc>
@@ -1761,47 +1332,11 @@
                                  <w:lang w:val="nb-NO"/>
                               </w:rPr>
                            </w:pPr>
-                           <w:proofErr w:type="spellStart"/>
                            <w:r>
                               <w:rPr>
                                  <w:lang w:val="nb-NO"/>
                               </w:rPr>
-                              <w:t>Table</w:t>
-                           </w:r>
-                           <w:proofErr w:type="spellEnd"/>
-                           <w:r>
-                              <w:rPr>
-                                 <w:lang w:val="nb-NO"/>
-                              </w:rPr>
-                              <w:t xml:space="preserve"> header </w:t>
-                           </w:r>
-                           <w:proofErr w:type="spellStart"/>
-                           <w:r>
-                              <w:rPr>
-                                 <w:lang w:val="nb-NO"/>
-                              </w:rPr>
-                              <w:t>cell</w:t>
-                           </w:r>
-                           <w:proofErr w:type="spellEnd"/>
-                           <w:r>
-                              <w:rPr>
-                                 <w:lang w:val="nb-NO"/>
-                              </w:rPr>
-                              <w:t xml:space="preserve">, </w:t>
-                           </w:r>
-                           <w:proofErr w:type="spellStart"/>
-                           <w:r>
-                              <w:rPr>
-                                 <w:lang w:val="nb-NO"/>
-                              </w:rPr>
-                              <w:t>colspan</w:t>
-                           </w:r>
-                           <w:proofErr w:type="spellEnd"/>
-                           <w:r>
-                              <w:rPr>
-                                 <w:lang w:val="nb-NO"/>
-                              </w:rPr>
-                              <w:t xml:space="preserve"> = 2</w:t>
+                              <w:t>Table header cell, colspan = 2</w:t>
                            </w:r>
                         </w:p>
                      </w:tc>
@@ -1824,47 +1359,11 @@
                                  <w:lang w:val="nb-NO"/>
                               </w:rPr>
                            </w:pPr>
-                           <w:proofErr w:type="spellStart"/>
                            <w:r>
                               <w:rPr>
                                  <w:lang w:val="nb-NO"/>
                               </w:rPr>
-                              <w:t>Table</w:t>
-                           </w:r>
-                           <w:proofErr w:type="spellEnd"/>
-                           <w:r>
-                              <w:rPr>
-                                 <w:lang w:val="nb-NO"/>
-                              </w:rPr>
-                              <w:t xml:space="preserve"> header </w:t>
-                           </w:r>
-                           <w:proofErr w:type="spellStart"/>
-                           <w:r>
-                              <w:rPr>
-                                 <w:lang w:val="nb-NO"/>
-                              </w:rPr>
-                              <w:t>cell</w:t>
-                           </w:r>
-                           <w:proofErr w:type="spellEnd"/>
-                           <w:r>
-                              <w:rPr>
-                                 <w:lang w:val="nb-NO"/>
-                              </w:rPr>
-                              <w:t xml:space="preserve">, </w:t>
-                           </w:r>
-                           <w:proofErr w:type="spellStart"/>
-                           <w:r>
-                              <w:rPr>
-                                 <w:lang w:val="nb-NO"/>
-                              </w:rPr>
-                              <w:t>rowspan</w:t>
-                           </w:r>
-                           <w:proofErr w:type="spellEnd"/>
-                           <w:r>
-                              <w:rPr>
-                                 <w:lang w:val="nb-NO"/>
-                              </w:rPr>
-                              <w:t>=2</w:t>
+                              <w:t>Table header cell, rowspan=2</w:t>
                            </w:r>
                         </w:p>
                      </w:tc>
@@ -1949,21 +1448,7 @@
                               <w:rPr>
                                  <w:lang w:val="nb-NO"/>
                               </w:rPr>
-                              <w:t xml:space="preserve">Td, </w:t>
-                           </w:r>
-                           <w:proofErr w:type="spellStart"/>
-                           <w:r>
-                              <w:rPr>
-                                 <w:lang w:val="nb-NO"/>
-                              </w:rPr>
-                              <w:t>colspan</w:t>
-                           </w:r>
-                           <w:proofErr w:type="spellEnd"/>
-                           <w:r>
-                              <w:rPr>
-                                 <w:lang w:val="nb-NO"/>
-                              </w:rPr>
-                              <w:t>=2</w:t>
+                              <w:t>Td, colspan=2</w:t>
                            </w:r>
                         </w:p>
                      </w:tc>
@@ -1978,6 +1463,8 @@
                         <w:lang w:val="nb-NO"/>
                      </w:rPr>
                   </w:pPr>
+                  <w:bookmarkStart w:id="1" w:name="_GoBack"/>
+                  <w:bookmarkEnd w:id="1"/>
                </w:p>
                <w:p w14:paraId="64AFEFC9"
                     w14:textId="5C9DC05F"
@@ -2053,21 +1540,12 @@
                      </w:rPr>
                      <w:t xml:space="preserve"> </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r w:rsidRPr="00415950">
                      <w:rPr>
                         <w:u w:val="single"/>
                         <w:lang w:val="nb-NO"/>
                      </w:rPr>
-                     <w:t>Underlinjet</w:t>
-                  </w:r>
-                  <w:proofErr w:type="spellEnd"/>
-                  <w:r w:rsidRPr="00415950">
-                     <w:rPr>
-                        <w:u w:val="single"/>
-                        <w:lang w:val="nb-NO"/>
-                     </w:rPr>
-                     <w:t xml:space="preserve"> tekst.</w:t>
+                     <w:t>Underlinjet tekst.</w:t>
                   </w:r>
                </w:p>
                <w:p w14:paraId="2F7BE868"
@@ -2098,29 +1576,13 @@
                         <w:vertAlign w:val="superscript"/>
                         <w:lang w:val="nb-NO"/>
                      </w:rPr>
-                     <w:t xml:space="preserve">Sup </w:t>
-                  </w:r>
-                  <w:proofErr w:type="spellStart"/>
-                  <w:r w:rsidRPr="00415950">
-                     <w:rPr>
-                        <w:vertAlign w:val="superscript"/>
-                        <w:lang w:val="nb-NO"/>
-                     </w:rPr>
-                     <w:t>text</w:t>
-                  </w:r>
-                  <w:proofErr w:type="spellEnd"/>
-                  <w:r w:rsidRPr="00415950">
-                     <w:rPr>
-                        <w:vertAlign w:val="superscript"/>
-                        <w:lang w:val="nb-NO"/>
-                     </w:rPr>
-                     <w:t>.</w:t>
+                     <w:t>Sup text.</w:t>
                   </w:r>
                </w:p>
                <w:p w14:paraId="64B00B95"
                     w14:textId="77777777"
                     w:rsidR="00A049D8"
-                    w:rsidRDefault="0068184A">
+                    w:rsidRDefault="0098013D">
                   <w:pPr>
                      <w:pStyle w:val="Heading2"/>
                      <w:rPr>
@@ -2137,7 +1599,7 @@
                <w:p w14:paraId="50B93B21"
                     w14:textId="77777777"
                     w:rsidR="00A049D8"
-                    w:rsidRDefault="0068184A">
+                    w:rsidRDefault="0098013D">
                   <w:pPr>
                      <w:rPr>
                         <w:lang w:val="nb-NO"/>
@@ -2187,21 +1649,19 @@
                     w14:textId="77777777"
                     w:rsidR="00A049D8"
                     w:rsidRPr="0094097C"
-                    w:rsidRDefault="0068184A">
+                    w:rsidRDefault="0098013D">
                   <w:pPr>
                      <w:pStyle w:val="Heading2"/>
                      <w:rPr>
                         <w:lang w:val="en-GB"/>
                      </w:rPr>
                   </w:pPr>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r w:rsidRPr="0094097C">
                      <w:rPr>
                         <w:lang w:val="en-GB"/>
                      </w:rPr>
                      <w:t>Referanser</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                </w:p>
                <w:p w14:paraId="485E8DA6"
                     w14:textId="43085368"
@@ -2210,24 +1670,22 @@
                   <w:pPr>
                      <w:pStyle w:val="Referanse"/>
                   </w:pPr>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r>
                      <w:t>Navnesen</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
-                  <w:r w:rsidR="0068184A">
+                  <w:r w:rsidR="0098013D">
                      <w:t xml:space="preserve">, </w:t>
                   </w:r>
                   <w:r>
                      <w:t>N</w:t>
                   </w:r>
-                  <w:r w:rsidR="0068184A">
+                  <w:r w:rsidR="0098013D">
                      <w:t xml:space="preserve">. (2012a). </w:t>
                   </w:r>
                   <w:r>
                      <w:t>Article title.</w:t>
                   </w:r>
-                  <w:r w:rsidR="0068184A">
+                  <w:r w:rsidR="0098013D">
                      <w:t xml:space="preserve"> </w:t>
                   </w:r>
                   <w:r>
@@ -2236,7 +1694,7 @@
                      </w:rPr>
                      <w:t>Journalname</w:t>
                   </w:r>
-                  <w:r w:rsidR="0068184A">
+                  <w:r w:rsidR="0098013D">
                      <w:rPr>
                         <w:i/>
                      </w:rPr>
@@ -2246,23 +1704,15 @@
                      <w:rPr>
                         <w:i/>
                      </w:rPr>
-                     <w:t>Journal-</w:t>
+                     <w:t>Journal-subname</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
-                  <w:r>
-                     <w:rPr>
-                        <w:i/>
-                     </w:rPr>
-                     <w:t>subname</w:t>
-                  </w:r>
-                  <w:proofErr w:type="spellEnd"/>
-                  <w:r w:rsidR="0068184A">
+                  <w:r w:rsidR="0098013D">
                      <w:rPr>
                         <w:i/>
                      </w:rPr>
                      <w:t xml:space="preserve"> 26</w:t>
                   </w:r>
-                  <w:r w:rsidR="0068184A">
+                  <w:r w:rsidR="0098013D">
                      <w:t xml:space="preserve">: (s.278-295). </w:t>
                   </w:r>
                </w:p>
@@ -2273,75 +1723,33 @@
                   <w:pPr>
                      <w:pStyle w:val="Referanse"/>
                   </w:pPr>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r>
                      <w:lastRenderedPageBreak/>
                      <w:t>Navnesen</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
-                  <w:r w:rsidR="0068184A">
+                  <w:r w:rsidR="0098013D">
                      <w:t xml:space="preserve">, </w:t>
                   </w:r>
                   <w:r>
                      <w:t>N</w:t>
                   </w:r>
-                  <w:r w:rsidR="0068184A">
+                  <w:r w:rsidR="0098013D">
                      <w:t xml:space="preserve">. (2012b). </w:t>
                   </w:r>
                   <w:r w:rsidR="003F0CC5">
                      <w:rPr>
                         <w:i/>
                      </w:rPr>
-                     <w:t xml:space="preserve">Some other </w:t>
+                     <w:t>Some other articletitle</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
-                  <w:r w:rsidR="003F0CC5">
-                     <w:rPr>
-                        <w:i/>
-                     </w:rPr>
-                     <w:t>articletitle</w:t>
-                  </w:r>
-                  <w:proofErr w:type="spellEnd"/>
-                  <w:r w:rsidR="0068184A">
+                  <w:r w:rsidR="0098013D">
                      <w:rPr>
                         <w:i/>
                      </w:rPr>
                      <w:t>.</w:t>
                   </w:r>
-                  <w:r w:rsidR="0068184A">
-                     <w:t xml:space="preserve"> Oslo: </w:t>
-                  </w:r>
-                  <w:proofErr w:type="spellStart"/>
-                  <w:r w:rsidR="0068184A">
-                     <w:t>Høgskolen</w:t>
-                  </w:r>
-                  <w:proofErr w:type="spellEnd"/>
-                  <w:r w:rsidR="0068184A">
-                     <w:t xml:space="preserve"> I Oslo </w:t>
-                  </w:r>
-                  <w:proofErr w:type="spellStart"/>
-                  <w:r w:rsidR="0068184A">
-                     <w:t>og</w:t>
-                  </w:r>
-                  <w:proofErr w:type="spellEnd"/>
-                  <w:r w:rsidR="0068184A">
-                     <w:t xml:space="preserve"> </w:t>
-                  </w:r>
-                  <w:proofErr w:type="spellStart"/>
-                  <w:r w:rsidR="0068184A">
-                     <w:t>Akershus</w:t>
-                  </w:r>
-                  <w:proofErr w:type="spellEnd"/>
-                  <w:r w:rsidR="0068184A">
-                     <w:t xml:space="preserve">, </w:t>
-                  </w:r>
-                  <w:proofErr w:type="spellStart"/>
-                  <w:r w:rsidR="0068184A">
-                     <w:t>Avhandling</w:t>
-                  </w:r>
-                  <w:proofErr w:type="spellEnd"/>
-                  <w:r w:rsidR="0068184A">
-                     <w:t xml:space="preserve"> 2012:1.</w:t>
+                  <w:r w:rsidR="0098013D">
+                     <w:t xml:space="preserve"> Oslo: Høgskolen I Oslo og Akershus, Avhandling 2012:1.</w:t>
                   </w:r>
                </w:p>
                <w:sectPr w:rsidR="00A049D8">
@@ -2427,7 +1835,7 @@
                   </w:rPr>
                   <w:t>op text here.</w:t>
                </w:r>
-               <w:r w:rsidRPr="0068184A">
+               <w:r w:rsidR="0098013D" w:rsidRPr="0068184A">
                   <w:rPr>
                      <w:lang w:val="en-GB"/>
                   </w:rPr>
@@ -2458,7 +1866,6 @@
          <w:settings xmlns:sl="http://schemas.openxmlformats.org/schemaLibrary/2006/main"
                      mc:Ignorable="w14 w15 w16se w16cid">
             <w:zoom w:percent="140"/>
-            <w:proofState w:spelling="clean" w:grammar="clean"/>
             <w:defaultTabStop w:val="720"/>
             <w:characterSpacingControl w:val="doNotCompress"/>
             <w:hdrShapeDefaults>
@@ -2475,13 +1882,22 @@
             <w:compat>
                <w:compatSetting w:name="compatibilityMode"
                                 w:uri="http://schemas.microsoft.com/office/word"
-                                w:val="11"/>
-               <w:compatSetting w:name="allowHyphenationAtTrackBottom"
+                                w:val="15"/>
+               <w:compatSetting w:name="overrideTableStyleFontSizeAndJustification"
+                                w:uri="http://schemas.microsoft.com/office/word"
+                                w:val="1"/>
+               <w:compatSetting w:name="enableOpenTypeFeatures"
+                                w:uri="http://schemas.microsoft.com/office/word"
+                                w:val="1"/>
+               <w:compatSetting w:name="doNotFlipMirrorIndents"
+                                w:uri="http://schemas.microsoft.com/office/word"
+                                w:val="1"/>
+               <w:compatSetting w:name="differentiateMultirowTableHeaders"
                                 w:uri="http://schemas.microsoft.com/office/word"
                                 w:val="1"/>
                <w:compatSetting w:name="useWord2013TrackBottomHyphenation"
                                 w:uri="http://schemas.microsoft.com/office/word"
-                                w:val="1"/>
+                                w:val="0"/>
             </w:compat>
             <w:rsids>
                <w:rsidRoot w:val="00A049D8"/>
@@ -2491,7 +1907,9 @@
                <w:rsid w:val="0068184A"/>
                <w:rsid w:val="0070160D"/>
                <w:rsid w:val="0094097C"/>
+               <w:rsid w:val="0098013D"/>
                <w:rsid w:val="00A049D8"/>
+               <w:rsid w:val="00CA60A3"/>
             </w:rsids>
             <m:mathPr>
                <m:mathFont m:val="Cambria Math"/>
@@ -4546,7 +3964,7 @@
                <w:p w14:paraId="638747DF"
                     w14:textId="77777777"
                     w:rsidR="00000000"
-                    w:rsidRDefault="0068184A">
+                    w:rsidRDefault="0098013D">
                   <w:pPr>
                      <w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
                   </w:pPr>
@@ -4559,7 +3977,7 @@
                <w:p w14:paraId="59FD4A1A"
                     w14:textId="77777777"
                     w:rsidR="00000000"
-                    w:rsidRDefault="0068184A">
+                    w:rsidRDefault="0098013D">
                   <w:pPr>
                      <w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
                   </w:pPr>
@@ -4689,7 +4107,7 @@
                <w:p w14:paraId="408E3490"
                     w14:textId="77777777"
                     w:rsidR="00000000"
-                    w:rsidRDefault="0068184A">
+                    w:rsidRDefault="0098013D">
                   <w:pPr>
                      <w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
                   </w:pPr>
@@ -4702,7 +4120,7 @@
                <w:p w14:paraId="0A9777FB"
                     w14:textId="77777777"
                     w:rsidR="00000000"
-                    w:rsidRDefault="0068184A">
+                    w:rsidRDefault="0098013D">
                   <w:pPr>
                      <w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
                   </w:pPr>
@@ -4720,7 +4138,7 @@
             <w:p w14:paraId="3BD7FDD6"
                  w14:textId="7F6B970A"
                  w:rsidR="00A049D8"
-                 w:rsidRDefault="0068184A">
+                 w:rsidRDefault="0098013D">
                <w:pPr>
                   <w:pStyle w:val="Identifikatorer"/>
                </w:pPr>
@@ -4733,7 +4151,10 @@
                </w:r>
                <w:r>
                   <w:tab/>
-                  <w:t>https://doi.org/10.7577/short/id</w:t>
+                  <w:t>https://doi.org/10.7577/</w:t>
+               </w:r>
+               <w:r w:rsidR="0068184A">
+                  <w:t>short/id</w:t>
                </w:r>
             </w:p>
             <w:p w14:paraId="6831C97D"
@@ -4761,7 +4182,7 @@
             <w:p w14:paraId="41780A82"
                  w14:textId="77777777"
                  w:rsidR="00A049D8"
-                 w:rsidRDefault="0068184A">
+                 w:rsidRDefault="0098013D">
                <w:pPr>
                   <w:pStyle w:val="Footer"/>
                   <w:jc w:val="center"/>

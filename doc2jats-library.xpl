@@ -216,17 +216,22 @@
                         
                         <xsl:template match="w:p">
                             <xsl:element name="p">
-                                <xsl:attribute name="data-stylename" select="w:pPr/w:pStyle/@w:val"></xsl:attribute>
+                                <xsl:if test="w:pPr/w:pStyle/@w:val">
+                                    <xsl:attribute name="data-stylename" select="w:pPr/w:pStyle/@w:val"></xsl:attribute>    
+                                </xsl:if>
                                 <xsl:apply-templates/>
                             </xsl:element>
                         </xsl:template>
                         
                         <xsl:template match="w:p[w:pPr/w:numPr]">
                             <xsl:element name="li">
-                                <xsl:attribute name="data-stylename" select="w:pPr/w:pStyle/@w:val"></xsl:attribute>
-                                <xsl:attribute name="data-ilvl" select="w:pPr/w:numPr/w:ilvl/@w:val"></xsl:attribute>
-                                <xsl:attribute name="data-numId" select="w:pPr/w:numPr/w:numId/@w:val"></xsl:attribute>
-                                <!--<xsl:attribute name="data-format" select="f:getListNumberFormat(w:pPr/w:numPr,.)"></xsl:attribute>-->
+                                <xsl:variable name="stylename" select="w:pPr/w:pStyle/@w:val"/>
+                                <xsl:variable name="ilvl" select="w:pPr/w:numPr/w:ilvl/@w:val"/>
+                                <xsl:variable name="numId" select="w:pPr/w:numPr/w:numId/@w:val"/>
+                                <xsl:attribute name="data-stylename" select="$stylename"></xsl:attribute>
+                                <xsl:attribute name="data-ilvl" select="$ilvl"></xsl:attribute>
+                                <xsl:attribute name="data-numId" select="$numId"></xsl:attribute>
+                                <xsl:attribute name="data-format" select="f:getListNumberFormat(.)"></xsl:attribute>
                                 <xsl:apply-templates/>
                             </xsl:element>
                         </xsl:template>
@@ -252,6 +257,10 @@
                 </p:inline>
             </p:input>
         </p:xslt>
+        
+<!--        Delete paragraph properties-->
+        
+        <p:delete match="p[not(w:numPr)]/w:pPr"></p:delete>
         
         <p:delete match="w:rPr|w:spacing"/>
        
@@ -306,6 +315,7 @@
                                 <xsl:if test="w:tcPr/w:gridSpan">
                                     <xsl:attribute name="colspan" select="w:tcPr/w:gridSpan/@w:val" />
                                 </xsl:if>
+                                <xsl:apply-templates/>
                             </td>
                         </xsl:template>
                         
@@ -322,6 +332,9 @@
                 </p:inline>
             </p:input>
         </p:xslt>
+
+        <!-- have extracted rowspan/colspan from w:tcPr, so w:tcPr is no longer needed -->
+        <p:delete match="w:tcPr"></p:delete>
     </p:declare-step>
 
 </p:library>

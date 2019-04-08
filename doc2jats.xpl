@@ -26,14 +26,13 @@
     
     <d2j:docx-flatten name="flat-ocf"/>
     
-    <d2j:filter-w-document/>
-    
     <d2j:flat-docx-to-html/>
     
-<!--    <d2j:ocf2htmltable/>-->
-    
+    <d2j:ocf2htmltable/>
+
+    <d2j:filter-w-document/>
+
     <p:identity name="final"/>
-    
     
     <p:store name="store-ocf" href="flat-ocf.xml" method="xml" encoding="UTF-8" indent="true" omit-xml-declaration="true">
         <p:input port="source">
