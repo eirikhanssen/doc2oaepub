@@ -258,4 +258,46 @@
        <p:identity name="final"/>
     </p:declare-step>
 
+    <p:declare-step type="d2j:ocf2htmltable">
+        <p:output port="result" sequence="true"/>
+        <p:serialization port="result" indent="true" method="xml" omit-xml-declaration="true"/>
+        <p:input port="source"/>
+        <p:input port="parameters" kind="parameter" sequence="true"/>
+        
+        <p:xslt name="ocf-table-to-html" version="2.0">
+            <p:input port="source"/>
+            <p:input port="parameters"/>
+            <p:input port="stylesheet">
+                <p:inline>
+                    <xsl:stylesheet 
+                        xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+                        xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+                        xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"
+                        xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships"
+                        xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing"
+                        xmlns:pr="http://schemas.openxmlformats.org/package/2006/relationships"
+                        xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main"
+                        xmlns:pic="http://schemas.openxmlformats.org/drawingml/2006/picture"
+                        xmlns:w14="http://schemas.microsoft.com/office/word/2010/wordml"
+                        xmlns:wps="http://schemas.microsoft.com/office/word/2010/wordprocessingShape"
+                        exclude-result-prefixes="xs w r pr wp a pic xhtml w14 wps"
+                        version="2.0">
+                        
+                        <xsl:import href="doc2jats-functions.xsl"/>
+                        
+                        <xsl:template match="w:tbl">
+                            <table>
+                                <xsl:apply-templates/>
+                            </table>
+                        </xsl:template>
+                        
+<!--                        <xsl:template match="w:tblPr|w:tblGrid"/>-->
+                        
+                    </xsl:stylesheet>
+                </p:inline>
+            </p:input>
+        </p:xslt>
+    </p:declare-step>
+
 </p:library>
