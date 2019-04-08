@@ -51,115 +51,61 @@
       <p>Lorem Ipsum</p>
       <p data-stylename="Heading2">Lister</p>
       <p data-stylename="Heading3">En ordnet liste:</p>
-      <li data-stylename="ListParagraph" data-ilvl="0" data-numId="1">
-         <w:pPr>
-            <w:pStyle w:val="ListParagraph"/>
-            <w:numPr>
-               <w:ilvl w:val="0"/>
-               <w:numId w:val="1"/>
-            </w:numPr>
-         </w:pPr>ol num 1.1</li>
-      <li data-stylename="ListParagraph" data-ilvl="0" data-numId="1">
-         <w:pPr>
-            <w:pStyle w:val="ListParagraph"/>
-            <w:numPr>
-               <w:ilvl w:val="0"/>
-               <w:numId w:val="1"/>
-            </w:numPr>
-         </w:pPr>ol num 1.2</li>
-      <li data-stylename="ListParagraph" data-ilvl="0" data-numId="1">
-         <w:pPr>
-            <w:pStyle w:val="ListParagraph"/>
-            <w:numPr>
-               <w:ilvl w:val="0"/>
-               <w:numId w:val="1"/>
-            </w:numPr>
-         </w:pPr>
-         <w:lastRenderedPageBreak/> ol num 1.3</li>
-      <li data-stylename="ListParagraph" data-ilvl="1" data-numId="1">
-         <w:pPr>
-            <w:pStyle w:val="ListParagraph"/>
-            <w:numPr>
-               <w:ilvl w:val="1"/>
-               <w:numId w:val="1"/>
-            </w:numPr>
-         </w:pPr>ol char 1.3.1</li>
-      <li data-stylename="ListParagraph" data-ilvl="1" data-numId="1">
-         <w:pPr>
-            <w:pStyle w:val="ListParagraph"/>
-            <w:numPr>
-               <w:ilvl w:val="1"/>
-               <w:numId w:val="1"/>
-            </w:numPr>
-         </w:pPr>ol char 1.3.2</li>
+      <li data-stylename="ListParagraph"
+          data-ilvl="0"
+          data-numId="1"
+          data-format="decimal">ol num 1.1</li>
+      <li data-stylename="ListParagraph"
+          data-ilvl="0"
+          data-numId="1"
+          data-format="decimal">ol num 1.2</li>
+      <li data-stylename="ListParagraph"
+          data-ilvl="0"
+          data-numId="1"
+          data-format="decimal"> ol num 1.3</li>
+      <li data-stylename="ListParagraph"
+          data-ilvl="1"
+          data-numId="1"
+          data-format="bullet">ol char 1.3.1</li>
+      <li data-stylename="ListParagraph"
+          data-ilvl="1"
+          data-numId="1"
+          data-format="bullet">ol char 1.3.2</li>
       <p data-stylename="Heading3">En punktliste:</p>
-      <li data-stylename="ListParagraph" data-ilvl="0" data-numId="2">
-         <w:pPr>
-            <w:pStyle w:val="ListParagraph"/>
-            <w:numPr>
-               <w:ilvl w:val="0"/>
-               <w:numId w:val="2"/>
-            </w:numPr>
-         </w:pPr>ul 2.1</li>
-      <li data-stylename="ListParagraph" data-ilvl="0" data-numId="2">
-         <w:pPr>
-            <w:pStyle w:val="ListParagraph"/>
-            <w:numPr>
-               <w:ilvl w:val="0"/>
-               <w:numId w:val="2"/>
-            </w:numPr>
-         </w:pPr>ul 2.2</li>
-      <li data-stylename="ListParagraph" data-ilvl="1" data-numId="2">
-         <w:pPr>
-            <w:pStyle w:val="ListParagraph"/>
-            <w:numPr>
-               <w:ilvl w:val="1"/>
-               <w:numId w:val="2"/>
-            </w:numPr>
-         </w:pPr>ul 2.2.1</li>
-      <li data-stylename="ListParagraph" data-ilvl="1" data-numId="2">
-         <w:pPr>
-            <w:pStyle w:val="ListParagraph"/>
-            <w:numPr>
-               <w:ilvl w:val="1"/>
-               <w:numId w:val="2"/>
-            </w:numPr>
-         </w:pPr>ul 2.2.2</li>
+      <li data-stylename="ListParagraph"
+          data-ilvl="0"
+          data-numId="2"
+          data-format="decimal">ul 2.1</li>
+      <li data-stylename="ListParagraph"
+          data-ilvl="0"
+          data-numId="2"
+          data-format="decimal">ul 2.2</li>
+      <li data-stylename="ListParagraph"
+          data-ilvl="1"
+          data-numId="2"
+          data-format="lowerLetter">ul 2.2.1</li>
+      <li data-stylename="ListParagraph"
+          data-ilvl="1"
+          data-numId="2"
+          data-format="lowerLetter">ul 2.2.2</li>
       <p data-stylename="Heading2">En ordnet liste/uordnet-sub-liste:</p>
-      <li data-stylename="ListParagraph" data-ilvl="0" data-numId="3">
-         <w:pPr>
-            <w:pStyle w:val="ListParagraph"/>
-            <w:numPr>
-               <w:ilvl w:val="0"/>
-               <w:numId w:val="3"/>
-            </w:numPr>
-         </w:pPr>ol item 3.1</li>
-      <li data-stylename="ListParagraph" data-ilvl="0" data-numId="3">
-         <w:pPr>
-            <w:pStyle w:val="ListParagraph"/>
-            <w:numPr>
-               <w:ilvl w:val="0"/>
-               <w:numId w:val="3"/>
-            </w:numPr>
-         </w:pPr>ol item 3.2</li>
-      <li data-stylename="ListParagraph" data-ilvl="1" data-numId="4">
-         <w:pPr>
-            <w:pStyle w:val="ListParagraph"/>
-            <w:numPr>
-               <w:ilvl w:val="1"/>
-               <w:numId w:val="4"/>
-            </w:numPr>
-         </w:pPr>ul item 3.2.1</li>
-      <li data-stylename="ListParagraph" data-ilvl="1" data-numId="4">
-         <w:pPr>
-            <w:pStyle w:val="ListParagraph"/>
-            <w:numPr>
-               <w:ilvl w:val="1"/>
-               <w:numId w:val="4"/>
-            </w:numPr>
-         </w:pPr>ul item 3.2.2</li>
-      <p data-stylename="Heading2">
-         <w:lastRenderedPageBreak/>Figurer</p>
+      <li data-stylename="ListParagraph"
+          data-ilvl="0"
+          data-numId="3"
+          data-format="decimal">ol item 3.1</li>
+      <li data-stylename="ListParagraph"
+          data-ilvl="0"
+          data-numId="3"
+          data-format="decimal">ol item 3.2</li>
+      <li data-stylename="ListParagraph"
+          data-ilvl="1"
+          data-numId="4"
+          data-format="none">ul item 3.2.1</li>
+      <li data-stylename="ListParagraph"
+          data-ilvl="1"
+          data-numId="4"
+          data-format="none">ul item 3.2.2</li>
+      <p data-stylename="Heading2">Figurer</p>
       <p data-stylename="ListParagraph">
          <w:drawing>
             <wp:inline distT="0"
@@ -243,7 +189,7 @@
             <w:gridCol w:w="3082"/>
             <w:gridCol w:w="3082"/>
          </w:tblGrid>
-         <tr data-rid="d55e270">
+         <tr data-rid="d54e203">
             <td>
                <p data-stylename="TabellKolonneoverskrift"/>
             </td>
@@ -254,10 +200,9 @@
                <p data-stylename="TabellKolonneoverskrift">Menn</p>
             </td>
          </tr>
-         <tr data-rid="d55e300">
+         <tr data-rid="d54e233">
             <td>
-               <p data-stylename="TabellRadoverskrift">
-                  <w:lastRenderedPageBreak/>Alder</p>
+               <p data-stylename="TabellRadoverskrift">Alder</p>
             </td>
             <td>
                <p>23±5</p>
@@ -266,7 +211,7 @@
                <p>27±8</p>
             </td>
          </tr>
-         <tr data-rid="d55e323">
+         <tr data-rid="d54e255">
             <td>
                <p data-stylename="TabellRadoverskrift">Fullført utdanningsnivå</p>
             </td>
@@ -277,7 +222,7 @@
                <p>14±5</p>
             </td>
          </tr>
-         <tr data-rid="d55e345">
+         <tr data-rid="d54e277">
             <td>
                <p>Antall søsken</p>
             </td>
@@ -309,7 +254,7 @@
             <w:gridCol w:w="2999"/>
             <w:gridCol w:w="2997"/>
          </w:tblGrid>
-         <tr data-rid="d55e384">
+         <tr data-rid="d54e316">
             <w:trPr>
                <w:tblHeader/>
             </w:trPr>
@@ -320,7 +265,7 @@
                <p>Table header cell, colspan = 2</p>
             </td>
          </tr>
-         <tr data-rid="d55e396">
+         <tr data-rid="d54e328">
             <td rowspan="2">
                <p>Table header cell, rowspan=2</p>
             </td>
@@ -331,7 +276,7 @@
                <p>Td</p>
             </td>
          </tr>
-         <tr data-rid="d55e410">
+         <tr data-rid="d54e342">
             <td colspan="2">
                <p>Td, colspan=2</p>
             </td>
@@ -353,8 +298,7 @@
          <em>, </em>
          <em>Journal-subname</em>
          <em> 26</em>: (s.278-295). </p>
-      <p data-stylename="Referanse">
-         <w:lastRenderedPageBreak/>Navnesen, N. (2012b). <em>Some other articletitle</em>
+      <p data-stylename="Referanse">Navnesen, N. (2012b). <em>Some other articletitle</em>
          <em>.</em> Oslo: Høgskolen I Oslo og Akershus, Avhandling 2012:1.</p>
       <w:sectPr w:rsidR="00A049D8">
          <w:headerReference w:type="default" r:id="rId8"/>

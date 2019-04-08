@@ -20,7 +20,10 @@
     
     <xsl:function name="f:getListNumberFormat" as="text()">
         <xsl:param name="item" as="node()"></xsl:param>
-        <xsl:value-of select="'FOOBAR'"/>
+        <xsl:variable name="ilvl" select="$item/w:pPr/w:numPr/w:ilvl/@w:val"/>
+        <xsl:variable name="numId" select="$item/w:pPr/w:numPr/w:numId/@w:val"/>
+        <xsl:variable name="format" select="$item/ancestor::pkg:package/pkg:part/pkg:xmlData/w:numbering/w:abstractNum[@w:abstractNumId = $numId]/w:lvl[@w:ilvl = $ilvl]/w:numFmt/@w:val"/>
+        <xsl:value-of select="$format"/>
     </xsl:function>
     
     <xsl:function name="f:nameFromStyle" as="text()">

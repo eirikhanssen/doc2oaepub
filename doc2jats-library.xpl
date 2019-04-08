@@ -192,7 +192,8 @@
             <p:input port="stylesheet">
                 <p:inline>
                     <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-                        xmlns:f="https://eirikhanssen.com/ns/functions" version="2.0"
+                        xmlns:f="https://eirikhanssen.com/ns/doc2jats-functions"
+                        version="2.0"
                         exclude-result-prefixes="f">
                         <xsl:import href="doc2jats-functions.xsl"/>
                         <xsl:strip-space elements="*"/>
@@ -235,7 +236,9 @@
                                 <xsl:apply-templates/>
                             </xsl:element>
                         </xsl:template>
-                        
+    
+                        <xsl:template match="w:p/w:pPr"/>
+
                         <!-- translate paragraph elements depending on style name -->
                         <!--
                         
@@ -258,11 +261,7 @@
             </p:input>
         </p:xslt>
         
-<!--        Delete paragraph properties-->
-        
-        <p:delete match="p[not(w:numPr)]/w:pPr"></p:delete>
-        
-        <p:delete match="w:rPr|w:spacing"/>
+        <p:delete match="w:rPr|w:spacing|w:lastRenderedPageBreak"/>
        
        <p:identity name="final"/>
     </p:declare-step>
