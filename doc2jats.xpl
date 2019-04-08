@@ -30,7 +30,7 @@
     
     <d2j:flat-docx-to-html/>
     
-    <d2j:ocf2htmltable/>
+<!--    <d2j:ocf2htmltable/>-->
     
     <p:identity name="final"/>
     

@@ -292,7 +292,31 @@
                             </table>
                         </xsl:template>
                         
-<!--                        <xsl:template match="w:tblPr|w:tblGrid"/>-->
+                        <xsl:template match="w:tc">
+                            <td>
+                                <!-- Check if cell will span multiple cells -->
+                                <xsl:if test="w:tcPr/w:vMerge[@w:val='restart']">
+                                    <!-- Calculate cell index with combined cells -->
+                                    <xsl:variable name="celindex" select="count(current()/preceding-sibling::w:tc[not(w:tcPr/w:gridSpan)])+sum(current()/preceding-sibling::w:tc/w:tcPr/w:gridSpan/@w:val)" />
+                                    <!-- How many combined rows have so far -->
+                                    <xsl:variable name="restartindex" select="count(current()/../preceding-sibling::w:tr/w:tc[count(preceding-sibling::w:tc[not(w:tcPr/w:gridSpan)])+sum(current()/../preceding-sibling::w:tc/w:tcPr/w:gridSpan/@w:val)=$celindex]/w:tcPr/w:vMerge[@w:val='restart'])" />
+                                    <!-- Apply rowspan attribute -->
+                                    <xsl:attribute name="rowspan" select="count(current()/../following-sibling::w:tr/w:tc[count(preceding-sibling::w:tc[not(w:tcPr/w:gridSpan)])+sum(preceding-sibling::w:tc/w:tcPr/w:gridSpan/@w:val)=$celindex][count(../preceding-sibling::w:tr/w:tc[count(preceding-sibling::w:tc[not(w:tcPr/w:gridSpan)])+sum(preceding-sibling::w:tc/w:tcPr/w:gridSpan/@w:val)=$celindex]/w:tcPr/w:vMerge[@w:val='restart'])=$restartindex+1]/w:tcPr/w:vMerge[not(@w:val='restart')])+1" />
+                                </xsl:if>
+                                <xsl:if test="w:tcPr/w:gridSpan">
+                                    <xsl:attribute name="colspan" select="w:tcPr/w:gridSpan/@w:val" />
+                                </xsl:if>
+                            </td>
+                        </xsl:template>
+                        
+<xsl:template match="w:tr">
+        <tr>
+            <xsl:attribute name="data-rid" select="generate-id(.)"/>
+            <!-- Apply template to cells which are not merged -->
+            <xsl:apply-templates select="w:trPr|w:tc[not(w:tcPr/w:vMerge[not(@w:val='restart')])]">
+            </xsl:apply-templates>
+        </tr>
+    </xsl:template>
                         
                     </xsl:stylesheet>
                 </p:inline>

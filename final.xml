@@ -278,7 +278,7 @@
          <w:pPr>
             <w:pStyle w:val="Tabellbeskrivelse"/>
          </w:pPr>Demografiske data: Alder, utdanningsnivå og antall søsken fordelt på kjønn.</p>
-      <table>
+      <w:tbl>
          <w:tblPr>
             <w:tblW w:w="9245" w:type="dxa"/>
             <w:tblBorders>
@@ -460,7 +460,7 @@
                   </w:pPr>2±1</p>
             </w:tc>
          </w:tr>
-      </table>
+      </w:tbl>
       <p data-stylename="">
          <w:pPr/>
       </p>
@@ -480,7 +480,7 @@
          </w:pPr>
          <w:proofErr w:type="spellStart"/>Table<w:proofErr w:type="spellEnd"/> 2 <w:proofErr w:type="gramStart"/>( <w:proofErr w:type="spellStart"/>rowspan<w:proofErr w:type="spellEnd"/>
          <w:proofErr w:type="gramEnd"/> og <w:proofErr w:type="spellStart"/>colspan<w:proofErr w:type="spellEnd"/>)</p>
-      <table>
+      <w:tbl>
          <w:tblPr>
             <w:tblStyle w:val="TableGrid"/>
             <w:tblW w:w="0" w:type="auto"/>
@@ -573,7 +573,7 @@
                   <w:pPr/>Td, <w:proofErr w:type="spellStart"/>colspan<w:proofErr w:type="spellEnd"/>=2</p>
             </w:tc>
          </w:tr>
-      </table>
+      </w:tbl>
       <p data-stylename="">
          <w:pPr/>
       </p>
