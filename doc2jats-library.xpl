@@ -223,11 +223,11 @@
                                     <xsl:variable name="currentstyle" select="./ancestor::pkg:package/pkg:part/pkg:xmlData/w:styles/w:style[@w:styleId = $styleId]"/>
 <!--                                    <xsl:variable name="stylename" select="$currentstyle/w:name/@w:val"/>-->
                                     <xsl:variable name="stylename" select="$currentstyle/w:name/@w:val"/>
-                                    <xsl:attribute name="data-style-Id" select="$styleId"/>
-                                    <xsl:attribute name="data-style-name" select="$stylename"/>
+                                    <xsl:attribute name="styleId" select="$styleId"/>
+                                    <xsl:attribute name="stylename" select="$stylename"/>
                                     <xsl:if test="$currentstyle/w:pPr/w:outlineLvl">
                                         <xsl:variable name="outlinelvl" select="$currentstyle/w:pPr/w:outlineLvl/@w:val"/>
-                                        <xsl:attribute name="data-outline-lvl" select="$outlinelvl"/>
+                                        <xsl:attribute name="outlinelvl" select="$outlinelvl"/>
                                     </xsl:if>
                                 </xsl:if>
                                 <xsl:apply-templates/>
@@ -239,10 +239,10 @@
                                 <xsl:variable name="stylename" select="w:pPr/w:pStyle/@w:val"/>
                                 <xsl:variable name="ilvl" select="w:pPr/w:numPr/w:ilvl/@w:val"/>
                                 <xsl:variable name="numId" select="w:pPr/w:numPr/w:numId/@w:val"/>
-                                <xsl:attribute name="data-stylename" select="$stylename"></xsl:attribute>
-                                <xsl:attribute name="data-ilvl" select="$ilvl"></xsl:attribute>
-                                <xsl:attribute name="data-numId" select="$numId"></xsl:attribute>
-                                <xsl:attribute name="data-format" select="f:getListNumberFormat(.)"></xsl:attribute>
+                                <xsl:attribute name="stylename" select="$stylename"></xsl:attribute>
+                                <xsl:attribute name="ilvl" select="$ilvl"></xsl:attribute>
+                                <xsl:attribute name="numId" select="$numId"></xsl:attribute>
+                                <xsl:attribute name="format" select="f:getListNumberFormat(.)"></xsl:attribute>
                                 <xsl:apply-templates/>
                             </xsl:element>
                         </xsl:template>
@@ -353,6 +353,116 @@
         <p:input port="parameters" kind="parameter" sequence="true"/>
         
         <p:wrap match="//li" wrapper="lists" group-adjacent="//li"></p:wrap>
+    
+        <p:xslt name="group-lists" version="2.0">
+            <p:input port="source"/>
+            <p:input port="parameters"/>
+            <p:input port="stylesheet">
+                <p:inline>
+                    <xsl:stylesheet 
+                        xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+                        xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+                        xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"
+                        xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships"
+                        xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing"
+                        xmlns:pr="http://schemas.openxmlformats.org/package/2006/relationships"
+                        xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main"
+                        xmlns:pic="http://schemas.openxmlformats.org/drawingml/2006/picture"
+                        xmlns:w14="http://schemas.microsoft.com/office/word/2010/wordml"
+                        xmlns:wps="http://schemas.microsoft.com/office/word/2010/wordprocessingShape"
+                        exclude-result-prefixes="xs w r pr wp a pic xhtml w14 wps"
+                        version="2.0">
+                        
+                        <xsl:import href="doc2jats-functions.xsl"/>
+                        
+                         <xsl:template match="lists">
+                             <xsl:copy>
+                                 <xsl:for-each-group select="*" group-starting-with="li[1]">
+                                 <xsl:call-template name="grouping">
+                                     <xsl:with-param name="input" select="current-group()[position() gt 1]"></xsl:with-param>
+                                 </xsl:call-template>
+                                 </xsl:for-each-group>
+                             </xsl:copy>
+                            
+                        </xsl:template>
+                        
+                        <!--  
+                        https://stackoverflow.com/questions/34301195/xslt-transformation-of-boolean-expressions/34308637#34308637
+                        https://stackoverflow.com/questions/42932880/how-do-we-convert-the-nested-lists-in-microsoft-word-docx-file-to-html-with-xslt
+                        -->
+                                                
+                        <xsl:template name="grouping">
+                            <xsl:param name="input" as="element()*"/>
+                            <xsl:if test="exists($input)">
+                                <xsl:variable name="level" select="$input[1]/@ilvl"/>
+                                <list>
+                                <xsl:for-each-group select="$input" 
+                                    group-starting-with="*[@ilvl=$level]">
+                                    
+                                    <xsl:copy>
+                                        <xsl:apply-templates select="@* | node()"/>
+                                        <xsl:call-template name="grouping">
+                                            <xsl:with-param name="input" 
+                                                select="current-group()[position() gt 1]"/>
+                                        </xsl:call-template>
+                                    </xsl:copy>
+                                    
+                                </xsl:for-each-group>
+                                </list>
+                            </xsl:if>
+                        </xsl:template>
+                        
+                    </xsl:stylesheet>
+                </p:inline>
+            </p:input>
+        </p:xslt>
+        
+        <p:xslt name="cleanup-lists" version="2.0">
+            <p:input port="source"/>
+            <p:input port="parameters"/>
+            <p:input port="stylesheet">
+                <p:inline>
+                    <xsl:stylesheet 
+                        xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+                        xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+                        xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"
+                        xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships"
+                        xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing"
+                        xmlns:pr="http://schemas.openxmlformats.org/package/2006/relationships"
+                        xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main"
+                        xmlns:pic="http://schemas.openxmlformats.org/drawingml/2006/picture"
+                        xmlns:w14="http://schemas.microsoft.com/office/word/2010/wordml"
+                        xmlns:wps="http://schemas.microsoft.com/office/word/2010/wordprocessingShape"
+                        exclude-result-prefixes="xs w r pr wp a pic xhtml w14 wps"
+                        version="2.0">
+                        
+                        <xsl:import href="doc2jats-functions.xsl"/>
+                        
+                        <xsl:template match="lists">
+                            <xsl:apply-templates/>
+                        </xsl:template>
+                        
+                        <xsl:template match="list">
+                            <xsl:variable name="list_format" select="current()/li[1]/@format"/>
+                            <xsl:variable name="list_type">
+                                <xsl:choose>
+                                    <xsl:when test="$list_format = ('decimal','lowerLetter')">ol</xsl:when>
+                                    <xsl:when test="$list_format = ('bullet','none','')">ul</xsl:when>
+                                    <xsl:otherwise>ul</xsl:otherwise>
+                                </xsl:choose>
+                            </xsl:variable>
+                            <xsl:element name="{$list_type}">
+                                <xsl:attribute name="class" select="$list_format"></xsl:attribute>
+                                <xsl:apply-templates select="@* | node()"/>
+                            </xsl:element>
+                        </xsl:template>
+                        
+                    </xsl:stylesheet>
+                </p:inline>
+            </p:input>
+        </p:xslt>
 
     </p:declare-step>
 
