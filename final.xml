@@ -33,24 +33,36 @@
             xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"
             mc:Ignorable="w14 w15 w16se w16cid wp14">
    <w:body>
-      <p data-stylename="Heading1">Artikkeltittel: undertittel</p>
-      <p data-stylename="Forfattere">Ola Nordmann og Kari Nordmann</p>
-      <p data-stylename="Kontaktinfo">Kari Nordmann, professor ved Handelshøyskolen, OsloMet – storbyuniversitetet</p>
-      <p data-stylename="Kontaktinfo">Ola Nordmann, professor ved Senter for profesjonsstudier OsloMet – storbyuniversitetet</p>
-      <p data-stylename="Kontaktinfo">Korrespondanse: Kari Nordmann, professor ved Senter for profesjonsstudier OsloMet – storbyuniversitetet</p>
-      <p data-stylename="Heading2">Abstract</p>
-      <p data-stylename="Abstract">An ultra short sample abstract.</p>
-      <p data-stylename="Keywords">
+      <p data-style-Id="Heading1"
+         data-style-name="heading 1"
+         data-outline-lvl="0">Artikkeltittel: undertittel</p>
+      <p data-style-Id="Forfattere" data-style-name="Forfattere">Ola Nordmann og Kari Nordmann</p>
+      <p data-style-Id="Kontaktinfo" data-style-name="Kontaktinfo">Kari Nordmann, professor ved Handelshøyskolen, OsloMet – storbyuniversitetet</p>
+      <p data-style-Id="Kontaktinfo" data-style-name="Kontaktinfo">Ola Nordmann, professor ved Senter for profesjonsstudier OsloMet – storbyuniversitetet</p>
+      <p data-style-Id="Kontaktinfo" data-style-name="Kontaktinfo">Korrespondanse: Kari Nordmann, professor ved Senter for profesjonsstudier OsloMet – storbyuniversitetet</p>
+      <p data-style-Id="Heading2"
+         data-style-name="heading 2"
+         data-outline-lvl="1">Abstract</p>
+      <p data-style-Id="Abstract" data-style-name="Abstract">An ultra short sample abstract.</p>
+      <p data-style-Id="Keywords" data-style-name="Keywords">
          <strong>Keywords:</strong> Management, gender, career, engineers, expectations</p>
-      <p data-stylename="Heading2">Abstrakt</p>
-      <p data-stylename="Abstrakt">Et lite abstrakt.</p>
-      <p data-stylename="Emneord">
+      <p data-style-Id="Heading2"
+         data-style-name="heading 2"
+         data-outline-lvl="1">Abstrakt</p>
+      <p data-style-Id="Abstrakt" data-style-name="Abstrakt">Et lite abstrakt.</p>
+      <p data-style-Id="Emneord" data-style-name="Emneord">
          <strong>Emneord:</strong> Ledelse, kjønn, karriere, ingeniører, forventninger</p>
-      <p data-stylename="Heading2">Innledning</p>
+      <p data-style-Id="Heading2"
+         data-style-name="heading 2"
+         data-outline-lvl="1">Innledning</p>
       <p>Lorem Ipsum.</p>
       <p>Lorem Ipsum</p>
-      <p data-stylename="Heading2">Lister</p>
-      <p data-stylename="Heading3">En ordnet liste:</p>
+      <p data-style-Id="Heading2"
+         data-style-name="heading 2"
+         data-outline-lvl="1">Lister</p>
+      <p data-style-Id="Heading3"
+         data-style-name="heading 3"
+         data-outline-lvl="2">En ordnet liste:</p>
       <li data-stylename="ListParagraph"
           data-ilvl="0"
           data-numId="1"
@@ -71,7 +83,9 @@
           data-ilvl="1"
           data-numId="1"
           data-format="bullet">ol char 1.3.2</li>
-      <p data-stylename="Heading3">En punktliste:</p>
+      <p data-style-Id="Heading3"
+         data-style-name="heading 3"
+         data-outline-lvl="2">En punktliste:</p>
       <li data-stylename="ListParagraph"
           data-ilvl="0"
           data-numId="2"
@@ -88,7 +102,9 @@
           data-ilvl="1"
           data-numId="2"
           data-format="lowerLetter">ul 2.2.2</li>
-      <p data-stylename="Heading2">En ordnet liste/uordnet-sub-liste:</p>
+      <p data-style-Id="Heading2"
+         data-style-name="heading 2"
+         data-outline-lvl="1">En ordnet liste/uordnet-sub-liste:</p>
       <li data-stylename="ListParagraph"
           data-ilvl="0"
           data-numId="3"
@@ -105,8 +121,10 @@
           data-ilvl="1"
           data-numId="4"
           data-format="none">ul item 3.2.2</li>
-      <p data-stylename="Heading2">Figurer</p>
-      <p data-stylename="ListParagraph">
+      <p data-style-Id="Heading2"
+         data-style-name="heading 2"
+         data-outline-lvl="1">Figurer</p>
+      <p data-style-Id="ListParagraph" data-style-name="List Paragraph">
          <w:drawing>
             <wp:inline distT="0"
                        distB="0"
@@ -162,12 +180,14 @@
             </wp:inline>
          </w:drawing>
       </p>
-      <p data-stylename="Caption">Figur <w:fldChar w:fldCharType="begin"/>
+      <p data-style-Id="Caption" data-style-name="caption">Figur <w:fldChar w:fldCharType="begin"/>
          <w:instrText>SEQ Figur \* ARABIC</w:instrText>
          <w:fldChar w:fldCharType="separate"/>1<w:fldChar w:fldCharType="end"/>. A yellow square.</p>
-      <p data-stylename="Heading2">Tables</p>
-      <p data-stylename="Tabelletikett">Table 1</p>
-      <p data-stylename="Tabellbeskrivelse">Demografiske data: Alder, utdanningsnivå og antall søsken fordelt på kjønn.</p>
+      <p data-style-Id="Heading2"
+         data-style-name="heading 2"
+         data-outline-lvl="1">Tables</p>
+      <p data-style-Id="Tabelletikett" data-style-name="Tabelletikett">Table 1</p>
+      <p data-style-Id="Tabellbeskrivelse" data-style-name="Tabellbeskrivelse">Demografiske data: Alder, utdanningsnivå og antall søsken fordelt på kjønn.</p>
       <table>
          <w:tblPr>
             <w:tblW w:w="9245" w:type="dxa"/>
@@ -191,18 +211,22 @@
          </w:tblGrid>
          <tr data-rid="d54e203">
             <td>
-               <p data-stylename="TabellKolonneoverskrift"/>
+               <p data-style-Id="TabellKolonneoverskrift"
+                  data-style-name="Tabell Kolonneoverskrift"/>
             </td>
             <td>
-               <p data-stylename="TabellKolonneoverskrift">Kvinner</p>
+               <p data-style-Id="TabellKolonneoverskrift"
+                  data-style-name="Tabell Kolonneoverskrift">Kvinner</p>
             </td>
             <td>
-               <p data-stylename="TabellKolonneoverskrift">Menn</p>
+               <p data-style-Id="TabellKolonneoverskrift"
+                  data-style-name="Tabell Kolonneoverskrift">Menn</p>
             </td>
          </tr>
          <tr data-rid="d54e233">
             <td>
-               <p data-stylename="TabellRadoverskrift">Alder</p>
+               <p data-style-Id="TabellRadoverskrift"
+                  data-style-name="Tabell Radoverskrift">Alder</p>
             </td>
             <td>
                <p>23±5</p>
@@ -213,7 +237,8 @@
          </tr>
          <tr data-rid="d54e255">
             <td>
-               <p data-stylename="TabellRadoverskrift">Fullført utdanningsnivå</p>
+               <p data-style-Id="TabellRadoverskrift"
+                  data-style-name="Tabell Radoverskrift">Fullført utdanningsnivå</p>
             </td>
             <td>
                <p>15±5</p>
@@ -236,7 +261,7 @@
       </table>
       <p/>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at blandit sapien. Quisque sit amet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at blandit sapien. Quisque sit amet.</p>
-      <p data-stylename="Tabelletikett">Table 2 ( rowspan og colspan)</p>
+      <p data-style-Id="Tabelletikett" data-style-name="Tabelletikett">Table 2 ( rowspan og colspan)</p>
       <table>
          <w:tblPr>
             <w:tblStyle w:val="TableGrid"/>
@@ -283,22 +308,28 @@
          </tr>
       </table>
       <p/>
-      <p data-stylename="Heading2">Forskjellig tekstformatering</p>
+      <p data-style-Id="Heading2"
+         data-style-name="heading 2"
+         data-outline-lvl="1">Forskjellig tekstformatering</p>
       <p>Normal tekst. <em>Kursiv tekst.</em>
          <strong>Fet tekst</strong>. <strong>
             <em>Fet/Kursiv tekst.</em>
          </strong> Underlinjet tekst.</p>
       <p>Sub tekst. Sup text.</p>
-      <p data-stylename="Heading2">Et blokksitat</p>
+      <p data-style-Id="Heading2"
+         data-style-name="heading 2"
+         data-outline-lvl="1">Et blokksitat</p>
       <p>Det er viktig å sitere ordentlig.</p>
-      <p data-stylename="Blokksitat">Dette er et blokksitat.</p>
+      <p data-style-Id="Blokksitat" data-style-name="Blokksitat">Dette er et blokksitat.</p>
       <p>Dette er et vanlig avsnitt.</p>
-      <p data-stylename="Heading2">Referanser</p>
-      <p data-stylename="Referanse">Navnesen, N. (2012a). Article title. <em>Journalname</em>
+      <p data-style-Id="Heading2"
+         data-style-name="heading 2"
+         data-outline-lvl="1">Referanser</p>
+      <p data-style-Id="Referanse" data-style-name="Referanse">Navnesen, N. (2012a). Article title. <em>Journalname</em>
          <em>, </em>
          <em>Journal-subname</em>
          <em> 26</em>: (s.278-295). </p>
-      <p data-stylename="Referanse">Navnesen, N. (2012b). <em>Some other articletitle</em>
+      <p data-style-Id="Referanse" data-style-name="Referanse">Navnesen, N. (2012b). <em>Some other articletitle</em>
          <em>.</em> Oslo: Høgskolen I Oslo og Akershus, Avhandling 2012:1.</p>
       <w:sectPr w:rsidR="00A049D8">
          <w:headerReference w:type="default" r:id="rId8"/>

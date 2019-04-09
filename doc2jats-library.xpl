@@ -218,7 +218,17 @@
                         <xsl:template match="w:p">
                             <xsl:element name="p">
                                 <xsl:if test="w:pPr/w:pStyle/@w:val">
-                                    <xsl:attribute name="data-stylename" select="w:pPr/w:pStyle/@w:val"></xsl:attribute>    
+                                    <xsl:variable name="styleId" select="w:pPr/w:pStyle/@w:val"/>
+<!--                                    <xsl:variable name="currentstyle" select="./ancestor::pkg:package/pkg:part/pkg:xmlData/w:styles/w:style[@styleId = $styleId]"/>-->
+                                    <xsl:variable name="currentstyle" select="./ancestor::pkg:package/pkg:part/pkg:xmlData/w:styles/w:style[@w:styleId = $styleId]"/>
+<!--                                    <xsl:variable name="stylename" select="$currentstyle/w:name/@w:val"/>-->
+                                    <xsl:variable name="stylename" select="$currentstyle/w:name/@w:val"/>
+                                    <xsl:attribute name="data-style-Id" select="$styleId"/>
+                                    <xsl:attribute name="data-style-name" select="$stylename"/>
+                                    <xsl:if test="$currentstyle/w:pPr/w:outlineLvl">
+                                        <xsl:variable name="outlinelvl" select="$currentstyle/w:pPr/w:outlineLvl/@w:val"/>
+                                        <xsl:attribute name="data-outline-lvl" select="$outlinelvl"/>
+                                    </xsl:if>
                                 </xsl:if>
                                 <xsl:apply-templates/>
                             </xsl:element>
