@@ -345,5 +345,15 @@
         <!-- have extracted rowspan/colspan from w:tcPr, so w:tcPr is no longer needed -->
         <p:delete match="w:tcPr"></p:delete>
     </p:declare-step>
+    
+    <p:declare-step type="d2j:group-lists">
+        <p:output port="result" sequence="true"/>
+        <p:serialization port="result" indent="true" method="xml" omit-xml-declaration="true"/>
+        <p:input port="source"/>
+        <p:input port="parameters" kind="parameter" sequence="true"/>
+        
+        <p:wrap match="//li" wrapper="lists" group-adjacent="//li"></p:wrap>
+
+    </p:declare-step>
 
 </p:library>
