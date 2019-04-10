@@ -175,7 +175,9 @@
         
         <p:delete name="remove-bookmarks" match="w:bookmarkStart|w:bookmarkEnd"></p:delete>
         
-        <p:delete name="remove-lang" match="w:lang"></p:delete>
+        <p:delete name="remove-lang" match="w:lang"/>
+        
+        <p:delete match="w:proofErr" name="remove-proofErr"/>
         
         <p:identity name="final"/>
     </p:declare-step>
@@ -376,14 +378,14 @@
                         
                         <xsl:import href="doc2jats-functions.xsl"/>
                         
-                         <xsl:template match="lists">
-                             <xsl:copy>
-                                 <xsl:for-each-group select="*" group-starting-with="li[1]">
-                                 <xsl:call-template name="grouping">
-                                     <xsl:with-param name="input" select="current-group()[position() gt 1]"></xsl:with-param>
-                                 </xsl:call-template>
-                                 </xsl:for-each-group>
-                             </xsl:copy>
+                        <xsl:template match="lists">
+                            <xsl:copy>
+                                <xsl:for-each-group select="*" group-starting-with="li[position() = 0]">
+                                    <xsl:call-template name="grouping">
+                                        <xsl:with-param name="input" select="current-group()[position() gt 0]"></xsl:with-param>
+                                    </xsl:call-template>
+                                </xsl:for-each-group>
+                            </xsl:copy>
                             
                         </xsl:template>
                         
@@ -391,24 +393,24 @@
                         https://stackoverflow.com/questions/34301195/xslt-transformation-of-boolean-expressions/34308637#34308637
                         https://stackoverflow.com/questions/42932880/how-do-we-convert-the-nested-lists-in-microsoft-word-docx-file-to-html-with-xslt
                         -->
-                                                
+                        
                         <xsl:template name="grouping">
                             <xsl:param name="input" as="element()*"/>
                             <xsl:if test="exists($input)">
                                 <xsl:variable name="level" select="$input[1]/@ilvl"/>
                                 <list>
-                                <xsl:for-each-group select="$input" 
-                                    group-starting-with="*[@ilvl=$level]">
-                                    
-                                    <xsl:copy>
-                                        <xsl:apply-templates select="@* | node()"/>
-                                        <xsl:call-template name="grouping">
-                                            <xsl:with-param name="input" 
-                                                select="current-group()[position() gt 1]"/>
-                                        </xsl:call-template>
-                                    </xsl:copy>
-                                    
-                                </xsl:for-each-group>
+                                    <xsl:for-each-group select="$input" 
+                                        group-starting-with="*[@ilvl=$level]">
+                                        
+                                        <xsl:copy>
+                                            <xsl:apply-templates select="@* | node()"/>
+                                            <xsl:call-template name="grouping">
+                                                <xsl:with-param name="input" 
+                                                    select="current-group()[position() gt 1]"/>
+                                            </xsl:call-template>
+                                        </xsl:copy>
+                                        
+                                    </xsl:for-each-group>
                                 </list>
                             </xsl:if>
                         </xsl:template>
@@ -418,7 +420,7 @@
             </p:input>
         </p:xslt>
         
-        <p:xslt name="cleanup-lists" version="2.0">
+      <p:xslt name="cleanup-lists" version="2.0">
             <p:input port="source"/>
             <p:input port="parameters"/>
             <p:input port="stylesheet">
@@ -463,6 +465,8 @@
                 </p:inline>
             </p:input>
         </p:xslt>
+
+    <p:delete name="remove-unneeded-li-attributes" match="li/@stylename|li/@ilvl|li/@numId|li/@format"/>
 
     </p:declare-step>
 

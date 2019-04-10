@@ -33,82 +33,50 @@
             xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"
             mc:Ignorable="w14 w15 w16se w16cid wp14">
    <w:body>
-      <p styleId="Heading1" stylename="heading 1" outlinelvl="0">
-         <w:proofErr w:type="spellStart"/>Nested<w:proofErr w:type="spellEnd"/> lists</p>
-      <p styleId="Heading2" stylename="heading 2" outlinelvl="1">Liste 1: ol <w:proofErr w:type="spellStart"/>ol<w:proofErr w:type="spellEnd"/> ul</p>
+      <p styleId="Heading1" stylename="heading 1" outlinelvl="0">Nested lists</p>
+      <p styleId="Heading2" stylename="heading 2" outlinelvl="1">Liste 1: ol ol ul</p>
       <ol class="decimal">
-         <li stylename="ListParagraph" ilvl="0" numId="1" format="decimal">
-            <w:proofErr w:type="spellStart"/>decimal<w:proofErr w:type="spellEnd"/> 0-2</li>
-         <li stylename="ListParagraph" ilvl="0" numId="1" format="decimal">
-            <w:proofErr w:type="spellStart"/>decimal<w:proofErr w:type="spellEnd"/> 0-3<ul class="bullet">
-               <li stylename="ListParagraph" ilvl="1" numId="1" format="bullet">
-                  <w:proofErr w:type="spellStart"/>char<w:proofErr w:type="spellEnd"/> 1-1</li>
-               <li stylename="ListParagraph" ilvl="1" numId="1" format="bullet">
-                  <w:proofErr w:type="spellStart"/>char<w:proofErr w:type="spellEnd"/> 1-2<ul class="lowerRoman">
-                     <li stylename="ListParagraph"
-                         ilvl="2"
-                         numId="1"
-                         format="lowerRoman">
-                        <w:proofErr w:type="spellStart"/>bullet<w:proofErr w:type="spellEnd"/> 2-1</li>
-                     <li stylename="ListParagraph"
-                         ilvl="2"
-                         numId="1"
-                         format="lowerRoman">
-                        <w:proofErr w:type="spellStart"/>bullet<w:proofErr w:type="spellEnd"/> 2-2</li>
+         <li>decimal 0-1</li>
+         <li>decimal 0-2</li>
+         <li>decimal 0-3<ol class="lowerLetter">
+               <li>char 1-1</li>
+               <li>char 1-2<ul class="bullet">
+                     <li>bullet 2-1</li>
+                     <li>bullet 2-2</li>
                   </ul>
                </li>
-               <li stylename="ListParagraph" ilvl="1" numId="1" format="bullet">
-                  <w:proofErr w:type="spellStart"/>char<w:proofErr w:type="spellEnd"/> 1-3</li>
-            </ul>
+               <li>char 1-3</li>
+            </ol>
          </li>
-         <li stylename="ListParagraph" ilvl="0" numId="1" format="decimal">
-            <w:proofErr w:type="spellStart"/>decimal<w:proofErr w:type="spellEnd"/> 0-4</li>
+         <li>decimal 0-4</li>
       </ol>
       <p styleId="Heading2" stylename="heading 2" outlinelvl="1">Liste 2:ul ul + ol ul</p>
-      <ol class="decimal">
-         <li stylename="ListParagraph" ilvl="0" numId="2" format="decimal">
-            <w:proofErr w:type="spellStart"/>bullet<w:proofErr w:type="spellEnd"/> 0-2</li>
-         <li stylename="ListParagraph" ilvl="0" numId="2" format="decimal">
-            <w:proofErr w:type="spellStart"/>bullet<w:proofErr w:type="spellEnd"/> 0-3<ol class="lowerLetter">
-               <li stylename="ListParagraph"
-                   ilvl="1"
-                   numId="2"
-                   format="lowerLetter">
-                  <w:proofErr w:type="spellStart"/>bullet<w:proofErr w:type="spellEnd"/> 1-1</li>
-               <li stylename="ListParagraph"
-                   ilvl="1"
-                   numId="2"
-                   format="lowerLetter">
-                  <w:proofErr w:type="spellStart"/>bullet<w:proofErr w:type="spellEnd"/> 1-2</li>
+      <ul class="bullet">
+         <li>bullet 0-1</li>
+         <li>bullet 0-2</li>
+         <li>bullet 0-3<ol class="decimal">
+               <li>bullet 1-1</li>
+               <li>bullet 1-2</li>
             </ol>
          </li>
-         <li stylename="ListParagraph" ilvl="0" numId="2" format="decimal">
-            <w:proofErr w:type="spellStart"/>bullet<w:proofErr w:type="spellEnd"/> 0-4<ol class="lowerLetter">
-               <li stylename="ListParagraph"
-                   ilvl="1"
-                   numId="2"
-                   format="lowerLetter">decimal 1-1</li>
-               <li stylename="ListParagraph"
-                   ilvl="1"
-                   numId="2"
-                   format="lowerLetter">decimal 1-2<ul class="bullet">
-                     <li stylename="ListParagraph" ilvl="2" numId="2" format="bullet">square bullet 2-1</li>
-                     <li stylename="ListParagraph" ilvl="2" numId="2" format="bullet">square bullet 2-2</li>
+         <li>bullet 0-4<ol class="decimal">
+               <li>decimal 1-1</li>
+               <li>decimal 1-2<ul class="bullet">
+                     <li>square bullet 2-1</li>
+                     <li>square bullet 2-2</li>
                   </ul>
                </li>
-               <li stylename="ListParagraph"
-                   ilvl="1"
-                   numId="2"
-                   format="lowerLetter">decimal 1-3</li>
+               <li>decimal 1-3</li>
             </ol>
          </li>
-         <li stylename="ListParagraph" ilvl="0" numId="2" format="decimal">bullet 0-5</li>
-      </ol>
+         <li>bullet 0-5</li>
+      </ul>
       <p styleId="Heading2" stylename="heading 2" outlinelvl="1">En ordnet liste/uordnet-sub-liste:</p>
       <ol class="decimal">
-         <li stylename="ListParagraph" ilvl="0" numId="3" format="decimal">ol item 3.2<ul class="none">
-               <li stylename="ListParagraph" ilvl="1" numId="4" format="none">ul item 3.2.1</li>
-               <li stylename="ListParagraph" ilvl="1" numId="4" format="none">ul item 3.2.2</li>
+         <li>ol item 3.1</li>
+         <li>ol item 3.2<ul class="bullet">
+               <li>ul item 3.2.1</li>
+               <li>ul item 3.2.2</li>
             </ul>
          </li>
       </ol>
