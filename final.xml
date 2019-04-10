@@ -1,6 +1,4 @@
-<w:document xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"
-            xmlns:pkg="http://schemas.microsoft.com/office/2006/xmlPackage"
-            xmlns:wpc="http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas"
+<w:document xmlns:wpc="http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas"
             xmlns:cx="http://schemas.microsoft.com/office/drawing/2014/chartex"
             xmlns:cx1="http://schemas.microsoft.com/office/drawing/2015/9/8/chartex"
             xmlns:cx2="http://schemas.microsoft.com/office/drawing/2015/10/21/chartex"
@@ -31,47 +29,80 @@
             xmlns:wps="http://schemas.microsoft.com/office/word/2010/wordprocessingShape"
             xmlns:vt="http://schemas.openxmlformats.org/officeDocument/2006/docPropsVTypes"
             xmlns:d2j="http://eirikhanssen.no/doc2jats"
+            xmlns:pkg="http://schemas.microsoft.com/office/2006/xmlPackage"
+            xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"
             mc:Ignorable="w14 w15 w16se w16cid wp14">
    <w:body>
-      <p styleId="Heading1" stylename="heading 1" outlinelvl="0">Artikkeltittel: undertittel</p>
-      <p styleId="Forfattere" stylename="Forfattere">Ola Nordmann og Kari Nordmann</p>
-      <p styleId="Kontaktinfo" stylename="Kontaktinfo">Kari Nordmann, professor ved Handelshøyskolen, OsloMet – storbyuniversitetet</p>
-      <p styleId="Kontaktinfo" stylename="Kontaktinfo">Ola Nordmann, professor ved Senter for profesjonsstudier OsloMet – storbyuniversitetet</p>
-      <p styleId="Kontaktinfo" stylename="Kontaktinfo">Korrespondanse: Kari Nordmann, professor ved Senter for profesjonsstudier OsloMet – storbyuniversitetet</p>
-      <p styleId="Heading2" stylename="heading 2" outlinelvl="1">Abstract</p>
-      <p styleId="Abstract" stylename="Abstract">An ultra short sample abstract.</p>
-      <p styleId="Keywords" stylename="Keywords">
-         <strong>Keywords:</strong> Management, gender, career, engineers, expectations</p>
-      <p styleId="Heading2" stylename="heading 2" outlinelvl="1">Abstrakt</p>
-      <p styleId="Abstrakt" stylename="Abstrakt">Et lite abstrakt.</p>
-      <p styleId="Emneord" stylename="Emneord">
-         <strong>Emneord:</strong> Ledelse, kjønn, karriere, ingeniører, forventninger</p>
-      <p styleId="Heading2" stylename="heading 2" outlinelvl="1">Innledning</p>
-      <p>Lorem Ipsum.</p>
-      <p>Lorem Ipsum</p>
-      <p styleId="Heading2" stylename="heading 2" outlinelvl="1">Lister</p>
-      <p styleId="Heading3" stylename="heading 3" outlinelvl="2">En ordnet liste:</p>
+      <p styleId="Heading1" stylename="heading 1" outlinelvl="0">
+         <w:proofErr w:type="spellStart"/>Nested<w:proofErr w:type="spellEnd"/> lists</p>
+      <p styleId="Heading2" stylename="heading 2" outlinelvl="1">Liste 1: ol <w:proofErr w:type="spellStart"/>ol<w:proofErr w:type="spellEnd"/> ul</p>
       <ol class="decimal">
-         <li stylename="ListParagraph" ilvl="0" numId="1" format="decimal">ol num 1.2</li>
-         <li stylename="ListParagraph" ilvl="0" numId="1" format="decimal"> ol num 1.3<ul class="bullet">
-               <li stylename="ListParagraph" ilvl="1" numId="1" format="bullet">ol char 1.3.1</li>
-               <li stylename="ListParagraph" ilvl="1" numId="1" format="bullet">ol char 1.3.2</li>
+         <li stylename="ListParagraph" ilvl="0" numId="1" format="decimal">
+            <w:proofErr w:type="spellStart"/>decimal<w:proofErr w:type="spellEnd"/> 0-2</li>
+         <li stylename="ListParagraph" ilvl="0" numId="1" format="decimal">
+            <w:proofErr w:type="spellStart"/>decimal<w:proofErr w:type="spellEnd"/> 0-3<ul class="bullet">
+               <li stylename="ListParagraph" ilvl="1" numId="1" format="bullet">
+                  <w:proofErr w:type="spellStart"/>char<w:proofErr w:type="spellEnd"/> 1-1</li>
+               <li stylename="ListParagraph" ilvl="1" numId="1" format="bullet">
+                  <w:proofErr w:type="spellStart"/>char<w:proofErr w:type="spellEnd"/> 1-2<ul class="lowerRoman">
+                     <li stylename="ListParagraph"
+                         ilvl="2"
+                         numId="1"
+                         format="lowerRoman">
+                        <w:proofErr w:type="spellStart"/>bullet<w:proofErr w:type="spellEnd"/> 2-1</li>
+                     <li stylename="ListParagraph"
+                         ilvl="2"
+                         numId="1"
+                         format="lowerRoman">
+                        <w:proofErr w:type="spellStart"/>bullet<w:proofErr w:type="spellEnd"/> 2-2</li>
+                  </ul>
+               </li>
+               <li stylename="ListParagraph" ilvl="1" numId="1" format="bullet">
+                  <w:proofErr w:type="spellStart"/>char<w:proofErr w:type="spellEnd"/> 1-3</li>
             </ul>
          </li>
+         <li stylename="ListParagraph" ilvl="0" numId="1" format="decimal">
+            <w:proofErr w:type="spellStart"/>decimal<w:proofErr w:type="spellEnd"/> 0-4</li>
       </ol>
-      <p styleId="Heading3" stylename="heading 3" outlinelvl="2">En punktliste:</p>
+      <p styleId="Heading2" stylename="heading 2" outlinelvl="1">Liste 2:ul ul + ol ul</p>
       <ol class="decimal">
-         <li stylename="ListParagraph" ilvl="0" numId="2" format="decimal">ul 2.2<ol class="lowerLetter">
+         <li stylename="ListParagraph" ilvl="0" numId="2" format="decimal">
+            <w:proofErr w:type="spellStart"/>bullet<w:proofErr w:type="spellEnd"/> 0-2</li>
+         <li stylename="ListParagraph" ilvl="0" numId="2" format="decimal">
+            <w:proofErr w:type="spellStart"/>bullet<w:proofErr w:type="spellEnd"/> 0-3<ol class="lowerLetter">
                <li stylename="ListParagraph"
                    ilvl="1"
                    numId="2"
-                   format="lowerLetter">ul 2.2.1</li>
+                   format="lowerLetter">
+                  <w:proofErr w:type="spellStart"/>bullet<w:proofErr w:type="spellEnd"/> 1-1</li>
                <li stylename="ListParagraph"
                    ilvl="1"
                    numId="2"
-                   format="lowerLetter">ul 2.2.2</li>
+                   format="lowerLetter">
+                  <w:proofErr w:type="spellStart"/>bullet<w:proofErr w:type="spellEnd"/> 1-2</li>
             </ol>
          </li>
+         <li stylename="ListParagraph" ilvl="0" numId="2" format="decimal">
+            <w:proofErr w:type="spellStart"/>bullet<w:proofErr w:type="spellEnd"/> 0-4<ol class="lowerLetter">
+               <li stylename="ListParagraph"
+                   ilvl="1"
+                   numId="2"
+                   format="lowerLetter">decimal 1-1</li>
+               <li stylename="ListParagraph"
+                   ilvl="1"
+                   numId="2"
+                   format="lowerLetter">decimal 1-2<ul class="bullet">
+                     <li stylename="ListParagraph" ilvl="2" numId="2" format="bullet">square bullet 2-1</li>
+                     <li stylename="ListParagraph" ilvl="2" numId="2" format="bullet">square bullet 2-2</li>
+                  </ul>
+               </li>
+               <li stylename="ListParagraph"
+                   ilvl="1"
+                   numId="2"
+                   format="lowerLetter">decimal 1-3</li>
+            </ol>
+         </li>
+         <li stylename="ListParagraph" ilvl="0" numId="2" format="decimal">bullet 0-5</li>
       </ol>
       <p styleId="Heading2" stylename="heading 2" outlinelvl="1">En ordnet liste/uordnet-sub-liste:</p>
       <ol class="decimal">
@@ -81,205 +112,9 @@
             </ul>
          </li>
       </ol>
-      <p styleId="Heading2" stylename="heading 2" outlinelvl="1">Figurer</p>
-      <p styleId="ListParagraph" stylename="List Paragraph">
-         <w:drawing>
-            <wp:inline distT="0"
-                       distB="0"
-                       distL="0"
-                       distR="0"
-                       wp14:anchorId="5D4B0681"
-                       wp14:editId="17B757AC">
-               <wp:extent cx="5711825" cy="5711825"/>
-               <wp:effectExtent l="0" t="0" r="0" b="0"/>
-               <wp:docPr id="2" name="Picture 1" descr="E:\yellow-square.png"/>
-               <wp:cNvGraphicFramePr>
-                  <a:graphicFrameLocks xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main"
-                                       noChangeAspect="1"/>
-               </wp:cNvGraphicFramePr>
-               <a:graphic xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main">
-                  <a:graphicData uri="http://schemas.openxmlformats.org/drawingml/2006/picture">
-                     <pic:pic xmlns:pic="http://schemas.openxmlformats.org/drawingml/2006/picture">
-                        <pic:nvPicPr>
-                           <pic:cNvPr id="0" name="Picture 1" descr="E:\yellow-square.png"/>
-                           <pic:cNvPicPr>
-                              <a:picLocks noChangeAspect="1" noChangeArrowheads="1"/>
-                           </pic:cNvPicPr>
-                        </pic:nvPicPr>
-                        <pic:blipFill>
-                           <a:blip r:embed="rId7">
-                              <a:extLst>
-                                 <a:ext uri="{28A0092B-C50C-407E-A947-70E740481C1C}">
-                                    <a14:useLocalDpi xmlns:a14="http://schemas.microsoft.com/office/drawing/2010/main" val="0"/>
-                                 </a:ext>
-                              </a:extLst>
-                           </a:blip>
-                           <a:srcRect/>
-                           <a:stretch>
-                              <a:fillRect/>
-                           </a:stretch>
-                        </pic:blipFill>
-                        <pic:spPr bwMode="auto">
-                           <a:xfrm>
-                              <a:off x="0" y="0"/>
-                              <a:ext cx="5711825" cy="5711825"/>
-                           </a:xfrm>
-                           <a:prstGeom prst="rect">
-                              <a:avLst/>
-                           </a:prstGeom>
-                           <a:noFill/>
-                           <a:ln>
-                              <a:noFill/>
-                           </a:ln>
-                        </pic:spPr>
-                     </pic:pic>
-                  </a:graphicData>
-               </a:graphic>
-            </wp:inline>
-         </w:drawing>
-      </p>
-      <p styleId="Caption" stylename="caption">Figur <w:fldChar w:fldCharType="begin"/>
-         <w:instrText>SEQ Figur \* ARABIC</w:instrText>
-         <w:fldChar w:fldCharType="separate"/>1<w:fldChar w:fldCharType="end"/>. A yellow square.</p>
-      <p styleId="Heading2" stylename="heading 2" outlinelvl="1">Tables</p>
-      <p styleId="Tabelletikett" stylename="Tabelletikett">Table 1</p>
-      <p styleId="Tabellbeskrivelse" stylename="Tabellbeskrivelse">Demografiske data: Alder, utdanningsnivå og antall søsken fordelt på kjønn.</p>
-      <table>
-         <w:tblPr>
-            <w:tblW w:w="9245" w:type="dxa"/>
-            <w:tblBorders>
-               <w:top w:val="single" w:sz="4" w:space="0" w:color="000000"/>
-               <w:bottom w:val="single" w:sz="4" w:space="0" w:color="000000"/>
-               <w:insideH w:val="single" w:sz="4" w:space="0" w:color="000000"/>
-            </w:tblBorders>
-            <w:tblLook w:val="04A0"
-                       w:firstRow="1"
-                       w:lastRow="0"
-                       w:firstColumn="1"
-                       w:lastColumn="0"
-                       w:noHBand="0"
-                       w:noVBand="1"/>
-         </w:tblPr>
-         <w:tblGrid>
-            <w:gridCol w:w="3081"/>
-            <w:gridCol w:w="3082"/>
-            <w:gridCol w:w="3082"/>
-         </w:tblGrid>
-         <tr data-rid="d54e233">
-            <td>
-               <p styleId="TabellKolonneoverskrift" stylename="Tabell Kolonneoverskrift"/>
-            </td>
-            <td>
-               <p styleId="TabellKolonneoverskrift" stylename="Tabell Kolonneoverskrift">Kvinner</p>
-            </td>
-            <td>
-               <p styleId="TabellKolonneoverskrift" stylename="Tabell Kolonneoverskrift">Menn</p>
-            </td>
-         </tr>
-         <tr data-rid="d54e263">
-            <td>
-               <p styleId="TabellRadoverskrift" stylename="Tabell Radoverskrift">Alder</p>
-            </td>
-            <td>
-               <p>23±5</p>
-            </td>
-            <td>
-               <p>27±8</p>
-            </td>
-         </tr>
-         <tr data-rid="d54e285">
-            <td>
-               <p styleId="TabellRadoverskrift" stylename="Tabell Radoverskrift">Fullført utdanningsnivå</p>
-            </td>
-            <td>
-               <p>15±5</p>
-            </td>
-            <td>
-               <p>14±5</p>
-            </td>
-         </tr>
-         <tr data-rid="d54e307">
-            <td>
-               <p>Antall søsken</p>
-            </td>
-            <td>
-               <p>1±1</p>
-            </td>
-            <td>
-               <p>2±1</p>
-            </td>
-         </tr>
-      </table>
-      <p/>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at blandit sapien. Quisque sit amet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at blandit sapien. Quisque sit amet.</p>
-      <p styleId="Tabelletikett" stylename="Tabelletikett">Table 2 ( rowspan og colspan)</p>
-      <table>
-         <w:tblPr>
-            <w:tblStyle w:val="TableGrid"/>
-            <w:tblW w:w="0" w:type="auto"/>
-            <w:tblLook w:val="04A0"
-                       w:firstRow="1"
-                       w:lastRow="0"
-                       w:firstColumn="1"
-                       w:lastColumn="0"
-                       w:noHBand="0"
-                       w:noVBand="1"/>
-         </w:tblPr>
-         <w:tblGrid>
-            <w:gridCol w:w="3020"/>
-            <w:gridCol w:w="2999"/>
-            <w:gridCol w:w="2997"/>
-         </w:tblGrid>
-         <tr data-rid="d54e349">
-            <w:trPr>
-               <w:tblHeader/>
-            </w:trPr>
-            <td>
-               <p>Table header cell</p>
-            </td>
-            <td colspan="2">
-               <p>Table header cell, colspan = 2</p>
-            </td>
-         </tr>
-         <tr data-rid="d54e363">
-            <td rowspan="2">
-               <p>Table header cell, rowspan=2</p>
-            </td>
-            <td>
-               <p>Td</p>
-            </td>
-            <td>
-               <p>Td</p>
-            </td>
-         </tr>
-         <tr data-rid="d54e380">
-            <td colspan="2">
-               <p>Td, colspan=2</p>
-            </td>
-         </tr>
-      </table>
-      <p/>
-      <p styleId="Heading2" stylename="heading 2" outlinelvl="1">Forskjellig tekstformatering</p>
-      <p>Normal tekst. <em>Kursiv tekst.</em> 
-         <strong>Fet tekst</strong>. <strong>
-            <em>Fet/Kursiv tekst.</em>
-         </strong> Underlinjet tekst.</p>
-      <p>Sub tekst. Sup text.</p>
-      <p styleId="Heading2" stylename="heading 2" outlinelvl="1">Et blokksitat</p>
-      <p>Det er viktig å sitere ordentlig.</p>
-      <p styleId="Blokksitat" stylename="Blokksitat">Dette er et blokksitat.</p>
-      <p>Dette er et vanlig avsnitt.</p>
-      <p styleId="Heading2" stylename="heading 2" outlinelvl="1">Referanser</p>
-      <p styleId="Referanse" stylename="Referanse">Navnesen, N. (2012a). Article title. <em>Journalname</em>
-         <em>, </em>
-         <em>Journal-subname</em>
-         <em> 26</em>: (s.278-295). </p>
-      <p styleId="Referanse" stylename="Referanse">Navnesen, N. (2012b). <em>Some other articletitle</em>
-         <em>.</em> Oslo: Høgskolen I Oslo og Akershus, Avhandling 2012:1.</p>
       <w:sectPr w:rsidR="00A049D8">
-         <w:headerReference w:type="default" r:id="rId8"/>
-         <w:footerReference w:type="default" r:id="rId9"/>
-         <w:headerReference w:type="first" r:id="rId10"/>
+         <w:headerReference w:type="default" r:id="rId7"/>
+         <w:footerReference w:type="default" r:id="rId8"/>
          <w:pgSz w:w="11906" w:h="16838"/>
          <w:pgMar w:top="1440"
                   w:right="1440"
