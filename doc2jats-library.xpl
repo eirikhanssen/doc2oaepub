@@ -4,7 +4,7 @@
     xmlns:d2j="http://eirikhanssen.no/doc2jats" 
     xmlns:pkg="http://schemas.microsoft.com/office/2006/xmlPackage"
     xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main">
-
+    
     <p:declare-step type="d2j:docx-root" name="docx-root">
         <p:output port="result" sequence="true"/>
         <p:serialization port="result" indent="true" method="xml" omit-xml-declaration="true"/>
@@ -46,26 +46,26 @@
                         xmlns:wne="http://schemas.microsoft.com/office/word/2006/wordml"
                         xmlns:wps="http://schemas.microsoft.com/office/word/2010/wordprocessingShape"
                         xmlns:vt="http://schemas.openxmlformats.org/officeDocument/2006/docPropsVTypes"/>
-            </p:inline>
+                </p:inline>
             </p:input>
         </p:replace>
-       
+        
         <p:identity name="final"/>
         
     </p:declare-step>
-
+    
     <p:declare-step type="d2j:env" name="env">
         <p:output port="result" sequence="true"/>
         <p:serialization port="result" indent="true" method="xml" omit-xml-declaration="true"/>
         <p:input port="source"/>
         <p:input port="parameters" kind="parameter" sequence="true"/>
-
+        
         <p:insert match="/pkg:package" position="first-child">
             <p:input port="insertion">
                 <p:inline><env/></p:inline>
             </p:input>
         </p:insert>
-
+        
         <p:xslt name="xslt">
             <p:input port="source"/>
             <p:input port="stylesheet">
@@ -90,11 +90,11 @@
             
             
         </p:xslt>
-
+        
         <p:identity name="final"/>
         
     </p:declare-step>
-
+    
     <p:declare-step type="d2j:docx-flatten" name="docx-flatten">
         <p:output port="result" sequence="true"/>
         <p:serialization port="result" indent="true" method="xml" omit-xml-declaration="true"/>
@@ -136,21 +136,21 @@
                         <xsl:import href="doc2jats-functions.xsl"/>
                         <xsl:param name="folder"/>
                         <xsl:strip-space elements="*"/>
-                        <xsl:variable name="test"><xsl:sequence select="//pkg:part[@pkg_name='/_rels/.rels']//rp:Relationship/string(@Target)"/></xsl:variable>
+                        <!--<xsl:variable name="test"><xsl:sequence select="//pkg:part[@pkg_name='/_rels/.rels']//rp:Relationship[not(@TargetMode='External')]/string(@Target)"/></xsl:variable>-->
                         <!--<xsl:variable name="rels"><xsl:sequence select="string(pkg:part[@pkg_name='/_rels/.rels']//@*)"></xsl:sequence></xsl:variable>-->
                         <xsl:template match="/pkg:package">
                             <xsl:copy>
                                 <xsl:copy-of select="node() | @*"/>
                                 <!-- 
-                            <xsl:for-each select="$rels/@pkg_name">
+                                    <xsl:for-each select="$rels/@pkg_name">
                                     <xsl:call-template name="part"><xsl:with-param name="epath" select="$folder"/><xsl:with-param name="ipath" select="."/></xsl:call-template>    
-                            </xsl:for-each>
-                             -->
-                                <xsl:for-each select="//pkg:part[@pkg_name='/_rels/.rels']//rp:Relationship/string(@Target)">
+                                    </xsl:for-each>
+                                -->
+                                <xsl:for-each select="//pkg:part[@pkg_name='/_rels/.rels']//rp:Relationship[not(@TargetMode='External')]/string(@Target)">
                                     <xsl:call-template name="part"><xsl:with-param name="epath" select="$folder"/><xsl:with-param name="ipath" select="concat('/',.)"/></xsl:call-template>
                                 </xsl:for-each>
                                 
-                                <xsl:for-each select="//pkg:part[@pkg_name='/word/_rels/document.xml.rels']//rp:Relationship[@Type != 'http://schemas.openxmlformats.org/officeDocument/2006/relationships/image']/string(@Target)">
+                                <xsl:for-each select="//pkg:part[@pkg_name='/word/_rels/document.xml.rels']//rp:Relationship[not(@TargetMode='External')][@Type != 'http://schemas.openxmlformats.org/officeDocument/2006/relationships/image'][@Type != 'http://schemas.microsoft.com/office/2007/relationships/hdphoto']/string(@Target)">
                                     <xsl:call-template name="part"><xsl:with-param name="epath" select="$folder"/><xsl:with-param name="ipath" select="concat('/word/',.)"/></xsl:call-template>
                                 </xsl:for-each>
                             </xsl:copy>
@@ -160,11 +160,11 @@
                 </p:inline>
             </p:input>
         </p:xslt> <!-- xslt2 -->
-
+        
         <p:identity name="final"/>
         
     </p:declare-step>
-
+    
     <p:declare-step type="d2j:filter-w-document" name="filter-w-document">
         <p:output port="result" sequence="true"/>
         <p:serialization port="result" indent="true" method="xml" omit-xml-declaration="true"/>
@@ -181,7 +181,7 @@
         
         <p:identity name="final"/>
     </p:declare-step>
-
+    
     <p:declare-step type="d2j:flat-docx-to-html" name="docx-flatten">
         <p:output port="result" sequence="true"/>
         <p:serialization port="result" indent="true" method="xml" omit-xml-declaration="true"/>
@@ -221,9 +221,9 @@
                             <xsl:element name="p">
                                 <xsl:if test="w:pPr/w:pStyle/@w:val">
                                     <xsl:variable name="styleId" select="w:pPr/w:pStyle/@w:val"/>
-<!--                                    <xsl:variable name="currentstyle" select="./ancestor::pkg:package/pkg:part/pkg:xmlData/w:styles/w:style[@styleId = $styleId]"/>-->
+                                    <!--                                    <xsl:variable name="currentstyle" select="./ancestor::pkg:package/pkg:part/pkg:xmlData/w:styles/w:style[@styleId = $styleId]"/>-->
                                     <xsl:variable name="currentstyle" select="./ancestor::pkg:package/pkg:part/pkg:xmlData/w:styles/w:style[@w:styleId = $styleId]"/>
-<!--                                    <xsl:variable name="stylename" select="$currentstyle/w:name/@w:val"/>-->
+                                    <!--                                    <xsl:variable name="stylename" select="$currentstyle/w:name/@w:val"/>-->
                                     <xsl:variable name="stylename" select="$currentstyle/w:name/@w:val"/>
                                     <xsl:attribute name="styleId" select="$styleId"/>
                                     <xsl:attribute name="stylename" select="$stylename"/>
@@ -248,24 +248,24 @@
                                 <xsl:apply-templates/>
                             </xsl:element>
                         </xsl:template>
-    
+                        
                         <xsl:template match="w:p/w:pPr"/>
-
+                        
                         <!-- translate paragraph elements depending on style name -->
                         <!--
-                        
-                        <xsl:template match="w:p">
+                            
+                            <xsl:template match="w:p">
                             <xsl:call-template name="elementFromStyle">
-                                <xsl:with-param name="source-element" select="."/>
+                            <xsl:with-param name="source-element" select="."/>
                             </xsl:call-template>
-                        </xsl:template>
-                        
-                        <xsl:template match="w:tc">
+                            </xsl:template>
+                            
+                            <xsl:template match="w:tc">
                             <xsl:call-template name="tableElementFromStyle">
-                                <xsl:with-param name="source-element" select="."/>
+                            <xsl:with-param name="source-element" select="."/>
                             </xsl:call-template>
-                        </xsl:template>
-                        
+                            </xsl:template>
+                            
                         -->
                         
                     </xsl:stylesheet>
@@ -274,17 +274,17 @@
         </p:xslt>
         
         <p:delete match="w:rPr|w:spacing|w:lastRenderedPageBreak"/>
-       
-       <p:identity name="final"/>
+        
+        <p:identity name="final"/>
     </p:declare-step>
-
+    
     <p:declare-step type="d2j:ocf2htmltable">
         <p:output port="result" sequence="true"/>
         <p:serialization port="result" indent="true" method="xml" omit-xml-declaration="true"/>
         <p:input port="source"/>
         <p:input port="parameters" kind="parameter" sequence="true"/>
         
-        <p:xslt name="ocf-table-to-html" version="2.0">
+        <p:xslt name="ocf-table-to-html-table" version="2.0">
             <p:input port="source"/>
             <p:input port="parameters"/>
             <p:input port="stylesheet">
@@ -307,13 +307,24 @@
                         <xsl:import href="doc2jats-functions.xsl"/>
                         
                         <xsl:template match="w:tbl">
+                            <xsl:variable name="tablestyle" select="w:tblPr/w:tblStyle/@w:val"/>
                             <table>
+                                <xsl:if test="$tablestyle">
+                                    <xsl:attribute name="class" select="$tablestyle"/>
+                                </xsl:if>
                                 <xsl:apply-templates/>
                             </table>
                         </xsl:template>
                         
                         <xsl:template match="w:tc">
-                            <td>
+                            <xsl:variable name="table_cell_type">
+                                <xsl:choose>
+                                    <!-- VIRKER IKKE!!!!!!!! -->
+                                    <xsl:when test="./ancestor::w:tr[position() = 1]">th</xsl:when>
+                                    <xsl:otherwise>td</xsl:otherwise>
+                                </xsl:choose>
+                            </xsl:variable>
+                            <xsl:element name="{$table_cell_type}">
                                 <!-- Check if cell will span multiple cells -->
                                 <xsl:if test="w:tcPr/w:vMerge[@w:val='restart']">
                                     <!-- Calculate cell index with combined cells -->
@@ -327,23 +338,37 @@
                                     <xsl:attribute name="colspan" select="w:tcPr/w:gridSpan/@w:val" />
                                 </xsl:if>
                                 <xsl:apply-templates/>
-                            </td>
+                            </xsl:element>
                         </xsl:template>
                         
-<xsl:template match="w:tr">
-        <tr>
-            <xsl:attribute name="data-rid" select="generate-id(.)"/>
-            <!-- Apply template to cells which are not merged -->
-            <xsl:apply-templates select="w:trPr|w:tc[not(w:tcPr/w:vMerge[not(@w:val='restart')])]">
-            </xsl:apply-templates>
-        </tr>
-    </xsl:template>
+                        <xsl:template match="w:tr">
+                            <tr>
+                                <xsl:attribute name="data-rid" select="generate-id(.)"/>
+                                <!-- Apply template to cells which are not merged -->
+                                <xsl:apply-templates select="w:trPr|w:tc[not(w:tcPr/w:vMerge[not(@w:val='restart')])]">
+                                </xsl:apply-templates>
+                            </tr>
+                        </xsl:template>
+                        
+                        <xsl:template match="w:tr[1]">
+                            <thead>
+                            <tr>
+                                <xsl:attribute name="data-rid" select="generate-id(.)"/>
+                                <!-- Apply template to cells which are not merged -->
+                                <xsl:apply-templates select="w:trPr|w:tc[not(w:tcPr/w:vMerge[not(@w:val='restart')])]">
+                                </xsl:apply-templates>
+                            </tr>
+                            </thead>
+                        </xsl:template>
+                        
+                        <!-- maybe some of these can be used for more logic to the tables: -->
+                        <xsl:template match="w:tblPr|w:tblGrid|w:trPr"/>
                         
                     </xsl:stylesheet>
                 </p:inline>
             </p:input>
         </p:xslt>
-
+        
         <!-- have extracted rowspan/colspan from w:tcPr, so w:tcPr is no longer needed -->
         <p:delete match="w:tcPr"></p:delete>
     </p:declare-step>
@@ -355,7 +380,7 @@
         <p:input port="parameters" kind="parameter" sequence="true"/>
         
         <p:wrap match="//li" wrapper="lists" group-adjacent="//li"></p:wrap>
-    
+        
         <p:xslt name="group-lists" version="2.0">
             <p:input port="source"/>
             <p:input port="parameters"/>
@@ -390,8 +415,8 @@
                         </xsl:template>
                         
                         <!--  
-                        https://stackoverflow.com/questions/34301195/xslt-transformation-of-boolean-expressions/34308637#34308637
-                        https://stackoverflow.com/questions/42932880/how-do-we-convert-the-nested-lists-in-microsoft-word-docx-file-to-html-with-xslt
+                            https://stackoverflow.com/questions/34301195/xslt-transformation-of-boolean-expressions/34308637#34308637
+                            https://stackoverflow.com/questions/42932880/how-do-we-convert-the-nested-lists-in-microsoft-word-docx-file-to-html-with-xslt
                         -->
                         
                         <xsl:template name="grouping">
@@ -420,7 +445,7 @@
             </p:input>
         </p:xslt>
         
-      <p:xslt name="cleanup-lists" version="2.0">
+        <p:xslt name="cleanup-lists" version="2.0">
             <p:input port="source"/>
             <p:input port="parameters"/>
             <p:input port="stylesheet">
@@ -465,9 +490,9 @@
                 </p:inline>
             </p:input>
         </p:xslt>
-
-    <p:delete name="remove-unneeded-li-attributes" match="li/@stylename|li/@ilvl|li/@numId|li/@format"/>
-
+        
+        <p:delete name="remove-unneeded-li-attributes" match="li/@stylename|li/@ilvl|li/@numId|li/@format"/>
+        
     </p:declare-step>
-
+    
 </p:library>
