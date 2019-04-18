@@ -1,6 +1,20 @@
 #!/bin/bash
 timestamp=$(date +%Y%m%d-%H%M%S)
-foldername="$1-$timestamp"
-mkdir $foldername && cd $foldername && unzip ../$1 && cd ..
+docxfolder="$1-$timestamp"
+
+SOURCE="${BASH_SOURCE[0]}"
+while [ -h "$SOURCE" ]; do # resolve $SOURCE until the file is no longer a symlink
+  DIR="$( cd -P "$( dirname "$SOURCE" )" >/dev/null 2>&1 && pwd )"
+  SOURCE="$(readlink "$SOURCE")"
+  [[ $SOURCE != /* ]] && SOURCE="$DIR/$SOURCE" # if $SOURCE was a relative symlink, we need to resolve it relative to the path where the symlink file was located
+done
+DIR="$( cd -P "$( dirname "$SOURCE" )" >/dev/null 2>&1 && pwd )"
+PIPELINE="$DIR/doc2jats.xpl"
+
+mkdir $docxfolder && cd $docxfolder && unzip ../$1 && cd ..
+
+# get the absolute path and use that as a parameter
+FOLDER=$(readlink -f $docxfolder)
+
 #calabash -p filename=$1 -p timestamp=$timestamp -p folder=$foldername doc2jats.xpl
-calabash -p folder=$foldername doc2jats.xpl | pygmentize -l xml | less -R
+calabash -p folder=$FOLDER $PIPELINE | pygmentize -l xml | less -R
