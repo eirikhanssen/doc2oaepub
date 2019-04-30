@@ -33,68 +33,374 @@
             xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"
             mc:Ignorable="w14 w15 w16se w16cid wp14">
    <w:body>
-      <p styleId="Heading1" stylename="heading 1" outlinelvl="0">Nested lists</p>
-      <p styleId="Heading2" stylename="heading 2" outlinelvl="1">Liste 1: ol ol ul</p>
-      <ol class="decimal">
-         <li>decimal 0-1</li>
-         <li>decimal 0-2</li>
-         <li>decimal 0-3<ol class="lowerLetter">
-               <li>char 1-1</li>
-               <li>char 1-2<ul class="bullet">
-                     <li>bullet 2-1</li>
-                     <li>bullet 2-2</li>
-                  </ul>
-               </li>
-               <li>char 1-3</li>
-            </ol>
-         </li>
-         <li>decimal 0-4</li>
-      </ol>
-      <p styleId="Heading2" stylename="heading 2" outlinelvl="1">Liste 2:ul ul + ol ul</p>
-      <ul class="bullet">
-         <li>bullet 0-1</li>
-         <li>bullet 0-2</li>
-         <li>bullet 0-3<ol class="decimal">
-               <li>bullet 1-1</li>
-               <li>bullet 1-2</li>
-            </ol>
-         </li>
-         <li>bullet 0-4<ol class="decimal">
-               <li>decimal 1-1</li>
-               <li>decimal 1-2<ul class="bullet">
-                     <li>square bullet 2-1</li>
-                     <li>square bullet 2-2</li>
-                  </ul>
-               </li>
-               <li>decimal 1-3</li>
-            </ol>
-         </li>
-         <li>bullet 0-5</li>
-      </ul>
-      <p styleId="Heading2" stylename="heading 2" outlinelvl="1">En ordnet liste/uordnet-sub-liste:</p>
-      <ol class="decimal">
-         <li>ol item 3.1</li>
-         <li>ol item 3.2<ul class="bullet">
-               <li>ul item 3.2.1</li>
-               <li>ul item 3.2.2</li>
-            </ul>
-         </li>
-      </ol>
-      <w:sectPr w:rsidR="00A049D8">
-         <w:headerReference w:type="default" r:id="rId7"/>
-         <w:footerReference w:type="default" r:id="rId8"/>
+      <h1 styleId="Heading1" stylename="heading 1" outlinelvl="0">Exploring Healthcare Simulation Facilitators’ Conceptions of Teaching and Learning</h1>
+      <p styleId="AuthorName" stylename="(Author Name)">PhD TuulikkiKeskitalo*</p>
+      <p styleId="AuthorDetails" stylename="(AuthorDetails)">telephone: +358 44 4780290</p>
+      <p styleId="AuthorDetails" stylename="(AuthorDetails)">tuulikkikeskitalo.wordpress.com</p>
+      <p styleId="AuthorDetails" stylename="(AuthorDetails)">Lapland University of Applied Sciences</p>
+      <p styleId="AuthorDetails" stylename="(AuthorDetails)">Jokiväylä 11</p>
+      <p styleId="AuthorDetails" stylename="(AuthorDetails)">FI-96300 Rovaniemi</p>
+      <p styleId="AuthorDetails" stylename="(AuthorDetails)">E-mail: <span class="Hyperlink">tuulikki.keskitalo@lapinamk.fi</span>
+      </p>
+      <p styleId="AuthorName" stylename="(Author Name)">Professor Heli Ruokamo</p>
+      <p styleId="AuthorDetails" stylename="(AuthorDetails)">+358 40 587 9090</p>
+      <p styleId="AuthorDetails" stylename="(AuthorDetails)">University of Lapland, Faculty of Education</p>
+      <p styleId="AuthorDetails" stylename="(AuthorDetails)">Centre for Media Pedagogy (CMP),</p>
+      <p styleId="AuthorDetails" stylename="(AuthorDetails)">PO Box 122,</p>
+      <p styleId="AuthorDetails" stylename="(AuthorDetails)">FI-96101 Rovaniemi, Finland</p>
+      <p styleId="AuthorDetails" stylename="(AuthorDetails)">E-mail: <span class="Hyperlink">heli.ruokamo@ulapland.fi</span>
+      </p>
+      <h2 styleId="Heading2" stylename="heading 2" outlinelvl="1">Acknowledgements</h2>
+      <p>The financial support for this study was provided by Tekes (The Finnish Funding Agency for Innovations) and the EDRF (European Regional Development Fund) as well as from a number of public and private financiers as part of the MediPeda III project (2008–2010) and the CRICS project (2016–2018). The authors would like to thank the facilitators who participated in this study</p>
+      <p styleId="Endnotes" stylename="(Endnotes)">*Corresponding author</p>
+      <h2 styleId="Heading2" stylename="heading 2" outlinelvl="1">Abstract</h2>
+      <p styleId="Abstract" stylename="(Abstract)">This study aimed to investigate healthcare simulation facilitators’ conceptions of teaching and learning because they have an influence on the approaches and strategies used in teaching and learning, and ultimately they influence on learning outcomes. The study was conducted using a phenomenographic methodology to identify the variation in conceptions. This study included 37 healthcare simulation facilitators. The data were collected using both thematic and semi-structured individual and paired interviews. The iterative phenomenographic data analysis process revealed four categories of conceptions of learning: 1) learning as acquiring and reproducing knowledge and skills, 2) learning as applying and advancing knowledge and skills, 3) learning as transformation of individual thinking and behaviour and 4) learning as co-constructing knowledge and skills. Three categories of conceptions of teaching were also identified: 1) teaching as transmission of knowledge and skills, 2) teaching as development of students’ professional skills and 3) teaching as facilitation of learning. Based on the results of this study, we argue that, by changing teaching conditions, we may also affect the underlying conceptions of teaching and learning as well as approaches to teaching and ultimately learning outcomes. The results of this study can also be used to develop healthcare educators’ pedagogical training. However, facilitators’ conceptions and approaches to teaching and learning are not necessarily aligned; therefore, in future studies, our aim will be to continue the research by investigating how these self-perceived conceptions are related to approaches to teaching and learning within actual educational practices.</p>
+      <dl class="keywords">
+         <dt>Keywords:</dt>
+         <dd>healthcare simulation facilitators</dd>
+         <dd>teaching</dd>
+         <dd>learning</dd>
+         <dd>conceptions</dd>
+         <dd>phenomenography</dd>
+      </dl>
+      <h2 styleId="Heading2" stylename="heading 2" outlinelvl="1">Introduction</h2>
+      <p>Since 1970, scholars have used phenomenography to study teachers’ and students’ conceptions of teaching and learning (Säljö, 1979). The aim of the phenomenographic line of research has been to identify the variation in conceptions, or individuals’ different ways of experiencing and understanding the world (Marton 1981). From a phenomenographic perspective, conceptions are understood as specific meanings which are attached to certain phenomena and which then mediate and form our relationship to the world (Pratt, 1992; van Rossum &amp; Hamer, 2010). In other words, the conceptions affect how we understand the world; therefore, from a phenomenographic perspective the world is different for every person. </p>
+      <p>Since 1970, studies on teaching and learning conceptions have mostly been conducted within university settings and with students (e.g., Ellis, Goodyear, Calvo, &amp; Prosser, 2008; Lonka, Joram, &amp; Bryson, 1996; Paakkari, Tynjälä, &amp; Kannas, 2011). Some studies have focused on teachers’ conceptions of teaching and learning at different levels of education (e.g., Boulton-Lewis, Smith, McCrindle, Burnett, &amp; Campbell, 2001; Kember, 1997; Postareff &amp; Lindblom-Ylänne, 2008), but only a few have focused on teachers’ conceptions of teaching and learning within the field of healthcare education (Keskitalo, Ruokamo, Väisänen, &amp; Gaba, 2013; Jacobs, Muijtjens, Van Luijk, Van der Vleuten, Croiset, &amp; Scheele, 2015; Laksov, Nikkola, &amp; Lonka, 2008), and no one has used the phenomenographic method to study healthcare facilitators’ conceptions of teaching and learning. Previous research aimed to study conceptions regarding teaching and learning due to the influence of these conceptions on the approaches to and strategies used in teaching and learning, and ultimately on learning outcomes (Klatter, Lodewijks, &amp; Aarnoutse, 2001; Kember &amp; Kwan, 2000; Pratt, Sadownik, &amp; Selinger, 2012; Trigwell &amp; Prosser, 1996; Trigwell, Prosser, &amp; Waterhouse, 1999). However, Marton (1981) and Trigwell (2000) have pointed out that it is important to study conceptions independently in order to fully understand and develop the conceptions and, furthermore, education itself. As Barnard, McCosker and Gerber (1999, p. 219) state: “To be aware of conceptions is to be aware of our social reality and ourselves.” </p>
+      <p>The purpose of the study is to provide insight into the variations in healthcare simulation facilitators’ conceptions of teaching and learning by revealing the conceptions, assumptions and justifications behind their teaching activities, and possibly to broaden the facilitators’ perspective on effective teaching and learning in healthcare education (cf. Pratt et al., 2012). This is especially important because simulation-based learning environments (SBLEs) have permanently changed the education process within the healthcare field (Gaba, 2004; Helle &amp; Säljö, 2012), and the traditional ways of thinking about and approaches to teaching and learning may not be the most successful. Within the field of healthcare education some facilitators also hold their teaching positions without having had any formal training in education and pedagogy. Put together, the purposes of this study are not simply to describe the phenomenon, but also to describe how healthcare simulation facilitators have responded to the challenges created by these novel learning environments. In this study, SBLEs refer to real-like contexts in which healthcare students and professionals learn new skills and knowledge or maintain their competence. According to Rall and Dieckmann (2005, p. 274), “simulation, in short, means to do something in the ‘as if’, to resemble ‘reality’ (always not perfectly, because then it would be reality again), e.g., to train or learn something without the risks or costs of doing it in reality.” Pedagogically simulation-based training has similarities with problem- or case-based learning, where the learner’s own activity is central for learning, and the teachers are more like a facilitator of learning (Keskitalo, 2015; Dieckmann, 2009). As noted, in this study, we also use the concept facilitator, instead of teacher, because during the simulation-based healthcare education, the facilitator’s role is to be more like a guide or a tutor, supporting participants’ learning.</p>
+      <p>In this study, conceptions of teaching and learning are understood as the meanings that teaching and learning hold for healthcare simulation facilitators (Åkerlind, 2003). Conceptions are comparable to frames and beliefs through which people observe, interpret and create the meanings of phenomena (see, e.g., Kember, 1997). The broader the frames are, the more awareness one has of the phenomena – —in this case the phenomena being teaching and learning. Previous studies have shown that our conceptions are developed through experience (Barnard et al., 1999; Entwistle &amp; Peterson, 2004; Entwistle &amp; Walker, 2000; Tigchelaar, Vermunt, &amp; Brouwer, 2014), which makes them personal, intuitive, relatively stable, and charged with emotions (Entwistle &amp; Peterson, 2004; Entwistle &amp; Walker, 2000). However, some researchers have argued that certain types of instruction and learning environments may change these enduring conceptions of teaching and learning held by teachers and students (e.g., Postareff, Lindblom-Ylänne, &amp; Nevgi, 2007). Marton (1981) has also argued that there are only a finite number of ways in which people can experience phenomena, which indicates that there are many commonalities in conceptions. However, due to our individual experiences in the world, there are also individual differences in conceptions (Barnard et al., 1999). According to Paakkari, Tynjälä, and Kannas (2010), some people are able to discern more aspects of phenomena than others, thus having greater awareness and a more complex understanding of the phenomena. However, from a phenomenographic point of view, this simply means that people are aware of different aspects of the phenomena. For example, Pratt et al. (2012) describe five different sets of pedagogical BIASes: “B” stands for belief, “I” is intention, “A” is assumption, and “S” is strategy. According to Pratt et al. (2012), BIASes are lenses we use when approaching clinical teaching. In addition to BIASes, there are <em>conceptions</em>, which is the term used and studied in our study. However, according to Pratt et al. (2012, p. 9), no BIAS is more or less effective than any other one. They are simply different. In addition, some studies suggest that there is no critical difference in conceptions of teaching and learning across contexts (Lam &amp; Kember, 2004); rather the context provides additional shades of meaning in those conceptions (Dahlin &amp; Regmi, 1997). To summarize, in our study teaching and learning are understood in a finite number of common, qualitatively different ways, and the differences in conceptions depend very much on the facilitators’ different experiences of the world.</p>
+      <p>Previous research has proposed several categorizations of conceptions of teaching and learning. Kember and Kwan (2000) propose two broad categories of <em>conceptions of teaching</em>: teaching as transmission of knowledge and teaching as learning facilitation. The first category includes the subcategories teaching as transferring information and teaching as enhancing student understanding, and the latter category includes the subcategories teaching as meeting students’ learning needs and teaching as facilitating students in becoming independent learners. These main categories are also referred to as teacher-centered/content-oriented and student-centered/learning-oriented (Kember 1997; see also Samuelowicz &amp; Bain, 2001). In addition, Kember (1997) proposes a so-called intermediate category which serves as a link between the two extreme categories. This intermediate category stresses the importance of student-teacher interaction in teaching and learning. </p>
+      <p>Earlier research on conceptions of teaching and learning has led to different categorizations of learning as well (Bruce &amp; Gerber, 1995; Marton, Dall’Alba, &amp; Beaty 1993; Paakkari et al., 2011; Säljö, 1979). For example, Marton et al. (1993) have proposed qualitatively different conceptions of learning in their study of British Open University students: 1) increasing one’s knowledge, 2) memorizing and reproducing, 3) applying, 4) understanding, 5) seeing something in a different way, and 6) changing as a person. Boulton-Lewis et al. (2001) conducted phenomenographic research on secondary teachers and found results that are similar to those of Marton et al. (1993). There are also similarities in the categorization developed by Bruce and Gerber (1995); however, they established an additional category: learning as developing the competencies needed by entry-level professionals<em>. </em>Within this category, the ability to implement successful practical applications is considered important. As Bruce and Gerber (1995, 451) state, “competence involves having a repertoire of skills, being able to apply knowledge, and generally being prepared for the workplace.” The necessary skills and knowledge are acquired through real-life cases and problems. This supports Säljö’s (1979) work in the late 1970s. </p>
+      <p>As the studies discussed above suggest, conceptions of teaching and learning seem to be somewhat universal regardless of differences in the experiences, context or target group (cf. Paakkari et al., 2011), supporting the idea that there are commonalities and a finite number of ways of experiencing the phenomenon (Barnard et al., 1999; Marton, 1981). As Dahlin and Regmi (1997) argue, there can be underlying similarities in conceptions, but the time and the context affect the aspect on which we focus. For example, research on conceptions of teaching and learning within the medical domain has shown that so-called professional orientation, as described by Bruce and Gerber (1995), is often considered important in teaching and learning in the medical fields (Keskitalo et al., 2013), which indicates that there may be a context-specific component in conceptions of teaching and learning (cf. Bruce &amp; Gerber, 1995; Lonka et al., 1996). However, the extent to which the categories are contextually-bound remains a subject of debate (Paakkari et al., 2010) and, therefore, further study is needed.</p>
+      <p>Keeping in mind the earlier studies of teachers’ conceptions of teaching and learning discussed above, the aim of this study is to provide insight regarding the healthcare simulation facilitators’ different ways of understanding teaching and learning within the SBLE in order to help them better understand their educational practices, and to develop them. We set the following research question for our study: </p>
+      <p styleId="Endnotes" stylename="(Endnotes)">1) How do healthcare simulation facilitators understand teaching and learning?</p>
+      <h2 styleId="Heading2" stylename="heading 2" outlinelvl="1">Methods</h2>
+      <h3 styleId="Heading3" stylename="heading 3" outlinelvl="2">Participants</h3>
+      <p>The study was conducted using a phenomenographic methodology to identify the variation in participants’ conceptions.<em/>The participants in the study included 37 healthcare simulation facilitators from three different healthcare educational institutions (two universities of applied sciences in Finland and one university in the United States). There were 19 male and 18 female participants. The specialties of the facilitators were nursing, paramedics, anesthesia and emergency medicine. Twelve of the facilitators had also received pedagogical training. In this study, the participants often used a high-fidelity simulation technology, and consequently simulation sessions were typically structured into the following four phases: introduction, simulator and scenario briefing, scenario and debriefing (e.g., Keskitalo, 2015). However, the implementation may vary depending on the learning objectives. </p>
+      <h3 styleId="Heading3" stylename="heading 3" outlinelvl="2">Data Collection</h3>
+      <p>The data were collected from 37 healthcare simulation facilitators through paired and individual interviews during the years 2008–2016 (Table 1). During the first study, thematic interviews were conducted with eight healthcare facilitators. During studies 2–5, the data were collected using various methods in order to develop the pedagogical model for SBLEs (see Keskitalo, 2015); however, in the present study facilitators’ individual and paired interviews were analyzed. In this study, first author was responsible for collecting the interviews included in studies 1 and 2, while second author was responsible for collecting the interviews included in studies 3, 4 and 5.</p>
+      <p>
+         <w:br w:type="page"/>
+      </p>
+      <p styleId="TableCaption" stylename="(Table Caption)">
+         <span class="TableCaption--labelChar">Table 1.</span> Data collection, data sources, and data analysis methods</p>
+      <table>
+         <thead>
+            <tr data-rid="d59e630">
+               <th>
+                  <p styleId="TableHeader" stylename="(Table Header)">Studies</p>
+               </th>
+               <th>
+                  <p styleId="TableHeader" stylename="(Table Header)">Data collection method</p>
+               </th>
+               <th>
+                  <p styleId="TableHeader" stylename="(Table Header)">Data-analysis method</p>
+               </th>
+            </tr>
+         </thead>
+         <tr data-rid="d59e657">
+            <th>
+               <p styleId="TableHeader" stylename="(Table Header)">Study 1 (2008, Finland)</p>
+            </th>
+            <th>
+               <p>Thematic individual interviews with simulation facilitators (<em>n</em> = 8)</p>
+               <p/>
+            </th>
+            <th>
+               <p>Phenomenographic analysis</p>
+            </th>
+         </tr>
+         <tr data-rid="d59e681">
+            <th>
+               <p styleId="TableHeader" stylename="(Table Header)">Study 2 (2009, Finland)</p>
+            </th>
+            <th>
+               <p>Semi-structured individual interviews with simulation facilitators (<em>n</em> = 4)</p>
+               <p/>
+            </th>
+            <th>
+               <p>Phenomenographic analysis </p>
+            </th>
+         </tr>
+         <tr data-rid="d59e705">
+            <th>
+               <p styleId="TableHeader" stylename="(Table Header)">Study 3 (2010, USA) </p>
+            </th>
+            <th>
+               <p>Semi-structured interviews:</p>
+               <p>Paired interviews with simulation facilitators (<em>n</em> = 8, interviewed in pairs) </p>
+               <p>Individual interviews with facilitators (<em>n</em> = 1)</p>
+               <p/>
+            </th>
+            <th>
+               <p>Phenomenographic analysis </p>
+            </th>
+         </tr>
+         <tr data-rid="d59e734">
+            <th>
+               <p styleId="TableHeader" stylename="(Table Header)">Study 4 (2013–2014, USA)</p>
+            </th>
+            <th>
+               <p>Semi-structured individual interviews with simulation facilitators (<em>n</em> = 7)</p>
+            </th>
+            <th>
+               <p>Phenomenographic analysis</p>
+            </th>
+         </tr>
+         <tr data-rid="d59e757">
+            <th>
+               <p styleId="TableHeader" stylename="(Table Header)">Study 5 (2016, USA)</p>
+            </th>
+            <th>
+               <p>Semi-structured individual interviews with simulation facilitators (<em>n</em> = 9)</p>
+            </th>
+            <th>
+               <p>Phenomenographic analysis</p>
+            </th>
+         </tr>
+      </table>
+      <p>Each of the interviews ranged in length from 30 to 80 minutes. Eight participants were interviewed in pairs, whereas the others were interviewed individually. However, we tried to ensure that this imbalance in the data collection methods would not affect our data collection and analysis. For example, in pair interviews, the interviewees naturally elicited discussion by commenting on and complementing each other’s answers, whereas in the individual interviews the interviewer was responsible for eliciting discussion.</p>
+      <p>During the first study (2008), the interview themes were: 1) the possibilities and limitations of simulation-based learning environments for educational use, 2) the basis of the teachers’ pedagogical thinking, 3) the pedagogical principles, models and methods used in a simulation-based learning environment, 4) the role of the teacher, 5) the strength of the pedagogical community, 6) the need for continuing education, and 7) the teacher’s participation in developmental work. More specifically, the questions we asked included: <em>How would you describe learning? How do you think learning occurs after these sessions? </em>During the interviews, the aim was to have free and open-ended discussions, but the facilitators were also encouraged to provide examples or explanations through questions such as <em>Could you explain some more?</em> or <em>Could you give me an example?</em> The interviews conducted during the studies 2 to 5 were similar to those in the first study, but the interviews in these studies involved more questions related to the development of the pedagogical model. An example of an interview questions from these studies are: <em>Describe how you </em>
+         <em>organise</em>
+         <em> your courses.</em>
+         <em>Is there any phase that plays a more important role than the others? Why? </em>During the third study (2010), the interviews were similar to those in the study two, four and five, but paired interviews were used. The interviews in the US were conducted in English, and the ones in Finland in Finnish; the Finnish responses were later translated into English. Thereafter, the interviews were voice-recorded and transcribed verbatim prior to analysis.</p>
+      <h4 styleId="Heading4" stylename="heading 4" outlinelvl="3">Data Analysis </h4>
+      <p>The data analysis was conducted using a phenomenographic approach (Marton, 1981; Marton et al., 1993; Åkerlind, 2005). Phenomenography aims to describe, analyze, and understand conceptions and different ways of experiencing the target phenomenon on a collective level (Marton, 1981). As Åkerlind (2005, 323) states, “Phenomenographic research aims to explore the range of meanings within the sample group, as a group, not the range of meanings for each individual within the group.” The aim of phenomenographic analysis is to provide insight regarding the variations in understanding of the target phenomenon; therefore, each qualitatively different conception is important. Another characteristic of the phenomenographic research tradition is the application of a second-order perspective (Marton, 1981). According to Marton (1981), the aim of a second-order perspective is to describe, analyze and understand people’s experiences of the world, whereas a first-order perspective aims to describe the world directly. Thus, the focus of the phenomenographic research tradition is on the individual’s perceptions of reality rather than reality itself. </p>
+      <p>In order to establish a general understanding of the phenomenon, the transcribed interviews were read several times. During the data analysis process, the data were treated as a whole (Åkerlind, 2005) in order to identify the varying conceptions on a collective level. During the first reading, meaning units were underlined, and a mind map was developed to obtain an overall picture of the phenomenon and identify all possible conceptions and ideas that facilitators might have related to teaching and learning within an SBLE, and to see how the ideas and conceptions were related. The meaning units in the study consisted of sentences, groups of sentences, ideas or episodes that somehow reflected the conceptions of teaching and learning. In the phenomenographic research tradition, the first reading involves searching for meaning and is characterized by open-mindedness to all possible meanings that may be found in the data (Åkerlind, 2005). During the reading, our initial focus was on the words themselves; however, in order to understand the interviewees more accurately, it was necessary to read larger portions of the transcripts (Bowden, 2005). In addition, the entire transcript was also read thoroughly in order to analyze all the information provided by the interviewees; thus the focus was not only on questions related to teaching and learning. The data analysis process was iterative in nature in the sense that the data were re-read several times, and we moved back and forth between the data and the interpretations to verify the accuracy of our interpretations. This iterative data analysis process helped us remain open-minded and detect misinterpretations in our own thinking and reasoning until the final categories were formulated (Åkerlind, 2005). During this study, first author made the initial analysis, while the final categories were negotiated and agreed together.</p>
+      <p>The aim of the analysis process was to develop a hierarchical category system (see, e.g., Åkerlind, 2005) where each category forms part of a larger whole and together they form the phenomenon (Barnard et al., 1999). According to Marton and Booth (1997), each category of conceptions of teaching and learning has distinctive characteristics. During the analysis process, our focus was on the “how” (how subjects are taught or learned) and “what” (what the focus of teaching or learning is) aspects of teaching and learning, as well as on detecting similarities and differences within and between the categories (Harris, 2011; Åkerlind, 2005). In addition, Samuelowicz and Bain’s (2001) belief dimensions as well as Paakkari et al.’s (2011) themes helped us focus our data analysis. The conceptions of learning are reported first, because it seems that those mediated the facilitators’ description of their conceptions of teaching. </p>
+      <h2 styleId="Heading2" stylename="heading 2" outlinelvl="1">Results </h2>
+      <h3 styleId="Heading3" stylename="heading 3" outlinelvl="2">Conceptions of Learning</h3>
+      <p>In this study, four distinct categories of conceptions about learning were identified among the facilitators we interviewed: 1) <em>Learning as acquiring and reproducing knowledge and skills</em>, 2) <em>Learning as applying and advancing knowledge and skills</em>, and 3) <em>Learning as transformation of individual</em>
+         <em> t</em>
+         <em>hinking and behavior </em>and 4) <em>Learning as co-constructing knowledge and skills</em>. Detailed descriptions regarding the way learning is understood by healthcare simulation facilitators are provided below. </p>
+      <h4 styleId="Heading4" stylename="heading 4" outlinelvl="3">Learning as Acquiring and Reproducing Knowledge and Skills</h4>
+      <p>In the first category, which is learning as the acquisition and reproduction of knowledge and skills, the goal in learning is to acquire and reproduce knowledge and skills in a manner which is appropriate for the subject the students are studying. In this category, facts and skills are also constructed by the teachers for the students, thus making this category teacher-centered. Knowledge and skills are considered rather unproblematic, which diminishes the value of reflection. According to facilitators who hold this conception, knowledge and skills are acquired using basic study skills such as discussing, reading, listening and observing; thus, the range of study strategies is rather restricted and traditional from their point of view. Learning was also seen as something that cannot be seen, and which some of the facilitators’ thinks happens in a learner’s brain. In the following excerpt, facilitator describes how he thinks people learn:</p>
+      <p styleId="Blockquote" stylename="(Blockquote)">“I guess it’s being presented with new information and how your brain is able to process it to understand it and to build a little bit more knowledge about it.” (Facilitator 34)</p>
+      <p>In this category, learning can be considered to have occurred when students have memorized knowledge and can imitate the behavior correctly within the context of their field of study.</p>
+      <h4 styleId="Heading4" stylename="heading 4" outlinelvl="3">Learning as Applying and Advancing Knowledge and Skills</h4>
+      <p>In the second category, learning is viewed as the application and advancement of knowledge and skills in order to solve medical problems in new situations and become a better healthcare professional. Compared to the previous category of learning conceptions, in which the purpose is to acquire knowledge and skills, knowledge and skills in this category must be applied in the care of real patients. Thus, the focus of learning is on the competencies the students must attain, but also on the application of these competencies, using strategies such as problem solving, trial and error, gaining experience, practicing, and working through positive and negative feedback. The goal of learning in this category is to develop a more competent learner and healthcare worker. According to the facilitators, this type of learning makes students more independent, experienced and comfortable in various situations they will encounter in their future careers, as the following facilitator describes:</p>
+      <p styleId="Blockquote" stylename="(Blockquote)">“I think it [the SBLE] makes them more comfortable. The next time they’re in a situation like this, maybe they will remember to designate roles. Maybe they’ll remember to sort of cut through the chaos and really look at what’s important right now and be able to process.” (Facilitator 18)</p>
+      <p>In this category, the acquisition of experience through experiential learning and the application of knowledge and skills are seen as crucial. However, the knowledge and skills are still constructed by the teacher for the students. This diminishes the importance of reflection in the debriefing phase. The critical reflection is more descriptive in nature, concentrating more on what and how question, e.g. <em>Describe what just happened? </em>
+      </p>
+      <h4 styleId="Heading4" stylename="heading 4" outlinelvl="3">Learning as Transformation of Individual Thinking and Behavior</h4>
+      <p>In the third category, learning was seen as a transformation of individual thinking and behavior. It was seen as doing and thinking about one’s own actions and reasoning process during the scenarios in the debriefing in order to change the way of thinking. To transform learners’ thinking and aid their future performance, the facilitator tried to detect their knowledge gaps, as this facilitator described:</p>
+      <p styleId="Blockquote" stylename="(Blockquote)">“So I think there’s a balance because it’s, like, if we say this isn’t just a change in a behavior, it’s based on their own change and knowledge and attitudes and perceptions. So it’s, like, you’ve got to understand where they’re coming from and where they’re at, what have they acquired, what haven’t they?” (Facilitator 28)</p>
+      <p>This category differs from the previous category because it stresses the individual thinking process, in addition to acquiring and applying knowledge. Although in those previous categories there are elements of reflection, in this category it is more critical and concentrated on the why questions. That is, the reasons behind the certain actions.</p>
+      <h4 styleId="Heading4" stylename="heading 4" outlinelvl="3">Learning as Co-constructing Knowledge and Skills</h4>
+      <p>In the fourth category, learning as the co-construction of knowledge and skills, students co-construct their own knowledge and skills in a collaborative setting with other participants. Thus, the knowledge is viewed, at the same time, as personal and shared, something which guides the students’ personal and professional development in their lifelong learning process. The simulation-based learning environment offers a safe context for dialogue and the expansion of one’s own view of the world to take place, where everyone is treated as a genuinely equal participant. In this category, the focus of learning is on the competencies students will need to acquire in order to change their ways of thinking and behaving, but also to interpret reality in order to act properly in changing condition. Consequently, the knowledge and skills used in patient care are seen as problematic, and critical reflection is necessary for professional development. Compared to the previous category, in this conception of learning, facilitators also give the students an active role in defining the learning objectives, thus taking into account the students’ existing conceptions. In this conception of learning, students are viewed as active participants from the beginning, as described in the following excerpt:</p>
+      <p styleId="Blockquote" stylename="(Blockquote)">“So there has to be some interweaving of the teacher’s goals with the learner’s goals. When those can be aligned or explicitly explained as the teacher’s goals to become also the learner’s goals, that there’s a lot more buy-in and a lot more learning that happened.” (Facilitator 23)</p>
+      <p>In this category, learning requires study strategies such as verbalizing and sharing, reflecting, talking out loud, giving and receiving feedback, reasoning and gaining insight from others, and the facilitator is seen as guiding the learning process. As noted earlier, the salient feature of this conception of learning is the importance of reflection—not only the why question but also <em>what if</em> questions—to aid learners’ co-construction of knowledge for new situations. This category was viewed as student-centered since the students’ existing conceptions and previous knowledge, as well as their own activity, were considered to be central for learning. In the words of Samuelowicz and Bain (2001, p. 315), in this category facilitators used “student-centered language” to describe teaching and learning.</p>
+      <h3 styleId="Heading3" stylename="heading 3" outlinelvl="2">Conceptions of Teaching </h3>
+      <p>Based on the iterative data analysis process, respondents’ views of teaching were grouped into three distinct categories: 1) <em>teaching as transmission of knowledge and skills, 2) teaching as development of students’ professional skills,</em> and 3)<em> teaching as facilitation of learning</em>. A detailed description regarding how teaching is understood by the healthcare simulation facilitators is provided below. </p>
+      <h4 styleId="Heading4" stylename="heading 4" outlinelvl="3">Teaching as Transmission of Knowledge and Skills</h4>
+      <p>In the first category, teaching as the transmission of knowledge and skills is based on the content and the facilitators’ expertise. In other words, the focus is on the content, or the skills and knowledge needed in the healthcare field. However, in comparison with the other categories, in this conception of teaching the teacher is seen as the one who defines what is to be learned and how it will be learned, as the following facilitator describes:</p>
+      <p styleId="Blockquote" stylename="(Blockquote)">“[T]eaching could also be showing those model performances…that you show how… You show how some things are done, then you give a model performance, and then others can imitate the behavior.” (Facilitator 4)</p>
+      <p>In the excerpt above, teaching is described as a process in which the teacher’s role is to introduce important learning concepts and skills, define goals, and assess student performance. The teacher’s role involves presenting information as well as giving an example of an ideal performance or operation for the students. Consequently, the students’ role is viewed as being rather passive since the knowledge is externally constructed for them and their existing conceptions are not taken into account in this type of teaching. Thus, the heart of the interaction involves the facilitator and his or her level of expertise, rather than teacher-student interaction on an equal basis, as the following excerpt illustrates:</p>
+      <p styleId="Blockquote" stylename="(Blockquote)">“And I don’t think we query them enough as to what it is that they want to learn. I think we have a tendency to teach them what we want them to learn. And sometimes there’s a disconnect where they may want to really focus on what [they] did right or wrong in terms of the medical management of a patient, and not really understand some of these other softer things, like communication and teamwork.” (Facilitator 15)</p>
+      <p>This category was viewed as teacher-centered since in this conception of teaching the facilitator is the main actor who tries to transmit externally constructed knowledge and skills to the students. Applying Samuelowicz and Bains’ (2001) words, the facilitators use kind of teacher-centered language to describe their teaching. </p>
+      <h4 styleId="Heading4" stylename="heading 4" outlinelvl="3">Teaching as Development of Students’ Professional Skills</h4>
+      <p>In the second category, teaching as developing students’ professional skills, the teaching is planned based on the competencies the students will need later in real-life situations, and the goal of teaching is to educate future professionals, as the following facilitator states:</p>
+      <p styleId="Blockquote" stylename="(Blockquote)">“I try to take into account what the residents are exposed to here or the learners are exposed to here. And how relevant that is to their clinical practice. How likely are they to encounter some of these situations? Or how much of an impact would these situations have upon them should they encounter them here? Particularly, I think we’re aiming towards independent practice.” (Facilitator 14)</p>
+      <p>According to this conception of teaching, the aim of the learning process is to learn the specific competencies the students will need in the future in the healthcare field. In other words, the teacher’s task is to prepare the students for the workplace. Compared to the previous category, in this category the teacher considers the students in such a way that he/she spends time and effort giving examples and explaining the things being learned to the students, but from his or her point of view, since he or she is the expert in the field. Thus, in this type of teaching the aim is to produce applicable knowledge for the students to take in and use. Teachers also use strategies such as providing models, telling, giving examples, illustrating and structuring. The teacher is also responsible for selecting useful and applicable information, as well as cases and problems that are similar to the ones the students will encounter in real life.</p>
+      <p>Consequently, the student’s role is to practice the competencies required of entry-level professionals (cf. Bruce &amp; Gerber, 1995). The interaction takes place in an atmosphere in which the teacher-student relationship is closer to being based on equality than in the previous conception of learning. The students are treated like future healthcare workers and are provided with a safe environment in which to practice their knowledge and skills and share experiences.</p>
+      <h4 styleId="Heading4" stylename="heading 4" outlinelvl="3">Teaching as Facilitation of Learning<w:tab/>
+      </h4>
+      <p>In the third category, the conception of teaching as facilitating students’ learning, the planning of the teaching initially focuses on the individual student, including each student’s backgrounds, needs, expectations, motivation, and individual learning style, as the following excerpt illustrates:</p>
+      <p styleId="Blockquote" stylename="(Blockquote)">“[I]n a way, those learning needs arise from students and through students, so that if a teacher defines them alone, those learning needs and results and goals, obstacles could emerge.” (Facilitator 6)</p>
+      <p>In this category, the content and learning objectives are defined by the teacher, but they can be changed, depending on the learning needs of the students. The objectives can even be planned with the students’ participation, which makes it possible to take the students’ existing conceptions into account. Therefore, the characteristics of this category include flexible course plans that can be easily changed. To teach competencies, teachers also use a variety of pedagogical methods, as the following facilitator describes:</p>
+      <p styleId="Blockquote" stylename="(Blockquote)">“I also use lots of discussion. I like the blackboard and the flip chart and drawing and asking questions, involvement.” (Facilitator 9)</p>
+      <p>In most descriptions, the facilitators’ main role is to create the safe learning environment for the learners. The teacher’s role within in the learning environment is often described as helping, guiding, instructing, motivating, supporting, encouraging and maintaining student learning. Consequently, students are viewed as individuals and are considered to be equal to the facilitators, which makes learning as a two-way process. The students are active during the learning process, and they are viewed as responsible for and capable of acquiring knowledge and constructing their own understanding of the content. Teachers’ and students’ roles are described in the following excerpt:</p>
+      <p styleId="Blockquote" stylename="(Blockquote)">“But in what we do, it’s more providing a learning environment that’s kind of exploratory. We set the scene for it; we have the residents carry out the various tasks and manage it. We don’t really interfere too much with that. And then we hope when we talk in the debriefing to kind of figure out what do they do, why do they do it, and where are the gaps. And I think that’s the bit. We kind of have the background from the simulation, and then we try to look for the gaps and either have the participant self-learn by exposing those gaps or try and fill those gaps in some way.” (Facilitator 14)</p>
+      <p>To summarize, in this category, facilitators acknowledge their role as facilitators of the students’ learning. This means creating a safe environment for students’ learning, taking into account the individual students, and using strategies they think will aid the students’ life-long learning. </p>
+      <h2 styleId="Heading2" stylename="heading 2" outlinelvl="1">Discussion and Conclusion</h2>
+      <p>The aim of this study was to examine the different ways that healthcare facilitators understand the teaching and learning processes within an SBLE. In this study, four conceptions of learning and three conceptions of teaching were identified that are congruent to the conceptions found in previous research (e.g., Keskitalo, 2011; Keskitalo et al., 2013; Boulton-Lewis et al., 2001; Kember &amp; Kwan, 2000; Marton et al., 1993; Paakkari et al., 2011; Postareff &amp; Lindblom-Ylänne, 2008). In this study, the conceptions of teaching as the development of students’ professional skills (cf. Bruce &amp; Gerber, 1995; Lindblom-Ylänne &amp; Lonka, 1999), as well as teaching as the facilitation of student learning (Keskitalo et al., 2013) were viewed as highly relevant. In this study, the facilitators often stressed the students’ roles as future professionals for whom learning how to apply knowledge, perform clinical procedures, and become competent professionals are the most crucial goals to accomplish. Learning as the application and advancement of knowledge and skills was viewed as the most important category of learning conceptions. This is in line with the previous studies that have found this to be an important learning category within the context of healthcare education (cf. Bruce &amp; Gerber, 1995; Lindblom-Ylänne &amp; Lonka, 1999). Previous research has explained the similarities and differences between the conceptions of teaching and learning as being dependent on the individuals involved, the discipline being studied, and the context (Boulton-Lewis et al., 2001; Dahlin &amp; Regmi, 1997; Paakkari et al., 2010).</p>
+      <p>The findings of our study contains also some differences from previous research results. First, in our study, the facilitators did not describe learning as personal growth, for example, in the sense described by Paakkari et al (2011). Paakkari et al. (2011) see learning not as simply changing how one sees the things around one and the world, but also fundamentally changing one as a person. Rather the facilitators in this study focused on how to help the students develop into competent professionals through transformation of individual thinking and behaviour. Our finding is supported by the study of Boulton-Lewis et al. (2001), who argue that personal development is more likely to be stressed in contexts that are more open to individual interpretation and meaning-making and that require personal understanding, whereas healthcare and medicine are a very content-driven fields in which a set of competencies must be mastered before one can work in the field (cf. Laksov et al., 2008). In contrast to the results of previous studies (Lindblom-Ylänne, Trigwell, Nevgi, &amp; Ashwin, 2006; Lueddeke, 2003), the facilitators we interviewed also emphasized teaching as the facilitation of student learning, which is unusual to the healthcare education. For example, Lueddeke (2003), found that teachers who work within the disciplines of the hard sciences, such as medicine, are more likely to use a teacher-centered approach. Interestingly, in our study, two of the facilitators also described learning as a sort of brain-based process where our brains are exposed to new things and critical reflection is a way to cement these neural pathways. This kind of description has been absent in previous studies, but may provide some new insights to discussion of teaching and learning conceptions.</p>
+      <p>In the present study, none of the facilitators described just one conception of teaching and learning; rather they described teaching and learning from many angles, providing evidence of a hierarchy of inclusiveness. In our data, a hierarchy of inclusiveness can be seen, for example, in the sense that the conception of teaching as the transmission of knowledge and skills is rarely described isolated, since in the medical field the application of knowledge is more relevant than the mere production of inert knowledge. One reason for this multiplicity of conceptions might be that SBLEs allow and support several types of teaching and learning. The simulation-based learning process may involve initial learning tasks in which students actively acquire knowledge and familiarize themselves with the content to be learned. During the actual learning process, facilitators may be active in explaining difficult concepts and theories, but during the scenario phase (the phase when the learners take care of the simulated patient), students adopt an active role by caring for the patient simulator. The final phase of learning is usually the debriefing phase in which facilitators guide the students’ reflections and set new learning goals (see, e.g., Keskitalo, 2015.) As noted above, SBLEs allow facilitators to experiment with different approaches to teaching and learning; however, if facilitators view teaching as simply the transmission of knowledge and skills, they may encounter difficulties because this traditional conception of teaching may not be the optimal or most functional method in the new setting of SBLEs. In addition, there are usually fewer participants in SBLEs, which allows facilitators to explore student-centered pedagogical methods (cf. Lindblom-Ylänne et al., 2006).</p>
+      <p>In our study, facilitators seemed to reflect on their conceptions of teaching and learning based on their own backgrounds and experiences (cf. Tigchelaar et al., 2014). For example, they described how they themselves have learned. This is why it also felt natural to present the conceptions of learning prior to conceptions of teaching. The conceptions were not easy to describe either, which has also been noted by Postareff and Lindblom-Ylänne (2008), who state that facilitators differ in their level of pedagogical awareness; however, as Entwistle and Walker (2000) have noted, even highly educated teachers sometimes use imprecise language to describe teaching and learning. The research situation may have affected the participants’ descriptions of teaching and learning as well, because they may have responded in a way that they believed would be clearer to the interviewers, who themselves were educational scientists, not clinicians or nurses. </p>
+      <p>The present study has a few limitations. First, due to time constraints, eight participants were interviewed in pairs, whereas the others were interviewed individually. However, we noticed that paired interviews were characterized by multiple perspective, because participants were constantly complementing each other. A second limitation of the study is that, based on the interviews, it could not be determined whether the participants were describing their conceptions of student learning or learning in general (cf. Bruce &amp; Gerber 1995). It is likely that both types of conceptions were described because facilitators sometimes offered examples from their own learning experience and sometimes described how their students have learned or how they as facilitators have supported student learning. In future studies, it would be ideal to organize in-depth interviews with participants in order to gain a better understanding of healthcare simulation facilitators’ conceptions. A third limitation is that the facilitators we interviewed may have given ideal descriptions of teaching and learning rather than descriptions of actual practices. Therefore, in future studies, comparing video data and field notes with statements in interviews would be beneficial. Finally, the participants were all enthusiastic healthcare simulation facilitators and developers of simulation-based environments. Therefore, they may have different views on teaching and learning than healthcare teachers working in more traditional learning environments such as lecture rooms. For example, previous research (Keskitalo, 2011) has shown that SBLEs may be challenging for teachers who have more traditional views of teaching and learning, and this fact should be taken into account when interpreting the research results.</p>
+      <p styleId="PageHeader--first-page" stylename="(Page Header--first-page)">This study provides an understanding of SBLE facilitators’ conceptions of teaching and learning. Using the words of Rudolph et al. (2008, p. 1011), our role has been “the cognitive detective”. During this study we have been exploring the facilitators’ conceptions that may lead to certain actions and behavior in educational practice. The results of this study can be used to develop healthcare educators’ pedagogical training, for example, by providing tools that enhance students’ personal growth and transforms facilitators’ conceptions of teaching and learning into a more complex direction. In such training, it is essential to take into account the prevailing conceptions of teaching and learning in order to develop them in a more desirable direction. Previous researchers have also stated that in order to change conceptions and develop education, we must take many things into consideration: conceptions of teaching, learning and knowledge, conceptions concerning the learning process and the learning environment, and educational culture (Jacobs et al., 2015; Kember, 1997; Laksov et al., 2008; Lindblom-Ylänne et al., 2006; Postareff &amp; Lindblom-Ylänne, 2008). Based on the results of this study, we also suggest that such training should inquiry our previous experiences, since conceptions are developed through experience. (e.g., Entwistle, &amp; Peterson, 2004). All of the above-mentioned factors affect conceptions of teaching and learning, approaches to teaching, and, finally, learning outcomes. In the near future, we aim to continue our research by studying how facilitators’ conceptions of teaching and learning have changed over time. It would also be interesting to study individual differences in conceptions of teaching and learning and how they are related to approaches to teaching in simulation-based healthcare education, because previous research on medical educators has shown that conceptions of teaching and learning and approaches to teaching and learning are not necessarily aligned (Laksov et al., 2008).</p>
+      <p>To conclude, it seems that previous experience, discipline and the learning environment play a significant role in forming our conceptions and approaches to teaching and learning. The effect of experience can be seen by the fact that the conceptions of teaching and learning discovered in our data are closely aligned with the results of previous studies, whereas the context and discipline seem to affect the aspects of teaching and learning on which the facilitators focus. For example, in the present study, the effects of context and discipline can be seen in the sense that within simulation-based healthcare education, stressing the professional competency of the learners is more common than the conception that education changes or transforms us as human beings. In our study, the conceptions of teaching and learning were also varied, implying that simulation-based education supports many types of teaching and learning. The facilitators who participated in our study were very much aware that teaching and learning comprise more than the traditional conceptions of teaching and learning. Therefore, based on the results of this study, we argue that by changing the teaching conditions, we may also affect the underlying conceptions of teaching and learning, as well as approaches to teaching and, ultimately, learning outcomes.</p>
+      <p>
+         <w:br w:type="page"/>
+      </p>
+      <h2 styleId="Heading2" stylename="heading 2" outlinelvl="1">References</h2>
+      <p styleId="Endnotes" stylename="(Endnotes)">Åkerlind, G. S. (2003). Growing and developing as a university teacher—Variation in meaning. <span class="Reference--source">Studies in Higher Education, 28</span>(4), 375–390. <w:hyperlink r:id="rId7" w:history="1">
+            <span class="Hyperlink">https://doi.org/10.1080/0307507032000122242</span>
+         </w:hyperlink>
+      </p>
+      <p styleId="Reference" stylename="(Reference)">Åkerlind, G. S. (2005). Variations and commonality in phenomenographic research methods. <span class="Reference--source">Higher Education Research &amp; Development</span>
+         <span class="Reference--source"/>
+         <span class="Reference--source">24</span>(4), 321–334.<w:hyperlink r:id="rId8" w:history="1">
+            <span class="Hyperlink">https://doi.org/10.1080/07294360500284672</span>
+         </w:hyperlink>
+      </p>
+      <p styleId="Reference" stylename="(Reference)">Barnard, A., McCosker, H., &amp; Gerber, R. (1999). Phenomenography: A qualitative research approach for exploring understanding in healthcare. <span class="Reference--source">Qualitative Health Research, 9(</span>2), 212–226. <w:hyperlink r:id="rId9" w:history="1">
+            <span class="Hyperlink">https://doi.org/10.1177/104973299129121794</span>
+         </w:hyperlink>
+      </p>
+      <p styleId="Reference" stylename="(Reference)">Boulton-Lewis, G. M., Smith, D. J. H., McCrindle, A. R., Burnett, P. C., &amp; Campbell, K. J. (2001). Secondary teachers’ conceptions of teaching and learning. <span class="Reference--source">Learning and Instruction 11</span>, 35–51. <w:hyperlink r:id="rId10" w:history="1">
+            <span class="Hyperlink">https://doi.org/10.1016/S0959-4752(00)00014-1</span>
+         </w:hyperlink>
+      </p>
+      <p styleId="Reference" stylename="(Reference)">Bowden, J. (2005). Reflections on the phenomenographic team research process. In J. A. Bowden, &amp; P. Green (Ed.), <span class="Reference--source">Doing developmental phenomenography</span> (pp. 11–31). Melbourne: RMIT University Press.</p>
+      <p styleId="Reference" stylename="(Reference)">Bruce, C., &amp; Gerber, R. (1995). Towards university lecturers’ conceptions of student learning. <span class="Reference--source">Higher Education, 29</span>, 443–458. <w:hyperlink r:id="rId11" w:history="1">
+            <span class="Hyperlink">https://doi.org/10.1007/BF01383962</span>
+         </w:hyperlink>
+      </p>
+      <p styleId="Reference" stylename="(Reference)">Dahlin, B., &amp; Regmi, M. P. (1997). Conceptions of learning among Nepalese students. <span class="Reference--source">Higher Education, 33</span>(4), 471–493. <w:hyperlink r:id="rId12" w:history="1">
+            <span class="Hyperlink">https://doi.org/10.1023/A:1002992411868</span>
+         </w:hyperlink>
+      </p>
+      <p styleId="Reference" stylename="(Reference)">Dieckmann, P. (2009). Simulation setting for learning in acute medical care. In P. Dieckmann (Ed.), <span class="Reference--source">Using Simulations for Education, Training and Research </span>(pp. 40–138). Lengerich, Germany: Pabst Science Publishers.</p>
+      <p styleId="Reference" stylename="(Reference)">Ellis, R. A., Goodyear, P., Calvo, R. A., &amp; Prosser, M. (2008). Engineering students’ conceptions of and approaches to learning through discussions in face-to-face and online contexts. <span class="Reference--source">Learning and Instruction, 18</span>,<span class="Reference--source"/>267–282. <w:hyperlink r:id="rId13" w:history="1">
+            <span class="Hyperlink">https://doi.org/10.1016/j.learninstruc.2007.06.001</span>
+         </w:hyperlink>
+      </p>
+      <p styleId="Reference" stylename="(Reference)">Entwistle, N. J., &amp; Peterson, E. R. (2004). Conceptions of learning and knowledge in higher education: Relationships with study behavior and influences of learning environments<span class="Reference--source">. International Journal of Educational Research, 41</span>, 407–428.</p>
+      <p styleId="Reference" stylename="(Reference)">Entwistle, N. &amp; Walker, P. (2000). Strategic alertness and expanded awareness within sophisticated conceptions of teaching. <span class="Reference--source">Instructional Science, 28</span>,<span class="Reference--source"/>335–361. <w:hyperlink r:id="rId14" w:history="1">
+            <span class="Hyperlink">https://doi.org/10.1016/j.ijer.2005.08.009</span>
+         </w:hyperlink>
+      </p>
+      <p styleId="Reference" stylename="(Reference)">Gaba, D. M. (2004). The future vision of simulation in health care. Quality and Safety in <span class="Reference--source">Health Care, 13</span>(1), 2–10. <w:hyperlink r:id="rId15" w:history="1">
+            <span class="Hyperlink">https://doi.org/10.1136/qshc.2004.009878</span>
+         </w:hyperlink>
+      </p>
+      <p styleId="Reference" stylename="(Reference)">Harris, L. R. (2011). Phenomenographic perspectives on the structure of conceptions: The origins, purposes, strengths, and limitations of the what/how and referential/structural frameworks. <span class="Reference--source">Educational Research Review, 6</span>,<span class="Reference--source"/>109–124. <w:hyperlink r:id="rId16" w:history="1">
+            <span class="Hyperlink">https://doi.org/10.1016/j.edurev.2011.01.002</span>
+         </w:hyperlink>
+      </p>
+      <p styleId="Reference" stylename="(Reference)">Helle, L., &amp; Säljö, R. (2012). Collaborating with digital tools and peers in medical education: Cases and simulations as interventions in learning. <span class="Reference--source">Instructional Science, 40</span>, 737–744. <w:hyperlink r:id="rId17" w:history="1">
+            <span class="Hyperlink">https://doi.org/10.1007/s11251-012-9216-7</span>
+         </w:hyperlink>
+      </p>
+      <p styleId="Reference" stylename="(Reference)">Jacobs, J.C.G., Muijtjens, A.M.M., Van Luijk, S.J., Van der Vleuten, C.P.M., Croiset, G., &amp; Scheele, F. (2015). Impact of institute and person variables on teachers’ conceptions of learning and teaching. <span class="Reference--source">Medical Teacher, 37</span>(8), 738–746. <w:hyperlink r:id="rId18" w:history="1">
+            <span class="Hyperlink">https://doi.org/10.3109/0142159X.2014.970985</span>
+         </w:hyperlink>
+      </p>
+      <p styleId="Reference" stylename="(Reference)">Kember, D. (1997). A reconceptualization of the research into university academics’ conceptions of teaching. <span class="Reference--source">Learning and Instruction, 7</span>(3), 255–275. <w:hyperlink r:id="rId19" w:history="1">
+            <span class="Hyperlink">https://doi.org/10.1016/S0959-4752(96)00028-X</span>
+         </w:hyperlink>
+      </p>
+      <p styleId="Reference" stylename="(Reference)">Kember, D., &amp; Kwan, K. (2000). Lecturers’ approaches to teaching and their relationship to conceptions of good teaching. <span class="Reference--source">Instructional Science, 28</span>, 469–490. <w:hyperlink r:id="rId20" w:history="1">
+            <span class="Hyperlink">https://doi.org/10.1023/A:1026569608656</span>
+         </w:hyperlink>
+      </p>
+      <p styleId="Reference" stylename="(Reference)">Keskitalo, T. (2011). Teachers’ conceptions and their approaches to teaching in virtual reality and simulation-based learning environments. <span class="Reference--source">Teachers and Teaching: Theory and Practice, 17</span>(1), 131–147. <w:hyperlink r:id="rId21" w:history="1">
+            <span class="Hyperlink">https://doi.org/10.1080/13540602.2011.538503</span>
+         </w:hyperlink>
+      </p>
+      <p styleId="Reference" stylename="(Reference)">Keskitalo, T. (2015). <span class="Reference--source">Designing a pedagogical model simulation-based healthcare education.</span> Acta Universitatis Lapponiensis 299. Doctoral Disseration. Rovaniemi, Lapland University Press. </p>
+      <p styleId="Reference" stylename="(Reference)">Keskitalo, T., Ruokamo, H., Väisänen, O. &amp; Gaba, D. (2013). Healthcare facilitators’ and students’ conceptions of teaching and learning – An international case study. <span class="Reference--source">International Journal of Educational Research, 62</span>, 175–186. <w:hyperlink r:id="rId22" w:history="1">
+            <span class="Hyperlink">https://doi.org/10.1016/j.ijer.2013.09.001</span>
+         </w:hyperlink>
+      </p>
+      <p styleId="Reference" stylename="(Reference)">Klatter, E. B., Lodewijks, H. G. L. C., &amp; Aarnoutse, C. A. J. (2001). Learning conceptions of young students in the final year of primary education. <span class="Reference--source">Learning and Instruction, 11</span>
+         <span class="Reference--source">, </span>485–516. <w:hyperlink r:id="rId23" w:history="1">
+            <span class="Hyperlink">https://doi.org/10.1016/S0959-4752(01)00002-0</span>
+         </w:hyperlink>
+      </p>
+      <p styleId="Reference" stylename="(Reference)">Laksov, K. B., Nikkola, M., &amp; Lonka, K. (2008). Does teacher thinking match teaching practice? A study of basic science teachers. <span class="Reference--source">Medical Education, 42</span>,<span class="Reference--source"/>143–151. <w:hyperlink r:id="rId24" w:history="1">
+            <span class="Hyperlink">https://doi.org/10.1111/j.1365-2923.2007.02985.x</span>
+         </w:hyperlink>
+      </p>
+      <p styleId="Reference" stylename="(Reference)">Lam, B. H., &amp; Kember, D. (2004). Conceptions of teaching art held by secondary school art teachers. <span class="Reference--source">International Journal of Art and Design Education, 23</span>(3), 290–301. <w:hyperlink r:id="rId25" w:history="1">
+            <span class="Hyperlink">https://doi.org/10.1111/j.1476-8070.2004.00408.x</span>
+         </w:hyperlink>
+      </p>
+      <p styleId="Reference" stylename="(Reference)">Lindblom-Ylänne, S., &amp; Lonka, K. (1999). Individual ways of interacting with the learning environment: Are they related to study success? <span class="Reference--source">Learning and Instruction, 9</span>, 1–18. <w:hyperlink r:id="rId26" w:history="1">
+            <span class="Hyperlink">https://doi.org/10.1016/S0959-4752(98)00025-5</span>
+         </w:hyperlink>
+      </p>
+      <p styleId="Reference" stylename="(Reference)">Lindblom-Ylänne, S., Trigwell, K., Nevgi, A., &amp; Ashwin, P. (2006). How approaches to teaching are affected by discipline and teaching context. <span class="Reference--source">Studies in Higher Education, 31</span>(3), 285–298. <w:hyperlink r:id="rId27" w:history="1">
+            <span class="Hyperlink">https://doi.org/10.1080/03075070600680539</span>
+         </w:hyperlink>
+      </p>
+      <p styleId="Reference" stylename="(Reference)">Lonka, K., Joram, E., &amp; Bryson, M. (1996). Conceptions of learning and knowledge: Does training make a difference? <span class="Reference--source">Contemporary Educational Psychology, 21</span>, 240–260. <w:hyperlink r:id="rId28" w:history="1">
+            <span class="Hyperlink">https://doi.org/10.1006/ceps.1996.0021</span>
+         </w:hyperlink>
+      </p>
+      <p styleId="Reference" stylename="(Reference)">Lueddeke, G. (2003). Professionalising teaching practice in higher education: A study of disciplinary variation and ‘teaching-scholarship’. <span class="Reference--source">Studies in Higher Education, 28</span>, 213–228. <w:hyperlink r:id="rId29" w:history="1">
+            <span class="Hyperlink">https://doi.org/10.1080/0307507032000058082</span>
+         </w:hyperlink>
+      </p>
+      <p styleId="Reference" stylename="(Reference)">Marton, F. (1981). Phenomenography – Describing conceptions of the world around us. <span class="Reference--source">Instructional Science, 10</span>,<span class="Reference--source"/>177–200. <w:hyperlink r:id="rId30" w:history="1">
+            <span class="Hyperlink">https://doi.org/10.1007/BF00132516</span>
+         </w:hyperlink>
+      </p>
+      <p styleId="Reference" stylename="(Reference)">Marton, F., &amp; S. Booth. 1997. <span class="Reference--source">Learning and awareness.</span> Hillsdale, NJ: Lawrence Erlbaum.</p>
+      <p styleId="Reference" stylename="(Reference)">Marton, F., Dall’Alba, G., &amp; Beaty, E. (1993). Conceptions of learning. <span class="Reference--source">International Journal of Educational Research, 19</span>(3), 277–300.</p>
+      <p styleId="Reference" stylename="(Reference)">Paakkari, L., Tynjälä, P. &amp; Kannas, L. (2010). Student teachers’ ways of experiencing the teaching of health education. <span class="Reference--source">Studies in Higher Education, 35</span>(8), 905–920. <w:hyperlink r:id="rId31" w:history="1">
+            <span class="Hyperlink">https://doi.org/10.1080/03075070903383229</span>
+         </w:hyperlink>
+      </p>
+      <p styleId="Reference" stylename="(Reference)">Paakkari, L., Tynjälä, P., &amp; Kannas, L. (2011). Critical aspects of student teachers’ conception of learning. <span class="Reference--source">Learning and Instruction, 21</span>, 705–714. <w:hyperlink r:id="rId32" w:history="1">
+            <span class="Hyperlink">https://doi.org/10.1016/j.learninstruc.2011.03.003</span>
+         </w:hyperlink>
+      </p>
+      <p styleId="Reference" stylename="(Reference)">Postareff, L., &amp; Lindblom-Ylänne, S. (2008). Variation in teachers’ description of teaching: Broadening the understanding of teaching in higher education. <span class="Reference--source">Learning and Instruction, 18</span>(2), 109–120. <w:hyperlink r:id="rId33" w:history="1">
+            <span class="Hyperlink">https://doi.org/10.1016/j.learninstruc.2007.01.008</span>
+         </w:hyperlink>
+      </p>
+      <p styleId="Reference" stylename="(Reference)">Postareff, L., Lindblom-Ylänne, S., &amp; Nevgi, A. (2007). The effect of pedagogical training on teaching in higher education. <span class="Reference--source">Teaching and Teacher Education, 23</span>(5), 557–571. <w:hyperlink r:id="rId34" w:history="1">
+            <span class="Hyperlink">https://doi.org/10.1016/j.tate.2006.11.013</span>
+         </w:hyperlink>
+      </p>
+      <p styleId="Reference" stylename="(Reference)">Pratt, D. D. (1992). Conceptions of teaching. <span class="Reference--source">Adult Education Quarterly, 42</span>(4), 203–220. <w:hyperlink r:id="rId35" w:history="1">
+            <span class="Hyperlink">https://doi.org/10.1177/074171369204200401</span>
+         </w:hyperlink>
+      </p>
+      <p styleId="Reference" stylename="(Reference)">Pratt, D. D., Sadownik, L., &amp; Selinger, S. (2012). Pedagogical BIASes and clinical teaching in medicine. In L. M. English (Ed.), <span class="Reference--source">Health and Adult Learning</span> (pp. 273-296). Toronto, ON: University of Toronto Press. <w:hyperlink r:id="rId36" w:history="1">
+            <span class="Hyperlink">https://doi.org/10.3138/9781442685208-014</span>
+         </w:hyperlink>
+      </p>
+      <p styleId="Reference" stylename="(Reference)">Rall, M., &amp; Dieckmann, P. (2005). Simulation and patient safety: The use of simulation to enhance patient safety on a systems level. Current Anaesthesia &amp; Critical Care, 16, 273–281. <w:hyperlink r:id="rId37" w:history="1">
+            <span class="Hyperlink">https://doi.org/10.1016/j.cacc.2005.11.007</span>
+         </w:hyperlink>
+      </p>
+      <p styleId="Reference" stylename="(Reference)">Rudolph, J. W., Simon, R., Raemer, D. B., &amp; Eppich, W. J. (2008). Debriefing as formative assessment: Closing performance gaps in medical education. <span class="Reference--source">Academic Emergency Medicine</span>,<span class="Reference--source"> 15</span>(11), 1010–1016. <w:hyperlink r:id="rId38" w:history="1">
+            <span class="Hyperlink">https://doi.org/10.1111/j.1553-2712.2008.00248.x</span>
+         </w:hyperlink>
+      </p>
+      <p styleId="Reference" stylename="(Reference)">Samuelowicz, K., &amp; Bain, J. (2001). Revisiting academics’ beliefs about teaching and learning. <span class="Reference--source">Higher Education, 41</span>, 299–325. <w:hyperlink r:id="rId39" w:history="1">
+            <span class="Hyperlink">https://doi.org/10.1023/A:1004130031247</span>
+         </w:hyperlink>
+      </p>
+      <p styleId="Reference" stylename="(Reference)">Säljö, R. (1979). Learning in the learner’s perspective. I. Some common-sense conceptions<span class="Reference--source">.</span>
+         <span class="Reference--source">Reports from the Department of Education, University of </span>
+         <span class="Reference--source">Göteborg</span>
+         <span class="Reference--source">, No. 76.</span>
+      </p>
+      <p styleId="Reference" stylename="(Reference)">Tigchelaar, A., Vermunt, J. D., &amp; Brouwer, N. (2014). Patterns of development in second-career teachers’ conceptions of teaching and learning. <span class="Reference--source">Teaching and Teacher Education, 41</span>,<span class="Reference--source"/>111–120. <w:hyperlink r:id="rId40" w:history="1">
+            <span class="Hyperlink">https://doi.org/10.1016/j.tate.2014.04.001</span>
+         </w:hyperlink>
+      </p>
+      <p styleId="Reference" stylename="(Reference)">Trigwell, K. (2000). A phenomenographic interview on phenomenography. In J.A. Bowden &amp; E. Walsh (Ed.),<span class="Reference--source"/>
+         <span class="Reference--source">Phenomenography</span>
+         <span class="Reference--source"/>(pp. 62–82). Melbourne: RMIT University Press.</p>
+      <p styleId="Reference" stylename="(Reference)">Trigwell, K., &amp; Prosser, M. (1996). Changing Approaches to Teaching: A Relational Perspective. <span class="Reference--source">Studies in Higher Education, 21</span>(3), 275–284.</p>
+      <p styleId="Reference" stylename="(Reference)">Trigwell, K., Prosser, M., &amp; Waterhouse, F. (1999). Relations between teachers’ approaches to teaching and students’ approaches to learning. <span class="Reference--source">Higher Education, 37</span>,<span class="Reference--source"/>57–70. <w:hyperlink r:id="rId41" w:history="1">
+            <span class="Hyperlink">https://doi.org/10.1023/A:1003548313194</span>
+         </w:hyperlink>
+      </p>
+      <p styleId="Reference" stylename="(Reference)">van Rossum, E. J., &amp; Hamer, R. (2010). <span class="Reference--source">The Meaning of Learning and Knowing.</span>
+         <span class="Reference--source"/>Rotterdam: Sense Publishers.</p>
+      <w:sectPr w:rsidR="00283AD9" w:rsidSect="005C758C">
+         <w:headerReference w:type="default" r:id="rId42"/>
+         <w:footerReference w:type="default" r:id="rId43"/>
+         <w:headerReference w:type="first" r:id="rId44"/>
+         <w:footerReference w:type="first" r:id="rId45"/>
+         <w:endnotePr>
+            <w:numFmt w:val="decimal"/>
+         </w:endnotePr>
          <w:pgSz w:w="11906" w:h="16838"/>
-         <w:pgMar w:top="1440"
-                  w:right="1440"
-                  w:bottom="1440"
-                  w:left="1440"
-                  w:header="720"
-                  w:footer="720"
+         <w:pgMar w:top="1418"
+                  w:right="1134"
+                  w:bottom="1418"
+                  w:left="1134"
+                  w:header="709"
+                  w:footer="709"
                   w:gutter="0"/>
-         <w:cols w:space="720"/>
-         <w:formProt w:val="0"/>
+         <w:cols w:space="708"/>
          <w:titlePg/>
-         <w:docGrid w:linePitch="360"/>
       </w:sectPr>
    </w:body>
 </w:document>

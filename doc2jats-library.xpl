@@ -211,6 +211,9 @@
                                 <xsl:when test=".[w:rPr[w:b]]">
                                     <strong><xsl:apply-templates/></strong>
                                 </xsl:when>
+                                <xsl:when test=".[w:rPr/w:rStyle]">
+                                    <span class="{./w:rPr/w:rStyle/@w:val}"><xsl:apply-templates/></span>
+                                </xsl:when>
                                 <xsl:otherwise><xsl:apply-templates/></xsl:otherwise>
                             </xsl:choose>
                         </xsl:template>
@@ -272,6 +275,56 @@
                 </p:inline>
             </p:input>
         </p:xslt>
+        
+        
+        
+        
+        
+        <p:xslt name="rename-paragraph-elements" version="2.0">
+            <p:input port="source"/>
+            <p:input port="parameters"/>
+            <p:input port="stylesheet">
+                <p:inline>
+                    <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+                        xmlns:f="https://eirikhanssen.com/ns/doc2jats-functions"
+                        version="2.0"
+                        exclude-result-prefixes="f">
+                        <xsl:import href="doc2jats-functions.xsl"/>
+                        <xsl:strip-space elements="*"/>
+                        
+                        <xsl:template match="p[@outlinelvl]">
+                            <xsl:variable name="elementName" select="concat('h' , @outlinelvl+1)"/>
+                            <xsl:element name="{$elementName}">
+                                <xsl:apply-templates select="@*|node()"/>
+                            </xsl:element>
+                        </xsl:template>
+                        
+                        <xsl:template match="p[@styleId='Keywords']">
+                            <dl class="keywords">
+                                <dt><xsl:apply-templates select="span"/></dt>
+                                <xsl:variable name="keywords" select="normalize-space(span/following-sibling::text())"/>
+                                <xsl:analyze-string select="$keywords" regex="\s*,\s*|\s*;\s*">
+                                    <xsl:matching-substring/>
+                                    <xsl:non-matching-substring><dd><xsl:value-of select="normalize-space(.)"/></dd></xsl:non-matching-substring>
+                                </xsl:analyze-string>
+                            </dl>
+                        </xsl:template>
+                        
+                        <xsl:template match="span[@class='Keywords--label']"><xsl:apply-templates/></xsl:template>
+                        
+                        <xsl:template match="span[not(node()|text())]"><xsl:text> </xsl:text></xsl:template>
+                        
+                        <xsl:template match="span[matches(@class,'^Emphasis.*')]"><em><xsl:apply-templates/></em></xsl:template>
+                    </xsl:stylesheet>
+                </p:inline>
+            </p:input>
+        </p:xslt>
+        
+        
+        
+        
+        
+        
         
         <p:delete match="w:rPr|w:spacing|w:lastRenderedPageBreak"/>
         
