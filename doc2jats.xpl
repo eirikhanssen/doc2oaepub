@@ -38,7 +38,7 @@
     
     <d2j:figures/>
     
-    <d2j:structure-tables/>
+    <d2j:restructure-tables/>
     
     <d2j:cleanup/>
 

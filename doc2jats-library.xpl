@@ -738,4 +738,83 @@
         <p:delete match="w:br[@w:type='page']"/>
         
     </p:declare-step>
+    
+    <p:declare-step type="d2j:restructure-tables">
+        <p:output port="result" sequence="true"/>
+        <p:serialization port="result" indent="true" method="xml" omit-xml-declaration="true"/>
+        <p:input port="source"/>
+        <p:input port="parameters" kind="parameter" sequence="true"/>
+        
+        <p:xslt name="restructure-tables-xsl" version="2.0">
+            <p:input port="source"/>
+            <p:input port="parameters"/>
+            <p:input port="stylesheet">
+                <p:inline>
+                    <xsl:stylesheet 
+                        xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+                        xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+                        xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"
+                        
+                        exclude-result-prefixes="xs w xhtml"
+                        version="2.0">
+                        
+                        <xsl:import href="doc2jats-functions.xsl"/>
+                        
+                        <xsl:template match="table[preceding-sibling::p[matches(@styleId, '^TableCaption')]]">
+                            <xsl:variable name="caption" select="preceding-sibling::p[matches(@styleId, '^TableCaption')]"/>
+                            <table>
+                                <caption><xsl:apply-templates mode="caption" select="$caption"/></caption>
+                                <xsl:apply-templates/>
+                                <xsl:if test="following-sibling::*[1][self::p[matches(@styleId, '^TableNotes')]]">
+                                    <tfoot class="table-notes">
+                                        <xsl:apply-templates mode="tfooter" select="following-sibling::*[1][self::p[matches(@styleId, '^TableNotes')]]"></xsl:apply-templates>
+                                    </tfoot>
+                                </xsl:if>
+                            </table>
+                        </xsl:template>
+                        
+                        <xsl:template match="p[matches(@styleId, '^TableNotes')][preceding-sibling::*[1][self::table]]"/>
+                        
+                        <xsl:template mode="caption" match="p[matches(@styleId, 'TableCaption')][following-sibling::*[1][self::table]]">
+                            <p><xsl:apply-templates/></p>
+                        </xsl:template>
+                        
+                        <xsl:template match="span[matches(@class, '^TableCaption-Label')]"><span class="TableCaption-Label"><xsl:apply-templates/></span></xsl:template>
+                        
+                        <xsl:template match="p[matches(@styleId, 'TableCaption')][following-sibling::*[1][self::table]]"/>
+                        
+                        <xsl:template match="td[p[matches(@styleId, '^TableHeader')]]">
+                            <th><xsl:apply-templates/></th>
+                        </xsl:template>
+                        
+                        <xsl:template match="tr[//p/@styleId]">
+                            <tr>
+                                <xsl:variable name="first-class" select="th[1]/p/@styleId"/>
+                                <xsl:variable name="following-classes" select="th[position() &gt; 1]/p/@styleId"/>
+                                <xsl:variable name="class">
+                                    <!--<xsl:value-of select="if (every $c in $first-class satisfies (matches($c, 'Left'))) then 'left' else 'something else'"/>-->
+                                    <xsl:value-of select="if (every $cfirst in $first-class satisfies (matches($cfirst, 'Left'))) then 
+                                        if (every $cfollowing in $following-classes satisfies (matches($cfollowing, 'Center'))) then 
+                                        'left-center' 
+                                        else 'left'
+                                        else 'left'"/>
+                                </xsl:variable>
+                                <xsl:attribute name="class" select="$class"></xsl:attribute>
+                                <xsl:apply-templates/>
+                            </tr>
+                        </xsl:template>
+                        
+                        <xsl:template match="p[matches(@styleId,'Narrow')]" priority="10">
+                            <p class="narrow"><xsl:apply-templates/></p>
+                        </xsl:template>
+                        
+                        <xsl:template match="tr//p" priority="1"><xsl:copy><xsl:apply-templates/></xsl:copy></xsl:template>
+                        
+                    </xsl:stylesheet>
+                </p:inline>
+            </p:input>
+        </p:xslt>
+        
+    </p:declare-step>
 </p:library>
