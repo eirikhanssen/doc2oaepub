@@ -26,21 +26,21 @@
     
     <d2j:docx-flatten name="flat-ocf"/>
     
-    <d2j:flat-docx-to-html/>
+    <!-- <d2j:flat-docx-to-html/> -->
     
-    <d2j:ocf2htmltable/>
+    <!-- <d2j:ocf2htmltable/> -->
 
-    <d2j:group-lists/>
+    <!-- <d2j:group-lists/> -->
     
-    <d2j:filter-w-document/>
+    <!-- <d2j:filter-w-document/> -->
     
-    <d2j:replace-symbols/>
+    <!-- <d2j:replace-symbols/> -->
     
-    <d2j:figures/>
+    <!-- <d2j:figures/> -->
     
-    <d2j:restructure-tables/>
+    <!-- <d2j:restructure-tables/> -->
     
-    <d2j:cleanup/>
+    <!-- <d2j:cleanup/> -->
 
     <p:identity name="final"/>
     

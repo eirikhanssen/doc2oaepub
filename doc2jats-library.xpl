@@ -188,7 +188,15 @@
         <p:serialization port="result" indent="true" method="xml" omit-xml-declaration="true"/>
         <p:input port="source"/>
         <p:input port="parameters" kind="parameter" sequence="true"/>
+
+        <p:wrap match="w:t/text()[parent::w:r[1]/w:rPr/w:b]" wrapper="strong"/>
+        <p:wrap match="w:t/text()[parent::w:r[1]/w:rPr/w:i]" wrapper="em"/>
+<!--        <p:wrap match="w:t" wrapper="T"/>-->
         
+        <!--                        <p:wrap match="w:t/text()[ancestor::w:r[1]/w:rPr/w:vertAlign/@w:val='superscript']]" wrapper="sup"/>-->
+        <!--                        <p:wrap match="w:t[parent::w:r[w:rPr/w:vertAlign/@w:val='subscript']]//text()" wrapper="sub"/>-->
+        <!--                        <p:wrap match="w:t[parent::w:r[w:rPr[w:i]]]//text()" wrapper="em"/>-->
+
         <p:xslt name="translate-to-html-elements" version="2.0">
             <p:input port="source"/>
             <p:input port="parameters"/>
@@ -201,11 +209,7 @@
                         <xsl:import href="doc2jats-functions.xsl"/>
                         <xsl:strip-space elements="*"/>
                         
-                        <p:wrap match="w:t[parent::w:r/w:rPr/w:b]/text()" wrapper="strong"/>
-                        
-                        <p:wrap match="w:t[parent::w:r[w:rPr/w:vertAlign/@w:val='superscript']]/text()" wrapper="sup"/>
-                        <p:wrap match="w:t[parent::w:r[w:rPr/w:vertAlign/@w:val='subscript']]/text()" wrapper="sub"/>
-<!--                        <p:wrap match="w:t[parent::w:r[w:rPr[w:i]]]//text()" wrapper="em"/>-->
+
                         
 <!--                        <xsl:template match="w:r"><xsl:apply-templates/></xsl:template>-->
                         
