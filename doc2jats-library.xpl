@@ -201,6 +201,14 @@
                         <xsl:import href="doc2jats-functions.xsl"/>
                         <xsl:strip-space elements="*"/>
                         
+                        <p:wrap match="w:t[parent::w:r/w:rPr/w:b]/text()" wrapper="strong"/>
+                        
+                        <p:wrap match="w:t[parent::w:r[w:rPr/w:vertAlign/@w:val='superscript']]/text()" wrapper="sup"/>
+                        <p:wrap match="w:t[parent::w:r[w:rPr/w:vertAlign/@w:val='subscript']]/text()" wrapper="sub"/>
+<!--                        <p:wrap match="w:t[parent::w:r[w:rPr[w:i]]]//text()" wrapper="em"/>-->
+                        
+<!--                        <xsl:template match="w:r"><xsl:apply-templates/></xsl:template>-->
+                        
                         <xsl:template match="w:r">
                             <xsl:choose>
                                 <xsl:when test=".[w:rPr[w:i][w:b]]">
@@ -213,7 +221,12 @@
                                     <strong><xsl:apply-templates/></strong>
                                 </xsl:when>
                                 <xsl:when test=".[w:rPr/w:rStyle]">
-                                    <span class="{./w:rPr/w:rStyle/@w:val}"><xsl:apply-templates/></span>
+                                    <xsl:variable name="styleId" select="w:rPr/w:rStyle/@styleId"/>
+                                    <xsl:choose>
+                                        <xsl:when test="matches($styleId, '(^Emphasis)')"><em><xsl:apply-templates/></em></xsl:when>
+                                        <xsl:when test="matches($styleId, '(^TableCaption)')"><strong><xsl:apply-templates/></strong></xsl:when>
+                                        <xsl:otherwise><span class="{./w:rPr/w:rStyle/@w:val}"><xsl:apply-templates/></span></xsl:otherwise>
+                                    </xsl:choose>
                                 </xsl:when>
                                 <xsl:otherwise><xsl:apply-templates/></xsl:otherwise>
                             </xsl:choose>
@@ -681,52 +694,6 @@
         
     </p:declare-step>
     
-    <p:declare-step type="d2j:structure-tables">
-        <p:output port="result" sequence="true"/>
-        <p:serialization port="result" indent="true" method="xml" omit-xml-declaration="true"/>
-        <p:input port="source"/>
-        <p:input port="parameters" kind="parameter" sequence="true"/>
-        
-        <p:xslt name="restructure-figures" version="2.0">
-            <p:input port="source"/>
-            <p:input port="parameters"/>
-            <p:input port="stylesheet">
-                <p:inline>
-                    <xsl:stylesheet 
-                        xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-                        xmlns:xs="http://www.w3.org/2001/XMLSchema"
-                        xmlns:xhtml="http://www.w3.org/1999/xhtml"
-                        xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"
-                        
-                        exclude-result-prefixes="xs w xhtml"
-                        version="2.0">
-                        
-                        <xsl:import href="doc2jats-functions.xsl"/>
-                        
-                        <xsl:template match="table[preceding-sibling::p[matches(@styleId, '^TableCaption')]]">
-                            <xsl:variable name="caption" select="preceding-sibling::p[matches(@styleId, '^TableCaption')]"/>
-                            <table>
-                                <caption><xsl:apply-templates mode="caption" select="$caption"/></caption>
-                                <xsl:apply-templates/>
-                            </table>
-                        </xsl:template>
-                        
-                        <xsl:template mode="caption" match="p[matches(@styleId, 'TableCaption')][following-sibling::*[1][self::table]]">
-                            <p><xsl:apply-templates/></p>
-                        </xsl:template>
-                        
-                        <xsl:template match="span[matches(@class, '^TableCaption-Label')]"><span class="TableCaption-Label"><xsl:apply-templates/></span></xsl:template>
-                        
-                        <xsl:template match="p[matches(@styleId, 'TableCaption')][following-sibling::*[1][self::table]]"/>
-                        
-                    </xsl:stylesheet>
-                </p:inline>
-            </p:input>
-        </p:xslt>
-        
-    </p:declare-step>
-    
-    
     <p:declare-step type="d2j:cleanup">
         <p:output port="result" sequence="true"/>
         <p:serialization port="result" indent="true" method="xml" omit-xml-declaration="true"/>
@@ -761,8 +728,8 @@
                         
                         <xsl:import href="doc2jats-functions.xsl"/>
                         
-                        <xsl:template match="table[preceding-sibling::p[matches(@styleId, '^TableCaption')]]">
-                            <xsl:variable name="caption" select="preceding-sibling::p[matches(@styleId, '^TableCaption')]"/>
+                        <xsl:template match="table[preceding-sibling::*[1][self::p][matches(@styleId, '^TableCaption')]]">
+                            <xsl:variable name="caption" select="preceding-sibling::*[1][self::p][matches(@styleId, '^TableCaption')]"/>
                             <table>
                                 <caption><xsl:apply-templates mode="caption" select="$caption"/></caption>
                                 <xsl:apply-templates/>
