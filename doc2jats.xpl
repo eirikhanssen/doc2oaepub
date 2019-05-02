@@ -33,6 +33,14 @@
     <d2j:group-lists/>
     
     <d2j:filter-w-document/>
+    
+    <d2j:replace-symbols/>
+    
+    <d2j:figures/>
+    
+    <d2j:structure-tables/>
+    
+    <d2j:cleanup/>
 
     <p:identity name="final"/>
     

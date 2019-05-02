@@ -17,7 +17,6 @@
             xmlns:m="http://schemas.openxmlformats.org/officeDocument/2006/math"
             xmlns:v="urn:schemas-microsoft-com:vml"
             xmlns:wp14="http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing"
-            xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing"
             xmlns:w10="urn:schemas-microsoft-com:office:word"
             xmlns:w14="http://schemas.microsoft.com/office/word/2010/wordml"
             xmlns:w15="http://schemas.microsoft.com/office/word/2012/wordml"
@@ -31,363 +30,1227 @@
             xmlns:d2j="http://eirikhanssen.no/doc2jats"
             xmlns:pkg="http://schemas.microsoft.com/office/2006/xmlPackage"
             xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"
+            xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing"
             mc:Ignorable="w14 w15 w16se w16cid wp14">
    <w:body>
-      <h1 styleId="Heading1" stylename="heading 1" outlinelvl="0">Exploring Healthcare Simulation Facilitators’ Conceptions of Teaching and Learning</h1>
-      <p styleId="AuthorName" stylename="(Author Name)">PhD TuulikkiKeskitalo*</p>
-      <p styleId="AuthorDetails" stylename="(AuthorDetails)">telephone: +358 44 4780290</p>
-      <p styleId="AuthorDetails" stylename="(AuthorDetails)">tuulikkikeskitalo.wordpress.com</p>
-      <p styleId="AuthorDetails" stylename="(AuthorDetails)">Lapland University of Applied Sciences</p>
-      <p styleId="AuthorDetails" stylename="(AuthorDetails)">Jokiväylä 11</p>
-      <p styleId="AuthorDetails" stylename="(AuthorDetails)">FI-96300 Rovaniemi</p>
-      <p styleId="AuthorDetails" stylename="(AuthorDetails)">E-mail: <span class="Hyperlink">tuulikki.keskitalo@lapinamk.fi</span>
+      <h1>How are technology-related workplace resources associated with techno-work engagement among a group of Finnish teachers?</h1>
+      <p styleId="AuthorName0" stylename="[Author Name]">Jaana-PiiaMäkiniemi</p>
+      <p styleId="AuthorDetails0" stylename="[AuthorDetails]">Faculty of Management and Business, Tampere University</p>
+      <p styleId="AuthorDetails0" stylename="[AuthorDetails]">E-mail: <a href="mailto:jaana-piia.makiniemi@tuni.fi">jaana-piia.makiniemi@tuni.fi</a>
       </p>
-      <p styleId="AuthorName" stylename="(Author Name)">Professor Heli Ruokamo</p>
-      <p styleId="AuthorDetails" stylename="(AuthorDetails)">+358 40 587 9090</p>
-      <p styleId="AuthorDetails" stylename="(AuthorDetails)">University of Lapland, Faculty of Education</p>
-      <p styleId="AuthorDetails" stylename="(AuthorDetails)">Centre for Media Pedagogy (CMP),</p>
-      <p styleId="AuthorDetails" stylename="(AuthorDetails)">PO Box 122,</p>
-      <p styleId="AuthorDetails" stylename="(AuthorDetails)">FI-96101 Rovaniemi, Finland</p>
-      <p styleId="AuthorDetails" stylename="(AuthorDetails)">E-mail: <span class="Hyperlink">heli.ruokamo@ulapland.fi</span>
+      <p styleId="AuthorDetails0" stylename="[AuthorDetails]">
+         <a href="http://orcid.org/0000-0003-3647-0584">http://orcid.org/0000-0003-3647-0584</a>
       </p>
-      <h2 styleId="Heading2" stylename="heading 2" outlinelvl="1">Acknowledgements</h2>
-      <p>The financial support for this study was provided by Tekes (The Finnish Funding Agency for Innovations) and the EDRF (European Regional Development Fund) as well as from a number of public and private financiers as part of the MediPeda III project (2008–2010) and the CRICS project (2016–2018). The authors would like to thank the facilitators who participated in this study</p>
-      <p styleId="Endnotes" stylename="(Endnotes)">*Corresponding author</p>
-      <h2 styleId="Heading2" stylename="heading 2" outlinelvl="1">Abstract</h2>
-      <p styleId="Abstract" stylename="(Abstract)">This study aimed to investigate healthcare simulation facilitators’ conceptions of teaching and learning because they have an influence on the approaches and strategies used in teaching and learning, and ultimately they influence on learning outcomes. The study was conducted using a phenomenographic methodology to identify the variation in conceptions. This study included 37 healthcare simulation facilitators. The data were collected using both thematic and semi-structured individual and paired interviews. The iterative phenomenographic data analysis process revealed four categories of conceptions of learning: 1) learning as acquiring and reproducing knowledge and skills, 2) learning as applying and advancing knowledge and skills, 3) learning as transformation of individual thinking and behaviour and 4) learning as co-constructing knowledge and skills. Three categories of conceptions of teaching were also identified: 1) teaching as transmission of knowledge and skills, 2) teaching as development of students’ professional skills and 3) teaching as facilitation of learning. Based on the results of this study, we argue that, by changing teaching conditions, we may also affect the underlying conceptions of teaching and learning as well as approaches to teaching and ultimately learning outcomes. The results of this study can also be used to develop healthcare educators’ pedagogical training. However, facilitators’ conceptions and approaches to teaching and learning are not necessarily aligned; therefore, in future studies, our aim will be to continue the research by investigating how these self-perceived conceptions are related to approaches to teaching and learning within actual educational practices.</p>
+      <h2>Abstract </h2>
+      <p class="abstract">Teachers perceive the digitalisation of teaching not only as demanding but also as an inspiring aspect of their work. Prior studies have mainly focused on teachers’ negative experiences, such as technostress. Therefore, the aim of the current study was to explore how technology-related workplace resources, such as technology-related self-efficacy and autonomy, predict teachers’ positive well-being and techno-work engagement. Based on prior studies, it was hypothesised that three technology-related job resources are associated with higher techno-work engagement, and technology-related self-efficacy is associated with higher techno-work engagement. Data were collected from Finnish teachers and principals (N = 183) via a web-based questionnaire as part of a larger research project. Most of the participants were female teachers. The hypotheses were tested with structural equation modelling. The key findings indicated that technology-related self-efficacy had the strongest impact on techno-work engagement. In addition, technology-related autonomy and technology-related competence support were statistically significant predictors of techno-work engagement. The findings suggest that similar workplace resources, which predict general work engagement, are also relevant in the context of techno-work engagement. Some practical recommendations are made concerning the enhancement of teachers’ technology-related self-efficacy at schools.</p>
       <dl class="keywords">
-         <dt>Keywords:</dt>
-         <dd>healthcare simulation facilitators</dd>
-         <dd>teaching</dd>
-         <dd>learning</dd>
-         <dd>conceptions</dd>
-         <dd>phenomenography</dd>
+         <dt>
+            <span class="KeywordsLabel">Keywords:</span>
+         </dt>
+         <dd>digitalisation</dd>
+         <dd>educational technology</dd>
+         <dd>teacher</dd>
+         <dd>well-being</dd>
+         <dd>techno-work engagement</dd>
+         <dd>workplace resources</dd>
       </dl>
-      <h2 styleId="Heading2" stylename="heading 2" outlinelvl="1">Introduction</h2>
-      <p>Since 1970, scholars have used phenomenography to study teachers’ and students’ conceptions of teaching and learning (Säljö, 1979). The aim of the phenomenographic line of research has been to identify the variation in conceptions, or individuals’ different ways of experiencing and understanding the world (Marton 1981). From a phenomenographic perspective, conceptions are understood as specific meanings which are attached to certain phenomena and which then mediate and form our relationship to the world (Pratt, 1992; van Rossum &amp; Hamer, 2010). In other words, the conceptions affect how we understand the world; therefore, from a phenomenographic perspective the world is different for every person. </p>
-      <p>Since 1970, studies on teaching and learning conceptions have mostly been conducted within university settings and with students (e.g., Ellis, Goodyear, Calvo, &amp; Prosser, 2008; Lonka, Joram, &amp; Bryson, 1996; Paakkari, Tynjälä, &amp; Kannas, 2011). Some studies have focused on teachers’ conceptions of teaching and learning at different levels of education (e.g., Boulton-Lewis, Smith, McCrindle, Burnett, &amp; Campbell, 2001; Kember, 1997; Postareff &amp; Lindblom-Ylänne, 2008), but only a few have focused on teachers’ conceptions of teaching and learning within the field of healthcare education (Keskitalo, Ruokamo, Väisänen, &amp; Gaba, 2013; Jacobs, Muijtjens, Van Luijk, Van der Vleuten, Croiset, &amp; Scheele, 2015; Laksov, Nikkola, &amp; Lonka, 2008), and no one has used the phenomenographic method to study healthcare facilitators’ conceptions of teaching and learning. Previous research aimed to study conceptions regarding teaching and learning due to the influence of these conceptions on the approaches to and strategies used in teaching and learning, and ultimately on learning outcomes (Klatter, Lodewijks, &amp; Aarnoutse, 2001; Kember &amp; Kwan, 2000; Pratt, Sadownik, &amp; Selinger, 2012; Trigwell &amp; Prosser, 1996; Trigwell, Prosser, &amp; Waterhouse, 1999). However, Marton (1981) and Trigwell (2000) have pointed out that it is important to study conceptions independently in order to fully understand and develop the conceptions and, furthermore, education itself. As Barnard, McCosker and Gerber (1999, p. 219) state: “To be aware of conceptions is to be aware of our social reality and ourselves.” </p>
-      <p>The purpose of the study is to provide insight into the variations in healthcare simulation facilitators’ conceptions of teaching and learning by revealing the conceptions, assumptions and justifications behind their teaching activities, and possibly to broaden the facilitators’ perspective on effective teaching and learning in healthcare education (cf. Pratt et al., 2012). This is especially important because simulation-based learning environments (SBLEs) have permanently changed the education process within the healthcare field (Gaba, 2004; Helle &amp; Säljö, 2012), and the traditional ways of thinking about and approaches to teaching and learning may not be the most successful. Within the field of healthcare education some facilitators also hold their teaching positions without having had any formal training in education and pedagogy. Put together, the purposes of this study are not simply to describe the phenomenon, but also to describe how healthcare simulation facilitators have responded to the challenges created by these novel learning environments. In this study, SBLEs refer to real-like contexts in which healthcare students and professionals learn new skills and knowledge or maintain their competence. According to Rall and Dieckmann (2005, p. 274), “simulation, in short, means to do something in the ‘as if’, to resemble ‘reality’ (always not perfectly, because then it would be reality again), e.g., to train or learn something without the risks or costs of doing it in reality.” Pedagogically simulation-based training has similarities with problem- or case-based learning, where the learner’s own activity is central for learning, and the teachers are more like a facilitator of learning (Keskitalo, 2015; Dieckmann, 2009). As noted, in this study, we also use the concept facilitator, instead of teacher, because during the simulation-based healthcare education, the facilitator’s role is to be more like a guide or a tutor, supporting participants’ learning.</p>
-      <p>In this study, conceptions of teaching and learning are understood as the meanings that teaching and learning hold for healthcare simulation facilitators (Åkerlind, 2003). Conceptions are comparable to frames and beliefs through which people observe, interpret and create the meanings of phenomena (see, e.g., Kember, 1997). The broader the frames are, the more awareness one has of the phenomena – —in this case the phenomena being teaching and learning. Previous studies have shown that our conceptions are developed through experience (Barnard et al., 1999; Entwistle &amp; Peterson, 2004; Entwistle &amp; Walker, 2000; Tigchelaar, Vermunt, &amp; Brouwer, 2014), which makes them personal, intuitive, relatively stable, and charged with emotions (Entwistle &amp; Peterson, 2004; Entwistle &amp; Walker, 2000). However, some researchers have argued that certain types of instruction and learning environments may change these enduring conceptions of teaching and learning held by teachers and students (e.g., Postareff, Lindblom-Ylänne, &amp; Nevgi, 2007). Marton (1981) has also argued that there are only a finite number of ways in which people can experience phenomena, which indicates that there are many commonalities in conceptions. However, due to our individual experiences in the world, there are also individual differences in conceptions (Barnard et al., 1999). According to Paakkari, Tynjälä, and Kannas (2010), some people are able to discern more aspects of phenomena than others, thus having greater awareness and a more complex understanding of the phenomena. However, from a phenomenographic point of view, this simply means that people are aware of different aspects of the phenomena. For example, Pratt et al. (2012) describe five different sets of pedagogical BIASes: “B” stands for belief, “I” is intention, “A” is assumption, and “S” is strategy. According to Pratt et al. (2012), BIASes are lenses we use when approaching clinical teaching. In addition to BIASes, there are <em>conceptions</em>, which is the term used and studied in our study. However, according to Pratt et al. (2012, p. 9), no BIAS is more or less effective than any other one. They are simply different. In addition, some studies suggest that there is no critical difference in conceptions of teaching and learning across contexts (Lam &amp; Kember, 2004); rather the context provides additional shades of meaning in those conceptions (Dahlin &amp; Regmi, 1997). To summarize, in our study teaching and learning are understood in a finite number of common, qualitatively different ways, and the differences in conceptions depend very much on the facilitators’ different experiences of the world.</p>
-      <p>Previous research has proposed several categorizations of conceptions of teaching and learning. Kember and Kwan (2000) propose two broad categories of <em>conceptions of teaching</em>: teaching as transmission of knowledge and teaching as learning facilitation. The first category includes the subcategories teaching as transferring information and teaching as enhancing student understanding, and the latter category includes the subcategories teaching as meeting students’ learning needs and teaching as facilitating students in becoming independent learners. These main categories are also referred to as teacher-centered/content-oriented and student-centered/learning-oriented (Kember 1997; see also Samuelowicz &amp; Bain, 2001). In addition, Kember (1997) proposes a so-called intermediate category which serves as a link between the two extreme categories. This intermediate category stresses the importance of student-teacher interaction in teaching and learning. </p>
-      <p>Earlier research on conceptions of teaching and learning has led to different categorizations of learning as well (Bruce &amp; Gerber, 1995; Marton, Dall’Alba, &amp; Beaty 1993; Paakkari et al., 2011; Säljö, 1979). For example, Marton et al. (1993) have proposed qualitatively different conceptions of learning in their study of British Open University students: 1) increasing one’s knowledge, 2) memorizing and reproducing, 3) applying, 4) understanding, 5) seeing something in a different way, and 6) changing as a person. Boulton-Lewis et al. (2001) conducted phenomenographic research on secondary teachers and found results that are similar to those of Marton et al. (1993). There are also similarities in the categorization developed by Bruce and Gerber (1995); however, they established an additional category: learning as developing the competencies needed by entry-level professionals<em>. </em>Within this category, the ability to implement successful practical applications is considered important. As Bruce and Gerber (1995, 451) state, “competence involves having a repertoire of skills, being able to apply knowledge, and generally being prepared for the workplace.” The necessary skills and knowledge are acquired through real-life cases and problems. This supports Säljö’s (1979) work in the late 1970s. </p>
-      <p>As the studies discussed above suggest, conceptions of teaching and learning seem to be somewhat universal regardless of differences in the experiences, context or target group (cf. Paakkari et al., 2011), supporting the idea that there are commonalities and a finite number of ways of experiencing the phenomenon (Barnard et al., 1999; Marton, 1981). As Dahlin and Regmi (1997) argue, there can be underlying similarities in conceptions, but the time and the context affect the aspect on which we focus. For example, research on conceptions of teaching and learning within the medical domain has shown that so-called professional orientation, as described by Bruce and Gerber (1995), is often considered important in teaching and learning in the medical fields (Keskitalo et al., 2013), which indicates that there may be a context-specific component in conceptions of teaching and learning (cf. Bruce &amp; Gerber, 1995; Lonka et al., 1996). However, the extent to which the categories are contextually-bound remains a subject of debate (Paakkari et al., 2010) and, therefore, further study is needed.</p>
-      <p>Keeping in mind the earlier studies of teachers’ conceptions of teaching and learning discussed above, the aim of this study is to provide insight regarding the healthcare simulation facilitators’ different ways of understanding teaching and learning within the SBLE in order to help them better understand their educational practices, and to develop them. We set the following research question for our study: </p>
-      <p styleId="Endnotes" stylename="(Endnotes)">1) How do healthcare simulation facilitators understand teaching and learning?</p>
-      <h2 styleId="Heading2" stylename="heading 2" outlinelvl="1">Methods</h2>
-      <h3 styleId="Heading3" stylename="heading 3" outlinelvl="2">Participants</h3>
-      <p>The study was conducted using a phenomenographic methodology to identify the variation in participants’ conceptions.<em/>The participants in the study included 37 healthcare simulation facilitators from three different healthcare educational institutions (two universities of applied sciences in Finland and one university in the United States). There were 19 male and 18 female participants. The specialties of the facilitators were nursing, paramedics, anesthesia and emergency medicine. Twelve of the facilitators had also received pedagogical training. In this study, the participants often used a high-fidelity simulation technology, and consequently simulation sessions were typically structured into the following four phases: introduction, simulator and scenario briefing, scenario and debriefing (e.g., Keskitalo, 2015). However, the implementation may vary depending on the learning objectives. </p>
-      <h3 styleId="Heading3" stylename="heading 3" outlinelvl="2">Data Collection</h3>
-      <p>The data were collected from 37 healthcare simulation facilitators through paired and individual interviews during the years 2008–2016 (Table 1). During the first study, thematic interviews were conducted with eight healthcare facilitators. During studies 2–5, the data were collected using various methods in order to develop the pedagogical model for SBLEs (see Keskitalo, 2015); however, in the present study facilitators’ individual and paired interviews were analyzed. In this study, first author was responsible for collecting the interviews included in studies 1 and 2, while second author was responsible for collecting the interviews included in studies 3, 4 and 5.</p>
-      <p>
-         <w:br w:type="page"/>
-      </p>
-      <p styleId="TableCaption" stylename="(Table Caption)">
-         <span class="TableCaption--labelChar">Table 1.</span> Data collection, data sources, and data analysis methods</p>
+      <h2>Introduction </h2>
+      <p>Digitalisation is a global megatrend in the educational sector. Some teachers perceive the digitalisation of schools and teaching as a demanding aspect of their job (Syvänen, Mäkiniemi, Syrjä, Heikkilä-Tammi, &amp; Viteli, 2016), but in general, they have more positive perspectives. For example, according to a report, 70% of Finnish teachers view the digitalisation of education in a positive light, and 75% would like to use more digital applications (Tanhua-Piiroinen et al., 2016). Although the use of educational technology is often regarded positively, the focus of prior studies has often been on teachers’ negative experiences related to the use of educational technology, such as technostress experiences (e.g. Al-Fudail &amp; Mellar, 2008; Joo, Lim, &amp; Kim, 2016; Syvänen et al., 2016). Therefore, in the current study, we focus on teachers’ well-being experiences, particularly on their techno-work engagement, which can be defined as a positive state of well-being in which one feels fulfilled regarding the use of technology at work. Techno-work engagement is a novel concept based on the notion of work engagement, which is a widely used construct for describing and measuring employees’ positive affective–motivational well-being work (Mäkiniemi, Ahola, &amp; Joensuu, 2019; Mäkiniemi, Ahola, Syvänen, Heikkilä-Tammi, &amp; Viteli, 2017). Work engagement is commonly divided to three main dimensions: vigour (e.g. high levels of energy at work), dedication (e.g. high inspiration to work) and absorption (e.g. full concentration on work), and it has been shown to be associated with positive outcomes, such as commitment to work and good work performance (Albrecht, 2013; Bakker, Albrecht, &amp; Leiter, 2011). The main difference between the two above-mentioned two concerns the fact that although techno-work engagement and work engagement both capture the positive state of well-being at work, the former focuses on (digital) technology-intensive or (digital) technology-assisted work or work processes, whereas the latter focuses on work in general. Since the focus of the current study is on teachers’ well-being experiences related to their use of educational technology at work – not their work in general – we suggest that the concept of techno-work engagement is well suited to our framework.</p>
+      <p>Moreover, since some teachers perceive the digitalisation of schools as stressful and demanding, it is important to identify so-called protective factors that can serve as a buffer to stress as well as divergent factors that can enhance well-being (e.g. work autonomy, social support). An understanding of those factors or resources will make it possible to influence teachers’ well-being by supporting and developing them. This is an important strategy that takes into account the fact that it is generally not possible to eliminate demanding factors (e.g. time pressures). In the current study, we aim to identify which workplace resources are associated with teachers’ techno-work engagement. </p>
+      <p>According to Nielsen et al. (2017), workplace resources are factors within a workplace that help an employee to achieve goals and complete work tasks. Workplace resources can be divided into four main types: individual (also called personal resources, such as self-efficacy, competence and self-esteem), group-level (e.g. social support, good interpersonal relationships between employees), leader-level (e.g. leadership style) and organisational-level resources (e.g. autonomy, possibilities to develop capabilities, human resources practices). Based on a large body of empirical findings, the authors found that these kinds of workplace resources (also called personal resources and job resources) enhance work motivation, well-being (e.g. work engagement) and performance (Nielsen et al., 2017). Since the concept of techno-work engagement is based on the concept of work engagement, we assume that workplace resources are also associated with techno-work engagement. </p>
+      <h2>Techno-work engagement </h2>
+      <p>Recently, a new concept and scale of techno-work engagement was developed to identify the positive well-being aspects of technology use at work (Mäkiniemi et al., 2019). This was considered necessary since prior research has mostly focused on the negative or demanding aspects of technology use (e.g. Ragu-Nathan, Tarafdar, Ragu-Nathan, &amp; Tu, 2008). Further, the fact that an employee reports no or few negative well-being experiences, such as technostress, related to technology use does not necessarily indicate that he or she is having positive experiences. Consequently, it is not possible to measure positive experiences with scales that focus on negative experiences. Relatedly, Tarafdar, Cooper and Stich (2017) recently suggested that there is a need to consider the positive aspect of technostress, which they refer to as techno-eustress (i.e. the perception of technology use as challenging, thrilling and motivating). They argued that mastering such challenges could lead to positive outcomes, such as greater work engagement. Techno-work engagement refers to employees’ technology-related experiences of well-being, and it is defined as a fulfilling state of mind associated with the use of technology (Mäkiniemi et at., 2017; Mäkiniemi et al., 2019). Similar to work engagement, it is a positive motivational state characterised by vigour, dedication and absorption.</p>
+      <h2>Technology-related group- and organisational-level workplace resources </h2>
+      <p>So-called supportive workplace factors may enhance techno-work engagement as well as the willingness to use educational technology. In the current study, we call these kinds of factors ‘technology-related workplace resources’. In line with the definition presented above, we suggest that workplace resources are factors that help teachers to integrate and use educational technology at work and complete related work tasks. Prior studies on work engagement suggest that individual-, group- and organisation-level workplace resources, such as social support, autonomy and self-efficacy (Schaufeli &amp; Bakker, 2004; Ventura, Salanova, &amp; Llorens, 2015; Xanthopoulou, Bakker, Demerouti, &amp; Schaufeli, 2007), are associated with higher work engagement. In line with these findings, we assume that high technology-related autonomy (i.e. teachers can freely make decisions regarding the use of educational technology), technology-related social support (i.e. colleagues give advice concerning educational technology) and technology-related competence support (i.e. individuals have enough time to use educational technology) are all associated with higher techno-work engagement. </p>
+      <h2>Technology-related self-efficacy as an individual workplace resource </h2>
+      <p>Self-efficacy is an important individual resource that is associated with employee well-being, such as higher work engagement (Xanthopoulou et al., 2007; Nielsen et al., 2017; Skaalvik &amp; Skaalvik, 2014) and lower burnout in various occupations, including educational occupations (Skaalvik &amp; Skaalvik, 2007; Shoji et al., 2016). According to social cognitive theory, self-efficacy is defined as an individual’s beliefs regarding his or her capability to control situations and challenging demands. People with high levels of self-efficacy tend to set challenging goals, persist in achieving their goals, even under difficult and stressful circumstances, and recover quickly from failure, even in conditions that would appear to be overwhelming to the average person (Bandura, 1997). Self-efficacy can be measured at either a general or situation- or domain-specific level. One domain-specific concept, teaching or teacher efficacy, is defined as a teacher’s future-oriented competency-based expectation, which is related to his or her ability to plan, organise and carry out the activities required to attain given educational goals. This expectation is a balanced judgement influenced by the teacher’s perceived capacity to carry out the acts as well as the perceived demands of the working situation (Reeve &amp; Su, 2014). In the current paper, we focus on teachers’ (educational) technology-related self-efficacy as a personal workplace resource. We assume that a teacher has high technology-related self-efficacy, for example, when he or she understands the possibilities of educational technology well enough to maximise them in teaching and when he or she feels confident that he or she can help students when they have difficulties (c.f. Wang, Ertmer, &amp; Newby, 2004). In line with previous findings assuming the link between self-efficacy and work engagement among teachers (e.g. Skaalvik &amp; Skaalvik, 2014), we suggest that technology-related self-efficacy is associated with higher techno-work engagement. </p>
+      <figure>
+         <img src="fig.png"
+              alt="Two overlapping models. Technology related subjects that are related to Techno-work engagement. In model 1: Technology-related collegial support, autonoy and competence support. Model 2 is identical, but adds thechnology related self-efficacy."/>
+         <figcaption>
+            <p>
+               <span class="FigureCaption-Label">Figure 1.</span> Hypothetical models.</p>
+         </figcaption>
+      </figure>
+      <p>Taken together, the main aims of the current study are to analyse how technology-related individual-, organisation- and group-level resources are associated with techno-work engagement among a group of Finnish teachers and determine which are the most influential predictors of techno-work engagement. We pose two hypotheses (Figure 1): technology-related job resources, namely, collegial support (H1a), autonomy (H1b) and competence support (H1c), are associated with higher techno-work engagement, and technology-related self-efficacy is associated with higher techno-work engagement (H2). Based on prior findings and theoretical formulations, it is not possible to hypothesise which predictors are the most influential. In practise, we tested two hypothetical models, as shown in Figure 1. The first model (Model 1) tested how three technology-related job resources – technology-related collegial support, technology-related autonomy and technology-related competence support – are associated with techno-work engagement. In the second model (Model 2), technology-related self-efficacy as an individual resource was added to the model to test whether technology-related job resources and an individual resource together are associated with techno-work engagement and which of these are the best predictors of techno-work engagement (Figure 1).</p>
+      <h2>Methods </h2>
+      <h3>Data collection and participants </h3>
+      <p>Quantitative data were collected from 15 schools in Finland as a part of a larger research project. Altogether, 183 teachers and principals answered a web-based questionnaire (in Finnish). Three principals had missing values on the Techno-Work Engagement Scale (TechnoWES) and were therefore excluded from the analyses. Of the remaining 180 respondents, 137 (76%) were females, and their mean age was 45 years. The respondents were class teachers (52.2%), subject teachers (43.3%) and principals (4.4%). </p>
+      <h3>Measures </h3>
+      <p>Techno-work engagement was measured with the TechnoWES (Mäkiniemi et al., 2019), which captures positive well-being aspects of technology use at work. The TechnoWES consists of nine items that represent the three aspects of techno-work engagement (i.e. techno_vigor, techno_dedication, and techno_absorption; measured with three items each). The respondents were asked to evaluate how often they have certain kinds of feelings and thoughts using a 7-point scale (1 = never; 7 = daily). An example of an item describing techno_vigor is ‘When I utilise technology in my work, I feel that I am bursting with energy.’ An exemplary item measuring techno_dedication is ‘I am enthusiastic about utilising technology in my job.” Finally, an example techno_absorption item is ‘I feel happy when I am immersed in using technology in my work.’ The respondents were asked to think about educational technology in particular when answering.</p>
+      <p>Technology-related self-efficacy, as an individual workplace resource, was measured by three items (e.g. ‘I feel confident that I have the necessary skills in educational technology’) on a 5-point scale (1 = strongly disagree; 5 = strongly agree; items adapted from Wang et al., 2004). </p>
+      <p>Technology-related job resources were assessed with three subscales (adapted from Lam, Cheng, &amp; Choy, 2010). Technology-related collegial support (e.g. ‘My colleagues support me if I encounter difficulties in using educational technology’), technology-related competence support (e.g. ‘Our school provides sufficient training in using educational technology’) and technology-related autonomy (e.g. ‘I use educational technology voluntarily in my teaching’) were each measured with three items on a 5-point scale (1 = strongly disagree; 5 = strongly agree; for the Finnish versions of the items, see Mäkiniemi et al., 2017). </p>
+      <h3>Data analysis </h3>
+      <p>First, the mean scores were calculated for each main variable, and differences between gender (calculated by an independent sample t-test) and teacher type (calculated by a one-way analysis of variance, ANOVA) were analysed with IBM SPSS 22. Subsequently, structural equation modelling (SEM) was used to identify the antecedents of techno-work engagement. The hypotheses were tested with SmartPLS 3, which is based on the partial least squares (PLS) SEM theory. A PLS-SEM modelling approach was developed to maximise the explained variance of the dependent variable (Hair, Ringle, &amp; Sarstedt, 2011; Hair, Hult, &amp; Ringle, 2017). This approach was appropriate in this study due to the non-normality of the data and the small sample size (n = 180). Additionally, PLS-SEM is considered appropriate for exploratory research and the early stages of theory development (Hair, Sarstedt, Ringle, &amp; Mena, 2012). As we were interested in testing and comparing the antecedents of techno-work engagement, which is a recently developed concept, the explorative nature of PLS modelling was advantageous for our study (Henseler, Ringle, Sinkovics, 2009).</p>
+      <h2>Results</h2>
+      <p>The level of techno-work engagement was quite high (M = 3.93, SD = 1.49). There was no statistically significant difference between females (M = 3.86, SD = 1.46) and males (M = 4.17, SD = 1.57; t(178) = 1.21, p = .229). However, there were differences between different types of teachers (F(2, 177) = 6.78, p = .001). Post-hoc comparisons conducted with the Scheffe test indicated that the mean score for principals (M = 5.71, SD = 1.26) was significantly higher than those for class teachers (M = 3.75, SD = 1.37) and subject teachers (M = 3.97, SD = 1.54) at p &lt;. 01 (Table 1). </p>
       <table>
+         <caption>
+            <p>
+               <span class="TableCaption-Label">Table 1.</span> Descriptive statistics for the study variables (n = 180).</p>
+         </caption>
          <thead>
-            <tr data-rid="d59e630">
+            <tr data-rid="d64e511">
                <th>
-                  <p styleId="TableHeader" stylename="(Table Header)">Studies</p>
+                  <p styleId="TableHeaderLeft" stylename="[Table Header Left]"/>
                </th>
-               <th>
-                  <p styleId="TableHeader" stylename="(Table Header)">Data collection method</p>
+               <th colspan="2">
+                  <p styleId="TableHeaderCentered" stylename="[Table Header Centered]">All</p>
                </th>
-               <th>
-                  <p styleId="TableHeader" stylename="(Table Header)">Data-analysis method</p>
+               <th colspan="2">
+                  <p styleId="TableHeaderCentered" stylename="[Table Header Centered]">Female</p>
+                  <p styleId="TableHeaderCentered" stylename="[Table Header Centered]">(n = 137)</p>
+               </th>
+               <th colspan="2">
+                  <p styleId="TableHeaderCentered" stylename="[Table Header Centered]">Male</p>
+                  <p styleId="TableHeaderCentered" stylename="[Table Header Centered]">(n = 43)</p>
+               </th>
+               <th colspan="2">
+                  <p styleId="TableHeaderCentered" stylename="[Table Header Centered]">Class teacher</p>
+                  <p styleId="TableHeaderCentered" stylename="[Table Header Centered]">(n = 94)</p>
+               </th>
+               <th colspan="2">
+                  <p styleId="TableHeaderCentered" stylename="[Table Header Centered]">Subject teacher</p>
+                  <p styleId="TableHeaderCentered" stylename="[Table Header Centered]">(n = 78)</p>
+               </th>
+               <th colspan="2">
+                  <p styleId="TableHeaderCentered" stylename="[Table Header Centered]">Principal</p>
+                  <p styleId="TableHeaderCentered" stylename="[Table Header Centered]">(n = 8)</p>
                </th>
             </tr>
          </thead>
-         <tr data-rid="d59e657">
+         <tr data-rid="d64e641">
             <th>
-               <p styleId="TableHeader" stylename="(Table Header)">Study 1 (2008, Finland)</p>
+               <p styleId="TableHeaderLeft" stylename="[Table Header Left]"/>
             </th>
             <th>
-               <p>Thematic individual interviews with simulation facilitators (<em>n</em> = 8)</p>
-               <p/>
+               <p styleId="TableHeaderCentered" stylename="[Table Header Centered]">M</p>
             </th>
             <th>
-               <p>Phenomenographic analysis</p>
-            </th>
-         </tr>
-         <tr data-rid="d59e681">
-            <th>
-               <p styleId="TableHeader" stylename="(Table Header)">Study 2 (2009, Finland)</p>
+               <p styleId="TableHeaderCentered" stylename="[Table Header Centered]">SD</p>
             </th>
             <th>
-               <p>Semi-structured individual interviews with simulation facilitators (<em>n</em> = 4)</p>
-               <p/>
+               <p styleId="TableHeaderCentered" stylename="[Table Header Centered]">M</p>
             </th>
             <th>
-               <p>Phenomenographic analysis </p>
-            </th>
-         </tr>
-         <tr data-rid="d59e705">
-            <th>
-               <p styleId="TableHeader" stylename="(Table Header)">Study 3 (2010, USA) </p>
+               <p styleId="TableHeaderCentered" stylename="[Table Header Centered]">SD</p>
             </th>
             <th>
-               <p>Semi-structured interviews:</p>
-               <p>Paired interviews with simulation facilitators (<em>n</em> = 8, interviewed in pairs) </p>
-               <p>Individual interviews with facilitators (<em>n</em> = 1)</p>
-               <p/>
+               <p styleId="TableHeaderCentered" stylename="[Table Header Centered]">M</p>
             </th>
             <th>
-               <p>Phenomenographic analysis </p>
-            </th>
-         </tr>
-         <tr data-rid="d59e734">
-            <th>
-               <p styleId="TableHeader" stylename="(Table Header)">Study 4 (2013–2014, USA)</p>
+               <p styleId="TableHeaderCentered" stylename="[Table Header Centered]">SD</p>
             </th>
             <th>
-               <p>Semi-structured individual interviews with simulation facilitators (<em>n</em> = 7)</p>
+               <p styleId="TableHeaderCentered" stylename="[Table Header Centered]">M</p>
             </th>
             <th>
-               <p>Phenomenographic analysis</p>
+               <p styleId="TableHeaderCentered" stylename="[Table Header Centered]">SD</p>
+            </th>
+            <th>
+               <p styleId="TableHeaderCentered" stylename="[Table Header Centered]">M</p>
+            </th>
+            <th>
+               <p styleId="TableHeaderCentered" stylename="[Table Header Centered]">SD</p>
+            </th>
+            <th>
+               <p styleId="TableHeaderCentered" stylename="[Table Header Centered]">M</p>
+            </th>
+            <th>
+               <p styleId="TableHeaderCentered" stylename="[Table Header Centered]">SD</p>
             </th>
          </tr>
-         <tr data-rid="d59e757">
+         <tr data-rid="d64e840">
             <th>
-               <p styleId="TableHeader" stylename="(Table Header)">Study 5 (2016, USA)</p>
+               <p styleId="TableHeaderLeft" stylename="[Table Header Left]">1. Techno-work engagement </p>
             </th>
             <th>
-               <p>Semi-structured individual interviews with simulation facilitators (<em>n</em> = 9)</p>
+               <p styleId="TableContentsCenteredNarrow"
+                  stylename="[Table Contents Centered Narrow]">3.93</p>
             </th>
             <th>
-               <p>Phenomenographic analysis</p>
+               <p styleId="TableContentsCenteredNarrow"
+                  stylename="[Table Contents Centered Narrow]">1.49</p>
+            </th>
+            <th>
+               <p styleId="TableContentsCenteredNarrow"
+                  stylename="[Table Contents Centered Narrow]">3.86</p>
+            </th>
+            <th>
+               <p styleId="TableContentsCenteredNarrow"
+                  stylename="[Table Contents Centered Narrow]">1.46</p>
+            </th>
+            <th>
+               <p styleId="TableContentsCenteredNarrow"
+                  stylename="[Table Contents Centered Narrow]">4.17</p>
+            </th>
+            <th>
+               <p styleId="TableContentsCenteredNarrow"
+                  stylename="[Table Contents Centered Narrow]">1.57</p>
+            </th>
+            <th>
+               <p styleId="TableContentsCenteredNarrow"
+                  stylename="[Table Contents Centered Narrow]">3.75</p>
+            </th>
+            <th>
+               <p styleId="TableContentsCenteredNarrow"
+                  stylename="[Table Contents Centered Narrow]">1.37</p>
+            </th>
+            <th>
+               <p styleId="TableContentsCenteredNarrow"
+                  stylename="[Table Contents Centered Narrow]">3.97</p>
+            </th>
+            <th>
+               <p styleId="TableContentsCenteredNarrow"
+                  stylename="[Table Contents Centered Narrow]">1.54</p>
+            </th>
+            <th>
+               <p styleId="TableContentsCenteredNarrow"
+                  stylename="[Table Contents Centered Narrow]">5.71</p>
+            </th>
+            <th>
+               <p styleId="TableContentsCenteredNarrow"
+                  stylename="[Table Contents Centered Narrow]">1.26</p>
+            </th>
+         </tr>
+         <tr data-rid="d64e1052">
+            <th>
+               <p styleId="TableHeaderLeft" stylename="[Table Header Left]">2. Technology-related self-efficacy (individual)</p>
+            </th>
+            <th>
+               <p styleId="TableContentsCenteredNarrow"
+                  stylename="[Table Contents Centered Narrow]">2.98</p>
+            </th>
+            <th>
+               <p styleId="TableContentsCenteredNarrow"
+                  stylename="[Table Contents Centered Narrow]">1.02</p>
+            </th>
+            <th>
+               <p styleId="TableContentsCenteredNarrow"
+                  stylename="[Table Contents Centered Narrow]">2.79</p>
+            </th>
+            <th>
+               <p styleId="TableContentsCenteredNarrow"
+                  stylename="[Table Contents Centered Narrow]">0.98</p>
+            </th>
+            <th>
+               <p styleId="TableContentsCenteredNarrow"
+                  stylename="[Table Contents Centered Narrow]">3.58</p>
+            </th>
+            <th>
+               <p styleId="TableContentsCenteredNarrow"
+                  stylename="[Table Contents Centered Narrow]">0.89</p>
+            </th>
+            <th>
+               <p styleId="TableContentsCenteredNarrow"
+                  stylename="[Table Contents Centered Narrow]">2.94</p>
+            </th>
+            <th>
+               <p styleId="TableContentsCenteredNarrow"
+                  stylename="[Table Contents Centered Narrow]">1.01</p>
+            </th>
+            <th>
+               <p styleId="TableContentsCenteredNarrow"
+                  stylename="[Table Contents Centered Narrow]">2.97</p>
+            </th>
+            <th>
+               <p styleId="TableContentsCenteredNarrow"
+                  stylename="[Table Contents Centered Narrow]">1.04</p>
+            </th>
+            <th>
+               <p styleId="TableContentsCenteredNarrow"
+                  stylename="[Table Contents Centered Narrow]">3.54</p>
+            </th>
+            <th>
+               <p styleId="TableContentsCenteredNarrow"
+                  stylename="[Table Contents Centered Narrow]">0.75</p>
+            </th>
+         </tr>
+         <tr data-rid="d64e1264">
+            <th>
+               <p styleId="TableHeaderLeft" stylename="[Table Header Left]">3. Technology-related collegial support (job)</p>
+            </th>
+            <th>
+               <p styleId="TableContentsCenteredNarrow"
+                  stylename="[Table Contents Centered Narrow]">3.83</p>
+            </th>
+            <th>
+               <p styleId="TableContentsCenteredNarrow"
+                  stylename="[Table Contents Centered Narrow]">0.86</p>
+            </th>
+            <th>
+               <p styleId="TableContentsCenteredNarrow"
+                  stylename="[Table Contents Centered Narrow]">3.77</p>
+            </th>
+            <th>
+               <p styleId="TableContentsCenteredNarrow"
+                  stylename="[Table Contents Centered Narrow]">0.89</p>
+            </th>
+            <th>
+               <p styleId="TableContentsCenteredNarrow"
+                  stylename="[Table Contents Centered Narrow]">4.01</p>
+            </th>
+            <th>
+               <p styleId="TableContentsCenteredNarrow"
+                  stylename="[Table Contents Centered Narrow]">0.75</p>
+            </th>
+            <th>
+               <p styleId="TableContentsCenteredNarrow"
+                  stylename="[Table Contents Centered Narrow]">3.80</p>
+            </th>
+            <th>
+               <p styleId="TableContentsCenteredNarrow"
+                  stylename="[Table Contents Centered Narrow]">0.76</p>
+            </th>
+            <th>
+               <p styleId="TableContentsCenteredNarrow"
+                  stylename="[Table Contents Centered Narrow]">3.80</p>
+            </th>
+            <th>
+               <p styleId="TableContentsCenteredNarrow"
+                  stylename="[Table Contents Centered Narrow]">0.99</p>
+            </th>
+            <th>
+               <p styleId="TableContentsCenteredNarrow"
+                  stylename="[Table Contents Centered Narrow]">4.38</p>
+            </th>
+            <th>
+               <p styleId="TableContentsCenteredNarrow"
+                  stylename="[Table Contents Centered Narrow]">0.55</p>
+            </th>
+         </tr>
+         <tr data-rid="d64e1476">
+            <th>
+               <p styleId="TableHeaderLeft" stylename="[Table Header Left]">4. Technology-related competence support (job)</p>
+            </th>
+            <th>
+               <p styleId="TableContentsCenteredNarrow"
+                  stylename="[Table Contents Centered Narrow]">3.26</p>
+            </th>
+            <th>
+               <p styleId="TableContentsCenteredNarrow"
+                  stylename="[Table Contents Centered Narrow]">0.77</p>
+            </th>
+            <th>
+               <p styleId="TableContentsCenteredNarrow"
+                  stylename="[Table Contents Centered Narrow]">3.21</p>
+            </th>
+            <th>
+               <p styleId="TableContentsCenteredNarrow"
+                  stylename="[Table Contents Centered Narrow]">0.77</p>
+            </th>
+            <th>
+               <p styleId="TableContentsCenteredNarrow"
+                  stylename="[Table Contents Centered Narrow]">3.45</p>
+            </th>
+            <th>
+               <p styleId="TableContentsCenteredNarrow"
+                  stylename="[Table Contents Centered Narrow]">0.76</p>
+            </th>
+            <th>
+               <p styleId="TableContentsCenteredNarrow"
+                  stylename="[Table Contents Centered Narrow]">3.23</p>
+            </th>
+            <th>
+               <p styleId="TableContentsCenteredNarrow"
+                  stylename="[Table Contents Centered Narrow]">0.75</p>
+            </th>
+            <th>
+               <p styleId="TableContentsCenteredNarrow"
+                  stylename="[Table Contents Centered Narrow]">3.23</p>
+            </th>
+            <th>
+               <p styleId="TableContentsCenteredNarrow"
+                  stylename="[Table Contents Centered Narrow]">0.78</p>
+            </th>
+            <th>
+               <p styleId="TableContentsCenteredNarrow"
+                  stylename="[Table Contents Centered Narrow]">4.04</p>
+            </th>
+            <th>
+               <p styleId="TableContentsCenteredNarrow"
+                  stylename="[Table Contents Centered Narrow]">0.58</p>
+            </th>
+         </tr>
+         <tr data-rid="d64e1688">
+            <th>
+               <p styleId="TableHeaderLeft" stylename="[Table Header Left]">5. Technology-related autonomy (job)</p>
+            </th>
+            <th>
+               <p styleId="TableContentsCenteredNarrow"
+                  stylename="[Table Contents Centered Narrow]">4.09</p>
+            </th>
+            <th>
+               <p styleId="TableContentsCenteredNarrow"
+                  stylename="[Table Contents Centered Narrow]">0.63</p>
+            </th>
+            <th>
+               <p styleId="TableContentsCenteredNarrow"
+                  stylename="[Table Contents Centered Narrow]">4.01</p>
+            </th>
+            <th>
+               <p styleId="TableContentsCenteredNarrow"
+                  stylename="[Table Contents Centered Narrow]">0.60</p>
+            </th>
+            <th>
+               <p styleId="TableContentsCenteredNarrow"
+                  stylename="[Table Contents Centered Narrow]">4.35</p>
+            </th>
+            <th>
+               <p styleId="TableContentsCenteredNarrow"
+                  stylename="[Table Contents Centered Narrow]">0.65</p>
+            </th>
+            <th>
+               <p styleId="TableContentsCenteredNarrow"
+                  stylename="[Table Contents Centered Narrow]">4.05</p>
+            </th>
+            <th>
+               <p styleId="TableContentsCenteredNarrow"
+                  stylename="[Table Contents Centered Narrow]">0.56</p>
+            </th>
+            <th>
+               <p styleId="TableContentsCenteredNarrow"
+                  stylename="[Table Contents Centered Narrow]">4.11</p>
+            </th>
+            <th>
+               <p styleId="TableContentsCenteredNarrow"
+                  stylename="[Table Contents Centered Narrow]">0.70</p>
+            </th>
+            <th>
+               <p styleId="TableContentsCenteredNarrow"
+                  stylename="[Table Contents Centered Narrow]">4.42</p>
+            </th>
+            <th>
+               <p styleId="TableContentsCenteredNarrow"
+                  stylename="[Table Contents Centered Narrow]">0.77</p>
             </th>
          </tr>
       </table>
-      <p>Each of the interviews ranged in length from 30 to 80 minutes. Eight participants were interviewed in pairs, whereas the others were interviewed individually. However, we tried to ensure that this imbalance in the data collection methods would not affect our data collection and analysis. For example, in pair interviews, the interviewees naturally elicited discussion by commenting on and complementing each other’s answers, whereas in the individual interviews the interviewer was responsible for eliciting discussion.</p>
-      <p>During the first study (2008), the interview themes were: 1) the possibilities and limitations of simulation-based learning environments for educational use, 2) the basis of the teachers’ pedagogical thinking, 3) the pedagogical principles, models and methods used in a simulation-based learning environment, 4) the role of the teacher, 5) the strength of the pedagogical community, 6) the need for continuing education, and 7) the teacher’s participation in developmental work. More specifically, the questions we asked included: <em>How would you describe learning? How do you think learning occurs after these sessions? </em>During the interviews, the aim was to have free and open-ended discussions, but the facilitators were also encouraged to provide examples or explanations through questions such as <em>Could you explain some more?</em> or <em>Could you give me an example?</em> The interviews conducted during the studies 2 to 5 were similar to those in the first study, but the interviews in these studies involved more questions related to the development of the pedagogical model. An example of an interview questions from these studies are: <em>Describe how you </em>
-         <em>organise</em>
-         <em> your courses.</em>
-         <em>Is there any phase that plays a more important role than the others? Why? </em>During the third study (2010), the interviews were similar to those in the study two, four and five, but paired interviews were used. The interviews in the US were conducted in English, and the ones in Finland in Finnish; the Finnish responses were later translated into English. Thereafter, the interviews were voice-recorded and transcribed verbatim prior to analysis.</p>
-      <h4 styleId="Heading4" stylename="heading 4" outlinelvl="3">Data Analysis </h4>
-      <p>The data analysis was conducted using a phenomenographic approach (Marton, 1981; Marton et al., 1993; Åkerlind, 2005). Phenomenography aims to describe, analyze, and understand conceptions and different ways of experiencing the target phenomenon on a collective level (Marton, 1981). As Åkerlind (2005, 323) states, “Phenomenographic research aims to explore the range of meanings within the sample group, as a group, not the range of meanings for each individual within the group.” The aim of phenomenographic analysis is to provide insight regarding the variations in understanding of the target phenomenon; therefore, each qualitatively different conception is important. Another characteristic of the phenomenographic research tradition is the application of a second-order perspective (Marton, 1981). According to Marton (1981), the aim of a second-order perspective is to describe, analyze and understand people’s experiences of the world, whereas a first-order perspective aims to describe the world directly. Thus, the focus of the phenomenographic research tradition is on the individual’s perceptions of reality rather than reality itself. </p>
-      <p>In order to establish a general understanding of the phenomenon, the transcribed interviews were read several times. During the data analysis process, the data were treated as a whole (Åkerlind, 2005) in order to identify the varying conceptions on a collective level. During the first reading, meaning units were underlined, and a mind map was developed to obtain an overall picture of the phenomenon and identify all possible conceptions and ideas that facilitators might have related to teaching and learning within an SBLE, and to see how the ideas and conceptions were related. The meaning units in the study consisted of sentences, groups of sentences, ideas or episodes that somehow reflected the conceptions of teaching and learning. In the phenomenographic research tradition, the first reading involves searching for meaning and is characterized by open-mindedness to all possible meanings that may be found in the data (Åkerlind, 2005). During the reading, our initial focus was on the words themselves; however, in order to understand the interviewees more accurately, it was necessary to read larger portions of the transcripts (Bowden, 2005). In addition, the entire transcript was also read thoroughly in order to analyze all the information provided by the interviewees; thus the focus was not only on questions related to teaching and learning. The data analysis process was iterative in nature in the sense that the data were re-read several times, and we moved back and forth between the data and the interpretations to verify the accuracy of our interpretations. This iterative data analysis process helped us remain open-minded and detect misinterpretations in our own thinking and reasoning until the final categories were formulated (Åkerlind, 2005). During this study, first author made the initial analysis, while the final categories were negotiated and agreed together.</p>
-      <p>The aim of the analysis process was to develop a hierarchical category system (see, e.g., Åkerlind, 2005) where each category forms part of a larger whole and together they form the phenomenon (Barnard et al., 1999). According to Marton and Booth (1997), each category of conceptions of teaching and learning has distinctive characteristics. During the analysis process, our focus was on the “how” (how subjects are taught or learned) and “what” (what the focus of teaching or learning is) aspects of teaching and learning, as well as on detecting similarities and differences within and between the categories (Harris, 2011; Åkerlind, 2005). In addition, Samuelowicz and Bain’s (2001) belief dimensions as well as Paakkari et al.’s (2011) themes helped us focus our data analysis. The conceptions of learning are reported first, because it seems that those mediated the facilitators’ description of their conceptions of teaching. </p>
-      <h2 styleId="Heading2" stylename="heading 2" outlinelvl="1">Results </h2>
-      <h3 styleId="Heading3" stylename="heading 3" outlinelvl="2">Conceptions of Learning</h3>
-      <p>In this study, four distinct categories of conceptions about learning were identified among the facilitators we interviewed: 1) <em>Learning as acquiring and reproducing knowledge and skills</em>, 2) <em>Learning as applying and advancing knowledge and skills</em>, and 3) <em>Learning as transformation of individual</em>
-         <em> t</em>
-         <em>hinking and behavior </em>and 4) <em>Learning as co-constructing knowledge and skills</em>. Detailed descriptions regarding the way learning is understood by healthcare simulation facilitators are provided below. </p>
-      <h4 styleId="Heading4" stylename="heading 4" outlinelvl="3">Learning as Acquiring and Reproducing Knowledge and Skills</h4>
-      <p>In the first category, which is learning as the acquisition and reproduction of knowledge and skills, the goal in learning is to acquire and reproduce knowledge and skills in a manner which is appropriate for the subject the students are studying. In this category, facts and skills are also constructed by the teachers for the students, thus making this category teacher-centered. Knowledge and skills are considered rather unproblematic, which diminishes the value of reflection. According to facilitators who hold this conception, knowledge and skills are acquired using basic study skills such as discussing, reading, listening and observing; thus, the range of study strategies is rather restricted and traditional from their point of view. Learning was also seen as something that cannot be seen, and which some of the facilitators’ thinks happens in a learner’s brain. In the following excerpt, facilitator describes how he thinks people learn:</p>
-      <p styleId="Blockquote" stylename="(Blockquote)">“I guess it’s being presented with new information and how your brain is able to process it to understand it and to build a little bit more knowledge about it.” (Facilitator 34)</p>
-      <p>In this category, learning can be considered to have occurred when students have memorized knowledge and can imitate the behavior correctly within the context of their field of study.</p>
-      <h4 styleId="Heading4" stylename="heading 4" outlinelvl="3">Learning as Applying and Advancing Knowledge and Skills</h4>
-      <p>In the second category, learning is viewed as the application and advancement of knowledge and skills in order to solve medical problems in new situations and become a better healthcare professional. Compared to the previous category of learning conceptions, in which the purpose is to acquire knowledge and skills, knowledge and skills in this category must be applied in the care of real patients. Thus, the focus of learning is on the competencies the students must attain, but also on the application of these competencies, using strategies such as problem solving, trial and error, gaining experience, practicing, and working through positive and negative feedback. The goal of learning in this category is to develop a more competent learner and healthcare worker. According to the facilitators, this type of learning makes students more independent, experienced and comfortable in various situations they will encounter in their future careers, as the following facilitator describes:</p>
-      <p styleId="Blockquote" stylename="(Blockquote)">“I think it [the SBLE] makes them more comfortable. The next time they’re in a situation like this, maybe they will remember to designate roles. Maybe they’ll remember to sort of cut through the chaos and really look at what’s important right now and be able to process.” (Facilitator 18)</p>
-      <p>In this category, the acquisition of experience through experiential learning and the application of knowledge and skills are seen as crucial. However, the knowledge and skills are still constructed by the teacher for the students. This diminishes the importance of reflection in the debriefing phase. The critical reflection is more descriptive in nature, concentrating more on what and how question, e.g. <em>Describe what just happened? </em>
+      <h2>Outer model</h2>
+      <p>The assessment of PLS models is twofold; an acceptable judgement of the outer model allows one to proceed with the inner model evaluation. The outer model is assessed by analysing the reliability and validity of the constructs. Reliability and validity are determined for reflective indicators based on factor loadings, composition reliability (CR), average of variance extracted (AVE) and discriminant validity (Henseler et al., 2009). The estimated loadings of the reflective indicators were all high (0.58–0.92) and statistically significant (see Appendix 1). Statistical significance was achieved by the bootstrap procedure using 5,000 samples. The composite reliability (CR) of constructs can be regarded as more suitable than Cronbach’s alpha when using the PLS method (Hair et al., 2012). CR values indicate the reliability and consistency of constructs (Table 2) (Hair et al., 2011). Convergent validity of constructs is achieved when AVE values are greater than 0.51. Using the Fornell–Larcker criterion to assess the discriminant validity between the constructs, it was determined that the square roots of the AVEs of each construct were larger than the constructs’ correlations with each other (Table 2) (Fornell &amp; Larcker, 1981). </p>
+      <table>
+         <caption>
+            <p>
+               <span class="TableCaption-Label">Table 1.</span> Descriptive statistics for the study variables (n = 180).</p>
+            <p>
+               <span class="TableCaption-Label">Table 2.</span> Construct validity, reliability, discriminant validity, correlations, means and standard deviations for constructs (PLS models, n = 180).</p>
+         </caption>
+         <thead>
+            <tr data-rid="d64e1947">
+               <th>
+                  <p styleId="TableHeader" stylename="Table Header"/>
+               </th>
+               <th>
+                  <p styleId="TableHeader" stylename="Table Header">CR1</p>
+               </th>
+               <th>
+                  <p styleId="TableHeader" stylename="Table Header">AVE2</p>
+               </th>
+               <th>
+                  <p styleId="TableHeader" stylename="Table Header">(1)</p>
+               </th>
+               <th>
+                  <p styleId="TableHeader" stylename="Table Header">(2)</p>
+               </th>
+               <th>
+                  <p styleId="TableHeader" stylename="Table Header">(3)</p>
+               </th>
+               <th>
+                  <p styleId="TableHeader" stylename="Table Header">(4)</p>
+               </th>
+               <th>
+                  <p styleId="TableHeader" stylename="Table Header">(5)</p>
+               </th>
+            </tr>
+         </thead>
+         <tr data-rid="d64e2071">
+            <th>
+               <p styleId="TableHeaderLeft" stylename="[Table Header Left]">Technology-related self-efficacy (1)</p>
+            </th>
+            <th>
+               <p styleId="TableContents" stylename="Table Contents">0.915</p>
+            </th>
+            <th>
+               <p styleId="TableContents" stylename="Table Contents">0.783</p>
+            </th>
+            <th>
+               <p styleId="TableContents" stylename="Table Contents">0.885</p>
+            </th>
+            <th>
+               <p styleId="TableContents" stylename="Table Contents"/>
+            </th>
+            <th>
+               <p styleId="TableContents" stylename="Table Contents"/>
+            </th>
+            <th>
+               <p styleId="TableContents" stylename="Table Contents"/>
+            </th>
+            <th>
+               <p styleId="TableContents" stylename="Table Contents"/>
+            </th>
+         </tr>
+         <tr data-rid="d64e2191">
+            <th>
+               <p styleId="TableHeaderLeft" stylename="[Table Header Left]">Technology-related collegial support (2)</p>
+            </th>
+            <th>
+               <p styleId="TableContents" stylename="Table Contents">0.914</p>
+            </th>
+            <th>
+               <p styleId="TableContents" stylename="Table Contents">0.781</p>
+            </th>
+            <th>
+               <p styleId="TableContents" stylename="Table Contents">0.291</p>
+            </th>
+            <th>
+               <p styleId="TableContents" stylename="Table Contents">0.884</p>
+            </th>
+            <th>
+               <p styleId="TableContents" stylename="Table Contents"/>
+            </th>
+            <th>
+               <p styleId="TableContents" stylename="Table Contents"/>
+            </th>
+            <th>
+               <p styleId="TableContents" stylename="Table Contents"/>
+            </th>
+         </tr>
+         <tr data-rid="d64e2312">
+            <th>
+               <p styleId="TableHeaderLeft" stylename="[Table Header Left]">Technology-related autonomy (3)</p>
+            </th>
+            <th>
+               <p styleId="TableContents" stylename="Table Contents">0.811</p>
+            </th>
+            <th>
+               <p styleId="TableContents" stylename="Table Contents">0.592</p>
+            </th>
+            <th>
+               <p styleId="TableContents" stylename="Table Contents">0.502</p>
+            </th>
+            <th>
+               <p styleId="TableContents" stylename="Table Contents">0.422</p>
+            </th>
+            <th>
+               <p styleId="TableContents" stylename="Table Contents">0.770</p>
+            </th>
+            <th>
+               <p styleId="TableContents" stylename="Table Contents"/>
+            </th>
+            <th>
+               <p styleId="TableContents" stylename="Table Contents"/>
+            </th>
+         </tr>
+         <tr data-rid="d64e2434">
+            <th>
+               <p styleId="TableHeaderLeft" stylename="[Table Header Left]">Technology-related competence support (4) </p>
+            </th>
+            <th>
+               <p styleId="TableContents" stylename="Table Contents">0.760</p>
+            </th>
+            <th>
+               <p styleId="TableContents" stylename="Table Contents">0.518</p>
+            </th>
+            <th>
+               <p styleId="TableContents" stylename="Table Contents">0.387</p>
+            </th>
+            <th>
+               <p styleId="TableContents" stylename="Table Contents">0.397</p>
+            </th>
+            <th>
+               <p styleId="TableContents" stylename="Table Contents">0.375</p>
+            </th>
+            <th>
+               <p styleId="TableContents" stylename="Table Contents">0.720</p>
+            </th>
+            <th>
+               <p styleId="TableContents" stylename="Table Contents"/>
+            </th>
+         </tr>
+         <tr data-rid="d64e2557">
+            <th>
+               <p styleId="TableHeaderLeft" stylename="[Table Header Left]">Techno-work engagement (5)</p>
+            </th>
+            <th>
+               <p styleId="TableContents" stylename="Table Contents">0.949</p>
+            </th>
+            <th>
+               <p styleId="TableContents" stylename="Table Contents">0.673</p>
+            </th>
+            <th>
+               <p styleId="TableContents" stylename="Table Contents">0.529</p>
+            </th>
+            <th>
+               <p styleId="TableContents" stylename="Table Contents">0.274</p>
+            </th>
+            <th>
+               <p styleId="TableContents" stylename="Table Contents">0.511</p>
+            </th>
+            <th>
+               <p styleId="TableContents" stylename="Table Contents">0.425</p>
+            </th>
+            <th>
+               <p styleId="TableContents" stylename="Table Contents">0.821</p>
+            </th>
+         </tr>
+         <tr data-rid="d64e2681">
+            <th>
+               <p styleId="TableHeaderLeft" stylename="[Table Header Left]">Mean</p>
+            </th>
+            <th>
+               <p styleId="TableContents" stylename="Table Contents"/>
+            </th>
+            <th>
+               <p styleId="TableContents" stylename="Table Contents"/>
+            </th>
+            <th>
+               <p styleId="TableContents" stylename="Table Contents">2.98</p>
+            </th>
+            <th>
+               <p styleId="TableContents" stylename="Table Contents">3.82</p>
+            </th>
+            <th>
+               <p styleId="TableContents" stylename="Table Contents">4.08</p>
+            </th>
+            <th>
+               <p styleId="TableContents" stylename="Table Contents">3.28</p>
+            </th>
+            <th>
+               <p styleId="TableContents" stylename="Table Contents">3.94</p>
+            </th>
+         </tr>
+         <tr data-rid="d64e2803">
+            <th>
+               <p styleId="TableHeaderLeft" stylename="[Table Header Left]">SD</p>
+            </th>
+            <th>
+               <p styleId="TableContents" stylename="Table Contents"/>
+            </th>
+            <th>
+               <p styleId="TableContents" stylename="Table Contents"/>
+            </th>
+            <th>
+               <p styleId="TableContents" stylename="Table Contents">1.00</p>
+            </th>
+            <th>
+               <p styleId="TableContents" stylename="Table Contents">0.87</p>
+            </th>
+            <th>
+               <p styleId="TableContents" stylename="Table Contents">0.65</p>
+            </th>
+            <th>
+               <p styleId="TableContents" stylename="Table Contents">0.75</p>
+            </th>
+            <th>
+               <p styleId="TableContents" stylename="Table Contents">1.50</p>
+            </th>
+         </tr>
+      </table>
+      <p styleId="TableNotes0" stylename="[Table Notes]">1 Composite reliability, 2 Average variance extracted.</p>
+      <h2>Inner model</h2>
+      <p>To establish the role of technology-related self-efficacy in techno-work engagement, we tested the two models shown in Figure 1. In Model 1, three exogenous variables explain an endogenous variable (H1a,b,c). Model 2 includes an additional exogenous variable, technology-related self-efficacy (H2). To establish the additional explained variance of techno-work engagement, we compared the predictive relevance of the models using the squared coefficient of determination (R2) and blindfolding procedure (Stone-Geisser’s Q2). Using R2 values as a criterion to assess endogenous variables, we employed Chin’s (1998) boundaries (0.67, 0.33 and 0.15 as substantial, moderate and weak, respectively). According to these boundaries, the first model was interpreted as moderate (see Table 3). The path coefficients of technology-related job resources to techno-work engagement met expectations, excluding the path from technology-related collegial support, which lacked statistical significance (t statistics &lt; 1.96) and was therefore interpreted as zero. Taken together, in Model 1, two job resources, namely, technology-related autonomy and technology-related competence support, were statistically significantly and positively associated with the techno-work engagement; thus, hypotheses H1b and H1c were supported. However, unexpectedly, technology-related collegial support was not statistically significantly related to techno-work engagement, and therefore hypothesis H1a was not supported. To better understand this finding, we performed an additional analysis: Estimation of a model with only one exogenous variable (technology-related collegial support) for techno-work engagement and comparison with Model 1 indicated that correlation between job resources reduced the separate effect of collegial support in Model 1. This may be due to multicollinearity problems, as technology-related job resources are highly correlated by nature. </p>
+      <p>Adding technology-related self-efficacy into Model 2 resulted in higher R2 and Q2 values (Table 3). In addition to R2 and Q2 values, inner model assessments should consider Cohen’s f2 values and the magnitude and direction of the path coefficients (Henseler et al., 2009). Considering the magnitude of the estimated path coefficients and effect sizes, we found that technology-related self-efficacy had the strongest impact on techno-work engagement (β= 0.311, f2=0.112; Table 3, Figure 2). Both technology-related autonomy and competence support were positive and statistically significant, with path coefficients of 0.286 and 0.205, respectively. Using Cohen’s (1998) limits to interpret f2 values, the effect sizes of self-efficacy, autonomy and competence support varied from weak to medium. The collegial support path was interpreted as zero (t &lt; 1.96) in this model. Taken together, Model 2, which in addition to three job resources includes an individual resource (technology-related self-efficacy), had slightly better predictive power than Model 1. Further, in Model 2, technology-related self-efficacy had the strongest unique contribution to techno-work engagement, followed by technology-related autonomy and technology-related competence support. Therefore, hypotheses H2, H1b and H1c were supported, and again unexpectedly technology-related collegial support was not statistically significantly related to techno-work engagement (c.f. H1a). </p>
+      <table>
+         <caption>
+            <p>
+               <span class="TableCaption-Label">Table 1.</span> Descriptive statistics for the study variables (n = 180).</p>
+            <p>
+               <span class="TableCaption-Label">Table 2.</span> Construct validity, reliability, discriminant validity, correlations, means and standard deviations for constructs (PLS models, n = 180).</p>
+            <p>
+               <strong>Table 3.</strong> Standardised path coefficients and t statistics of compared models and effect sizes for Model 2.</p>
+         </caption>
+         <thead>
+            <tr data-rid="d64e2969">
+               <th>
+                  <p styleId="TableHeaderLeft" stylename="[Table Header Left]"/>
+               </th>
+               <th>
+                  <p styleId="TableHeaderCentered" stylename="[Table Header Centered]">Model 1</p>
+               </th>
+               <th>
+                  <p styleId="TableHeaderCentered" stylename="[Table Header Centered]"/>
+               </th>
+               <th>
+                  <p styleId="TableHeaderCentered" stylename="[Table Header Centered]">Model 2</p>
+               </th>
+               <th>
+                  <p styleId="TableHeaderCentered" stylename="[Table Header Centered]"/>
+               </th>
+               <th>
+                  <p styleId="TableHeaderCentered" stylename="[Table Header Centered]"/>
+               </th>
+            </tr>
+         </thead>
+         <tr data-rid="d64e3060">
+            <th>
+               <p styleId="TableHeaderLeft" stylename="[Table Header Left]"/>
+            </th>
+            <th>
+               <p styleId="TableHeaderCentered" stylename="[Table Header Centered]">Path coeff.</p>
+            </th>
+            <th>
+               <p styleId="TableHeaderCentered" stylename="[Table Header Centered]">t statistic</p>
+            </th>
+            <th>
+               <p styleId="TableHeaderCentered" stylename="[Table Header Centered]">Path coeff.</p>
+            </th>
+            <th>
+               <p styleId="TableHeaderCentered" stylename="[Table Header Centered]">t statistic</p>
+            </th>
+            <th>
+               <p styleId="TableHeaderCentered" stylename="[Table Header Centered]">f2</p>
+            </th>
+         </tr>
+         <tr data-rid="d64e3162">
+            <th>
+               <p styleId="TableHeaderLeft" stylename="[Table Header Left]">Technology-related self-efficacy 🡒 Techno-work engagement</p>
+            </th>
+            <th>
+               <p styleId="Ingenavsnittsmal" stylename="[Ingen avsnittsmal]"/>
+            </th>
+            <th>
+               <p styleId="Ingenavsnittsmal" stylename="[Ingen avsnittsmal]"/>
+            </th>
+            <th>
+               <p>0.311**</p>
+            </th>
+            <th>
+               <p>4.189</p>
+            </th>
+            <th>
+               <p>0.112</p>
+            </th>
+         </tr>
+         <tr data-rid="d64e3253">
+            <th>
+               <p styleId="TableHeaderLeft" stylename="[Table Header Left]">Technology-related collegial support 🡒 Techno-work engagement</p>
+            </th>
+            <th>
+               <p>-0.009</p>
+            </th>
+            <th>
+               <p>0.105</p>
+            </th>
+            <th>
+               <p>-0.019</p>
+            </th>
+            <th>
+               <p>0.237</p>
+            </th>
+            <th>
+               <p>0.000</p>
+            </th>
+         </tr>
+         <tr data-rid="d64e3344">
+            <th>
+               <p styleId="TableHeaderLeft" stylename="[Table Header Left]">Technology-related autonomy 🡒 Techno-work engagement</p>
+            </th>
+            <th>
+               <p>0.416**</p>
+            </th>
+            <th>
+               <p>6.656</p>
+            </th>
+            <th>
+               <p>0.286**</p>
+            </th>
+            <th>
+               <p>4.222</p>
+            </th>
+            <th>
+               <p>0.088</p>
+            </th>
+         </tr>
+         <tr data-rid="d64e3435">
+            <th>
+               <p styleId="TableHeaderLeft" stylename="[Table Header Left]">Technology-related competence support 🡒 Techno-work engagement</p>
+            </th>
+            <th>
+               <p>0.272**</p>
+            </th>
+            <th>
+               <p>3.937</p>
+            </th>
+            <th>
+               <p>0.205**</p>
+            </th>
+            <th>
+               <p>3.198</p>
+            </th>
+            <th>
+               <p>0.052</p>
+            </th>
+         </tr>
+         <tr data-rid="d64e3526">
+            <th>
+               <p styleId="TableHeaderLeft" stylename="[Table Header Left]">R2</p>
+            </th>
+            <th>
+               <p>0.33</p>
+            </th>
+            <th>
+               <p styleId="Ingenavsnittsmal" stylename="[Ingen avsnittsmal]"/>
+            </th>
+            <th>
+               <p>0.39</p>
+            </th>
+            <th>
+               <p styleId="Ingenavsnittsmal" stylename="[Ingen avsnittsmal]"/>
+            </th>
+            <th>
+               <p/>
+            </th>
+         </tr>
+         <tr data-rid="d64e3615">
+            <th>
+               <p styleId="TableHeaderLeft" stylename="[Table Header Left]">Q2</p>
+            </th>
+            <th>
+               <p>0.20</p>
+            </th>
+            <th>
+               <p styleId="Ingenavsnittsmal" stylename="[Ingen avsnittsmal]"/>
+            </th>
+            <th>
+               <p>0.24</p>
+            </th>
+            <th>
+               <p styleId="Ingenavsnittsmal" stylename="[Ingen avsnittsmal]"/>
+            </th>
+            <th>
+               <p/>
+            </th>
+         </tr>
+      </table>
+      <p styleId="TableNotes0" stylename="[Table Notes]">** indicates statistical significance at a risk level of 0.01.</p>
+      <p styleId="TableNotes" stylename="Table Notes"/>
+      <figure>
+         <img src="fig.png" alt=""/>
+         <figcaption>__</figcaption>
+      </figure>
+      <h2>Discussion </h2>
+      <p>The aims of the study were to explore how technology-related workplace resources are related to techno-work engagement among a group of Finnish teachers and determine which predictors of techno-work engagement are the most influential. We hypothesised that technology-related job resources are associated with higher techno-work engagement (H1a,b,c) and that technology-related self-efficacy is associated with higher techno-work engagement (H2). The current study is novel in its positive focus; prior studies have focused on negative experiences and a lack of well-being related to the use of educational technology in teaching (e.g. Al-Fudail et al., 2008). </p>
+      <p>The findings of the statistical analysis show that teachers experience positive technology-related well-being quite often (i.e. at least nearly on a weekly basis), which supports the notion that techno-work engagement is an important phenomenon (c.f.Mäkiniemi et al., 2017; Mäkiniemi et al., 2019). Consequently, when framing the digitalisation of schools as an emerging phenomenon in the media and when speaking about the use of educational technology at schools or in public, it is important to take into account and highlight its associations with teacher well-being (i.e. to focus on its positive aspects, not just the stressful aspects, which currently seems to be a more common frame of reference). </p>
+      <p>As expected, techno-work engagement was positively correlated with all workplace resources. Further, the key findings of the main analysis indicated that technology-related self-efficacy made the strongest unique contribution to techno-work engagement (Model 2), which supports our hypothesis (H2; i.e. technology-related self-efficacy is associated with techno-work engagement). In addition, technology-related autonomy and competence support were relevant to the promotion of teachers’ technology-related well-being (based on Models 1 and 2). Hence, H1 b and c were also supported. The findings support the basic assumption of the job demands-resources theory: a combination of job resources (e.g. autonomy) and personal resources (e.g. self-efficacy) predict work engagement (e.g. Nielsen et al., 2017; Schaufeli &amp; Bakker, 2004; Ventura et al., 2015). Further, our findings are in line with prior studies indicating that self-efficacy is an important personal resource and is associated with higher work engagement (Nielsen et al., 2017; Skaalvik &amp; Skaalvik, 2014; Xanthopoulou et al., 2007). Unexpectedly, technology-related collegial (i.e. social) support was not associated with techno-work engagement. Therefore, H1a was not supported. This may be due to the high correlation between technology-related autonomy, competency support and collegial support. This finding could also be explained by the fact that teachers still work very independently and autonomously or that those who are highly engaged in technology-related work do not feel the need for support. The role of technology-related collegial support in teacher well-being needs more attention in future studies, as the development of technology-related self-efficacy and technology-related competence support requires shared collaboration (i.e. collegial activities), as explained in more detail below. </p>
+      <p>A key limitation of the study is that the sample was quite small and not nationally representative. Further, in the current study, we focused on the main effects between workplace resources and techno-work engagement. Since the study of techno-work engagement is in its early stages, we considered this to be a suitable approach. However, there seem to be complex relationships between work engagement, personal resources and job resources. For example, personal resources have been shown to mediate the relationship between job resources and engagement and influence the perception of job resources (Xanthopoulou et al., 2007, Xanthopoulou, Bakker, Demerouti, &amp; Schaufeli, 2009). Therefore, as an additional analysis, we tested the mediating model that included paths from technology-related work resources to self-efficacy. Although the paths from collegial support and autonomy to self-efficacy were positive and significant, the predictive relevance of the model did not improve. Since the PLS method emphasises prediction, the redundant paths were omitted. Finally, we believe future studies should consider the broader context of the schools, as a community-oriented approach has been found to enhance the integration of educational technology (Niemi, Kynäslahti, &amp; Vahtivuori-Hänninen, 2013), and in the current study we did not focus on all the workplace resources presented by Nielsen et al. (2017). Therefore, in the future, the effect of leader-level workplace resources on techno-work engagement should be analysed. In addition, the current study was quantitative by nature, which means that it could only answer certain types of research questions, such as how workplace resources are associated with techno-work engagement, how often teachers experience techno-work engagement and whether there are differences between respondent groups. Evidently, there is also a need for qualitative research since there are still many unanswered questions, which are not possible to answer using a quantitative questionnaire. Interesting questions for qualitative inspection could include why some teachers perceive the use of educational technology as inspiring while some experience it as more stressful, the role of workplace resources in educational technology and how teachers in practise tackle technostress and enhance their technology-related well-being. </p>
+      <p>Our main findings indicate the importance of three workplace resources – technology-related self-efficacy, technology-related autonomy and technology-related competence support – in the context of techno-work engagement. Therefore, we propose some key practical recommendations for schools. First, in terms of technology-related autonomy, teachers should have considerable freedom regarding the selection and use of educational technology. Their opinions and views should be heard, and they should be taking part in decision-making. This is also important because teachers usually have pedagogical expertise and knowledge about the motivation, learning preferences and abilities of their students and can thus evaluate the pedagogical value of the novel technological devices more critically than administrative personnel can. However, this kind of participatory approach requires high trust in teachers’ know-how on the part of school leaders and other managers. Second, prior studies indicate that concrete ways to enhance teachers’ technology-related self-efficacy include successful (and vicarious) teaching experiences, concrete instruction in how to utilise educational technology in practice, intentional goal-setting and encouraging feedback on teachers’ performance (e.g. Bandura, 1997; Wang et al., 2004). It is worth noting that enhancing teachers’ technology-related self-efficacy cannot be done in isolation or alone. For example, vicarious teaching experiences and receiving constructive feedback require the potential to follow others work, shared discussions and collaboration. Consequently, the development of technology-related self-efficacy is likely challenging in schools in which the individualistic school culture is strong and teacher collaboration is not supported (for a review of the benefits of teacher collaboration, see Vangrieken, Dochy, Raes, &amp; Kyndt, 2015). Third, technology-related competence development could be supported in practise by discussing and clarifying expectations regarding the use of educational technology in teaching (e.g. how and how often teachers should use educational technology at school and what is perceived as valuable and important when considering the use of educational technology). In addition, teachers must have continuing opportunities to develop their expertise (e.g. through relevant and suitable courses). Finally, a lack of time should not limit the possibilities of teachers to learn and integrate novel educational solutions into their teaching practises. </p>
+      <p>The current study provided new knowledge about the technology-related well-being experiences of teachers and supported the notion that, in general, resources that enhance work engagement are also important predictors of techno-work engagement. </p>
+      <p styleId="TableNotes" stylename="Table Notes">Note:<w:tab/>This research project was supported by Finnish Work Environment Fund (Project number: 115412). The authors would like to thank Antti Syvänen, SannuSyrjä, JarmoViteli, and KirsiHeikkilä-Tammi for collaboration in the project. </p>
+      <h2>References </h2>
+      <p class="ref">Albrecht, S. L. (2013). Work engagement and the positive power of meaningful work. In A. B. Bakker (Ed.), <em>Advances in positive organizational psychology</em> (pp. 237–260). Bingley, UK: Emerald. <a href="https://doi.org/10.1108/S2046-410X(2013)0000001013">https://doi.org/10.1108/S2046-410X(2013)0000001013</a>
       </p>
-      <h4 styleId="Heading4" stylename="heading 4" outlinelvl="3">Learning as Transformation of Individual Thinking and Behavior</h4>
-      <p>In the third category, learning was seen as a transformation of individual thinking and behavior. It was seen as doing and thinking about one’s own actions and reasoning process during the scenarios in the debriefing in order to change the way of thinking. To transform learners’ thinking and aid their future performance, the facilitator tried to detect their knowledge gaps, as this facilitator described:</p>
-      <p styleId="Blockquote" stylename="(Blockquote)">“So I think there’s a balance because it’s, like, if we say this isn’t just a change in a behavior, it’s based on their own change and knowledge and attitudes and perceptions. So it’s, like, you’ve got to understand where they’re coming from and where they’re at, what have they acquired, what haven’t they?” (Facilitator 28)</p>
-      <p>This category differs from the previous category because it stresses the individual thinking process, in addition to acquiring and applying knowledge. Although in those previous categories there are elements of reflection, in this category it is more critical and concentrated on the why questions. That is, the reasons behind the certain actions.</p>
-      <h4 styleId="Heading4" stylename="heading 4" outlinelvl="3">Learning as Co-constructing Knowledge and Skills</h4>
-      <p>In the fourth category, learning as the co-construction of knowledge and skills, students co-construct their own knowledge and skills in a collaborative setting with other participants. Thus, the knowledge is viewed, at the same time, as personal and shared, something which guides the students’ personal and professional development in their lifelong learning process. The simulation-based learning environment offers a safe context for dialogue and the expansion of one’s own view of the world to take place, where everyone is treated as a genuinely equal participant. In this category, the focus of learning is on the competencies students will need to acquire in order to change their ways of thinking and behaving, but also to interpret reality in order to act properly in changing condition. Consequently, the knowledge and skills used in patient care are seen as problematic, and critical reflection is necessary for professional development. Compared to the previous category, in this conception of learning, facilitators also give the students an active role in defining the learning objectives, thus taking into account the students’ existing conceptions. In this conception of learning, students are viewed as active participants from the beginning, as described in the following excerpt:</p>
-      <p styleId="Blockquote" stylename="(Blockquote)">“So there has to be some interweaving of the teacher’s goals with the learner’s goals. When those can be aligned or explicitly explained as the teacher’s goals to become also the learner’s goals, that there’s a lot more buy-in and a lot more learning that happened.” (Facilitator 23)</p>
-      <p>In this category, learning requires study strategies such as verbalizing and sharing, reflecting, talking out loud, giving and receiving feedback, reasoning and gaining insight from others, and the facilitator is seen as guiding the learning process. As noted earlier, the salient feature of this conception of learning is the importance of reflection—not only the why question but also <em>what if</em> questions—to aid learners’ co-construction of knowledge for new situations. This category was viewed as student-centered since the students’ existing conceptions and previous knowledge, as well as their own activity, were considered to be central for learning. In the words of Samuelowicz and Bain (2001, p. 315), in this category facilitators used “student-centered language” to describe teaching and learning.</p>
-      <h3 styleId="Heading3" stylename="heading 3" outlinelvl="2">Conceptions of Teaching </h3>
-      <p>Based on the iterative data analysis process, respondents’ views of teaching were grouped into three distinct categories: 1) <em>teaching as transmission of knowledge and skills, 2) teaching as development of students’ professional skills,</em> and 3)<em> teaching as facilitation of learning</em>. A detailed description regarding how teaching is understood by the healthcare simulation facilitators is provided below. </p>
-      <h4 styleId="Heading4" stylename="heading 4" outlinelvl="3">Teaching as Transmission of Knowledge and Skills</h4>
-      <p>In the first category, teaching as the transmission of knowledge and skills is based on the content and the facilitators’ expertise. In other words, the focus is on the content, or the skills and knowledge needed in the healthcare field. However, in comparison with the other categories, in this conception of teaching the teacher is seen as the one who defines what is to be learned and how it will be learned, as the following facilitator describes:</p>
-      <p styleId="Blockquote" stylename="(Blockquote)">“[T]eaching could also be showing those model performances…that you show how… You show how some things are done, then you give a model performance, and then others can imitate the behavior.” (Facilitator 4)</p>
-      <p>In the excerpt above, teaching is described as a process in which the teacher’s role is to introduce important learning concepts and skills, define goals, and assess student performance. The teacher’s role involves presenting information as well as giving an example of an ideal performance or operation for the students. Consequently, the students’ role is viewed as being rather passive since the knowledge is externally constructed for them and their existing conceptions are not taken into account in this type of teaching. Thus, the heart of the interaction involves the facilitator and his or her level of expertise, rather than teacher-student interaction on an equal basis, as the following excerpt illustrates:</p>
-      <p styleId="Blockquote" stylename="(Blockquote)">“And I don’t think we query them enough as to what it is that they want to learn. I think we have a tendency to teach them what we want them to learn. And sometimes there’s a disconnect where they may want to really focus on what [they] did right or wrong in terms of the medical management of a patient, and not really understand some of these other softer things, like communication and teamwork.” (Facilitator 15)</p>
-      <p>This category was viewed as teacher-centered since in this conception of teaching the facilitator is the main actor who tries to transmit externally constructed knowledge and skills to the students. Applying Samuelowicz and Bains’ (2001) words, the facilitators use kind of teacher-centered language to describe their teaching. </p>
-      <h4 styleId="Heading4" stylename="heading 4" outlinelvl="3">Teaching as Development of Students’ Professional Skills</h4>
-      <p>In the second category, teaching as developing students’ professional skills, the teaching is planned based on the competencies the students will need later in real-life situations, and the goal of teaching is to educate future professionals, as the following facilitator states:</p>
-      <p styleId="Blockquote" stylename="(Blockquote)">“I try to take into account what the residents are exposed to here or the learners are exposed to here. And how relevant that is to their clinical practice. How likely are they to encounter some of these situations? Or how much of an impact would these situations have upon them should they encounter them here? Particularly, I think we’re aiming towards independent practice.” (Facilitator 14)</p>
-      <p>According to this conception of teaching, the aim of the learning process is to learn the specific competencies the students will need in the future in the healthcare field. In other words, the teacher’s task is to prepare the students for the workplace. Compared to the previous category, in this category the teacher considers the students in such a way that he/she spends time and effort giving examples and explaining the things being learned to the students, but from his or her point of view, since he or she is the expert in the field. Thus, in this type of teaching the aim is to produce applicable knowledge for the students to take in and use. Teachers also use strategies such as providing models, telling, giving examples, illustrating and structuring. The teacher is also responsible for selecting useful and applicable information, as well as cases and problems that are similar to the ones the students will encounter in real life.</p>
-      <p>Consequently, the student’s role is to practice the competencies required of entry-level professionals (cf. Bruce &amp; Gerber, 1995). The interaction takes place in an atmosphere in which the teacher-student relationship is closer to being based on equality than in the previous conception of learning. The students are treated like future healthcare workers and are provided with a safe environment in which to practice their knowledge and skills and share experiences.</p>
-      <h4 styleId="Heading4" stylename="heading 4" outlinelvl="3">Teaching as Facilitation of Learning<w:tab/>
-      </h4>
-      <p>In the third category, the conception of teaching as facilitating students’ learning, the planning of the teaching initially focuses on the individual student, including each student’s backgrounds, needs, expectations, motivation, and individual learning style, as the following excerpt illustrates:</p>
-      <p styleId="Blockquote" stylename="(Blockquote)">“[I]n a way, those learning needs arise from students and through students, so that if a teacher defines them alone, those learning needs and results and goals, obstacles could emerge.” (Facilitator 6)</p>
-      <p>In this category, the content and learning objectives are defined by the teacher, but they can be changed, depending on the learning needs of the students. The objectives can even be planned with the students’ participation, which makes it possible to take the students’ existing conceptions into account. Therefore, the characteristics of this category include flexible course plans that can be easily changed. To teach competencies, teachers also use a variety of pedagogical methods, as the following facilitator describes:</p>
-      <p styleId="Blockquote" stylename="(Blockquote)">“I also use lots of discussion. I like the blackboard and the flip chart and drawing and asking questions, involvement.” (Facilitator 9)</p>
-      <p>In most descriptions, the facilitators’ main role is to create the safe learning environment for the learners. The teacher’s role within in the learning environment is often described as helping, guiding, instructing, motivating, supporting, encouraging and maintaining student learning. Consequently, students are viewed as individuals and are considered to be equal to the facilitators, which makes learning as a two-way process. The students are active during the learning process, and they are viewed as responsible for and capable of acquiring knowledge and constructing their own understanding of the content. Teachers’ and students’ roles are described in the following excerpt:</p>
-      <p styleId="Blockquote" stylename="(Blockquote)">“But in what we do, it’s more providing a learning environment that’s kind of exploratory. We set the scene for it; we have the residents carry out the various tasks and manage it. We don’t really interfere too much with that. And then we hope when we talk in the debriefing to kind of figure out what do they do, why do they do it, and where are the gaps. And I think that’s the bit. We kind of have the background from the simulation, and then we try to look for the gaps and either have the participant self-learn by exposing those gaps or try and fill those gaps in some way.” (Facilitator 14)</p>
-      <p>To summarize, in this category, facilitators acknowledge their role as facilitators of the students’ learning. This means creating a safe environment for students’ learning, taking into account the individual students, and using strategies they think will aid the students’ life-long learning. </p>
-      <h2 styleId="Heading2" stylename="heading 2" outlinelvl="1">Discussion and Conclusion</h2>
-      <p>The aim of this study was to examine the different ways that healthcare facilitators understand the teaching and learning processes within an SBLE. In this study, four conceptions of learning and three conceptions of teaching were identified that are congruent to the conceptions found in previous research (e.g., Keskitalo, 2011; Keskitalo et al., 2013; Boulton-Lewis et al., 2001; Kember &amp; Kwan, 2000; Marton et al., 1993; Paakkari et al., 2011; Postareff &amp; Lindblom-Ylänne, 2008). In this study, the conceptions of teaching as the development of students’ professional skills (cf. Bruce &amp; Gerber, 1995; Lindblom-Ylänne &amp; Lonka, 1999), as well as teaching as the facilitation of student learning (Keskitalo et al., 2013) were viewed as highly relevant. In this study, the facilitators often stressed the students’ roles as future professionals for whom learning how to apply knowledge, perform clinical procedures, and become competent professionals are the most crucial goals to accomplish. Learning as the application and advancement of knowledge and skills was viewed as the most important category of learning conceptions. This is in line with the previous studies that have found this to be an important learning category within the context of healthcare education (cf. Bruce &amp; Gerber, 1995; Lindblom-Ylänne &amp; Lonka, 1999). Previous research has explained the similarities and differences between the conceptions of teaching and learning as being dependent on the individuals involved, the discipline being studied, and the context (Boulton-Lewis et al., 2001; Dahlin &amp; Regmi, 1997; Paakkari et al., 2010).</p>
-      <p>The findings of our study contains also some differences from previous research results. First, in our study, the facilitators did not describe learning as personal growth, for example, in the sense described by Paakkari et al (2011). Paakkari et al. (2011) see learning not as simply changing how one sees the things around one and the world, but also fundamentally changing one as a person. Rather the facilitators in this study focused on how to help the students develop into competent professionals through transformation of individual thinking and behaviour. Our finding is supported by the study of Boulton-Lewis et al. (2001), who argue that personal development is more likely to be stressed in contexts that are more open to individual interpretation and meaning-making and that require personal understanding, whereas healthcare and medicine are a very content-driven fields in which a set of competencies must be mastered before one can work in the field (cf. Laksov et al., 2008). In contrast to the results of previous studies (Lindblom-Ylänne, Trigwell, Nevgi, &amp; Ashwin, 2006; Lueddeke, 2003), the facilitators we interviewed also emphasized teaching as the facilitation of student learning, which is unusual to the healthcare education. For example, Lueddeke (2003), found that teachers who work within the disciplines of the hard sciences, such as medicine, are more likely to use a teacher-centered approach. Interestingly, in our study, two of the facilitators also described learning as a sort of brain-based process where our brains are exposed to new things and critical reflection is a way to cement these neural pathways. This kind of description has been absent in previous studies, but may provide some new insights to discussion of teaching and learning conceptions.</p>
-      <p>In the present study, none of the facilitators described just one conception of teaching and learning; rather they described teaching and learning from many angles, providing evidence of a hierarchy of inclusiveness. In our data, a hierarchy of inclusiveness can be seen, for example, in the sense that the conception of teaching as the transmission of knowledge and skills is rarely described isolated, since in the medical field the application of knowledge is more relevant than the mere production of inert knowledge. One reason for this multiplicity of conceptions might be that SBLEs allow and support several types of teaching and learning. The simulation-based learning process may involve initial learning tasks in which students actively acquire knowledge and familiarize themselves with the content to be learned. During the actual learning process, facilitators may be active in explaining difficult concepts and theories, but during the scenario phase (the phase when the learners take care of the simulated patient), students adopt an active role by caring for the patient simulator. The final phase of learning is usually the debriefing phase in which facilitators guide the students’ reflections and set new learning goals (see, e.g., Keskitalo, 2015.) As noted above, SBLEs allow facilitators to experiment with different approaches to teaching and learning; however, if facilitators view teaching as simply the transmission of knowledge and skills, they may encounter difficulties because this traditional conception of teaching may not be the optimal or most functional method in the new setting of SBLEs. In addition, there are usually fewer participants in SBLEs, which allows facilitators to explore student-centered pedagogical methods (cf. Lindblom-Ylänne et al., 2006).</p>
-      <p>In our study, facilitators seemed to reflect on their conceptions of teaching and learning based on their own backgrounds and experiences (cf. Tigchelaar et al., 2014). For example, they described how they themselves have learned. This is why it also felt natural to present the conceptions of learning prior to conceptions of teaching. The conceptions were not easy to describe either, which has also been noted by Postareff and Lindblom-Ylänne (2008), who state that facilitators differ in their level of pedagogical awareness; however, as Entwistle and Walker (2000) have noted, even highly educated teachers sometimes use imprecise language to describe teaching and learning. The research situation may have affected the participants’ descriptions of teaching and learning as well, because they may have responded in a way that they believed would be clearer to the interviewers, who themselves were educational scientists, not clinicians or nurses. </p>
-      <p>The present study has a few limitations. First, due to time constraints, eight participants were interviewed in pairs, whereas the others were interviewed individually. However, we noticed that paired interviews were characterized by multiple perspective, because participants were constantly complementing each other. A second limitation of the study is that, based on the interviews, it could not be determined whether the participants were describing their conceptions of student learning or learning in general (cf. Bruce &amp; Gerber 1995). It is likely that both types of conceptions were described because facilitators sometimes offered examples from their own learning experience and sometimes described how their students have learned or how they as facilitators have supported student learning. In future studies, it would be ideal to organize in-depth interviews with participants in order to gain a better understanding of healthcare simulation facilitators’ conceptions. A third limitation is that the facilitators we interviewed may have given ideal descriptions of teaching and learning rather than descriptions of actual practices. Therefore, in future studies, comparing video data and field notes with statements in interviews would be beneficial. Finally, the participants were all enthusiastic healthcare simulation facilitators and developers of simulation-based environments. Therefore, they may have different views on teaching and learning than healthcare teachers working in more traditional learning environments such as lecture rooms. For example, previous research (Keskitalo, 2011) has shown that SBLEs may be challenging for teachers who have more traditional views of teaching and learning, and this fact should be taken into account when interpreting the research results.</p>
-      <p styleId="PageHeader--first-page" stylename="(Page Header--first-page)">This study provides an understanding of SBLE facilitators’ conceptions of teaching and learning. Using the words of Rudolph et al. (2008, p. 1011), our role has been “the cognitive detective”. During this study we have been exploring the facilitators’ conceptions that may lead to certain actions and behavior in educational practice. The results of this study can be used to develop healthcare educators’ pedagogical training, for example, by providing tools that enhance students’ personal growth and transforms facilitators’ conceptions of teaching and learning into a more complex direction. In such training, it is essential to take into account the prevailing conceptions of teaching and learning in order to develop them in a more desirable direction. Previous researchers have also stated that in order to change conceptions and develop education, we must take many things into consideration: conceptions of teaching, learning and knowledge, conceptions concerning the learning process and the learning environment, and educational culture (Jacobs et al., 2015; Kember, 1997; Laksov et al., 2008; Lindblom-Ylänne et al., 2006; Postareff &amp; Lindblom-Ylänne, 2008). Based on the results of this study, we also suggest that such training should inquiry our previous experiences, since conceptions are developed through experience. (e.g., Entwistle, &amp; Peterson, 2004). All of the above-mentioned factors affect conceptions of teaching and learning, approaches to teaching, and, finally, learning outcomes. In the near future, we aim to continue our research by studying how facilitators’ conceptions of teaching and learning have changed over time. It would also be interesting to study individual differences in conceptions of teaching and learning and how they are related to approaches to teaching in simulation-based healthcare education, because previous research on medical educators has shown that conceptions of teaching and learning and approaches to teaching and learning are not necessarily aligned (Laksov et al., 2008).</p>
-      <p>To conclude, it seems that previous experience, discipline and the learning environment play a significant role in forming our conceptions and approaches to teaching and learning. The effect of experience can be seen by the fact that the conceptions of teaching and learning discovered in our data are closely aligned with the results of previous studies, whereas the context and discipline seem to affect the aspects of teaching and learning on which the facilitators focus. For example, in the present study, the effects of context and discipline can be seen in the sense that within simulation-based healthcare education, stressing the professional competency of the learners is more common than the conception that education changes or transforms us as human beings. In our study, the conceptions of teaching and learning were also varied, implying that simulation-based education supports many types of teaching and learning. The facilitators who participated in our study were very much aware that teaching and learning comprise more than the traditional conceptions of teaching and learning. Therefore, based on the results of this study, we argue that by changing the teaching conditions, we may also affect the underlying conceptions of teaching and learning, as well as approaches to teaching and, ultimately, learning outcomes.</p>
-      <p>
-         <w:br w:type="page"/>
+      <p class="ref">Al-Fudail, M., &amp; Mellar, H. (2008). Investigating teacher stress when using technology. <em>Computers &amp; Education, 51</em>, 1103–1110.<a href="https://doi.org/10.1016/j.compedu.2007.11.004">https://doi.org/10.1016/j.compedu.2007.11.004</a>
       </p>
-      <h2 styleId="Heading2" stylename="heading 2" outlinelvl="1">References</h2>
-      <p styleId="Endnotes" stylename="(Endnotes)">Åkerlind, G. S. (2003). Growing and developing as a university teacher—Variation in meaning. <span class="Reference--source">Studies in Higher Education, 28</span>(4), 375–390. <w:hyperlink r:id="rId7" w:history="1">
-            <span class="Hyperlink">https://doi.org/10.1080/0307507032000122242</span>
-         </w:hyperlink>
+      <p class="ref">Bakker, A. B., Albrecht, S. L., &amp; Leiter, M. P. (2011). Key questions regarding work engagement. <em>European Journal of Work and Organizational Psychology, 20</em>(1), 4–28 <a href="https://doi.org/10.1080/1359432X.2010.485352">https://doi.org/10.1080/1359432X.2010.485352</a>
       </p>
-      <p styleId="Reference" stylename="(Reference)">Åkerlind, G. S. (2005). Variations and commonality in phenomenographic research methods. <span class="Reference--source">Higher Education Research &amp; Development</span>
-         <span class="Reference--source"/>
-         <span class="Reference--source">24</span>(4), 321–334.<w:hyperlink r:id="rId8" w:history="1">
-            <span class="Hyperlink">https://doi.org/10.1080/07294360500284672</span>
-         </w:hyperlink>
+      <p class="ref">Bandura, A. (1997). Self-efficacy: The exercise of control<em>.</em> New York: W H. Freeman. </p>
+      <p class="ref">Chin, W. W. (1998). The partial least squares approach to structural equation modeling. <em>Modern Methods for Business Research, 295</em>(2), 295–336.</p>
+      <p class="ref">Cohen, J. (1988). <em>Statistical power analysis for the </em>
+         <em>behavioural</em>
+         <em> sciences</em> (2nd ed.). Hillsdale: Lawrence Erlbaum Associates.</p>
+      <p class="ref">Fornell, C., &amp; Larcker, D. (1981). Evaluating structural equation models with unobservable variables and measurement error. <em>Journal of Marketing Research, 18</em>(1), 39–50. <a href="https://doi.org/10.1177/002224378101800104">https://doi.org/10.1177/002224378101800104</a>
       </p>
-      <p styleId="Reference" stylename="(Reference)">Barnard, A., McCosker, H., &amp; Gerber, R. (1999). Phenomenography: A qualitative research approach for exploring understanding in healthcare. <span class="Reference--source">Qualitative Health Research, 9(</span>2), 212–226. <w:hyperlink r:id="rId9" w:history="1">
-            <span class="Hyperlink">https://doi.org/10.1177/104973299129121794</span>
-         </w:hyperlink>
+      <p class="ref">Hair, J. F., Ringle, C. M., &amp; Sarstedt, M. (2011). PLS-SEM: Indeed a silver bullet. Journal of Marketing Theory and Practice, 19(2), 139–152. <a href="https://doi.org/10.2753/MTP1069-6679190202">https://doi.org/10.2753/MTP1069-6679190202</a>
       </p>
-      <p styleId="Reference" stylename="(Reference)">Boulton-Lewis, G. M., Smith, D. J. H., McCrindle, A. R., Burnett, P. C., &amp; Campbell, K. J. (2001). Secondary teachers’ conceptions of teaching and learning. <span class="Reference--source">Learning and Instruction 11</span>, 35–51. <w:hyperlink r:id="rId10" w:history="1">
-            <span class="Hyperlink">https://doi.org/10.1016/S0959-4752(00)00014-1</span>
-         </w:hyperlink>
+      <p class="ref">Hair, J. F., Sarstedt, M., Ringle, C. M., &amp; Mena, J. A. (2012). An assessment of the use of partial least squares structural equation modeling in marketing research<em>.</em>
+         <em> </em>
+         <em>Journal of the Academy of Marketing Science,</em>
+         <em> 40</em>(3), 414–433. <a href="https://doi.org/10.1007/s11747-011-0261-6">https://doi.org/10.1007/s11747-011-0261-6</a>
       </p>
-      <p styleId="Reference" stylename="(Reference)">Bowden, J. (2005). Reflections on the phenomenographic team research process. In J. A. Bowden, &amp; P. Green (Ed.), <span class="Reference--source">Doing developmental phenomenography</span> (pp. 11–31). Melbourne: RMIT University Press.</p>
-      <p styleId="Reference" stylename="(Reference)">Bruce, C., &amp; Gerber, R. (1995). Towards university lecturers’ conceptions of student learning. <span class="Reference--source">Higher Education, 29</span>, 443–458. <w:hyperlink r:id="rId11" w:history="1">
-            <span class="Hyperlink">https://doi.org/10.1007/BF01383962</span>
-         </w:hyperlink>
+      <p class="ref">Hair, J. F., Hult, G. T. M., &amp; Ringle, C. M. (2017). Mirror, mirror on the wall: A comparative evaluation of composite-based structural equation modeling methods. <em>Journal of the Academic Marketing Science, 45</em>, 616–632. <a href="https://doi.org/10.1007/s11747-017-0517-x">https://doi.org/10.1007/s11747-017-0517-x</a>
       </p>
-      <p styleId="Reference" stylename="(Reference)">Dahlin, B., &amp; Regmi, M. P. (1997). Conceptions of learning among Nepalese students. <span class="Reference--source">Higher Education, 33</span>(4), 471–493. <w:hyperlink r:id="rId12" w:history="1">
-            <span class="Hyperlink">https://doi.org/10.1023/A:1002992411868</span>
-         </w:hyperlink>
+      <p class="ref">Henseler, J., Ringle, C.M., Sinkovics, R. R. (2009). The use of partial least squares path modeling in international marketing. In R. R. Sinkovics, P. N. Ghauri (Eds.), New challenges to international marketing (Advances in International Marketing, Volume 20, pp. 277–319). Emerald Group Publishing Limited. <a href="https://doi.org/10.1108/S1474-7979(2009)0000020014">https://doi.org/10.1108/S1474-7979(2009)0000020014</a>
       </p>
-      <p styleId="Reference" stylename="(Reference)">Dieckmann, P. (2009). Simulation setting for learning in acute medical care. In P. Dieckmann (Ed.), <span class="Reference--source">Using Simulations for Education, Training and Research </span>(pp. 40–138). Lengerich, Germany: Pabst Science Publishers.</p>
-      <p styleId="Reference" stylename="(Reference)">Ellis, R. A., Goodyear, P., Calvo, R. A., &amp; Prosser, M. (2008). Engineering students’ conceptions of and approaches to learning through discussions in face-to-face and online contexts. <span class="Reference--source">Learning and Instruction, 18</span>,<span class="Reference--source"/>267–282. <w:hyperlink r:id="rId13" w:history="1">
-            <span class="Hyperlink">https://doi.org/10.1016/j.learninstruc.2007.06.001</span>
-         </w:hyperlink>
+      <p class="ref">Joo, Y. J., Lim, K. Y., &amp; Kim, N. H. (2016). The effects of secondary teachers’ technostress on the intention to use technology in South Korea. Computers &amp; Education<em>, 95</em>, 114–122. <a href="https://doi.org/10.1016/j.compedu.2015.12.004">https://doi.org/10.1016/j.compedu.2015.12.004</a>
       </p>
-      <p styleId="Reference" stylename="(Reference)">Entwistle, N. J., &amp; Peterson, E. R. (2004). Conceptions of learning and knowledge in higher education: Relationships with study behavior and influences of learning environments<span class="Reference--source">. International Journal of Educational Research, 41</span>, 407–428.</p>
-      <p styleId="Reference" stylename="(Reference)">Entwistle, N. &amp; Walker, P. (2000). Strategic alertness and expanded awareness within sophisticated conceptions of teaching. <span class="Reference--source">Instructional Science, 28</span>,<span class="Reference--source"/>335–361. <w:hyperlink r:id="rId14" w:history="1">
-            <span class="Hyperlink">https://doi.org/10.1016/j.ijer.2005.08.009</span>
-         </w:hyperlink>
+      <p class="ref">Lam, S. F., Cheng, R. W. Y., &amp; Choy, H. C. (2010). School support and teacher motivation to implement project-based learning<em>. Learning and Instruction, 20</em>, 487–497. <a href="https://doi.org/10.1016/j.learninstruc.2009.07.003">https://doi.org/10.1016/j.learninstruc.2009.07.003</a>
       </p>
-      <p styleId="Reference" stylename="(Reference)">Gaba, D. M. (2004). The future vision of simulation in health care. Quality and Safety in <span class="Reference--source">Health Care, 13</span>(1), 2–10. <w:hyperlink r:id="rId15" w:history="1">
-            <span class="Hyperlink">https://doi.org/10.1136/qshc.2004.009878</span>
-         </w:hyperlink>
+      <p class="ref">Mäkiniemi, J.-P., Ahola, S., &amp; Joensuu, J. (2019). <em>A novel construct to measure employees’ technology-related experiences of well-being: Empirical validation of the Techno-Work Engagement Scale (</em>
+         <em>TechnoWES</em>
+         <em>).</em> Manuscript submitted for publication. </p>
+      <p class="ref">Mäkiniemi, J.-P., Ahola, S., Syvänen, A., Heikkilä-Tammi, K., &amp; Viteli, J. (2017). <em>Digitalisoituva</em>
+         <em/>
+         <em>koulu</em>
+         <em> - </em>
+         <em>hyvinvoivat</em>
+         <em/>
+         <em>opettajat</em>
+         <em>? </em>
+         <em>Miten</em>
+         <em/>
+         <em>edistää</em>
+         <em/>
+         <em>digitalisoitumista</em>
+         <em> ja </em>
+         <em>työhyvinvointia</em>
+         <em>.</em> Tampere, University of Tampere, TRIM Research Reports 24. Retrieved from http://urn.fi/URN:ISBN:978-952-03-0542-0</p>
+      <p class="ref">Nielsen, K., Nielsen, M. B., Ogbonnaya, C., Känsälä, M., Saari, E., &amp; Isaksson, K. (2017). Workplace resources to improve both employee well-being and performance: A systematic review and meta-analysis. Work &amp; Stress<em>, 31</em>(2), 101–120. <a href="https://doi.org/10.1080/02678373.2017.1304463">https://doi.org/10.1080/02678373.2017.1304463</a>
       </p>
-      <p styleId="Reference" stylename="(Reference)">Harris, L. R. (2011). Phenomenographic perspectives on the structure of conceptions: The origins, purposes, strengths, and limitations of the what/how and referential/structural frameworks. <span class="Reference--source">Educational Research Review, 6</span>,<span class="Reference--source"/>109–124. <w:hyperlink r:id="rId16" w:history="1">
-            <span class="Hyperlink">https://doi.org/10.1016/j.edurev.2011.01.002</span>
-         </w:hyperlink>
+      <p class="ref">Niemi, H., Kynäslahti, H., &amp; Vahtivuori-Hänninen, S. (2013). Towards ICT in everyday life in Finnish schools: Seeking conditions for good practices. <em>Learning, Media and Technology, 38</em>(1), 57–71. <a href="https://doi.org/10.1080/17439884.2011.651473">https://doi.org/10.1080/17439884.2011.651473</a>
       </p>
-      <p styleId="Reference" stylename="(Reference)">Helle, L., &amp; Säljö, R. (2012). Collaborating with digital tools and peers in medical education: Cases and simulations as interventions in learning. <span class="Reference--source">Instructional Science, 40</span>, 737–744. <w:hyperlink r:id="rId17" w:history="1">
-            <span class="Hyperlink">https://doi.org/10.1007/s11251-012-9216-7</span>
-         </w:hyperlink>
+      <p class="ref">Ragu-Nathan, T. S., Tarafdar, M., Ragu-Nathan, B. S., &amp; Tu, Q. (2008). The consequences of technostress for end users in organizations: Conceptual development and empirical validation. <em>Information Systems Research, 19</em>(4), 417–433. <a href="https://doi.org/10.1287/isre.1070.0165">https://doi.org/10.1287/isre.1070.0165</a>
       </p>
-      <p styleId="Reference" stylename="(Reference)">Jacobs, J.C.G., Muijtjens, A.M.M., Van Luijk, S.J., Van der Vleuten, C.P.M., Croiset, G., &amp; Scheele, F. (2015). Impact of institute and person variables on teachers’ conceptions of learning and teaching. <span class="Reference--source">Medical Teacher, 37</span>(8), 738–746. <w:hyperlink r:id="rId18" w:history="1">
-            <span class="Hyperlink">https://doi.org/10.3109/0142159X.2014.970985</span>
-         </w:hyperlink>
+      <p class="ref">Reeve, J., &amp; Su, Y. L. (2014). Teacher motivation. In M. Gagne (Ed.), <em>The Oxford handbook of work engagement, motivation, and self-determination theory</em> (pp. 349–362). New York: Oxford University Press.</p>
+      <p class="ref">Schaufeli, W. B., &amp; Bakker, A. B. (2004). Job demands, job resources, and their relationship with burnout and engagement: A multi-sample study. <em>Journal of Organizational Behavior, 25</em>(3), 293–315. <a href="https://doi.org/10.1002/job.248">https://doi.org/10.1002/job.248</a>
       </p>
-      <p styleId="Reference" stylename="(Reference)">Kember, D. (1997). A reconceptualization of the research into university academics’ conceptions of teaching. <span class="Reference--source">Learning and Instruction, 7</span>(3), 255–275. <w:hyperlink r:id="rId19" w:history="1">
-            <span class="Hyperlink">https://doi.org/10.1016/S0959-4752(96)00028-X</span>
-         </w:hyperlink>
+      <p class="ref">Shoji, K., Cieslak, R., Smoktunowicz, E., Rogala, A., Benight, C. C., &amp; Luszczynska, A. (2016). Associations between job burnout and self-efficacy: A meta-analysis. <em>Anxiety, Stress, &amp; Coping, 29</em>(4), 367–386. <a href="https://doi.org/10.1080/10615806.2015.1058369">https://doi.org/10.1080/10615806.2015.1058369</a>
       </p>
-      <p styleId="Reference" stylename="(Reference)">Kember, D., &amp; Kwan, K. (2000). Lecturers’ approaches to teaching and their relationship to conceptions of good teaching. <span class="Reference--source">Instructional Science, 28</span>, 469–490. <w:hyperlink r:id="rId20" w:history="1">
-            <span class="Hyperlink">https://doi.org/10.1023/A:1026569608656</span>
-         </w:hyperlink>
+      <p class="ref">Skaalvik, E. M., &amp; Skaalvik, S. (2007). Dimensions of teacher self-efficacy and relations with strain factors, perceived collective teacher efficacy, and teacher burnout. <em>Journal of Educational Psychology, 99</em>, 611–625. <a href="https://doi.org/10.1037/0022-0663.99.3.611">https://doi.org/10.1037/0022-0663.99.3.611</a>
       </p>
-      <p styleId="Reference" stylename="(Reference)">Keskitalo, T. (2011). Teachers’ conceptions and their approaches to teaching in virtual reality and simulation-based learning environments. <span class="Reference--source">Teachers and Teaching: Theory and Practice, 17</span>(1), 131–147. <w:hyperlink r:id="rId21" w:history="1">
-            <span class="Hyperlink">https://doi.org/10.1080/13540602.2011.538503</span>
-         </w:hyperlink>
+      <p class="ref">Skaalvik, E. M., &amp; Skaalvik, S. (2014). Teacher self-efficacy and perceived autonomy: Relations with teacher engagement, job satisfaction, and emotional exhaustion. <em>Psychological Reports, 114</em>, 68–77. <a href="https://doi.org/10.2466/14.02.PR0.114k14w0">https://doi.org/10.2466/14.02.PR0.114k14w0</a>
       </p>
-      <p styleId="Reference" stylename="(Reference)">Keskitalo, T. (2015). <span class="Reference--source">Designing a pedagogical model simulation-based healthcare education.</span> Acta Universitatis Lapponiensis 299. Doctoral Disseration. Rovaniemi, Lapland University Press. </p>
-      <p styleId="Reference" stylename="(Reference)">Keskitalo, T., Ruokamo, H., Väisänen, O. &amp; Gaba, D. (2013). Healthcare facilitators’ and students’ conceptions of teaching and learning – An international case study. <span class="Reference--source">International Journal of Educational Research, 62</span>, 175–186. <w:hyperlink r:id="rId22" w:history="1">
-            <span class="Hyperlink">https://doi.org/10.1016/j.ijer.2013.09.001</span>
-         </w:hyperlink>
+      <p class="ref">Syvänen, A., Mäkiniemi, J.-P., Syrjä, S., Heikkilä-Tammi, K., &amp; Viteli, J. (2016). When does the educational use of ICT become a source of technostress for Finnish teachers? <em>Seminar.Net:</em>
+         <em/>
+         <em>Media, Technology &amp; Life-Long Learning, 12</em>(2). Retrieved from http://seminar.net/volume-12-issue-2-2016/270-when-does-the-educational-use-of-ict-becomeasource-of-technostress-for-finnish-teachers-2</p>
+      <p class="ref">Tanhua-Piiroinen, E., Viteli, J., Syvänen, A., Vuorio, J., Hintikka, K. A., &amp; Sairanen, H. (2016). <em>Perusopetuksen</em>
+         <em/>
+         <em>oppimisympäristöjen</em>
+         <em/>
+         <em>digitalisaation</em>
+         <em/>
+         <em>nykytilanne</em>
+         <em> ja </em>
+         <em>opettajien</em>
+         <em/>
+         <em>valmiudet</em>
+         <em/>
+         <em>hyödyntää</em>
+         <em/>
+         <em>digitaalisia</em>
+         <em/>
+         <em>oppimisympäristöjä</em>
+         <em/>(Valtioneuvostonselvitys- ja tutkimustoiminnanjulkaisusarja 18/2016). Helsinki: Valtioneuvostonkanslia. Retrieved from http://tietokayttoon.fi/julkaisu?pubid=11315</p>
+      <p class="ref">Tarafdar, M., Cooper, C. L., &amp; Stich, J. F. (2017). The technostress trifecta – Techno eustress, techno distress and design: Theoretical directions and an agenda for research. <em>Information Systems Journal.</em>
+         <a href="https://doi.org/10.1111/isj.12169">https://doi.org/10.1111/isj.12169</a>
       </p>
-      <p styleId="Reference" stylename="(Reference)">Klatter, E. B., Lodewijks, H. G. L. C., &amp; Aarnoutse, C. A. J. (2001). Learning conceptions of young students in the final year of primary education. <span class="Reference--source">Learning and Instruction, 11</span>
-         <span class="Reference--source">, </span>485–516. <w:hyperlink r:id="rId23" w:history="1">
-            <span class="Hyperlink">https://doi.org/10.1016/S0959-4752(01)00002-0</span>
-         </w:hyperlink>
+      <p class="ref">Vangrieken, K., Dochy, F., Raes, E., &amp; Kyndt, E. (2015). Teacher collaboration: A systematic review. <em>Educational Research Review, 15</em>, 17–40. <a href="https://doi.org/10.1016/j.edurev.2015.04.002">https://doi.org/10.1016/j.edurev.2015.04.002</a>
       </p>
-      <p styleId="Reference" stylename="(Reference)">Laksov, K. B., Nikkola, M., &amp; Lonka, K. (2008). Does teacher thinking match teaching practice? A study of basic science teachers. <span class="Reference--source">Medical Education, 42</span>,<span class="Reference--source"/>143–151. <w:hyperlink r:id="rId24" w:history="1">
-            <span class="Hyperlink">https://doi.org/10.1111/j.1365-2923.2007.02985.x</span>
-         </w:hyperlink>
+      <p class="ref">Ventura, M., Salanova, M., &amp; Llorens, S. (2015). Professional self-efficacy as a predictor of burnout and engagement: The role of challenge and hindrance demands. <em>Journal of Psychology, 149</em>(3), 277–302. <a href="https://doi.org/10.1080/00223980.2013.876380">https://doi.org/10.1080/00223980.2013.876380</a>
       </p>
-      <p styleId="Reference" stylename="(Reference)">Lam, B. H., &amp; Kember, D. (2004). Conceptions of teaching art held by secondary school art teachers. <span class="Reference--source">International Journal of Art and Design Education, 23</span>(3), 290–301. <w:hyperlink r:id="rId25" w:history="1">
-            <span class="Hyperlink">https://doi.org/10.1111/j.1476-8070.2004.00408.x</span>
-         </w:hyperlink>
+      <p class="ref">Wang, L., Ertmer, P. A., &amp; Newby, T. J. (2004). Increasing preservice teachers’ self-efficacy beliefs for technology integration. <em>Journal of Research on Technology in Education, 36</em>(3), 231–250. <a href="https://doi.org/10.1080/15391523.2004.10782414">https://doi.org/10.1080/15391523.2004.10782414</a>
       </p>
-      <p styleId="Reference" stylename="(Reference)">Lindblom-Ylänne, S., &amp; Lonka, K. (1999). Individual ways of interacting with the learning environment: Are they related to study success? <span class="Reference--source">Learning and Instruction, 9</span>, 1–18. <w:hyperlink r:id="rId26" w:history="1">
-            <span class="Hyperlink">https://doi.org/10.1016/S0959-4752(98)00025-5</span>
-         </w:hyperlink>
+      <p class="ref">Xanthopoulou, D., Bakker, A. B., Demerouti, E., &amp; Schaufeli, W. B. (2007), The role of personal resources in the job demands-resources model. <em>International Journal of Stress Management, 14</em>(2), 121–141. <a href="https://doi.org/10.1037/1072-5245.14.2.121">https://doi.org/10.1037/1072-5245.14.2.121</a>
       </p>
-      <p styleId="Reference" stylename="(Reference)">Lindblom-Ylänne, S., Trigwell, K., Nevgi, A., &amp; Ashwin, P. (2006). How approaches to teaching are affected by discipline and teaching context. <span class="Reference--source">Studies in Higher Education, 31</span>(3), 285–298. <w:hyperlink r:id="rId27" w:history="1">
-            <span class="Hyperlink">https://doi.org/10.1080/03075070600680539</span>
-         </w:hyperlink>
+      <p class="ref">Xanthopoulou, D., Bakker, A. B., Demerouti, E., &amp; Schaufeli, W. B. (2009). Reciprocal relationships between job resources, personal resources, and work engagement. <em>Journal of Vocational </em>
+         <em>Behavior, 74</em>(3), 235–244. <a href="https://doi.org/10.1016/j.jvb.2008.11.003">https://doi.org/10.1016/j.jvb.2008.11.003</a>
       </p>
-      <p styleId="Reference" stylename="(Reference)">Lonka, K., Joram, E., &amp; Bryson, M. (1996). Conceptions of learning and knowledge: Does training make a difference? <span class="Reference--source">Contemporary Educational Psychology, 21</span>, 240–260. <w:hyperlink r:id="rId28" w:history="1">
-            <span class="Hyperlink">https://doi.org/10.1006/ceps.1996.0021</span>
-         </w:hyperlink>
-      </p>
-      <p styleId="Reference" stylename="(Reference)">Lueddeke, G. (2003). Professionalising teaching practice in higher education: A study of disciplinary variation and ‘teaching-scholarship’. <span class="Reference--source">Studies in Higher Education, 28</span>, 213–228. <w:hyperlink r:id="rId29" w:history="1">
-            <span class="Hyperlink">https://doi.org/10.1080/0307507032000058082</span>
-         </w:hyperlink>
-      </p>
-      <p styleId="Reference" stylename="(Reference)">Marton, F. (1981). Phenomenography – Describing conceptions of the world around us. <span class="Reference--source">Instructional Science, 10</span>,<span class="Reference--source"/>177–200. <w:hyperlink r:id="rId30" w:history="1">
-            <span class="Hyperlink">https://doi.org/10.1007/BF00132516</span>
-         </w:hyperlink>
-      </p>
-      <p styleId="Reference" stylename="(Reference)">Marton, F., &amp; S. Booth. 1997. <span class="Reference--source">Learning and awareness.</span> Hillsdale, NJ: Lawrence Erlbaum.</p>
-      <p styleId="Reference" stylename="(Reference)">Marton, F., Dall’Alba, G., &amp; Beaty, E. (1993). Conceptions of learning. <span class="Reference--source">International Journal of Educational Research, 19</span>(3), 277–300.</p>
-      <p styleId="Reference" stylename="(Reference)">Paakkari, L., Tynjälä, P. &amp; Kannas, L. (2010). Student teachers’ ways of experiencing the teaching of health education. <span class="Reference--source">Studies in Higher Education, 35</span>(8), 905–920. <w:hyperlink r:id="rId31" w:history="1">
-            <span class="Hyperlink">https://doi.org/10.1080/03075070903383229</span>
-         </w:hyperlink>
-      </p>
-      <p styleId="Reference" stylename="(Reference)">Paakkari, L., Tynjälä, P., &amp; Kannas, L. (2011). Critical aspects of student teachers’ conception of learning. <span class="Reference--source">Learning and Instruction, 21</span>, 705–714. <w:hyperlink r:id="rId32" w:history="1">
-            <span class="Hyperlink">https://doi.org/10.1016/j.learninstruc.2011.03.003</span>
-         </w:hyperlink>
-      </p>
-      <p styleId="Reference" stylename="(Reference)">Postareff, L., &amp; Lindblom-Ylänne, S. (2008). Variation in teachers’ description of teaching: Broadening the understanding of teaching in higher education. <span class="Reference--source">Learning and Instruction, 18</span>(2), 109–120. <w:hyperlink r:id="rId33" w:history="1">
-            <span class="Hyperlink">https://doi.org/10.1016/j.learninstruc.2007.01.008</span>
-         </w:hyperlink>
-      </p>
-      <p styleId="Reference" stylename="(Reference)">Postareff, L., Lindblom-Ylänne, S., &amp; Nevgi, A. (2007). The effect of pedagogical training on teaching in higher education. <span class="Reference--source">Teaching and Teacher Education, 23</span>(5), 557–571. <w:hyperlink r:id="rId34" w:history="1">
-            <span class="Hyperlink">https://doi.org/10.1016/j.tate.2006.11.013</span>
-         </w:hyperlink>
-      </p>
-      <p styleId="Reference" stylename="(Reference)">Pratt, D. D. (1992). Conceptions of teaching. <span class="Reference--source">Adult Education Quarterly, 42</span>(4), 203–220. <w:hyperlink r:id="rId35" w:history="1">
-            <span class="Hyperlink">https://doi.org/10.1177/074171369204200401</span>
-         </w:hyperlink>
-      </p>
-      <p styleId="Reference" stylename="(Reference)">Pratt, D. D., Sadownik, L., &amp; Selinger, S. (2012). Pedagogical BIASes and clinical teaching in medicine. In L. M. English (Ed.), <span class="Reference--source">Health and Adult Learning</span> (pp. 273-296). Toronto, ON: University of Toronto Press. <w:hyperlink r:id="rId36" w:history="1">
-            <span class="Hyperlink">https://doi.org/10.3138/9781442685208-014</span>
-         </w:hyperlink>
-      </p>
-      <p styleId="Reference" stylename="(Reference)">Rall, M., &amp; Dieckmann, P. (2005). Simulation and patient safety: The use of simulation to enhance patient safety on a systems level. Current Anaesthesia &amp; Critical Care, 16, 273–281. <w:hyperlink r:id="rId37" w:history="1">
-            <span class="Hyperlink">https://doi.org/10.1016/j.cacc.2005.11.007</span>
-         </w:hyperlink>
-      </p>
-      <p styleId="Reference" stylename="(Reference)">Rudolph, J. W., Simon, R., Raemer, D. B., &amp; Eppich, W. J. (2008). Debriefing as formative assessment: Closing performance gaps in medical education. <span class="Reference--source">Academic Emergency Medicine</span>,<span class="Reference--source"> 15</span>(11), 1010–1016. <w:hyperlink r:id="rId38" w:history="1">
-            <span class="Hyperlink">https://doi.org/10.1111/j.1553-2712.2008.00248.x</span>
-         </w:hyperlink>
-      </p>
-      <p styleId="Reference" stylename="(Reference)">Samuelowicz, K., &amp; Bain, J. (2001). Revisiting academics’ beliefs about teaching and learning. <span class="Reference--source">Higher Education, 41</span>, 299–325. <w:hyperlink r:id="rId39" w:history="1">
-            <span class="Hyperlink">https://doi.org/10.1023/A:1004130031247</span>
-         </w:hyperlink>
-      </p>
-      <p styleId="Reference" stylename="(Reference)">Säljö, R. (1979). Learning in the learner’s perspective. I. Some common-sense conceptions<span class="Reference--source">.</span>
-         <span class="Reference--source">Reports from the Department of Education, University of </span>
-         <span class="Reference--source">Göteborg</span>
-         <span class="Reference--source">, No. 76.</span>
-      </p>
-      <p styleId="Reference" stylename="(Reference)">Tigchelaar, A., Vermunt, J. D., &amp; Brouwer, N. (2014). Patterns of development in second-career teachers’ conceptions of teaching and learning. <span class="Reference--source">Teaching and Teacher Education, 41</span>,<span class="Reference--source"/>111–120. <w:hyperlink r:id="rId40" w:history="1">
-            <span class="Hyperlink">https://doi.org/10.1016/j.tate.2014.04.001</span>
-         </w:hyperlink>
-      </p>
-      <p styleId="Reference" stylename="(Reference)">Trigwell, K. (2000). A phenomenographic interview on phenomenography. In J.A. Bowden &amp; E. Walsh (Ed.),<span class="Reference--source"/>
-         <span class="Reference--source">Phenomenography</span>
-         <span class="Reference--source"/>(pp. 62–82). Melbourne: RMIT University Press.</p>
-      <p styleId="Reference" stylename="(Reference)">Trigwell, K., &amp; Prosser, M. (1996). Changing Approaches to Teaching: A Relational Perspective. <span class="Reference--source">Studies in Higher Education, 21</span>(3), 275–284.</p>
-      <p styleId="Reference" stylename="(Reference)">Trigwell, K., Prosser, M., &amp; Waterhouse, F. (1999). Relations between teachers’ approaches to teaching and students’ approaches to learning. <span class="Reference--source">Higher Education, 37</span>,<span class="Reference--source"/>57–70. <w:hyperlink r:id="rId41" w:history="1">
-            <span class="Hyperlink">https://doi.org/10.1023/A:1003548313194</span>
-         </w:hyperlink>
-      </p>
-      <p styleId="Reference" stylename="(Reference)">van Rossum, E. J., &amp; Hamer, R. (2010). <span class="Reference--source">The Meaning of Learning and Knowing.</span>
-         <span class="Reference--source"/>Rotterdam: Sense Publishers.</p>
-      <w:sectPr w:rsidR="00283AD9" w:rsidSect="005C758C">
-         <w:headerReference w:type="default" r:id="rId42"/>
-         <w:footerReference w:type="default" r:id="rId43"/>
-         <w:headerReference w:type="first" r:id="rId44"/>
-         <w:footerReference w:type="first" r:id="rId45"/>
+      <h2>Appendix 1</h2>
+      <p>Measurement (outer) model of the constructs. Standardised indicator loadings and respective t-statistics.</p>
+      <table>
+         <caption>
+            <p>
+               <span class="TableCaption-Label">Table 1.</span> Descriptive statistics for the study variables (n = 180).</p>
+            <p>
+               <span class="TableCaption-Label">Table 2.</span> Construct validity, reliability, discriminant validity, correlations, means and standard deviations for constructs (PLS models, n = 180).</p>
+            <p>
+               <strong>Table 3.</strong> Standardised path coefficients and t statistics of compared models and effect sizes for Model 2.</p>
+         </caption>
+         <thead>
+            <tr data-rid="d64e4363">
+               <th>
+                  <p styleId="TableHeaderLeft" stylename="[Table Header Left]"/>
+               </th>
+               <th>
+                  <p styleId="TableHeaderLeft" stylename="[Table Header Left]">Standardised loading</p>
+               </th>
+               <th>
+                  <p styleId="TableHeaderLeft" stylename="[Table Header Left]">t-statistic</p>
+               </th>
+            </tr>
+         </thead>
+         <tr data-rid="d64e4411">
+            <th>
+               <p styleId="TableHeaderLeft" stylename="[Table Header Left]">Techno-work engagement</p>
+            </th>
+            <th>
+               <p styleId="TableContentsCentered" stylename="[Table Contents Centered]"/>
+            </th>
+            <th>
+               <p styleId="TableContentsCentered" stylename="[Table Contents Centered]"/>
+            </th>
+         </tr>
+         <tr data-rid="d64e4457">
+            <th>
+               <p styleId="TableHeaderLeft" stylename="[Table Header Left]">Techno-work engagement_enthusiastic</p>
+            </th>
+            <th>
+               <p styleId="TableContentsCentered" stylename="[Table Contents Centered]">0.800</p>
+            </th>
+            <th>
+               <p styleId="TableContentsCentered" stylename="[Table Contents Centered]">24.316</p>
+            </th>
+         </tr>
+         <tr data-rid="d64e4508">
+            <th>
+               <p styleId="TableHeaderLeft" stylename="[Table Header Left]">Techno-work engagement_inspired</p>
+            </th>
+            <th>
+               <p styleId="TableContentsCentered" stylename="[Table Contents Centered]">0.860</p>
+            </th>
+            <th>
+               <p styleId="TableContentsCentered" stylename="[Table Contents Centered]">42.206</p>
+            </th>
+         </tr>
+         <tr data-rid="d64e4559">
+            <th>
+               <p styleId="TableHeaderLeft" stylename="[Table Header Left]">Techno-work engagement_proud</p>
+            </th>
+            <th>
+               <p styleId="TableContentsCentered" stylename="[Table Contents Centered]">0.798</p>
+            </th>
+            <th>
+               <p styleId="TableContentsCentered" stylename="[Table Contents Centered]">24.871</p>
+            </th>
+         </tr>
+         <tr data-rid="d64e4610">
+            <th>
+               <p styleId="TableHeaderLeft" stylename="[Table Header Left]">Techno-work engagement_persevere</p>
+            </th>
+            <th>
+               <p styleId="TableContentsCentered" stylename="[Table Contents Centered]">0.640</p>
+            </th>
+            <th>
+               <p styleId="TableContentsCentered" stylename="[Table Contents Centered]">11.646</p>
+            </th>
+         </tr>
+         <tr data-rid="d64e4661">
+            <th>
+               <p styleId="TableHeaderLeft" stylename="[Table Header Left]">Techno-work engagement_energy</p>
+            </th>
+            <th>
+               <p styleId="TableContentsCentered" stylename="[Table Contents Centered]">0.829</p>
+            </th>
+            <th>
+               <p styleId="TableContentsCentered" stylename="[Table Contents Centered]">32.957</p>
+            </th>
+         </tr>
+         <tr data-rid="d64e4712">
+            <th>
+               <p styleId="TableHeaderLeft" stylename="[Table Header Left]">Techno-work engagement_vigorous</p>
+            </th>
+            <th>
+               <p styleId="TableContentsCentered" stylename="[Table Contents Centered]">0.859</p>
+            </th>
+            <th>
+               <p styleId="TableContentsCentered" stylename="[Table Contents Centered]">40.572</p>
+            </th>
+         </tr>
+         <tr data-rid="d64e4763">
+            <th>
+               <p styleId="TableHeaderLeft" stylename="[Table Header Left]">Techno-work engagement_happy immersed</p>
+            </th>
+            <th>
+               <p styleId="TableContentsCentered" stylename="[Table Contents Centered]">0.875</p>
+            </th>
+            <th>
+               <p styleId="TableContentsCentered" stylename="[Table Contents Centered]">43.634</p>
+            </th>
+         </tr>
+         <tr data-rid="d64e4816">
+            <th>
+               <p styleId="TableHeaderLeft" stylename="[Table Header Left]">Techno-work engagement_immersed</p>
+            </th>
+            <th>
+               <p styleId="TableContentsCentered" stylename="[Table Contents Centered]">0.821</p>
+            </th>
+            <th>
+               <p styleId="TableContentsCentered" stylename="[Table Contents Centered]">27.699</p>
+            </th>
+         </tr>
+         <tr data-rid="d64e4867">
+            <th>
+               <p styleId="TableHeaderLeft" stylename="[Table Header Left]">Techno-work engagement_carried away</p>
+            </th>
+            <th>
+               <p styleId="TableContentsCentered" stylename="[Table Contents Centered]">0.877</p>
+            </th>
+            <th>
+               <p styleId="TableContentsCentered" stylename="[Table Contents Centered]">48.088</p>
+            </th>
+         </tr>
+         <tr data-rid="d64e4919">
+            <th>
+               <p styleId="TableHeaderLeft" stylename="[Table Header Left]">Technology-related self-efficacy</p>
+            </th>
+            <th>
+               <p styleId="TableContentsCentered" stylename="[Table Contents Centered]"/>
+            </th>
+            <th>
+               <p styleId="TableContentsCentered" stylename="[Table Contents Centered]"/>
+            </th>
+         </tr>
+         <tr data-rid="d64e4965">
+            <th>
+               <p styleId="TableHeaderLeft" stylename="[Table Header Left]">Technology-related self-efficacy_know how to utilize</p>
+            </th>
+            <th>
+               <p styleId="TableContentsCentered" stylename="[Table Contents Centered]">0.850</p>
+            </th>
+            <th>
+               <p styleId="TableContentsCentered" stylename="[Table Contents Centered]">37.314</p>
+            </th>
+         </tr>
+         <tr data-rid="d64e5017">
+            <th>
+               <p styleId="TableHeaderLeft" stylename="[Table Header Left]">Technology-related self-efficacy_able to help</p>
+            </th>
+            <th>
+               <p styleId="TableContentsCentered" stylename="[Table Contents Centered]">0.896</p>
+            </th>
+            <th>
+               <p styleId="TableContentsCentered" stylename="[Table Contents Centered]">42.257</p>
+            </th>
+         </tr>
+         <tr data-rid="d64e5069">
+            <th>
+               <p styleId="TableHeaderLeft" stylename="[Table Header Left]">Technology-related self-efficacy_adequate skills</p>
+            </th>
+            <th>
+               <p styleId="TableContentsCentered" stylename="[Table Contents Centered]">0.907</p>
+            </th>
+            <th>
+               <p styleId="TableContentsCentered" stylename="[Table Contents Centered]">56.264</p>
+            </th>
+         </tr>
+         <tr data-rid="d64e5121">
+            <th>
+               <p styleId="TableHeaderLeft" stylename="[Table Header Left]">Technology-related competence support</p>
+            </th>
+            <th>
+               <p styleId="TableContentsCentered" stylename="[Table Contents Centered]"/>
+            </th>
+            <th>
+               <p styleId="TableContentsCentered" stylename="[Table Contents Centered]"/>
+            </th>
+         </tr>
+         <tr data-rid="d64e5167">
+            <th>
+               <p styleId="TableHeaderLeft" stylename="[Table Header Left]">Technology-related competence support_training</p>
+            </th>
+            <th>
+               <p styleId="TableContentsCentered" stylename="[Table Contents Centered]">0.743</p>
+            </th>
+            <th>
+               <p styleId="TableContentsCentered" stylename="[Table Contents Centered]">11.102</p>
+            </th>
+         </tr>
+         <tr data-rid="d64e5218">
+            <th>
+               <p styleId="TableHeaderLeft" stylename="[Table Header Left]">Technology-related competence support_time</p>
+            </th>
+            <th>
+               <p styleId="TableContentsCentered" stylename="[Table Contents Centered]">0.812</p>
+            </th>
+            <th>
+               <p styleId="TableContentsCentered" stylename="[Table Contents Centered]">15.417</p>
+            </th>
+         </tr>
+         <tr data-rid="d64e5269">
+            <th>
+               <p styleId="TableHeaderLeft" stylename="[Table Header Left]">Technology-related competence support_what is expected</p>
+            </th>
+            <th>
+               <p styleId="TableContentsCentered" stylename="[Table Contents Centered]">0.586</p>
+            </th>
+            <th>
+               <p styleId="TableContentsCentered" stylename="[Table Contents Centered]">6.580</p>
+            </th>
+         </tr>
+         <tr data-rid="d64e5321">
+            <th>
+               <p styleId="TableHeaderLeft" stylename="[Table Header Left]">Technology-related autonomy </p>
+            </th>
+            <th>
+               <p styleId="TableContentsCentered" stylename="[Table Contents Centered]"/>
+            </th>
+            <th>
+               <p styleId="TableContentsCentered" stylename="[Table Contents Centered]"/>
+            </th>
+         </tr>
+         <tr data-rid="d64e5368">
+            <th>
+               <p styleId="TableHeaderLeft" stylename="[Table Header Left]">Technology-related autonomy_opinions respected </p>
+            </th>
+            <th>
+               <p styleId="TableContentsCentered" stylename="[Table Contents Centered]">0.803</p>
+            </th>
+            <th>
+               <p styleId="TableContentsCentered" stylename="[Table Contents Centered]">15.491</p>
+            </th>
+         </tr>
+         <tr data-rid="d64e5420">
+            <th>
+               <p styleId="TableHeaderLeft" stylename="[Table Header Left]">Technology-related autonomy_voluntariness</p>
+            </th>
+            <th>
+               <p styleId="TableContentsCentered" stylename="[Table Contents Centered]">0.858</p>
+            </th>
+            <th>
+               <p styleId="TableContentsCentered" stylename="[Table Contents Centered]">35.412</p>
+            </th>
+         </tr>
+         <tr data-rid="d64e5471">
+            <th>
+               <p styleId="TableHeaderLeft" stylename="[Table Header Left]">Technology-related autonomy_freedom to decide</p>
+            </th>
+            <th>
+               <p styleId="TableContentsCentered" stylename="[Table Contents Centered]">0.629</p>
+            </th>
+            <th>
+               <p styleId="TableContentsCentered" stylename="[Table Contents Centered]">6.741</p>
+            </th>
+         </tr>
+         <tr data-rid="d64e5523">
+            <th>
+               <p styleId="TableHeaderLeft" stylename="[Table Header Left]">Technology-related collegial support</p>
+            </th>
+            <th>
+               <p styleId="TableContentsCentered" stylename="[Table Contents Centered]"/>
+            </th>
+            <th>
+               <p styleId="TableContentsCentered" stylename="[Table Contents Centered]"/>
+            </th>
+         </tr>
+         <tr data-rid="d64e5569">
+            <th>
+               <p styleId="TableHeaderLeft" stylename="[Table Header Left]">Technology-related collegial support_colleagues support </p>
+            </th>
+            <th>
+               <p styleId="TableContentsCentered" stylename="[Table Contents Centered]">0.842</p>
+            </th>
+            <th>
+               <p styleId="TableContentsCentered" stylename="[Table Contents Centered]">17.073</p>
+            </th>
+         </tr>
+         <tr data-rid="d64e5621">
+            <th>
+               <p styleId="TableHeaderLeft" stylename="[Table Header Left]">Technology-related collegial support_tips</p>
+            </th>
+            <th>
+               <p styleId="TableContentsCentered" stylename="[Table Contents Centered]">0.885</p>
+            </th>
+            <th>
+               <p styleId="TableContentsCentered" stylename="[Table Contents Centered]">18.008</p>
+            </th>
+         </tr>
+         <tr data-rid="d64e5672">
+            <th>
+               <p styleId="TableHeaderLeft" stylename="[Table Header Left]">Technology-related collegial support_collaboration</p>
+            </th>
+            <th>
+               <p styleId="TableContentsCentered" stylename="[Table Contents Centered]">0.922</p>
+            </th>
+            <th>
+               <p styleId="TableContentsCentered" stylename="[Table Contents Centered]">22.368</p>
+            </th>
+         </tr>
+      </table>
+      <p styleId="Ingenavsnittsmal" stylename="[Ingen avsnittsmal]"/>
+      <w:sectPr w:rsidR="00296E33" w:rsidRPr="00C35AF5" w:rsidSect="00D941BD">
+         <w:headerReference w:type="default" r:id="rId34"/>
+         <w:footerReference w:type="default" r:id="rId35"/>
+         <w:headerReference w:type="first" r:id="rId36"/>
+         <w:footerReference w:type="first" r:id="rId37"/>
          <w:endnotePr>
             <w:numFmt w:val="decimal"/>
          </w:endnotePr>

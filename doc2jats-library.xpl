@@ -3,7 +3,8 @@
     xmlns:p="http://www.w3.org/ns/xproc" 
     xmlns:d2j="http://eirikhanssen.no/doc2jats" 
     xmlns:pkg="http://schemas.microsoft.com/office/2006/xmlPackage"
-    xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main">
+    xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"
+    xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing">
     
     <p:declare-step type="d2j:docx-root" name="docx-root">
         <p:output port="result" sequence="true"/>
@@ -254,6 +255,8 @@
                         
                         <xsl:template match="w:p/w:pPr"/>
                         
+                        
+                        
                         <!-- translate paragraph elements depending on style name -->
                         <!--
                             
@@ -277,10 +280,31 @@
         </p:xslt>
         
         
+        <p:xslt name="resolve-ems" version="2.0">
+            <p:input port="source"/>
+            <p:input port="parameters"/>
+            <p:input port="stylesheet">
+                <p:inline>
+                    <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+                        xmlns:f="https://eirikhanssen.com/ns/doc2jats-functions"
+                        version="2.0"
+                        exclude-result-prefixes="f">
+                        <xsl:import href="doc2jats-functions.xsl"/>
+                        <xsl:strip-space elements="*"/>
+                        
+                       <xsl:template match="span[matches(@class, '^ReferenceSource')]">
+                           <em><xsl:apply-templates/></em>
+                       </xsl:template>
+                                              
+                    </xsl:stylesheet>
+                </p:inline>
+            </p:input>
+        </p:xslt>
         
         
         
-        <p:xslt name="rename-paragraph-elements" version="2.0">
+        
+        <p:xslt name="rename-elements" version="2.0">
             <p:input port="source"/>
             <p:input port="parameters"/>
             <p:input port="stylesheet">
@@ -299,10 +323,10 @@
                             </xsl:element>
                         </xsl:template>
                         
-                        <xsl:template match="p[@styleId='Keywords']">
+                        <xsl:template match="p[matches(@styleId , '^Keywords')]">
                             <dl class="keywords">
                                 <dt><xsl:apply-templates select="span"/></dt>
-                                <xsl:variable name="keywords" select="normalize-space(span/following-sibling::text())"/>
+                                <xsl:variable name="keywords" select="normalize-space(string-join(span/following-sibling::text(), ' '))"/>
                                 <xsl:analyze-string select="$keywords" regex="\s*,\s*|\s*;\s*">
                                     <xsl:matching-substring/>
                                     <xsl:non-matching-substring><dd><xsl:value-of select="normalize-space(.)"/></dd></xsl:non-matching-substring>
@@ -310,20 +334,48 @@
                             </dl>
                         </xsl:template>
                         
+                        <xsl:template match="p[@styleId][matches(@styleId,'^Reference')]">
+                            <p class="ref">
+                                <xsl:apply-templates/>
+                            </p>
+                        </xsl:template>
+                        
+                        <xsl:template match="p[@styleId][matches(@styleId,'^Abstract')]">
+                            <p class="abstract">
+                                <xsl:apply-templates/>
+                            </p>
+                        </xsl:template>
+                        
+                        <xsl:template match="w:hyperlink">
+                            <xsl:variable name="content" select="."/>
+                            <xsl:variable name="src">
+                                <xsl:if test="matches($content,'@')"><xsl:text>mailto:</xsl:text></xsl:if>
+                                <xsl:value-of select="$content"/>
+                            </xsl:variable>
+                            <a href="{$src}">
+                                <xsl:value-of select="$content"/>
+                            </a>
+                        </xsl:template>
+                        
                         <xsl:template match="span[@class='Keywords--label']"><xsl:apply-templates/></xsl:template>
                         
                         <xsl:template match="span[not(node()|text())]"><xsl:text> </xsl:text></xsl:template>
                         
                         <xsl:template match="span[matches(@class,'^Emphasis.*')]"><em><xsl:apply-templates/></em></xsl:template>
+                        
+                        <xsl:template match="p[w:drawing]">
+                            <xsl:variable name="alt" select="w:drawing/wp:inline/wp:docPr/@descr"/>
+                            <figure>
+                                <img src="fig.png" alt="{$alt}"/>
+                                <figcaption>__</figcaption>
+                            </figure>
+                        </xsl:template>
+                        
+<!--                        <xsl:template match="p[preceding-sibling::p[1][w:drawing]]"/>-->
                     </xsl:stylesheet>
                 </p:inline>
             </p:input>
         </p:xslt>
-        
-        
-        
-        
-        
         
         
         <p:delete match="w:rPr|w:spacing|w:lastRenderedPageBreak"/>
@@ -548,4 +600,142 @@
         
     </p:declare-step>
     
+    <p:declare-step type="d2j:replace-symbols">
+        <p:output port="result" sequence="true"/>
+        <p:serialization port="result" indent="true" method="xml" omit-xml-declaration="true"/>
+        <p:input port="source"/>
+        <p:input port="parameters" kind="parameter" sequence="true"/>
+        
+        <p:xslt name="replace-symbols-xsl" version="2.0">
+            <p:input port="source"/>
+            <p:input port="parameters"/>
+            <p:input port="stylesheet">
+                <p:inline>
+                    <xsl:stylesheet 
+                        xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+                        xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+                        xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"
+
+                        exclude-result-prefixes="xs w xhtml"
+                        version="2.0">
+                        
+                        <xsl:import href="doc2jats-functions.xsl"/>
+                        <w:sym w:font="Wingdings" w:char="F0E0"/>
+                        <xsl:template match="w:sym">
+                            
+                            <xsl:choose>
+                                <xsl:when test="@w:char = 'F0E0'"><xsl:text>🡒</xsl:text></xsl:when>
+                                <xsl:otherwise>
+                                    <xsl:copy>
+                                        <xsl:copy-of select="@*|node()"/>
+                                    </xsl:copy>
+                                </xsl:otherwise>
+                            </xsl:choose>
+                            
+                            
+                        </xsl:template>
+                        
+                    </xsl:stylesheet>
+                </p:inline>
+            </p:input>
+        </p:xslt>
+        
+    </p:declare-step>
+    
+    
+    <p:declare-step type="d2j:figures">
+        <p:output port="result" sequence="true"/>
+        <p:serialization port="result" indent="true" method="xml" omit-xml-declaration="true"/>
+        <p:input port="source"/>
+        <p:input port="parameters" kind="parameter" sequence="true"/>
+        
+        <p:xslt name="restructure-figures" version="2.0">
+            <p:input port="source"/>
+            <p:input port="parameters"/>
+            <p:input port="stylesheet">
+                <p:inline>
+                    <xsl:stylesheet 
+                        xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+                        xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+                        xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"
+                        
+                        exclude-result-prefixes="xs w xhtml"
+                        version="2.0">
+                        
+                        <xsl:import href="doc2jats-functions.xsl"/>
+                        
+                        <xsl:template match="figcaption[parent::figure/following-sibling::p[matches(@styleId, '^FigureCaption')]]">
+                            <figcaption><xsl:apply-templates mode="figcaption" select="parent::figure/following-sibling::p[matches(@styleId, '^FigureCaption')]"></xsl:apply-templates></figcaption>
+                        </xsl:template>    
+                        
+                      <xsl:template mode="figcaption" match="p[matches(@styleId, '^FigureCaption')]"><p><xsl:apply-templates/></p></xsl:template>
+                          
+                      <xsl:template match="p[matches(@styleId, '^FigureCaption')]"/>
+                        
+                    </xsl:stylesheet>
+                </p:inline>
+            </p:input>
+        </p:xslt>
+        
+    </p:declare-step>
+    
+    <p:declare-step type="d2j:structure-tables">
+        <p:output port="result" sequence="true"/>
+        <p:serialization port="result" indent="true" method="xml" omit-xml-declaration="true"/>
+        <p:input port="source"/>
+        <p:input port="parameters" kind="parameter" sequence="true"/>
+        
+        <p:xslt name="restructure-figures" version="2.0">
+            <p:input port="source"/>
+            <p:input port="parameters"/>
+            <p:input port="stylesheet">
+                <p:inline>
+                    <xsl:stylesheet 
+                        xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+                        xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+                        xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"
+                        
+                        exclude-result-prefixes="xs w xhtml"
+                        version="2.0">
+                        
+                        <xsl:import href="doc2jats-functions.xsl"/>
+                        
+                        <xsl:template match="table[preceding-sibling::p[matches(@styleId, '^TableCaption')]]">
+                            <xsl:variable name="caption" select="preceding-sibling::p[matches(@styleId, '^TableCaption')]"/>
+                            <table>
+                                <caption><xsl:apply-templates mode="caption" select="$caption"/></caption>
+                                <xsl:apply-templates/>
+                            </table>
+                        </xsl:template>
+                        
+                        <xsl:template mode="caption" match="p[matches(@styleId, 'TableCaption')][following-sibling::*[1][self::table]]">
+                            <p><xsl:apply-templates/></p>
+                        </xsl:template>
+                        
+                        <xsl:template match="span[matches(@class, '^TableCaption-Label')]"><span class="TableCaption-Label"><xsl:apply-templates/></span></xsl:template>
+                        
+                        <xsl:template match="p[matches(@styleId, 'TableCaption')][following-sibling::*[1][self::table]]"/>
+                        
+                    </xsl:stylesheet>
+                </p:inline>
+            </p:input>
+        </p:xslt>
+        
+    </p:declare-step>
+    
+    
+    <p:declare-step type="d2j:cleanup">
+        <p:output port="result" sequence="true"/>
+        <p:serialization port="result" indent="true" method="xml" omit-xml-declaration="true"/>
+        <p:input port="source"/>
+        <p:input port="parameters" kind="parameter" sequence="true"/>
+        
+        <p:delete match="h1/@*|h2/@*|h3/@*|h4/@*|h5/@*|h6/@*"></p:delete>
+        
+        <p:delete match="w:br[@w:type='page']"/>
+        
+    </p:declare-step>
 </p:library>
