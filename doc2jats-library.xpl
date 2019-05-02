@@ -437,8 +437,7 @@
                         <xsl:template match="w:tc">
                             <xsl:variable name="table_cell_type">
                                 <xsl:choose>
-                                    <!-- VIRKER IKKE!!!!!!!! -->
-                                    <xsl:when test="./ancestor::w:tr[position() = 1]">th</xsl:when>
+                                    <xsl:when test="count(parent::w:tr/preceding-sibling::w:tr) &lt; 1">th</xsl:when>
                                     <xsl:otherwise>td</xsl:otherwise>
                                 </xsl:choose>
                             </xsl:variable>
