@@ -41,6 +41,8 @@
     <!-- <d2j:restructure-tables/> -->
     
     <!-- <d2j:cleanup/> -->
+    
+    <d2j:formatting/>
 
     <p:identity name="final"/>
     

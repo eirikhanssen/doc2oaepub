@@ -787,4 +787,24 @@
         </p:xslt>
         
     </p:declare-step>
+    
+    
+    
+    
+    
+    
+    
+    <p:declare-step type="d2j:formatting" name="formatting">
+        <p:output port="result" sequence="true"/>
+        <p:serialization port="result" indent="true" method="xml" omit-xml-declaration="true"/>
+        <p:input port="source"/>
+        <p:input port="parameters" kind="parameter" sequence="true"/>
+        
+        <p:wrap match="text()[ancestor::w:r[1]/w:rPr/w:b]" wrapper="strong"></p:wrap>
+        <p:wrap match="text()[ancestor::w:r[1]/w:rPr/w:i]" wrapper="em"></p:wrap>
+        <p:wrap match="text()[ancestor::w:r[1]/w:rPr/w:vertAlign/@w:val='superscript']" wrapper="sup"></p:wrap>
+        <p:wrap match="text()[ancestor::w:r[1]/w:rPr/w:vertAlign/@w:val='subscript']" wrapper="sub"></p:wrap>
+        <p:identity name="final"/>
+        
+    </p:declare-step>
 </p:library>
