@@ -25,7 +25,11 @@
     <d2j:env/>
     
     <d2j:docx-flatten name="flat-ocf"/>
+
+    <d2j:delete-needless-markup/>
     
+    <d2j:formatting/>
+
     <!-- <d2j:flat-docx-to-html/> -->
     
     <!-- <d2j:ocf2htmltable/> -->
@@ -42,7 +46,7 @@
     
     <!-- <d2j:cleanup/> -->
     
-    <d2j:formatting/>
+
 
     <p:identity name="final"/>
     
