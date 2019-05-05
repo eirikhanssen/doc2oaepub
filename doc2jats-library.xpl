@@ -174,11 +174,11 @@
         
         <p:filter name="document" select="//pkg:part[@pkg_name='/word/document.xml']/pkg:xmlData/w:document"></p:filter>
         
-        <p:delete name="remove-bookmarks" match="w:bookmarkStart|w:bookmarkEnd"></p:delete>
+       
         
-        <p:delete name="remove-lang" match="w:lang"/>
+
         
-        <p:delete match="w:proofErr" name="remove-proofErr"/>
+
         
         <p:identity name="final"/>
     </p:declare-step>
@@ -815,7 +815,11 @@
         <p:serialization port="result" indent="true" method="xml" omit-xml-declaration="true"/>
         <p:input port="source"/>
         <p:input port="parameters" kind="parameter" sequence="true"/>
-        
+
+	<p:delete match="w:proofErr"/>
+	<!-- <p:delete name="remove-bookmarks" match="w:bookmarkStart|w:bookmarkEnd"></p:delete>	 -->
+        <!-- <p:delete name="remove-lang" match="w:lang"/> -->
+
 	<p:identity name="final"/>
         
     </p:declare-step>

@@ -32,7 +32,7 @@
              xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"
              xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing">
    <env>
-      <folder>/home/hanson/projects/doc2jats/samples/Jaana-Piia-Mäkiniemi.docx-20190505-175832</folder>
+      <folder>/home/hanson/projects/doc2jats/samples/Jaana-Piia-Mäkiniemi.docx-20190505-180648</folder>
    </env>
    <pkg:part pkg_name="/_rels/.rels">
       <pkg:xmlData>
@@ -316,19 +316,15 @@
                   <w:pPr>
                      <w:pStyle w:val="AuthorName0"/>
                   </w:pPr>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r>
                      <w:t>Jaana-Piia</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r>
                      <w:t xml:space="preserve"> </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r>
                      <w:t>Mäkiniemi</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                </w:p>
                <w:p w14:paraId="5796BF05"
                     w14:textId="77777777"
@@ -433,11 +429,9 @@
                   <w:r w:rsidRPr="00D941BD">
                      <w:t xml:space="preserve"> </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r w:rsidRPr="00D941BD">
                      <w:t>digitalisation</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r w:rsidRPr="00D941BD">
                      <w:t xml:space="preserve">, educational technology, teacher, well-being, techno-work </w:t>
                   </w:r>
@@ -466,139 +460,105 @@
                   <w:r>
                      <w:t>Digitalisation is a global megatrend in the educational sector. Some teachers perceive the digitalisation of schools and teaching as a demanding aspect of their job (</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r>
                      <w:t>Syvänen</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r>
                      <w:t xml:space="preserve">, </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r>
                      <w:t>Mäkiniemi</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r>
                      <w:t xml:space="preserve">, </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r>
                      <w:t>Syrjä</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r>
                      <w:t xml:space="preserve">, </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r>
                      <w:t>Heikkilä</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r>
                      <w:t xml:space="preserve">-Tammi, &amp; </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r>
                      <w:t>Viteli</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r>
                      <w:t>, 2016), but in general, they have more positive perspectives. For example, according to a report, 70% of Finnish teachers view the digitalisation of education in a positive light, and 75% would like to use more digital applications (</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r>
                      <w:t>Tanhua-Piiroinen</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r>
                      <w:t xml:space="preserve"> et al., 2016). Although the use of educational technology is often regarded positively, the focus of prior studies has often been on teachers’ negative experiences related to the use of educational technology, such as technostress experiences (e.g. Al-</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r>
                      <w:t>Fudail</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r>
                      <w:t xml:space="preserve"> &amp; </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r>
                      <w:t>Mellar</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r>
                      <w:t xml:space="preserve">, 2008; </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r>
                      <w:t>Joo</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r>
                      <w:t xml:space="preserve">, Lim, &amp; Kim, 2016; </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r>
                      <w:t>Syvänen</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r>
                      <w:t xml:space="preserve"> et al., 2016). Therefore, in the current study, we focus on teachers’ well-being experiences, particularly on their techno-work engagement, which can be defined as a positive state of well-being in which one feels fulfilled regarding the use of technology at work. Techno-work engagement is a novel concept based on the notion of work engagement, which is a widely used construct for describing and measuring employees’ positive affective–motivational well-being work (</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r>
                      <w:t>Mäkiniemi</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r>
                      <w:t xml:space="preserve">, </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r>
                      <w:t>Ahola</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r>
                      <w:t xml:space="preserve">, &amp; Joensuu, 2019; </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r>
                      <w:t>Mäkiniemi</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r>
                      <w:t xml:space="preserve">, </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r>
                      <w:t>Ahola</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r>
                      <w:t xml:space="preserve">, </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r>
                      <w:t>Syvänen</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r>
                      <w:t xml:space="preserve">, </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r>
                      <w:t>Heikkilä</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r>
                      <w:t xml:space="preserve">-Tammi, &amp; </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r>
                      <w:t>Viteli</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r>
                      <w:t>, 2017). Work engagement is commonly divided to three main dimensions: vigour (e.g. high levels of energy at work), dedication (e.g. high inspiration to work) and absorption (e.g. full concentration on work), and it has been shown to be associated with positive outcomes, such as commitment to work and good work performance (Albrecht, 2013; Bakker, Albrecht, &amp; Leiter, 2011). The main difference between the two above-mentioned two concerns the fact that although techno-work engagement and work engagement both capture the positive state of well-being at work, the former focuses on (digital) technology-intensive or (digital) technology-assisted work or work processes, whereas the latter focuses on work in general. Since the focus of the current study is on teachers’ well-being experiences related to their use of educational technology at work – not their work in general – we suggest that the concept of techno-work engagement is well suited to our framework.</w:t>
                   </w:r>
@@ -611,11 +571,9 @@
                   <w:r>
                      <w:t xml:space="preserve">Moreover, since some teachers perceive the digitalisation of schools as stressful and demanding, it is important to identify so-called protective factors that can serve as a buffer to stress as well as divergent factors that can enhance well-being (e.g. work autonomy, social support). An understanding of those factors or resources will make it possible to influence teachers’ well-being by supporting and developing them. This is an important strategy that </w:t>
                   </w:r>
-                  <w:proofErr w:type="gramStart"/>
                   <w:r>
                      <w:t>takes into account</w:t>
                   </w:r>
-                  <w:proofErr w:type="gramEnd"/>
                   <w:r>
                      <w:t xml:space="preserve"> the fact that it is generally not possible to eliminate demanding factors (e.g. time pressures). In the current study, we aim to identify which </w:t>
                   </w:r>
@@ -653,51 +611,39 @@
                   <w:r>
                      <w:t>Recently, a new concept and scale of techno-work engagement was developed to identify the positive well-being aspects of technology use at work (</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r>
                      <w:t>Mäkiniemi</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r>
                      <w:t xml:space="preserve"> et al., 2019). This was considered necessary since prior research has mostly focused on the negative or demanding aspects of technology use (e.g. Ragu-Nathan, </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r>
                      <w:t>Tarafdar</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r>
                      <w:t xml:space="preserve">, Ragu-Nathan, &amp; Tu, 2008). Further, the fact that an employee reports no or few negative well-being experiences, such as technostress, related to technology use does not necessarily indicate that he or she is having positive experiences. Consequently, it is not possible to measure positive experiences with scales that focus on negative experiences. Relatedly, </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r>
                      <w:t>Tarafdar</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r>
                      <w:t>, Cooper and Stich (2017) recently suggested that there is a need to consider the positive aspect of technostress, which they refer to as techno-eustress (i.e. the perception of technology use as challenging, thrilling and motivating). They argued that mastering such challenges could lead to positive outcomes, such as greater work engagement. Techno-work engagement refers to employees’ technology-related experiences of well-being, and it is defined as a fulfilling state of mind associated with the use of technology (</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r>
                      <w:t>Mäkiniemi</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r>
                      <w:t xml:space="preserve"> et at., 2017; </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r>
                      <w:t>Mäkiniemi</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r>
                      <w:t xml:space="preserve"> et al., 2019). </w:t>
                   </w:r>
-                  <w:proofErr w:type="gramStart"/>
                   <w:r>
                      <w:t>Similar to</w:t>
                   </w:r>
-                  <w:proofErr w:type="gramEnd"/>
                   <w:r>
                      <w:t xml:space="preserve"> work engagement, it is a positive motivational state characterised by vigour, dedication and absorption.</w:t>
                   </w:r>
@@ -713,11 +659,9 @@
                   <w:r>
                      <w:t xml:space="preserve">Technology-related group- and </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r>
                      <w:t>organisational</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r>
                      <w:t xml:space="preserve">-level workplace resources </w:t>
                   </w:r>
@@ -734,43 +678,33 @@
                      <w:lastRenderedPageBreak/>
                      <w:t xml:space="preserve">factors ‘technology-related workplace </w:t>
                   </w:r>
-                  <w:proofErr w:type="gramStart"/>
                   <w:r>
                      <w:t>resources’</w:t>
                   </w:r>
-                  <w:proofErr w:type="gramEnd"/>
                   <w:r>
                      <w:t xml:space="preserve">. In line with the definition presented above, we suggest that workplace resources are factors that help teachers to integrate and use educational technology at work and complete related work tasks. Prior studies on work engagement suggest that individual-, group- and organisation-level workplace resources, such as social support, autonomy and self-efficacy (Schaufeli &amp; Bakker, 2004; Ventura, </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r>
                      <w:t>Salanova</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r>
                      <w:t xml:space="preserve">, &amp; </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r>
                      <w:t>Llorens</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r>
                      <w:t xml:space="preserve">, 2015; </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r>
                      <w:t>Xanthopoulou</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r>
                      <w:t xml:space="preserve">, Bakker, </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r>
                      <w:t>Demerouti</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r>
                      <w:t xml:space="preserve">, &amp; Schaufeli, 2007), are associated with higher work engagement. In line with these findings, we assume that high technology-related autonomy (i.e. teachers can freely make decisions regarding the use of educational technology), technology-related social support (i.e. colleagues give advice concerning educational technology) and technology-related competence support (i.e. individuals have enough time to use educational technology) are all associated with higher techno-work engagement. </w:t>
                   </w:r>
@@ -795,75 +729,57 @@
                   <w:r>
                      <w:t>Self-efficacy is an important individual resource that is associated with employee well-being, such as higher work engagement (</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r>
                      <w:t>Xanthopoulou</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r>
                      <w:t xml:space="preserve"> et al., 2007; Nielsen et al., 2017; </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r>
                      <w:t>Skaalvik</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r>
                      <w:t xml:space="preserve"> &amp; </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r>
                      <w:t>Skaalvik</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r>
                      <w:t>, 2014) and lower burnout in various occupations, including educational occupations (</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r>
                      <w:t>Skaalvik</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r>
                      <w:t xml:space="preserve"> &amp; </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r>
                      <w:t>Skaalvik</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r>
                      <w:t xml:space="preserve">, 2007; Shoji et al., 2016). According to social cognitive theory, self-efficacy is defined as an individual’s beliefs regarding his or her capability to control situations and challenging demands. People with high levels of self-efficacy tend to set challenging goals, persist in achieving their goals, even under difficult and stressful circumstances, and recover quickly from failure, even in conditions that would appear to be overwhelming to the average person (Bandura, 1997). Self-efficacy can be measured at either a general or situation- or domain-specific level. One domain-specific concept, teaching or teacher efficacy, is defined as a teacher’s future-oriented competency-based expectation, which is related to his or her ability to plan, organise and carry out the activities required to attain given educational goals. This expectation is a balanced judgement influenced by the teacher’s perceived capacity to carry out the acts as well as the perceived demands of the working situation (Reeve &amp; </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r>
                      <w:t>Su</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r>
                      <w:t xml:space="preserve">, 2014). In the current paper, we focus on teachers’ (educational) technology-related self-efficacy as a personal workplace resource. We assume that a teacher has high technology-related self-efficacy, for example, when he or she understands the possibilities of educational technology well enough to maximise them in teaching and when he or she feels confident that he or she can help students when they have difficulties (c.f. Wang, </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r>
                      <w:t>Ertmer</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r>
                      <w:t xml:space="preserve">, &amp; Newby, 2004). In line with previous findings assuming the link between self-efficacy and work engagement among teachers (e.g. </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r>
                      <w:t>Skaalvik</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r>
                      <w:t xml:space="preserve"> &amp; </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r>
                      <w:t>Skaalvik</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r>
                      <w:t xml:space="preserve">, 2014), we suggest that technology-related self-efficacy is associated with higher techno-work engagement. </w:t>
                   </w:r>
@@ -1024,11 +940,9 @@
                      <w:lastRenderedPageBreak/>
                      <w:t>(</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r>
                      <w:t>TechnoWES</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r>
                      <w:t xml:space="preserve">) and were therefore excluded from the analyses. Of the remaining 180 respondents, 137 (76%) were females, and their mean age was 45 years. The respondents were class teachers (52.2%), subject teachers (43.3%) and principals (4.4%). </w:t>
                   </w:r>
@@ -1053,83 +967,63 @@
                   <w:r>
                      <w:t xml:space="preserve">Techno-work engagement was measured with the </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r>
                      <w:t>TechnoWES</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r>
                      <w:t xml:space="preserve"> (</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r>
                      <w:t>Mäkiniemi</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r>
                      <w:t xml:space="preserve"> et al., 2019), which captures positive well-being aspects of technology use at work. The </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r>
                      <w:t>TechnoWES</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r>
                      <w:t xml:space="preserve"> consists of nine items that represent the three aspects of techno-work engagement (i.e. </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r>
                      <w:t>techno_vigor</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r>
                      <w:t xml:space="preserve">, </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r>
                      <w:t>techno_dedication</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r>
                      <w:t xml:space="preserve">, and </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r>
                      <w:t>techno_absorption</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r>
                      <w:t xml:space="preserve">; measured with three items each). The respondents were asked to evaluate how often they have certain kinds of feelings and thoughts using a 7-point scale (1 = never; 7 = daily). An example of an item describing </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r>
                      <w:t>techno_vigor</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r>
                      <w:t xml:space="preserve"> is ‘When I utilise technology in my work, I feel that I am bursting with energy.’ An exemplary item measuring </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r>
                      <w:t>techno_dedication</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r>
                      <w:t xml:space="preserve"> is ‘I am enthusiastic about utilising technology in my job.” Finally, an example </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r>
                      <w:t>techno_absorption</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r>
                      <w:t xml:space="preserve"> item is ‘I feel happy when I am immersed in using technology in my work.’ The respondents were asked to think about educational technology </w:t>
                   </w:r>
-                  <w:proofErr w:type="gramStart"/>
                   <w:r>
                      <w:t>in particular when</w:t>
                   </w:r>
-                  <w:proofErr w:type="gramEnd"/>
                   <w:r>
                      <w:t xml:space="preserve"> answering.</w:t>
                   </w:r>
@@ -1151,11 +1045,9 @@
                   <w:r>
                      <w:t xml:space="preserve">Technology-related job resources were assessed with three subscales (adapted from Lam, Cheng, &amp; Choy, 2010). Technology-related collegial support (e.g. ‘My colleagues support me if I encounter difficulties in using educational technology’), technology-related competence support (e.g. ‘Our school provides sufficient training in using educational technology’) and technology-related autonomy (e.g. ‘I use educational technology voluntarily in my teaching’) were each measured with three items on a 5-point scale (1 = strongly disagree; 5 = strongly agree; for the Finnish versions of the items, see </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r>
                      <w:t>Mäkiniemi</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r>
                      <w:t xml:space="preserve"> et al., 2017). </w:t>
                   </w:r>
@@ -1180,11 +1072,9 @@
                   <w:r>
                      <w:t xml:space="preserve">First, the mean scores were calculated for each main variable, and differences between gender (calculated by an independent sample t-test) and teacher type (calculated by a one-way analysis of variance, ANOVA) were analysed with IBM SPSS 22. Subsequently, structural equation modelling (SEM) was used to identify the antecedents of techno-work engagement. The hypotheses were tested with </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r>
                      <w:t>SmartPLS</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r>
                      <w:t xml:space="preserve"> 3, which is based on the partial least squares (PLS) SEM theory. A PLS-SEM modelling approach was developed to </w:t>
                   </w:r>
@@ -1192,75 +1082,57 @@
                      <w:lastRenderedPageBreak/>
                      <w:t xml:space="preserve">maximise the explained variance of the dependent variable (Hair, </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r>
                      <w:t>Ringle</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r>
                      <w:t xml:space="preserve">, &amp; </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r>
                      <w:t>Sarstedt</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r>
                      <w:t xml:space="preserve">, 2011; Hair, </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r>
                      <w:t>Hult</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r>
                      <w:t xml:space="preserve">, &amp; </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r>
                      <w:t>Ringle</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r>
                      <w:t xml:space="preserve">, 2017). This approach was appropriate in this study due to the non-normality of the data and the small sample size (n = 180). Additionally, PLS-SEM is considered appropriate for exploratory research and the early stages of theory development (Hair, </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r>
                      <w:t>Sarstedt</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r>
                      <w:t xml:space="preserve">, </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r>
                      <w:t>Ringle</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r>
                      <w:t>, &amp; Mena, 2012). As we were interested in testing and comparing the antecedents of techno-work engagement, which is a recently developed concept, the explorative nature of PLS modelling was advantageous for our study (</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r>
                      <w:t>Henseler</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r>
                      <w:t xml:space="preserve">, </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r>
                      <w:t>Ringle</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r>
                      <w:t xml:space="preserve">, </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r>
                      <w:t>Sinkovics</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r>
                      <w:t>, 2009).</w:t>
                   </w:r>
@@ -1290,27 +1162,21 @@
                   <w:r w:rsidRPr="00233EA0">
                      <w:t xml:space="preserve">The level of techno-work engagement was quite high (M = 3.93, SD = 1.49). There was no statistically significant difference between females (M = 3.86, SD = 1.46) and males (M = 4.17, SD = 1.57; </w:t>
                   </w:r>
-                  <w:proofErr w:type="gramStart"/>
                   <w:r w:rsidRPr="00233EA0">
                      <w:t>t(</w:t>
                   </w:r>
-                  <w:proofErr w:type="gramEnd"/>
                   <w:r w:rsidRPr="00233EA0">
                      <w:t>178) = 1.21, p = .229). However, there were differences between different types of teachers (</w:t>
                   </w:r>
-                  <w:proofErr w:type="gramStart"/>
                   <w:r w:rsidRPr="00233EA0">
                      <w:t>F(</w:t>
                   </w:r>
-                  <w:proofErr w:type="gramEnd"/>
                   <w:r w:rsidRPr="00233EA0">
                      <w:t xml:space="preserve">2, 177) = 6.78, p = .001). Post-hoc comparisons conducted with the </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r w:rsidRPr="00233EA0">
                      <w:t>Scheffe</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r w:rsidRPr="00233EA0">
                      <w:t xml:space="preserve"> test indicated that the mean score for principals (M = 5.71, SD = 1.26) was significantly higher than those for class teachers (M = 3.75, SD = 1.37) and subject teachers (M = 3.97, SD = 1.54) at p &lt;. 01 (Table 1). </w:t>
                   </w:r>
@@ -4271,11 +4137,9 @@
                   <w:r>
                      <w:t>The assessment of PLS models is twofold; an acceptable judgement of the outer model allows one to proceed with the inner model evaluation. The outer model is assessed by analysing the reliability and validity of the constructs. Reliability and validity are determined for reflective indicators based on factor loadings, composition reliability (CR), average of variance extracted (AVE) and discriminant validity (</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r>
                      <w:t>Henseler</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r>
                      <w:t xml:space="preserve"> et al., 2009). The estimated loadings of the reflective indicators were all high (0.58–0.92) and statistically significant </w:t>
                   </w:r>
@@ -4283,35 +4147,27 @@
                      <w:lastRenderedPageBreak/>
                      <w:t xml:space="preserve">(see Appendix 1). Statistical significance was achieved by the bootstrap procedure using 5,000 samples. The composite reliability (CR) of constructs can be regarded as more suitable than Cronbach’s alpha when using the PLS method (Hair et al., 2012). CR values indicate the reliability and consistency of constructs (Table 2) (Hair et al., 2011). Convergent validity of constructs is achieved when AVE values are greater than 0.51. Using the </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r>
                      <w:t>Fornell</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r>
                      <w:t>–</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r>
                      <w:t>Larcker</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r>
                      <w:t xml:space="preserve"> criterion to assess the discriminant validity between the constructs, it was determined that the square roots of the AVEs of each construct were larger than the constructs’ correlations with each other (Table 2) (</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r>
                      <w:t>Fornell</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r>
                      <w:t xml:space="preserve"> &amp; </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r>
                      <w:t>Larcker</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r>
                      <w:t xml:space="preserve">, 1981). </w:t>
                   </w:r>
@@ -6368,11 +6224,9 @@
                   <w:r w:rsidRPr="00CD2A73">
                      <w:t xml:space="preserve"> Average </w:t>
                   </w:r>
-                  <w:proofErr w:type="gramStart"/>
                   <w:r w:rsidRPr="00CD2A73">
                      <w:t>variance</w:t>
                   </w:r>
-                  <w:proofErr w:type="gramEnd"/>
                   <w:r w:rsidRPr="00CD2A73">
                      <w:t xml:space="preserve"> extracted</w:t>
                   </w:r>
@@ -6404,11 +6258,9 @@
                      <w:lastRenderedPageBreak/>
                      <w:t>an endogenous variable (H1</w:t>
                   </w:r>
-                  <w:proofErr w:type="gramStart"/>
                   <w:r>
                      <w:t>a,b</w:t>
                   </w:r>
-                  <w:proofErr w:type="gramEnd"/>
                   <w:r>
                      <w:t>,c). Model 2 includes an additional exogenous variable, technology-related self-efficacy (H2). To establish the additional explained variance of techno-work engagement, we compared the predictive relevance of the models using the squared coefficient of determination (R</w:t>
                   </w:r>
@@ -6423,11 +6275,9 @@
                   <w:r>
                      <w:t>) and blindfolding procedure (Stone-</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r>
                      <w:t>Geisser’s</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r>
                      <w:t xml:space="preserve"> Q</w:t>
                   </w:r>
@@ -6517,11 +6367,9 @@
                   <w:r>
                      <w:t xml:space="preserve"> values and the magnitude and direction of the path coefficients (</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r>
                      <w:t>Henseler</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r>
                      <w:t xml:space="preserve"> et al., 2009). Considering the magnitude of the estimated path coefficients and effect sizes, we found that technology-related self-efficacy had the strongest impact on techno-work engagement (β= 0.311, f</w:t>
                   </w:r>
@@ -6852,14 +6700,12 @@
                               </w:rPr>
                               <w:t xml:space="preserve">Path </w:t>
                            </w:r>
-                           <w:proofErr w:type="spellStart"/>
                            <w:r w:rsidRPr="00CD2A73">
                               <w:rPr>
                                  <w:rFonts w:cs="TimesNewRomanPSMT"/>
                               </w:rPr>
                               <w:t>coeff</w:t>
                            </w:r>
-                           <w:proofErr w:type="spellEnd"/>
                            <w:r w:rsidRPr="00CD2A73">
                               <w:rPr>
                                  <w:rFonts w:cs="TimesNewRomanPSMT"/>
@@ -6932,14 +6778,12 @@
                               </w:rPr>
                               <w:t xml:space="preserve">Path </w:t>
                            </w:r>
-                           <w:proofErr w:type="spellStart"/>
                            <w:r w:rsidRPr="00CD2A73">
                               <w:rPr>
                                  <w:rFonts w:cs="TimesNewRomanPSMT"/>
                               </w:rPr>
                               <w:t>coeff</w:t>
                            </w:r>
-                           <w:proofErr w:type="spellEnd"/>
                            <w:r w:rsidRPr="00CD2A73">
                               <w:rPr>
                                  <w:rFonts w:cs="TimesNewRomanPSMT"/>
@@ -8561,19 +8405,15 @@
                   <w:r>
                      <w:t>The aims of the study were to explore how technology-related workplace resources are related to techno-work engagement among a group of Finnish teachers and determine which predictors of techno-work engagement are the most influential. We hypothesised that technology-related job resources are associated with higher techno-work engagement (H1</w:t>
                   </w:r>
-                  <w:proofErr w:type="gramStart"/>
                   <w:r>
                      <w:t>a,b</w:t>
                   </w:r>
-                  <w:proofErr w:type="gramEnd"/>
                   <w:r>
                      <w:t>,c) and that technology-related self-efficacy is associated with higher techno-work engagement (H2). The current study is novel in its positive focus; prior studies have focused on negative experiences and a lack of well-being related to the use of educational technology in teaching (e.g. Al-</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r>
                      <w:t>Fudail</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r>
                      <w:t xml:space="preserve"> et al., 2008). </w:t>
                   </w:r>
@@ -8603,14 +8443,12 @@
                      </w:rPr>
                      <w:t xml:space="preserve"> </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r w:rsidRPr="00E36CDF">
                      <w:rPr>
                         <w:lang w:val="en-GB" w:bidi="ar-YE"/>
                      </w:rPr>
                      <w:t>Mäkiniemi</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r w:rsidRPr="00E36CDF">
                      <w:rPr>
                         <w:lang w:val="en-GB" w:bidi="ar-YE"/>
@@ -8631,14 +8469,12 @@
                      </w:rPr>
                      <w:t xml:space="preserve">2017; </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r w:rsidRPr="00E36CDF">
                      <w:rPr>
                         <w:lang w:val="en-GB"/>
                      </w:rPr>
                      <w:t>Mäkiniemi</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r w:rsidRPr="00E36CDF">
                      <w:rPr>
                         <w:lang w:val="en-GB"/>
@@ -8658,27 +8494,21 @@
                      <w:lastRenderedPageBreak/>
                      <w:t xml:space="preserve">support were relevant to the promotion of teachers’ technology-related well-being (based on Models 1 and 2). Hence, H1 b and c were also supported. The findings support the basic assumption of the job demands-resources theory: a combination of job resources (e.g. autonomy) and personal resources (e.g. self-efficacy) predict work engagement (e.g. Nielsen et al., 2017; Schaufeli &amp; Bakker, 2004; Ventura et al., 2015). Further, our findings are in line with prior studies indicating that self-efficacy is an important personal resource and is associated with higher work engagement (Nielsen et al., 2017; </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r>
                      <w:t>Skaalvik</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r>
                      <w:t xml:space="preserve"> &amp; </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r>
                      <w:t>Skaalvik</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r>
                      <w:t xml:space="preserve">, 2014; </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r>
                      <w:t>Xanthopoulou</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r>
                      <w:t xml:space="preserve"> et al., 2007). Unexpectedly, technology-related collegial (i.e. social) support was not associated with techno-work engagement. Therefore, H1a was not supported. This may be due to the high correlation between technology-related autonomy, competency support and collegial support. This finding could also be explained by the fact that teachers still work very independently and autonomously or that those who are highly engaged in technology-related work do not feel the need for support. The role of technology-related collegial support in teacher well-being needs more attention in future studies, as the development of technology-related self-efficacy and technology-related competence support requires shared collaboration (i.e. collegial activities), as explained in more detail below. </w:t>
                   </w:r>
@@ -8691,43 +8521,33 @@
                   <w:r>
                      <w:t>A key limitation of the study is that the sample was quite small and not nationally representative. Further, in the current study, we focused on the main effects between workplace resources and techno-work engagement. Since the study of techno-work engagement is in its early stages, we considered this to be a suitable approach. However, there seem to be complex relationships between work engagement, personal resources and job resources. For example, personal resources have been shown to mediate the relationship between job resources and engagement and influence the perception of job resources (</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r>
                      <w:t>Xanthopoulou</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r>
                      <w:t xml:space="preserve"> et al., 2007, </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r>
                      <w:t>Xanthopoulou</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r>
                      <w:t xml:space="preserve">, Bakker, </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r>
                      <w:t>Demerouti</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r>
                      <w:t xml:space="preserve">, &amp; Schaufeli, 2009). Therefore, as an additional analysis, we tested the mediating model that included paths from technology-related work resources to self-efficacy. Although the paths from collegial support and autonomy to self-efficacy were positive and significant, the predictive relevance of the model did not improve. Since the PLS method emphasises prediction, the redundant paths were omitted. Finally, we believe future studies should consider the broader context of the schools, as a community-oriented approach has been found to enhance the integration of educational technology (Niemi, </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r>
                      <w:t>Kynäslahti</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r>
                      <w:t xml:space="preserve">, &amp; </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r>
                      <w:t>Vahtivuori-Hänninen</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r>
                      <w:t xml:space="preserve">, 2013), and in the current study we did not focus on all the workplace resources presented by Nielsen et al. (2017). Therefore, in the future, the effect of leader-level workplace resources on techno-work engagement should be analysed. In addition, the current study was quantitative by nature, which means that it could only answer certain types of research questions, such as how workplace resources are associated with techno-work engagement, how often teachers experience techno-work engagement and whether there are differences between respondent groups. Evidently, there is also a need </w:t>
                   </w:r>
@@ -8744,35 +8564,27 @@
                   <w:r>
                      <w:t xml:space="preserve">Our main findings indicate the importance of three workplace resources – technology-related self-efficacy, technology-related autonomy and technology-related competence support – in the context of techno-work engagement. Therefore, we propose some key practical recommendations for schools. First, in terms of technology-related autonomy, teachers should have considerable freedom regarding the selection and use of educational technology. Their opinions and views should be heard, and they should be taking part in decision-making. This is also important because teachers usually have pedagogical expertise and knowledge about the motivation, learning preferences and abilities of their students and can thus evaluate the pedagogical value of the novel technological devices more critically than administrative personnel can. However, this kind of participatory approach requires high trust in teachers’ know-how on the part of school leaders and other managers. Second, prior studies indicate that concrete ways to enhance teachers’ technology-related self-efficacy include successful (and vicarious) teaching experiences, concrete instruction in how to utilise educational technology in practice, intentional goal-setting and encouraging feedback on teachers’ performance (e.g. Bandura, 1997; Wang et al., 2004). It is worth noting that enhancing teachers’ technology-related self-efficacy cannot be done in isolation or alone. For example, vicarious teaching experiences and receiving constructive feedback require the potential to follow others work, shared discussions and collaboration. Consequently, the development of technology-related self-efficacy is likely challenging in schools in which the individualistic school culture is strong and teacher collaboration is not supported (for a review of the benefits of teacher collaboration, see </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r>
                      <w:t>Vangrieken</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r>
                      <w:t xml:space="preserve">, </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r>
                      <w:t>Dochy</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r>
                      <w:t xml:space="preserve">, </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r>
                      <w:t>Raes</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r>
                      <w:t xml:space="preserve">, &amp; </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r>
                      <w:t>Kyndt</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r>
                      <w:t xml:space="preserve">, 2015). Third, technology-related competence development could be supported in practise by discussing and clarifying expectations regarding the use of educational technology in teaching (e.g. how and how often teachers should use educational technology at school and what is perceived as valuable and important when considering the use of educational technology). In addition, teachers must have continuing opportunities to develop their expertise (e.g. through relevant and suitable courses). Finally, a lack of time should not limit the possibilities of teachers to learn and integrate novel educational solutions into their teaching practises. </w:t>
                   </w:r>
@@ -8802,59 +8614,45 @@
                      <w:tab/>
                      <w:t xml:space="preserve">This research project was supported by Finnish Work Environment Fund (Project number: 115412). The authors would like to thank Antti </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r>
                      <w:t>Syvänen</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r>
                      <w:t xml:space="preserve">, </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r>
                      <w:t>Sannu</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r>
                      <w:t xml:space="preserve"> </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r>
                      <w:t>Syrjä</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r>
                      <w:t xml:space="preserve">, </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r>
                      <w:t>Jarmo</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r>
                      <w:t xml:space="preserve"> </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r>
                      <w:t>Viteli</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r>
                      <w:t xml:space="preserve">, and </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r>
                      <w:t>Kirsi</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r>
                      <w:t xml:space="preserve"> </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r>
                      <w:t>Heikkilä</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r>
                      <w:t xml:space="preserve">-Tammi for collaboration in the project. </w:t>
                   </w:r>
@@ -8919,19 +8717,15 @@
                   <w:r>
                      <w:t>Al-</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r>
                      <w:t>Fudail</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r>
                      <w:t xml:space="preserve">, M., &amp; </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r>
                      <w:t>Mellar</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r>
                      <w:t xml:space="preserve">, H. (2008). Investigating teacher stress when using technology. </w:t>
                   </w:r>
@@ -9083,7 +8877,6 @@
                      </w:rPr>
                      <w:t xml:space="preserve"><em>Statistical power analysis for the </em></w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r w:rsidRPr="00D91629">
                      <w:rPr>
                         <w:rStyle w:val="ReferenceSource0"/>
@@ -9092,7 +8885,6 @@
                         <em>behavioural</em>
                      </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r w:rsidRPr="00D91629">
                      <w:rPr>
                         <w:rStyle w:val="ReferenceSource0"/>
@@ -9111,19 +8903,15 @@
                   <w:pPr>
                      <w:pStyle w:val="Reference0"/>
                   </w:pPr>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r>
                      <w:t>Fornell</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r>
                      <w:t xml:space="preserve">, C., &amp; </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r>
                      <w:t>Larcker</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r>
                      <w:t xml:space="preserve">, D. (1981). Evaluating structural equation models with unobservable variables and measurement error. </w:t>
                   </w:r>
@@ -9164,27 +8952,21 @@
                   <w:r>
                      <w:t xml:space="preserve">Hair, J. F., </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r>
                      <w:t>Ringle</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r>
                      <w:t xml:space="preserve">, C. M., &amp; </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r>
                      <w:t>Sarstedt</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r>
                      <w:t xml:space="preserve">, M. (2011). PLS-SEM: </w:t>
                   </w:r>
-                  <w:proofErr w:type="gramStart"/>
                   <w:r>
                      <w:t>Indeed</w:t>
                   </w:r>
-                  <w:proofErr w:type="gramEnd"/>
                   <w:r>
                      <w:t xml:space="preserve"> a silver bullet.</w:t>
                   </w:r>
@@ -9232,19 +9014,15 @@
                   <w:r>
                      <w:t xml:space="preserve">Hair, J. F., </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r>
                      <w:t>Sarstedt</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r>
                      <w:t xml:space="preserve">, M., </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r>
                      <w:t>Ringle</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r>
                      <w:t>, C. M., &amp; Mena, J. A. (2012). An assessment of the use of partial least squares structural equation modeling in marketing research</w:t>
                   </w:r>
@@ -9311,19 +9089,15 @@
                   <w:r>
                      <w:t xml:space="preserve">Hair, J. F., </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r>
                      <w:t>Hult</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r>
                      <w:t xml:space="preserve">, G. T. M., &amp; </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r>
                      <w:t>Ringle</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r>
                      <w:t xml:space="preserve">, C. M. (2017). Mirror, mirror on the wall: A comparative evaluation of composite-based structural equation modeling methods. </w:t>
                   </w:r>
@@ -9361,43 +9135,33 @@
                   <w:pPr>
                      <w:pStyle w:val="Reference0"/>
                   </w:pPr>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r>
                      <w:t>Henseler</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r>
                      <w:t xml:space="preserve">, J., </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r>
                      <w:t>Ringle</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r>
                      <w:t xml:space="preserve">, C.M., </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r>
                      <w:t>Sinkovics</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r>
                      <w:t xml:space="preserve">, R. R. (2009). The use of partial least squares path modeling in international marketing. In R. R. </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r>
                      <w:t>Sinkovics</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r>
                      <w:t xml:space="preserve">, P. N. </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r>
                      <w:t>Ghauri</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r>
                      <w:t xml:space="preserve"> (Eds.), </w:t>
                   </w:r>
@@ -9434,11 +9198,9 @@
                   <w:pPr>
                      <w:pStyle w:val="Reference0"/>
                   </w:pPr>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r>
                      <w:t>Joo</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r>
                      <w:t xml:space="preserve">, Y. J., Lim, K. Y., &amp; Kim, N. H. (2016). The effects of secondary teachers’ technostress on the intention to use technology in South Korea. </w:t>
                   </w:r>
@@ -9516,19 +9278,15 @@
                   <w:pPr>
                      <w:pStyle w:val="Reference0"/>
                   </w:pPr>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r>
                      <w:t>Mäkiniemi</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r>
                      <w:t xml:space="preserve">, J.-P., </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r>
                      <w:t>Ahola</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r>
                      <w:t xml:space="preserve">, S., &amp; Joensuu, J. (2019). </w:t>
                   </w:r>
@@ -9540,7 +9298,6 @@
                         <em>A novel construct to measure employees’ technology-related experiences of well-being: Empirical validation of the Techno-Work Engagement Scale (</em>
                      </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r w:rsidRPr="00D91629">
                      <w:rPr>
                         <w:rStyle w:val="ReferenceSource0"/>
@@ -9549,7 +9306,6 @@
                         <em>TechnoWES</em>
                      </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r w:rsidRPr="00D91629">
                      <w:rPr>
                         <w:rStyle w:val="ReferenceSource0"/>
@@ -9573,47 +9329,36 @@
                         <w:lang w:val="fi-FI"/>
                      </w:rPr>
                   </w:pPr>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r>
                      <w:t>Mäkiniemi</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r>
                      <w:t xml:space="preserve">, J.-P., </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r>
                      <w:t>Ahola</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r>
                      <w:t xml:space="preserve">, S., </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r>
                      <w:t>Syvänen</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r>
                      <w:t xml:space="preserve">, A., </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r>
                      <w:t>Heikkilä</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r>
                      <w:t xml:space="preserve">-Tammi, K., &amp; </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r>
                      <w:t>Viteli</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r>
                      <w:t xml:space="preserve">, J. (2017). </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r w:rsidRPr="00D91629">
                      <w:rPr>
                         <w:rStyle w:val="ReferenceSource0"/>
@@ -9622,14 +9367,12 @@
                         <em>Digitalisoituva</em>
                      </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r w:rsidRPr="00D91629">
                      <w:rPr>
                         <w:rStyle w:val="ReferenceSource0"/>
                      </w:rPr>
                      <w:t xml:space="preserve"><em> </em></w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r w:rsidRPr="00D91629">
                      <w:rPr>
                         <w:rStyle w:val="ReferenceSource0"/>
@@ -9638,14 +9381,12 @@
                         <em>koulu</em>
                      </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r w:rsidRPr="00D91629">
                      <w:rPr>
                         <w:rStyle w:val="ReferenceSource0"/>
                      </w:rPr>
                      <w:t xml:space="preserve"><em> - </em></w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r w:rsidRPr="00D91629">
                      <w:rPr>
                         <w:rStyle w:val="ReferenceSource0"/>
@@ -9654,14 +9395,12 @@
                         <em>hyvinvoivat</em>
                      </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r w:rsidRPr="00D91629">
                      <w:rPr>
                         <w:rStyle w:val="ReferenceSource0"/>
                      </w:rPr>
                      <w:t xml:space="preserve"><em> </em></w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r w:rsidRPr="00D91629">
                      <w:rPr>
                         <w:rStyle w:val="ReferenceSource0"/>
@@ -9670,14 +9409,12 @@
                         <em>opettajat</em>
                      </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r w:rsidRPr="00D91629">
                      <w:rPr>
                         <w:rStyle w:val="ReferenceSource0"/>
                      </w:rPr>
                      <w:t xml:space="preserve"><em>? </em></w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r w:rsidRPr="00D91629">
                      <w:rPr>
                         <w:rStyle w:val="ReferenceSource0"/>
@@ -9686,14 +9423,12 @@
                         <em>Miten</em>
                      </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r w:rsidRPr="00D91629">
                      <w:rPr>
                         <w:rStyle w:val="ReferenceSource0"/>
                      </w:rPr>
                      <w:t xml:space="preserve"><em> </em></w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r w:rsidRPr="00D91629">
                      <w:rPr>
                         <w:rStyle w:val="ReferenceSource0"/>
@@ -9702,14 +9437,12 @@
                         <em>edistää</em>
                      </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r w:rsidRPr="00D91629">
                      <w:rPr>
                         <w:rStyle w:val="ReferenceSource0"/>
                      </w:rPr>
                      <w:t xml:space="preserve"><em> </em></w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r w:rsidRPr="00D91629">
                      <w:rPr>
                         <w:rStyle w:val="ReferenceSource0"/>
@@ -9718,14 +9451,12 @@
                         <em>digitalisoitumista</em>
                      </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r w:rsidRPr="00D91629">
                      <w:rPr>
                         <w:rStyle w:val="ReferenceSource0"/>
                      </w:rPr>
                      <w:t xml:space="preserve"><em> ja </em></w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r w:rsidRPr="00D91629">
                      <w:rPr>
                         <w:rStyle w:val="ReferenceSource0"/>
@@ -9734,7 +9465,6 @@
                         <em>työhyvinvointia</em>
                      </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r w:rsidRPr="00D91629">
                      <w:rPr>
                         <w:rStyle w:val="ReferenceSource0"/>
@@ -9807,19 +9537,15 @@
                   <w:r>
                      <w:t xml:space="preserve">Niemi, H., </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r>
                      <w:t>Kynäslahti</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r>
                      <w:t xml:space="preserve">, H., &amp; </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r>
                      <w:t>Vahtivuori-Hänninen</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r>
                      <w:t xml:space="preserve">, S. (2013). Towards ICT in everyday life in Finnish schools: Seeking conditions for good practices. </w:t>
                   </w:r>
@@ -9860,11 +9586,9 @@
                   <w:r>
                      <w:t xml:space="preserve">Ragu-Nathan, T. S., </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r>
                      <w:t>Tarafdar</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r>
                      <w:t xml:space="preserve">, M., Ragu-Nathan, B. S., &amp; Tu, Q. (2008). The consequences of technostress for end users in organizations: Conceptual development and empirical validation. </w:t>
                   </w:r>
@@ -9902,11 +9626,9 @@
                   <w:r>
                      <w:t xml:space="preserve">Reeve, J., &amp; </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r>
                      <w:t>Su</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r>
                      <w:t xml:space="preserve">, Y. L. (2014). Teacher motivation. In M. Gagne (Ed.), </w:t>
                   </w:r>
@@ -9971,43 +9693,33 @@
                   <w:r>
                      <w:t xml:space="preserve">Shoji, K., </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r>
                      <w:t>Cieslak</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r>
                      <w:t xml:space="preserve">, R., </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r>
                      <w:t>Smoktunowicz</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r>
                      <w:t xml:space="preserve">, E., </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r>
                      <w:t>Rogala</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r>
                      <w:t xml:space="preserve">, A., </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r>
                      <w:t>Benight</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r>
                      <w:t xml:space="preserve">, C. C., &amp; </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r>
                      <w:t>Luszczynska</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r>
                      <w:t xml:space="preserve">, A. (2016). Associations between job burnout and self-efficacy: A meta-analysis. </w:t>
                   </w:r>
@@ -10047,19 +9759,15 @@
                   <w:pPr>
                      <w:pStyle w:val="Reference0"/>
                   </w:pPr>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r w:rsidRPr="00394BAB">
                      <w:t>Skaalvik</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r w:rsidRPr="00394BAB">
                      <w:t xml:space="preserve">, E. M., &amp; </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r w:rsidRPr="00394BAB">
                      <w:t>Skaalvik</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r w:rsidRPr="00394BAB">
                      <w:t xml:space="preserve">, S. (2007). Dimensions of teacher self-efficacy and relations with strain factors, perceived collective teacher efficacy, and teacher burnout. </w:t>
                   </w:r>
@@ -10098,19 +9806,15 @@
                   <w:pPr>
                      <w:pStyle w:val="Reference0"/>
                   </w:pPr>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r w:rsidRPr="00394BAB">
                      <w:t>Skaalvik</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r w:rsidRPr="00394BAB">
                      <w:t xml:space="preserve">, E. M., &amp; </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r w:rsidRPr="00394BAB">
                      <w:t>Skaalvik</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r w:rsidRPr="00394BAB">
                      <w:t xml:space="preserve">, S. (2014). Teacher self-efficacy and perceived autonomy: Relations with teacher engagement, job satisfaction, and emotional exhaustion. </w:t>
                   </w:r>
@@ -10146,43 +9850,33 @@
                   <w:pPr>
                      <w:pStyle w:val="Reference0"/>
                   </w:pPr>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r w:rsidRPr="00394BAB">
                      <w:t>Syvänen</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r w:rsidRPr="00394BAB">
                      <w:t xml:space="preserve">, A., </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r w:rsidRPr="00394BAB">
                      <w:t>Mäkiniemi</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r w:rsidRPr="00394BAB">
                      <w:t xml:space="preserve">, J.-P., </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r w:rsidRPr="00394BAB">
                      <w:t>Syrjä</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r w:rsidRPr="00394BAB">
                      <w:t xml:space="preserve">, S., </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r w:rsidRPr="00394BAB">
                      <w:t>Heikkilä</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r w:rsidRPr="00394BAB">
                      <w:t xml:space="preserve">-Tammi, K., &amp; </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r w:rsidRPr="00394BAB">
                      <w:t>Viteli</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r w:rsidRPr="00394BAB">
                      <w:t xml:space="preserve">, J. (2016). When does the educational use of ICT become a source of technostress for Finnish teachers? </w:t>
                   </w:r>
@@ -10221,91 +9915,78 @@
                   <w:pPr>
                      <w:pStyle w:val="Reference0"/>
                   </w:pPr>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r w:rsidRPr="00A41862">
                      <w:rPr>
                         <w:lang w:val="nb-NO"/>
                      </w:rPr>
                      <w:t>Tanhua-Piiroinen</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r w:rsidRPr="00A41862">
                      <w:rPr>
                         <w:lang w:val="nb-NO"/>
                      </w:rPr>
                      <w:t xml:space="preserve">, E., </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r w:rsidRPr="00A41862">
                      <w:rPr>
                         <w:lang w:val="nb-NO"/>
                      </w:rPr>
                      <w:t>Viteli</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r w:rsidRPr="00A41862">
                      <w:rPr>
                         <w:lang w:val="nb-NO"/>
                      </w:rPr>
                      <w:t xml:space="preserve">, J., </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r w:rsidRPr="00A41862">
                      <w:rPr>
                         <w:lang w:val="nb-NO"/>
                      </w:rPr>
                      <w:t>Syvänen</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r w:rsidRPr="00A41862">
                      <w:rPr>
                         <w:lang w:val="nb-NO"/>
                      </w:rPr>
                      <w:t xml:space="preserve">, A., </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r w:rsidRPr="00A41862">
                      <w:rPr>
                         <w:lang w:val="nb-NO"/>
                      </w:rPr>
                      <w:t>Vuorio</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r w:rsidRPr="00A41862">
                      <w:rPr>
                         <w:lang w:val="nb-NO"/>
                      </w:rPr>
                      <w:t xml:space="preserve">, J., </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r w:rsidRPr="00A41862">
                      <w:rPr>
                         <w:lang w:val="nb-NO"/>
                      </w:rPr>
                      <w:t>Hintikka</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r w:rsidRPr="00A41862">
                      <w:rPr>
                         <w:lang w:val="nb-NO"/>
                      </w:rPr>
                      <w:t xml:space="preserve">, K. A., &amp; </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r w:rsidRPr="00A41862">
                      <w:rPr>
                         <w:lang w:val="nb-NO"/>
                      </w:rPr>
                      <w:t>Sairanen</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r w:rsidRPr="00A41862">
                      <w:rPr>
                         <w:lang w:val="nb-NO"/>
                      </w:rPr>
                      <w:t xml:space="preserve">, H. (2016). </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r w:rsidRPr="00D91629">
                      <w:rPr>
                         <w:rStyle w:val="ReferenceSource0"/>
@@ -10314,14 +9995,12 @@
                         <em>Perusopetuksen</em>
                      </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r w:rsidRPr="00D91629">
                      <w:rPr>
                         <w:rStyle w:val="ReferenceSource0"/>
                      </w:rPr>
                      <w:t xml:space="preserve"><em> </em></w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r w:rsidRPr="00D91629">
                      <w:rPr>
                         <w:rStyle w:val="ReferenceSource0"/>
@@ -10330,14 +10009,12 @@
                         <em>oppimisympäristöjen</em>
                      </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r w:rsidRPr="00D91629">
                      <w:rPr>
                         <w:rStyle w:val="ReferenceSource0"/>
                      </w:rPr>
                      <w:t xml:space="preserve"><em> </em></w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r w:rsidRPr="00D91629">
                      <w:rPr>
                         <w:rStyle w:val="ReferenceSource0"/>
@@ -10346,14 +10023,12 @@
                         <em>digitalisaation</em>
                      </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r w:rsidRPr="00D91629">
                      <w:rPr>
                         <w:rStyle w:val="ReferenceSource0"/>
                      </w:rPr>
                      <w:t xml:space="preserve"><em> </em></w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r w:rsidRPr="00D91629">
                      <w:rPr>
                         <w:rStyle w:val="ReferenceSource0"/>
@@ -10362,14 +10037,12 @@
                         <em>nykytilanne</em>
                      </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r w:rsidRPr="00D91629">
                      <w:rPr>
                         <w:rStyle w:val="ReferenceSource0"/>
                      </w:rPr>
                      <w:t xml:space="preserve"><em> ja </em></w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r w:rsidRPr="00D91629">
                      <w:rPr>
                         <w:rStyle w:val="ReferenceSource0"/>
@@ -10378,14 +10051,12 @@
                         <em>opettajien</em>
                      </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r w:rsidRPr="00D91629">
                      <w:rPr>
                         <w:rStyle w:val="ReferenceSource0"/>
                      </w:rPr>
                      <w:t xml:space="preserve"><em> </em></w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r w:rsidRPr="00D91629">
                      <w:rPr>
                         <w:rStyle w:val="ReferenceSource0"/>
@@ -10394,14 +10065,12 @@
                         <em>valmiudet</em>
                      </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r w:rsidRPr="00D91629">
                      <w:rPr>
                         <w:rStyle w:val="ReferenceSource0"/>
                      </w:rPr>
                      <w:t xml:space="preserve"><em> </em></w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r w:rsidRPr="00D91629">
                      <w:rPr>
                         <w:rStyle w:val="ReferenceSource0"/>
@@ -10410,14 +10079,12 @@
                         <em>hyödyntää</em>
                      </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r w:rsidRPr="00D91629">
                      <w:rPr>
                         <w:rStyle w:val="ReferenceSource0"/>
                      </w:rPr>
                      <w:t xml:space="preserve"><em> </em></w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r w:rsidRPr="00D91629">
                      <w:rPr>
                         <w:rStyle w:val="ReferenceSource0"/>
@@ -10426,14 +10093,12 @@
                         <em>digitaalisia</em>
                      </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r w:rsidRPr="00D91629">
                      <w:rPr>
                         <w:rStyle w:val="ReferenceSource0"/>
                      </w:rPr>
                      <w:t xml:space="preserve"><em> </em></w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r w:rsidRPr="00D91629">
                      <w:rPr>
                         <w:rStyle w:val="ReferenceSource0"/>
@@ -10442,7 +10107,6 @@
                         <em>oppimisympäristöjä</em>
                      </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r w:rsidRPr="00D91629">
                      <w:rPr>
                         <w:rStyle w:val="ReferenceSource0"/>
@@ -10455,56 +10119,48 @@
                      </w:rPr>
                      <w:t>(</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r w:rsidRPr="00A41862">
                      <w:rPr>
                         <w:lang w:val="nb-NO"/>
                      </w:rPr>
                      <w:t>Valtioneuvoston</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r w:rsidRPr="00A41862">
                      <w:rPr>
                         <w:lang w:val="nb-NO"/>
                      </w:rPr>
                      <w:t xml:space="preserve"> </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r w:rsidRPr="00A41862">
                      <w:rPr>
                         <w:lang w:val="nb-NO"/>
                      </w:rPr>
                      <w:t>selvitys</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r w:rsidRPr="00A41862">
                      <w:rPr>
                         <w:lang w:val="nb-NO"/>
                      </w:rPr>
                      <w:t xml:space="preserve">- ja </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r w:rsidRPr="00A41862">
                      <w:rPr>
                         <w:lang w:val="nb-NO"/>
                      </w:rPr>
                      <w:t>tutkimustoiminnan</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r w:rsidRPr="00A41862">
                      <w:rPr>
                         <w:lang w:val="nb-NO"/>
                      </w:rPr>
                      <w:t xml:space="preserve"> </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r w:rsidRPr="00A41862">
                      <w:rPr>
                         <w:lang w:val="nb-NO"/>
                      </w:rPr>
                      <w:t>julkaisusarja</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r w:rsidRPr="00A41862">
                      <w:rPr>
                         <w:lang w:val="nb-NO"/>
@@ -10514,19 +10170,15 @@
                   <w:r w:rsidRPr="00394BAB">
                      <w:t xml:space="preserve">Helsinki: </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r w:rsidRPr="00394BAB">
                      <w:t>Valtioneuvoston</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r w:rsidRPr="00394BAB">
                      <w:t xml:space="preserve"> </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r w:rsidRPr="00394BAB">
                      <w:t>kanslia</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r w:rsidRPr="00394BAB">
                      <w:t>. Retrieved from http://tietokayttoon.fi/julkaisu?pubid=11315</w:t>
                   </w:r>
@@ -10540,11 +10192,9 @@
                   <w:pPr>
                      <w:pStyle w:val="Reference0"/>
                   </w:pPr>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r w:rsidRPr="00394BAB">
                      <w:t>Tarafdar</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r w:rsidRPr="00394BAB">
                      <w:t xml:space="preserve">, M., Cooper, C. L., &amp; Stich, J. F. (2017). The technostress trifecta – Techno eustress, techno distress and design: Theoretical directions and an agenda for research. </w:t>
                   </w:r>
@@ -10580,56 +10230,48 @@
                   <w:pPr>
                      <w:pStyle w:val="Reference0"/>
                   </w:pPr>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r w:rsidRPr="00CF1BF8">
                      <w:rPr>
                         <w:lang w:val="en-GB"/>
                      </w:rPr>
                      <w:t>Vangrieken</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r w:rsidRPr="00CF1BF8">
                      <w:rPr>
                         <w:lang w:val="en-GB"/>
                      </w:rPr>
                      <w:t xml:space="preserve">, K., </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r w:rsidRPr="00CF1BF8">
                      <w:rPr>
                         <w:lang w:val="en-GB"/>
                      </w:rPr>
                      <w:t>Dochy</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r w:rsidRPr="00CF1BF8">
                      <w:rPr>
                         <w:lang w:val="en-GB"/>
                      </w:rPr>
                      <w:t xml:space="preserve">, F., </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r w:rsidRPr="00CF1BF8">
                      <w:rPr>
                         <w:lang w:val="en-GB"/>
                      </w:rPr>
                      <w:t>Raes</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r w:rsidRPr="00CF1BF8">
                      <w:rPr>
                         <w:lang w:val="en-GB"/>
                      </w:rPr>
                      <w:t xml:space="preserve">, E., &amp; </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r w:rsidRPr="00CF1BF8">
                      <w:rPr>
                         <w:lang w:val="en-GB"/>
                      </w:rPr>
                      <w:t>Kyndt</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r w:rsidRPr="00CF1BF8">
                      <w:rPr>
                         <w:lang w:val="en-GB"/>
@@ -10677,19 +10319,15 @@
                   <w:r w:rsidRPr="00394BAB">
                      <w:t xml:space="preserve">Ventura, M., </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r w:rsidRPr="00394BAB">
                      <w:t>Salanova</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r w:rsidRPr="00394BAB">
                      <w:t xml:space="preserve">, M., &amp; </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r w:rsidRPr="00394BAB">
                      <w:t>Llorens</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r w:rsidRPr="00394BAB">
                      <w:t xml:space="preserve">, S. (2015). Professional self-efficacy as a predictor of burnout and engagement: The role of challenge and hindrance demands. </w:t>
                   </w:r>
@@ -10728,11 +10366,9 @@
                   <w:r w:rsidRPr="00394BAB">
                      <w:t xml:space="preserve">Wang, L., </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r w:rsidRPr="00394BAB">
                      <w:t>Ertmer</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r w:rsidRPr="00394BAB">
                      <w:t xml:space="preserve">, P. A., &amp; Newby, T. J. (2004). Increasing preservice teachers’ self-efficacy beliefs for technology integration. </w:t>
                   </w:r>
@@ -10771,19 +10407,15 @@
                   <w:pPr>
                      <w:pStyle w:val="Reference0"/>
                   </w:pPr>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r w:rsidRPr="00394BAB">
                      <w:t>Xanthopoulou</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r w:rsidRPr="00394BAB">
                      <w:t xml:space="preserve">, D., Bakker, A. B., </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r w:rsidRPr="00394BAB">
                      <w:t>Demerouti</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r w:rsidRPr="00394BAB">
                      <w:t xml:space="preserve">, E., &amp; Schaufeli, W. B. (2007), The role of personal resources in the job demands-resources model. </w:t>
                   </w:r>
@@ -10822,19 +10454,15 @@
                   <w:pPr>
                      <w:pStyle w:val="Reference0"/>
                   </w:pPr>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r w:rsidRPr="00394BAB">
                      <w:t>Xanthopoulou</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r w:rsidRPr="00394BAB">
                      <w:t xml:space="preserve">, D., Bakker, A. B., </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
                   <w:r w:rsidRPr="00394BAB">
                      <w:t>Demerouti</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r w:rsidRPr="00394BAB">
                      <w:t xml:space="preserve">, E., &amp; Schaufeli, W. B. (2009). Reciprocal relationships between job resources, personal resources, and work engagement. </w:t>
                   </w:r>
@@ -11142,11 +10770,9 @@
                            <w:r w:rsidR="00CD2A73" w:rsidRPr="002859EF">
                               <w:t xml:space="preserve"> </w:t>
                            </w:r>
-                           <w:proofErr w:type="spellStart"/>
                            <w:r w:rsidR="00CD2A73" w:rsidRPr="002859EF">
                               <w:t>engagement_enthusiastic</w:t>
                            </w:r>
-                           <w:proofErr w:type="spellEnd"/>
                            <w:r w:rsidR="00CD2A73" w:rsidRPr="002859EF">
                               <w:t xml:space="preserve"> </w:t>
                            </w:r>
@@ -11257,11 +10883,9 @@
                            <w:r w:rsidR="00CD2A73" w:rsidRPr="002859EF">
                               <w:t xml:space="preserve"> </w:t>
                            </w:r>
-                           <w:proofErr w:type="spellStart"/>
                            <w:r w:rsidR="00CD2A73" w:rsidRPr="002859EF">
                               <w:t>engagement_inspired</w:t>
                            </w:r>
-                           <w:proofErr w:type="spellEnd"/>
                            <w:r w:rsidR="00CD2A73" w:rsidRPr="002859EF">
                               <w:t xml:space="preserve"> </w:t>
                            </w:r>
@@ -11372,11 +10996,9 @@
                            <w:r w:rsidR="00CD2A73" w:rsidRPr="002859EF">
                               <w:t xml:space="preserve"> </w:t>
                            </w:r>
-                           <w:proofErr w:type="spellStart"/>
                            <w:r w:rsidR="00CD2A73" w:rsidRPr="002859EF">
                               <w:t>engagement_proud</w:t>
                            </w:r>
-                           <w:proofErr w:type="spellEnd"/>
                         </w:p>
                      </w:tc>
                      <w:tc>
@@ -11484,11 +11106,9 @@
                            <w:r w:rsidR="00CD2A73" w:rsidRPr="002859EF">
                               <w:t xml:space="preserve"> </w:t>
                            </w:r>
-                           <w:proofErr w:type="spellStart"/>
                            <w:r w:rsidR="00CD2A73" w:rsidRPr="002859EF">
                               <w:t>engagement_persevere</w:t>
                            </w:r>
-                           <w:proofErr w:type="spellEnd"/>
                         </w:p>
                      </w:tc>
                      <w:tc>
@@ -11593,11 +11213,9 @@
                            <w:r w:rsidRPr="002859EF">
                               <w:t xml:space="preserve">Techno-work </w:t>
                            </w:r>
-                           <w:proofErr w:type="spellStart"/>
                            <w:r w:rsidRPr="002859EF">
                               <w:t>engagement_energy</w:t>
                            </w:r>
-                           <w:proofErr w:type="spellEnd"/>
                         </w:p>
                      </w:tc>
                      <w:tc>
@@ -11702,11 +11320,9 @@
                            <w:r w:rsidRPr="002859EF">
                               <w:t xml:space="preserve">Techno-work </w:t>
                            </w:r>
-                           <w:proofErr w:type="spellStart"/>
                            <w:r w:rsidRPr="002859EF">
                               <w:t>engagement_vigorous</w:t>
                            </w:r>
-                           <w:proofErr w:type="spellEnd"/>
                         </w:p>
                      </w:tc>
                      <w:tc>
@@ -11811,11 +11427,9 @@
                            <w:r w:rsidRPr="002859EF">
                               <w:t xml:space="preserve">Techno-work </w:t>
                            </w:r>
-                           <w:proofErr w:type="spellStart"/>
                            <w:r w:rsidRPr="002859EF">
                               <w:t>engagement_happy</w:t>
                            </w:r>
-                           <w:proofErr w:type="spellEnd"/>
                            <w:r w:rsidRPr="002859EF">
                               <w:t xml:space="preserve"> immersed</w:t>
                            </w:r>
@@ -11923,11 +11537,9 @@
                            <w:r w:rsidRPr="002859EF">
                               <w:t xml:space="preserve">Techno-work </w:t>
                            </w:r>
-                           <w:proofErr w:type="spellStart"/>
                            <w:r w:rsidRPr="002859EF">
                               <w:t>engagement_immersed</w:t>
                            </w:r>
-                           <w:proofErr w:type="spellEnd"/>
                            <w:r w:rsidRPr="002859EF">
                               <w:t xml:space="preserve"> </w:t>
                            </w:r>
@@ -12035,11 +11647,9 @@
                            <w:r w:rsidRPr="002859EF">
                               <w:t xml:space="preserve">Techno-work </w:t>
                            </w:r>
-                           <w:proofErr w:type="spellStart"/>
                            <w:r w:rsidRPr="002859EF">
                               <w:t>engagement_carried</w:t>
                            </w:r>
-                           <w:proofErr w:type="spellEnd"/>
                            <w:r w:rsidRPr="002859EF">
                               <w:t xml:space="preserve"> away</w:t>
                            </w:r>
@@ -12239,11 +11849,9 @@
                            <w:r w:rsidRPr="002859EF">
                               <w:t>Technology-related self-</w:t>
                            </w:r>
-                           <w:proofErr w:type="spellStart"/>
                            <w:r w:rsidRPr="002859EF">
                               <w:t>efficacy_know</w:t>
                            </w:r>
-                           <w:proofErr w:type="spellEnd"/>
                            <w:r w:rsidRPr="002859EF">
                               <w:t xml:space="preserve"> how to utilize</w:t>
                            </w:r>
@@ -12351,11 +11959,9 @@
                            <w:r w:rsidRPr="002859EF">
                               <w:t>Technology-related self-</w:t>
                            </w:r>
-                           <w:proofErr w:type="spellStart"/>
                            <w:r w:rsidRPr="002859EF">
                               <w:t>efficacy_able</w:t>
                            </w:r>
-                           <w:proofErr w:type="spellEnd"/>
                            <w:r w:rsidRPr="002859EF">
                               <w:t xml:space="preserve"> to help</w:t>
                            </w:r>
@@ -12464,11 +12070,9 @@
                               <w:lastRenderedPageBreak/>
                               <w:t>Technology-related self-</w:t>
                            </w:r>
-                           <w:proofErr w:type="spellStart"/>
                            <w:r w:rsidRPr="002859EF">
                               <w:t>efficacy_adequate</w:t>
                            </w:r>
-                           <w:proofErr w:type="spellEnd"/>
                            <w:r w:rsidRPr="002859EF">
                               <w:t xml:space="preserve"> skills</w:t>
                            </w:r>
@@ -12668,11 +12272,9 @@
                            <w:r w:rsidRPr="002859EF">
                               <w:t xml:space="preserve">Technology-related competence </w:t>
                            </w:r>
-                           <w:proofErr w:type="spellStart"/>
                            <w:r w:rsidRPr="002859EF">
                               <w:t>support_training</w:t>
                            </w:r>
-                           <w:proofErr w:type="spellEnd"/>
                            <w:r w:rsidRPr="002859EF">
                               <w:t xml:space="preserve"> </w:t>
                            </w:r>
@@ -12780,11 +12382,9 @@
                            <w:r w:rsidRPr="002859EF">
                               <w:t xml:space="preserve">Technology-related competence </w:t>
                            </w:r>
-                           <w:proofErr w:type="spellStart"/>
                            <w:r w:rsidRPr="002859EF">
                               <w:t>support_time</w:t>
                            </w:r>
-                           <w:proofErr w:type="spellEnd"/>
                            <w:r w:rsidRPr="002859EF">
                               <w:t xml:space="preserve"> </w:t>
                            </w:r>
@@ -12892,11 +12492,9 @@
                            <w:r w:rsidRPr="002859EF">
                               <w:t xml:space="preserve">Technology-related competence </w:t>
                            </w:r>
-                           <w:proofErr w:type="spellStart"/>
                            <w:r w:rsidRPr="002859EF">
                               <w:t>support_what</w:t>
                            </w:r>
-                           <w:proofErr w:type="spellEnd"/>
                            <w:r w:rsidRPr="002859EF">
                               <w:t xml:space="preserve"> is expected</w:t>
                            </w:r>
@@ -13096,11 +12694,9 @@
                            <w:r w:rsidRPr="002859EF">
                               <w:t xml:space="preserve">Technology-related </w:t>
                            </w:r>
-                           <w:proofErr w:type="spellStart"/>
                            <w:r w:rsidRPr="002859EF">
                               <w:t>autonomy_opinions</w:t>
                            </w:r>
-                           <w:proofErr w:type="spellEnd"/>
                            <w:r w:rsidRPr="002859EF">
                               <w:t xml:space="preserve"> respected </w:t>
                            </w:r>
@@ -13208,11 +12804,9 @@
                            <w:r w:rsidRPr="002859EF">
                               <w:t xml:space="preserve">Technology-related </w:t>
                            </w:r>
-                           <w:proofErr w:type="spellStart"/>
                            <w:r w:rsidRPr="002859EF">
                               <w:t>autonomy_voluntariness</w:t>
                            </w:r>
-                           <w:proofErr w:type="spellEnd"/>
                            <w:r w:rsidRPr="002859EF">
                               <w:t xml:space="preserve"> </w:t>
                            </w:r>
@@ -13320,11 +12914,9 @@
                            <w:r w:rsidRPr="002859EF">
                               <w:t xml:space="preserve">Technology-related </w:t>
                            </w:r>
-                           <w:proofErr w:type="spellStart"/>
                            <w:r w:rsidRPr="002859EF">
                               <w:t>autonomy_freedom</w:t>
                            </w:r>
-                           <w:proofErr w:type="spellEnd"/>
                            <w:r w:rsidRPr="002859EF">
                               <w:t xml:space="preserve"> to decide</w:t>
                            </w:r>
@@ -13524,11 +13116,9 @@
                            <w:r w:rsidRPr="002859EF">
                               <w:t xml:space="preserve">Technology-related collegial </w:t>
                            </w:r>
-                           <w:proofErr w:type="spellStart"/>
                            <w:r w:rsidRPr="002859EF">
                               <w:t>support_colleagues</w:t>
                            </w:r>
-                           <w:proofErr w:type="spellEnd"/>
                            <w:r w:rsidRPr="002859EF">
                               <w:t xml:space="preserve"> support </w:t>
                            </w:r>
@@ -13636,11 +13226,9 @@
                            <w:r w:rsidRPr="002859EF">
                               <w:t xml:space="preserve">Technology-related collegial </w:t>
                            </w:r>
-                           <w:proofErr w:type="spellStart"/>
                            <w:r w:rsidRPr="002859EF">
                               <w:t>support_tips</w:t>
                            </w:r>
-                           <w:proofErr w:type="spellEnd"/>
                            <w:r w:rsidRPr="002859EF">
                               <w:t xml:space="preserve"> </w:t>
                            </w:r>
@@ -13748,11 +13336,9 @@
                            <w:r w:rsidRPr="002859EF">
                               <w:t xml:space="preserve">Technology-related collegial </w:t>
                            </w:r>
-                           <w:proofErr w:type="spellStart"/>
                            <w:r w:rsidRPr="002859EF">
                               <w:t>support_collaboration</w:t>
                            </w:r>
-                           <w:proofErr w:type="spellEnd"/>
                            <w:r w:rsidRPr="002859EF">
                               <w:t xml:space="preserve"> </w:t>
                            </w:r>
