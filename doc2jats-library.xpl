@@ -805,7 +805,15 @@
 	<p:wrap match="text()[ancestor::w:r[1]/w:rPr/w:rStyle[matches(@w:val, '^(ReferenceSource)|(Emphasis)')]][not(ancestor::em)]" wrapper="em"></p:wrap>
         <p:wrap match="text()[ancestor::w:r[1]/w:rPr/w:vertAlign/@w:val='superscript']" wrapper="sup"></p:wrap>
         <p:wrap match="text()[ancestor::w:r[1]/w:rPr/w:vertAlign/@w:val='subscript']" wrapper="sub"></p:wrap>
-	
+
+	<p:replace match="w:p//w:tab">
+	    <p:input port="replacement">
+		<p:inline>
+		    <w:t xml:space="preserve">	</w:t>
+		</p:inline>
+	    </p:input>
+	</p:replace>
+
 	<p:identity name="final"/>
         
     </p:declare-step>

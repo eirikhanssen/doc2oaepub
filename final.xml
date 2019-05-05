@@ -32,7 +32,7 @@
              xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"
              xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing">
    <env>
-      <folder>/home/hanson/projects/doc2jats/samples/Jaana-Piia-Mäkiniemi.docx-20190505-180952</folder>
+      <folder>/home/hanson/projects/doc2jats/samples/Jaana-Piia-Mäkiniemi.docx-20190505-181942</folder>
    </env>
    <pkg:part pkg_name="/_rels/.rels">
       <pkg:xmlData>
@@ -8581,8 +8581,8 @@
                      <w:t>Note:</w:t>
                   </w:r>
                   <w:r>
-                     <w:tab/>
-                     <w:t xml:space="preserve">This research project was supported by Finnish Work Environment Fund (Project number: 115412). The authors would like to thank Antti </w:t>
+		                   <w:t xml:space="preserve">	</w:t>
+		                   <w:t xml:space="preserve">This research project was supported by Finnish Work Environment Fund (Project number: 115412). The authors would like to thank Antti </w:t>
                   </w:r>
                   <w:r>
                      <w:t>Syvänen</w:t>
@@ -14604,9 +14604,10 @@
                <w:rsid w:val="00A41862"/>
                <w:pPr>
                   <w:tabs>
-                     <w:tab w:val="center" w:pos="4320"/>
-                     <w:tab w:val="right" w:pos="8640"/>
-                  </w:tabs>
+		                   <w:t xml:space="preserve">	</w:t>
+		
+		                   <w:t xml:space="preserve">	</w:t>
+		                </w:tabs>
                   <w:spacing w:line="240" w:lineRule="auto"/>
                </w:pPr>
                <w:rPr>
@@ -14621,9 +14622,10 @@
                <w:pPr>
                   <w:widowControl/>
                   <w:tabs>
-                     <w:tab w:val="center" w:pos="4320"/>
-                     <w:tab w:val="right" w:pos="8640"/>
-                  </w:tabs>
+		                   <w:t xml:space="preserve">	</w:t>
+		
+		                   <w:t xml:space="preserve">	</w:t>
+		                </w:tabs>
                   <w:autoSpaceDE/>
                   <w:autoSpaceDN/>
                   <w:adjustRightInd/>
@@ -15416,8 +15418,8 @@
                <w:rsid w:val="00867D48"/>
                <w:pPr>
                   <w:tabs>
-                     <w:tab w:val="right" w:pos="10773"/>
-                  </w:tabs>
+		                   <w:t xml:space="preserve">	</w:t>
+		                </w:tabs>
                   <w:contextualSpacing/>
                </w:pPr>
                <w:rPr>
@@ -15645,8 +15647,8 @@
                   <w:lvlJc w:val="left"/>
                   <w:pPr>
                      <w:tabs>
-                        <w:tab w:val="num" w:pos="1492"/>
-                     </w:tabs>
+		                      <w:t xml:space="preserve">	</w:t>
+		                   </w:tabs>
                      <w:ind w:left="1492" w:hanging="360"/>
                   </w:pPr>
                </w:lvl>
@@ -15662,8 +15664,8 @@
                   <w:lvlJc w:val="left"/>
                   <w:pPr>
                      <w:tabs>
-                        <w:tab w:val="num" w:pos="1209"/>
-                     </w:tabs>
+		                      <w:t xml:space="preserve">	</w:t>
+		                   </w:tabs>
                      <w:ind w:left="1209" w:hanging="360"/>
                   </w:pPr>
                </w:lvl>
@@ -15679,8 +15681,8 @@
                   <w:lvlJc w:val="left"/>
                   <w:pPr>
                      <w:tabs>
-                        <w:tab w:val="num" w:pos="926"/>
-                     </w:tabs>
+		                      <w:t xml:space="preserve">	</w:t>
+		                   </w:tabs>
                      <w:ind w:left="926" w:hanging="360"/>
                   </w:pPr>
                </w:lvl>
@@ -15696,8 +15698,8 @@
                   <w:lvlJc w:val="left"/>
                   <w:pPr>
                      <w:tabs>
-                        <w:tab w:val="num" w:pos="643"/>
-                     </w:tabs>
+		                      <w:t xml:space="preserve">	</w:t>
+		                   </w:tabs>
                      <w:ind w:left="643" w:hanging="360"/>
                   </w:pPr>
                </w:lvl>
@@ -15713,8 +15715,8 @@
                   <w:lvlJc w:val="left"/>
                   <w:pPr>
                      <w:tabs>
-                        <w:tab w:val="num" w:pos="1492"/>
-                     </w:tabs>
+		                      <w:t xml:space="preserve">	</w:t>
+		                   </w:tabs>
                      <w:ind w:left="1492" w:hanging="360"/>
                   </w:pPr>
                   <w:rPr>
@@ -15733,8 +15735,8 @@
                   <w:lvlJc w:val="left"/>
                   <w:pPr>
                      <w:tabs>
-                        <w:tab w:val="num" w:pos="1209"/>
-                     </w:tabs>
+		                      <w:t xml:space="preserve">	</w:t>
+		                   </w:tabs>
                      <w:ind w:left="1209" w:hanging="360"/>
                   </w:pPr>
                   <w:rPr>
@@ -15753,8 +15755,8 @@
                   <w:lvlJc w:val="left"/>
                   <w:pPr>
                      <w:tabs>
-                        <w:tab w:val="num" w:pos="926"/>
-                     </w:tabs>
+		                      <w:t xml:space="preserve">	</w:t>
+		                   </w:tabs>
                      <w:ind w:left="926" w:hanging="360"/>
                   </w:pPr>
                   <w:rPr>
@@ -15773,8 +15775,8 @@
                   <w:lvlJc w:val="left"/>
                   <w:pPr>
                      <w:tabs>
-                        <w:tab w:val="num" w:pos="643"/>
-                     </w:tabs>
+		                      <w:t xml:space="preserve">	</w:t>
+		                   </w:tabs>
                      <w:ind w:left="643" w:hanging="360"/>
                   </w:pPr>
                   <w:rPr>
@@ -15793,8 +15795,8 @@
                   <w:lvlJc w:val="left"/>
                   <w:pPr>
                      <w:tabs>
-                        <w:tab w:val="num" w:pos="360"/>
-                     </w:tabs>
+		                      <w:t xml:space="preserve">	</w:t>
+		                   </w:tabs>
                      <w:ind w:left="360" w:hanging="360"/>
                   </w:pPr>
                </w:lvl>
@@ -15810,8 +15812,8 @@
                   <w:lvlJc w:val="left"/>
                   <w:pPr>
                      <w:tabs>
-                        <w:tab w:val="num" w:pos="360"/>
-                     </w:tabs>
+		                      <w:t xml:space="preserve">	</w:t>
+		                   </w:tabs>
                      <w:ind w:left="360" w:hanging="360"/>
                   </w:pPr>
                   <w:rPr>
@@ -15831,8 +15833,8 @@
                   <w:lvlJc w:val="left"/>
                   <w:pPr>
                      <w:tabs>
-                        <w:tab w:val="num" w:pos="360"/>
-                     </w:tabs>
+		                      <w:t xml:space="preserve">	</w:t>
+		                   </w:tabs>
                      <w:ind w:left="360" w:hanging="360"/>
                   </w:pPr>
                   <w:rPr>
@@ -15852,8 +15854,8 @@
                   <w:lvlJc w:val="left"/>
                   <w:pPr>
                      <w:tabs>
-                        <w:tab w:val="num" w:pos="360"/>
-                     </w:tabs>
+		                      <w:t xml:space="preserve">	</w:t>
+		                   </w:tabs>
                      <w:ind w:left="360" w:hanging="360"/>
                   </w:pPr>
                   <w:rPr>
@@ -17465,8 +17467,8 @@
                   <w:t>Seminar.net - International journal of media, technology and lifelong learning</w:t>
                </w:r>
                <w:r>
-                  <w:tab/>
-               </w:r>
+		                <w:t xml:space="preserve">	</w:t>
+		             </w:r>
                <w:r>
                   <w:fldChar w:fldCharType="begin"/>
                </w:r>
