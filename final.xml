@@ -32,7 +32,7 @@
              xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"
              xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing">
    <env>
-      <folder>/home/hanson/projects/doc2jats/samples/Jaana-Piia-Mäkiniemi.docx-20190505-180823</folder>
+      <folder>/home/hanson/projects/doc2jats/samples/Jaana-Piia-Mäkiniemi.docx-20190505-180952</folder>
    </env>
    <pkg:part pkg_name="/_rels/.rels">
       <pkg:xmlData>
@@ -796,13 +796,11 @@
                         <w:rFonts w:ascii="Times New Roman"
                                   w:hAnsi="Times New Roman"
                                   w:cs="Times New Roman"/>
-                        <w:lang w:val="en-GB"/>
                      </w:rPr>
                   </w:pPr>
                   <w:r w:rsidRPr="004A4F77">
                      <w:rPr>
                         <w:noProof/>
-                        <w:lang w:val="nb-NO"/>
                      </w:rPr>
                      <w:lastRenderedPageBreak/>
                      <w:drawing>
@@ -1272,9 +1270,7 @@
                              w:rsidP="000C5DB2">
                            <w:pPr>
                               <w:pStyle w:val="TableHeaderLeft"/>
-                              <w:rPr>
-                                 <w:lang w:val="en-GB"/>
-                              </w:rPr>
+                              <w:rPr/>
                            </w:pPr>
                         </w:p>
                      </w:tc>
@@ -6479,9 +6475,7 @@
                              w:rsidP="00F66F89">
                            <w:pPr>
                               <w:pStyle w:val="TableHeaderLeft"/>
-                              <w:rPr>
-                                 <w:lang w:val="en-GB"/>
-                              </w:rPr>
+                              <w:rPr/>
                            </w:pPr>
                         </w:p>
                      </w:tc>
@@ -6912,7 +6906,6 @@
                                  <w:rFonts w:ascii="Times New Roman"
                                            w:eastAsia="Calibri"
                                            w:hAnsi="Times New Roman"/>
-                                 <w:lang w:val="en-GB"/>
                               </w:rPr>
                               <w:sym w:font="Wingdings" w:char="F0E0"/>
                            </w:r>
@@ -6956,7 +6949,6 @@
                                  <w:color w:val="auto"/>
                                  <w:sz w:val="20"/>
                                  <w:szCs w:val="20"/>
-                                 <w:lang w:val="en-GB"/>
                               </w:rPr>
                            </w:pPr>
                         </w:p>
@@ -6993,7 +6985,6 @@
                                  <w:color w:val="auto"/>
                                  <w:sz w:val="20"/>
                                  <w:szCs w:val="20"/>
-                                 <w:lang w:val="en-GB"/>
                               </w:rPr>
                            </w:pPr>
                         </w:p>
@@ -7154,7 +7145,6 @@
                                  <w:rFonts w:ascii="Times New Roman"
                                            w:eastAsia="Calibri"
                                            w:hAnsi="Times New Roman"/>
-                                 <w:lang w:val="en-GB"/>
                               </w:rPr>
                               <w:sym w:font="Wingdings" w:char="F0E0"/>
                            </w:r>
@@ -7393,7 +7383,6 @@
                                  <w:rFonts w:ascii="Times New Roman"
                                            w:eastAsia="Calibri"
                                            w:hAnsi="Times New Roman"/>
-                                 <w:lang w:val="en-GB"/>
                               </w:rPr>
                               <w:sym w:font="Wingdings" w:char="F0E0"/>
                            </w:r>
@@ -7629,7 +7618,6 @@
                                  <w:rFonts w:ascii="Times New Roman"
                                            w:eastAsia="Calibri"
                                            w:hAnsi="Times New Roman"/>
-                                 <w:lang w:val="en-GB"/>
                               </w:rPr>
                               <w:sym w:font="Wingdings" w:char="F0E0"/>
                            </w:r>
@@ -8423,60 +8411,44 @@
                     w:rsidRDefault="00CD2A73"
                     w:rsidP="00CD2A73">
                   <w:pPr>
-                     <w:rPr>
-                        <w:lang w:val="en-GB"/>
-                     </w:rPr>
+                     <w:rPr/>
                   </w:pPr>
                   <w:r w:rsidRPr="00E36CDF">
-                     <w:rPr>
-                        <w:lang w:val="en-GB"/>
-                     </w:rPr>
+                     <w:rPr/>
                      <w:t>The findings of the statistical analysis show that teachers experience positive technology-related well-being quite often (i.e. at least nearly on a weekly basis), which supports the notion that techno-work engagement is an important phenomenon (c.f.</w:t>
                   </w:r>
                   <w:r w:rsidRPr="00E36CDF">
                      <w:rPr>
                         <w:rFonts w:cs="Times New Roman"/>
                         <w:rtl/>
-                        <w:lang w:val="en-GB" w:bidi="ar-YE"/>
                      </w:rPr>
                      <w:t xml:space="preserve"> </w:t>
                   </w:r>
                   <w:r w:rsidRPr="00E36CDF">
-                     <w:rPr>
-                        <w:lang w:val="en-GB" w:bidi="ar-YE"/>
-                     </w:rPr>
+                     <w:rPr/>
                      <w:t>Mäkiniemi</w:t>
                   </w:r>
                   <w:r w:rsidRPr="00E36CDF">
-                     <w:rPr>
-                        <w:lang w:val="en-GB" w:bidi="ar-YE"/>
-                     </w:rPr>
+                     <w:rPr/>
                      <w:t xml:space="preserve"> et al</w:t>
                   </w:r>
                   <w:r w:rsidRPr="00E36CDF">
                      <w:rPr>
                         <w:rFonts w:cs="Times New Roman"/>
                         <w:rtl/>
-                        <w:lang w:val="en-GB" w:bidi="ar-YE"/>
                      </w:rPr>
                      <w:t xml:space="preserve">., </w:t>
                   </w:r>
                   <w:r w:rsidRPr="00E36CDF">
-                     <w:rPr>
-                        <w:lang w:val="en-GB"/>
-                     </w:rPr>
+                     <w:rPr/>
                      <w:t xml:space="preserve">2017; </w:t>
                   </w:r>
                   <w:r w:rsidRPr="00E36CDF">
-                     <w:rPr>
-                        <w:lang w:val="en-GB"/>
-                     </w:rPr>
+                     <w:rPr/>
                      <w:t>Mäkiniemi</w:t>
                   </w:r>
                   <w:r w:rsidRPr="00E36CDF">
-                     <w:rPr>
-                        <w:lang w:val="en-GB"/>
-                     </w:rPr>
+                     <w:rPr/>
                      <w:t xml:space="preserve"> et al., 2019). Consequently, when framing the digitalisation of schools as an emerging phenomenon in the media and when speaking about the use of educational technology at schools or in public, it is important to take into account and highlight its associations with teacher well-being (i.e. to focus on its positive aspects, not just the stressful aspects, which currently seems to be a more common frame of reference). </w:t>
                   </w:r>
                </w:p>
@@ -8708,9 +8680,7 @@
                     w:rsidP="00D91629">
                   <w:pPr>
                      <w:pStyle w:val="Reference0"/>
-                     <w:rPr>
-                        <w:lang w:val="de-DE"/>
-                     </w:rPr>
+                     <w:rPr/>
                   </w:pPr>
                   <w:r>
                      <w:t>Al-</w:t>
@@ -8736,30 +8706,23 @@
                      </w:t>
                   </w:r>
                   <w:r>
-                     <w:rPr>
-                        <w:lang w:val="de-DE"/>
-                     </w:rPr>
+                     <w:rPr/>
                      <w:t>, 1103–1110.</w:t>
                   </w:r>
                   <w:r w:rsidR="004D6EE8">
-                     <w:rPr>
-                        <w:lang w:val="de-DE"/>
-                     </w:rPr>
+                     <w:rPr/>
                      <w:t xml:space="preserve"> </w:t>
                   </w:r>
                   <w:hyperlink r:id="rId12" w:history="1">
                      <w:r w:rsidR="004D6EE8" w:rsidRPr="00070EB2">
                         <w:rPr>
                            <w:rStyle w:val="Hyperlink"/>
-                           <w:lang w:val="de-DE"/>
                         </w:rPr>
                         <w:t>https://doi.org/10.1016/j.compedu.2007.11.004</w:t>
                      </w:r>
                   </w:hyperlink>
                   <w:r w:rsidR="004D6EE8">
-                     <w:rPr>
-                        <w:lang w:val="de-DE"/>
-                     </w:rPr>
+                     <w:rPr/>
                      <w:t xml:space="preserve"> </w:t>
                   </w:r>
                </w:p>
@@ -8772,9 +8735,7 @@
                      <w:pStyle w:val="Reference0"/>
                   </w:pPr>
                   <w:r>
-                     <w:rPr>
-                        <w:lang w:val="de-DE"/>
-                     </w:rPr>
+                     <w:rPr/>
                      <w:t xml:space="preserve">Bakker, A. B., Albrecht, S. L., &amp; Leiter, M. P. (2011). </w:t>
                   </w:r>
                   <w:r>
@@ -9323,9 +9284,7 @@
                     w:rsidP="00D91629">
                   <w:pPr>
                      <w:pStyle w:val="Reference0"/>
-                     <w:rPr>
-                        <w:lang w:val="fi-FI"/>
-                     </w:rPr>
+                     <w:rPr/>
                   </w:pPr>
                   <w:r>
                      <w:t>Mäkiniemi</w:t>
@@ -9472,9 +9431,7 @@
                      </w:t>
                   </w:r>
                   <w:r>
-                     <w:rPr>
-                        <w:lang w:val="fi-FI"/>
-                     </w:rPr>
+                     <w:rPr/>
                      <w:t xml:space="preserve"> Tampere, University of Tampere, TRIM Research Reports 24. Retrieved from http://urn.fi/URN:ISBN:978-952-03-0542-0</w:t>
                   </w:r>
                </w:p>
@@ -9487,9 +9444,7 @@
                      <w:pStyle w:val="Reference0"/>
                   </w:pPr>
                   <w:r>
-                     <w:rPr>
-                        <w:lang w:val="fi-FI"/>
-                     </w:rPr>
+                     <w:rPr/>
                      <w:t xml:space="preserve">Nielsen, K., Nielsen, M. B., Ogbonnaya, C., Känsälä, M., Saari, E., &amp; Isaksson, K. (2017). </w:t>
                   </w:r>
                   <w:r>
@@ -9914,75 +9869,51 @@
                      <w:pStyle w:val="Reference0"/>
                   </w:pPr>
                   <w:r w:rsidRPr="00A41862">
-                     <w:rPr>
-                        <w:lang w:val="nb-NO"/>
-                     </w:rPr>
+                     <w:rPr/>
                      <w:t>Tanhua-Piiroinen</w:t>
                   </w:r>
                   <w:r w:rsidRPr="00A41862">
-                     <w:rPr>
-                        <w:lang w:val="nb-NO"/>
-                     </w:rPr>
+                     <w:rPr/>
                      <w:t xml:space="preserve">, E., </w:t>
                   </w:r>
                   <w:r w:rsidRPr="00A41862">
-                     <w:rPr>
-                        <w:lang w:val="nb-NO"/>
-                     </w:rPr>
+                     <w:rPr/>
                      <w:t>Viteli</w:t>
                   </w:r>
                   <w:r w:rsidRPr="00A41862">
-                     <w:rPr>
-                        <w:lang w:val="nb-NO"/>
-                     </w:rPr>
+                     <w:rPr/>
                      <w:t xml:space="preserve">, J., </w:t>
                   </w:r>
                   <w:r w:rsidRPr="00A41862">
-                     <w:rPr>
-                        <w:lang w:val="nb-NO"/>
-                     </w:rPr>
+                     <w:rPr/>
                      <w:t>Syvänen</w:t>
                   </w:r>
                   <w:r w:rsidRPr="00A41862">
-                     <w:rPr>
-                        <w:lang w:val="nb-NO"/>
-                     </w:rPr>
+                     <w:rPr/>
                      <w:t xml:space="preserve">, A., </w:t>
                   </w:r>
                   <w:r w:rsidRPr="00A41862">
-                     <w:rPr>
-                        <w:lang w:val="nb-NO"/>
-                     </w:rPr>
+                     <w:rPr/>
                      <w:t>Vuorio</w:t>
                   </w:r>
                   <w:r w:rsidRPr="00A41862">
-                     <w:rPr>
-                        <w:lang w:val="nb-NO"/>
-                     </w:rPr>
+                     <w:rPr/>
                      <w:t xml:space="preserve">, J., </w:t>
                   </w:r>
                   <w:r w:rsidRPr="00A41862">
-                     <w:rPr>
-                        <w:lang w:val="nb-NO"/>
-                     </w:rPr>
+                     <w:rPr/>
                      <w:t>Hintikka</w:t>
                   </w:r>
                   <w:r w:rsidRPr="00A41862">
-                     <w:rPr>
-                        <w:lang w:val="nb-NO"/>
-                     </w:rPr>
+                     <w:rPr/>
                      <w:t xml:space="preserve">, K. A., &amp; </w:t>
                   </w:r>
                   <w:r w:rsidRPr="00A41862">
-                     <w:rPr>
-                        <w:lang w:val="nb-NO"/>
-                     </w:rPr>
+                     <w:rPr/>
                      <w:t>Sairanen</w:t>
                   </w:r>
                   <w:r w:rsidRPr="00A41862">
-                     <w:rPr>
-                        <w:lang w:val="nb-NO"/>
-                     </w:rPr>
+                     <w:rPr/>
                      <w:t xml:space="preserve">, H. (2016). </w:t>
                   </w:r>
                   <w:r w:rsidRPr="00D91629">
@@ -10112,57 +10043,39 @@
                      <w:t xml:space="preserve"><em> </em></w:t>
                   </w:r>
                   <w:r w:rsidRPr="00A41862">
-                     <w:rPr>
-                        <w:lang w:val="nb-NO"/>
-                     </w:rPr>
+                     <w:rPr/>
                      <w:t>(</w:t>
                   </w:r>
                   <w:r w:rsidRPr="00A41862">
-                     <w:rPr>
-                        <w:lang w:val="nb-NO"/>
-                     </w:rPr>
+                     <w:rPr/>
                      <w:t>Valtioneuvoston</w:t>
                   </w:r>
                   <w:r w:rsidRPr="00A41862">
-                     <w:rPr>
-                        <w:lang w:val="nb-NO"/>
-                     </w:rPr>
+                     <w:rPr/>
                      <w:t xml:space="preserve"> </w:t>
                   </w:r>
                   <w:r w:rsidRPr="00A41862">
-                     <w:rPr>
-                        <w:lang w:val="nb-NO"/>
-                     </w:rPr>
+                     <w:rPr/>
                      <w:t>selvitys</w:t>
                   </w:r>
                   <w:r w:rsidRPr="00A41862">
-                     <w:rPr>
-                        <w:lang w:val="nb-NO"/>
-                     </w:rPr>
+                     <w:rPr/>
                      <w:t xml:space="preserve">- ja </w:t>
                   </w:r>
                   <w:r w:rsidRPr="00A41862">
-                     <w:rPr>
-                        <w:lang w:val="nb-NO"/>
-                     </w:rPr>
+                     <w:rPr/>
                      <w:t>tutkimustoiminnan</w:t>
                   </w:r>
                   <w:r w:rsidRPr="00A41862">
-                     <w:rPr>
-                        <w:lang w:val="nb-NO"/>
-                     </w:rPr>
+                     <w:rPr/>
                      <w:t xml:space="preserve"> </w:t>
                   </w:r>
                   <w:r w:rsidRPr="00A41862">
-                     <w:rPr>
-                        <w:lang w:val="nb-NO"/>
-                     </w:rPr>
+                     <w:rPr/>
                      <w:t>julkaisusarja</w:t>
                   </w:r>
                   <w:r w:rsidRPr="00A41862">
-                     <w:rPr>
-                        <w:lang w:val="nb-NO"/>
-                     </w:rPr>
+                     <w:rPr/>
                      <w:t xml:space="preserve"> 18/2016). </w:t>
                   </w:r>
                   <w:r w:rsidRPr="00394BAB">
@@ -10229,51 +10142,35 @@
                      <w:pStyle w:val="Reference0"/>
                   </w:pPr>
                   <w:r w:rsidRPr="00CF1BF8">
-                     <w:rPr>
-                        <w:lang w:val="en-GB"/>
-                     </w:rPr>
+                     <w:rPr/>
                      <w:t>Vangrieken</w:t>
                   </w:r>
                   <w:r w:rsidRPr="00CF1BF8">
-                     <w:rPr>
-                        <w:lang w:val="en-GB"/>
-                     </w:rPr>
+                     <w:rPr/>
                      <w:t xml:space="preserve">, K., </w:t>
                   </w:r>
                   <w:r w:rsidRPr="00CF1BF8">
-                     <w:rPr>
-                        <w:lang w:val="en-GB"/>
-                     </w:rPr>
+                     <w:rPr/>
                      <w:t>Dochy</w:t>
                   </w:r>
                   <w:r w:rsidRPr="00CF1BF8">
-                     <w:rPr>
-                        <w:lang w:val="en-GB"/>
-                     </w:rPr>
+                     <w:rPr/>
                      <w:t xml:space="preserve">, F., </w:t>
                   </w:r>
                   <w:r w:rsidRPr="00CF1BF8">
-                     <w:rPr>
-                        <w:lang w:val="en-GB"/>
-                     </w:rPr>
+                     <w:rPr/>
                      <w:t>Raes</w:t>
                   </w:r>
                   <w:r w:rsidRPr="00CF1BF8">
-                     <w:rPr>
-                        <w:lang w:val="en-GB"/>
-                     </w:rPr>
+                     <w:rPr/>
                      <w:t xml:space="preserve">, E., &amp; </w:t>
                   </w:r>
                   <w:r w:rsidRPr="00CF1BF8">
-                     <w:rPr>
-                        <w:lang w:val="en-GB"/>
-                     </w:rPr>
+                     <w:rPr/>
                      <w:t>Kyndt</w:t>
                   </w:r>
                   <w:r w:rsidRPr="00CF1BF8">
-                     <w:rPr>
-                        <w:lang w:val="en-GB"/>
-                     </w:rPr>
+                     <w:rPr/>
                      <w:t xml:space="preserve">, E. (2015). </w:t>
                   </w:r>
                   <w:r w:rsidRPr="00394BAB">
@@ -13996,7 +13893,6 @@
                                w:cs="Times New Roman"/>
                      <w:sz w:val="24"/>
                      <w:szCs w:val="24"/>
-                     <w:lang w:val="nb-NO" w:eastAsia="nb-NO" w:bidi="ar-SA"/>
                   </w:rPr>
                </w:rPrDefault>
                <w:pPrDefault/>
@@ -14441,7 +14337,6 @@
                <w:rPr>
                   <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Georgia"/>
                   <w:color w:val="000000"/>
-                  <w:lang w:val="en-US"/>
                </w:rPr>
             </w:style>
             <w:style w:type="paragraph" w:styleId="Heading1">
@@ -14460,7 +14355,6 @@
                   <w:rFonts w:ascii="Arial" w:hAnsi="Arial"/>
                   <w:b/>
                   <w:sz w:val="48"/>
-                  <w:lang w:val="en-US" w:eastAsia="en-US"/>
                </w:rPr>
             </w:style>
             <w:style w:type="paragraph" w:styleId="Heading2">
@@ -14479,7 +14373,6 @@
                   <w:rFonts w:ascii="Arial" w:hAnsi="Arial"/>
                   <w:b/>
                   <w:sz w:val="36"/>
-                  <w:lang w:val="en-US" w:eastAsia="en-US"/>
                </w:rPr>
             </w:style>
             <w:style w:type="paragraph" w:styleId="Heading3">
@@ -14505,7 +14398,6 @@
                   <w:b/>
                   <w:color w:val="auto"/>
                   <w:sz w:val="28"/>
-                  <w:lang w:val="en-GB" w:eastAsia="en-US"/>
                </w:rPr>
             </w:style>
             <w:style w:type="paragraph" w:styleId="Heading4">
@@ -14531,7 +14423,6 @@
                   <w:b/>
                   <w:iCs/>
                   <w:color w:val="auto"/>
-                  <w:lang w:val="nb-NO"/>
                </w:rPr>
             </w:style>
             <w:style w:type="paragraph" w:styleId="Heading5">
@@ -14609,7 +14500,6 @@
                   <w:b/>
                   <w:color w:val="auto"/>
                   <w:u w:val="single"/>
-                  <w:lang w:val="nb-NO"/>
                </w:rPr>
             </w:style>
             <w:style w:type="paragraph" w:styleId="Heading8">
@@ -14744,7 +14634,6 @@
                   <w:rFonts w:cs="Times New Roman"/>
                   <w:color w:val="auto"/>
                   <w:sz w:val="20"/>
-                  <w:lang w:eastAsia="en-US"/>
                </w:rPr>
             </w:style>
             <w:style w:type="character" w:styleId="EndnoteReference">
@@ -14777,7 +14666,6 @@
                   <w:color w:val="auto"/>
                   <w:sz w:val="16"/>
                   <w:szCs w:val="16"/>
-                  <w:lang w:eastAsia="en-US"/>
                </w:rPr>
             </w:style>
             <w:style w:type="character" w:customStyle="1" w:styleId="BalloonTextChar">
@@ -14791,7 +14679,6 @@
                   <w:rFonts w:ascii="Tahoma" w:hAnsi="Tahoma" w:cs="Tahoma"/>
                   <w:sz w:val="16"/>
                   <w:szCs w:val="16"/>
-                  <w:lang w:val="en-US" w:eastAsia="en-US"/>
                </w:rPr>
             </w:style>
             <w:style w:type="character" w:styleId="Hyperlink">
@@ -14838,7 +14725,6 @@
                <w:rPr>
                   <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Georgia"/>
                   <w:color w:val="000000"/>
-                  <w:lang w:val="en-US"/>
                </w:rPr>
             </w:style>
             <w:style w:type="paragraph" w:customStyle="1" w:styleId="Ingenavsnittsmal">
@@ -14869,7 +14755,6 @@
                   <w:rFonts w:ascii="Arial" w:hAnsi="Arial"/>
                   <w:b/>
                   <w:sz w:val="48"/>
-                  <w:lang w:val="en-US" w:eastAsia="en-US"/>
                </w:rPr>
             </w:style>
             <w:style w:type="character" w:customStyle="1" w:styleId="Heading2Char">
@@ -14882,7 +14767,6 @@
                   <w:rFonts w:ascii="Arial" w:hAnsi="Arial"/>
                   <w:b/>
                   <w:sz w:val="36"/>
-                  <w:lang w:val="en-US" w:eastAsia="en-US"/>
                </w:rPr>
             </w:style>
             <w:style w:type="character" w:customStyle="1" w:styleId="Heading3Char">
@@ -14895,7 +14779,6 @@
                   <w:rFonts w:ascii="Arial" w:hAnsi="Arial"/>
                   <w:b/>
                   <w:sz w:val="28"/>
-                  <w:lang w:val="en-GB" w:eastAsia="en-US"/>
                </w:rPr>
             </w:style>
             <w:style w:type="character" w:customStyle="1" w:styleId="Heading4Char">
@@ -14922,7 +14805,6 @@
                   <w:bCs/>
                   <w:color w:val="000000"/>
                   <w:sz w:val="18"/>
-                  <w:lang w:val="en-US"/>
                </w:rPr>
             </w:style>
             <w:style w:type="character"
@@ -15000,7 +14882,6 @@
                             w:hAnsi="Liberation Serif"
                             w:cs="Liberation Serif"/>
                   <w:color w:val="00000A"/>
-                  <w:lang w:val="fi-FI"/>
                </w:rPr>
             </w:style>
             <w:style w:type="paragraph" w:customStyle="1" w:styleId="TableContents">
@@ -15015,7 +14896,6 @@
                <w:rPr>
                   <w:rFonts w:cs="Liberation Serif"/>
                   <w:color w:val="00000A"/>
-                  <w:lang w:val="fi-FI"/>
                </w:rPr>
             </w:style>
             <w:style w:type="character" w:customStyle="1" w:styleId="InternetLink">
@@ -15057,7 +14937,6 @@
                </w:pPr>
                <w:rPr>
                   <w:rFonts w:cs="Times New Roman"/>
-                  <w:lang w:eastAsia="en-US"/>
                </w:rPr>
             </w:style>
             <w:style w:type="table" w:styleId="TableGrid">
@@ -15067,7 +14946,6 @@
                <w:rsid w:val="00867D48"/>
                <w:rPr>
                   <w:rFonts w:ascii="Calibri" w:eastAsia="DengXian" w:hAnsi="Calibri"/>
-                  <w:lang w:val="en-US" w:eastAsia="en-US"/>
                </w:rPr>
                <w:tblPr>
                   <w:tblBorders>
@@ -15105,7 +14983,6 @@
                             w:hAnsi="Times New Roman"
                             w:cs="Times New Roman"/>
                   <w:color w:val="auto"/>
-                  <w:lang w:eastAsia="en-US"/>
                </w:rPr>
             </w:style>
             <w:style w:type="paragraph" w:customStyle="1" w:styleId="AuthorName">
@@ -15140,7 +15017,6 @@
                   <w:rFonts w:eastAsia="DengXian"/>
                   <w:b/>
                   <w:sz w:val="22"/>
-                  <w:lang w:eastAsia="en-US"/>
                </w:rPr>
             </w:style>
             <w:style w:type="paragraph" w:customStyle="1" w:styleId="TableCaption">
@@ -15201,7 +15077,6 @@
                <w:rPr>
                   <w:rFonts w:ascii="Arial" w:hAnsi="Arial"/>
                   <w:sz w:val="20"/>
-                  <w:lang w:val="en-US" w:eastAsia="en-US"/>
                </w:rPr>
             </w:style>
             <w:style w:type="paragraph"
@@ -15218,7 +15093,6 @@
                   <w:rFonts w:ascii="MinionPro-Regular"
                             w:hAnsi="MinionPro-Regular"
                             w:cs="MinionPro-Regular"/>
-                  <w:lang w:val="nb-NO"/>
                </w:rPr>
             </w:style>
             <w:style w:type="paragraph" w:customStyle="1" w:styleId="BodyText1">
@@ -15235,7 +15109,6 @@
                             w:hAnsi="Liberation Serif"
                             w:cs="Liberation Serif"/>
                   <w:color w:val="00000A"/>
-                  <w:lang w:val="fi-FI"/>
                </w:rPr>
             </w:style>
             <w:style w:type="paragraph" w:styleId="FootnoteText">
@@ -15251,7 +15124,6 @@
                <w:rPr>
                   <w:sz w:val="16"/>
                   <w:szCs w:val="16"/>
-                  <w:lang w:val="de-DE"/>
                </w:rPr>
             </w:style>
             <w:style w:type="character" w:customStyle="1" w:styleId="FootnoteTextChar">
@@ -15265,7 +15137,6 @@
                   <w:color w:val="000000"/>
                   <w:sz w:val="16"/>
                   <w:szCs w:val="16"/>
-                  <w:lang w:val="de-DE"/>
                </w:rPr>
             </w:style>
             <w:style w:type="character" w:customStyle="1" w:styleId="HeaderChar">
@@ -15276,7 +15147,6 @@
                <w:rPr>
                   <w:rFonts w:ascii="Arial" w:hAnsi="Arial"/>
                   <w:color w:val="000000"/>
-                  <w:lang w:val="en-US"/>
                </w:rPr>
             </w:style>
             <w:style w:type="character" w:customStyle="1" w:styleId="Heading6Char">
@@ -15287,7 +15157,6 @@
                <w:rPr>
                   <w:b/>
                   <w:u w:val="single"/>
-                  <w:lang w:val="en-US"/>
                </w:rPr>
             </w:style>
             <w:style w:type="character" w:customStyle="1" w:styleId="Heading7Char">
@@ -15307,7 +15176,6 @@
                <w:rsid w:val="00A41862"/>
                <w:rPr>
                   <w:b/>
-                  <w:lang w:val="en-US"/>
                </w:rPr>
             </w:style>
             <w:style w:type="character" w:customStyle="1" w:styleId="Heading9Char">
@@ -15317,7 +15185,6 @@
                <w:rsid w:val="00A41862"/>
                <w:rPr>
                   <w:b/>
-                  <w:lang w:val="en-US"/>
                </w:rPr>
             </w:style>
             <w:style w:type="paragraph" w:customStyle="1" w:styleId="Normaali1">
@@ -15332,7 +15199,6 @@
                   <w:rFonts w:ascii="ArialMT" w:hAnsi="ArialMT" w:cs="ArialMT"/>
                   <w:sz w:val="22"/>
                   <w:szCs w:val="22"/>
-                  <w:lang w:val="en-US"/>
                </w:rPr>
             </w:style>
             <w:style w:type="paragraph" w:customStyle="1" w:styleId="Seminar-citation">
@@ -15353,7 +15219,6 @@
                   <w:rFonts w:cs="Times New Roman"/>
                   <w:color w:val="auto"/>
                   <w:sz w:val="18"/>
-                  <w:lang w:val="en-GB" w:eastAsia="en-US"/>
                </w:rPr>
             </w:style>
             <w:style w:type="paragraph" w:customStyle="1" w:styleId="seminar-endnotes">
@@ -15435,7 +15300,6 @@
                   <w:rFonts w:cs="Times New Roman"/>
                   <w:color w:val="auto"/>
                   <w:szCs w:val="20"/>
-                  <w:lang w:eastAsia="en-US"/>
                </w:rPr>
             </w:style>
             <w:style w:type="paragraph" w:customStyle="1" w:styleId="AuthorName0">
@@ -15478,7 +15342,6 @@
                <w:rPr>
                   <w:rFonts w:cs="Times New Roman"/>
                   <w:color w:val="auto"/>
-                  <w:lang w:val="en-GB" w:eastAsia="en-US"/>
                </w:rPr>
             </w:style>
             <w:style w:type="character" w:customStyle="1" w:styleId="Emphasis0">
@@ -15503,7 +15366,6 @@
                   <w:rFonts w:ascii="Arial" w:hAnsi="Arial"/>
                   <w:color w:val="000000"/>
                   <w:sz w:val="22"/>
-                  <w:lang w:val="en-US" w:eastAsia="en-US"/>
                </w:rPr>
             </w:style>
             <w:style w:type="paragraph" w:customStyle="1" w:styleId="FigureCaption0">
@@ -15612,7 +15474,6 @@
                </w:pPr>
                <w:rPr>
                   <w:rFonts w:cs="Times New Roman"/>
-                  <w:lang w:eastAsia="en-US"/>
                </w:rPr>
             </w:style>
             <w:style w:type="paragraph" w:customStyle="1" w:styleId="TableCaption0">
@@ -15660,7 +15521,6 @@
                   <w:b/>
                   <w:bCs/>
                   <w:color w:val="000000"/>
-                  <w:lang w:val="en-US"/>
                </w:rPr>
             </w:style>
             <w:style w:type="paragraph" w:customStyle="1" w:styleId="TableContents0">
@@ -15675,7 +15535,6 @@
                <w:rPr>
                   <w:rFonts w:cs="Liberation Serif"/>
                   <w:color w:val="00000A"/>
-                  <w:lang w:val="fi-FI"/>
                </w:rPr>
             </w:style>
             <w:style w:type="paragraph"
@@ -15693,7 +15552,6 @@
                   <w:rFonts w:eastAsia="DengXian"/>
                   <w:b/>
                   <w:sz w:val="22"/>
-                  <w:lang w:eastAsia="en-US"/>
                </w:rPr>
             </w:style>
             <w:style w:type="paragraph" w:customStyle="1" w:styleId="TableHeaderLeft">
@@ -15719,7 +15577,6 @@
                <w:rPr>
                   <w:rFonts w:ascii="Arial" w:hAnsi="Arial"/>
                   <w:color w:val="000000"/>
-                  <w:lang w:val="en-US" w:eastAsia="en-US"/>
                </w:rPr>
             </w:style>
             <w:style w:type="paragraph"

@@ -818,7 +818,7 @@
 
 	<p:delete match="w:proofErr"/>
 	<p:delete name="remove-bookmarks" match="w:bookmarkStart|w:bookmarkEnd"></p:delete>	
-        <!-- <p:delete name="remove-lang" match="w:lang"/> -->
+        <p:delete name="remove-lang" match="w:lang"/>
 
 	<p:identity name="final"/>
         
