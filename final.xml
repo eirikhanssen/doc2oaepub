@@ -32,7 +32,7 @@
              xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"
              xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing">
    <env>
-      <folder>/home/hanson/projects/doc2jats/samples/Jaana-Piia-Mäkiniemi.docx-20190505-180648</folder>
+      <folder>/home/hanson/projects/doc2jats/samples/Jaana-Piia-Mäkiniemi.docx-20190505-180823</folder>
    </env>
    <pkg:part pkg_name="/_rels/.rels">
       <pkg:xmlData>
@@ -8379,8 +8379,6 @@
                         </wp:anchor>
                      </w:drawing>
                   </w:r>
-                  <w:bookmarkStart w:id="0" w:name="_GoBack"/>
-                  <w:bookmarkEnd w:id="0"/>
                   <w:r>
                      <w:t>** indicates statistical significance at a risk level of 0.01.</w:t>
                   </w:r>
