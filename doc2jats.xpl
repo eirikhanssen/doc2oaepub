@@ -30,7 +30,7 @@
     
     <d2j:formatting/>
 
-    <!-- <d2j:flat-docx-to-html/> -->
+    <d2j:flat-docx-to-html/>
     
     <!-- <d2j:ocf2htmltable/> -->
 

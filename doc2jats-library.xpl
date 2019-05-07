@@ -174,11 +174,11 @@
         
         <p:filter name="document" select="//pkg:part[@pkg_name='/word/document.xml']/pkg:xmlData/w:document"></p:filter>
         
-       
         
-
         
-
+        
+        
+        
         
         <p:identity name="final"/>
     </p:declare-step>
@@ -188,15 +188,7 @@
         <p:serialization port="result" indent="true" method="xml" omit-xml-declaration="true"/>
         <p:input port="source"/>
         <p:input port="parameters" kind="parameter" sequence="true"/>
-
-        <p:wrap match="w:t/text()[parent::w:r[1]/w:rPr/w:b]" wrapper="strong"/>
-        <p:wrap match="w:t/text()[parent::w:r[1]/w:rPr/w:i]" wrapper="em"/>
-<!--        <p:wrap match="w:t" wrapper="T"/>-->
         
-        <!--                        <p:wrap match="w:t/text()[ancestor::w:r[1]/w:rPr/w:vertAlign/@w:val='superscript']]" wrapper="sup"/>-->
-        <!--                        <p:wrap match="w:t[parent::w:r[w:rPr/w:vertAlign/@w:val='subscript']]//text()" wrapper="sub"/>-->
-        <!--                        <p:wrap match="w:t[parent::w:r[w:rPr[w:i]]]//text()" wrapper="em"/>-->
-
         <p:xslt name="translate-to-html-elements" version="2.0">
             <p:input port="source"/>
             <p:input port="parameters"/>
@@ -209,52 +201,38 @@
                         <xsl:import href="doc2jats-functions.xsl"/>
                         <xsl:strip-space elements="*"/>
                         
-
-                        
-<!--                        <xsl:template match="w:r"><xsl:apply-templates/></xsl:template>-->
-                        
-                        <xsl:template match="w:r">
-                            <xsl:choose>
-                                <xsl:when test=".[w:rPr[w:i][w:b]]">
-                                    <strong><em><xsl:apply-templates/></em></strong>
-                                </xsl:when>
-                                <xsl:when test=".[w:rPr[w:i]]">
-                                    <em><xsl:apply-templates/></em>
-                                </xsl:when>
-                                <xsl:when test=".[w:rPr[w:b]]">
-                                    <strong><xsl:apply-templates/></strong>
-                                </xsl:when>
-                                <xsl:when test=".[w:rPr/w:rStyle]">
-                                    <xsl:variable name="styleId" select="w:rPr/w:rStyle/@styleId"/>
-                                    <xsl:choose>
-                                        <xsl:when test="matches($styleId, '(^Emphasis)')"><em><xsl:apply-templates/></em></xsl:when>
-                                        <xsl:when test="matches($styleId, '(^TableCaption)')"><strong><xsl:apply-templates/></strong></xsl:when>
-                                        <xsl:otherwise><span class="{./w:rPr/w:rStyle/@w:val}"><xsl:apply-templates/></span></xsl:otherwise>
-                                    </xsl:choose>
-                                </xsl:when>
-                                <xsl:otherwise><xsl:apply-templates/></xsl:otherwise>
-                            </xsl:choose>
-                        </xsl:template>
-                        
-                        <xsl:template match="w:t"><xsl:apply-templates/></xsl:template>
+                        <xsl:template match="w:r|w:t"><xsl:apply-templates/></xsl:template>
                         
                         <xsl:template match="w:p">
-                            <xsl:element name="p">
-                                <xsl:if test="w:pPr/w:pStyle/@w:val">
+                            <xsl:choose>
+                                <xsl:when test="w:pPr/w:pStyle/@w:val">
                                     <xsl:variable name="styleId" select="w:pPr/w:pStyle/@w:val"/>
-                                    <!--                                    <xsl:variable name="currentstyle" select="./ancestor::pkg:package/pkg:part/pkg:xmlData/w:styles/w:style[@styleId = $styleId]"/>-->
                                     <xsl:variable name="currentstyle" select="./ancestor::pkg:package/pkg:part/pkg:xmlData/w:styles/w:style[@w:styleId = $styleId]"/>
-                                    <!--                                    <xsl:variable name="stylename" select="$currentstyle/w:name/@w:val"/>-->
-                                    <xsl:variable name="stylename" select="$currentstyle/w:name/@w:val"/>
-                                    <xsl:attribute name="styleId" select="$styleId"/>
-                                    <xsl:attribute name="stylename" select="$stylename"/>
-                                    <xsl:if test="$currentstyle/w:pPr/w:outlineLvl">
-                                        <xsl:variable name="outlinelvl" select="$currentstyle/w:pPr/w:outlineLvl/@w:val"/>
-                                        <xsl:attribute name="outlinelvl" select="$outlinelvl"/>
-                                    </xsl:if>
-                                </xsl:if>
-                                <xsl:apply-templates/>
-                            </xsl:element>
+                                    <xsl:variable name="styleName" select="$currentstyle/w:name/@w:val"/>
+                                    <xsl:variable name="styleId" select="$styleId"/>
+                                    <xsl:variable name="styleName" select="$styleName"/>
+                                    <xsl:variable name="outlinelvl" select="$currentstyle/w:pPr/w:outlineLvl/@w:val"/>
+                                    
+                                    <xsl:variable name="el_name">
+                                        <xsl:choose>
+                                            <xsl:when test="$outlinelvl"><xsl:value-of select="concat('h' , $outlinelvl+1)"/></xsl:when>
+                                            <xsl:otherwise>p</xsl:otherwise>
+                                        </xsl:choose>
+                                    </xsl:variable>
+                                    
+                                    <xsl:element name="{$el_name}">
+                                        <xsl:if test="not(matches($el_name, '^h'))">
+                                            <xsl:attribute name="styleId" select="$styleId"/>
+                                            <xsl:attribute name="styleName" select="$styleName"/>
+                                        </xsl:if>
+                                        <xsl:apply-templates/>
+                                    </xsl:element>				    
+                                </xsl:when>
+                                <xsl:otherwise>
+                                    <p><xsl:apply-templates/></p>
+                                </xsl:otherwise>
+                            </xsl:choose>
+                            
                         </xsl:template>
                         
                         <xsl:template match="w:p[w:pPr/w:numPr]">
@@ -271,8 +249,6 @@
                         </xsl:template>
                         
                         <xsl:template match="w:p/w:pPr"/>
-                        
-                        
                         
                         <!-- translate paragraph elements depending on style name -->
                         <!--
@@ -297,7 +273,7 @@
         </p:xslt>
         
         
-        <p:xslt name="resolve-ems" version="2.0">
+        <p:xslt name="rename-elements-based-on-styleId-and-outline-lvl" version="2.0">
             <p:input port="source"/>
             <p:input port="parameters"/>
             <p:input port="stylesheet">
@@ -309,47 +285,27 @@
                         <xsl:import href="doc2jats-functions.xsl"/>
                         <xsl:strip-space elements="*"/>
                         
-                       <xsl:template match="span[matches(@class, '^ReferenceSource')]">
-                           <em><xsl:apply-templates/></em>
-                       </xsl:template>
-                                              
-                    </xsl:stylesheet>
-                </p:inline>
-            </p:input>
-        </p:xslt>
-        
-        
-        
-        
-        <p:xslt name="rename-elements" version="2.0">
-            <p:input port="source"/>
-            <p:input port="parameters"/>
-            <p:input port="stylesheet">
-                <p:inline>
-                    <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-                        xmlns:f="https://eirikhanssen.com/ns/doc2jats-functions"
-                        version="2.0"
-                        exclude-result-prefixes="f">
-                        <xsl:import href="doc2jats-functions.xsl"/>
-                        <xsl:strip-space elements="*"/>
+                        <!-- <xsl:template match="p[matches(@styleId , '^Keywords')]"> -->
+                        <!--     <dl class="keywords"> -->
+                        <!--         <dt><xsl:apply-templates select="span"/></dt> -->
+                        <!--         <xsl:variable name="keywords" select="normalize-space(string-join(span/following-sibling::text(), ' '))"/> -->
+                        <!--         <xsl:analyze-string select="$keywords" regex="\s*,\s*|\s*;\s*"> -->
+                        <!--             <xsl:matching-substring/> -->
+                        <!--             <xsl:non-matching-substring><dd><xsl:value-of select="normalize-space(.)"/></dd></xsl:non-matching-substring> -->
+                        <!--         </xsl:analyze-string> -->
+                        <!--     </dl> -->
+                        <!-- </xsl:template> -->
                         
-                        <xsl:template match="p[@outlinelvl]">
-                            <xsl:variable name="elementName" select="concat('h' , @outlinelvl+1)"/>
-                            <xsl:element name="{$elementName}">
-                                <xsl:apply-templates select="@*|node()"/>
-                            </xsl:element>
-                        </xsl:template>
-                        
-                        <xsl:template match="p[matches(@styleId , '^Keywords')]">
-                            <dl class="keywords">
-                                <dt><xsl:apply-templates select="span"/></dt>
-                                <xsl:variable name="keywords" select="normalize-space(string-join(span/following-sibling::text(), ' '))"/>
-                                <xsl:analyze-string select="$keywords" regex="\s*,\s*|\s*;\s*">
-                                    <xsl:matching-substring/>
-                                    <xsl:non-matching-substring><dd><xsl:value-of select="normalize-space(.)"/></dd></xsl:non-matching-substring>
-                                </xsl:analyze-string>
-                            </dl>
-                        </xsl:template>
+                        <!-- <xsl:template match="p[matches(@styleId , '^Keywords')]"> -->
+                        <!--     <dl class="keywords"> -->
+                        <!--         <dt><xsl:apply-templates select="span"/></dt> -->
+                        <!--         <xsl:variable name="keywords" select="normalize-space(string-join(span/following-sibling::text(), ' '))"/> -->
+                        <!--         <xsl:analyze-string select="$keywords" regex="\s*,\s*|\s*;\s*"> -->
+                        <!--             <xsl:matching-substring/> -->
+                        <!--             <xsl:non-matching-substring><dd><xsl:value-of select="normalize-space(.)"/></dd></xsl:non-matching-substring> -->
+                        <!--         </xsl:analyze-string> -->
+                        <!--     </dl> -->
+                        <!-- </xsl:template> -->
                         
                         <xsl:template match="p[@styleId][matches(@styleId,'^Reference')]">
                             <p class="ref">
@@ -388,7 +344,7 @@
                             </figure>
                         </xsl:template>
                         
-<!--                        <xsl:template match="p[preceding-sibling::p[1][w:drawing]]"/>-->
+                        <!--                        <xsl:template match="p[preceding-sibling::p[1][w:drawing]]"/>-->
                     </xsl:stylesheet>
                 </p:inline>
             </p:input>
@@ -473,12 +429,12 @@
                         
                         <xsl:template match="w:tr[1]">
                             <thead>
-                            <tr>
-                                <xsl:attribute name="data-rid" select="generate-id(.)"/>
-                                <!-- Apply template to cells which are not merged -->
-                                <xsl:apply-templates select="w:trPr|w:tc[not(w:tcPr/w:vMerge[not(@w:val='restart')])]">
-                                </xsl:apply-templates>
-                            </tr>
+                                <tr>
+                                    <xsl:attribute name="data-rid" select="generate-id(.)"/>
+                                    <!-- Apply template to cells which are not merged -->
+                                    <xsl:apply-templates select="w:trPr|w:tc[not(w:tcPr/w:vMerge[not(@w:val='restart')])]">
+                                    </xsl:apply-templates>
+                                </tr>
                             </thead>
                         </xsl:template>
                         
@@ -632,7 +588,7 @@
                         xmlns:xs="http://www.w3.org/2001/XMLSchema"
                         xmlns:xhtml="http://www.w3.org/1999/xhtml"
                         xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"
-
+                        
                         exclude-result-prefixes="xs w xhtml"
                         version="2.0">
                         
@@ -686,9 +642,9 @@
                             <figcaption><xsl:apply-templates mode="figcaption" select="parent::figure/following-sibling::p[matches(@styleId, '^FigureCaption')]"></xsl:apply-templates></figcaption>
                         </xsl:template>    
                         
-                      <xsl:template mode="figcaption" match="p[matches(@styleId, '^FigureCaption')]"><p><xsl:apply-templates/></p></xsl:template>
-                          
-                      <xsl:template match="p[matches(@styleId, '^FigureCaption')]"/>
+                        <xsl:template mode="figcaption" match="p[matches(@styleId, '^FigureCaption')]"><p><xsl:apply-templates/></p></xsl:template>
+                        
+                        <xsl:template match="p[matches(@styleId, '^FigureCaption')]"/>
                         
                     </xsl:stylesheet>
                 </p:inline>
@@ -802,34 +758,34 @@
         
         <p:wrap match="text()[ancestor::w:r[1]/w:rPr/w:b]" wrapper="strong"></p:wrap>
         <p:wrap match="text()[ancestor::w:r[1]/w:rPr/w:i]" wrapper="em"></p:wrap>
-	<p:wrap match="text()[ancestor::w:r[1]/w:rPr/w:rStyle[matches(@w:val, '^(ReferenceSource)|(Emphasis)')]][not(ancestor::em)]" wrapper="em"></p:wrap>
+        <p:wrap match="text()[ancestor::w:r[1]/w:rPr/w:rStyle[matches(@w:val, '^(ReferenceSource)|(Emphasis)')]][not(ancestor::em)]" wrapper="em"></p:wrap>
         <p:wrap match="text()[ancestor::w:r[1]/w:rPr/w:vertAlign/@w:val='superscript']" wrapper="sup"></p:wrap>
         <p:wrap match="text()[ancestor::w:r[1]/w:rPr/w:vertAlign/@w:val='subscript']" wrapper="sub"></p:wrap>
-
-	<p:replace match="w:p//w:tab">
-	    <p:input port="replacement">
-		<p:inline>
-		    <w:t xml:space="preserve">	</w:t>
-		</p:inline>
-	    </p:input>
-	</p:replace>
-
-	<p:identity name="final"/>
+        
+        <p:replace match="w:p//w:tab">
+            <p:input port="replacement">
+                <p:inline>
+                    <w:t xml:space="preserve">	</w:t>
+                </p:inline>
+            </p:input>
+        </p:replace>
+        
+        <p:identity name="final"/>
         
     </p:declare-step>
-
+    
     <p:declare-step type="d2j:delete-needless-markup" name="delete-needless-markup">
         <p:output port="result" sequence="true"/>
         <p:serialization port="result" indent="true" method="xml" omit-xml-declaration="true"/>
         <p:input port="source"/>
         <p:input port="parameters" kind="parameter" sequence="true"/>
-
-	<p:delete match="w:proofErr"/>
-	<p:delete name="remove-bookmarks" match="w:bookmarkStart|w:bookmarkEnd"></p:delete>	
+        
+        <p:delete match="w:proofErr"/>
+        <p:delete name="remove-bookmarks" match="w:bookmarkStart|w:bookmarkEnd"></p:delete>	
         <p:delete name="remove-lang" match="w:lang"/>
-
-	<p:identity name="final"/>
+        
+        <p:identity name="final"/>
         
     </p:declare-step>
-
-  </p:library>
+    
+</p:library>
