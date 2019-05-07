@@ -32,7 +32,9 @@
 
     <d2j:flat-docx-to-html/>
     
-    <!-- <d2j:ocf2htmltable/> -->
+    <d2j:translate-ocftable-to-htmltable/> 
+    
+    <!-- <d2j:restructure-tables/> -->
 
     <!-- <d2j:group-lists/> -->
     
@@ -42,7 +44,7 @@
     
     <!-- <d2j:figures/> -->
     
-    <!-- <d2j:restructure-tables/> -->
+
     
     <!-- <d2j:cleanup/> -->
     

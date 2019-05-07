@@ -174,12 +174,6 @@
         
         <p:filter name="document" select="//pkg:part[@pkg_name='/word/document.xml']/pkg:xmlData/w:document"></p:filter>
         
-        
-        
-        
-        
-        
-        
         <p:identity name="final"/>
     </p:declare-step>
     
@@ -266,7 +260,7 @@
                             </xsl:template>
                             
                         -->
-                        
+                         
                     </xsl:stylesheet>
                 </p:inline>
             </p:input>
@@ -330,12 +324,6 @@
                             </a>
                         </xsl:template>
                         
-                        
-                        
-                        <!--<xsl:template match="span[not(node()|text())]"><xsl:text> </xsl:text></xsl:template>-->
-                        
-<!--                        <xsl:template match="span[matches(@class,'^Emphasis.*')]"><em><xsl:apply-templates/></em></xsl:template>-->
-                        
                         <xsl:template match="p[w:drawing]">
                             <xsl:variable name="alt" select="w:drawing/wp:inline/wp:docPr/@descr"/>
                             <figure>
@@ -344,19 +332,17 @@
                             </figure>
                         </xsl:template>
                         
-                        <!--                        <xsl:template match="p[preceding-sibling::p[1][w:drawing]]"/>-->
                     </xsl:stylesheet>
                 </p:inline>
             </p:input>
         </p:xslt>
-        
         
         <p:delete match="w:rPr|w:spacing|w:lastRenderedPageBreak"/>
         
         <p:identity name="final"/>
     </p:declare-step>
     
-    <p:declare-step type="d2j:ocf2htmltable">
+    <p:declare-step type="d2j:translate-ocftable-to-htmltable">
         <p:output port="result" sequence="true"/>
         <p:serialization port="result" indent="true" method="xml" omit-xml-declaration="true"/>
         <p:input port="source"/>
@@ -605,7 +591,6 @@
                                 </xsl:otherwise>
                             </xsl:choose>
                             
-                            
                         </xsl:template>
                         
                     </xsl:stylesheet>
@@ -614,7 +599,6 @@
         </p:xslt>
         
     </p:declare-step>
-    
     
     <p:declare-step type="d2j:figures">
         <p:output port="result" sequence="true"/>
@@ -743,12 +727,6 @@
         </p:xslt>
         
     </p:declare-step>
-    
-    
-    
-    
-    
-    
     
     <p:declare-step type="d2j:formatting" name="formatting">
         <p:output port="result" sequence="true"/>
