@@ -32,7 +32,7 @@
 
     <d2j:flat-docx-to-html/>
     
-    <d2j:translate-ocftable-to-htmltable/> 
+    <d2j:translate-ocftable-to-initial-htmltable/> 
     
     <!-- <d2j:restructure-tables/> -->
 
