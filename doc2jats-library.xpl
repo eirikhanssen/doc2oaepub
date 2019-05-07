@@ -273,7 +273,7 @@
         </p:xslt>
         
         
-        <p:xslt name="rename-elements-based-on-styleId-and-outline-lvl" version="2.0">
+        <p:xslt name="rename-elements-based-on-styleId-and-other-criteria" version="2.0">
             <p:input port="source"/>
             <p:input port="parameters"/>
             <p:input port="stylesheet">
@@ -285,27 +285,27 @@
                         <xsl:import href="doc2jats-functions.xsl"/>
                         <xsl:strip-space elements="*"/>
                         
-                        <!-- <xsl:template match="p[matches(@styleId , '^Keywords')]"> -->
-                        <!--     <dl class="keywords"> -->
-                        <!--         <dt><xsl:apply-templates select="span"/></dt> -->
-                        <!--         <xsl:variable name="keywords" select="normalize-space(string-join(span/following-sibling::text(), ' '))"/> -->
-                        <!--         <xsl:analyze-string select="$keywords" regex="\s*,\s*|\s*;\s*"> -->
-                        <!--             <xsl:matching-substring/> -->
-                        <!--             <xsl:non-matching-substring><dd><xsl:value-of select="normalize-space(.)"/></dd></xsl:non-matching-substring> -->
-                        <!--         </xsl:analyze-string> -->
-                        <!--     </dl> -->
-                        <!-- </xsl:template> -->
-                        
-                        <!-- <xsl:template match="p[matches(@styleId , '^Keywords')]"> -->
-                        <!--     <dl class="keywords"> -->
-                        <!--         <dt><xsl:apply-templates select="span"/></dt> -->
-                        <!--         <xsl:variable name="keywords" select="normalize-space(string-join(span/following-sibling::text(), ' '))"/> -->
-                        <!--         <xsl:analyze-string select="$keywords" regex="\s*,\s*|\s*;\s*"> -->
-                        <!--             <xsl:matching-substring/> -->
-                        <!--             <xsl:non-matching-substring><dd><xsl:value-of select="normalize-space(.)"/></dd></xsl:non-matching-substring> -->
-                        <!--         </xsl:analyze-string> -->
-                        <!--     </dl> -->
-                        <!-- </xsl:template> -->
+                         <xsl:template match="p[matches(@styleId , '^Keywords')]">
+                             <xsl:variable name="textcontent"><xsl:apply-templates select=".//text()"/></xsl:variable>
+                             <dl class="keywords">
+                                 <xsl:analyze-string select="$textcontent" regex="^Keywords *([.:])">
+                                     <xsl:matching-substring>
+                                         <dt><xsl:value-of select="."/></dt>
+                                     </xsl:matching-substring>
+                                     <xsl:non-matching-substring>
+                                         <xsl:variable name="list-of-keywords" select="normalize-space(.)"/>
+                                         <xsl:analyze-string select="$list-of-keywords" regex=" *, *">
+                                             <xsl:matching-substring/>
+                                             <xsl:non-matching-substring>
+                                                 <xsl:variable name="keyword-item" select="."/>
+                                                 <dd><xsl:value-of select="$keyword-item"/></dd>
+                                             </xsl:non-matching-substring>
+                                         </xsl:analyze-string>
+                                     </xsl:non-matching-substring>
+                                 </xsl:analyze-string>
+                             </dl>
+
+                         </xsl:template> 
                         
                         <xsl:template match="p[@styleId][matches(@styleId,'^Reference')]">
                             <p class="ref">
@@ -330,11 +330,11 @@
                             </a>
                         </xsl:template>
                         
-                        <xsl:template match="span[@class='Keywords--label']"><xsl:apply-templates/></xsl:template>
                         
-                        <xsl:template match="span[not(node()|text())]"><xsl:text> </xsl:text></xsl:template>
                         
-                        <xsl:template match="span[matches(@class,'^Emphasis.*')]"><em><xsl:apply-templates/></em></xsl:template>
+                        <!--<xsl:template match="span[not(node()|text())]"><xsl:text> </xsl:text></xsl:template>-->
+                        
+<!--                        <xsl:template match="span[matches(@class,'^Emphasis.*')]"><em><xsl:apply-templates/></em></xsl:template>-->
                         
                         <xsl:template match="p[w:drawing]">
                             <xsl:variable name="alt" select="w:drawing/wp:inline/wp:docPr/@descr"/>
