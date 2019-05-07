@@ -34,7 +34,7 @@
     
     <d2j:translate-ocftable-to-initial-htmltable/> 
     
-    <!-- <d2j:restructure-tables/> -->
+    <d2j:restructure-tables/> 
 
     <!-- <d2j:group-lists/> -->
     

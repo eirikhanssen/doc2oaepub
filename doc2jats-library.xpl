@@ -431,7 +431,18 @@
         <p:input port="source"/>
         <p:input port="parameters" kind="parameter" sequence="true"/>
         
-        <p:xslt name="restructure-tables-xsl" version="2.0">
+        <p:rename match="td[p[matches(@styleId, '^TableHeader')]]" new-name="th"/>
+
+	<p:add-attribute match="th[p[matches(@styleId, 'Center')]]" attribute-name="class" attribute-value="center"/>
+	<p:add-attribute match="th[p[matches(@styleId, 'Left')]]" attribute-name="class" attribute-value="left"/>
+	<p:delete match="tr/@data-rid"/>
+	<p:add-attribute match="td[p[matches(@styleId, 'Narrow')]]" attribute-name="class" attribute-value="narrow"/>
+
+	<p:add-attribute match="tr[ (th[1]/@class != 'center') and (th/@class = 'center') and (every $th in th[position() &gt; 1] satisfies $th/@class = 'center') ]" attribute-name="class" attribute-value="left-center"/>
+
+	<p:add-attribute match="tr[ (every $th in th satisfies $th/@class = 'center') ]" attribute-name="class" attribute-value="center"/>
+
+        <!--<p:xslt name="restructure-tables-xsl" version="2.0">
             <p:input port="source"/>
             <p:input port="parameters"/>
             <p:input port="stylesheet">
@@ -479,7 +490,7 @@
                                 <xsl:variable name="first-class" select="th[1]/p/@styleId"/>
                                 <xsl:variable name="following-classes" select="th[position() &gt; 1]/p/@styleId"/>
                                 <xsl:variable name="class">
-                                    <!--<xsl:value-of select="if (every $c in $first-class satisfies (matches($c, 'Left'))) then 'left' else 'something else'"/>-->
+                                    <!-\-<xsl:value-of select="if (every $c in $first-class satisfies (matches($c, 'Left'))) then 'left' else 'something else'"/>-\->
                                     <xsl:value-of select="if (every $cfirst in $first-class satisfies (matches($cfirst, 'Left'))) then 
                                         if (every $cfollowing in $following-classes satisfies (matches($cfollowing, 'Center'))) then 
                                         'left-center' 
@@ -500,7 +511,7 @@
                     </xsl:stylesheet>
                 </p:inline>
             </p:input>
-        </p:xslt>
+        </p:xslt>-->
         
     </p:declare-step>
     

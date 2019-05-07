@@ -32,7 +32,7 @@
              xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"
              xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing">
    <env>
-      <folder>/home/hanson/projects/doc2jats/samples/Jaana-Piia-Mäkiniemi.docx-20190507-145150</folder>
+      <folder>/home/hanson/projects/doc2jats/samples/Jaana-Piia-Mäkiniemi.docx-20190507-195231</folder>
    </env>
    <pkg:part pkg_name="/_rels/.rels">
       <pkg:xmlData>
@@ -339,336 +339,336 @@
                </p>
                <p styleId="TableCaption0" styleName="[Table Caption]">Table 1. Descriptive statistics for the study variables (n = 180).</p>
                <table>
-                  <tr data-rid="d74e269">
-                     <th>
+                  <tr class="left-center">
+                     <th class="left">
                         <p styleId="TableHeaderLeft" styleName="[Table Header Left]"/>
                      </th>
-                     <th colspan="2">
+                     <th class="center" colspan="2">
                         <p styleId="TableHeaderCentered" styleName="[Table Header Centered]">All</p>
                      </th>
-                     <th colspan="2">
+                     <th class="center" colspan="2">
                         <p styleId="TableHeaderCentered" styleName="[Table Header Centered]">Female</p>
                         <p styleId="TableHeaderCentered" styleName="[Table Header Centered]">(n = 137)</p>
                      </th>
-                     <th colspan="2">
+                     <th class="center" colspan="2">
                         <p styleId="TableHeaderCentered" styleName="[Table Header Centered]">Male</p>
                         <p styleId="TableHeaderCentered" styleName="[Table Header Centered]">(n = 43)</p>
                      </th>
-                     <th colspan="2">
+                     <th class="center" colspan="2">
                         <p styleId="TableHeaderCentered" styleName="[Table Header Centered]">Class teacher</p>
                         <p styleId="TableHeaderCentered" styleName="[Table Header Centered]">(n = 94)</p>
                      </th>
-                     <th colspan="2">
+                     <th class="center" colspan="2">
                         <p styleId="TableHeaderCentered" styleName="[Table Header Centered]">Subject teacher</p>
                         <p styleId="TableHeaderCentered" styleName="[Table Header Centered]">(n = 78)</p>
                      </th>
-                     <th colspan="2">
+                     <th class="center" colspan="2">
                         <p styleId="TableHeaderCentered" styleName="[Table Header Centered]">Principal</p>
                         <p styleId="TableHeaderCentered" styleName="[Table Header Centered]">(n = 8)</p>
                      </th>
                   </tr>
-                  <tr data-rid="d74e399">
-                     <td>
+                  <tr class="left-center">
+                     <th class="left">
                         <p styleId="TableHeaderLeft" styleName="[Table Header Left]"/>
-                     </td>
-                     <td>
+                     </th>
+                     <th class="center">
                         <p styleId="TableHeaderCentered" styleName="[Table Header Centered]">M</p>
-                     </td>
-                     <td>
+                     </th>
+                     <th class="center">
                         <p styleId="TableHeaderCentered" styleName="[Table Header Centered]">SD</p>
-                     </td>
-                     <td>
+                     </th>
+                     <th class="center">
                         <p styleId="TableHeaderCentered" styleName="[Table Header Centered]">M</p>
-                     </td>
-                     <td>
+                     </th>
+                     <th class="center">
                         <p styleId="TableHeaderCentered" styleName="[Table Header Centered]">SD</p>
-                     </td>
-                     <td>
+                     </th>
+                     <th class="center">
                         <p styleId="TableHeaderCentered" styleName="[Table Header Centered]">M</p>
-                     </td>
-                     <td>
+                     </th>
+                     <th class="center">
                         <p styleId="TableHeaderCentered" styleName="[Table Header Centered]">SD</p>
-                     </td>
-                     <td>
+                     </th>
+                     <th class="center">
                         <p styleId="TableHeaderCentered" styleName="[Table Header Centered]">M</p>
-                     </td>
-                     <td>
+                     </th>
+                     <th class="center">
                         <p styleId="TableHeaderCentered" styleName="[Table Header Centered]">SD</p>
-                     </td>
-                     <td>
+                     </th>
+                     <th class="center">
                         <p styleId="TableHeaderCentered" styleName="[Table Header Centered]">M</p>
-                     </td>
-                     <td>
+                     </th>
+                     <th class="center">
                         <p styleId="TableHeaderCentered" styleName="[Table Header Centered]">SD</p>
-                     </td>
-                     <td>
+                     </th>
+                     <th class="center">
                         <p styleId="TableHeaderCentered" styleName="[Table Header Centered]">M</p>
-                     </td>
-                     <td>
+                     </th>
+                     <th class="center">
                         <p styleId="TableHeaderCentered" styleName="[Table Header Centered]">SD</p>
-                     </td>
+                     </th>
                   </tr>
-                  <tr data-rid="d74e598">
-                     <td>
+                  <tr>
+                     <th class="left">
                         <p styleId="TableHeaderLeft" styleName="[Table Header Left]">1. Techno-work engagement </p>
-                     </td>
-                     <td>
+                     </th>
+                     <td class="narrow">
                         <p styleId="TableContentsCenteredNarrow"
                            styleName="[Table Contents Centered Narrow]">3.93</p>
                      </td>
-                     <td>
+                     <td class="narrow">
                         <p styleId="TableContentsCenteredNarrow"
                            styleName="[Table Contents Centered Narrow]">1.49</p>
                      </td>
-                     <td>
+                     <td class="narrow">
                         <p styleId="TableContentsCenteredNarrow"
                            styleName="[Table Contents Centered Narrow]">3.86</p>
                      </td>
-                     <td>
+                     <td class="narrow">
                         <p styleId="TableContentsCenteredNarrow"
                            styleName="[Table Contents Centered Narrow]">1.46</p>
                      </td>
-                     <td>
+                     <td class="narrow">
                         <p styleId="TableContentsCenteredNarrow"
                            styleName="[Table Contents Centered Narrow]">4.17</p>
                      </td>
-                     <td>
+                     <td class="narrow">
                         <p styleId="TableContentsCenteredNarrow"
                            styleName="[Table Contents Centered Narrow]">1.57</p>
                      </td>
-                     <td>
+                     <td class="narrow">
                         <p styleId="TableContentsCenteredNarrow"
                            styleName="[Table Contents Centered Narrow]">3.75</p>
                      </td>
-                     <td>
+                     <td class="narrow">
                         <p styleId="TableContentsCenteredNarrow"
                            styleName="[Table Contents Centered Narrow]">1.37</p>
                      </td>
-                     <td>
+                     <td class="narrow">
                         <p styleId="TableContentsCenteredNarrow"
                            styleName="[Table Contents Centered Narrow]">3.97</p>
                      </td>
-                     <td>
+                     <td class="narrow">
                         <p styleId="TableContentsCenteredNarrow"
                            styleName="[Table Contents Centered Narrow]">1.54</p>
                      </td>
-                     <td>
+                     <td class="narrow">
                         <p styleId="TableContentsCenteredNarrow"
                            styleName="[Table Contents Centered Narrow]">5.71</p>
                      </td>
-                     <td>
+                     <td class="narrow">
                         <p styleId="TableContentsCenteredNarrow"
                            styleName="[Table Contents Centered Narrow]">1.26</p>
                      </td>
                   </tr>
-                  <tr data-rid="d74e810">
-                     <td>
+                  <tr>
+                     <th class="left">
                         <p styleId="TableHeaderLeft" styleName="[Table Header Left]">2. Technology-related self-efficacy (individual)</p>
-                     </td>
-                     <td>
+                     </th>
+                     <td class="narrow">
                         <p styleId="TableContentsCenteredNarrow"
                            styleName="[Table Contents Centered Narrow]">2.98</p>
                      </td>
-                     <td>
+                     <td class="narrow">
                         <p styleId="TableContentsCenteredNarrow"
                            styleName="[Table Contents Centered Narrow]">1.02</p>
                      </td>
-                     <td>
+                     <td class="narrow">
                         <p styleId="TableContentsCenteredNarrow"
                            styleName="[Table Contents Centered Narrow]">2.79</p>
                      </td>
-                     <td>
+                     <td class="narrow">
                         <p styleId="TableContentsCenteredNarrow"
                            styleName="[Table Contents Centered Narrow]">0.98</p>
                      </td>
-                     <td>
+                     <td class="narrow">
                         <p styleId="TableContentsCenteredNarrow"
                            styleName="[Table Contents Centered Narrow]">3.58</p>
                      </td>
-                     <td>
+                     <td class="narrow">
                         <p styleId="TableContentsCenteredNarrow"
                            styleName="[Table Contents Centered Narrow]">0.89</p>
                      </td>
-                     <td>
+                     <td class="narrow">
                         <p styleId="TableContentsCenteredNarrow"
                            styleName="[Table Contents Centered Narrow]">2.94</p>
                      </td>
-                     <td>
+                     <td class="narrow">
                         <p styleId="TableContentsCenteredNarrow"
                            styleName="[Table Contents Centered Narrow]">1.01</p>
                      </td>
-                     <td>
+                     <td class="narrow">
                         <p styleId="TableContentsCenteredNarrow"
                            styleName="[Table Contents Centered Narrow]">2.97</p>
                      </td>
-                     <td>
+                     <td class="narrow">
                         <p styleId="TableContentsCenteredNarrow"
                            styleName="[Table Contents Centered Narrow]">1.04</p>
                      </td>
-                     <td>
+                     <td class="narrow">
                         <p styleId="TableContentsCenteredNarrow"
                            styleName="[Table Contents Centered Narrow]">3.54</p>
                      </td>
-                     <td>
+                     <td class="narrow">
                         <p styleId="TableContentsCenteredNarrow"
                            styleName="[Table Contents Centered Narrow]">0.75</p>
                      </td>
                   </tr>
-                  <tr data-rid="d74e1022">
-                     <td>
+                  <tr>
+                     <th class="left">
                         <p styleId="TableHeaderLeft" styleName="[Table Header Left]">3. Technology-related collegial support (job)</p>
-                     </td>
-                     <td>
+                     </th>
+                     <td class="narrow">
                         <p styleId="TableContentsCenteredNarrow"
                            styleName="[Table Contents Centered Narrow]">3.83</p>
                      </td>
-                     <td>
+                     <td class="narrow">
                         <p styleId="TableContentsCenteredNarrow"
                            styleName="[Table Contents Centered Narrow]">0.86</p>
                      </td>
-                     <td>
+                     <td class="narrow">
                         <p styleId="TableContentsCenteredNarrow"
                            styleName="[Table Contents Centered Narrow]">3.77</p>
                      </td>
-                     <td>
+                     <td class="narrow">
                         <p styleId="TableContentsCenteredNarrow"
                            styleName="[Table Contents Centered Narrow]">0.89</p>
                      </td>
-                     <td>
+                     <td class="narrow">
                         <p styleId="TableContentsCenteredNarrow"
                            styleName="[Table Contents Centered Narrow]">4.01</p>
                      </td>
-                     <td>
+                     <td class="narrow">
                         <p styleId="TableContentsCenteredNarrow"
                            styleName="[Table Contents Centered Narrow]">0.75</p>
                      </td>
-                     <td>
+                     <td class="narrow">
                         <p styleId="TableContentsCenteredNarrow"
                            styleName="[Table Contents Centered Narrow]">3.80</p>
                      </td>
-                     <td>
+                     <td class="narrow">
                         <p styleId="TableContentsCenteredNarrow"
                            styleName="[Table Contents Centered Narrow]">0.76</p>
                      </td>
-                     <td>
+                     <td class="narrow">
                         <p styleId="TableContentsCenteredNarrow"
                            styleName="[Table Contents Centered Narrow]">3.80</p>
                      </td>
-                     <td>
+                     <td class="narrow">
                         <p styleId="TableContentsCenteredNarrow"
                            styleName="[Table Contents Centered Narrow]">0.99</p>
                      </td>
-                     <td>
+                     <td class="narrow">
                         <p styleId="TableContentsCenteredNarrow"
                            styleName="[Table Contents Centered Narrow]">4.38</p>
                      </td>
-                     <td>
+                     <td class="narrow">
                         <p styleId="TableContentsCenteredNarrow"
                            styleName="[Table Contents Centered Narrow]">0.55</p>
                      </td>
                   </tr>
-                  <tr data-rid="d74e1234">
-                     <td>
+                  <tr>
+                     <th class="left">
                         <p styleId="TableHeaderLeft" styleName="[Table Header Left]">4. Technology-related competence support (job)</p>
-                     </td>
-                     <td>
+                     </th>
+                     <td class="narrow">
                         <p styleId="TableContentsCenteredNarrow"
                            styleName="[Table Contents Centered Narrow]">3.26</p>
                      </td>
-                     <td>
+                     <td class="narrow">
                         <p styleId="TableContentsCenteredNarrow"
                            styleName="[Table Contents Centered Narrow]">0.77</p>
                      </td>
-                     <td>
+                     <td class="narrow">
                         <p styleId="TableContentsCenteredNarrow"
                            styleName="[Table Contents Centered Narrow]">3.21</p>
                      </td>
-                     <td>
+                     <td class="narrow">
                         <p styleId="TableContentsCenteredNarrow"
                            styleName="[Table Contents Centered Narrow]">0.77</p>
                      </td>
-                     <td>
+                     <td class="narrow">
                         <p styleId="TableContentsCenteredNarrow"
                            styleName="[Table Contents Centered Narrow]">3.45</p>
                      </td>
-                     <td>
+                     <td class="narrow">
                         <p styleId="TableContentsCenteredNarrow"
                            styleName="[Table Contents Centered Narrow]">0.76</p>
                      </td>
-                     <td>
+                     <td class="narrow">
                         <p styleId="TableContentsCenteredNarrow"
                            styleName="[Table Contents Centered Narrow]">3.23</p>
                      </td>
-                     <td>
+                     <td class="narrow">
                         <p styleId="TableContentsCenteredNarrow"
                            styleName="[Table Contents Centered Narrow]">0.75</p>
                      </td>
-                     <td>
+                     <td class="narrow">
                         <p styleId="TableContentsCenteredNarrow"
                            styleName="[Table Contents Centered Narrow]">3.23</p>
                      </td>
-                     <td>
+                     <td class="narrow">
                         <p styleId="TableContentsCenteredNarrow"
                            styleName="[Table Contents Centered Narrow]">0.78</p>
                      </td>
-                     <td>
+                     <td class="narrow">
                         <p styleId="TableContentsCenteredNarrow"
                            styleName="[Table Contents Centered Narrow]">4.04</p>
                      </td>
-                     <td>
+                     <td class="narrow">
                         <p styleId="TableContentsCenteredNarrow"
                            styleName="[Table Contents Centered Narrow]">0.58</p>
                      </td>
                   </tr>
-                  <tr data-rid="d74e1446">
-                     <td>
+                  <tr>
+                     <th class="left">
                         <p styleId="TableHeaderLeft" styleName="[Table Header Left]">5. Technology-related autonomy (job)</p>
-                     </td>
-                     <td>
+                     </th>
+                     <td class="narrow">
                         <p styleId="TableContentsCenteredNarrow"
                            styleName="[Table Contents Centered Narrow]">4.09</p>
                      </td>
-                     <td>
+                     <td class="narrow">
                         <p styleId="TableContentsCenteredNarrow"
                            styleName="[Table Contents Centered Narrow]">0.63</p>
                      </td>
-                     <td>
+                     <td class="narrow">
                         <p styleId="TableContentsCenteredNarrow"
                            styleName="[Table Contents Centered Narrow]">4.01</p>
                      </td>
-                     <td>
+                     <td class="narrow">
                         <p styleId="TableContentsCenteredNarrow"
                            styleName="[Table Contents Centered Narrow]">0.60</p>
                      </td>
-                     <td>
+                     <td class="narrow">
                         <p styleId="TableContentsCenteredNarrow"
                            styleName="[Table Contents Centered Narrow]">4.35</p>
                      </td>
-                     <td>
+                     <td class="narrow">
                         <p styleId="TableContentsCenteredNarrow"
                            styleName="[Table Contents Centered Narrow]">0.65</p>
                      </td>
-                     <td>
+                     <td class="narrow">
                         <p styleId="TableContentsCenteredNarrow"
                            styleName="[Table Contents Centered Narrow]">4.05</p>
                      </td>
-                     <td>
+                     <td class="narrow">
                         <p styleId="TableContentsCenteredNarrow"
                            styleName="[Table Contents Centered Narrow]">0.56</p>
                      </td>
-                     <td>
+                     <td class="narrow">
                         <p styleId="TableContentsCenteredNarrow"
                            styleName="[Table Contents Centered Narrow]">4.11</p>
                      </td>
-                     <td>
+                     <td class="narrow">
                         <p styleId="TableContentsCenteredNarrow"
                            styleName="[Table Contents Centered Narrow]">0.70</p>
                      </td>
-                     <td>
+                     <td class="narrow">
                         <p styleId="TableContentsCenteredNarrow"
                            styleName="[Table Contents Centered Narrow]">4.42</p>
                      </td>
-                     <td>
+                     <td class="narrow">
                         <p styleId="TableContentsCenteredNarrow"
                            styleName="[Table Contents Centered Narrow]">0.77</p>
                      </td>
@@ -678,7 +678,7 @@
                <p>The assessment of PLS models is twofold; an acceptable judgement of the outer model allows one to proceed with the inner model evaluation. The outer model is assessed by analysing the reliability and validity of the constructs. Reliability and validity are determined for reflective indicators based on factor loadings, composition reliability (CR), average of variance extracted (AVE) and discriminant validity (Henseler et al., 2009). The estimated loadings of the reflective indicators were all high (0.58–0.92) and statistically significant (see Appendix 1). Statistical significance was achieved by the bootstrap procedure using 5,000 samples. The composite reliability (CR) of constructs can be regarded as more suitable than Cronbach’s alpha when using the PLS method (Hair et al., 2012). CR values indicate the reliability and consistency of constructs (Table 2) (Hair et al., 2011). Convergent validity of constructs is achieved when AVE values are greater than 0.51. Using the Fornell–Larcker criterion to assess the discriminant validity between the constructs, it was determined that the square roots of the AVEs of each construct were larger than the constructs’ correlations with each other (Table 2) (Fornell &amp; Larcker, 1981). </p>
                <p styleId="TableCaption0" styleName="[Table Caption]">Table 2. Construct validity, reliability, discriminant validity, correlations, means and standard deviations for constructs (PLS models, n = 180).</p>
                <table>
-                  <tr data-rid="d74e1682">
+                  <tr>
                      <th>
                         <p styleId="TableHeader" styleName="Table Header"/>
                      </th>
@@ -704,10 +704,10 @@
                         <p styleId="TableHeader" styleName="Table Header">(5)</p>
                      </th>
                   </tr>
-                  <tr data-rid="d74e1806">
-                     <td>
+                  <tr>
+                     <th class="left">
                         <p styleId="TableHeaderLeft" styleName="[Table Header Left]">Technology-related self-efficacy (1)</p>
-                     </td>
+                     </th>
                      <td>
                         <p styleId="TableContents" styleName="Table Contents">0.915</p>
                      </td>
@@ -730,10 +730,10 @@
                         <p styleId="TableContents" styleName="Table Contents"/>
                      </td>
                   </tr>
-                  <tr data-rid="d74e1926">
-                     <td>
+                  <tr>
+                     <th class="left">
                         <p styleId="TableHeaderLeft" styleName="[Table Header Left]">Technology-related collegial support (2)</p>
-                     </td>
+                     </th>
                      <td>
                         <p styleId="TableContents" styleName="Table Contents">0.914</p>
                      </td>
@@ -756,10 +756,10 @@
                         <p styleId="TableContents" styleName="Table Contents"/>
                      </td>
                   </tr>
-                  <tr data-rid="d74e2047">
-                     <td>
+                  <tr>
+                     <th class="left">
                         <p styleId="TableHeaderLeft" styleName="[Table Header Left]">Technology-related autonomy (3)</p>
-                     </td>
+                     </th>
                      <td>
                         <p styleId="TableContents" styleName="Table Contents">0.811</p>
                      </td>
@@ -782,10 +782,10 @@
                         <p styleId="TableContents" styleName="Table Contents"/>
                      </td>
                   </tr>
-                  <tr data-rid="d74e2169">
-                     <td>
+                  <tr>
+                     <th class="left">
                         <p styleId="TableHeaderLeft" styleName="[Table Header Left]">Technology-related competence support (4) </p>
-                     </td>
+                     </th>
                      <td>
                         <p styleId="TableContents" styleName="Table Contents">0.760</p>
                      </td>
@@ -808,10 +808,10 @@
                         <p styleId="TableContents" styleName="Table Contents"/>
                      </td>
                   </tr>
-                  <tr data-rid="d74e2292">
-                     <td>
+                  <tr>
+                     <th class="left">
                         <p styleId="TableHeaderLeft" styleName="[Table Header Left]">Techno-work engagement (5)</p>
-                     </td>
+                     </th>
                      <td>
                         <p styleId="TableContents" styleName="Table Contents">0.949</p>
                      </td>
@@ -834,10 +834,10 @@
                         <p styleId="TableContents" styleName="Table Contents">0.821</p>
                      </td>
                   </tr>
-                  <tr data-rid="d74e2416">
-                     <td>
+                  <tr>
+                     <th class="left">
                         <p styleId="TableHeaderLeft" styleName="[Table Header Left]">Mean</p>
-                     </td>
+                     </th>
                      <td>
                         <p styleId="TableContents" styleName="Table Contents"/>
                      </td>
@@ -860,10 +860,10 @@
                         <p styleId="TableContents" styleName="Table Contents">3.94</p>
                      </td>
                   </tr>
-                  <tr data-rid="d74e2538">
-                     <td>
+                  <tr>
+                     <th class="left">
                         <p styleId="TableHeaderLeft" styleName="[Table Header Left]">SD</p>
-                     </td>
+                     </th>
                      <td>
                         <p styleId="TableContents" styleName="Table Contents"/>
                      </td>
@@ -895,51 +895,51 @@
                <p styleId="TableCaption" styleName="Table Caption">
                   <strong>Table 3.</strong> Standardised path coefficients and t statistics of compared models and effect sizes for Model 2.</p>
                <table>
-                  <tr data-rid="d74e2725">
-                     <th>
+                  <tr class="left-center">
+                     <th class="left">
                         <p styleId="TableHeaderLeft" styleName="[Table Header Left]"/>
                      </th>
-                     <th>
+                     <th class="center">
                         <p styleId="TableHeaderCentered" styleName="[Table Header Centered]">Model 1</p>
                      </th>
-                     <th>
+                     <th class="center">
                         <p styleId="TableHeaderCentered" styleName="[Table Header Centered]"/>
                      </th>
-                     <th>
+                     <th class="center">
                         <p styleId="TableHeaderCentered" styleName="[Table Header Centered]">Model 2</p>
                      </th>
-                     <th>
+                     <th class="center">
                         <p styleId="TableHeaderCentered" styleName="[Table Header Centered]"/>
                      </th>
-                     <th>
+                     <th class="center">
                         <p styleId="TableHeaderCentered" styleName="[Table Header Centered]"/>
                      </th>
                   </tr>
-                  <tr data-rid="d74e2816">
-                     <td>
+                  <tr class="left-center">
+                     <th class="left">
                         <p styleId="TableHeaderLeft" styleName="[Table Header Left]"/>
-                     </td>
-                     <td>
+                     </th>
+                     <th class="center">
                         <p styleId="TableHeaderCentered" styleName="[Table Header Centered]">Path coeff.</p>
-                     </td>
-                     <td>
+                     </th>
+                     <th class="center">
                         <p styleId="TableHeaderCentered" styleName="[Table Header Centered]">t statistic</p>
-                     </td>
-                     <td>
+                     </th>
+                     <th class="center">
                         <p styleId="TableHeaderCentered" styleName="[Table Header Centered]">Path coeff.</p>
-                     </td>
-                     <td>
+                     </th>
+                     <th class="center">
                         <p styleId="TableHeaderCentered" styleName="[Table Header Centered]">t statistic</p>
-                     </td>
-                     <td>
+                     </th>
+                     <th class="center">
                         <p styleId="TableHeaderCentered" styleName="[Table Header Centered]">f<sup>2</sup>
                         </p>
-                     </td>
+                     </th>
                   </tr>
-                  <tr data-rid="d74e2912">
-                     <td>
+                  <tr>
+                     <th class="left">
                         <p styleId="TableHeaderLeft" styleName="[Table Header Left]">Technology-related self-efficacy <w:sym w:font="Wingdings" w:char="F0E0"/> Techno-work engagement</p>
-                     </td>
+                     </th>
                      <td>
                         <p styleId="Ingenavsnittsmal" styleName="[Ingen avsnittsmal]"/>
                      </td>
@@ -956,10 +956,10 @@
                         <p>0.112</p>
                      </td>
                   </tr>
-                  <tr data-rid="d74e3006">
-                     <td>
+                  <tr>
+                     <th class="left">
                         <p styleId="TableHeaderLeft" styleName="[Table Header Left]">Technology-related collegial support <w:sym w:font="Wingdings" w:char="F0E0"/> Techno-work engagement</p>
-                     </td>
+                     </th>
                      <td>
                         <p>-0.009</p>
                      </td>
@@ -976,10 +976,10 @@
                         <p>0.000</p>
                      </td>
                   </tr>
-                  <tr data-rid="d74e3102">
-                     <td>
+                  <tr>
+                     <th class="left">
                         <p styleId="TableHeaderLeft" styleName="[Table Header Left]">Technology-related autonomy <w:sym w:font="Wingdings" w:char="F0E0"/> Techno-work engagement</p>
-                     </td>
+                     </th>
                      <td>
                         <p>0.416**</p>
                      </td>
@@ -996,10 +996,10 @@
                         <p>0.088</p>
                      </td>
                   </tr>
-                  <tr data-rid="d74e3198">
-                     <td>
+                  <tr>
+                     <th class="left">
                         <p styleId="TableHeaderLeft" styleName="[Table Header Left]">Technology-related competence support <w:sym w:font="Wingdings" w:char="F0E0"/> Techno-work engagement</p>
-                     </td>
+                     </th>
                      <td>
                         <p>0.272**</p>
                      </td>
@@ -1016,11 +1016,11 @@
                         <p>0.052</p>
                      </td>
                   </tr>
-                  <tr data-rid="d74e3294">
-                     <td>
+                  <tr>
+                     <th class="left">
                         <p styleId="TableHeaderLeft" styleName="[Table Header Left]">R<sup>2</sup>
                         </p>
-                     </td>
+                     </th>
                      <td>
                         <p>0.33</p>
                      </td>
@@ -1037,11 +1037,11 @@
                         <p/>
                      </td>
                   </tr>
-                  <tr data-rid="d74e3387">
-                     <td>
+                  <tr>
+                     <th class="left">
                         <p styleId="TableHeaderLeft" styleName="[Table Header Left]">Q<sup>2</sup>
                         </p>
-                     </td>
+                     </th>
                      <td>
                         <p>0.20</p>
                      </td>
@@ -1173,21 +1173,21 @@
                <h2>Appendix 1</h2>
                <p>Measurement (outer) model of the constructs. Standardised indicator loadings and respective t-statistics.</p>
                <table>
-                  <tr data-rid="d74e3792">
-                     <th>
+                  <tr>
+                     <th class="left">
                         <p styleId="TableHeaderLeft" styleName="[Table Header Left]"/>
                      </th>
-                     <th>
+                     <th class="left">
                         <p styleId="TableHeaderLeft" styleName="[Table Header Left]">Standardised loading</p>
                      </th>
-                     <th>
+                     <th class="left">
                         <p styleId="TableHeaderLeft" styleName="[Table Header Left]">t-statistic</p>
                      </th>
                   </tr>
-                  <tr data-rid="d74e3840">
-                     <td>
+                  <tr>
+                     <th class="left">
                         <p styleId="TableHeaderLeft" styleName="[Table Header Left]">Techno-work engagement</p>
-                     </td>
+                     </th>
                      <td>
                         <p styleId="TableContentsCentered" styleName="[Table Contents Centered]"/>
                      </td>
@@ -1195,10 +1195,10 @@
                         <p styleId="TableContentsCentered" styleName="[Table Contents Centered]"/>
                      </td>
                   </tr>
-                  <tr data-rid="d74e3886">
-                     <td>
+                  <tr>
+                     <th class="left">
                         <p styleId="TableHeaderLeft" styleName="[Table Header Left]">Techno-work engagement_enthusiastic </p>
-                     </td>
+                     </th>
                      <td>
                         <p styleId="TableContentsCentered" styleName="[Table Contents Centered]">0.800</p>
                      </td>
@@ -1206,10 +1206,10 @@
                         <p styleId="TableContentsCentered" styleName="[Table Contents Centered]">24.316</p>
                      </td>
                   </tr>
-                  <tr data-rid="d74e3934">
-                     <td>
+                  <tr>
+                     <th class="left">
                         <p styleId="TableHeaderLeft" styleName="[Table Header Left]">Techno-work engagement_inspired </p>
-                     </td>
+                     </th>
                      <td>
                         <p styleId="TableContentsCentered" styleName="[Table Contents Centered]">0.860</p>
                      </td>
@@ -1217,10 +1217,10 @@
                         <p styleId="TableContentsCentered" styleName="[Table Contents Centered]">42.206</p>
                      </td>
                   </tr>
-                  <tr data-rid="d74e3982">
-                     <td>
+                  <tr>
+                     <th class="left">
                         <p styleId="TableHeaderLeft" styleName="[Table Header Left]">Techno-work engagement_proud</p>
-                     </td>
+                     </th>
                      <td>
                         <p styleId="TableContentsCentered" styleName="[Table Contents Centered]">0.798</p>
                      </td>
@@ -1228,10 +1228,10 @@
                         <p styleId="TableContentsCentered" styleName="[Table Contents Centered]">24.871</p>
                      </td>
                   </tr>
-                  <tr data-rid="d74e4030">
-                     <td>
+                  <tr>
+                     <th class="left">
                         <p styleId="TableHeaderLeft" styleName="[Table Header Left]">Techno-work engagement_persevere</p>
-                     </td>
+                     </th>
                      <td>
                         <p styleId="TableContentsCentered" styleName="[Table Contents Centered]">0.640</p>
                      </td>
@@ -1239,10 +1239,10 @@
                         <p styleId="TableContentsCentered" styleName="[Table Contents Centered]">11.646</p>
                      </td>
                   </tr>
-                  <tr data-rid="d74e4078">
-                     <td>
+                  <tr>
+                     <th class="left">
                         <p styleId="TableHeaderLeft" styleName="[Table Header Left]">Techno-work engagement_energy</p>
-                     </td>
+                     </th>
                      <td>
                         <p styleId="TableContentsCentered" styleName="[Table Contents Centered]">0.829</p>
                      </td>
@@ -1250,10 +1250,10 @@
                         <p styleId="TableContentsCentered" styleName="[Table Contents Centered]">32.957</p>
                      </td>
                   </tr>
-                  <tr data-rid="d74e4126">
-                     <td>
+                  <tr>
+                     <th class="left">
                         <p styleId="TableHeaderLeft" styleName="[Table Header Left]">Techno-work engagement_vigorous</p>
-                     </td>
+                     </th>
                      <td>
                         <p styleId="TableContentsCentered" styleName="[Table Contents Centered]">0.859</p>
                      </td>
@@ -1261,10 +1261,10 @@
                         <p styleId="TableContentsCentered" styleName="[Table Contents Centered]">40.572</p>
                      </td>
                   </tr>
-                  <tr data-rid="d74e4174">
-                     <td>
+                  <tr>
+                     <th class="left">
                         <p styleId="TableHeaderLeft" styleName="[Table Header Left]">Techno-work engagement_happy immersed</p>
-                     </td>
+                     </th>
                      <td>
                         <p styleId="TableContentsCentered" styleName="[Table Contents Centered]">0.875</p>
                      </td>
@@ -1272,10 +1272,10 @@
                         <p styleId="TableContentsCentered" styleName="[Table Contents Centered]">43.634</p>
                      </td>
                   </tr>
-                  <tr data-rid="d74e4223">
-                     <td>
+                  <tr>
+                     <th class="left">
                         <p styleId="TableHeaderLeft" styleName="[Table Header Left]">Techno-work engagement_immersed </p>
-                     </td>
+                     </th>
                      <td>
                         <p styleId="TableContentsCentered" styleName="[Table Contents Centered]">0.821</p>
                      </td>
@@ -1283,10 +1283,10 @@
                         <p styleId="TableContentsCentered" styleName="[Table Contents Centered]">27.699</p>
                      </td>
                   </tr>
-                  <tr data-rid="d74e4271">
-                     <td>
+                  <tr>
+                     <th class="left">
                         <p styleId="TableHeaderLeft" styleName="[Table Header Left]">Techno-work engagement_carried away</p>
-                     </td>
+                     </th>
                      <td>
                         <p styleId="TableContentsCentered" styleName="[Table Contents Centered]">0.877</p>
                      </td>
@@ -1294,10 +1294,10 @@
                         <p styleId="TableContentsCentered" styleName="[Table Contents Centered]">48.088</p>
                      </td>
                   </tr>
-                  <tr data-rid="d74e4319">
-                     <td>
+                  <tr>
+                     <th class="left">
                         <p styleId="TableHeaderLeft" styleName="[Table Header Left]">Technology-related self-efficacy</p>
-                     </td>
+                     </th>
                      <td>
                         <p styleId="TableContentsCentered" styleName="[Table Contents Centered]"/>
                      </td>
@@ -1305,10 +1305,10 @@
                         <p styleId="TableContentsCentered" styleName="[Table Contents Centered]"/>
                      </td>
                   </tr>
-                  <tr data-rid="d74e4365">
-                     <td>
+                  <tr>
+                     <th class="left">
                         <p styleId="TableHeaderLeft" styleName="[Table Header Left]">Technology-related self-efficacy_know how to utilize</p>
-                     </td>
+                     </th>
                      <td>
                         <p styleId="TableContentsCentered" styleName="[Table Contents Centered]">0.850</p>
                      </td>
@@ -1316,10 +1316,10 @@
                         <p styleId="TableContentsCentered" styleName="[Table Contents Centered]">37.314</p>
                      </td>
                   </tr>
-                  <tr data-rid="d74e4413">
-                     <td>
+                  <tr>
+                     <th class="left">
                         <p styleId="TableHeaderLeft" styleName="[Table Header Left]">Technology-related self-efficacy_able to help</p>
-                     </td>
+                     </th>
                      <td>
                         <p styleId="TableContentsCentered" styleName="[Table Contents Centered]">0.896</p>
                      </td>
@@ -1327,10 +1327,10 @@
                         <p styleId="TableContentsCentered" styleName="[Table Contents Centered]">42.257</p>
                      </td>
                   </tr>
-                  <tr data-rid="d74e4461">
-                     <td>
+                  <tr>
+                     <th class="left">
                         <p styleId="TableHeaderLeft" styleName="[Table Header Left]">Technology-related self-efficacy_adequate skills</p>
-                     </td>
+                     </th>
                      <td>
                         <p styleId="TableContentsCentered" styleName="[Table Contents Centered]">0.907</p>
                      </td>
@@ -1338,10 +1338,10 @@
                         <p styleId="TableContentsCentered" styleName="[Table Contents Centered]">56.264</p>
                      </td>
                   </tr>
-                  <tr data-rid="d74e4509">
-                     <td>
+                  <tr>
+                     <th class="left">
                         <p styleId="TableHeaderLeft" styleName="[Table Header Left]">Technology-related competence support</p>
-                     </td>
+                     </th>
                      <td>
                         <p styleId="TableContentsCentered" styleName="[Table Contents Centered]"/>
                      </td>
@@ -1349,10 +1349,10 @@
                         <p styleId="TableContentsCentered" styleName="[Table Contents Centered]"/>
                      </td>
                   </tr>
-                  <tr data-rid="d74e4555">
-                     <td>
+                  <tr>
+                     <th class="left">
                         <p styleId="TableHeaderLeft" styleName="[Table Header Left]">Technology-related competence support_training </p>
-                     </td>
+                     </th>
                      <td>
                         <p styleId="TableContentsCentered" styleName="[Table Contents Centered]">0.743</p>
                      </td>
@@ -1360,10 +1360,10 @@
                         <p styleId="TableContentsCentered" styleName="[Table Contents Centered]">11.102</p>
                      </td>
                   </tr>
-                  <tr data-rid="d74e4603">
-                     <td>
+                  <tr>
+                     <th class="left">
                         <p styleId="TableHeaderLeft" styleName="[Table Header Left]">Technology-related competence support_time </p>
-                     </td>
+                     </th>
                      <td>
                         <p styleId="TableContentsCentered" styleName="[Table Contents Centered]">0.812</p>
                      </td>
@@ -1371,10 +1371,10 @@
                         <p styleId="TableContentsCentered" styleName="[Table Contents Centered]">15.417</p>
                      </td>
                   </tr>
-                  <tr data-rid="d74e4651">
-                     <td>
+                  <tr>
+                     <th class="left">
                         <p styleId="TableHeaderLeft" styleName="[Table Header Left]">Technology-related competence support_what is expected</p>
-                     </td>
+                     </th>
                      <td>
                         <p styleId="TableContentsCentered" styleName="[Table Contents Centered]">0.586</p>
                      </td>
@@ -1382,10 +1382,10 @@
                         <p styleId="TableContentsCentered" styleName="[Table Contents Centered]">6.580</p>
                      </td>
                   </tr>
-                  <tr data-rid="d74e4699">
-                     <td>
+                  <tr>
+                     <th class="left">
                         <p styleId="TableHeaderLeft" styleName="[Table Header Left]">Technology-related autonomy </p>
-                     </td>
+                     </th>
                      <td>
                         <p styleId="TableContentsCentered" styleName="[Table Contents Centered]"/>
                      </td>
@@ -1393,10 +1393,10 @@
                         <p styleId="TableContentsCentered" styleName="[Table Contents Centered]"/>
                      </td>
                   </tr>
-                  <tr data-rid="d74e4746">
-                     <td>
+                  <tr>
+                     <th class="left">
                         <p styleId="TableHeaderLeft" styleName="[Table Header Left]">Technology-related autonomy_opinions respected </p>
-                     </td>
+                     </th>
                      <td>
                         <p styleId="TableContentsCentered" styleName="[Table Contents Centered]">0.803</p>
                      </td>
@@ -1404,10 +1404,10 @@
                         <p styleId="TableContentsCentered" styleName="[Table Contents Centered]">15.491</p>
                      </td>
                   </tr>
-                  <tr data-rid="d74e4794">
-                     <td>
+                  <tr>
+                     <th class="left">
                         <p styleId="TableHeaderLeft" styleName="[Table Header Left]">Technology-related autonomy_voluntariness </p>
-                     </td>
+                     </th>
                      <td>
                         <p styleId="TableContentsCentered" styleName="[Table Contents Centered]">0.858</p>
                      </td>
@@ -1415,10 +1415,10 @@
                         <p styleId="TableContentsCentered" styleName="[Table Contents Centered]">35.412</p>
                      </td>
                   </tr>
-                  <tr data-rid="d74e4842">
-                     <td>
+                  <tr>
+                     <th class="left">
                         <p styleId="TableHeaderLeft" styleName="[Table Header Left]">Technology-related autonomy_freedom to decide</p>
-                     </td>
+                     </th>
                      <td>
                         <p styleId="TableContentsCentered" styleName="[Table Contents Centered]">0.629</p>
                      </td>
@@ -1426,10 +1426,10 @@
                         <p styleId="TableContentsCentered" styleName="[Table Contents Centered]">6.741</p>
                      </td>
                   </tr>
-                  <tr data-rid="d74e4890">
-                     <td>
+                  <tr>
+                     <th class="left">
                         <p styleId="TableHeaderLeft" styleName="[Table Header Left]">Technology-related collegial support</p>
-                     </td>
+                     </th>
                      <td>
                         <p styleId="TableContentsCentered" styleName="[Table Contents Centered]"/>
                      </td>
@@ -1437,10 +1437,10 @@
                         <p styleId="TableContentsCentered" styleName="[Table Contents Centered]"/>
                      </td>
                   </tr>
-                  <tr data-rid="d74e4936">
-                     <td>
+                  <tr>
+                     <th class="left">
                         <p styleId="TableHeaderLeft" styleName="[Table Header Left]">Technology-related collegial support_colleagues support </p>
-                     </td>
+                     </th>
                      <td>
                         <p styleId="TableContentsCentered" styleName="[Table Contents Centered]">0.842</p>
                      </td>
@@ -1448,10 +1448,10 @@
                         <p styleId="TableContentsCentered" styleName="[Table Contents Centered]">17.073</p>
                      </td>
                   </tr>
-                  <tr data-rid="d74e4984">
-                     <td>
+                  <tr>
+                     <th class="left">
                         <p styleId="TableHeaderLeft" styleName="[Table Header Left]">Technology-related collegial support_tips </p>
-                     </td>
+                     </th>
                      <td>
                         <p styleId="TableContentsCentered" styleName="[Table Contents Centered]">0.885</p>
                      </td>
@@ -1459,10 +1459,10 @@
                         <p styleId="TableContentsCentered" styleName="[Table Contents Centered]">18.008</p>
                      </td>
                   </tr>
-                  <tr data-rid="d74e5032">
-                     <td>
+                  <tr>
+                     <th class="left">
                         <p styleId="TableHeaderLeft" styleName="[Table Header Left]">Technology-related collegial support_collaboration </p>
-                     </td>
+                     </th>
                      <td>
                         <p styleId="TableContentsCentered" styleName="[Table Contents Centered]">0.922</p>
                      </td>
