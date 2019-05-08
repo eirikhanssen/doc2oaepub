@@ -436,11 +436,14 @@
 	<p:add-attribute match="th[p[matches(@styleId, 'Center')]]" attribute-name="class" attribute-value="center"/>
 	<p:add-attribute match="th[p[matches(@styleId, 'Left')]]" attribute-name="class" attribute-value="left"/>
 	<p:delete match="tr/@data-rid"/>
-	<p:add-attribute match="td[p[matches(@styleId, 'Narrow')]]" attribute-name="class" attribute-value="narrow"/>
+	<p:add-attribute match="td[p[matches(@styleId, 'Narrow')]]" attribute-name="data-style" attribute-value="narrow"/>
 
 	<p:add-attribute match="tr[ (th[1]/@class != 'center') and (th/@class = 'center') and (every $th in th[position() &gt; 1] satisfies $th/@class = 'center') ]" attribute-name="class" attribute-value="left-center"/>
 
 	<p:add-attribute match="tr[ (every $th in th satisfies $th/@class = 'center') ]" attribute-name="class" attribute-value="center"/>
+
+	<p:delete match="p[(matches(@styleId, 'TableHeader')) and (parent::th)]/@*[matches(name(.) , 'style.*')]"/>
+	<p:delete match="p[(matches(@styleId, 'TableContents')) and (parent::td)]/@*[matches(name(.) , 'style.*')]"/>
 
         <!--<p:xslt name="restructure-tables-xsl" version="2.0">
             <p:input port="source"/>
