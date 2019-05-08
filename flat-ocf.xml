@@ -1,5 +1,4 @@
-<pkg:package xmlns:pkg="http://schemas.microsoft.com/office/2006/xmlPackage"
-             xmlns:wpc="http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas"
+<pkg:package xmlns:wpc="http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas"
              xmlns:cx="http://schemas.microsoft.com/office/drawing/2014/chartex"
              xmlns:cx1="http://schemas.microsoft.com/office/drawing/2015/9/8/chartex"
              xmlns:cx2="http://schemas.microsoft.com/office/drawing/2015/10/21/chartex"
@@ -29,10 +28,11 @@
              xmlns:wps="http://schemas.microsoft.com/office/word/2010/wordprocessingShape"
              xmlns:vt="http://schemas.openxmlformats.org/officeDocument/2006/docPropsVTypes"
              xmlns:d2j="http://eirikhanssen.no/doc2jats"
+             xmlns:pkg="http://schemas.microsoft.com/office/2006/xmlPackage"
              xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"
              xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing">
    <env>
-      <folder>/home/hanson/projects/doc2jats/samples/Jaana-Piia-Mäkiniemi.docx-20190508-082351</folder>
+      <folder>/home/hanson/projects/doc2jats/samples/Jaana-Piia-Mäkiniemi.docx-20190508-113709</folder>
    </env>
    <pkg:part pkg_name="/_rels/.rels">
       <pkg:xmlData>
@@ -201,13 +201,13 @@
       <pkg:xmlData>
          <Properties xmlns="http://schemas.openxmlformats.org/officeDocument/2006/extended-properties">
             <Template>Normal</Template>
-            <TotalTime>15120</TotalTime>
+            <TotalTime>966</TotalTime>
             <Pages>19</Pages>
-            <Words>6250</Words>
-            <Characters>35628</Characters>
+            <Words>6261</Words>
+            <Characters>35693</Characters>
             <Application>Microsoft Office Word</Application>
             <DocSecurity>0</DocSecurity>
-            <Lines>296</Lines>
+            <Lines>297</Lines>
             <Paragraphs>83</Paragraphs>
             <ScaleCrop>false</ScaleCrop>
             <HeadingPairs>
@@ -235,7 +235,7 @@
             <Manager/>
             <Company/>
             <LinksUpToDate>false</LinksUpToDate>
-            <CharactersWithSpaces>41795</CharactersWithSpaces>
+            <CharactersWithSpaces>41871</CharactersWithSpaces>
             <SharedDoc>false</SharedDoc>
             <HyperlinkBase/>
             <HLinks>
@@ -278,10 +278,10 @@
             <cp:keywords/>
             <dc:description/>
             <cp:lastModifiedBy>eirikh</cp:lastModifiedBy>
-            <cp:revision>14</cp:revision>
-            <cp:lastPrinted>2019-04-17T11:25:00Z</cp:lastPrinted>
+            <cp:revision>11</cp:revision>
+            <cp:lastPrinted>2019-04-16T16:06:00Z</cp:lastPrinted>
             <dcterms:created xsi:type="dcterms:W3CDTF">2019-04-16T15:24:00Z</dcterms:created>
-            <dcterms:modified xsi:type="dcterms:W3CDTF">2019-04-29T08:31:00Z</dcterms:modified>
+            <dcterms:modified xsi:type="dcterms:W3CDTF">2019-04-17T10:09:00Z</dcterms:modified>
             <cp:category/>
          </cp:coreProperties>
       </pkg:xmlData>
@@ -375,7 +375,7 @@
                     w14:textId="04EF2D6C"
                     w:rsidR="00CD2A73"
                     w:rsidRPr="004B46E7"
-                    w:rsidRDefault="00467FBE"
+                    w:rsidRDefault="00CF1BF8"
                     w:rsidP="00867D48">
                   <w:pPr>
                      <w:pStyle w:val="AuthorDetails0"/>
@@ -890,28 +890,14 @@
                      </w:rPr>
                      <w:lastRenderedPageBreak/>
                      <w:drawing>
-                        <wp:anchor distT="0"
+                        <wp:inline distT="0"
                                    distB="0"
-                                   distL="114300"
-                                   distR="114300"
-                                   simplePos="0"
-                                   relativeHeight="251659264"
-                                   behindDoc="0"
-                                   locked="0"
-                                   layoutInCell="1"
-                                   allowOverlap="1"
+                                   distL="0"
+                                   distR="0"
                                    wp14:anchorId="41C0CE93"
-                                   wp14:editId="1D25720F">
-                           <wp:simplePos x="0" y="0"/>
-                           <wp:positionH relativeFrom="column">
-                              <wp:posOffset>-4098</wp:posOffset>
-                           </wp:positionH>
-                           <wp:positionV relativeFrom="paragraph">
-                              <wp:posOffset>3295</wp:posOffset>
-                           </wp:positionV>
-                           <wp:extent cx="4273200" cy="2667600"/>
+                                   wp14:editId="3C4D370D">
+                           <wp:extent cx="4272280" cy="2668513"/>
                            <wp:effectExtent l="0" t="0" r="0" b="0"/>
-                           <wp:wrapTopAndBottom/>
                            <wp:docPr id="3"
                                      name="Picture 1"
                                      descr="Two overlapping models. Technology related subjects that are related to Techno-work engagement. In model 1: Technology-related collegial support, autonoy and competence support. Model 2 is identical, but adds thechnology related self-efficacy."/>
@@ -927,13 +913,7 @@
                                        <pic:cNvPicPr/>
                                     </pic:nvPicPr>
                                     <pic:blipFill>
-                                       <a:blip r:embed="rId9">
-                                          <a:extLst>
-                                             <a:ext uri="{28A0092B-C50C-407E-A947-70E740481C1C}">
-                                                <a14:useLocalDpi xmlns:a14="http://schemas.microsoft.com/office/drawing/2010/main" val="0"/>
-                                             </a:ext>
-                                          </a:extLst>
-                                       </a:blip>
+                                       <a:blip r:embed="rId9"/>
                                        <a:stretch>
                                           <a:fillRect/>
                                        </a:stretch>
@@ -941,7 +921,7 @@
                                     <pic:spPr>
                                        <a:xfrm>
                                           <a:off x="0" y="0"/>
-                                          <a:ext cx="4273200" cy="2667600"/>
+                                          <a:ext cx="4284660" cy="2676246"/>
                                        </a:xfrm>
                                        <a:prstGeom prst="rect">
                                           <a:avLst/>
@@ -950,13 +930,7 @@
                                  </pic:pic>
                               </a:graphicData>
                            </a:graphic>
-                           <wp14:sizeRelH relativeFrom="margin">
-                              <wp14:pctWidth>0</wp14:pctWidth>
-                           </wp14:sizeRelH>
-                           <wp14:sizeRelV relativeFrom="margin">
-                              <wp14:pctHeight>0</wp14:pctHeight>
-                           </wp14:sizeRelV>
-                        </wp:anchor>
+                        </wp:inline>
                      </w:drawing>
                   </w:r>
                </w:p>
@@ -8423,7 +8397,7 @@
                   </w:pPr>
                </w:p>
                <w:p w14:paraId="3E5BD1E9"
-                    w14:textId="0DC3C771"
+                    w14:textId="7C210AF8"
                     w:rsidR="00CD2A73"
                     w:rsidRDefault="00CD2A73"
                     w:rsidP="00F66F89">
@@ -8447,7 +8421,7 @@
                                    layoutInCell="1"
                                    allowOverlap="1"
                                    wp14:anchorId="3E198A2A"
-                                   wp14:editId="791E33FD">
+                                   wp14:editId="3DA4A25B">
                            <wp:simplePos x="0" y="0"/>
                            <wp:positionH relativeFrom="margin">
                               <wp:align>center</wp:align>
@@ -8505,8 +8479,18 @@
                         </wp:anchor>
                      </w:drawing>
                   </w:r>
-                  <w:bookmarkStart w:id="0" w:name="_GoBack"/>
-                  <w:bookmarkEnd w:id="0"/>
+                  <w:r w:rsidRPr="005657AB">
+                     <w:rPr>
+                        <w:rStyle w:val="FigureCaption-Label"/>
+                     </w:rPr>
+                     <w:t>Figure 2.</w:t>
+                  </w:r>
+                  <w:r>
+                     <w:t xml:space="preserve"> Inner model path coefficients and their statistical significance.</w:t>
+                  </w:r>
+                  <w:r w:rsidR="002859EF">
+                     <w:br/>
+                  </w:r>
                   <w:r>
                      <w:t>** indicates statistical significance at a risk level of 0.01.</w:t>
                   </w:r>
@@ -10713,7 +10697,15 @@
                         <w:rStyle w:val="ReferenceSource0"/>
                      </w:rPr>
                      <w:lastRenderedPageBreak/>
-                     <w:t>Journal of Vocational Behavior, 74</w:t>
+                     <w:t xml:space="preserve">Journal of Vocational </w:t>
+                  </w:r>
+                  <w:bookmarkStart w:id="0" w:name="_GoBack"/>
+                  <w:bookmarkEnd w:id="0"/>
+                  <w:r w:rsidRPr="00D91629">
+                     <w:rPr>
+                        <w:rStyle w:val="ReferenceSource0"/>
+                     </w:rPr>
+                     <w:t>Behavior, 74</w:t>
                   </w:r>
                   <w:r w:rsidRPr="00394BAB">
                      <w:t>(3), 235–244.</w:t>
@@ -14017,8 +14009,8 @@
          <w:hdr mc:Ignorable="w14 w15 w16se w16cid wp14">
             <w:p w14:paraId="41337AD1"
                  w14:textId="7587B444"
-                 w:rsidR="00467FBE"
-                 w:rsidRDefault="00467FBE"
+                 w:rsidR="003F2038"
+                 w:rsidRDefault="003F2038"
                  w:rsidP="005657AB">
                <w:pPr>
                   <w:pStyle w:val="PageHeader"/>
@@ -17726,8 +17718,8 @@
             <w:endnote w:type="separator" w:id="-1">
                <w:p w14:paraId="1E0EED5B"
                     w14:textId="77777777"
-                    w:rsidR="00467FBE"
-                    w:rsidRDefault="00467FBE">
+                    w:rsidR="0065221D"
+                    w:rsidRDefault="0065221D">
                   <w:r>
                      <w:separator/>
                   </w:r>
@@ -17736,8 +17728,8 @@
             <w:endnote w:type="continuationSeparator" w:id="0">
                <w:p w14:paraId="50B9EED3"
                     w14:textId="77777777"
-                    w:rsidR="00467FBE"
-                    w:rsidRDefault="00467FBE">
+                    w:rsidR="0065221D"
+                    w:rsidRDefault="0065221D">
                   <w:r>
                      <w:continuationSeparator/>
                   </w:r>
@@ -17751,9 +17743,9 @@
          <w:ftr mc:Ignorable="w14 w15 w16se w16cid wp14">
             <w:p w14:paraId="148D383E"
                  w14:textId="07B6B3F7"
-                 w:rsidR="00467FBE"
+                 w:rsidR="00CF46D6"
                  w:rsidRPr="00867D48"
-                 w:rsidRDefault="00467FBE"
+                 w:rsidRDefault="00867D48"
                  w:rsidP="00867D48">
                <w:pPr>
                   <w:pStyle w:val="PageFooterFirst"/>
@@ -17771,8 +17763,8 @@
             <w:footnote w:type="separator" w:id="-1">
                <w:p w14:paraId="7487F2AE"
                     w14:textId="77777777"
-                    w:rsidR="00467FBE"
-                    w:rsidRDefault="00467FBE">
+                    w:rsidR="0065221D"
+                    w:rsidRDefault="0065221D">
                   <w:r>
                      <w:separator/>
                   </w:r>
@@ -17781,8 +17773,8 @@
             <w:footnote w:type="continuationSeparator" w:id="0">
                <w:p w14:paraId="2C404305"
                     w14:textId="77777777"
-                    w:rsidR="00467FBE"
-                    w:rsidRDefault="00467FBE">
+                    w:rsidR="0065221D"
+                    w:rsidRDefault="0065221D">
                   <w:r>
                      <w:continuationSeparator/>
                   </w:r>
@@ -17796,9 +17788,9 @@
          <w:hdr mc:Ignorable="w14 w15 w16se w16cid wp14">
             <w:p w14:paraId="393FF7F2"
                  w14:textId="5816B7D5"
-                 w:rsidR="00467FBE"
+                 w:rsidR="00CF46D6"
                  w:rsidRPr="00A91483"
-                 w:rsidRDefault="00467FBE"
+                 w:rsidRDefault="00A91483"
                  w:rsidP="00867D48">
                <w:pPr>
                   <w:pStyle w:val="PageHeader"/>
@@ -17879,8 +17871,8 @@
          <w:ftr mc:Ignorable="w14 w15 w16se w16cid wp14">
             <w:p w14:paraId="3CFCAE69"
                  w14:textId="77777777"
-                 w:rsidR="00467FBE"
-                 w:rsidRDefault="00467FBE"
+                 w:rsidR="005657AB"
+                 w:rsidRDefault="003F2038"
                  w:rsidP="005657AB">
                <w:pPr>
                   <w:pStyle w:val="PageFooter"/>
@@ -17915,8 +17907,8 @@
             </w:p>
             <w:p w14:paraId="69DBE07D"
                  w14:textId="2F892FD4"
-                 w:rsidR="00467FBE"
-                 w:rsidRDefault="00467FBE"
+                 w:rsidR="00CF46D6"
+                 w:rsidRDefault="003F2038"
                  w:rsidP="005657AB">
                <w:pPr>
                   <w:pStyle w:val="PageFooter"/>
@@ -18012,7 +18004,6 @@
                <w:rsid w:val="003F2038"/>
                <w:rsid w:val="003F33F4"/>
                <w:rsid w:val="00430DDB"/>
-               <w:rsid w:val="00467FBE"/>
                <w:rsid w:val="00471BCF"/>
                <w:rsid w:val="004B46E7"/>
                <w:rsid w:val="004D6EE8"/>
@@ -18036,14 +18027,11 @@
                <w:rsid w:val="00867D48"/>
                <w:rsid w:val="008A629D"/>
                <w:rsid w:val="008C5BCD"/>
-               <w:rsid w:val="008E5847"/>
                <w:rsid w:val="00910AA5"/>
                <w:rsid w:val="00923EA1"/>
                <w:rsid w:val="00961B6D"/>
                <w:rsid w:val="00994461"/>
                <w:rsid w:val="009F723E"/>
-               <w:rsid w:val="00A21212"/>
-               <w:rsid w:val="00A3465B"/>
                <w:rsid w:val="00A41862"/>
                <w:rsid w:val="00A45553"/>
                <w:rsid w:val="00A6416D"/>
@@ -18051,7 +18039,6 @@
                <w:rsid w:val="00A91483"/>
                <w:rsid w:val="00AD401F"/>
                <w:rsid w:val="00B54CFE"/>
-               <w:rsid w:val="00B812A5"/>
                <w:rsid w:val="00B9003D"/>
                <w:rsid w:val="00C35AF5"/>
                <w:rsid w:val="00CD2A73"/>

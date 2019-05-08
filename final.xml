@@ -1,5 +1,4 @@
-<pkg:package xmlns:pkg="http://schemas.microsoft.com/office/2006/xmlPackage"
-             xmlns:wpc="http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas"
+<pkg:package xmlns:wpc="http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas"
              xmlns:cx="http://schemas.microsoft.com/office/drawing/2014/chartex"
              xmlns:cx1="http://schemas.microsoft.com/office/drawing/2015/9/8/chartex"
              xmlns:cx2="http://schemas.microsoft.com/office/drawing/2015/10/21/chartex"
@@ -29,10 +28,11 @@
              xmlns:wps="http://schemas.microsoft.com/office/word/2010/wordprocessingShape"
              xmlns:vt="http://schemas.openxmlformats.org/officeDocument/2006/docPropsVTypes"
              xmlns:d2j="http://eirikhanssen.no/doc2jats"
+             xmlns:pkg="http://schemas.microsoft.com/office/2006/xmlPackage"
              xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"
              xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing">
    <env>
-      <folder>/home/hanson/projects/doc2jats/samples/Jaana-Piia-Mäkiniemi.docx-20190508-082351</folder>
+      <folder>/home/hanson/projects/doc2jats/samples/Jaana-Piia-Mäkiniemi.docx-20190508-113709</folder>
    </env>
    <pkg:part pkg_name="/_rels/.rels">
       <pkg:xmlData>
@@ -201,13 +201,13 @@
       <pkg:xmlData>
          <Properties xmlns="http://schemas.openxmlformats.org/officeDocument/2006/extended-properties">
             <Template>Normal</Template>
-            <TotalTime>15120</TotalTime>
+            <TotalTime>966</TotalTime>
             <Pages>19</Pages>
-            <Words>6250</Words>
-            <Characters>35628</Characters>
+            <Words>6261</Words>
+            <Characters>35693</Characters>
             <Application>Microsoft Office Word</Application>
             <DocSecurity>0</DocSecurity>
-            <Lines>296</Lines>
+            <Lines>297</Lines>
             <Paragraphs>83</Paragraphs>
             <ScaleCrop>false</ScaleCrop>
             <HeadingPairs>
@@ -235,7 +235,7 @@
             <Manager/>
             <Company/>
             <LinksUpToDate>false</LinksUpToDate>
-            <CharactersWithSpaces>41795</CharactersWithSpaces>
+            <CharactersWithSpaces>41871</CharactersWithSpaces>
             <SharedDoc>false</SharedDoc>
             <HyperlinkBase/>
             <HLinks>
@@ -278,10 +278,10 @@
             <cp:keywords/>
             <dc:description/>
             <cp:lastModifiedBy>eirikh</cp:lastModifiedBy>
-            <cp:revision>14</cp:revision>
-            <cp:lastPrinted>2019-04-17T11:25:00Z</cp:lastPrinted>
+            <cp:revision>11</cp:revision>
+            <cp:lastPrinted>2019-04-16T16:06:00Z</cp:lastPrinted>
             <dcterms:created xsi:type="dcterms:W3CDTF">2019-04-16T15:24:00Z</dcterms:created>
-            <dcterms:modified xsi:type="dcterms:W3CDTF">2019-04-29T08:31:00Z</dcterms:modified>
+            <dcterms:modified xsi:type="dcterms:W3CDTF">2019-04-17T10:09:00Z</dcterms:modified>
             <cp:category/>
          </cp:coreProperties>
       </pkg:xmlData>
@@ -320,7 +320,8 @@
                <h2>Technology-related self-efficacy as an individual workplace resource </h2>
                <p>Self-efficacy is an important individual resource that is associated with employee well-being, such as higher work engagement (Xanthopoulou et al., 2007; Nielsen et al., 2017; Skaalvik &amp; Skaalvik, 2014) and lower burnout in various occupations, including educational occupations (Skaalvik &amp; Skaalvik, 2007; Shoji et al., 2016). According to social cognitive theory, self-efficacy is defined as an individual’s beliefs regarding his or her capability to control situations and challenging demands. People with high levels of self-efficacy tend to set challenging goals, persist in achieving their goals, even under difficult and stressful circumstances, and recover quickly from failure, even in conditions that would appear to be overwhelming to the average person (Bandura, 1997). Self-efficacy can be measured at either a general or situation- or domain-specific level. One domain-specific concept, teaching or teacher efficacy, is defined as a teacher’s future-oriented competency-based expectation, which is related to his or her ability to plan, organise and carry out the activities required to attain given educational goals. This expectation is a balanced judgement influenced by the teacher’s perceived capacity to carry out the acts as well as the perceived demands of the working situation (Reeve &amp; Su, 2014). In the current paper, we focus on teachers’ (educational) technology-related self-efficacy as a personal workplace resource. We assume that a teacher has high technology-related self-efficacy, for example, when he or she understands the possibilities of educational technology well enough to maximise them in teaching and when he or she feels confident that he or she can help students when they have difficulties (c.f. Wang, Ertmer, &amp; Newby, 2004). In line with previous findings assuming the link between self-efficacy and work engagement among teachers (e.g. Skaalvik &amp; Skaalvik, 2014), we suggest that technology-related self-efficacy is associated with higher techno-work engagement. </p>
                <figure>
-                  <img src="fig.png" alt=""/>
+                  <img src="fig.png"
+                       alt="Two overlapping models. Technology related subjects that are related to Techno-work engagement. In model 1: Technology-related collegial support, autonoy and competence support. Model 2 is identical, but adds thechnology related self-efficacy."/>
                   <figcaption>__</figcaption>
                </figure>
                <p styleId="FigureCaption0" styleName="[Figure Caption]">Figure 1. Hypothetical models.</p>
@@ -340,71 +341,71 @@
                <p styleId="TableCaption0" styleName="[Table Caption]">Table 1. Descriptive statistics for the study variables (n = 180).</p>
                <table>
                   <tr class="left-center">
-                     <th class="left">
+                     <th>
                         <p/>
                      </th>
-                     <th class="center" colspan="2">
+                     <th colspan="2">
                         <p>All</p>
                      </th>
-                     <th class="center" colspan="2">
+                     <th colspan="2">
                         <p>Female</p>
                         <p>(n = 137)</p>
                      </th>
-                     <th class="center" colspan="2">
+                     <th colspan="2">
                         <p>Male</p>
                         <p>(n = 43)</p>
                      </th>
-                     <th class="center" colspan="2">
+                     <th colspan="2">
                         <p>Class teacher</p>
                         <p>(n = 94)</p>
                      </th>
-                     <th class="center" colspan="2">
+                     <th colspan="2">
                         <p>Subject teacher</p>
                         <p>(n = 78)</p>
                      </th>
-                     <th class="center" colspan="2">
+                     <th colspan="2">
                         <p>Principal</p>
                         <p>(n = 8)</p>
                      </th>
                   </tr>
                   <tr class="left-center">
-                     <th class="left">
+                     <th>
                         <p/>
                      </th>
-                     <th class="center">
+                     <th>
                         <p>M</p>
                      </th>
-                     <th class="center">
+                     <th>
                         <p>SD</p>
                      </th>
-                     <th class="center">
+                     <th>
                         <p>M</p>
                      </th>
-                     <th class="center">
+                     <th>
                         <p>SD</p>
                      </th>
-                     <th class="center">
+                     <th>
                         <p>M</p>
                      </th>
-                     <th class="center">
+                     <th>
                         <p>SD</p>
                      </th>
-                     <th class="center">
+                     <th>
                         <p>M</p>
                      </th>
-                     <th class="center">
+                     <th>
                         <p>SD</p>
                      </th>
-                     <th class="center">
+                     <th>
                         <p>M</p>
                      </th>
-                     <th class="center">
+                     <th>
                         <p>SD</p>
                      </th>
-                     <th class="center">
+                     <th>
                         <p>M</p>
                      </th>
-                     <th class="center">
+                     <th>
                         <p>SD</p>
                      </th>
                   </tr>
@@ -836,42 +837,42 @@
                   <strong>Table 3.</strong> Standardised path coefficients and t statistics of compared models and effect sizes for Model 2.</p>
                <table>
                   <tr class="left-center">
-                     <th class="left">
+                     <th>
                         <p/>
                      </th>
-                     <th class="center">
+                     <th>
                         <p>Model 1</p>
                      </th>
-                     <th class="center">
+                     <th>
                         <p/>
                      </th>
-                     <th class="center">
+                     <th>
                         <p>Model 2</p>
                      </th>
-                     <th class="center">
+                     <th>
                         <p/>
                      </th>
-                     <th class="center">
+                     <th>
                         <p/>
                      </th>
                   </tr>
                   <tr class="left-center">
-                     <th class="left">
+                     <th>
                         <p/>
                      </th>
-                     <th class="center">
+                     <th>
                         <p>Path coeff.</p>
                      </th>
-                     <th class="center">
+                     <th>
                         <p>t statistic</p>
                      </th>
-                     <th class="center">
+                     <th>
                         <p>Path coeff.</p>
                      </th>
-                     <th class="center">
+                     <th>
                         <p>t statistic</p>
                      </th>
-                     <th class="center">
+                     <th>
                         <p>f<sup>2</sup>
                         </p>
                      </th>
@@ -881,10 +882,10 @@
                         <p>Technology-related self-efficacy <w:sym w:font="Wingdings" w:char="F0E0"/> Techno-work engagement</p>
                      </th>
                      <td>
-                        <p styleId="Ingenavsnittsmal" styleName="[Ingen avsnittsmal]"/>
+                        <p/>
                      </td>
                      <td>
-                        <p styleId="Ingenavsnittsmal" styleName="[Ingen avsnittsmal]"/>
+                        <p/>
                      </td>
                      <td>
                         <p>0.311**</p>
@@ -965,13 +966,13 @@
                         <p>0.33</p>
                      </td>
                      <td>
-                        <p styleId="Ingenavsnittsmal" styleName="[Ingen avsnittsmal]"/>
+                        <p/>
                      </td>
                      <td>
                         <p>0.39</p>
                      </td>
                      <td>
-                        <p styleId="Ingenavsnittsmal" styleName="[Ingen avsnittsmal]"/>
+                        <p/>
                      </td>
                      <td>
                         <p/>
@@ -986,13 +987,13 @@
                         <p>0.20</p>
                      </td>
                      <td>
-                        <p styleId="Ingenavsnittsmal" styleName="[Ingen avsnittsmal]"/>
+                        <p/>
                      </td>
                      <td>
                         <p>0.24</p>
                      </td>
                      <td>
-                        <p styleId="Ingenavsnittsmal" styleName="[Ingen avsnittsmal]"/>
+                        <p/>
                      </td>
                      <td>
                         <p/>
@@ -1108,7 +1109,8 @@
                </p>
                <p class="ref">Xanthopoulou, D., Bakker, A. B., Demerouti, E., &amp; Schaufeli, W. B. (2007), The role of personal resources in the job demands-resources model. <em>International Journal of Stress Management, 14</em>(2), 121–141. <a href="https://doi.org/10.1037/1072-5245.14.2.121">https://doi.org/10.1037/1072-5245.14.2.121</a>
                </p>
-               <p class="ref">Xanthopoulou, D., Bakker, A. B., Demerouti, E., &amp; Schaufeli, W. B. (2009). Reciprocal relationships between job resources, personal resources, and work engagement. <em>Journal of Vocational Behavior, 74</em>(3), 235–244. <a href="https://doi.org/10.1016/j.jvb.2008.11.003">https://doi.org/10.1016/j.jvb.2008.11.003</a>
+               <p class="ref">Xanthopoulou, D., Bakker, A. B., Demerouti, E., &amp; Schaufeli, W. B. (2009). Reciprocal relationships between job resources, personal resources, and work engagement. <em>Journal of Vocational </em>
+                  <em>Behavior, 74</em>(3), 235–244. <a href="https://doi.org/10.1016/j.jvb.2008.11.003">https://doi.org/10.1016/j.jvb.2008.11.003</a>
                </p>
                <h2>Appendix 1</h2>
                <p>Measurement (outer) model of the constructs. Standardised indicator loadings and respective t-statistics.</p>
@@ -1411,7 +1413,7 @@
                      </td>
                   </tr>
                </table>
-               <p styleId="Ingenavsnittsmal" styleName="[Ingen avsnittsmal]"/>
+               <p/>
                <w:sectPr w:rsidR="00296E33" w:rsidRPr="00C35AF5" w:rsidSect="00D941BD">
                   <w:headerReference w:type="default" r:id="rId34"/>
                   <w:footerReference w:type="default" r:id="rId35"/>
@@ -4724,7 +4726,6 @@
                <w:rsid w:val="003F2038"/>
                <w:rsid w:val="003F33F4"/>
                <w:rsid w:val="00430DDB"/>
-               <w:rsid w:val="00467FBE"/>
                <w:rsid w:val="00471BCF"/>
                <w:rsid w:val="004B46E7"/>
                <w:rsid w:val="004D6EE8"/>
@@ -4748,14 +4749,11 @@
                <w:rsid w:val="00867D48"/>
                <w:rsid w:val="008A629D"/>
                <w:rsid w:val="008C5BCD"/>
-               <w:rsid w:val="008E5847"/>
                <w:rsid w:val="00910AA5"/>
                <w:rsid w:val="00923EA1"/>
                <w:rsid w:val="00961B6D"/>
                <w:rsid w:val="00994461"/>
                <w:rsid w:val="009F723E"/>
-               <w:rsid w:val="00A21212"/>
-               <w:rsid w:val="00A3465B"/>
                <w:rsid w:val="00A41862"/>
                <w:rsid w:val="00A45553"/>
                <w:rsid w:val="00A6416D"/>
@@ -4763,7 +4761,6 @@
                <w:rsid w:val="00A91483"/>
                <w:rsid w:val="00AD401F"/>
                <w:rsid w:val="00B54CFE"/>
-               <w:rsid w:val="00B812A5"/>
                <w:rsid w:val="00B9003D"/>
                <w:rsid w:val="00C35AF5"/>
                <w:rsid w:val="00CD2A73"/>

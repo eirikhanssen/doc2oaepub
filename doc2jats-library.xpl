@@ -260,7 +260,7 @@
                             </xsl:template>
                             
                         -->
-                         
+                        
                     </xsl:stylesheet>
                 </p:inline>
             </p:input>
@@ -279,27 +279,27 @@
                         <xsl:import href="doc2jats-functions.xsl"/>
                         <xsl:strip-space elements="*"/>
                         
-                         <xsl:template match="p[matches(@styleId , '^Keywords')]">
-                             <xsl:variable name="textcontent"><xsl:apply-templates select=".//text()"/></xsl:variable>
-                             <dl class="keywords">
-                                 <xsl:analyze-string select="$textcontent" regex="^Keywords *([.:])">
-                                     <xsl:matching-substring>
-                                         <dt><xsl:value-of select="."/></dt>
-                                     </xsl:matching-substring>
-                                     <xsl:non-matching-substring>
-                                         <xsl:variable name="list-of-keywords" select="normalize-space(.)"/>
-                                         <xsl:analyze-string select="$list-of-keywords" regex=" *, *">
-                                             <xsl:matching-substring/>
-                                             <xsl:non-matching-substring>
-                                                 <xsl:variable name="keyword-item" select="."/>
-                                                 <dd><xsl:value-of select="$keyword-item"/></dd>
-                                             </xsl:non-matching-substring>
-                                         </xsl:analyze-string>
-                                     </xsl:non-matching-substring>
-                                 </xsl:analyze-string>
-                             </dl>
-
-                         </xsl:template> 
+                        <xsl:template match="p[matches(@styleId , '^Keywords')]">
+                            <xsl:variable name="textcontent"><xsl:apply-templates select=".//text()"/></xsl:variable>
+                            <dl class="keywords">
+                                <xsl:analyze-string select="$textcontent" regex="^Keywords *([.:])">
+                                    <xsl:matching-substring>
+                                        <dt><xsl:value-of select="."/></dt>
+                                    </xsl:matching-substring>
+                                    <xsl:non-matching-substring>
+                                        <xsl:variable name="list-of-keywords" select="normalize-space(.)"/>
+                                        <xsl:analyze-string select="$list-of-keywords" regex=" *, *">
+                                            <xsl:matching-substring/>
+                                            <xsl:non-matching-substring>
+                                                <xsl:variable name="keyword-item" select="."/>
+                                                <dd><xsl:value-of select="$keyword-item"/></dd>
+                                            </xsl:non-matching-substring>
+                                        </xsl:analyze-string>
+                                    </xsl:non-matching-substring>
+                                </xsl:analyze-string>
+                            </dl>
+                            
+                        </xsl:template> 
                         
                         <xsl:template match="p[@styleId][matches(@styleId,'^Reference')]">
                             <p class="ref">
@@ -432,89 +432,95 @@
         <p:input port="parameters" kind="parameter" sequence="true"/>
         
         <p:rename match="td[p[matches(@styleId, '^TableHeader')]]" new-name="th"/>
-
-	<p:add-attribute match="th[p[matches(@styleId, 'Center')]]" attribute-name="class" attribute-value="center"/>
-	<p:add-attribute match="th[p[matches(@styleId, 'Left')]]" attribute-name="class" attribute-value="left"/>
-	<p:delete match="tr/@data-rid"/>
-	<p:add-attribute match="td[p[matches(@styleId, 'Narrow')]]" attribute-name="data-style" attribute-value="narrow"/>
-
-	<p:add-attribute match="tr[ (th[1]/@class != 'center') and (th/@class = 'center') and (every $th in th[position() &gt; 1] satisfies $th/@class = 'center') ]" attribute-name="class" attribute-value="left-center"/>
-
-	<p:add-attribute match="tr[ (every $th in th satisfies $th/@class = 'center') ]" attribute-name="class" attribute-value="center"/>
-
-	<p:delete match="p[(matches(@styleId, 'TableHeader')) and (parent::th)]/@*[matches(name(.) , 'style.*')]"/>
-	<p:delete match="p[(matches(@styleId, 'TableContents')) and (parent::td)]/@*[matches(name(.) , 'style.*')]"/>
-
+        
+        <p:add-attribute match="th[p[matches(@styleId, 'Center')]]" attribute-name="class" attribute-value="center"/>
+        <p:add-attribute match="th[p[matches(@styleId, 'Left')]]" attribute-name="class" attribute-value="left"/>
+        <p:delete match="tr/@data-rid"/>
+        <p:add-attribute match="td[p[matches(@styleId, 'Narrow')]]" attribute-name="data-style" attribute-value="narrow"/>
+        
+        <p:add-attribute match="tr[ (th[1]/@class != 'center') and (th/@class = 'center') and (every $th in th[position() &gt; 1] satisfies $th/@class = 'center') ]" attribute-name="class" attribute-value="left-center"/>
+        
+        <p:add-attribute match="tr[ (every $th in th satisfies $th/@class = 'center') ]" attribute-name="class" attribute-value="center"/>
+        
+        <p:delete match="p[(matches(@styleId, 'TableHeader')) and (parent::th)]/@*[matches(name(.) , 'style.*')]"/>
+        <p:delete match="p[(matches(@styleId, 'TableContents')) and (parent::td)]/@*[matches(name(.) , 'style.*')]"/>
+        
+        <p:delete match="th[(matches(@class, 'center')) and (parent::tr[matches(@class, 'center')])]/@class"/>
+        
+        <p:delete match="th[(matches(@class, 'left')) and (parent::tr[matches(@class, 'left')])]/@class"/>
+        
+        <p:delete match="p[(matches(@styleId, '^Ingen'))]/@*[matches(name(.) , 'style.*')]"/>
+        
         <!--<p:xslt name="restructure-tables-xsl" version="2.0">
             <p:input port="source"/>
             <p:input port="parameters"/>
             <p:input port="stylesheet">
-                <p:inline>
-                    <xsl:stylesheet 
-                        xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-                        xmlns:xs="http://www.w3.org/2001/XMLSchema"
-                        xmlns:xhtml="http://www.w3.org/1999/xhtml"
-                        xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"
-                        
-                        exclude-result-prefixes="xs w xhtml"
-                        version="2.0">
-                        
-                        <xsl:import href="doc2jats-functions.xsl"/>
-                        
-                        <xsl:template match="table[preceding-sibling::*[1][self::p][matches(@styleId, '^TableCaption')]]">
-                            <xsl:variable name="caption" select="preceding-sibling::*[1][self::p][matches(@styleId, '^TableCaption')]"/>
-                            <table>
-                                <caption><xsl:apply-templates mode="caption" select="$caption"/></caption>
-                                <xsl:apply-templates/>
-                                <xsl:if test="following-sibling::*[1][self::p[matches(@styleId, '^TableNotes')]]">
-                                    <tfoot class="table-notes">
-                                        <xsl:apply-templates mode="tfooter" select="following-sibling::*[1][self::p[matches(@styleId, '^TableNotes')]]"></xsl:apply-templates>
-                                    </tfoot>
-                                </xsl:if>
-                            </table>
-                        </xsl:template>
-                        
-                        <xsl:template match="p[matches(@styleId, '^TableNotes')][preceding-sibling::*[1][self::table]]"/>
-                        
-                        <xsl:template mode="caption" match="p[matches(@styleId, 'TableCaption')][following-sibling::*[1][self::table]]">
-                            <p><xsl:apply-templates/></p>
-                        </xsl:template>
-                        
-                        <xsl:template match="span[matches(@class, '^TableCaption-Label')]"><span class="TableCaption-Label"><xsl:apply-templates/></span></xsl:template>
-                        
-                        <xsl:template match="p[matches(@styleId, 'TableCaption')][following-sibling::*[1][self::table]]"/>
-                        
-                        <xsl:template match="td[p[matches(@styleId, '^TableHeader')]]">
-                            <th><xsl:apply-templates/></th>
-                        </xsl:template>
-                        
-                        <xsl:template match="tr[//p/@styleId]">
-                            <tr>
-                                <xsl:variable name="first-class" select="th[1]/p/@styleId"/>
-                                <xsl:variable name="following-classes" select="th[position() &gt; 1]/p/@styleId"/>
-                                <xsl:variable name="class">
-                                    <!-\-<xsl:value-of select="if (every $c in $first-class satisfies (matches($c, 'Left'))) then 'left' else 'something else'"/>-\->
-                                    <xsl:value-of select="if (every $cfirst in $first-class satisfies (matches($cfirst, 'Left'))) then 
-                                        if (every $cfollowing in $following-classes satisfies (matches($cfollowing, 'Center'))) then 
-                                        'left-center' 
-                                        else 'left'
-                                        else 'left'"/>
-                                </xsl:variable>
-                                <xsl:attribute name="class" select="$class"></xsl:attribute>
-                                <xsl:apply-templates/>
-                            </tr>
-                        </xsl:template>
-                        
-                        <xsl:template match="p[matches(@styleId,'Narrow')]" priority="10">
-                            <p class="narrow"><xsl:apply-templates/></p>
-                        </xsl:template>
-                        
-                        <xsl:template match="tr//p" priority="1"><xsl:copy><xsl:apply-templates/></xsl:copy></xsl:template>
-                        
-                    </xsl:stylesheet>
-                </p:inline>
+            <p:inline>
+            <xsl:stylesheet 
+            xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+            xmlns:xs="http://www.w3.org/2001/XMLSchema"
+            xmlns:xhtml="http://www.w3.org/1999/xhtml"
+            xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"
+            
+            exclude-result-prefixes="xs w xhtml"
+            version="2.0">
+            
+            <xsl:import href="doc2jats-functions.xsl"/>
+            
+            <xsl:template match="table[preceding-sibling::*[1][self::p][matches(@styleId, '^TableCaption')]]">
+            <xsl:variable name="caption" select="preceding-sibling::*[1][self::p][matches(@styleId, '^TableCaption')]"/>
+            <table>
+            <caption><xsl:apply-templates mode="caption" select="$caption"/></caption>
+            <xsl:apply-templates/>
+            <xsl:if test="following-sibling::*[1][self::p[matches(@styleId, '^TableNotes')]]">
+            <tfoot class="table-notes">
+            <xsl:apply-templates mode="tfooter" select="following-sibling::*[1][self::p[matches(@styleId, '^TableNotes')]]"></xsl:apply-templates>
+            </tfoot>
+            </xsl:if>
+            </table>
+            </xsl:template>
+            
+            <xsl:template match="p[matches(@styleId, '^TableNotes')][preceding-sibling::*[1][self::table]]"/>
+            
+            <xsl:template mode="caption" match="p[matches(@styleId, 'TableCaption')][following-sibling::*[1][self::table]]">
+            <p><xsl:apply-templates/></p>
+            </xsl:template>
+            
+            <xsl:template match="span[matches(@class, '^TableCaption-Label')]"><span class="TableCaption-Label"><xsl:apply-templates/></span></xsl:template>
+            
+            <xsl:template match="p[matches(@styleId, 'TableCaption')][following-sibling::*[1][self::table]]"/>
+            
+            <xsl:template match="td[p[matches(@styleId, '^TableHeader')]]">
+            <th><xsl:apply-templates/></th>
+            </xsl:template>
+            
+            <xsl:template match="tr[//p/@styleId]">
+            <tr>
+            <xsl:variable name="first-class" select="th[1]/p/@styleId"/>
+            <xsl:variable name="following-classes" select="th[position() &gt; 1]/p/@styleId"/>
+            <xsl:variable name="class">
+            <!-\-<xsl:value-of select="if (every $c in $first-class satisfies (matches($c, 'Left'))) then 'left' else 'something else'"/>-\->
+            <xsl:value-of select="if (every $cfirst in $first-class satisfies (matches($cfirst, 'Left'))) then 
+            if (every $cfollowing in $following-classes satisfies (matches($cfollowing, 'Center'))) then 
+            'left-center' 
+            else 'left'
+            else 'left'"/>
+            </xsl:variable>
+            <xsl:attribute name="class" select="$class"></xsl:attribute>
+            <xsl:apply-templates/>
+            </tr>
+            </xsl:template>
+            
+            <xsl:template match="p[matches(@styleId,'Narrow')]" priority="10">
+            <p class="narrow"><xsl:apply-templates/></p>
+            </xsl:template>
+            
+            <xsl:template match="tr//p" priority="1"><xsl:copy><xsl:apply-templates/></xsl:copy></xsl:template>
+            
+            </xsl:stylesheet>
+            </p:inline>
             </p:input>
-        </p:xslt>-->
+            </p:xslt>-->
         
     </p:declare-step>
     
