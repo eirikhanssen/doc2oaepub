@@ -602,7 +602,7 @@
                             <xsl:variable name="list_format" select="current()/li[1]/@format"/>
                             <xsl:variable name="list_type">
                                 <xsl:choose>
-                                    <xsl:when test="$list_format = ('decimal','lowerLetter')">ol</xsl:when>
+                                    <xsl:when test="$list_format = ('decimal','lowerLetter','lowerRoman')">ol</xsl:when>
                                     <xsl:when test="$list_format = ('bullet','none','')">ul</xsl:when>
                                     <xsl:otherwise>ul</xsl:otherwise>
                                 </xsl:choose>
@@ -723,6 +723,7 @@
         
         <p:wrap match="text()[ancestor::w:r[1]/w:rPr/w:b]" wrapper="strong"></p:wrap>
         <p:wrap match="text()[ancestor::w:r[1]/w:rPr/w:i]" wrapper="em"></p:wrap>
+        <p:wrap match="text()[ancestor::w:r[1]/w:rPr/w:u]" wrapper="u"></p:wrap>
         <p:wrap match="text()[ancestor::w:r[1]/w:rPr/w:rStyle[matches(@w:val, '^(ReferenceSource)|(Emphasis)')]][not(ancestor::em)]" wrapper="em"></p:wrap>
         <p:wrap match="text()[ancestor::w:r[1]/w:rPr/w:vertAlign/@w:val='superscript']" wrapper="sup"></p:wrap>
         <p:wrap match="text()[ancestor::w:r[1]/w:rPr/w:vertAlign/@w:val='subscript']" wrapper="sub"></p:wrap>

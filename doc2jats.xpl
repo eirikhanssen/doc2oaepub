@@ -36,7 +36,7 @@
     
     <d2j:restructure-tables/> 
 
-    <!-- <d2j:group-lists/> -->
+    <d2j:group-lists/> 
     
     <!-- <d2j:filter-w-document/> -->
     
