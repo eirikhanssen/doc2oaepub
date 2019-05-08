@@ -32,7 +32,7 @@
              xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"
              xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing">
    <env>
-      <folder>/home/hanson/projects/doc2jats/samples/Jaana-Piia-Mäkiniemi.docx-20190508-121515</folder>
+      <folder>/home/hanson/projects/doc2jats/samples/Jaana-Piia-Mäkiniemi.docx-20190508-121631</folder>
    </env>
    <pkg:part pkg_name="/_rels/.rels">
       <pkg:xmlData>
@@ -341,7 +341,7 @@
                <p styleId="TableCaption0" styleName="[Table Caption]">Table 1. Descriptive statistics for the study variables (n = 180).</p>
                <table>
                   <thead>
-                     <tr grouping="thead" class="left-center">
+                     <tr class="left-center">
                         <th>
                            <p/>
                         </th>
@@ -369,7 +369,7 @@
                            <p>(n = 8)</p>
                         </th>
                      </tr>
-                     <tr grouping="thead" class="left-center">
+                     <tr class="left-center">
                         <th>
                            <p/>
                         </th>
@@ -412,7 +412,7 @@
                      </tr>
                   </thead>
                   <tbody>
-                     <tr grouping="tbody">
+                     <tr>
                         <th class="left">
                            <p>1. Techno-work engagement </p>
                         </th>
@@ -453,7 +453,7 @@
                            <p>1.26</p>
                         </td>
                      </tr>
-                     <tr grouping="tbody">
+                     <tr>
                         <th class="left">
                            <p>2. Technology-related self-efficacy (individual)</p>
                         </th>
@@ -494,7 +494,7 @@
                            <p>0.75</p>
                         </td>
                      </tr>
-                     <tr grouping="tbody">
+                     <tr>
                         <th class="left">
                            <p>3. Technology-related collegial support (job)</p>
                         </th>
@@ -535,7 +535,7 @@
                            <p>0.55</p>
                         </td>
                      </tr>
-                     <tr grouping="tbody">
+                     <tr>
                         <th class="left">
                            <p>4. Technology-related competence support (job)</p>
                         </th>
@@ -576,7 +576,7 @@
                            <p>0.58</p>
                         </td>
                      </tr>
-                     <tr grouping="tbody">
+                     <tr>
                         <th class="left">
                            <p>5. Technology-related autonomy (job)</p>
                         </th>
@@ -624,7 +624,7 @@
                <p styleId="TableCaption0" styleName="[Table Caption]">Table 2. Construct validity, reliability, discriminant validity, correlations, means and standard deviations for constructs (PLS models, n = 180).</p>
                <table>
                   <thead>
-                     <tr grouping="thead">
+                     <tr>
                         <th>
                            <p/>
                         </th>
@@ -652,7 +652,7 @@
                      </tr>
                   </thead>
                   <tbody>
-                     <tr grouping="tbody">
+                     <tr>
                         <th class="left">
                            <p>Technology-related self-efficacy (1)</p>
                         </th>
@@ -678,7 +678,7 @@
                            <p/>
                         </td>
                      </tr>
-                     <tr grouping="tbody">
+                     <tr>
                         <th class="left">
                            <p>Technology-related collegial support (2)</p>
                         </th>
@@ -704,7 +704,7 @@
                            <p/>
                         </td>
                      </tr>
-                     <tr grouping="tbody">
+                     <tr>
                         <th class="left">
                            <p>Technology-related autonomy (3)</p>
                         </th>
@@ -730,7 +730,7 @@
                            <p/>
                         </td>
                      </tr>
-                     <tr grouping="tbody">
+                     <tr>
                         <th class="left">
                            <p>Technology-related competence support (4) </p>
                         </th>
@@ -756,7 +756,7 @@
                            <p/>
                         </td>
                      </tr>
-                     <tr grouping="tbody">
+                     <tr>
                         <th class="left">
                            <p>Techno-work engagement (5)</p>
                         </th>
@@ -782,7 +782,7 @@
                            <p>0.821</p>
                         </td>
                      </tr>
-                     <tr grouping="tbody">
+                     <tr>
                         <th class="left">
                            <p>Mean</p>
                         </th>
@@ -808,7 +808,7 @@
                            <p>3.94</p>
                         </td>
                      </tr>
-                     <tr grouping="tbody">
+                     <tr>
                         <th class="left">
                            <p>SD</p>
                         </th>
@@ -845,7 +845,7 @@
                   <strong>Table 3.</strong> Standardised path coefficients and t statistics of compared models and effect sizes for Model 2.</p>
                <table>
                   <thead>
-                     <tr grouping="thead" class="left-center">
+                     <tr class="left-center">
                         <th>
                            <p/>
                         </th>
@@ -865,7 +865,7 @@
                            <p/>
                         </th>
                      </tr>
-                     <tr grouping="thead" class="left-center">
+                     <tr class="left-center">
                         <th>
                            <p/>
                         </th>
@@ -888,7 +888,7 @@
                      </tr>
                   </thead>
                   <tbody>
-                     <tr grouping="tbody">
+                     <tr>
                         <th class="left">
                            <p>Technology-related self-efficacy <w:sym w:font="Wingdings" w:char="F0E0"/> Techno-work engagement</p>
                         </th>
@@ -908,7 +908,7 @@
                            <p>0.112</p>
                         </td>
                      </tr>
-                     <tr grouping="tbody">
+                     <tr>
                         <th class="left">
                            <p>Technology-related collegial support <w:sym w:font="Wingdings" w:char="F0E0"/> Techno-work engagement</p>
                         </th>
@@ -928,7 +928,7 @@
                            <p>0.000</p>
                         </td>
                      </tr>
-                     <tr grouping="tbody">
+                     <tr>
                         <th class="left">
                            <p>Technology-related autonomy <w:sym w:font="Wingdings" w:char="F0E0"/> Techno-work engagement</p>
                         </th>
@@ -948,7 +948,7 @@
                            <p>0.088</p>
                         </td>
                      </tr>
-                     <tr grouping="tbody">
+                     <tr>
                         <th class="left">
                            <p>Technology-related competence support <w:sym w:font="Wingdings" w:char="F0E0"/> Techno-work engagement</p>
                         </th>
@@ -968,7 +968,7 @@
                            <p>0.052</p>
                         </td>
                      </tr>
-                     <tr grouping="tbody">
+                     <tr>
                         <th class="left">
                            <p>R<sup>2</sup>
                            </p>
@@ -989,7 +989,7 @@
                            <p/>
                         </td>
                      </tr>
-                     <tr grouping="tbody">
+                     <tr>
                         <th class="left">
                            <p>Q<sup>2</sup>
                            </p>
@@ -1128,7 +1128,7 @@
                <p>Measurement (outer) model of the constructs. Standardised indicator loadings and respective t-statistics.</p>
                <table>
                   <thead>
-                     <tr grouping="thead">
+                     <tr>
                         <th class="left">
                            <p/>
                         </th>
@@ -1141,7 +1141,7 @@
                      </tr>
                   </thead>
                   <tbody>
-                     <tr grouping="tbody">
+                     <tr>
                         <th class="left">
                            <p>Techno-work engagement</p>
                         </th>
@@ -1152,7 +1152,7 @@
                            <p/>
                         </td>
                      </tr>
-                     <tr grouping="tbody">
+                     <tr>
                         <th class="left">
                            <p>Techno-work engagement_enthusiastic </p>
                         </th>
@@ -1163,7 +1163,7 @@
                            <p>24.316</p>
                         </td>
                      </tr>
-                     <tr grouping="tbody">
+                     <tr>
                         <th class="left">
                            <p>Techno-work engagement_inspired </p>
                         </th>
@@ -1174,7 +1174,7 @@
                            <p>42.206</p>
                         </td>
                      </tr>
-                     <tr grouping="tbody">
+                     <tr>
                         <th class="left">
                            <p>Techno-work engagement_proud</p>
                         </th>
@@ -1185,7 +1185,7 @@
                            <p>24.871</p>
                         </td>
                      </tr>
-                     <tr grouping="tbody">
+                     <tr>
                         <th class="left">
                            <p>Techno-work engagement_persevere</p>
                         </th>
@@ -1196,7 +1196,7 @@
                            <p>11.646</p>
                         </td>
                      </tr>
-                     <tr grouping="tbody">
+                     <tr>
                         <th class="left">
                            <p>Techno-work engagement_energy</p>
                         </th>
@@ -1207,7 +1207,7 @@
                            <p>32.957</p>
                         </td>
                      </tr>
-                     <tr grouping="tbody">
+                     <tr>
                         <th class="left">
                            <p>Techno-work engagement_vigorous</p>
                         </th>
@@ -1218,7 +1218,7 @@
                            <p>40.572</p>
                         </td>
                      </tr>
-                     <tr grouping="tbody">
+                     <tr>
                         <th class="left">
                            <p>Techno-work engagement_happy immersed</p>
                         </th>
@@ -1229,7 +1229,7 @@
                            <p>43.634</p>
                         </td>
                      </tr>
-                     <tr grouping="tbody">
+                     <tr>
                         <th class="left">
                            <p>Techno-work engagement_immersed </p>
                         </th>
@@ -1240,7 +1240,7 @@
                            <p>27.699</p>
                         </td>
                      </tr>
-                     <tr grouping="tbody">
+                     <tr>
                         <th class="left">
                            <p>Techno-work engagement_carried away</p>
                         </th>
@@ -1251,7 +1251,7 @@
                            <p>48.088</p>
                         </td>
                      </tr>
-                     <tr grouping="tbody">
+                     <tr>
                         <th class="left">
                            <p>Technology-related self-efficacy</p>
                         </th>
@@ -1262,7 +1262,7 @@
                            <p/>
                         </td>
                      </tr>
-                     <tr grouping="tbody">
+                     <tr>
                         <th class="left">
                            <p>Technology-related self-efficacy_know how to utilize</p>
                         </th>
@@ -1273,7 +1273,7 @@
                            <p>37.314</p>
                         </td>
                      </tr>
-                     <tr grouping="tbody">
+                     <tr>
                         <th class="left">
                            <p>Technology-related self-efficacy_able to help</p>
                         </th>
@@ -1284,7 +1284,7 @@
                            <p>42.257</p>
                         </td>
                      </tr>
-                     <tr grouping="tbody">
+                     <tr>
                         <th class="left">
                            <p>Technology-related self-efficacy_adequate skills</p>
                         </th>
@@ -1295,7 +1295,7 @@
                            <p>56.264</p>
                         </td>
                      </tr>
-                     <tr grouping="tbody">
+                     <tr>
                         <th class="left">
                            <p>Technology-related competence support</p>
                         </th>
@@ -1306,7 +1306,7 @@
                            <p/>
                         </td>
                      </tr>
-                     <tr grouping="tbody">
+                     <tr>
                         <th class="left">
                            <p>Technology-related competence support_training </p>
                         </th>
@@ -1317,7 +1317,7 @@
                            <p>11.102</p>
                         </td>
                      </tr>
-                     <tr grouping="tbody">
+                     <tr>
                         <th class="left">
                            <p>Technology-related competence support_time </p>
                         </th>
@@ -1328,7 +1328,7 @@
                            <p>15.417</p>
                         </td>
                      </tr>
-                     <tr grouping="tbody">
+                     <tr>
                         <th class="left">
                            <p>Technology-related competence support_what is expected</p>
                         </th>
@@ -1339,7 +1339,7 @@
                            <p>6.580</p>
                         </td>
                      </tr>
-                     <tr grouping="tbody">
+                     <tr>
                         <th class="left">
                            <p>Technology-related autonomy </p>
                         </th>
@@ -1350,7 +1350,7 @@
                            <p/>
                         </td>
                      </tr>
-                     <tr grouping="tbody">
+                     <tr>
                         <th class="left">
                            <p>Technology-related autonomy_opinions respected </p>
                         </th>
@@ -1361,7 +1361,7 @@
                            <p>15.491</p>
                         </td>
                      </tr>
-                     <tr grouping="tbody">
+                     <tr>
                         <th class="left">
                            <p>Technology-related autonomy_voluntariness </p>
                         </th>
@@ -1372,7 +1372,7 @@
                            <p>35.412</p>
                         </td>
                      </tr>
-                     <tr grouping="tbody">
+                     <tr>
                         <th class="left">
                            <p>Technology-related autonomy_freedom to decide</p>
                         </th>
@@ -1383,7 +1383,7 @@
                            <p>6.741</p>
                         </td>
                      </tr>
-                     <tr grouping="tbody">
+                     <tr>
                         <th class="left">
                            <p>Technology-related collegial support</p>
                         </th>
@@ -1394,7 +1394,7 @@
                            <p/>
                         </td>
                      </tr>
-                     <tr grouping="tbody">
+                     <tr>
                         <th class="left">
                            <p>Technology-related collegial support_colleagues support </p>
                         </th>
@@ -1405,7 +1405,7 @@
                            <p>17.073</p>
                         </td>
                      </tr>
-                     <tr grouping="tbody">
+                     <tr>
                         <th class="left">
                            <p>Technology-related collegial support_tips </p>
                         </th>
@@ -1416,7 +1416,7 @@
                            <p>18.008</p>
                         </td>
                      </tr>
-                     <tr grouping="tbody">
+                     <tr>
                         <th class="left">
                            <p>Technology-related collegial support_collaboration </p>
                         </th>

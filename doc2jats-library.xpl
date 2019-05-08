@@ -430,34 +430,27 @@
         <p:serialization port="result" indent="true" method="xml" omit-xml-declaration="true"/>
         <p:input port="source"/>
         <p:input port="parameters" kind="parameter" sequence="true"/>
-        
+
+        <!-- Note: the order of the following xproc-steps is significant.  -->
         <p:rename match="td[p[matches(@styleId, '^TableHeader')]]" new-name="th"/>
-        
         <p:add-attribute match="th[p[matches(@styleId, 'Center')]]" attribute-name="class" attribute-value="center"/>
         <p:add-attribute match="th[p[matches(@styleId, 'Left')]]" attribute-name="class" attribute-value="left"/>
         <p:delete match="tr/@data-rid"/>
         <p:add-attribute match="td[p[matches(@styleId, 'Narrow')]]" attribute-name="data-style" attribute-value="narrow"/>
-        
         <p:add-attribute match="tr[ (th[1]/@class != 'center') and (th/@class = 'center') and (every $th in th[position() &gt; 1] satisfies $th/@class = 'center') ]" attribute-name="class" attribute-value="left-center"/>
-        
         <p:add-attribute match="tr[ (every $th in th satisfies $th/@class = 'center') ]" attribute-name="class" attribute-value="center"/>
-        
         <p:delete match="p[(matches(@styleId, 'TableHeader')) and (parent::th)]/@*[matches(name(.) , 'style.*')]"/>
         <p:delete match="p[(matches(@styleId, 'TableContents')) and (parent::td)]/@*[matches(name(.) , 'style.*')]"/>
-        
         <p:delete match="th[(matches(@class, 'center')) and (parent::tr[matches(@class, 'center')])]/@class"/>
-        
         <p:delete match="th[(matches(@class, 'left')) and (parent::tr[matches(@class, 'left')])]/@class"/>
-        
         <p:delete match="p[(matches(@styleId, '^Ingen'))]/@*[matches(name(.) , 'style.*')]"/>
         
+        <!-- Group into thead and tbody -->
         <p:add-attribute match="tr[ (th and not(td)) and not(preceding-sibling::tr[td])]" attribute-name="grouping" attribute-value="thead"/>
-        
         <p:add-attribute match="tr[not (@grouping)]" attribute-name="grouping" attribute-value="tbody"/>
-        
         <p:wrap match="tr[@grouping='thead']" group-adjacent="local-name(.)" wrapper="thead"></p:wrap>
-        
         <p:wrap match="tr[@grouping='tbody']" group-adjacent="local-name(.)" wrapper="tbody"></p:wrap>
+        <p:delete match="tr/@grouping"/>
         
         <p:xslt name="restructure-tables-xsl" version="2.0">
             <p:input port="source"/>
