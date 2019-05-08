@@ -38,9 +38,9 @@
 
     <d2j:group-lists/> 
     
-    <!-- <d2j:filter-w-document/> -->
+    <d2j:replace-symbols/>
     
-    <!-- <d2j:replace-symbols/> -->
+    <!-- <d2j:filter-w-document/> -->
     
     <!-- <d2j:figures/> -->
     

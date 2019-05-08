@@ -645,7 +645,7 @@
                         <xsl:import href="doc2jats-functions.xsl"/>
                         <w:sym w:font="Wingdings" w:char="F0E0"/>
                         <xsl:template match="w:sym">
-                            
+                            <!-- replace a word entity with the "right arrow" symbol -->
                             <xsl:choose>
                                 <xsl:when test="@w:char = 'F0E0'"><xsl:text>🡒</xsl:text></xsl:when>
                                 <xsl:otherwise>
