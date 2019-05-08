@@ -722,11 +722,7 @@
         <p:serialization port="result" indent="true" method="xml" omit-xml-declaration="true"/>
         <p:input port="source"/>
         <p:input port="parameters" kind="parameter" sequence="true"/>
-        
-        <p:delete match="h1/@*|h2/@*|h3/@*|h4/@*|h5/@*|h6/@*"></p:delete>
-        
         <p:delete match="w:br[@w:type='page']"/>
-        
     </p:declare-step>
     
     

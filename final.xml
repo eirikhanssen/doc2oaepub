@@ -32,7 +32,7 @@
              xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"
              xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing">
    <env>
-      <folder>/home/hanson/projects/doc2jats/samples/Jaana-Piia-Mäkiniemi.docx-20190508-142511</folder>
+      <folder>/home/hanson/projects/doc2jats/samples/Jaana-Piia-Mäkiniemi.docx-20190508-142809</folder>
    </env>
    <pkg:part pkg_name="/_rels/.rels">
       <pkg:xmlData>
@@ -337,8 +337,7 @@
                <h3>Data analysis </h3>
                <p>First, the mean scores were calculated for each main variable, and differences between gender (calculated by an independent sample t-test) and teacher type (calculated by a one-way analysis of variance, ANOVA) were analysed with IBM SPSS 22. Subsequently, structural equation modelling (SEM) was used to identify the antecedents of techno-work engagement. The hypotheses were tested with SmartPLS 3, which is based on the partial least squares (PLS) SEM theory. A PLS-SEM modelling approach was developed to maximise the explained variance of the dependent variable (Hair, Ringle, &amp; Sarstedt, 2011; Hair, Hult, &amp; Ringle, 2017). This approach was appropriate in this study due to the non-normality of the data and the small sample size (n = 180). Additionally, PLS-SEM is considered appropriate for exploratory research and the early stages of theory development (Hair, Sarstedt, Ringle, &amp; Mena, 2012). As we were interested in testing and comparing the antecedents of techno-work engagement, which is a recently developed concept, the explorative nature of PLS modelling was advantageous for our study (Henseler, Ringle, Sinkovics, 2009).</p>
                <h2>Results</h2>
-               <p>The level of techno-work engagement was quite high (M = 3.93, SD = 1.49). There was no statistically significant difference between females (M = 3.86, SD = 1.46) and males (M = 4.17, SD = 1.57; t(178) = 1.21, p = .229). However, there were differences between different types of teachers (F(2, 177) = 6.78, p = .001). Post-hoc comparisons conducted with the Scheffe test indicated that the mean score for principals (M = 5.71, SD = 1.26) was significantly higher than those for class teachers (M = 3.75, SD = 1.37) and subject teachers (M = 3.97, SD = 1.54) at p &lt;. 01 (Table 1). <w:br w:type="page"/>
-               </p>
+               <p>The level of techno-work engagement was quite high (M = 3.93, SD = 1.49). There was no statistically significant difference between females (M = 3.86, SD = 1.46) and males (M = 4.17, SD = 1.57; t(178) = 1.21, p = .229). However, there were differences between different types of teachers (F(2, 177) = 6.78, p = .001). Post-hoc comparisons conducted with the Scheffe test indicated that the mean score for principals (M = 5.71, SD = 1.26) was significantly higher than those for class teachers (M = 3.75, SD = 1.37) and subject teachers (M = 3.97, SD = 1.54) at p &lt;. 01 (Table 1). </p>
                <table>
                   <caption>
                      <p>Table 1. Descriptive statistics for the study variables (n = 180).</p>
