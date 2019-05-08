@@ -451,7 +451,11 @@
         
         <p:delete match="p[(matches(@styleId, '^Ingen'))]/@*[matches(name(.) , 'style.*')]"/>
         
-        <!--<p:xslt name="restructure-tables-xsl" version="2.0">
+        <p:add-attribute match="tr[ (th and not(td)) and not(preceding-sibling::tr[td])]" attribute-name="grouping" attribute-value="thead"/>
+        
+        <p:add-attribute match="tr[not (@grouping)]" attribute-name="grouping" attribute-value="tbody"/>
+        
+        <p:xslt name="restructure-tables-xsl" version="2.0">
             <p:input port="source"/>
             <p:input port="parameters"/>
             <p:input port="stylesheet">
@@ -467,7 +471,7 @@
             
             <xsl:import href="doc2jats-functions.xsl"/>
             
-            <xsl:template match="table[preceding-sibling::*[1][self::p][matches(@styleId, '^TableCaption')]]">
+            <!--<xsl:template match="table[preceding-sibling::*[1][self::p][matches(@styleId, '^TableCaption')]]">
             <xsl:variable name="caption" select="preceding-sibling::*[1][self::p][matches(@styleId, '^TableCaption')]"/>
             <table>
             <caption><xsl:apply-templates mode="caption" select="$caption"/></caption>
@@ -515,12 +519,12 @@
             <p class="narrow"><xsl:apply-templates/></p>
             </xsl:template>
             
-            <xsl:template match="tr//p" priority="1"><xsl:copy><xsl:apply-templates/></xsl:copy></xsl:template>
+            <xsl:template match="tr//p" priority="1"><xsl:copy><xsl:apply-templates/></xsl:copy></xsl:template>-->
             
             </xsl:stylesheet>
             </p:inline>
             </p:input>
-            </p:xslt>-->
+            </p:xslt>
         
     </p:declare-step>
     
