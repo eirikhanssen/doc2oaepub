@@ -32,7 +32,7 @@
              xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"
              xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing">
    <env>
-      <folder>/home/hanson/projects/doc2jats/samples/Jaana-Piia-Mäkiniemi.docx-20190508-121631</folder>
+      <folder>/home/hanson/projects/doc2jats/samples/Jaana-Piia-Mäkiniemi.docx-20190508-123313</folder>
    </env>
    <pkg:part pkg_name="/_rels/.rels">
       <pkg:xmlData>
@@ -338,8 +338,10 @@
                <h2>Results</h2>
                <p>The level of techno-work engagement was quite high (M = 3.93, SD = 1.49). There was no statistically significant difference between females (M = 3.86, SD = 1.46) and males (M = 4.17, SD = 1.57; t(178) = 1.21, p = .229). However, there were differences between different types of teachers (F(2, 177) = 6.78, p = .001). Post-hoc comparisons conducted with the Scheffe test indicated that the mean score for principals (M = 5.71, SD = 1.26) was significantly higher than those for class teachers (M = 3.75, SD = 1.37) and subject teachers (M = 3.97, SD = 1.54) at p &lt;. 01 (Table 1). <w:br w:type="page"/>
                </p>
-               <p styleId="TableCaption0" styleName="[Table Caption]">Table 1. Descriptive statistics for the study variables (n = 180).</p>
                <table>
+                  <caption>
+                     <p>Table 1. Descriptive statistics for the study variables (n = 180).</p>
+                  </caption>
                   <thead>
                      <tr class="left-center">
                         <th>
@@ -621,8 +623,10 @@
                </table>
                <h2>Outer model</h2>
                <p>The assessment of PLS models is twofold; an acceptable judgement of the outer model allows one to proceed with the inner model evaluation. The outer model is assessed by analysing the reliability and validity of the constructs. Reliability and validity are determined for reflective indicators based on factor loadings, composition reliability (CR), average of variance extracted (AVE) and discriminant validity (Henseler et al., 2009). The estimated loadings of the reflective indicators were all high (0.58–0.92) and statistically significant (see Appendix 1). Statistical significance was achieved by the bootstrap procedure using 5,000 samples. The composite reliability (CR) of constructs can be regarded as more suitable than Cronbach’s alpha when using the PLS method (Hair et al., 2012). CR values indicate the reliability and consistency of constructs (Table 2) (Hair et al., 2011). Convergent validity of constructs is achieved when AVE values are greater than 0.51. Using the Fornell–Larcker criterion to assess the discriminant validity between the constructs, it was determined that the square roots of the AVEs of each construct were larger than the constructs’ correlations with each other (Table 2) (Fornell &amp; Larcker, 1981). </p>
-               <p styleId="TableCaption0" styleName="[Table Caption]">Table 2. Construct validity, reliability, discriminant validity, correlations, means and standard deviations for constructs (PLS models, n = 180).</p>
                <table>
+                  <caption>
+                     <p>Table 2. Construct validity, reliability, discriminant validity, correlations, means and standard deviations for constructs (PLS models, n = 180).</p>
+                  </caption>
                   <thead>
                      <tr>
                         <th>
@@ -835,15 +839,19 @@
                         </td>
                      </tr>
                   </tbody>
+                  <tfoot class="table-notes">
+                     <p>
+                        <sup>1</sup> Composite reliability, <sup>2</sup> Average variance extracted.</p>
+                  </tfoot>
                </table>
-               <p styleId="TableNotes0" styleName="[Table Notes]">
-                  <sup>1</sup> Composite reliability, <sup>2</sup> Average variance extracted.</p>
                <h2>Inner model</h2>
                <p>To establish the role of technology-related self-efficacy in techno-work engagement, we tested the two models shown in Figure 1. In Model 1, three exogenous variables explain an endogenous variable (H1a,b,c). Model 2 includes an additional exogenous variable, technology-related self-efficacy (H2). To establish the additional explained variance of techno-work engagement, we compared the predictive relevance of the models using the squared coefficient of determination (R<sup>2</sup>) and blindfolding procedure (Stone-Geisser’s Q<sup>2</sup>). Using R<sup>2</sup> values as a criterion to assess endogenous variables, we employed Chin’s (1998) boundaries (0.67, 0.33 and 0.15 as substantial, moderate and weak, respectively). According to these boundaries, the first model was interpreted as moderate (see Table 3). The path coefficients of technology-related job resources to techno-work engagement met expectations, excluding the path from technology-related collegial support, which lacked statistical significance (t statistics &lt; 1.96) and was therefore interpreted as zero. Taken together, in Model 1, two job resources, namely, technology-related autonomy and technology-related competence support, were statistically significantly and positively associated with the techno-work engagement; thus, hypotheses H1b and H1c were supported. However, unexpectedly, technology-related collegial support was not statistically significantly related to techno-work engagement, and therefore hypothesis H1a was not supported. To better understand this finding, we performed an additional analysis: Estimation of a model with only one exogenous variable (technology-related collegial support) for techno-work engagement and comparison with Model 1 indicated that correlation between job resources reduced the separate effect of collegial support in Model 1. This may be due to multicollinearity problems, as technology-related job resources are highly correlated by nature. </p>
                <p>Adding technology-related self-efficacy into Model 2 resulted in higher R<sup>2</sup> and Q<sup>2</sup> values (Table 3). In addition to R<sup>2</sup> and Q<sup>2</sup> values, inner model assessments should consider Cohen’s f<sup>2</sup> values and the magnitude and direction of the path coefficients (Henseler et al., 2009). Considering the magnitude of the estimated path coefficients and effect sizes, we found that technology-related self-efficacy had the strongest impact on techno-work engagement (β= 0.311, f<sup>2</sup>=0.112; Table 3, Figure 2). Both technology-related autonomy and competence support were positive and statistically significant, with path coefficients of 0.286 and 0.205, respectively. Using Cohen’s (1998) limits to interpret f<sup>2 </sup>values, the effect sizes of self-efficacy, autonomy and competence support varied from weak to medium. The collegial support path was interpreted as zero (t &lt; 1.96) in this model. Taken together, Model 2, which in addition to three job resources includes an individual resource (technology-related self-efficacy), had slightly better predictive power than Model 1. Further, in Model 2, technology-related self-efficacy had the strongest unique contribution to techno-work engagement, followed by technology-related autonomy and technology-related competence support. Therefore, hypotheses H2, H1b and H1c were supported, and again unexpectedly technology-related collegial support was not statistically significantly related to techno-work engagement (c.f. H1a). </p>
-               <p styleId="TableCaption" styleName="Table Caption">
-                  <strong>Table 3.</strong> Standardised path coefficients and t statistics of compared models and effect sizes for Model 2.</p>
                <table>
+                  <caption>
+                     <p>
+                        <strong>Table 3.</strong> Standardised path coefficients and t statistics of compared models and effect sizes for Model 2.</p>
+                  </caption>
                   <thead>
                      <tr class="left-center">
                         <th>
@@ -1011,8 +1019,10 @@
                         </td>
                      </tr>
                   </tbody>
+                  <tfoot class="table-notes">
+                     <p>** indicates statistical significance at a risk level of 0.01.</p>
+                  </tfoot>
                </table>
-               <p styleId="TableNotes0" styleName="[Table Notes]">** indicates statistical significance at a risk level of 0.01.</p>
                <p styleId="TableNotes" styleName="Table Notes"/>
                <figure>
                   <img src="fig.png" alt=""/>
