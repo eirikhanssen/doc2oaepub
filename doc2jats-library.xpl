@@ -455,6 +455,10 @@
         
         <p:add-attribute match="tr[not (@grouping)]" attribute-name="grouping" attribute-value="tbody"/>
         
+        <p:wrap match="tr[@grouping='thead']" group-adjacent="local-name(.)" wrapper="thead"></p:wrap>
+        
+        <p:wrap match="tr[@grouping='tbody']" group-adjacent="local-name(.)" wrapper="tbody"></p:wrap>
+        
         <p:xslt name="restructure-tables-xsl" version="2.0">
             <p:input port="source"/>
             <p:input port="parameters"/>
