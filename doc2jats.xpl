@@ -40,9 +40,11 @@
     
     <d2j:replace-symbols/>
     
+    <d2j:restructure-figures/>
+    
     <!-- <d2j:filter-w-document/> -->
     
-    <!-- <d2j:figures/> -->
+    
     
 
     

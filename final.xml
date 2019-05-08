@@ -32,7 +32,7 @@
              xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"
              xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing">
    <env>
-      <folder>/home/hanson/projects/doc2jats/samples/Jaana-Piia-Mäkiniemi.docx-20190508-131743</folder>
+      <folder>/home/hanson/projects/doc2jats/samples/Jaana-Piia-Mäkiniemi.docx-20190508-142511</folder>
    </env>
    <pkg:part pkg_name="/_rels/.rels">
       <pkg:xmlData>
@@ -320,11 +320,12 @@
                <h2>Technology-related self-efficacy as an individual workplace resource </h2>
                <p>Self-efficacy is an important individual resource that is associated with employee well-being, such as higher work engagement (Xanthopoulou et al., 2007; Nielsen et al., 2017; Skaalvik &amp; Skaalvik, 2014) and lower burnout in various occupations, including educational occupations (Skaalvik &amp; Skaalvik, 2007; Shoji et al., 2016). According to social cognitive theory, self-efficacy is defined as an individual’s beliefs regarding his or her capability to control situations and challenging demands. People with high levels of self-efficacy tend to set challenging goals, persist in achieving their goals, even under difficult and stressful circumstances, and recover quickly from failure, even in conditions that would appear to be overwhelming to the average person (Bandura, 1997). Self-efficacy can be measured at either a general or situation- or domain-specific level. One domain-specific concept, teaching or teacher efficacy, is defined as a teacher’s future-oriented competency-based expectation, which is related to his or her ability to plan, organise and carry out the activities required to attain given educational goals. This expectation is a balanced judgement influenced by the teacher’s perceived capacity to carry out the acts as well as the perceived demands of the working situation (Reeve &amp; Su, 2014). In the current paper, we focus on teachers’ (educational) technology-related self-efficacy as a personal workplace resource. We assume that a teacher has high technology-related self-efficacy, for example, when he or she understands the possibilities of educational technology well enough to maximise them in teaching and when he or she feels confident that he or she can help students when they have difficulties (c.f. Wang, Ertmer, &amp; Newby, 2004). In line with previous findings assuming the link between self-efficacy and work engagement among teachers (e.g. Skaalvik &amp; Skaalvik, 2014), we suggest that technology-related self-efficacy is associated with higher techno-work engagement. </p>
                <figure>
-                  <img src="fig.png"
+                  <img src="figure-1.jpg"
                        alt="Two overlapping models. Technology related subjects that are related to Techno-work engagement. In model 1: Technology-related collegial support, autonoy and competence support. Model 2 is identical, but adds thechnology related self-efficacy."/>
-                  <figcaption>__</figcaption>
+                  <figcaption>
+                     <p>Figure 1. Hypothetical models.</p>
+                  </figcaption>
                </figure>
-               <p styleId="FigureCaption0" styleName="[Figure Caption]">Figure 1. Hypothetical models.</p>
                <p>Taken together, the main aims of the current study are to analyse how technology-related individual-, organisation- and group-level resources are associated with techno-work engagement among a group of Finnish teachers and determine which are the most influential predictors of techno-work engagement. We pose two hypotheses (Figure 1): technology-related job resources, namely, collegial support (H1a), autonomy (H1b) and competence support (H1c), are associated with higher techno-work engagement, and technology-related self-efficacy is associated with higher techno-work engagement (H2). Based on prior findings and theoretical formulations, it is not possible to hypothesise which predictors are the most influential. In practise, we tested two hypothetical models, as shown in Figure 1. The first model (Model 1) tested how three technology-related job resources – technology-related collegial support, technology-related autonomy and technology-related competence support – are associated with techno-work engagement. In the second model (Model 2), technology-related self-efficacy as an individual resource was added to the model to test whether technology-related job resources and an individual resource together are associated with techno-work engagement and which of these are the best predictors of techno-work engagement (Figure 1).</p>
                <h2>Methods </h2>
                <h3>Data collection and participants </h3>
@@ -1025,8 +1026,8 @@
                </table>
                <p styleId="TableNotes" styleName="Table Notes"/>
                <figure>
-                  <img src="fig.png" alt=""/>
-                  <figcaption>__</figcaption>
+                  <img src="figure-2.jpg" alt=""/>
+                  <figcaption>____</figcaption>
                </figure>
                <h2>Discussion </h2>
                <p>The aims of the study were to explore how technology-related workplace resources are related to techno-work engagement among a group of Finnish teachers and determine which predictors of techno-work engagement are the most influential. We hypothesised that technology-related job resources are associated with higher techno-work engagement (H1a,b,c) and that technology-related self-efficacy is associated with higher techno-work engagement (H2). The current study is novel in its positive focus; prior studies have focused on negative experiences and a lack of well-being related to the use of educational technology in teaching (e.g. Al-Fudail et al., 2008). </p>
@@ -4645,10 +4646,65 @@
    <pkg:part pkg_name="/word/header2.xml">
       <pkg:xmlData>
          <w:hdr mc:Ignorable="w14 w15 w16se w16cid wp14">
-            <figure>
-               <img src="fig.png" alt="brevheader"/>
-               <figcaption>__</figcaption>
-            </figure>
+            <p styleId="PageHeader" styleName="[Page Header]">
+               <w:drawing>
+                  <wp:inline distT="0"
+                             distB="0"
+                             distL="0"
+                             distR="0"
+                             wp14:anchorId="7A975438"
+                             wp14:editId="1A86F37D">
+                     <wp:extent cx="5446800" cy="554400"/>
+                     <wp:effectExtent l="0" t="0" r="1905" b="0"/>
+                     <wp:docPr id="1" name="Bilde 1" descr="brevheader"/>
+                     <wp:cNvGraphicFramePr>
+                        <a:graphicFrameLocks xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main"
+                                             noChangeAspect="1"/>
+                     </wp:cNvGraphicFramePr>
+                     <a:graphic xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main">
+                        <a:graphicData uri="http://schemas.openxmlformats.org/drawingml/2006/picture">
+                           <pic:pic xmlns:pic="http://schemas.openxmlformats.org/drawingml/2006/picture">
+                              <pic:nvPicPr>
+                                 <pic:cNvPr id="0" name="Picture 1" descr="brevheader"/>
+                                 <pic:cNvPicPr>
+                                    <a:picLocks noChangeAspect="1" noChangeArrowheads="1"/>
+                                 </pic:cNvPicPr>
+                              </pic:nvPicPr>
+                              <pic:blipFill>
+                                 <a:blip r:embed="rId1">
+                                    <a:extLst>
+                                       <a:ext uri="{28A0092B-C50C-407E-A947-70E740481C1C}">
+                                          <a14:useLocalDpi xmlns:a14="http://schemas.microsoft.com/office/drawing/2010/main" val="0"/>
+                                       </a:ext>
+                                    </a:extLst>
+                                 </a:blip>
+                                 <a:srcRect/>
+                                 <a:stretch>
+                                    <a:fillRect/>
+                                 </a:stretch>
+                              </pic:blipFill>
+                              <pic:spPr bwMode="auto">
+                                 <a:xfrm>
+                                    <a:off x="0" y="0"/>
+                                    <a:ext cx="5446800" cy="554400"/>
+                                 </a:xfrm>
+                                 <a:prstGeom prst="rect">
+                                    <a:avLst/>
+                                 </a:prstGeom>
+                                 <a:noFill/>
+                                 <a:ln w="9525">
+                                    <a:noFill/>
+                                    <a:miter lim="800000"/>
+                                    <a:headEnd/>
+                                    <a:tailEnd/>
+                                 </a:ln>
+                              </pic:spPr>
+                           </pic:pic>
+                        </a:graphicData>
+                     </a:graphic>
+                  </wp:inline>
+               </w:drawing>
+            </p>
          </w:hdr>
       </pkg:xmlData>
    </pkg:part>

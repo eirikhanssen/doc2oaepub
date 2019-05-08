@@ -46,7 +46,8 @@
                         xmlns:wpi="http://schemas.microsoft.com/office/word/2010/wordprocessingInk"
                         xmlns:wne="http://schemas.microsoft.com/office/word/2006/wordml"
                         xmlns:wps="http://schemas.microsoft.com/office/word/2010/wordprocessingShape"
-                        xmlns:vt="http://schemas.openxmlformats.org/officeDocument/2006/docPropsVTypes"/>
+                        xmlns:vt="http://schemas.openxmlformats.org/officeDocument/2006/docPropsVTypes"
+                        />
                 </p:inline>
             </p:input>
         </p:replace>
@@ -274,8 +275,10 @@
                 <p:inline>
                     <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
                         xmlns:f="https://eirikhanssen.com/ns/doc2jats-functions"
+                        xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main"
+                        xmlns:r="http://schemas.openxmlformats.org/package/2006/relationships"
                         version="2.0"
-                        exclude-result-prefixes="f">
+                        exclude-result-prefixes="f a r">
                         <xsl:import href="doc2jats-functions.xsl"/>
                         <xsl:strip-space elements="*"/>
                         
@@ -323,12 +326,25 @@
                                 <xsl:value-of select="$content"/>
                             </a>
                         </xsl:template>
-                        
+
+                        <!-- Disabled because it's not working: attempting to set img src to image path (media/image001.png)  -->
+                        <!--
                         <xsl:template match="p[w:drawing]">
                             <xsl:variable name="alt" select="w:drawing/wp:inline/wp:docPr/@descr"/>
+                            <xsl:variable name="img_rid" select=".//a:blip/@*"/>
+                            <xsl:variable name="img" select="ancestor::pkg:package/pkg:part/pkg:xmlData/r:Relationships/r:Relationship[matches(@Id, $img_rid)]/@Target"></xsl:variable>
                             <figure>
-                                <img src="fig.png" alt="{$alt}"/>
-                                <figcaption>__</figcaption>
+                                <img src="{$img}" alt="{$alt}"/>
+                                <figcaption>____</figcaption>
+                            </figure>
+                        </xsl:template>-->
+                        
+                        <xsl:template match="w:body//p[w:drawing]">
+                            <xsl:variable name="alt" select="w:drawing/wp:inline/wp:docPr/@descr"/>
+                            <xsl:variable name="preceding-figures" select="count(preceding::p[w:drawing]) + 1"/>
+                            <figure>
+                                <img src="{concat('figure-',$preceding-figures, '.jpg')}" alt="{$alt}"/>
+                                <figcaption>____</figcaption>
                             </figure>
                         </xsl:template>
                         
@@ -664,7 +680,7 @@
         
     </p:declare-step>
     
-    <p:declare-step type="d2j:figures">
+    <p:declare-step type="d2j:restructure-figures">
         <p:output port="result" sequence="true"/>
         <p:serialization port="result" indent="true" method="xml" omit-xml-declaration="true"/>
         <p:input port="source"/>
@@ -692,7 +708,7 @@
                         
                         <xsl:template mode="figcaption" match="p[matches(@styleId, '^FigureCaption')]"><p><xsl:apply-templates/></p></xsl:template>
                         
-                        <xsl:template match="p[matches(@styleId, '^FigureCaption')]"/>
+                        <xsl:template match="p[(matches(@styleId, '^FigureCaption')) and preceding-sibling::*[1][self::figure]]"/>
                         
                     </xsl:stylesheet>
                 </p:inline>
