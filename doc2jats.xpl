@@ -42,12 +42,10 @@
     
     <d2j:restructure-figures/>
     
-    <!-- <d2j:filter-w-document/> -->
+    <d2j:cleanup/>
     
-    <d2j:cleanup/> 
+    <d2j:filter-w-document/> 
     
-
-
     <p:identity name="final"/>
     
     <p:store name="store-ocf" href="flat-ocf.xml" method="xml" encoding="UTF-8" indent="true" omit-xml-declaration="true">
