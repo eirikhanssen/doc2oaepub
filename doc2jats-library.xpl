@@ -276,8 +276,10 @@
                         xmlns:f="https://eirikhanssen.com/ns/doc2jats-functions"
                         xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main"
                         xmlns:r="http://schemas.openxmlformats.org/package/2006/relationships"
+                        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+                        
                         version="2.0"
-                        exclude-result-prefixes="f a r">
+                        exclude-result-prefixes="f a r mc">
                         <xsl:import href="doc2jats-functions.xsl"/>
                         <xsl:strip-space elements="*"/>
                         
@@ -346,6 +348,18 @@
                                 <figcaption>____</figcaption>
                             </figure>
                         </xsl:template>
+                        
+                        <xsl:template match="p[mc:AlternateContent]">
+                            <xsl:copy>
+                                <xsl:apply-templates/>
+                            </xsl:copy>
+                            <figure>
+                                <img src="figure.png"/>
+                                <figcaption>____</figcaption>
+                            </figure>
+                        </xsl:template>
+                        
+                        <xsl:template match="mc:AlternateContent"/>
                         
                     </xsl:stylesheet>
                 </p:inline>
