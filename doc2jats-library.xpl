@@ -90,7 +90,6 @@
                 </p:inline>
             </p:input>
             
-            
         </p:xslt>
         
         <p:identity name="final"/>
@@ -753,15 +752,32 @@
         <p:namespace-rename from="http://schemas.openxmlformats.org/markup-compatibility/2006" to=""/>
         <p:delete match="document/@*"/>
         <p:rename match="document" new-name="html"></p:rename>
+        <p:add-attribute match="html" name="lang" attribute-name="lang" attribute-value="en-US"></p:add-attribute>
     </p:declare-step>
     
-    <p:declare-step type="d2j:html-head" name="html-head">
+    <p:declare-step type="d2j:html-head" name="html-head"
+        xmlns:pkg="http://schemas.microsoft.com/office/2006/xmlPackage"
+        xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"
+        xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing"
+        exclude-inline-prefixes="d2j pkg w wp">
         <p:output port="result" sequence="true"/>
         <p:serialization port="result" indent="true" method="xml" omit-xml-declaration="true"/>
         <p:input port="source"/>
         <p:input port="parameters" kind="parameter" sequence="true"/>
-        
+        <p:insert match="html" position="first-child">
+            <p:input port="insertion">
+                <p:inline>
+                    <head>
+                        <meta charset="utf-8"/>
+                        <title>Journal Article</title>
+                        <link href="https://journals.hioa.no/styles/article.css" rel="stylesheet"/>
+                        <script src="https://journals.hioa.no/js/article.js" defer="defer"></script>
+                    </head>
+                </p:inline>
+            </p:input>
+        </p:insert>
         <p:identity name="final"/>
+        
     </p:declare-step>
     
     
@@ -802,6 +818,18 @@
         
         <p:identity name="final"/>
         
+    </p:declare-step>
+    
+    
+    <p:declare-step type="d2j:author-group" name="author-group">
+        <p:output port="result" sequence="true"/>
+        <p:serialization port="result" indent="true" method="xml" omit-xml-declaration="true"/>
+        <p:input port="source"/>
+        <p:input port="parameters" kind="parameter" sequence="true"/>
+    
+        <p:wrap match="p[matches(@styleId, '^AuthorName')]" wrapper="author"></p:wrap>    
+    
+        <p:identity name="final"/>
     </p:declare-step>
     
 </p:library>

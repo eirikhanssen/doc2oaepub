@@ -43,7 +43,9 @@
     <d2j:restructure-figures/>
     
     <d2j:filter-w-document/> 
-    
+
+<!--    <d2j:author-group/>-->
+
     <d2j:cleanup/>
     
     <d2j:html-head/>
