@@ -868,12 +868,12 @@
                             <xsl:variable name="counter" select="count(following-sibling::p)"/>
                             <dl class="author">
                                 <dt><xsl:apply-templates/></dt>
-                                <dd><xsl:apply-templates select="following-sibling::p[matches(@styleId, '^AuthorDetails')]" mode="authors"/></dd>
+                                <xsl:apply-templates select="following-sibling::p[matches(@styleId, '^AuthorDetails')]" mode="authors"/>
                             </dl>
                         </xsl:template>
                         
                         <xsl:template mode="authors" match="p[matches(@styleId, '^AuthorDetails')]">
-                            <xsl:apply-templates/>
+                            <dd><xsl:apply-templates/></dd>
                         </xsl:template>
                         
                         <xsl:template match="p[matches(@styleId, '^AuthorDetails')]"/>
