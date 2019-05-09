@@ -44,7 +44,7 @@
     
     <d2j:filter-w-document/> 
 
-<!--    <d2j:author-group/>-->
+    <d2j:author-group/>
 
     <d2j:cleanup/>
     

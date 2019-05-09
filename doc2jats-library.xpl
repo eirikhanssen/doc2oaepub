@@ -852,7 +852,36 @@
         <p:input port="source"/>
         <p:input port="parameters" kind="parameter" sequence="true"/>
     
-        <p:wrap match="p[matches(@styleId, '^AuthorName')]" wrapper="author"></p:wrap>    
+        <p:xslt name="group-authors" version="2.0">
+            <p:input port="source"/>
+            <p:input port="parameters"/>
+            <p:input port="stylesheet">
+                <p:inline>
+                    <xsl:stylesheet 
+                        xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+                        xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                        exclude-result-prefixes="xs"
+                        version="2.0">
+                        <xsl:import href="doc2jats-functions.xsl"/>
+                        
+                        <xsl:template match="p[matches(@styleId, '^AuthorName')]">
+                            <xsl:variable name="counter" select="count(following-sibling::p)"/>
+                            <dl class="author">
+                                <dt><xsl:apply-templates/></dt>
+                                <dd><xsl:apply-templates select="following-sibling::p[matches(@styleId, '^AuthorDetails')]" mode="authors"/></dd>
+                            </dl>
+                        </xsl:template>
+                        
+                        <xsl:template mode="authors" match="p[matches(@styleId, '^AuthorDetails')]">
+                            <xsl:apply-templates/>
+                        </xsl:template>
+                        
+                        <xsl:template match="p[matches(@styleId, '^AuthorDetails')]"/>
+                            
+                    </xsl:stylesheet>
+                </p:inline>
+            </p:input>
+        </p:xslt>  
     
         <p:identity name="final"/>
     </p:declare-step>
