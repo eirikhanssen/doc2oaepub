@@ -42,9 +42,11 @@
     
     <d2j:restructure-figures/>
     
+    <d2j:filter-w-document/> 
+    
     <d2j:cleanup/>
     
-    <d2j:filter-w-document/> 
+    <d2j:html-head/>
     
     <p:identity name="final"/>
     

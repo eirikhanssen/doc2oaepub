@@ -723,8 +723,46 @@
         <p:input port="source"/>
         <p:input port="parameters" kind="parameter" sequence="true"/>
         <p:delete match="w:br[@w:type='page']"/>
+        <p:delete match="w:sectPr"/>
+
+        <p:xslt name="replace-symbols-xsl" version="2.0">
+            <p:input port="source"/>
+            <p:input port="parameters"/>
+            <p:input port="stylesheet">
+                <p:inline>
+                    <xsl:stylesheet 
+                        xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+                        xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+                        xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"
+                        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+                        xmlns:pkg="http://schemas.microsoft.com/office/2006/xmlPackage"
+                        exclude-result-prefixes="xs w mc pkg"
+                        version="2.0">
+                        <xsl:template match="@* | node()">
+                            <xsl:copy copy-namespaces="no">
+                             <xsl:apply-templates select="@* | node()"/>
+                            </xsl:copy>
+                        </xsl:template>
+                    </xsl:stylesheet>
+                </p:inline>
+            </p:input>
+        </p:xslt>
+
+        <p:namespace-rename from="http://schemas.openxmlformats.org/wordprocessingml/2006/main" to=""/>
+        <p:namespace-rename from="http://schemas.openxmlformats.org/markup-compatibility/2006" to=""/>
+        <p:delete match="document/@*"/>
+        <p:rename match="document" new-name="html"></p:rename>
     </p:declare-step>
     
+    <p:declare-step type="d2j:html-head" name="html-head">
+        <p:output port="result" sequence="true"/>
+        <p:serialization port="result" indent="true" method="xml" omit-xml-declaration="true"/>
+        <p:input port="source"/>
+        <p:input port="parameters" kind="parameter" sequence="true"/>
+        
+        <p:identity name="final"/>
+    </p:declare-step>
     
     
     <p:declare-step type="d2j:formatting" name="formatting">
