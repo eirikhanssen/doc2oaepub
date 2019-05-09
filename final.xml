@@ -1,498 +1,1086 @@
 <html lang="en-US">
    <head>
       <meta charset="utf-8"/>
-      <title>Teachers’ Pedagogical Role as Mediators in Leading and Guiding Students’ Learning in Digital Storytelling (DST) | Journal Article</title>
+      <title>Teachers as users of ICT from the student perspective in higher education flipped classroom classes | Journal Article</title>
       <link href="https://journals.hioa.no/styles/article.css" rel="stylesheet"/>
       <script src="https://journals.hioa.no/js/article.js" defer="defer"/>
    </head>
    <body>
-      <p/>
-      <h1>Teachers’ Pedagogical Role as Mediators in Leading and Guiding Students’ Learning in Digital Storytelling (DST)</h1>
+      <h1>Teachers as users of ICT from the student perspective in higher education flipped classroom classes</h1>
       <dl class="author">
-         <dt>Jenny Niu og Hannele Niemi</dt>
-         <dd>Faculty of Educational Sciences</dd>
-         <dd>University of Helsinki</dd>
-         <dd>E-mail:<a href="mailto:jenny.niu@helsinki.fi">jenny.niu@helsinki.fi</a> and<a href="mailto:hannele.niemi@helsinki.fi">hannele.niemi@helsinki.fi</a>
-         </dd>
+         <dt>Erkko T. Sointu</dt>
+         <dd>School of Educational Sciences and Psychology, University of Eastern Finland, Joensuu, Finland</dd>
+         <dd>School of Applied Educational Science and Teacher Education, University of Eastern Finland, Joensuu, Finland</dd>
+         <dd>School of Applied Educational Science and Teacher Education, University of Eastern Finland, Joensuu, Finland</dd>
+         <dd>School of Educational Sciences and Psychology, University of Eastern Finland, Joensuu, Finland</dd>
+         <dd>Department of Applied Physics, University of Eastern Finland, Kuopio, Finland</dd>
+         <dd>Faculty of Education, University of Oulu, Oulu, Finland</dd>
+         <dd>Education innovation and ICT research group, Windesheim University, Zwolle, the Netherlands</dd>
+         <dd>School of Educational Sciences and Psychology, University of Eastern Finland, Joensuu, Finland</dd>
+      </dl>
+      <p>Email: erkko.sointu@uef.fi (corresponding author)</p>
+      <dl class="author">
+         <dt>Teemu Valtonen</dt>
+         <dd>School of Applied Educational Science and Teacher Education, University of Eastern Finland, Joensuu, Finland</dd>
+         <dd>School of Applied Educational Science and Teacher Education, University of Eastern Finland, Joensuu, Finland</dd>
+         <dd>School of Educational Sciences and Psychology, University of Eastern Finland, Joensuu, Finland</dd>
+         <dd>Department of Applied Physics, University of Eastern Finland, Kuopio, Finland</dd>
+         <dd>Faculty of Education, University of Oulu, Oulu, Finland</dd>
+         <dd>Education innovation and ICT research group, Windesheim University, Zwolle, the Netherlands</dd>
+         <dd>School of Educational Sciences and Psychology, University of Eastern Finland, Joensuu, Finland</dd>
+      </dl>
+      <dl class="author">
+         <dt>Laura Hirsto</dt>
+         <dd>School of Applied Educational Science and Teacher Education, University of Eastern Finland, Joensuu, Finland</dd>
+         <dd>School of Educational Sciences and Psychology, University of Eastern Finland, Joensuu, Finland</dd>
+         <dd>Department of Applied Physics, University of Eastern Finland, Kuopio, Finland</dd>
+         <dd>Faculty of Education, University of Oulu, Oulu, Finland</dd>
+         <dd>Education innovation and ICT research group, Windesheim University, Zwolle, the Netherlands</dd>
+         <dd>School of Educational Sciences and Psychology, University of Eastern Finland, Joensuu, Finland</dd>
+      </dl>
+      <dl class="author">
+         <dt>Jenni Kankaanpää</dt>
+         <dd>School of Educational Sciences and Psychology, University of Eastern Finland, Joensuu, Finland</dd>
+         <dd>Department of Applied Physics, University of Eastern Finland, Kuopio, Finland</dd>
+         <dd>Faculty of Education, University of Oulu, Oulu, Finland</dd>
+         <dd>Education innovation and ICT research group, Windesheim University, Zwolle, the Netherlands</dd>
+         <dd>School of Educational Sciences and Psychology, University of Eastern Finland, Joensuu, Finland</dd>
+      </dl>
+      <dl class="author">
+         <dt>Markku Saarelainen</dt>
+         <dd>Department of Applied Physics, University of Eastern Finland, Kuopio, Finland</dd>
+         <dd>Faculty of Education, University of Oulu, Oulu, Finland</dd>
+         <dd>Education innovation and ICT research group, Windesheim University, Zwolle, the Netherlands</dd>
+         <dd>School of Educational Sciences and Psychology, University of Eastern Finland, Joensuu, Finland</dd>
+      </dl>
+      <dl class="author">
+         <dt>Kati Mäkitalo</dt>
+         <dd>Faculty of Education, University of Oulu, Oulu, Finland</dd>
+         <dd>Education innovation and ICT research group, Windesheim University, Zwolle, the Netherlands</dd>
+         <dd>School of Educational Sciences and Psychology, University of Eastern Finland, Joensuu, Finland</dd>
+      </dl>
+      <dl class="author">
+         <dt>Anneke Smits</dt>
+         <dd>Education innovation and ICT research group, Windesheim University, Zwolle, the Netherlands</dd>
+         <dd>School of Educational Sciences and Psychology, University of Eastern Finland, Joensuu, Finland</dd>
+      </dl>
+      <dl class="author">
+         <dt>Jyri Manninen</dt>
+         <dd>School of Educational Sciences and Psychology, University of Eastern Finland, Joensuu, Finland</dd>
       </dl>
       <h2>Abstract</h2>
-      <p class="abstract">The aim of this study is to find out how the teachers act as mediators to lead and guide students’ learning in digital storytelling (DST). The research framework is based on Vygotsky’s mediation theory. The research project was carried out in the 2016-2017 school year. Four classes at Grade 5 from China and two classes at Grade 4 and Grade 5 from Finland participated in the study. We mainly focus on qualitative data from semi-structured interviews of teachers, researchers’ classroom observations, group discussions, and teachers’ course-planning documents. The main findings are that in DST, the main activities in teachers’ pedagogical role as mediators are facilitating, coaching, and scaffolding when they are doing pedagogical decisions. This study illustrates what teachers did in a DST project and how they have led and guided students’ learning when using the DST pedagogical method.</p>
+      <p class="abstract">The use of information and communication technology (ICT) is important in today’s higher education. ICT has a central role in the skill set students are expected to master during their studies. The fast development of technology poses both possibilities and challenges for teachers. This paper is part of a larger project aimed at implementing the flipped classroom (FC) model and supporting ICT integration in higher education. In this project, teachers receive systematic support for implementing the FC model. The aim of this paper is to investigate how students assess their teachers’ knowledge of pedagogy, content and technology before and after a course using the FC model. In total, 317 students responded to the pre-post-test surveys. The data were analyzed as a single group and separately for students in different year groups. Results indicate that there are statistically significant differences between the results of the pre- and post-tests. Students assess their teachers content-specific pedagogical skills and technological pedagogical skills in teaching their subject higher after the FC courses. Students also perceived their teachers as having more positive attitudes to using technology in teaching. It was found that the difference was more apparent in second-year and higher students. Students perceived FC positively in general. </p>
       <dl class="keywords">
          <dt>Keywords:</dt>
-         <dd>teachers’ pedagogical role</dd>
-         <dd>digital storytelling (DST)</dd>
-         <dd>student-centered knowledge creation</dd>
-         <dd>mediation theory</dd>
+         <dd>Information and communication technology (ICT)</dd>
+         <dd>TPACK</dd>
+         <dd>Pedagogy</dd>
+         <dd>Student perception</dd>
+         <dd>Flipped classroom</dd>
       </dl>
-      <h2>Introduction</h2>
-      <p>In the twenty-first century, there have been enormous changes in technology and society. The fast development in information and communication technology (ICT) has created a lot of new opportunities as well as new demands in education. Throughout the world, countries are setting twenty-first-century competences as the aims of schools (Kennedy, 2008), which also places new requirements on the teacher’s pedagogical role. Lee and Tan (2018) describes that a twenty-first-century teacher is interactive with the students, who are also interactive among students themselves. They propose (McWilliam, 2009; Lee and Tan, 2018) that because of the contextual change of learning, the teacher’s role has gradually changed from “Sage-on-the-Stage” to “Guide-on-the-Side” and “Meddler-in-the Middle.” Teachers are gradually taking up the role of facilitators. Instead of being traditionally didactic for the transmission of knowledge in the class, teachers in the new learning context gradually become knowledge brokers and weave the bits and pieces of knowledge generated by students in the classroom during the learning activities. In our study, we applied digital storytelling (DST) as a pedagogical method that supports both students’ collaboration and their active knowledge creation with digital competences. The major task of our study is to investigate how teachers see their role in this student-centered learning approach. </p>
-      <h2>Theoretical Framework and Concepts</h2>
-      <h3>Digital Storytelling (DST) as a Pedagogical Method </h3>
-      <p>DST can be defined from several different perspectives. It can describe the practices of everyday people who use digital tools to tell their stories. Ohler (2008) defined DST as a creative process in which traditional storytelling is combined with modern digital technology. From an educational perspective, DST is often defined as a reflective learning activity (Nelson &amp; Hull 2008) and as a self-representation of its creators (Kulla-Abbott &amp; Polman, 2008). According to Robin (2008), DST is a process of creating short stories that allows students and educators to enhance their information gathering; it cultivates students’ higher-order thinking, such as problem-solving skills and critical thinking, and it also facilitate their ability to work in collaborative teams. According to Jenkins et al. (2009), DST is a twenty-first century learning mode. Stewart and Ivala (2017) found that a DST praxis can lead to both reflective and critical engagement with one’s own writing practices, and it can strengthen the synergy between the spoken word, process-based writing and digital formats for composing. </p>
-      <p>DST is student-centered learning approach; it aims to give students a chance to create knowledge from their own starting points about the topic under discussion (Lambert, 2013; McGee, 2015; Robin, 2008; Rossiter &amp; Garcia, 2010). There is evidence suggesting that the method encourages active participation as well as shared learning and creativity (Lambert, 2013; McGee, 2015; Niemi et al., 2014; Sadik, 2008; Shelby-Caffey, Úbéda, &amp; Jenkins, 2014; Sukovic, 2014; Woodhouse, 2008). Niemi et al. (2014) and Niemi &amp; Multisilta (2016) applied DST in three countries in order to promote twenty-first century competences focusing on collaboration, active participation, and shared learning. They found that DST greatly affects student engagement.</p>
-      <p>Many of the above-mentioned DST studies focus on students’ actions or learning processes. Research (Vivitsou et al. 2017) has also focused on the teachers’ practices in supporting student work in DST. The teachers’ practices in their project (Vivitsou et al. 2017) covered four areas – digital literacy, knowledge and skill creation, collaboration and networking – as part of a global sharing pedagogy (Niemi &amp; Multisilta, 2016). Teachers structured and problematized the learning process in order to allow the students to learn in a freer way and helped them to draw connections with reality. In this way, the students actively engaged in informal (natural and technological) environments for knowledge creation and skill development. In our study, we want to find out more about how teachers mediate students’ learning when using DST. DST is like a project-based learning; it can be done in groups or individually. In our research design, we applied the DST pedagogical method to be carried out in groups so that the students could also learn how to work with others in order to develop their communication and collaboration skills. </p>
-      <h2>A Theory of Mediation from a Vygotskian Perspective in DST</h2>
-      <p>According to Vygotsky (1978), learning is a mediated activity using tools, symbols, and social interaction, and he strongly emphasizes the role of sociocultural mediation in human development. Mediation takes place via three major classes of mediators: material tools, psychological tools, and other human beings (Vygotsky, 1978; Vygotsky &amp; Luria, 1994, pp. 99–174; Kozulin, 1990, pp. 111–121; Kozulin, 1997, pp. 62–64). The importance of mediation in learning is evidenced in many research studies. Feuerstein (1991) suggests that a child’s learning is shaped by the intervention of significant adults, which are referred to as mediators. In the mediated learning situation, adults, or more competent peers, place themselves between the environment and the learner, thus radically changing the conditions for learning. The mediator selects, changes, amplifies, and interprets objects and processes for the child (Kozulin &amp; Presseisen, 1995). </p>
-      <p>In our study, we applied mediated learning with DST in a social-cultural framework. Teachers act as mediators in students’ learning. When teachers set the learning objectives of the DST project and when they guide the students during the working process, they mediate the students’ learning through making pedagogical decisions concerning the learning activities, tasks, tools, and processes. From a Vygotskian perspective, teachers apply mediational practices between themselves and the students to scaffold the students within the zone of proximal development (ZPD) (Vygotsky, 1978).</p>
-      <p>In a DST project, the teacher initiates and designs the learning tools and activities, and the students interact with learning material and other resources and work in groups to create their digital story products together. During the learning process, the teacher guides and leads the learning through facilitating many activities, providing supports, and creating learning opportunities with pedagogical interventions. The teacher’s role in DST is different than in traditional instruction, as it shifts from knowledge transmission to the mediation of the students’ active learning. Teachers become mediators who support the students’ work. </p>
-      <h2>Research Question </h2>
-      <p>We wanted to find out what kinds of pedagogical decisions and actions teachers carried out in the process of DST and how they supported students in different phases of DST when students played a central role in exploring and building knowledge as creators, producers, and discussants rather than as mere passive listeners.</p>
-      <p>In our study, we focused on what teachers did before the DST project, in the beginning of the project, during the project, and at the end of the project; we used that data to identify the teachers’ pedagogical role in leading and guiding the students’ learning in DST. In this study, the following research question (RQ) is proposed:</p>
-      <p>Research Question: What are the teachers’ roles in leading and guiding students’ learning through mediation with digital storytelling (DST) as a pedagogical method? </p>
-      <h2>Research Method and Data Gathering</h2>
-      <h3>Participants</h3>
-      <p>This study design was based on qualitative research methods. Four classes in China in Beijing and two classes in Finland in Helsinki participated in this study. In Finland, each class had one primary school class teacher. At that time, four student teachers were doing their teaching practice in those two classes. In China, there were five teachers who were involved in the project: two math teachers, two classroom teachers, and one computer teacher. The participants in this study are presented in Table 1.</p>
-      <p/>
-      <table>
-         <caption>
-            <p>Table 1. Participants in the Study</p>
-         </caption>
-         <thead>
-            <tr class="center">
-               <th>
-                  <p>Public School</p>
-               </th>
-               <th>
-                  <p>Number of classes</p>
-               </th>
-               <th>
-                  <p>Student ages</p>
-               </th>
-               <th>
-                  <p>Number of DST sessions</p>
-               </th>
-               <th>
-                  <p>Number of participating teachers</p>
-               </th>
-               <th>
-                  <p>Experience using DST</p>
-               </th>
-            </tr>
-         </thead>
-         <tbody>
-            <tr class="center">
-               <td>
-                  <p>Finnish</p>
-                  <p>School in </p>
-                  <p>Helsinki </p>
-               </td>
-               <td>
-                  <p>2 (about 23 students each class)</p>
-               </td>
-               <td>
-                  <p>10–11</p>
-               </td>
-               <td>
-                  <p>8 (learning geometry shapes)</p>
-               </td>
-               <td>
-                  <p>2 class teachers + 4 student teachers</p>
-               </td>
-               <td>
-                  <p>First time using DST, have used designed based learning and project-based learning method before</p>
-               </td>
-            </tr>
-            <tr class="center">
-               <td>
-                  <p>Chinese </p>
-                  <p>School in</p>
-                  <p>Beijing</p>
-               </td>
-               <td>
-                  <p>4 (about 40 students each class)</p>
-               </td>
-               <td>
-                  <p>10–11</p>
-               </td>
-               <td>
-                  <p>10–12 (learning geometry area size calculation)</p>
-               </td>
-               <td>
-                  <p>2 math teachers + 2 head teachers + 1 computer teacher</p>
-               </td>
-               <td>
-                  <p>First time using DST, have not used other student-centered approach before</p>
-               </td>
-            </tr>
-         </tbody>
-      </table>
-      <h2>Data collection</h2>
-      <p>The data of this study were collected through interviews with teachers, classroom observations by researchers, teachers’ course-planning notes and documentation, and discussion notes among researchers and teachers. Table 2 describes the data collection process in this study. We analyzed the data to find out how teachers mediated the students’ learning based on what teachers did before the DST, and at the beginning, middle, and end of the projects. Our aim was to identify how the teachers mediated the students’ learning and what roles they played in the DST math learning project. </p>
-      <p>The researchers had several discussions and meetings with the participating teachers before the projects began. We discussed these questions together:</p>
-      <p>What is DST?</p>
-      <p>What are the benefits of using DST?</p>
-      <p>What are the differences in DST compared to project–based learning?</p>
-      <p>What are the processes and steps of DST?</p>
-      <p>What are the learning outcomes?</p>
-      <p>What are the learning contents?</p>
-      <p>What kind of learning environments can be used to support the learning in DST?</p>
-      <p>How can assessments be carried out?</p>
-      <p>Those discussions helped teachers in their project planning and implementation. The Finnish teachers felt more confident about this method, since they were familiar with a student-centered approach. The Chinese teachers and students, in contrast, were used to a teacher-centered approach. </p>
-      <table>
-         <caption>
-            <p>Table 2. Data collection in the Study</p>
-         </caption>
-         <thead>
-            <tr class="center">
-               <th>
-                  <p>Public School</p>
-               </th>
-               <th>
-                  <p>Interviews</p>
-               </th>
-               <th>
-                  <p>Classroom observation</p>
-               </th>
-               <th>
-                  <p>Course planning notes, documents</p>
-               </th>
-               <th>
-                  <p>Discussion notes between teachers and researchers</p>
-               </th>
-               <th>
-                  <p>DST videos</p>
-               </th>
-            </tr>
-         </thead>
-         <tbody>
-            <tr class="center">
-               <td>
-                  <p>Finnish</p>
-                  <p>School in </p>
-                  <p>Helsinki </p>
-               </td>
-               <td>
-                  <p>2 separate classroom teacher interviews</p>
-                  <p>(90 minutes per each and recorded)</p>
-                  <p>1 group student teachers interview (120 minutes and recorded)</p>
-               </td>
-               <td>
-                  <p>6 times with notes, pictures, videos</p>
-               </td>
-               <td>
-                  <p>Teaching course materials, slides</p>
-               </td>
-               <td>
-                  <p>E-mails, </p>
-                  <p>shared Google documents</p>
-               </td>
-               <td>
-                  <p>12 videos</p>
-               </td>
-            </tr>
-            <tr class="center">
-               <td>
-                  <p>Chinese </p>
-                  <p>School in</p>
-                  <p>Beijing</p>
-               </td>
-               <td>
-                  <p>2 group interviews (about 120 minutes) and recorded</p>
-               </td>
-               <td>
-                  <p>10 times with notes, pictures, videos</p>
-               </td>
-               <td>
-                  <p>Teaching course materials, slides</p>
-               </td>
-               <td>
-                  <p>E-mails,</p>
-                  <p>Word documents,</p>
-                  <p>WeChat messages (a Chinese social media platform)</p>
-               </td>
-               <td>
-                  <p>20 videos</p>
-               </td>
-            </tr>
-         </tbody>
-      </table>
-      <p>We did semi-structured group interviews for student teachers in Finland and a semi-structured group interview in China with all teachers. Semi-structured interviews allow researchers to develop in-depth accounts of experiences and perceptions with individuals (Cousin, 2009). Researchers can use group interviews as a more efficient use of resources and as a means of adding valuable insight to the interpretation of a social or behavioral event (Frey &amp; Fontana 1991). Before the interview, we developed an interview guide. Some example of the teacher interview questions are as follows. What is your overall experience with the DST method? How does DST change teachers’ pedagogy? How does DST support students’ learning? What did you do and how did you support the students’ learning in this DST project? What are your roles as a teacher in using DST method? Do you plan to use DST method in your future teaching? </p>
-      <p>We used the list of questions and topics that needed to be covered during the interview in a particular order. We followed the guide, and we allowed additional discussions around the topics where appropriate. This provided additional information and data besides what we planned to have. We noticed in our group interview that one person’s answer could stimulate another person’s thoughts, and then we saw additional perspectives. We also received immediate feedback if all the participants discussed the topic with one another. It also saved us a lot of time. But we were cautious not to allow one person to dominate the conversation; we led the conversation so that everyone had the chance to participate and contribute.</p>
-      <h2>Analysis</h2>
-      <p>In this study, we used content analysis. When using content analysis, the aim is to build a model to describe the phenomenon in a conceptual form. Both inductive and deductive analysis processes are represented as three main phases: the preparation, organizing, and reporting of the research material (Elo &amp; Kyngäs, 2007). Content analysis is a research method for making valid inferences from data to their context; the purpose is to provide knowledge, new insights, a representation of facts, and a practical guide for action (Krippendorff, 1980). The challenge can be that each researcher interprets the data according to her or his subjective perspective (Sandelowski, 1995). Each inquiry is distinctive, and the results depend on the skills, insights, analytic abilities, and style of the investigator (Hoskins &amp; Mariano, 2004). In this study, the researchers discussed their observations and interview data to ensure their interpretations would be valid. </p>
-      <p>Creswell (2007) says that qualitative researchers approach their topic with a specific worldview, which contains a set of beliefs or assumptions. In this study, we had Finnish-, Chinese-, and English-speaking researchers, and we wanted to be aware of our cultural backgrounds while we aimed to understand what happened in Finnish and Chinese classrooms. As van Manen (1990, p. 33) notes, qualitative research asks “What is it?” Levitt (2015) argues that qualitative research requires one to adopt an interpretative rather than a procedure-driven way of working. Qualitative research relies on the identification of the “subjective interpretation of data,” which enables meaningful data interpretation (Levitt, 2015). Table 3 gives the process of the data analysis, in which three main concepts are identified. </p>
-      <p/>
+      <h2>Teachers as users of ICT from the student perspective in higher education flipped classroom classes</h2>
+      <p>The role of information and communication technology (ICT) is highly emphasized in today’s higher education. ICT skills are seen as a central element in the 21st century skill set that students are expected to master (Voog &amp; Roblin, 2012). The development of different technologies is fast. Annual Horizon reports (Horizon reports, 2017) (see Table 1) show several emerging technologies with different pedagogical approaches (e.g. Adams Becker et al., 2017). Current trends focus on areas such as bring your own device (BYOD), flipped classroom (FC), robotics and artificial intelligence.</p>
+      <p>The rapid development of technologies offers new possibilities and challenges for teaching and learning in institutions of higher education. One of these challenges is teachers’ competence in using developing technologies. The aim of this paper is to investigate how university students perceive their teachers as users of technology and how they perceive a technologically supported learning environment such as the flipped classroom.</p>
       <table class="TableGrid">
          <caption>
-            <p>Table 3. The Process of Qualitative Analysis in the Study</p>
+            <p>
+               <strong>Table 1.</strong> Different technologies in Horizon reports</p>
          </caption>
          <thead>
-            <tr class="left-center">
+            <tr>
                <th>
-                  <p>EXTRACTED DATA EXAMPLES</p>
-                  <p>(activities, tasks, tools, processes etc. through pedagogical decisions)</p>
+                  <p/>
                </th>
-               <th>
-                  <p>CODE</p>
+               <th class="left">
+                  <p>2013</p>
                </th>
-               <th>
-                  <p>CATEGORY</p>
+               <th class="left">
+                  <p>2014</p>
                </th>
-               <th>
-                  <p>THEME</p>
+               <th class="left">
+                  <p>2015</p>
+               </th>
+               <th class="left">
+                  <p>2016</p>
+               </th>
+               <th class="left">
+                  <p>2017</p>
+               </th>
+               <th class="left">
+                  <p>2018</p>
+               </th>
+               <th class="left">
+                  <p>2019</p>
+               </th>
+               <th class="left">
+                  <p>2020</p>
+               </th>
+               <th class="left">
+                  <p>2021</p>
+               </th>
+               <th class="left">
+                  <p>2022</p>
                </th>
             </tr>
          </thead>
          <tbody>
+            <tr>
+               <th class="left" rowspan="2">
+                  <p>2013</p>
+               </th>
+               <td colspan="2">
+                  <p>MOOC</p>
+               </td>
+               <td colspan="2">
+                  <p>Games and Gamification</p>
+               </td>
+               <td colspan="2">
+                  <p>3D Printing</p>
+               </td>
+               <td colspan="4">
+                  <p/>
+               </td>
+            </tr>
+            <tr class="center">
+               <td colspan="2">
+                  <p>Tablet Computing</p>
+               </td>
+               <td colspan="2">
+                  <p>Learning Analytics</p>
+               </td>
+               <td colspan="2">
+                  <p>Wearable Technology</p>
+               </td>
+               <td colspan="4">
+                  <p/>
+               </td>
+            </tr>
+            <tr>
+               <th class="left" rowspan="2">
+                  <p>2014</p>
+               </th>
+               <td>
+                  <p/>
+               </td>
+               <td colspan="2">
+                  <p>Flipped Classroom</p>
+               </td>
+               <td colspan="2">
+                  <p>3D Printing</p>
+               </td>
+               <td colspan="2">
+                  <p>Quantified Self</p>
+               </td>
+               <td colspan="3">
+                  <p/>
+               </td>
+            </tr>
             <tr class="center">
                <td>
                   <p/>
-                  <p>Planning and designing learning environments/space,</p>
-                  <p>dividing groups,</p>
-                  <p>roleplay…</p>
+               </td>
+               <td colspan="2">
+                  <p>Learning Analytics</p>
+               </td>
+               <td colspan="2">
+                  <p>Games and Gamification</p>
+               </td>
+               <td colspan="2">
+                  <p>Virtual Assistants</p>
+               </td>
+               <td colspan="3">
                   <p/>
-                  <p>Camera, iPhone, iPad, paperboard, iMoive software, </p>
-                  <figure>
-                     <img src="figure.png"/>
-                     <figcaption>____</figcaption>
-                  </figure>
-                  <p>digital story example, </p>
-                  <p>real-life examples of different geometry shapes…</p>
+               </td>
+            </tr>
+            <tr>
+               <th class="left" rowspan="2">
+                  <p>2015</p>
+               </th>
+               <td colspan="2">
                   <p/>
-                  <p>What do you try to achieve?</p>
-                  <p>What do you need?</p>
-                  <p>How do you do it?</p>
-                  <figure>
-                     <img src="figure.png"/>
-                     <figcaption>____</figcaption>
-                  </figure>
-                  <p>Can you explain it to me?</p>
-                  <p>What have you learned?</p>
-                  <p>You did so well; how did you do it?</p>
-                  <p>I like the way you discuss and agree in your group…</p>
+               </td>
+               <td colspan="2">
+                  <p>BYOD</p>
+               </td>
+               <td colspan="2">
+                  <p>Makerspaces</p>
+               </td>
+               <td colspan="2">
+                  <p>The Internet of Things</p>
+               </td>
+               <td colspan="2">
+                  <p/>
+               </td>
+            </tr>
+            <tr class="center">
+               <td colspan="2">
+                  <p/>
+               </td>
+               <td colspan="2">
+                  <p>Flipped Classroom</p>
+               </td>
+               <td colspan="2">
+                  <p>Wearable Technology</p>
+               </td>
+               <td colspan="2">
+                  <p>Adaptive Learning Technologies</p>
+               </td>
+               <td colspan="2">
+                  <p/>
+               </td>
+            </tr>
+            <tr>
+               <th class="left" rowspan="2">
+                  <p>2016</p>
+               </th>
+               <td colspan="3">
+                  <p/>
+               </td>
+               <td colspan="2">
+                  <p>BYOD</p>
+               </td>
+               <td colspan="2">
+                  <p>Augmented and Virtual Reality</p>
+               </td>
+               <td colspan="2">
+                  <p>Affective Computing</p>
                </td>
                <td>
                   <p/>
-                  <p>Plan</p>
-                  <p>Initiate</p>
-                  <figure>
-                     <img src="figure.png"/>
-                     <figcaption>____</figcaption>
-                  </figure>
-                  <p>Organize</p>
+               </td>
+            </tr>
+            <tr class="center">
+               <td colspan="3">
                   <p/>
-                  <p/>
-                  <p>Support</p>
-                  <p>Using tools</p>
-                  <p>Explaining</p>
-                  <p>Illustrating</p>
-                  <p>Demonstrating</p>
-                  <p/>
-                  <p/>
-                  <p/>
-                  <p>Ask good questions</p>
-                  <figure>
-                     <img src="figure.png"/>
-                     <figcaption>____</figcaption>
-                  </figure>
-                  <p>Provoke thinking</p>
-                  <p>Encouraging</p>
-                  <p/>
+               </td>
+               <td colspan="2">
+                  <p>Learning Analytics and Adaptive Learning</p>
+               </td>
+               <td colspan="2">
+                  <p>Makerspaces</p>
+               </td>
+               <td colspan="2">
+                  <p>Robotics</p>
                </td>
                <td>
                   <p/>
-                  <p>Facilitating the learning</p>
-                  <figure>
-                     <img src="figure.png"/>
-                     <figcaption>____</figcaption>
-                  </figure>
-                  <p/>
-                  <p/>
-                  <p/>
-                  <p/>
-                  <p>Scaffolding the learning</p>
-                  <figure>
-                     <img src="figure.png"/>
-                     <figcaption>____</figcaption>
-                  </figure>
-                  <p/>
-                  <p/>
-                  <p/>
-                  <p/>
-                  <p/>
-                  <p>Coaching the learning</p>
+               </td>
+            </tr>
+            <tr>
+               <th class="left" rowspan="2">
+                  <p>2017</p>
+               </th>
+               <td colspan="4">
                   <p/>
                </td>
-               <td>
+               <td colspan="2">
+                  <p>Adaptive Learning Technologies</p>
+               </td>
+               <td colspan="2">
+                  <p>The Internet of Things</p>
+               </td>
+               <td colspan="2">
+                  <p>Artificial Intelligence</p>
+               </td>
+            </tr>
+            <tr class="center">
+               <td colspan="4">
                   <p/>
-                  <p>Mediators stimulate</p>
-                  <p>learning activities</p>
-                  <p/>
-                  <p/>
-                  <p>
-                     <strong>Mediating the</strong>
-                     <strong>Learning</strong>
-                  </p>
-                  <figure>
-                     <img src="figure.png"/>
-                     <figcaption>____</figcaption>
-                  </figure>
-                  <p/>
-                  <p/>
-                  <p>Tools and social </p>
-                  <p>interactions have an important role in learning</p>
-                  <p/>
-                  <p>The importance of sociocultural role in human development</p>
+               </td>
+               <td colspan="2">
+                  <p>Mobile Learning</p>
+               </td>
+               <td colspan="2">
+                  <p>Next-Generation LMS</p>
+               </td>
+               <td colspan="2">
+                  <p>Natural User Interfaces</p>
                </td>
             </tr>
          </tbody>
       </table>
-      <h2>Research Results</h2>
-      <p>How Teachers Prepared Students’ Learning before the DST Project</p>
-      <p>First, based on the research data, we describe what teachers did before the DST project. Both Finnish and Chinese teachers decided to use DST in students’ math learning. The teachers decided geometry instruction would be used in the DST project. In the Finnish classes, the teachers decided that the students would learn geometry shapes, the associated math concepts, and how those geometry shapes are used in real-life situations. In the Chinese classrooms, the teachers wanted students to learn how to calculate the area size of different geometry shapes and to apply their learning in real-life situations.</p>
-      <p>The teachers planned time for the project and made sure to have resources, such as iPads and computers, to create the digital stories. Even though DST is student-centered knowledge creation, the teachers made many arrangements to ensure students’ learning. The teachers’ planning work was demonstrated in the discussion notes, slides, and documents. In the teachers’ interviews, one teacher said the following:</p>
-      <p>“We also organize how many courses for the projects, how much time is needed, and what is to be covered in each lesson.”</p>
-      <p>“Teachers play important roles in selecting the topics.”</p>
-      <p>Another teacher had this to say: </p>
-      <p>“We also felt that it is important for teachers to do the pedagogical course planning—how much time is needed and what needs to be carried out in each lesson.”</p>
-      <p>From these descriptions of what teachers did before the DST project and even though the project gave students much freedom to design their own stories, the teachers needed to make many pedagogical decisions<strong/>(e.g.,<strong/>how the project would fit within the school curriculum). The teachers also facilitated the project through preparation. These two educational systems have different curriculums as well as different teaching and learning traditions; however, both countries strive to prepare students to work independently in their groups.</p>
-      <h2>How Teachers Mediated Students’ Learning in the Beginning of the DST Project</h2>
-      <p>In the beginning of the project, the teachers explained to the students what the DST project was about, the process and the steps, and how many lesson hours in this math learning project with DST. When introducing math learning with DST to students, the Chinese and Finnish teachers had different approaches. The Chinese teachers provided students structured guidance. For example, they showed a digital story video to the students to demonstrate what kinds of digital stories can be created. The video shows how students work in groups to discover and learn about the structural design of a bridge through activities, such as reading books, search information from internet, asking experts, discussing among the students, demonstrating it with paper boards and other objects. Then, the teachers explained to the students what they planned to do, the expected learning outcomes, and how the final assessment would be carried out.</p>
-      <p>The Finnish classes were more open and were less formal with the final assessment. In one class, the student teachers used roleplay to introduce a real-life problem and asked students to solve it by using geometry concepts. In the roleplay, the student teachers explained that a company had just developed a wonderful new product, but the old product package was outdated, so the company needed to design a sophisticated new product package. The student teachers asked the students to design a product package for their chosen product (e.g., mobile phone, iPad). The students could choose the product and design the product package using their knowledge of geometry. </p>
-      <p>In the Finnish school, the teachers divided students into groups. There were fewer students (i.e., about twenty-three students) in the Finnish class, and the groups each included three to five students. In the Chinese school, the teachers let the students form groups of five to six students. The Chinese students were excited, but there were problems. Six boys wanted to be in one group; however, the teachers preferred each group to have both boys and girls. Also, many high-achieving students gathered in one group. The teachers negotiated with the students to balance the group by gender and skill levels.</p>
-      <p>In the Chinese teachers’ group interview, one teacher said the following:</p>
-      <p>We introduced and explained to the students what the DST method is, and how we planned to use it in our math studying. We showed one example. Then we helped and participated in forming the groups. We also suggested that each group needs to define the roles of each group member.</p>
-      <p>In an interview, one Finnish teacher commented as follows:</p>
-      <p>We [the teacher and student teachers] first selected four topics. Then we asked the students to select which topic they were interested in. We formed the groups based on the students’ interests. If too many students were interested in one topic, then we had to decide and negotiate with the students. In the beginning, we had eight small groups; each group had about three students. We noticed that in one small group, one person was very active, and the other two students were not so active. It was difficult for the one active student to make the other two passive students join in the group work. Then we combined the small groups to the bigger group (five or six students together). Even in bigger group, there were only two students who were very active; these two students were able to motivate others to do things together.</p>
-      <p>We can see that at the beginning of the project, the teachers mediated the students’ learning in many ways. The teachers facilitated learning by introducing the method and theme. Then, pedagogical decisions were made by the teachers on how to introduce the DST project and to determine the themes. The formation of student groups was organized by the teachers, and they made pedagogical decisions about how the groups would be formed. </p>
-      <h2>How Teachers Mediated Students’ Learning during the DST Project</h2>
-      <p>After the teachers provided the information needed to start the projects, the teachers stepped aside, and the students were in the center of the stage while they made plans, divided responsibilities, searched for information, recorded the learning artifacts, discussed different alternatives, and synthesized and created their digital stories. The teachers, however, still played an active backstage role. </p>
-      <p>The teachers ensured that every child was participating in the learning. In China, the teachers had to find additional learning space for students (e.g., corridors) because the classroom was too small for so many groups engaged in active learning, and it was quite noisy when the students made video clips. </p>
-      <p>The teachers also had to provide some new tools and resources (e.g., iPads, computers). The teachers asked for support from the IT teacher, and they facilitated the students’ learning by providing help and support whenever needed.</p>
-      <p>In the teachers’ group interview, one teacher said the following:</p>
-      <p>“Through this project, we paid more attention to individual students’ different capability levels. We can give more support to the students who need [it].”</p>
-      <p>“And [we can] ensure all the students actively participate in the learning process and activities.”</p>
-      <p>Another teacher added the following:</p>
-      <p>“We asked the IT teacher to provide some training for students about how to use digital tools and how to create videos. We provide support to students when they ask for help.”</p>
-      <p>Teachers paid attention to the students’ progress and asked questions—an important coaching<strong/>strategy to create awareness among the students about their progress at a given time. The teachers used a praising strategy in their coaching by drawing attention to the students’ progress, their creative ideas, and their effort, which increased their confidence and motivation. The teachers often did not give direct answers and suggestions to the students; instead, the teachers asked good questions to help the students’ awareness of the situation and to help them move forward. Through coaching, the teachers tried to help students improve their work and learning.</p>
-      <p>The teachers also used scaffolding strategies, such as providing a checklist (i.e., the digital story assessment form showing how a good digital story looks) for students to use when they made their own stories. To scaffold the students’ learning, the teachers also used visual and tangible objects (e.g., toothpick sticks and candies to form different shapes) to illustrate geometry concepts. The teachers reminded students of previous learning related to geometry, which students then applied to the current problem. In the self-assessment and peer-assessment, the students were asked to give a grade to each question—five (extremely well), four (very well), three (well), two (moderately), and one (not really at all)—and to give suggestions for improvement. Here is the list of questions:</p>
-      <p>How are the important concepts, terms, and information, such as the triangle, square, and surface area, displayed in the video?</p>
-      <p>How well is the story of the video structured? Consider the introduction, the interchange between the pictures, the events, and the ending.</p>
-      <p>How well does the story give explanations and reasoning for such thing as why a certain shape is a triangle?</p>
-      <p>How does the video make the material that is supposed to be learned understandable for the viewer? Consider the conversations, pictures, animations, etc.</p>
-      <p>How does the subtitling help the viewers understand the most important mathematical terms as well as the material that is supposed to be learned?</p>
-      <p>How does the video keep the viewer engaged? Consider the music, the viewing angles, and the close and remote shooting.</p>
-      <p>What is your overall opinion of the video?</p>
-      <p>The assessment questionnaire was given to students before they started to make their digital story videos so that they could see what the important elements in good digital stories were.</p>
-      <p>In the interviews, we asked the teachers directly, “What are your roles as a teacher in using DST method?” One teacher gave very clear description in response:</p>
-      <p>“We are organizers for the project. We provide inspiration and guidance for the students. We are also coordinators when there are conflicts and difficulties. We are helpers and supporters during the process, as scaffolding to our students.”</p>
-      <p>One teacher stated the following, with which several other teachers agreed:</p>
-      <p>“One challenge for me as teacher in doing DST is that it takes longer than the usual way we teach. We notice that DST has many good sides. Students are very excited and engaged in what they are doing, and they learn many things besides math. Sometimes it takes longer for the students to carry out the activities than we expected. I feel that we need more time to plan for next DST project.” </p>
-      <p>Another teacher commented:</p>
-      <p>“This digital storytelling method needs many skills from children. As a teacher, I can observe what skills children already have and what they are good at and what skills need further development.” </p>
-      <p>The interview data clearly showed that the teachers mediate the students’ learning by facilitating, coaching, and scaffolding. This also showed the teachers’ professional competence in identifying the students’ needs and developing their potential. </p>
-      <h2>What Teachers Did to Mediate Students’ Learning at the End of the DST Project</h2>
-      <p>At the end of the project, each group presented their digital story to the whole class. After each group presentation, the teacher asked the group to self-assess their digital story and then asked other students to give a peer assessment; the teacher then provided their assessment. The assessment was designed for students’ improvement. The teacher asked the students to assess their digital story, based on the criteria in the assessment form, by asking two main questions: (a) what were the good elements in this digital story; (b) if you would have more time, how would you like to make the digital story better? In addition, the Finnish teachers asked their students questions to check students’ learning and understanding of the geometry shapes and concepts. The Chinese teachers asked students to solve three math problems related to calculating the area of geometry shapes.</p>
-      <p>In summary, at the end of the DST project, the teachers made pedagogical decisions on how the assessment would be used to achieve improvement-led assessment. The teachers facilitated the assessment by leading and guiding the assessment questions; they also used scaffolding to check if the students understood the math and geometrical concepts.</p>
-      <p>During one classroom observation, after one group of students made their digital story presentation, one Finnish teacher asked the other students the following:</p>
-      <p>“Can someone tell us what good things in this digital story were? If there were more time, how could they improve their digital stories?” </p>
-      <p>Later, in one interview with a student from that class, the researcher asked her: “What have you learned from this DST project?” The student said, “I learned…and I also learned how to give comments to others nicely.” This demonstrates that the teacher scaffolded the students in how to give feedback to others nicely.</p>
-      <p>In this DST project, the improvement-based assessment was used for learning and to help students to see what went well; their achievement made them feel proud of themselves and also increased their confidence in learning. At the same time, the assessment helped students see how they could develop further with suggestions. Additionally, we included learning reflection by asking good questions to the students after they finished their DST presentations. </p>
-      <p>In the teachers’ interview, we also asked this question: “What are the biggest changes for teachers in doing this DST project? The following are the teachers’ collective answers:</p>
-      <p>“With the traditional method, we teach the students, then the students do the exercise, and then we check whether they have done it correctly. Now with the digital storytelling method, the students need to find out how to solve the math problems.” </p>
-      <p>“The teachers step from the front of the stage to the back of the stage.” </p>
-      <p>“With the traditional method, students are more passive during studying. With DST, students are more engaged and more active.”</p>
-      <p>This [DST] method is totally different compared to traditional teaching methods. Compared to the traditional method, in which teachers are at center stage and teach knowledge to their students, the DST method is a student-centered approach. In this new method, we did not teach the students. It was the students who learn the knowledge by themselves. In this method, the key point is that the teachers step out from the center of the classroom.</p>
-      <p>The evidence indicates that DST can bring students to the center of the learning stage. Teachers had moved to the side of the classroom to have a more supportive role. When we looked through all the students’ DST videos, we noticed that they demonstrated the objectives the teachers had set before the projects. The Finnish students’ videos show how they proposed a real-life problem and how they used math concepts of geometry shapes to solve the problem and how they designed real product packages. The Chinese students’ videos show them learning how to calculate the area size of different geometry shapes and how to use their learning in real-life problems. It is interesting to see that the Finnish students’ videos have more creativity elements in terms the diversity of the products. The Chinese students’ videos have more common elements and were more knowledge focused. In both the Chinese and Finnish students’ videos, we can see that students have used other skills besides the math elements, such as language, music, ICT, and story logic structure. </p>
-      <p>Based on the research data of classroom observation, discussion with teachers, and the DST videos, we also noticed that the Finnish teachers used more coaching strategies than the Chinese ones in mediating students learning. The Finnish teachers asked more questions to provoke students’ learning. They paid more attention to students’ skills and competence development beyond simply math knowledge, such as communication skills. Chinese teachers focused more on students’ knowledge learning during the projects.</p>
-      <h2>Summary of the Findings</h2>
-      <p>In this study, we focused on the teachers’ roles as mediators in leading and guiding students’ learning. The data described what the teachers did in the process of a DST project and demonstrated that the teachers made many pedagogical decisions based on the students’ needs and classroom situations. As mediators, they had the three main roles are (1) <strong>facilitating</strong>; (2) <strong>coaching</strong>; and (3) scaffolding the students’ learning:  </p>
-      <p>The teachers facilitated the DST project to enable students to actively engage in student-centered learning. Facilitating the students’ learning consists of important aspects in the process of teachers’ pedagogical decisions, which were related to managing the whole DST project. These aspects included the following: introducing the method and theme; creating a learning community; being responsible for the project’s process; providing needed information as well as a learning space; and creating an interactive and collaborative learning atmosphere. </p>
-      <p>The teachers used coaching tactics to inspire and lead the students in learning through roleplaying, asking good questions, praising the students’ progress, and giving positive and constructive feedback. Teachers’ coaching<strong/>of the students’ learning includes aspects that help students to improve their work, which included the following: inspiring the students; uncovering the students’ potential, talents, and goals; clarifying and helping the students breaking down tasks; and motivating and empowering the students by praising their progress and emphasizing their strengths.</p>
-      <p>Scaffolding strategies were used by teachers to demonstrate the learning outcome product through an existing digital story; they also used visual and tangible objects (e.g., paper board, toothpick sticks) to illustrate the geometry shapes. Scaffolding includes teachers’ pedagogical decisions that provide structural or mental tools to support students’ learning and can include the following: demonstrating and modelling what the students need to do; providing checklists for the students’ expected outcome product; using visual and tangible objects to illustrate the geometry shapes; and checking for understanding.</p>
-      <p>The focus of this research was to find how teachers led and guided students’ learning, which reflects the teachers’ pedagogical role as mediators. Figure 1 illustrates the teachers’ pedagogical role as mediators in facilitating, coaching, and scaffolding through pedagogical decision making for the students’ learning in DST.</p>
+      <p>Previous studies have identified several factors that affect the integration of ICT in teaching and learning. Brinkerhoff (2006) outlines factors such as administrative and institutional support, the availability of resources, training and experience and attitudes to change. Ertmer (1999; 2005) defines so-called first- and second-order barriers that affect ICT integration. First-order barriers are factors such as support, time resources, training and technical skills. Second-order barriers are more personal factors such as pedagogical beliefs, i.e. how teachers perceive the nature of learning. Harris (2005) notes a demand for a shared vision for ICT integration in teaching. According to the widely adopted Technological Pedagogical Content Knowledge (TPACK) model developed by Mishra and Koehler (2006), the skilled use of ICT in education requires that teachers integrate their Pedagogical Knowledge (PK), Content Knowledge (CK) and Technological Knowledge (TK) in a way that these three areas support each other. According to Koehler et al., (2013, p. 16) TPACK is: “an understanding that emerges from interactions among content, pedagogy, and technology knowledge […] knowledge underlying truly meaningful and deeply skilled teaching with technology.”</p>
+      <p>Based on the Theory of Planned Behavior by Ajzen (1991), behavioral intentions, in this case the intention to use ICT in education, are affected by attitudes to the behavior, subjective norms (i.e. expectations of important others) and perceived behavioral control (i.e. factors such as the availability of necessary resources and skills). Teo and Tan (2012) have found that attitudes are the most important factor affecting the use of ICT in education. These studies indicate that there are many factors affecting the use of ICT in education, factors that depend on the university and factors that depend on teachers. One important aspect is the extent of the change, i.e. how large change is pursued to integrate ICT to teaching. According to Zhao, Pugh, Sheldon and Bryers (2002), instead of taking a revolutionary approach (very large) in change with ICT, teachers should take evolutionary approach (small) in change with ICT. More precisely, teachers are more likely to experience less frustration and more success with progressive steps that are smaller (Zhao et al., 2002)</p>
+      <p>One possible way to foster change is to implement the flipped classroom (FC) teaching method. This study focuses on the results of a large-scale project in higher education, focusing on changing pedagogical practices and integrating ICT through implementing FC. FC has emerged as an innovative solution for emphasizing student-centered learning (Baepler et al., 2014; Chen et al., 2017; Chen et al., 2014; Lage et al., 2000). Compared to lecture-based teaching, emphasizing frontal lectures with students taking notes and studying post-class materials alone, FC inverts this design. Lectures are replaced with materials, typically online videos, that are distributed and studied before class meetings through digital platforms. The face-to-face time in the class meeting is used to practice the content together and to concentrate on complex issues through student-centered learning approaches (Chen et al., 2014; Lage et al., 2000).</p>
+      <p>The FC model is well justified considering factors that affect ICT integration and change in general. When considering traditional lectures from the perspective of the TPACK framework, a strong emphasis is on content knowledge. The teacher disseminates his or her expertise to the students, and only a limited amount of interaction takes place. In the FC model, lectures are replaced with videos that the students watch prior to class. This replacement of the lecture challenges the pedagogical knowledge of the teacher. There is no reason to lecture anymore, and the teacher needs to rethink how to scaffold the lesson and support students working with challenging topics.</p>
+      <p>From the perspective of ICT in education, we value this emphasis on pedagogy. This is in line with Watson’s (2001) “Pedagogy Before Technology”, which suggests the importance of starting with the design of pedagogical practices that can then be supported with technology. Similarly, Ertmer (2005) refers to the importance of pedagogical beliefs in ICT integration. In accordance with Watson (2001) and Ertmer (2005), we assume that the greatest added value that technology can provide to teaching and learning is in practices that emphasize student collaboration and taking an active role. For this reason, we consider FC to be a way to develop teaching and learning practices toward more student-centered ones and a suitable way to support ICT integration. When considering the extent of the change (Zhao et al., 2002) we find the FC model optimal. The FC model incorporates the role of the teacher as a content expert, i.e. the teacher defines and creates the pre-materials, in this case video clips for students to be used before class meetings. From this perspective, the change is small, however, the direction is toward a more student-centered teaching approach</p>
+      <p>As to the other factors listed above, concerning the success of ICT integration and change in general, this project is based on a shared vision (see Harris, 2005) among the teachers and trainers of the model. More precisely, FC model was agreed upon as a way to develop teaching and learning and to support ICT integration. Moreover, in line with factors suggested by Brinkerhoff (2006), the process has strong administrative support within our institution. The participating teachers were provided with resources and time for developing their courses as well as training and collaborative support. Since fall 2016, over 100 teachers have participated voluntarily in re-designing their courses. This high number is indicative of a generally positive attitude to the development. This group of teachers was supported by researchers and experts in ICT and pedagogy, who provide the teachers with help and support when needed.</p>
+      <p>The technological support aspects of the FC training are presented in Figure 1+(Sointu &amp;Valtonen, 2015). First, videos are recorded with the screen capture option on teachers’ own devices. Screen capturing allows teachers to use a variety of programs and software. Second, the videos are transferred to a media server that allowed for simple video editing. Third, the media server allows easy uploading, embedding and sharing of the videos for the students as part of the digital learning environments or web pages.</p>
+      <p/>
       <figure>
          <img src="figure.png"/>
          <figcaption>
-            <p>Figure 1. Summary of the teachers’ pedagogical role as mediators in DST</p>
+            <p>
+               <strong>Figure 1.</strong> Technological support for creating flipped classroom video materials (adapted from Sointu &amp;Valtonen, 2015). </p>
+            <p>
+               <strong>Figure 2.</strong> Percentages of student perceptions of the FC method</p>
+         </figcaption>
+      </figure>
+      <p>The teachers participated in a one-year program to adapt their teaching and to flip one of their courses. Teachers were supported in the use of ICT as suggested by (Sointu &amp;Valtonen, 2015). The support was in the form of tutorial videos on how to use ICT in pedagogically meaningful ways, which allowed teachers to learn in their own time. Practical hands-on support for the use of ICT was provided as needed. However, the technical perspective was not the only support for teachers. We recognized the importance to integrate pedagogy, content and technology as suggested in the TPACK framework. Therefore, four other kinds of support were put in place. First, practical hands-on support for flipping the course was provided individually and in large groups. One expert met with all teachers to start the process of change. Second, workshops were arranged, and the teachers had the opportunity to learn about the pedagogical aspects of FC and discuss and share ideas collaboratively. Thus, support was also provided for planning pedagogical practices for face-to-face periods. Third, self-study materials were provided for the teachers. Finally, teachers were allowed to take time to flip their course, and this development was supported institutionally.</p>
+      <p>According to Shih and Chuang (2013), it is important to understand student perceptions of their teachers’ TPACK when developing teaching and learning practices. In line with this, the purpose of this study was to investigate the effects of the FC integration from two perspectives. (1) How the FC courses affected the ways the students assessed teachers’ content knowledge (CK), combined content and pedagogical knowledge (PCK), combined content, pedagogical and technological knowledge (TPACK) (Koehler, Mishra and Cain, 2013), attitudes to use ICT in teaching (Teo see Tan, 2012) and (2) how students perceived FC and the type of future preferences they had regarding FC.</p>
+      <h2>Methods</h2>
+      <h3>Participants and Procedures </h3>
+      <p>The sample included 317 higher education students (<em>N</em>
+         <sub>female</sub>
+         <sub/>= 227, 71.6%; <em>N</em>
+         <sub>male</sub>
+         <sub/>= 90, 28.6%) from 16 different courses from University of Eastern Finland (UEF) during the academic year 2016-2017. Students participated in courses taught by teachers who had participated in the UEF Flipped Classroom (FC) development work. The courses took place during one period of the academic year (i.e. they lasted for around eight weeks maximum). From the student convenience sample, 43.8% (<em>N</em> = 139) were first-year students. Participation in the study was voluntary for both teachers and students. Informed consent was obtained from each individual student. The response rate in the different courses varied from 25 % to 75 % of the enrolled students. The research design was a quasi-experimental pre-post-test design without a control group (Sadish, Cook, Campbell 2002). Students responded to an electronic survey at the start of the course (pre-test, T1) and at the end of the course (post-test, T2).</p>
+      <h3>Measures</h3>
+      <p>Two surveys were used: (1) Technological Pedagogical Content Knowledge for 21<sup>st</sup> century skills (TPACK-21; Valtonen et al, 2015a, 2017) and (2) Theory of Planned Behavior for Information and Communication Technology for education (TPB-ICT; Sointu et al., 2017; Valtonen et al., 2015b). Both measures originally measure teachers’ perceptions of their TPACK-21 and TPB-ICT in education and have demonstrated adequate psychometric properties. However, the measures were adapted to reflect student perceptions of their teachers’ skills and attitudes. To this end we used only parts of the above-mentioned instruments.</p>
+      <p>From the TPACK-21, we used the Content Knowledge (CK) scale, the Pedagogical Content Knowledge (PCK) scale and the Technological Pedagogical Content Knowledge (TPACK) scale. CK reflects student perceptions of teachers’ content expertise. PCK reflects student perceptions of teachers’ skills in teaching their content area. TPACK reflects student perceptions of teachers’ skills in integrating technology, pedagogy and content in teaching. From the TPB-ICT measure, attitudes for using technology in teaching (ATT) scale was used. ATT reflects student perceptions of teachers’ attitudes to using technology in teaching. Students responded with six-point Likert-type scale (1 = Totally disagree – 6 = Totally agree) to statements such as <em>My teachers are experts in their field</em> (CK), <em>My teacher uses versatile teaching methods in order make study content easily comprehensible</em> (PCK),<em> My teachers are able to use teaching methods and technology for dealing with the content area </em>(TPACK) and, <em>My teachers demonstrate interest in using technology in their teaching </em>(ATT)<em>.</em>
+      </p>
+      <p>We also investigated student perceptions of the flipped classroom using three direct statements. Students responded with four categories (1 = very well, 2 = well, 3 = not so well, 4 = not at all) to the statement <em>The</em>
+         <em> method with pre-materials and contact meetings suited me</em>. Students responded with four response categories (1 = definitely yes, 2 = yes, quite surely, 3 = not so surely, 4 = no way) to the second statement <em>In</em>
+         <em> the future, I would like to study in similarly arranged courses</em>. Students responded with “yes” or “no” to the third statement <em>I would prefer to study in traditional lectures rather than in a course using this type of approach (flipped classroom)</em>.</p>
+      <h3>Data Analysis</h3>
+      <p>The items of TPACK-21 and TPB-ICT measures were combined into composite scores. Each composite score’s internal consistency was assessed with Cronbach’s alpha (α) for both pre-test (T1) and post-test (T2) measurement points. We considered an alpha level of 0.7 or higher to indicate the adequate reliability of a composite scale (Nunnally 1978). Descriptive statistics (Mean [<em>M</em>] and Standard deviation [<em>SD</em>]) were calculated for each of the composite scores. Additionally, percentages of the perceptions of flipped classroom teaching were calculated for the three individual items. Paired sample <em>t</em>-tests were used to compare the differences between the two measurement points to investigate the differences of the studied area between T1-T2 measurement points. We also calculated Pearson correlations between the T1-T2 measurement points for composite scores. In addition, we investigated the differences between two groups: (1) first-year students and (2) second-year students and beyond. Cohen’s <em>d</em> was calculated estimating the effect size between the two measurement points (Morris &amp; DeShon, 2008). Based on Hattie’s (2009) interpretation of Cohen’s <em>d </em>in educational settings, <em>d</em> &lt; 0.1 indicates developmental effects, <em>d</em> = 0.2–0.3 indicates teacher effects and <em>d</em> &gt; 0.4 indicates a zone of desired effects (see also Lenhard &amp; Lenhard, 2016).</p>
+      <h3>Results</h3>
+      <p>Table 1 presents means (<em>M</em>), standard deviations (<em>SD</em>), internal consistency (α), Pearson correlations (<em>r</em>), paired t-test results (<em>t</em>) and Cohen’s-d (<em>d</em>) for student perceptions of teachers’ Content Knowledge (CK), Pedagogical Content Knowledge (PCK), Technological Pedagogical Content Knowledge (TPACK), and attitudes to using technology in teaching (ATT). All composite scores met the criteria for adequate internal consistency.</p>
+      <p/>
+      <table>
+         <thead>
+            <tr>
+               <th colspan="14">
+                  <p styleId="TableCaption0" styleName="[Table Caption]">
+                     <strong>Table 2.</strong> Student perceptions of teachers CK, PCK, TPACK and ATT </p>
+               </th>
+            </tr>
+         </thead>
+         <tbody>
+            <tr>
+               <td>
+                  <p/>
+               </td>
+               <td>
+                  <p/>
+               </td>
+               <th class="left" colspan="3">
+                  <p>Pre-test (T1)</p>
+               </th>
+               <th>
+                  <p/>
+               </th>
+               <th class="left" colspan="3">
+                  <p>Post-test (T2)</p>
+               </th>
+               <th>
+                  <p/>
+               </th>
+               <th class="left" colspan="4">
+                  <p>T1-T2</p>
+               </th>
+            </tr>
+            <tr>
+               <td>
+                  <p/>
+               </td>
+               <td>
+                  <p/>
+               </td>
+               <th class="left">
+                  <p>M</p>
+               </th>
+               <th class="left">
+                  <p>(SD)</p>
+               </th>
+               <th class="left">
+                  <p>α</p>
+               </th>
+               <th>
+                  <p/>
+               </th>
+               <th class="left">
+                  <p>M</p>
+               </th>
+               <th class="left">
+                  <p>(SD)</p>
+               </th>
+               <th class="left">
+                  <p>α</p>
+               </th>
+               <th>
+                  <p/>
+               </th>
+               <th class="left">
+                  <p>r</p>
+               </th>
+               <th class="left">
+                  <p>t</p>
+               </th>
+               <th class="left">
+                  <p>p</p>
+               </th>
+               <th class="left">
+                  <p>d</p>
+               </th>
+            </tr>
+            <tr>
+               <th class="left">
+                  <p>CK</p>
+               </th>
+               <td>
+                  <p/>
+               </td>
+               <td>
+                  <p>4.89</p>
+               </td>
+               <td>
+                  <p>(0.71)</p>
+               </td>
+               <td>
+                  <p>0.81</p>
+               </td>
+               <td>
+                  <p/>
+               </td>
+               <td>
+                  <p>4.93</p>
+               </td>
+               <td>
+                  <p>(0.71)</p>
+               </td>
+               <td>
+                  <p>0.84</p>
+               </td>
+               <td>
+                  <p/>
+               </td>
+               <td>
+                  <p>0.54</p>
+               </td>
+               <td>
+                  <p>n.s.</p>
+               </td>
+               <td>
+                  <p>n.s.</p>
+               </td>
+               <td>
+                  <p>n.s.</p>
+               </td>
+            </tr>
+            <tr>
+               <th class="left">
+                  <p>PCK</p>
+               </th>
+               <td>
+                  <p/>
+               </td>
+               <td>
+                  <p>4.02</p>
+               </td>
+               <td>
+                  <p>(0.91)</p>
+               </td>
+               <td>
+                  <p>0.85</p>
+               </td>
+               <td>
+                  <p/>
+               </td>
+               <td>
+                  <p>4.20</p>
+               </td>
+               <td>
+                  <p>(0.96)</p>
+               </td>
+               <td>
+                  <p>0.85</p>
+               </td>
+               <td>
+                  <p/>
+               </td>
+               <td>
+                  <p>0.45</p>
+               </td>
+               <td>
+                  <p>3.28</p>
+               </td>
+               <td>
+                  <p>0.00</p>
+               </td>
+               <td>
+                  <p>0.21</p>
+               </td>
+            </tr>
+            <tr>
+               <th class="left">
+                  <p>TPACK</p>
+               </th>
+               <td>
+                  <p/>
+               </td>
+               <td>
+                  <p>4.05</p>
+               </td>
+               <td>
+                  <p>(0.89)</p>
+               </td>
+               <td>
+                  <p>0.86</p>
+               </td>
+               <td>
+                  <p/>
+               </td>
+               <td>
+                  <p>4.20</p>
+               </td>
+               <td>
+                  <p>(0.98)</p>
+               </td>
+               <td>
+                  <p>0.90</p>
+               </td>
+               <td>
+                  <p/>
+               </td>
+               <td>
+                  <p>0.49</p>
+               </td>
+               <td>
+                  <p>2.77</p>
+               </td>
+               <td>
+                  <p>0.01</p>
+               </td>
+               <td>
+                  <p>0.18</p>
+               </td>
+            </tr>
+            <tr>
+               <th class="left">
+                  <p>ATT</p>
+               </th>
+               <td>
+                  <p/>
+               </td>
+               <td>
+                  <p>4.28</p>
+               </td>
+               <td>
+                  <p>(0.88)</p>
+               </td>
+               <td>
+                  <p>0.90</p>
+               </td>
+               <td>
+                  <p/>
+               </td>
+               <td>
+                  <p>4.43</p>
+               </td>
+               <td>
+                  <p>(0.95)</p>
+               </td>
+               <td>
+                  <p>0.91</p>
+               </td>
+               <td>
+                  <p/>
+               </td>
+               <td>
+                  <p>0.55</p>
+               </td>
+               <td>
+                  <p>3.01</p>
+               </td>
+               <td>
+                  <p>0.00</p>
+               </td>
+               <td>
+                  <p>0.18</p>
+               </td>
+            </tr>
+            <tr class="center">
+               <td colspan="14">
+                  <p styleId="seminar-endnotes" styleName="seminar - endnotes">
+                     <em>Note</em>. CK Content Knowledge, PCK Pedagogical Content Knowledge, TPACK Technological Pedagogical Content Knowledge, ATT Attitudes for using technology in teaching, M Mean, SD Standard deviation, α Cronbach alpha, r Pearson’s correlation, t t-value, p significance, d Cohen’s d and n.s. non-significant.</p>
+               </td>
+            </tr>
+         </tbody>
+      </table>
+      <p/>
+      <p>Significant differences between pre-test (T1) and post-test (T2) measurement points were found in the paired sample <em>t</em>-tests for PCK: <em>t</em>(316) = 3.28, <em>p</em> = .00, TPACK: <em>t</em>(316) = 2.77, <em>p</em> = .01, and ATT: <em>t</em>(316) = 3.01, <em>p</em> = .00. Students assessed their teachers PCK, TPACK and ATT higher at the end of the course than at the beginning of the course. The effect size between the two measurements points (i.e. taking the correlation into account) was developmental in TPACK and ATT (<em>d</em> = 0.18), and in the teacher’s effect zone in PCK (<em>d</em> = 0.21) according to Hattie’s (2007) Cohen’s <em>d</em> criteria. There were non-significant differences in the CK scale. However, the CK scale scores were higher (<em>M</em>
+         <sub>T1</sub>
+         <em> =</em> 4.89 [<em>SD</em>
+         <sub>T1</sub> = 0.71]; <em>M</em>
+         <sub>T2</sub>
+         <em> =</em> 4.93 [<em>SD</em>
+         <sub>T2</sub> = 0.84])<em/>than the other areas (PCK, TPACK, ATT), which indicates that students perceive their teachers as content specialists.</p>
+      <p>Table 2 presents the same indicators as Table 1, however separately for first-year students and second-year and higher students. The first-year student perceptions of their teachers’ CK, PCK, TPACK or ATT indicate that they did not perceive differences in their teachers’ knowledge in the measured areas. However, second-year and higher students showed statistically significant higher scores in all measures at T2 compared to T1. The paired sample <em>t</em>-tests showed significant differences between T1 and T2 measurement points in CK: <em>t</em>(176) = 3.01 <em>p</em> = .01, PCK: <em>t</em>(176) = 4.15, <em>p</em> = .00, TPACK: <em>t</em>(316) = 3.23, <em>p</em> = .01, and ATT: <em>t</em>(176) = 4.70, <em>p</em> = .00. According to Hattie’s (2007) Cohen’s <em>d</em> criteria, the effect sizes between two measurements points were in the teachers’ effect zone for CK, PCK, TPACK and ATT. </p>
+      <table>
+         <caption>
+            <p>Table 3. Table caption.</p>
+         </caption>
+         <thead>
+            <tr>
+               <th>
+                  <p/>
+               </th>
+               <th>
+                  <p/>
+               </th>
+               <th class="center" colspan="2">
+                  <p>Pre-test (T1)</p>
+               </th>
+               <th class="center">
+                  <p/>
+               </th>
+               <th class="center" colspan="2">
+                  <p>Post-test (T2)</p>
+               </th>
+               <th class="center">
+                  <p/>
+               </th>
+               <th class="center" colspan="4">
+                  <p>T1-T2</p>
+               </th>
+            </tr>
+            <tr class="left-center">
+               <th colspan="2">
+                  <p>First year students</p>
+               </th>
+               <th>
+                  <p>M</p>
+               </th>
+               <th>
+                  <p>(SD)</p>
+               </th>
+               <th>
+                  <p/>
+               </th>
+               <th>
+                  <p>M</p>
+               </th>
+               <th>
+                  <p>(SD)</p>
+               </th>
+               <th>
+                  <p/>
+               </th>
+               <th>
+                  <p>r</p>
+               </th>
+               <th>
+                  <p>t</p>
+               </th>
+               <th>
+                  <p>p</p>
+               </th>
+               <th>
+                  <p>d</p>
+               </th>
+            </tr>
+         </thead>
+         <tbody>
+            <tr>
+               <th>
+                  <p/>
+               </th>
+               <th class="left">
+                  <p>CK</p>
+               </th>
+               <td>
+                  <p>4.99</p>
+               </td>
+               <td>
+                  <p>(0.66)</p>
+               </td>
+               <td>
+                  <p/>
+               </td>
+               <td>
+                  <p>4.89</p>
+               </td>
+               <td>
+                  <p>(0.79)</p>
+               </td>
+               <td>
+                  <p/>
+               </td>
+               <td>
+                  <p>0.51</p>
+               </td>
+               <td>
+                  <p>n.s.</p>
+               </td>
+               <td>
+                  <p>n.s.</p>
+               </td>
+               <td>
+                  <p>n.s.</p>
+               </td>
+            </tr>
+            <tr>
+               <th>
+                  <p/>
+               </th>
+               <th class="left">
+                  <p>PCK</p>
+               </th>
+               <td>
+                  <p>4.21</p>
+               </td>
+               <td>
+                  <p>(0.89)</p>
+               </td>
+               <td>
+                  <p/>
+               </td>
+               <td>
+                  <p>4.26</p>
+               </td>
+               <td>
+                  <p>(0.97)</p>
+               </td>
+               <td>
+                  <p/>
+               </td>
+               <td>
+                  <p>0.36</p>
+               </td>
+               <td>
+                  <p>n.s.</p>
+               </td>
+               <td>
+                  <p>n.s.</p>
+               </td>
+               <td>
+                  <p>n.s.</p>
+               </td>
+            </tr>
+            <tr>
+               <th>
+                  <p/>
+               </th>
+               <th class="left">
+                  <p>TPACK</p>
+               </th>
+               <td>
+                  <p>4.23</p>
+               </td>
+               <td>
+                  <p>(0.86)</p>
+               </td>
+               <td>
+                  <p/>
+               </td>
+               <td>
+                  <p>4.30</p>
+               </td>
+               <td>
+                  <p>(1.00)</p>
+               </td>
+               <td>
+                  <p/>
+               </td>
+               <td>
+                  <p>0.37</p>
+               </td>
+               <td>
+                  <p>n.s.</p>
+               </td>
+               <td>
+                  <p>n.s.</p>
+               </td>
+               <td>
+                  <p>n.s.</p>
+               </td>
+            </tr>
+            <tr>
+               <th>
+                  <p/>
+               </th>
+               <th class="left">
+                  <p>ATT</p>
+               </th>
+               <td>
+                  <p>4.54</p>
+               </td>
+               <td>
+                  <p>(0.85)</p>
+               </td>
+               <td>
+                  <p/>
+               </td>
+               <td>
+                  <p>4.54</p>
+               </td>
+               <td>
+                  <p>(0.98)</p>
+               </td>
+               <td>
+                  <p/>
+               </td>
+               <td>
+                  <p>0.42</p>
+               </td>
+               <td>
+                  <p>n.s.</p>
+               </td>
+               <td>
+                  <p>n.s.</p>
+               </td>
+               <td>
+                  <p>n.s.</p>
+               </td>
+            </tr>
+            <tr>
+               <th class="left" colspan="2">
+                  <p>Second-year and higher students </p>
+               </th>
+               <td>
+                  <p/>
+               </td>
+               <td>
+                  <p/>
+               </td>
+               <td>
+                  <p/>
+               </td>
+               <td>
+                  <p/>
+               </td>
+               <td>
+                  <p/>
+               </td>
+               <td>
+                  <p/>
+               </td>
+               <td>
+                  <p/>
+               </td>
+               <td>
+                  <p/>
+               </td>
+               <td>
+                  <p/>
+               </td>
+               <td>
+                  <p/>
+               </td>
+            </tr>
+            <tr>
+               <th>
+                  <p/>
+               </th>
+               <th class="left">
+                  <p>CK</p>
+               </th>
+               <td>
+                  <p>4.81</p>
+               </td>
+               <td>
+                  <p>(0.74)</p>
+               </td>
+               <td>
+                  <p/>
+               </td>
+               <td>
+                  <p>4.95</p>
+               </td>
+               <td>
+                  <p>(0.64)</p>
+               </td>
+               <td>
+                  <p/>
+               </td>
+               <td>
+                  <p>0.59</p>
+               </td>
+               <td>
+                  <p>3.01</p>
+               </td>
+               <td>
+                  <p>0.01</p>
+               </td>
+               <td>
+                  <p>0.20</p>
+               </td>
+            </tr>
+            <tr>
+               <th>
+                  <p/>
+               </th>
+               <th class="left">
+                  <p>PCK</p>
+               </th>
+               <td>
+                  <p>3.87</p>
+               </td>
+               <td>
+                  <p>(0.90)</p>
+               </td>
+               <td>
+                  <p/>
+               </td>
+               <td>
+                  <p>4.15</p>
+               </td>
+               <td>
+                  <p>(0.95)</p>
+               </td>
+               <td>
+                  <p/>
+               </td>
+               <td>
+                  <p>0.52</p>
+               </td>
+               <td>
+                  <p>4.15</p>
+               </td>
+               <td>
+                  <p>0.00</p>
+               </td>
+               <td>
+                  <p>0.32</p>
+               </td>
+            </tr>
+            <tr>
+               <th>
+                  <p/>
+               </th>
+               <th class="left">
+                  <p>TPACK</p>
+               </th>
+               <td>
+                  <p>3.91</p>
+               </td>
+               <td>
+                  <p>(0.89)</p>
+               </td>
+               <td>
+                  <p/>
+               </td>
+               <td>
+                  <p>4.12</p>
+               </td>
+               <td>
+                  <p>(0.97)</p>
+               </td>
+               <td>
+                  <p/>
+               </td>
+               <td>
+                  <p>0.58</p>
+               </td>
+               <td>
+                  <p>3.23</p>
+               </td>
+               <td>
+                  <p>0.01</p>
+               </td>
+               <td>
+                  <p>0.25</p>
+               </td>
+            </tr>
+            <tr>
+               <th>
+                  <p/>
+               </th>
+               <th class="left">
+                  <p>ATT</p>
+               </th>
+               <td>
+                  <p>4.08</p>
+               </td>
+               <td>
+                  <p>(0.88)</p>
+               </td>
+               <td>
+                  <p/>
+               </td>
+               <td>
+                  <p>4.34</p>
+               </td>
+               <td>
+                  <p>(0.91)</p>
+               </td>
+               <td>
+                  <p/>
+               </td>
+               <td>
+                  <p>0.65</p>
+               </td>
+               <td>
+                  <p>4.70</p>
+               </td>
+               <td>
+                  <p>0.00</p>
+               </td>
+               <td>
+                  <p>0.31</p>
+               </td>
+            </tr>
+         </tbody>
+      </table>
+      <p>Figure 2 presents how the students perceived the FC method. 88.1% of the students considered the FC method with pre-materials and contact meetings as well-suited to them. 78.5% of the students indicated that they would like to participate in similarly arranged courses in the future. Almost two-thirds of the students (70.1%) stated that they would prefer to study using the FC method rather than in more traditional lectures.</p>
+      <figure>
+         <img src="figure-1.jpg"
+              alt="Statements and response rates.&#xA;Statement: The method with pre-materials and contact meetings suited me.&#xA;31.8% responded &#34;Very well&#34;&#xA;56.3% responded &#34;Well&#34;&#xA;10% responded &#34;Not so well&#34;&#xA;1.9% responed &#34;Not at all&#34;&#xA;&#xA;Statement: In the future, I would like to study in similarly arranged courses.&#xA;28.8% responded &#34;Very well&#34;&#xA;49.7% responded &#34;Well&#34;&#xA;19% responded &#34;Not so well&#34;&#xA;2.5% responed &#34;Not at all&#34;&#xA;&#xA;Statement: I would prefer to study in traditional lectures.&#xA;70.1% responded &#34;No&#34;&#xA;29.9% responed &#34;Yes&#34;"/>
+         <figcaption>
+            <p>
+               <strong>Figure 2.</strong> Percentages of student perceptions of the FC method</p>
          </figcaption>
       </figure>
       <h2>Discussion</h2>
-      <p>The aim of this study was to discover the teachers’ pedagogical role as mediators (Vygotsky, 1978) in leading and guiding the students’ learning with DST. The teacher’s role is changing from knowledge transmission at the center of the classroom stage to a supportive role from the side of the classroom, which enables the students’ active knowledge construction. As McWilliam (2009, p. 281–293) stated, teachers’ pedagogical identity shifted from “Sage-on-the stage” to “Guide-on-the-side.” We identified the three main functions of facilitating, coaching and scaffolding, which the teachers did as mediators through pedagogical decision making in the DST project.</p>
-      <p>Facilitation is a common term in education. A facilitator helps a group of people to understand their common objectives and helps them to plan how to achieve these objectives (Bens, 2012). This requires that the facilitator design and run the group activity smoothly so to achieve the objectives. Facilitating enables groups to work more effectively to collaborate and achieve their goals (Kaner et al. 2007). The facilitator’s job is to support everyone to do their best thinking and working. To do this, the facilitator encourages full participation, promotes mutual understanding, and cultivates shared responsibility (Kaner et al. 2007). In education, facilitating works with the goal of having students take as much responsibility for their own learning as possible (Metz, 2013). Teachers may shift to a facilitative role to increase student ownership of the learning process (Underhill 1999).</p>
-      <p>One main characteristic of the DST method is the student-centered knowledge creation approach. The students are at the center of the learning stage; however, this will not happen without teachers facilitating the learning process. Facilitating means planning, guiding, and managing the group activity by creating a flourishing learning process and environment; this ensures everyone’s participation and success in meeting the objectives of the group activity. Facilitation was very visible in this DST project. As Gu (2018) has pointed out, teachers are the organizers of the learning process, designers of the learning environment, and helpers of the students’ learning experience. In this DST project, teachers facilitated the students’ learning by (a) introducing the method and theme, (b) creating learning community, (c) being responsible for the learning process, (d) providing needed information and a supportive learning environment, and (e) supporting interactions within the collaborative learning process.</p>
-      <p>The concept of coaching is often used in sport or in goal-oriented learning processes. It is a form of development in which a person (i.e., coach) supports a learner or client in achieving a specific goal by providing training and guidance (Passmore, 2016). Coaching is the process of aiming for improved performance. In this DST study, coaching was often associated with asking good questions to discover the right direction, to build motivation, and to define concrete actions. Through the teachers’ questions, the students became aware of the learning outcomes; they uncovered their potential and built their inner strength, confidence, and motivation. Additionally, the teachers encouraged the students even when there were difficulties; they praised the students’ progress, built students’ strength and motivation, and led the students to concrete actions. The teachers, therefore, played an extremely important role in coaching students in the right direction and providing motivation to achieve better performance. </p>
-      <p>Scaffolding is a structure of “support points” for performing an action to develop the children’s zone of proximal development (ZPD) (Vygotsky, 1978; Obukhova &amp; Korepanova, 2009). At school, in classroom practice, teachers can use various scaffolding strategies to support the students’ development in their zone of proximal development (ZPD). In Vivitsou et al.’s (2017) study, teachers used scaffolding techniques in DST. In this DST project, to support student-centered learning, the teachers scaffolded the students by showing them a good digital story and then by encouraging them to use paper board to cut different geometry shapes. The teachers provided a checklist for assessing the digital stories. Visual and tangible objects were used to illustrate the geometry shapes.  Scaffolding is the support given during the learning process, which is tailored to the needs of the students; the intention is to help the students achieve their learning goals (Sawyer, 2013). Some scaffolding means (Van de Pol et al. 2010) are modeling, explaining, demonstrating, and giving feedbacks and handouts. </p>
-      <p>These three concepts identified in the teachers’ work in the DST project are widely used in educational settings, not only in the context of DST. We can conclude that findings suggest the teachers’ pedagogical role as mediators is in DST is very essential. The teachers made concrete and realistic pedagogical planning, and made decisions to react and adjust to the learning situation and on the students’ needs and capacities in order to develop the students’ active learning and to achieve the desired learning outcomes. </p>
-      <h2>Limitations and Further Study</h2>
-      <p>In this study, the main topic of learning with DST was related to geometry for ten- and eleven-year-old students. Also, this study studies the teacher’s role only in one subject matter and only in two schools and with students at a specific age level. It is important to expand the study to other subject matters, such as language, ICT, and music. The project could also be more inter-disciplinary in using DST in learning. It would be important to find out whether teacher’s role would change if the students were younger or older or if the learning concepts were more abstract and difficult. In this study, the teachers led and guided the students’ learning in groups, and the study did not provide detailed information about how teachers supported for weaker students in an individualized manner. Further studies could focus more on how teachers support individualized learning in the student-centered learning method.</p>
-      <p>This study was carried out in Finland and in China, which have very different education systems and different cultural backgrounds. Additional studies could be done in other countries. Additionally, it is also important to find out how teachers integrate their teaching with their national curriculum over a longer period of time.</p>
-      <p>Even though these research findings were discovered using DST, it would be interesting to find out if the same results could be found and tested in other student-centered pedagogical methods or approaches with a different emphasis. Future studies can pursue research in project-based or problem-based learning, or in phenomenon-based learning. We suggest that more research should be carried out to help teachers who use student-centered pedagogical methods and approaches.</p>
+      <p>The purpose of this study was to investigate how students in higher education flipped classroom (FC) courses assess teacher content knowledge (CK), pedagogical content knowledge (PCK) and technological pedagogical content knowledge (TPACK) and attitudes to ICT in teaching (ATT), before and after the course. This comparison was done for the whole data set and for two groups: (1) first-year students and (2) second-year and higher students. We also investigated how students perceived FC method and what preferences for the future they had regarding the FC method. A comparison of the data as one group showed that the students assessed their teachers’ PCK, TPACK and ATT higher after the FC course. No difference was found in CK. After splitting the data into two groups, the results for the first-year students did not show statistically significant differences for CK, PCK, TPACK or ATT at T1 and T2. However, second-year and higher students assessed their teachers’ skill higher in T2 for all measured areas. The majority of the students perceived FC in a positive way and were willing to take FC-type courses in the future. The effect sizes were at a moderate level in general, however, they should be compared in the context in which the courses lasted for approximately one period of academic year. Results can be considered reasonable from this perspective.</p>
+      <p>These results indicate that the FC approach can change student perceptions of teachers’ TPACK and teachers’ attitudes to using technology. The three steps for ICT integration to teaching in the project and the individual support that was offered seem to improve the teachers’ TPACK-related skills. We assume that the FC model provided opportunities for the meaningful use of ICT to support learning. As suggested by Watson (2001) and Ertmer (2005), pedagogy and pedagogical beliefs are important factors for the successful integration of ICT in teaching. The FC model emphasizes the teacher as a content expert, as an expert in pedagogy and as an expert in the use of ICT in education. Results of this study suggest that, from a student perspective, teacher skills in integrating content, pedagogy and technology, are increasing. </p>
+      <p>In order to make changes successful, the change must be reasonable (see. Zhao et al., 2002). One of the reasons the results of this study indicate such successful integration of pedagogy and technology is the nature of the FC model, which is optimal for initiating change. In other words, FC is an easy-to-grasp model that allows teachers to consider pedagogy and ICT in their teaching more thoroughly. We assume that emphasizing collaborative and student-centered methods in teaching makes the expertise in pedagogy and in use of ICT more visible for students, thereby approaching the definition of skilled teaching with technology by Koehler and colleagues (2013). The role of the content specialist remains in pre-materials and contact meetings. Through more student-centered approaches, teachers can use time more effectively. Results show that students recognize the benefits of the FC model and the change in teaching skills, which indicates that the teachers developed professionally during the process.</p>
+      <p>The results indicate that the second-year and higher students perceived significant change in all CK, PCK, TPACK and ATT areas, whereas the first-year students did not. Higher year students may have a better understanding of teaching practices, technology use, teacher skill levels and teacher attitudes to the use of ICT in education. First-year students may not have this experience. This result can be considered logical and, thus, increases the reliability of this study. </p>
+      <p>These findings align well with the aspects presented in earlier studies for the successful integration of ICT (Brikerhoff, 2006; Ertmer 1999; 2005) and with the vision of how teacher training should be organized. Sufficient support for pedagogy, the use of ICT, a peer-support culture and self-study materials combined with time for developing teaching practices are important in developing the use of ICT in teaching. There must be a shared vision for ICT integration (Harris, 2005), and FC creates a framework for teachers participating the training and a framework for support personnel who train teachers. FC seems to influence teacher attitudes to using ICT in teaching, which is according to Teo and Tan (2012) one of the most important factor influencing the use of ICT in education. The FC project with support and training allows teachers to develop their skills systematically. Thus, it seems that support for teachers with the flipped classroom framework is effective for professional development and to improve their content related pedagogical-technological skills in higher education from the student perspective. </p>
+      <h2>Limitations and future research</h2>
+      <p>The present study has limitations. First, a convenience sample was used. Future researchers should consider stronger sampling methods in order to verify the results of the study. Second, only two aspects of ICT integration were addressed, namely the TPACK model and the Theory of Planned Behavior model for ICT in education. Future research should consider using other theoretical frameworks and measurement instruments based on these theories. Third, study did not include an in-depth investigation of the psychometric properties of the adapted instruments. Future research should be extended to a more in-depth investigation of reliability and validity. Fourth, typical analysis methods were used, but future research would benefit from using more sophisticated methods, such as structural equation modeling. Finally, the pedagogical investigations were based on the whole FC model. Future research should more specifically consider pedagogical approaches within FC.</p>
       <h2>Acknowledgements</h2>
-      <p>Authors want to thank the Advanced Innovation Center for Future Education (AICFE), Beijing Normal University, and University of Helsinki for financing the project.</p>
-      <p>Authors express thanks to their co-researchers: Baoping Li from Beijing Normal University and Marianna Vivitsou from the University of Helsinki for project implementation and data collection.</p>
-      <p/>
+      <p>All teachers and students who participated this study are gratefully acknowledged. This study was supported by the grant from Finnish Ministry of Education and Culture and Finnish [OKM/199/523/2016], and Suomen Akatemia/Academy of Finland [Grant 296799 and 273970].</p>
       <h2>References</h2>
-      <p class="ref">Bens, I. (2012). <em>Facilitating with ease! Core skills for facilitators, team leaders and members, managers, consultants, and trainers.</em> San Francisco: Wiley.</p>
-      <p class="ref">Creswell, J.W. (2007). <em>Qualitative inquiry and research design: Choosing among five approaches (2nd ed.).</em> Thousand Oaks, CA: Sage.</p>
-      <p class="ref">Elo, S. and Kyngäs, H. (2008), The qualitative content analysis process. <em>Journal of Advanced Nursing, 62</em>: 107-115. <a href="https://doi.org/10.1111/j.1365-2648.2007.04569.x">https://doi.org/10.1111/j.1365-2648.2007.04569.x</a>
+      <p class="ref">Adams Becker, S., Cummins, M., Davis, A., Freeman, A., Hall Giesinger, C., and Ananthanarayanan, V. (2017). <em>NMC Horizon Report: 2017 Higher Education Edition.</em> Austin, Texas: The New Media Consortium.</p>
+      <p class="ref">Ajzen, I. (1991). The theory of planned behavior. <em>Organizational Behavior and Human Decision Processes, 50</em>(2), 179-211. <a href="https://doi.org/10.1016/0749-5978(91)90020-T">https://doi.org/10.1016/0749-5978(91)90020-T</a>
       </p>
-      <p class="ref">Feuerstein, R. (1990). The theory of structural cognitive modifiability. In B. Presseisen (Ed.), <em>Learning and thinking styles: Classroom interaction</em>, (pp. 68–134). Washington, DC: National Education Association.</p>
-      <p class="ref">Feuerstein, R., &amp; Feuerstein, S. (1991). Mediated learning experience: A theoretical review. In R. Feuerstein, P. Klein, &amp; A. Tannenbaum (Eds.), <em>Mediated learning experience: Theoretical, psychological, and learning implications</em>, (pp. 3–52). Tel Aviv and London: Freund</p>
-      <p class="ref">Frey, J. &amp; Fontana, A. (1991). The Group Interview in Social Research. <em>The Social Science Journal, </em>
-         <em>2</em>
-         <em>8</em>(2), 175-187. <a href="https://doi.org/10.1016/0362-3319(91)90003-M">https://doi.org/10.1016/0362-3319(91)90003-M</a>
+      <p class="ref">Baepler, P., Walker, J. D., &amp; Driessen, M. (2014). It’s not about seat time: Blending, flipping, and efficiency in active learning classrooms. <em>Computers &amp; Education, 78</em>, 227–236. <a href="https://doi.org/10.1016/j.compedu.2014.06.006">https://doi.org/10.1016/j.compedu.2014.06.006</a>
       </p>
-      <p class="ref">Cousin, G. (2009). <em>Researching learning in higher education: an introduction to contemporary methods and approaches.</em> Routledge.</p>
-      <p class="ref">Creswell, J. W., Hanson, W. E., Clark Plano, V. L., &amp; Morales, A. (2007). Qualitative Research Designs: Selection and Implementation. <em>The Counseling Psychologist, 35</em>(2), 236–264. <a href="https://doi.org/10.1177/0011000006287390">https://doi.org/10.1177/0011000006287390</a>
+      <p class="ref">Brinkerhoff, J. 2006. Effects of a Long-Duration, Professional Development Academy on Technology Skills, Computer Self-Efficacy, and Technology Integration Beliefs and Practices. <em>Journal of Research on Computing in Education, 39</em>(1), 22–43. <a href="https://doi.org/10.1080/15391523.2006.10782471">https://doi.org/10.1080/15391523.2006.10782471</a>
       </p>
-      <p class="ref">Gu, M. (2018). Challenges and solutions faced by China’s teachers in the era of globalization. In H. Niemi, A. Toom, A. Kallioniemi, and J. Lavonen (Eds.), <em>The teachers’ role in the changing globalizing world</em> (pp. 109-123). Leiden: Brill Sense.</p>
-      <p class="ref">Hoskins C.N. &amp; Mariano C. (2004). <em>Research in Nursing and Health: Understanding and Using Quantitative and Qualitative Methods. 2nd ed.,</em> Springer Publishing Company, New York.</p>
-      <p class="ref">Jenkins, H., Purushotma, R., Weigel, M., Clinton, K., &amp; Robinson, A. J. (2009). <em>Confronting the challenges of participatory culture: Media education for the twenty-first century.</em> Chicago, IL: MacArthur Foundation. <a href="https://doi.org/10.7551/mitpress/8435.001.0001">https://doi.org/10.7551/mitpress/8435.001.0001</a>
+      <p class="ref">Chen, F., Lui, A. M., &amp; Martinelli, S. M. (2017). A systematic review of the effectiveness of flipped classrooms in medical education. <em>Medical Education, 51</em>, 585–597. <a href="https://doi.org/10.1111/medu.13272">https://doi.org/10.1111/medu.13272</a>
       </p>
-      <p class="ref">Kaner, S. with Lind, L., Toldi, C., Fisk, S. and Berger, D. (2007). <em>Facilitator’s Guide to Participatory Decision-Making</em>. Jossey-Bass; ISBN 0-7879-8266-0</p>
-      <p class="ref">Kennedy, K. J. (2008). Globalised economies and liberalised curriculum: New challenges for national citizenship education. In D. Grossman, W. O. Lee &amp; K. Kennedy (Eds.), <em>Citizenship curriculum in Asia and the Pacific</em> (pp. 13–26). Hong Kong: Springer/Comparative Education Research Centre, University of Hong Kong.</p>
-      <p class="ref">Kozulin, A. (1990). <em>Vygotsky’s psychology: A biography of ideas.</em> Cambridge, MA: Harvard University Press.</p>
-      <p class="ref">Kozulin, A. (Ed.). (1997). <em>The ontogeny of cognitive modifiability.</em> Jerusalem:  International Centre for the Enhancement of Learning Potential, ICELP Press</p>
-      <p class="ref">Kozulin, A. &amp; Presseisen, B.Z. (1995) Mediated Learning Experience and Psychological Tools: Vygotsky’s and Feuerstein’s perspectives in a study of student learning, <em>Educational Psychologist, 30</em>(2), 67–75. <a href="https://doi.org/10.1207/s15326985ep3002_3">https://doi.org/10.1207/s15326985ep3002_3</a>
+      <p class="ref">Chen, J. L. (2011). The effects of education compatibility and technological expectancy on e-learning acceptance. <em>Computers &amp; Education, 57</em>, 1501–1511. <a href="https://doi.org/10.1016/j.compedu.2011.02.009">https://doi.org/10.1016/j.compedu.2011.02.009</a>
       </p>
-      <p class="ref">Krippendorff K. (1980) <em>Content Analysis: An Introduction to its Methodology.</em> Sage Publications, Newbury Park.</p>
-      <p class="ref">Kulla-Abbott, T., &amp; Polman, J. (2008). Engaging student voice and fulfilling curriculum goals with digital stories. <em>THEN Journal: Technology Humanities Education and Narrative, 5(</em>1), 38–60.</p>
-      <p class="ref">Lambert, J. (2013). <em>Digital storytelling: Capturing lives, creating community.</em> New York, NY: Routledge. <a href="https://doi.org/10.4324/9780203102329">https://doi.org/10.4324/9780203102329</a>
+      <p class="ref">Ertmer, P. (1999) Addressing first- and second-order barriers to change: Strategies for technology integration. <em>Educational Technology Research and Development, 47</em>(4). 47–61. <a href="https://doi.org/10.1007/BF02299597">https://doi.org/10.1007/BF02299597</a>
       </p>
-      <p class="ref">Lee, W., &amp; Tan, J. P. (2018 in print). The new roles of twenty-first-century teachers: Facilitator, knowledge broker, and pedagogical weaver. In H. Niemi, A. Toom, A. Kallioniemi, and J. Lavonen (Eds.), <em>The teachers’ role in the changing globalizing world </em>(pp. 11-31). Leiden: Brill Sense.</p>
-      <p class="ref">Levitt, H.M. (2015). Interpretation-driven guidelines for designing and evaluating grounded theory research: a constructivist-social justice approach. In O. C. G. Gelo, A. Pritz, &amp; Rieken (Eds.), <em>Psychotherapy research</em> (pp.455-483). Vienna: Springer. Retrieved from <a href="https://link.springer.com/chapter/10.1007/978-3-7091-1382-0_22">https://link.springer.com/chapter/10.1007/978-3-7091-1382-0_22</a>. <a href="https://doi.org/10.1007/978-3-7091-1382-0_22">https://doi.org/10.1007/978-3-7091-1382-0_22</a>
+      <p class="ref">Ertmer, P. A. (2005). Teacher pedagogical beliefs: The final frontier in our quest for technology integration?. <em>Educational technology research and development, 53</em>(4), 25-39. <a href="https://doi.org/10.1007/BF02504683">https://doi.org/10.1007/BF02504683</a>
       </p>
-      <p class="ref">McGee, P. (2015). <em>The instructional value of digital storytelling: Higher education, professional, and adult learning settings.</em> New York, NY: Routledge. <a href="https://doi.org/10.4324/9780203066140">https://doi.org/10.4324/9780203066140</a>
+      <p class="ref">Harris, J. (2005) Our Agenda for Technology Integration: It’s Time To Choose. <em>Contemporary Issues in Technology and Teacher Education, 5</em>(2), 116-122. </p>
+      <p class="ref">Koehler, M.J., Mishra, P., &amp; Cain, W. (2013). What is technological pedagogical content (TPACK)? <em>Journal of Education, 193</em>(3), 13–19. <a href="https://doi.org/10.1177/002205741319300303">https://doi.org/10.1177/002205741319300303</a>
       </p>
-      <p class="ref">McWilliam, E. L. (2009). Teaching for creativity: From sage to guide to meddler. <em>Asia Pacific Journal of Education, 29</em>(3), 281–293. <a href="https://doi.org/10.1080/02188790903092787">https://doi.org/10.1080/02188790903092787</a>
+      <p class="ref">Lage, M. J., Platt, G. J., &amp; Treglia, M. (2000). Inverting the classroom: A gateway to creating an inclusive learning environment. <em>The Journal of Economic Education, 31</em>(1), 30–43. <a href="https://doi.org/10.1080/00220480009596759">https://doi.org/10.1080/00220480009596759</a>
       </p>
-      <p class="ref">Metz, Terrence (2013), <em>“The </em>
-         <em>FAST Facilitative</em>
-         <em> Session Leader”</em>
-         <em>.</em> Productivity Press, Boca Raton, Florida.</p>
-      <p class="ref">Nelson, M. E., &amp; Hull, G. (2008). Self-presentation through multimedia: A Bakhtinian perspective on digital storytelling.” In K.  Lundby (Ed.), <em>Digital storytelling, mediatized stories: Self-representations in new media</em> (pp. 123–144). New York: Peter Lang.</p>
-      <p class="ref">Niemi, H., Harju, V., Vivitsou, M., Viitanen, K., Multisilta, J., &amp; Kuokkanen, A. (2014). Digital storytelling for 21st-century skills in virtual learning environments, Creative Education, 5(9), 657–671. <a href="https://doi.org/10.4236/ce.2014.59078">https://doi.org/10.4236/ce.2014.59078</a>
+      <p class="ref">Lenhard, W. &amp; Lenhard, A. (2016). Calculation of Effect Sizes. available: https://www.psychometrica.de/ effectsize.html. Dettelbach (Germany): Psychometrica. <a href="https://doi.org10.13140/RG.2.1.3478.4245">https://doi.org10.13140/RG.2.1.3478.4245</a>
       </p>
-      <p class="ref">Niemi, H., &amp; Multisilta, J. (2016). Digital storytelling promoting twenty-first century skills and student engagement. <em>Technology, Pedagogy and Education, 25</em>(4), 451-468. <a href="https://doi.org/10.1080/1475939X.2015.1074610">https://doi.org/10.1080/1475939X.2015.1074610</a>
+      <p class="ref">Mishra, P., &amp; Koehler, M. J. (2006). Technological Pedagogical Content Knowledge: A Framework for Teacher Knowledge. <em>Teachers College Record, 108</em>(6), 1017–1054. <a href="https://doi.org/10.1111/j.1467-9620.2006.00684.x">https://doi.org/10.1111/j.1467-9620.2006.00684.x</a>
       </p>
-      <p class="ref">Nieuwerburgh, Christian van (2012). <em>Coaching in Education: Getting Better Results for Students, Educators, and Parents. Professional Coaching Series.</em> London: Karnac Books. ISBN 9781780490793. OCLC 778418798</p>
-      <p class="ref">Obukhova, L. F., &amp; Korepanova, I. A. (2009). The Zone of Proximal Development: A spatiotemporal model. <em>Journal of Russian &amp; East European Psychology, 47</em>(6), 25-47. <a href="https://doi.org/10.2753/RPO1061-0405470602">https://doi.org/10.2753/RPO1061-0405470602</a>
+      <p class="ref">Morris, S. B., &amp; DeShon, R. P. (2002). Combining effect size estimates in meta-analysis with repeated measures and independent-groups designs. <em>Psychological Methods, 7</em>(1), 105-125. <a href="https://doi.org/10.1037/1082-989X.7.1.105">https://doi.org/10.1037/1082-989X.7.1.105</a>
       </p>
-      <p class="ref">Ohler, J. (2008). <em>Digital storytelling in the classroom: New media pathways to literacy, learning and creativity.</em> Thousand Oaks, CA: Corwin Press.</p>
-      <p class="ref">Passmore, J. (Ed.). (2016). <em>Excellence in coaching: The industry guide (3rd ed.)</em>. Philadelphia: Kogan Page. </p>
-      <p class="ref">Robin, B. (2008). The effective uses of digital storytelling as a teaching and learning tool. In D. Lapp, J. Flood, &amp; S. B. Heath (Eds.), <em>Handbook of research on teaching literacy through the communicative and visual arts. Vol. 2.</em> New York: Lawrence Erlbaum Associates. doi: 10.4324/9781315759616.ch43</p>
-      <p class="ref">Rossiter, M., &amp; Garcia, P. A. (2010). Digital storytelling: A new player on the narrative field. <em>New directions for adult and continuing education, 126</em>, 3748. <a href="https://doi.org/10.1002/ace.370">https://doi.org/10.1002/ace.370</a>
+      <p class="ref">Nunnally JC (1978) <em>Psychometric theory (2nd ed).</em> New York, NY: McGraw-Hill.</p>
+      <p class="ref">Shih, C. L., &amp; Chuang, H. H. (2013). The development and validation of an instrument for assessing college students’ perceptions of faculty knowledge in technology-supported class environments. <em>Computers &amp; Education, 63</em>, 109-118. <a href="https://doi.org/10.1016/j.compedu.2012.11.021">https://doi.org/10.1016/j.compedu.2012.11.021</a>
       </p>
-      <p class="ref">Sadik, A. (2008). Digital storytelling: A meaningful technology-integrated approach for engaged student learning. <em>Educational Technology Research &amp; Development, 56</em>, 487506. <a href="https://doi.org/10.1007/s11423-008-9091-8">https://doi.org/10.1007/s11423-008-9091-8</a>
+      <p class="ref">Sointu, E. T., Valtonen, T., Cutucache, C., Kukkonen, J., Lambert, M. C., &amp; Mäkitalo- Siegl, K. (2017). Differences in preservice teachers’ readiness to use ICT in education and development of TPACK. In P. Resta &amp; S. Smith (Eds.), <em>Proceedings of Society for Information Technology &amp; Teacher Education International Conference 2017</em> (pp. 2462–2469). Chesapeake, VA: Association for the Advancement of Computing in Education (AACE).</p>
+      <p class="ref">Sointu, E. T. &amp; Valtonen, T. (2015). <em>Asiantuntijavideoluennot</em>
+         <em/>
+         <em>oppimisympäristön</em>
+         <em/>
+         <em>pohjana</em> [Expert video lectures as basis for learning environments]. Retriewed from https://www.uef.fi/web/toty/ asiantuntijavideoluennot-2015-. </p>
+      <p class="ref">Teo, T. &amp; Tan, L. (2012). The theory of planned behavior (TPB) and pre-service teachers’ technology acceptance: A validation study using structural equation modeling. <em>Journal of Technology and Teacher Education, 20</em>(1), 89-104. </p>
+      <p class="ref">Valtonen, T., Sointu, E., Mäkitalo-Siegl, K., &amp; Kukkonen, J. (2015a). Developing a TPACK measurement instrument for 21st century pre-service teachers. <em>Seminar.Net, 11</em>(2), 87–100. Retrieved from https://journals.hioa.no/index.php/seminar/article/ view/2353.</p>
+      <p class="ref">Valtonen, T., Kukkonen, J., Kontkanen, S., Sormunen, K., Dillon, P., &amp; Sointu, E. (2015b). The impact of authentic learning experiences with ICT on pre-service teachers’ intentions to use ICT for teaching and learning. <em>Computers &amp; </em>
+         <em>Education</em>
+         <em>, 81</em>, 49–58.<a href="https://doi.org/10.1016/j.compedu.2014.09.008">https://doi.org/10.1016/j.compedu.2014.09.008</a>
       </p>
-      <p class="ref">Sandelowski M. (1995). Qualitative analysis: what it is and how to begin? <em>Research in Nursing &amp; Health 18</em>, 371–375. <a href="https://doi.org/10.1002/nur.4770180411">https://doi.org/10.1002/nur.4770180411</a>
+      <p class="ref">Valtonen, T., Sointu, W., Kukkonen, J., Kontkanen, S., Lambert, M., &amp; Mäkitalo-Siegl, K. (2017). TPACK updated to measure pre-service teachers’ twenty-first century skills. <em>Australasian Journal of Educational Technology, 33</em>(3), 15–31. <a href="https://doi.org/10.14742/ajet.3518">https://doi.org/10.14742/ajet.3518</a>
       </p>
-      <p class="ref">Shelby-Caffey, C., bda, E., &amp; Jenkins, B. (2014). Digital storytelling revisited. <em>The Reading Teacher, 68</em>(3), 191199. <a href="https://doi.org/10.1002/trtr.1273">https://doi.org/10.1002/trtr.1273</a>
+      <p class="ref">Voogt, J., &amp; Roblin, N. P. (2012). A comparative analysis of international frameworks for 21st century competences: Implications for national curriculum policies. <em>Journal of Curriculum Studies, 44</em>, 299–321. <a href="https://doi.org/10.1080/00220272.2012.668938">https://doi.org/10.1080/00220272.2012.668938</a>
       </p>
-      <p class="ref">Stewart, K. D., &amp; Ivala, E. (2017). Silence, voice, and “other languages”: Digital storytelling as a site for resistance and restoration in a South African higher education classroom. <em>British Journal of Educational Technology, 48</em>(5), 1164-1175. <a href="https://doi.org/10.1111/bjet.12540">https://doi.org/10.1111/bjet.12540</a>
+      <p class="ref">Watson, D. M. (2001). Pedagogy before technology: Re-thinking the relationship between ICT and teaching. <em>Education and Information technologies, 6</em>(4), 251–266. <a href="https://doi.org/10.1023/A:1012976702296">https://doi.org/10.1023/A:1012976702296</a>
       </p>
-      <p class="ref">Sukovic, S. (2014). iTell: Transliteracy and digital storytelling. <em>Australian Academic &amp; Research Libraries, 45</em>(3), 205229. <a href="https://doi.org/10.1080/00048623.2014.951114">https://doi.org/10.1080/00048623.2014.951114</a>
+      <p class="ref">Zhao, Y., Pugh, K., Sheldon, S. &amp; Bryers, J. (2002). Conditions for classroom technology innovations. <em>Teachers College Record, 104</em>(3), 482–515. <a href="https://doi.org/10.1111/1467-9620.00170">https://doi.org/10.1111/1467-9620.00170</a>
       </p>
-      <p class="ref">Sawyer, R. Keith. <em>The Cambridge Handbook of the Learning Sciences.</em> New York: Cambridge University Press, 2006</p>
-      <p class="ref">Toom, A., &amp; Husu, J. (2018 in print). Teacher’s work in changing educational contexts: Balancing the role and the person. In H. Niemi, A. Toom, A. Kallioniemi, and J. Lavonen (Eds.), <em>The teachers’ role in the changing globalizing world</em> (pp. 1-9). Leiden: Brill Sense.</p>
-      <p class="ref">Underhill, Adrian (1999). “Facilitation in Language Teaching”. In Arnold, Jane. <em>Affect in Language Learning.</em> p. 126. ISBN 0521650410.</p>
-      <p class="ref">Van de Pol, Janneke, Volman, Monique, &amp; Beishuizen, Jos. (2010). Scaffolding in Teacher–Student Interaction: A Decade of Research<em>. Educational Psychology Review, 22</em>:271–296. <a href="https://doi.org/10.1007/s10648-010-9127-6">https://doi.org/10.1007/s10648-010-9127-6</a>
-      </p>
-      <p class="ref">Van Manen, Max, (1990). <em>Researching lived experience.</em> Albany, NY: State University of New York Press (SUNY) Press.</p>
-      <p class="ref">Vivitsou, M., Niemi, H., Wei, G., Kallunki, V., &amp; Miao, R. (2017). Teachers’ practices to support students’ work in digital storytelling: A study on Finnish and Chinese school teachers’ experiences. <em>Seminar.net: Media, Technology &amp; Lifelong Learning.</em> https://journals.hioa.no/index.php/seminar/article/view/2306.</p>
-      <p class="ref">Vygotsky, L. (1978). <em>Mind in society.</em> Cambridge, MA: MIT Press.</p>
-      <p class="ref">Vygotsky, L. S. &amp; Luria, A. N. (1994). <em>Tool and symbol in the child development.</em> In R. Van der Veer &amp; J. Valsiner (Ed.), The Vygotsky reader, 99–174. Oxford: Blackwell.</p>
-      <p class="ref">Woodhouse, J. (2008). <em>Storytelling: A telling approach in healthcare education.</em> Paper presented at the Narrative Practitioner Conference, Wrexham, England.</p>
    </body>
 </html>

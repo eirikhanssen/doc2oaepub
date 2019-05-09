@@ -878,11 +878,19 @@
                         version="2.0">
                         <xsl:import href="doc2jats-functions.xsl"/>
                         
+                        
+                        
                         <xsl:template match="p[matches(@styleId, '^AuthorName')]">
                             <xsl:variable name="counter" select="count(following-sibling::p)"/>
                             <dl class="author">
                                 <dt><xsl:apply-templates/></dt>
+                   <!--  !!!! BUGGY CODE !!!!     -->
+                   <!--  XPATH selector is wrong below 
+                         one author's details is added to all previous authors -->
+                                                                
                                 <xsl:apply-templates select="following-sibling::p[matches(@styleId, '^AuthorDetails')]" mode="authors"/>
+                                
+                   <!--  !!!! BUGGY CODE !!!!  -->
                             </dl>
                         </xsl:template>
                         
