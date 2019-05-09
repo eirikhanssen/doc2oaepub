@@ -776,6 +776,31 @@
                 </p:inline>
             </p:input>
         </p:insert>
+        
+        <p:xslt name="update-title" version="2.0">
+            <p:input port="source"/>
+            <p:input port="parameters"/>
+            <p:input port="stylesheet">
+                <p:inline>
+                    <xsl:stylesheet 
+                        xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+                        xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                        exclude-result-prefixes="xs"
+                        version="2.0">
+                        <xsl:import href="doc2jats-functions.xsl"/>
+                        
+                        <xsl:template match="/html/head/title">
+                            <xsl:copy>
+                                <xsl:variable name="article-title" select="/html/body/h1[1]/text()"/>
+                                <xsl:value-of select="concat($article-title, ' | Journal Article')"/>
+                            </xsl:copy>
+                        </xsl:template>
+                        
+                    </xsl:stylesheet>
+                </p:inline>
+            </p:input>
+        </p:xslt>
+        
         <p:identity name="final"/>
         
     </p:declare-step>
