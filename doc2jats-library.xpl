@@ -917,7 +917,6 @@
         <p:wrap match="text()[not(parent::em)][matches(. ,'^[&#xa; .,:;-]*$')]" wrapper="fmt"/>
         <p:wrap match="text()[not(parent::*[matches(name(.) , '^(em)|(fmt)$')])]" wrapper="txt"></p:wrap>
         
-        
         <p:xslt version="2.0">
             <p:input port="source"/>
             <p:input port="parameters"><p:empty/></p:input>
@@ -933,9 +932,6 @@
                         <xsl:template match="*[count(child::em) &gt; 1]">
                             <xsl:copy>
                                 <xsl:copy-of select="@*"/>
-                                <xsl:variable name="context" select="."/>
-                                <xsl:variable name="prev" select="preceding-sibling::*[1]"/>
-                                <xsl:variable name="next" select="following-sibling::*[1]"/>
                                 <xsl:for-each-group select="*" group-adjacent="boolean(self::em or (self::fmt/preceding-sibling::*[1]/name()='em' and self::fmt/following-sibling::*[1]/name()='em'))">
                                     <xsl:choose>
                                         <xsl:when test="current-grouping-key()">
@@ -975,7 +971,6 @@
         <p:wrap match="text()[not(parent::strong)][matches(. ,'^[&#xa; .,:;-]*$')]" wrapper="fmt"/>
         <p:wrap match="text()[not(parent::*[matches(name(.) , '^(strong)|(fmt)$')])]" wrapper="txt"></p:wrap>
         
-        
         <p:xslt version="2.0">
             <p:input port="source"/>
             <p:input port="parameters"><p:empty/></p:input>
@@ -991,9 +986,6 @@
                         <xsl:template match="*[count(child::strong) &gt; 1]">
                             <xsl:copy>
                                 <xsl:copy-of select="@*"/>
-                                <xsl:variable name="context" select="."/>
-                                <xsl:variable name="prev" select="preceding-sibling::*[1]"/>
-                                <xsl:variable name="next" select="following-sibling::*[1]"/>
                                 <xsl:for-each-group select="*" group-adjacent="boolean(self::strong or (self::fmt/preceding-sibling::*[1]/name()='strong' and self::fmt/following-sibling::*[1]/name()='strong'))">
                                     <xsl:choose>
                                         <xsl:when test="current-grouping-key()">
