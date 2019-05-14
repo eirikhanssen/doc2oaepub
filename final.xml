@@ -1,1086 +1,283 @@
 <html lang="en-US">
    <head>
       <meta charset="utf-8"/>
-      <title>Teachers as users of ICT from the student perspective in higher education flipped classroom classes | Journal Article</title>
+      <title>Nonlinear Storytelling Method and Tools for Low-Threshold Game Development | Journal Article</title>
       <link href="https://journals.hioa.no/styles/article.css" rel="stylesheet"/>
       <script src="https://journals.hioa.no/js/article.js" defer="defer"/>
    </head>
    <body>
-      <h1>Teachers as users of ICT from the student perspective in higher education flipped classroom classes</h1>
+      <h1>Nonlinear Storytelling Method and Tools for Low-Threshold Game Development</h1>
       <dl class="author">
-         <dt>Erkko T. Sointu</dt>
-         <dd>School of Educational Sciences and Psychology, University of Eastern Finland, Joensuu, Finland</dd>
-         <dd>School of Applied Educational Science and Teacher Education, University of Eastern Finland, Joensuu, Finland</dd>
-         <dd>School of Applied Educational Science and Teacher Education, University of Eastern Finland, Joensuu, Finland</dd>
-         <dd>School of Educational Sciences and Psychology, University of Eastern Finland, Joensuu, Finland</dd>
-         <dd>Department of Applied Physics, University of Eastern Finland, Kuopio, Finland</dd>
-         <dd>Faculty of Education, University of Oulu, Oulu, Finland</dd>
-         <dd>Education innovation and ICT research group, Windesheim University, Zwolle, the Netherlands</dd>
-         <dd>School of Educational Sciences and Psychology, University of Eastern Finland, Joensuu, Finland</dd>
-      </dl>
-      <p>Email: erkko.sointu@uef.fi (corresponding author)</p>
-      <dl class="author">
-         <dt>Teemu Valtonen</dt>
-         <dd>School of Applied Educational Science and Teacher Education, University of Eastern Finland, Joensuu, Finland</dd>
-         <dd>School of Applied Educational Science and Teacher Education, University of Eastern Finland, Joensuu, Finland</dd>
-         <dd>School of Educational Sciences and Psychology, University of Eastern Finland, Joensuu, Finland</dd>
-         <dd>Department of Applied Physics, University of Eastern Finland, Kuopio, Finland</dd>
-         <dd>Faculty of Education, University of Oulu, Oulu, Finland</dd>
-         <dd>Education innovation and ICT research group, Windesheim University, Zwolle, the Netherlands</dd>
-         <dd>School of Educational Sciences and Psychology, University of Eastern Finland, Joensuu, Finland</dd>
-      </dl>
-      <dl class="author">
-         <dt>Laura Hirsto</dt>
-         <dd>School of Applied Educational Science and Teacher Education, University of Eastern Finland, Joensuu, Finland</dd>
-         <dd>School of Educational Sciences and Psychology, University of Eastern Finland, Joensuu, Finland</dd>
-         <dd>Department of Applied Physics, University of Eastern Finland, Kuopio, Finland</dd>
-         <dd>Faculty of Education, University of Oulu, Oulu, Finland</dd>
-         <dd>Education innovation and ICT research group, Windesheim University, Zwolle, the Netherlands</dd>
-         <dd>School of Educational Sciences and Psychology, University of Eastern Finland, Joensuu, Finland</dd>
-      </dl>
-      <dl class="author">
-         <dt>Jenni Kankaanpää</dt>
-         <dd>School of Educational Sciences and Psychology, University of Eastern Finland, Joensuu, Finland</dd>
-         <dd>Department of Applied Physics, University of Eastern Finland, Kuopio, Finland</dd>
-         <dd>Faculty of Education, University of Oulu, Oulu, Finland</dd>
-         <dd>Education innovation and ICT research group, Windesheim University, Zwolle, the Netherlands</dd>
-         <dd>School of Educational Sciences and Psychology, University of Eastern Finland, Joensuu, Finland</dd>
-      </dl>
-      <dl class="author">
-         <dt>Markku Saarelainen</dt>
-         <dd>Department of Applied Physics, University of Eastern Finland, Kuopio, Finland</dd>
-         <dd>Faculty of Education, University of Oulu, Oulu, Finland</dd>
-         <dd>Education innovation and ICT research group, Windesheim University, Zwolle, the Netherlands</dd>
-         <dd>School of Educational Sciences and Psychology, University of Eastern Finland, Joensuu, Finland</dd>
-      </dl>
-      <dl class="author">
-         <dt>Kati Mäkitalo</dt>
-         <dd>Faculty of Education, University of Oulu, Oulu, Finland</dd>
-         <dd>Education innovation and ICT research group, Windesheim University, Zwolle, the Netherlands</dd>
-         <dd>School of Educational Sciences and Psychology, University of Eastern Finland, Joensuu, Finland</dd>
-      </dl>
-      <dl class="author">
-         <dt>Anneke Smits</dt>
-         <dd>Education innovation and ICT research group, Windesheim University, Zwolle, the Netherlands</dd>
-         <dd>School of Educational Sciences and Psychology, University of Eastern Finland, Joensuu, Finland</dd>
-      </dl>
-      <dl class="author">
-         <dt>Jyri Manninen</dt>
-         <dd>School of Educational Sciences and Psychology, University of Eastern Finland, Joensuu, Finland</dd>
+         <dt>Letonsaari Mika, KarjalainenLeena, Selin Jukka</dt>
+         <dd>South-Eastern Finland</dd>
+         <dd>University of Applied Sciences</dd>
+         <dd>Email: <a href="mailto:mika.letonsaari@xamk.fi">mika.letonsaari@xamk.fi</a>
+         </dd>
       </dl>
       <h2>Abstract</h2>
-      <p class="abstract">The use of information and communication technology (ICT) is important in today’s higher education. ICT has a central role in the skill set students are expected to master during their studies. The fast development of technology poses both possibilities and challenges for teachers. This paper is part of a larger project aimed at implementing the flipped classroom (FC) model and supporting ICT integration in higher education. In this project, teachers receive systematic support for implementing the FC model. The aim of this paper is to investigate how students assess their teachers’ knowledge of pedagogy, content and technology before and after a course using the FC model. In total, 317 students responded to the pre-post-test surveys. The data were analyzed as a single group and separately for students in different year groups. Results indicate that there are statistically significant differences between the results of the pre- and post-tests. Students assess their teachers content-specific pedagogical skills and technological pedagogical skills in teaching their subject higher after the FC courses. Students also perceived their teachers as having more positive attitudes to using technology in teaching. It was found that the difference was more apparent in second-year and higher students. Students perceived FC positively in general. </p>
+      <p class="abstract">Nonlinear storytelling is a method in digital storytelling where the storyline is not linear but has branches. This is typical for interactive stories such as computer game plots. In this study we present a review of nonlinear storytelling tools and educational computer game development software. Special attention is paid to usability, software licensing models, and integration with modern game engines. We present a pilot study where nonlinear stories (n = 14) were collected during a game development project. Participants were adults with low information technology skills and who were participating in an information technology training course intended for enhancing their employment opportunities. Collected stories are analyzed to show an example of what kind of content can be expected when nonlinear storytelling is used. In particular some common errors and misconceptions in nonlinear storytelling are explored. Usability of the collected stories in the context of game development is examined. These observations and findings can be used to develop storytelling process more meaningful to students and to harness the nonlinear storytelling method more effectively in education and educational game development.</p>
       <dl class="keywords">
          <dt>Keywords:</dt>
-         <dd>Information and communication technology (ICT)</dd>
-         <dd>TPACK</dd>
-         <dd>Pedagogy</dd>
-         <dd>Student perception</dd>
-         <dd>Flipped classroom</dd>
+         <dd>digital storytelling</dd>
+         <dd>nonlinear storytelling</dd>
+         <dd>educational game</dd>
+         <dd>storytelling software</dd>
       </dl>
-      <h2>Teachers as users of ICT from the student perspective in higher education flipped classroom classes</h2>
-      <p>The role of information and communication technology (ICT) is highly emphasized in today’s higher education. ICT skills are seen as a central element in the 21st century skill set that students are expected to master (Voog &amp; Roblin, 2012). The development of different technologies is fast. Annual Horizon reports (Horizon reports, 2017) (see Table 1) show several emerging technologies with different pedagogical approaches (e.g. Adams Becker et al., 2017). Current trends focus on areas such as bring your own device (BYOD), flipped classroom (FC), robotics and artificial intelligence.</p>
-      <p>The rapid development of technologies offers new possibilities and challenges for teaching and learning in institutions of higher education. One of these challenges is teachers’ competence in using developing technologies. The aim of this paper is to investigate how university students perceive their teachers as users of technology and how they perceive a technologically supported learning environment such as the flipped classroom.</p>
-      <table class="TableGrid">
-         <caption>
-            <p>
-               <strong>Table 1.</strong> Different technologies in Horizon reports</p>
-         </caption>
-         <thead>
-            <tr>
-               <th>
-                  <p/>
-               </th>
-               <th class="left">
-                  <p>2013</p>
-               </th>
-               <th class="left">
-                  <p>2014</p>
-               </th>
-               <th class="left">
-                  <p>2015</p>
-               </th>
-               <th class="left">
-                  <p>2016</p>
-               </th>
-               <th class="left">
-                  <p>2017</p>
-               </th>
-               <th class="left">
-                  <p>2018</p>
-               </th>
-               <th class="left">
-                  <p>2019</p>
-               </th>
-               <th class="left">
-                  <p>2020</p>
-               </th>
-               <th class="left">
-                  <p>2021</p>
-               </th>
-               <th class="left">
-                  <p>2022</p>
-               </th>
-            </tr>
-         </thead>
-         <tbody>
-            <tr>
-               <th class="left" rowspan="2">
-                  <p>2013</p>
-               </th>
-               <td colspan="2">
-                  <p>MOOC</p>
-               </td>
-               <td colspan="2">
-                  <p>Games and Gamification</p>
-               </td>
-               <td colspan="2">
-                  <p>3D Printing</p>
-               </td>
-               <td colspan="4">
-                  <p/>
-               </td>
-            </tr>
-            <tr class="center">
-               <td colspan="2">
-                  <p>Tablet Computing</p>
-               </td>
-               <td colspan="2">
-                  <p>Learning Analytics</p>
-               </td>
-               <td colspan="2">
-                  <p>Wearable Technology</p>
-               </td>
-               <td colspan="4">
-                  <p/>
-               </td>
-            </tr>
-            <tr>
-               <th class="left" rowspan="2">
-                  <p>2014</p>
-               </th>
-               <td>
-                  <p/>
-               </td>
-               <td colspan="2">
-                  <p>Flipped Classroom</p>
-               </td>
-               <td colspan="2">
-                  <p>3D Printing</p>
-               </td>
-               <td colspan="2">
-                  <p>Quantified Self</p>
-               </td>
-               <td colspan="3">
-                  <p/>
-               </td>
-            </tr>
-            <tr class="center">
-               <td>
-                  <p/>
-               </td>
-               <td colspan="2">
-                  <p>Learning Analytics</p>
-               </td>
-               <td colspan="2">
-                  <p>Games and Gamification</p>
-               </td>
-               <td colspan="2">
-                  <p>Virtual Assistants</p>
-               </td>
-               <td colspan="3">
-                  <p/>
-               </td>
-            </tr>
-            <tr>
-               <th class="left" rowspan="2">
-                  <p>2015</p>
-               </th>
-               <td colspan="2">
-                  <p/>
-               </td>
-               <td colspan="2">
-                  <p>BYOD</p>
-               </td>
-               <td colspan="2">
-                  <p>Makerspaces</p>
-               </td>
-               <td colspan="2">
-                  <p>The Internet of Things</p>
-               </td>
-               <td colspan="2">
-                  <p/>
-               </td>
-            </tr>
-            <tr class="center">
-               <td colspan="2">
-                  <p/>
-               </td>
-               <td colspan="2">
-                  <p>Flipped Classroom</p>
-               </td>
-               <td colspan="2">
-                  <p>Wearable Technology</p>
-               </td>
-               <td colspan="2">
-                  <p>Adaptive Learning Technologies</p>
-               </td>
-               <td colspan="2">
-                  <p/>
-               </td>
-            </tr>
-            <tr>
-               <th class="left" rowspan="2">
-                  <p>2016</p>
-               </th>
-               <td colspan="3">
-                  <p/>
-               </td>
-               <td colspan="2">
-                  <p>BYOD</p>
-               </td>
-               <td colspan="2">
-                  <p>Augmented and Virtual Reality</p>
-               </td>
-               <td colspan="2">
-                  <p>Affective Computing</p>
-               </td>
-               <td>
-                  <p/>
-               </td>
-            </tr>
-            <tr class="center">
-               <td colspan="3">
-                  <p/>
-               </td>
-               <td colspan="2">
-                  <p>Learning Analytics and Adaptive Learning</p>
-               </td>
-               <td colspan="2">
-                  <p>Makerspaces</p>
-               </td>
-               <td colspan="2">
-                  <p>Robotics</p>
-               </td>
-               <td>
-                  <p/>
-               </td>
-            </tr>
-            <tr>
-               <th class="left" rowspan="2">
-                  <p>2017</p>
-               </th>
-               <td colspan="4">
-                  <p/>
-               </td>
-               <td colspan="2">
-                  <p>Adaptive Learning Technologies</p>
-               </td>
-               <td colspan="2">
-                  <p>The Internet of Things</p>
-               </td>
-               <td colspan="2">
-                  <p>Artificial Intelligence</p>
-               </td>
-            </tr>
-            <tr class="center">
-               <td colspan="4">
-                  <p/>
-               </td>
-               <td colspan="2">
-                  <p>Mobile Learning</p>
-               </td>
-               <td colspan="2">
-                  <p>Next-Generation LMS</p>
-               </td>
-               <td colspan="2">
-                  <p>Natural User Interfaces</p>
-               </td>
-            </tr>
-         </tbody>
-      </table>
-      <p>Previous studies have identified several factors that affect the integration of ICT in teaching and learning. Brinkerhoff (2006) outlines factors such as administrative and institutional support, the availability of resources, training and experience and attitudes to change. Ertmer (1999; 2005) defines so-called first- and second-order barriers that affect ICT integration. First-order barriers are factors such as support, time resources, training and technical skills. Second-order barriers are more personal factors such as pedagogical beliefs, i.e. how teachers perceive the nature of learning. Harris (2005) notes a demand for a shared vision for ICT integration in teaching. According to the widely adopted Technological Pedagogical Content Knowledge (TPACK) model developed by Mishra and Koehler (2006), the skilled use of ICT in education requires that teachers integrate their Pedagogical Knowledge (PK), Content Knowledge (CK) and Technological Knowledge (TK) in a way that these three areas support each other. According to Koehler et al., (2013, p. 16) TPACK is: “an understanding that emerges from interactions among content, pedagogy, and technology knowledge […] knowledge underlying truly meaningful and deeply skilled teaching with technology.”</p>
-      <p>Based on the Theory of Planned Behavior by Ajzen (1991), behavioral intentions, in this case the intention to use ICT in education, are affected by attitudes to the behavior, subjective norms (i.e. expectations of important others) and perceived behavioral control (i.e. factors such as the availability of necessary resources and skills). Teo and Tan (2012) have found that attitudes are the most important factor affecting the use of ICT in education. These studies indicate that there are many factors affecting the use of ICT in education, factors that depend on the university and factors that depend on teachers. One important aspect is the extent of the change, i.e. how large change is pursued to integrate ICT to teaching. According to Zhao, Pugh, Sheldon and Bryers (2002), instead of taking a revolutionary approach (very large) in change with ICT, teachers should take evolutionary approach (small) in change with ICT. More precisely, teachers are more likely to experience less frustration and more success with progressive steps that are smaller (Zhao et al., 2002)</p>
-      <p>One possible way to foster change is to implement the flipped classroom (FC) teaching method. This study focuses on the results of a large-scale project in higher education, focusing on changing pedagogical practices and integrating ICT through implementing FC. FC has emerged as an innovative solution for emphasizing student-centered learning (Baepler et al., 2014; Chen et al., 2017; Chen et al., 2014; Lage et al., 2000). Compared to lecture-based teaching, emphasizing frontal lectures with students taking notes and studying post-class materials alone, FC inverts this design. Lectures are replaced with materials, typically online videos, that are distributed and studied before class meetings through digital platforms. The face-to-face time in the class meeting is used to practice the content together and to concentrate on complex issues through student-centered learning approaches (Chen et al., 2014; Lage et al., 2000).</p>
-      <p>The FC model is well justified considering factors that affect ICT integration and change in general. When considering traditional lectures from the perspective of the TPACK framework, a strong emphasis is on content knowledge. The teacher disseminates his or her expertise to the students, and only a limited amount of interaction takes place. In the FC model, lectures are replaced with videos that the students watch prior to class. This replacement of the lecture challenges the pedagogical knowledge of the teacher. There is no reason to lecture anymore, and the teacher needs to rethink how to scaffold the lesson and support students working with challenging topics.</p>
-      <p>From the perspective of ICT in education, we value this emphasis on pedagogy. This is in line with Watson’s (2001) “Pedagogy Before Technology”, which suggests the importance of starting with the design of pedagogical practices that can then be supported with technology. Similarly, Ertmer (2005) refers to the importance of pedagogical beliefs in ICT integration. In accordance with Watson (2001) and Ertmer (2005), we assume that the greatest added value that technology can provide to teaching and learning is in practices that emphasize student collaboration and taking an active role. For this reason, we consider FC to be a way to develop teaching and learning practices toward more student-centered ones and a suitable way to support ICT integration. When considering the extent of the change (Zhao et al., 2002) we find the FC model optimal. The FC model incorporates the role of the teacher as a content expert, i.e. the teacher defines and creates the pre-materials, in this case video clips for students to be used before class meetings. From this perspective, the change is small, however, the direction is toward a more student-centered teaching approach</p>
-      <p>As to the other factors listed above, concerning the success of ICT integration and change in general, this project is based on a shared vision (see Harris, 2005) among the teachers and trainers of the model. More precisely, FC model was agreed upon as a way to develop teaching and learning and to support ICT integration. Moreover, in line with factors suggested by Brinkerhoff (2006), the process has strong administrative support within our institution. The participating teachers were provided with resources and time for developing their courses as well as training and collaborative support. Since fall 2016, over 100 teachers have participated voluntarily in re-designing their courses. This high number is indicative of a generally positive attitude to the development. This group of teachers was supported by researchers and experts in ICT and pedagogy, who provide the teachers with help and support when needed.</p>
-      <p>The technological support aspects of the FC training are presented in Figure 1+(Sointu &amp;Valtonen, 2015). First, videos are recorded with the screen capture option on teachers’ own devices. Screen capturing allows teachers to use a variety of programs and software. Second, the videos are transferred to a media server that allowed for simple video editing. Third, the media server allows easy uploading, embedding and sharing of the videos for the students as part of the digital learning environments or web pages.</p>
-      <p/>
-      <figure>
-         <img src="figure.png"/>
-         <figcaption>
-            <p>
-               <strong>Figure 1.</strong> Technological support for creating flipped classroom video materials (adapted from Sointu &amp;Valtonen, 2015). </p>
-            <p>
-               <strong>Figure 2.</strong> Percentages of student perceptions of the FC method</p>
-         </figcaption>
-      </figure>
-      <p>The teachers participated in a one-year program to adapt their teaching and to flip one of their courses. Teachers were supported in the use of ICT as suggested by (Sointu &amp;Valtonen, 2015). The support was in the form of tutorial videos on how to use ICT in pedagogically meaningful ways, which allowed teachers to learn in their own time. Practical hands-on support for the use of ICT was provided as needed. However, the technical perspective was not the only support for teachers. We recognized the importance to integrate pedagogy, content and technology as suggested in the TPACK framework. Therefore, four other kinds of support were put in place. First, practical hands-on support for flipping the course was provided individually and in large groups. One expert met with all teachers to start the process of change. Second, workshops were arranged, and the teachers had the opportunity to learn about the pedagogical aspects of FC and discuss and share ideas collaboratively. Thus, support was also provided for planning pedagogical practices for face-to-face periods. Third, self-study materials were provided for the teachers. Finally, teachers were allowed to take time to flip their course, and this development was supported institutionally.</p>
-      <p>According to Shih and Chuang (2013), it is important to understand student perceptions of their teachers’ TPACK when developing teaching and learning practices. In line with this, the purpose of this study was to investigate the effects of the FC integration from two perspectives. (1) How the FC courses affected the ways the students assessed teachers’ content knowledge (CK), combined content and pedagogical knowledge (PCK), combined content, pedagogical and technological knowledge (TPACK) (Koehler, Mishra and Cain, 2013), attitudes to use ICT in teaching (Teo see Tan, 2012) and (2) how students perceived FC and the type of future preferences they had regarding FC.</p>
-      <h2>Methods</h2>
-      <h3>Participants and Procedures </h3>
-      <p>The sample included 317 higher education students (<em>N</em>
-         <sub>female</sub>
-         <sub/>= 227, 71.6%; <em>N</em>
-         <sub>male</sub>
-         <sub/>= 90, 28.6%) from 16 different courses from University of Eastern Finland (UEF) during the academic year 2016-2017. Students participated in courses taught by teachers who had participated in the UEF Flipped Classroom (FC) development work. The courses took place during one period of the academic year (i.e. they lasted for around eight weeks maximum). From the student convenience sample, 43.8% (<em>N</em> = 139) were first-year students. Participation in the study was voluntary for both teachers and students. Informed consent was obtained from each individual student. The response rate in the different courses varied from 25 % to 75 % of the enrolled students. The research design was a quasi-experimental pre-post-test design without a control group (Sadish, Cook, Campbell 2002). Students responded to an electronic survey at the start of the course (pre-test, T1) and at the end of the course (post-test, T2).</p>
-      <h3>Measures</h3>
-      <p>Two surveys were used: (1) Technological Pedagogical Content Knowledge for 21<sup>st</sup> century skills (TPACK-21; Valtonen et al, 2015a, 2017) and (2) Theory of Planned Behavior for Information and Communication Technology for education (TPB-ICT; Sointu et al., 2017; Valtonen et al., 2015b). Both measures originally measure teachers’ perceptions of their TPACK-21 and TPB-ICT in education and have demonstrated adequate psychometric properties. However, the measures were adapted to reflect student perceptions of their teachers’ skills and attitudes. To this end we used only parts of the above-mentioned instruments.</p>
-      <p>From the TPACK-21, we used the Content Knowledge (CK) scale, the Pedagogical Content Knowledge (PCK) scale and the Technological Pedagogical Content Knowledge (TPACK) scale. CK reflects student perceptions of teachers’ content expertise. PCK reflects student perceptions of teachers’ skills in teaching their content area. TPACK reflects student perceptions of teachers’ skills in integrating technology, pedagogy and content in teaching. From the TPB-ICT measure, attitudes for using technology in teaching (ATT) scale was used. ATT reflects student perceptions of teachers’ attitudes to using technology in teaching. Students responded with six-point Likert-type scale (1 = Totally disagree – 6 = Totally agree) to statements such as <em>My teachers are experts in their field</em> (CK), <em>My teacher uses versatile teaching methods in order make study content easily comprehensible</em> (PCK),<em> My teachers are able to use teaching methods and technology for dealing with the content area </em>(TPACK) and, <em>My teachers demonstrate interest in using technology in their teaching </em>(ATT)<em>.</em>
-      </p>
-      <p>We also investigated student perceptions of the flipped classroom using three direct statements. Students responded with four categories (1 = very well, 2 = well, 3 = not so well, 4 = not at all) to the statement <em>The</em>
-         <em> method with pre-materials and contact meetings suited me</em>. Students responded with four response categories (1 = definitely yes, 2 = yes, quite surely, 3 = not so surely, 4 = no way) to the second statement <em>In</em>
-         <em> the future, I would like to study in similarly arranged courses</em>. Students responded with “yes” or “no” to the third statement <em>I would prefer to study in traditional lectures rather than in a course using this type of approach (flipped classroom)</em>.</p>
-      <h3>Data Analysis</h3>
-      <p>The items of TPACK-21 and TPB-ICT measures were combined into composite scores. Each composite score’s internal consistency was assessed with Cronbach’s alpha (α) for both pre-test (T1) and post-test (T2) measurement points. We considered an alpha level of 0.7 or higher to indicate the adequate reliability of a composite scale (Nunnally 1978). Descriptive statistics (Mean [<em>M</em>] and Standard deviation [<em>SD</em>]) were calculated for each of the composite scores. Additionally, percentages of the perceptions of flipped classroom teaching were calculated for the three individual items. Paired sample <em>t</em>-tests were used to compare the differences between the two measurement points to investigate the differences of the studied area between T1-T2 measurement points. We also calculated Pearson correlations between the T1-T2 measurement points for composite scores. In addition, we investigated the differences between two groups: (1) first-year students and (2) second-year students and beyond. Cohen’s <em>d</em> was calculated estimating the effect size between the two measurement points (Morris &amp; DeShon, 2008). Based on Hattie’s (2009) interpretation of Cohen’s <em>d </em>in educational settings, <em>d</em> &lt; 0.1 indicates developmental effects, <em>d</em> = 0.2–0.3 indicates teacher effects and <em>d</em> &gt; 0.4 indicates a zone of desired effects (see also Lenhard &amp; Lenhard, 2016).</p>
-      <h3>Results</h3>
-      <p>Table 1 presents means (<em>M</em>), standard deviations (<em>SD</em>), internal consistency (α), Pearson correlations (<em>r</em>), paired t-test results (<em>t</em>) and Cohen’s-d (<em>d</em>) for student perceptions of teachers’ Content Knowledge (CK), Pedagogical Content Knowledge (PCK), Technological Pedagogical Content Knowledge (TPACK), and attitudes to using technology in teaching (ATT). All composite scores met the criteria for adequate internal consistency.</p>
-      <p/>
-      <table>
-         <thead>
-            <tr>
-               <th colspan="14">
-                  <p styleId="TableCaption0" styleName="[Table Caption]">
-                     <strong>Table 2.</strong> Student perceptions of teachers CK, PCK, TPACK and ATT </p>
-               </th>
-            </tr>
-         </thead>
-         <tbody>
-            <tr>
-               <td>
-                  <p/>
-               </td>
-               <td>
-                  <p/>
-               </td>
-               <th class="left" colspan="3">
-                  <p>Pre-test (T1)</p>
-               </th>
-               <th>
-                  <p/>
-               </th>
-               <th class="left" colspan="3">
-                  <p>Post-test (T2)</p>
-               </th>
-               <th>
-                  <p/>
-               </th>
-               <th class="left" colspan="4">
-                  <p>T1-T2</p>
-               </th>
-            </tr>
-            <tr>
-               <td>
-                  <p/>
-               </td>
-               <td>
-                  <p/>
-               </td>
-               <th class="left">
-                  <p>M</p>
-               </th>
-               <th class="left">
-                  <p>(SD)</p>
-               </th>
-               <th class="left">
-                  <p>α</p>
-               </th>
-               <th>
-                  <p/>
-               </th>
-               <th class="left">
-                  <p>M</p>
-               </th>
-               <th class="left">
-                  <p>(SD)</p>
-               </th>
-               <th class="left">
-                  <p>α</p>
-               </th>
-               <th>
-                  <p/>
-               </th>
-               <th class="left">
-                  <p>r</p>
-               </th>
-               <th class="left">
-                  <p>t</p>
-               </th>
-               <th class="left">
-                  <p>p</p>
-               </th>
-               <th class="left">
-                  <p>d</p>
-               </th>
-            </tr>
-            <tr>
-               <th class="left">
-                  <p>CK</p>
-               </th>
-               <td>
-                  <p/>
-               </td>
-               <td>
-                  <p>4.89</p>
-               </td>
-               <td>
-                  <p>(0.71)</p>
-               </td>
-               <td>
-                  <p>0.81</p>
-               </td>
-               <td>
-                  <p/>
-               </td>
-               <td>
-                  <p>4.93</p>
-               </td>
-               <td>
-                  <p>(0.71)</p>
-               </td>
-               <td>
-                  <p>0.84</p>
-               </td>
-               <td>
-                  <p/>
-               </td>
-               <td>
-                  <p>0.54</p>
-               </td>
-               <td>
-                  <p>n.s.</p>
-               </td>
-               <td>
-                  <p>n.s.</p>
-               </td>
-               <td>
-                  <p>n.s.</p>
-               </td>
-            </tr>
-            <tr>
-               <th class="left">
-                  <p>PCK</p>
-               </th>
-               <td>
-                  <p/>
-               </td>
-               <td>
-                  <p>4.02</p>
-               </td>
-               <td>
-                  <p>(0.91)</p>
-               </td>
-               <td>
-                  <p>0.85</p>
-               </td>
-               <td>
-                  <p/>
-               </td>
-               <td>
-                  <p>4.20</p>
-               </td>
-               <td>
-                  <p>(0.96)</p>
-               </td>
-               <td>
-                  <p>0.85</p>
-               </td>
-               <td>
-                  <p/>
-               </td>
-               <td>
-                  <p>0.45</p>
-               </td>
-               <td>
-                  <p>3.28</p>
-               </td>
-               <td>
-                  <p>0.00</p>
-               </td>
-               <td>
-                  <p>0.21</p>
-               </td>
-            </tr>
-            <tr>
-               <th class="left">
-                  <p>TPACK</p>
-               </th>
-               <td>
-                  <p/>
-               </td>
-               <td>
-                  <p>4.05</p>
-               </td>
-               <td>
-                  <p>(0.89)</p>
-               </td>
-               <td>
-                  <p>0.86</p>
-               </td>
-               <td>
-                  <p/>
-               </td>
-               <td>
-                  <p>4.20</p>
-               </td>
-               <td>
-                  <p>(0.98)</p>
-               </td>
-               <td>
-                  <p>0.90</p>
-               </td>
-               <td>
-                  <p/>
-               </td>
-               <td>
-                  <p>0.49</p>
-               </td>
-               <td>
-                  <p>2.77</p>
-               </td>
-               <td>
-                  <p>0.01</p>
-               </td>
-               <td>
-                  <p>0.18</p>
-               </td>
-            </tr>
-            <tr>
-               <th class="left">
-                  <p>ATT</p>
-               </th>
-               <td>
-                  <p/>
-               </td>
-               <td>
-                  <p>4.28</p>
-               </td>
-               <td>
-                  <p>(0.88)</p>
-               </td>
-               <td>
-                  <p>0.90</p>
-               </td>
-               <td>
-                  <p/>
-               </td>
-               <td>
-                  <p>4.43</p>
-               </td>
-               <td>
-                  <p>(0.95)</p>
-               </td>
-               <td>
-                  <p>0.91</p>
-               </td>
-               <td>
-                  <p/>
-               </td>
-               <td>
-                  <p>0.55</p>
-               </td>
-               <td>
-                  <p>3.01</p>
-               </td>
-               <td>
-                  <p>0.00</p>
-               </td>
-               <td>
-                  <p>0.18</p>
-               </td>
-            </tr>
-            <tr class="center">
-               <td colspan="14">
-                  <p styleId="seminar-endnotes" styleName="seminar - endnotes">
-                     <em>Note</em>. CK Content Knowledge, PCK Pedagogical Content Knowledge, TPACK Technological Pedagogical Content Knowledge, ATT Attitudes for using technology in teaching, M Mean, SD Standard deviation, α Cronbach alpha, r Pearson’s correlation, t t-value, p significance, d Cohen’s d and n.s. non-significant.</p>
-               </td>
-            </tr>
-         </tbody>
-      </table>
-      <p/>
-      <p>Significant differences between pre-test (T1) and post-test (T2) measurement points were found in the paired sample <em>t</em>-tests for PCK: <em>t</em>(316) = 3.28, <em>p</em> = .00, TPACK: <em>t</em>(316) = 2.77, <em>p</em> = .01, and ATT: <em>t</em>(316) = 3.01, <em>p</em> = .00. Students assessed their teachers PCK, TPACK and ATT higher at the end of the course than at the beginning of the course. The effect size between the two measurements points (i.e. taking the correlation into account) was developmental in TPACK and ATT (<em>d</em> = 0.18), and in the teacher’s effect zone in PCK (<em>d</em> = 0.21) according to Hattie’s (2007) Cohen’s <em>d</em> criteria. There were non-significant differences in the CK scale. However, the CK scale scores were higher (<em>M</em>
-         <sub>T1</sub>
-         <em> =</em> 4.89 [<em>SD</em>
-         <sub>T1</sub> = 0.71]; <em>M</em>
-         <sub>T2</sub>
-         <em> =</em> 4.93 [<em>SD</em>
-         <sub>T2</sub> = 0.84])<em/>than the other areas (PCK, TPACK, ATT), which indicates that students perceive their teachers as content specialists.</p>
-      <p>Table 2 presents the same indicators as Table 1, however separately for first-year students and second-year and higher students. The first-year student perceptions of their teachers’ CK, PCK, TPACK or ATT indicate that they did not perceive differences in their teachers’ knowledge in the measured areas. However, second-year and higher students showed statistically significant higher scores in all measures at T2 compared to T1. The paired sample <em>t</em>-tests showed significant differences between T1 and T2 measurement points in CK: <em>t</em>(176) = 3.01 <em>p</em> = .01, PCK: <em>t</em>(176) = 4.15, <em>p</em> = .00, TPACK: <em>t</em>(316) = 3.23, <em>p</em> = .01, and ATT: <em>t</em>(176) = 4.70, <em>p</em> = .00. According to Hattie’s (2007) Cohen’s <em>d</em> criteria, the effect sizes between two measurements points were in the teachers’ effect zone for CK, PCK, TPACK and ATT. </p>
-      <table>
-         <caption>
-            <p>Table 3. Table caption.</p>
-         </caption>
-         <thead>
-            <tr>
-               <th>
-                  <p/>
-               </th>
-               <th>
-                  <p/>
-               </th>
-               <th class="center" colspan="2">
-                  <p>Pre-test (T1)</p>
-               </th>
-               <th class="center">
-                  <p/>
-               </th>
-               <th class="center" colspan="2">
-                  <p>Post-test (T2)</p>
-               </th>
-               <th class="center">
-                  <p/>
-               </th>
-               <th class="center" colspan="4">
-                  <p>T1-T2</p>
-               </th>
-            </tr>
-            <tr class="left-center">
-               <th colspan="2">
-                  <p>First year students</p>
-               </th>
-               <th>
-                  <p>M</p>
-               </th>
-               <th>
-                  <p>(SD)</p>
-               </th>
-               <th>
-                  <p/>
-               </th>
-               <th>
-                  <p>M</p>
-               </th>
-               <th>
-                  <p>(SD)</p>
-               </th>
-               <th>
-                  <p/>
-               </th>
-               <th>
-                  <p>r</p>
-               </th>
-               <th>
-                  <p>t</p>
-               </th>
-               <th>
-                  <p>p</p>
-               </th>
-               <th>
-                  <p>d</p>
-               </th>
-            </tr>
-         </thead>
-         <tbody>
-            <tr>
-               <th>
-                  <p/>
-               </th>
-               <th class="left">
-                  <p>CK</p>
-               </th>
-               <td>
-                  <p>4.99</p>
-               </td>
-               <td>
-                  <p>(0.66)</p>
-               </td>
-               <td>
-                  <p/>
-               </td>
-               <td>
-                  <p>4.89</p>
-               </td>
-               <td>
-                  <p>(0.79)</p>
-               </td>
-               <td>
-                  <p/>
-               </td>
-               <td>
-                  <p>0.51</p>
-               </td>
-               <td>
-                  <p>n.s.</p>
-               </td>
-               <td>
-                  <p>n.s.</p>
-               </td>
-               <td>
-                  <p>n.s.</p>
-               </td>
-            </tr>
-            <tr>
-               <th>
-                  <p/>
-               </th>
-               <th class="left">
-                  <p>PCK</p>
-               </th>
-               <td>
-                  <p>4.21</p>
-               </td>
-               <td>
-                  <p>(0.89)</p>
-               </td>
-               <td>
-                  <p/>
-               </td>
-               <td>
-                  <p>4.26</p>
-               </td>
-               <td>
-                  <p>(0.97)</p>
-               </td>
-               <td>
-                  <p/>
-               </td>
-               <td>
-                  <p>0.36</p>
-               </td>
-               <td>
-                  <p>n.s.</p>
-               </td>
-               <td>
-                  <p>n.s.</p>
-               </td>
-               <td>
-                  <p>n.s.</p>
-               </td>
-            </tr>
-            <tr>
-               <th>
-                  <p/>
-               </th>
-               <th class="left">
-                  <p>TPACK</p>
-               </th>
-               <td>
-                  <p>4.23</p>
-               </td>
-               <td>
-                  <p>(0.86)</p>
-               </td>
-               <td>
-                  <p/>
-               </td>
-               <td>
-                  <p>4.30</p>
-               </td>
-               <td>
-                  <p>(1.00)</p>
-               </td>
-               <td>
-                  <p/>
-               </td>
-               <td>
-                  <p>0.37</p>
-               </td>
-               <td>
-                  <p>n.s.</p>
-               </td>
-               <td>
-                  <p>n.s.</p>
-               </td>
-               <td>
-                  <p>n.s.</p>
-               </td>
-            </tr>
-            <tr>
-               <th>
-                  <p/>
-               </th>
-               <th class="left">
-                  <p>ATT</p>
-               </th>
-               <td>
-                  <p>4.54</p>
-               </td>
-               <td>
-                  <p>(0.85)</p>
-               </td>
-               <td>
-                  <p/>
-               </td>
-               <td>
-                  <p>4.54</p>
-               </td>
-               <td>
-                  <p>(0.98)</p>
-               </td>
-               <td>
-                  <p/>
-               </td>
-               <td>
-                  <p>0.42</p>
-               </td>
-               <td>
-                  <p>n.s.</p>
-               </td>
-               <td>
-                  <p>n.s.</p>
-               </td>
-               <td>
-                  <p>n.s.</p>
-               </td>
-            </tr>
-            <tr>
-               <th class="left" colspan="2">
-                  <p>Second-year and higher students </p>
-               </th>
-               <td>
-                  <p/>
-               </td>
-               <td>
-                  <p/>
-               </td>
-               <td>
-                  <p/>
-               </td>
-               <td>
-                  <p/>
-               </td>
-               <td>
-                  <p/>
-               </td>
-               <td>
-                  <p/>
-               </td>
-               <td>
-                  <p/>
-               </td>
-               <td>
-                  <p/>
-               </td>
-               <td>
-                  <p/>
-               </td>
-               <td>
-                  <p/>
-               </td>
-            </tr>
-            <tr>
-               <th>
-                  <p/>
-               </th>
-               <th class="left">
-                  <p>CK</p>
-               </th>
-               <td>
-                  <p>4.81</p>
-               </td>
-               <td>
-                  <p>(0.74)</p>
-               </td>
-               <td>
-                  <p/>
-               </td>
-               <td>
-                  <p>4.95</p>
-               </td>
-               <td>
-                  <p>(0.64)</p>
-               </td>
-               <td>
-                  <p/>
-               </td>
-               <td>
-                  <p>0.59</p>
-               </td>
-               <td>
-                  <p>3.01</p>
-               </td>
-               <td>
-                  <p>0.01</p>
-               </td>
-               <td>
-                  <p>0.20</p>
-               </td>
-            </tr>
-            <tr>
-               <th>
-                  <p/>
-               </th>
-               <th class="left">
-                  <p>PCK</p>
-               </th>
-               <td>
-                  <p>3.87</p>
-               </td>
-               <td>
-                  <p>(0.90)</p>
-               </td>
-               <td>
-                  <p/>
-               </td>
-               <td>
-                  <p>4.15</p>
-               </td>
-               <td>
-                  <p>(0.95)</p>
-               </td>
-               <td>
-                  <p/>
-               </td>
-               <td>
-                  <p>0.52</p>
-               </td>
-               <td>
-                  <p>4.15</p>
-               </td>
-               <td>
-                  <p>0.00</p>
-               </td>
-               <td>
-                  <p>0.32</p>
-               </td>
-            </tr>
-            <tr>
-               <th>
-                  <p/>
-               </th>
-               <th class="left">
-                  <p>TPACK</p>
-               </th>
-               <td>
-                  <p>3.91</p>
-               </td>
-               <td>
-                  <p>(0.89)</p>
-               </td>
-               <td>
-                  <p/>
-               </td>
-               <td>
-                  <p>4.12</p>
-               </td>
-               <td>
-                  <p>(0.97)</p>
-               </td>
-               <td>
-                  <p/>
-               </td>
-               <td>
-                  <p>0.58</p>
-               </td>
-               <td>
-                  <p>3.23</p>
-               </td>
-               <td>
-                  <p>0.01</p>
-               </td>
-               <td>
-                  <p>0.25</p>
-               </td>
-            </tr>
-            <tr>
-               <th>
-                  <p/>
-               </th>
-               <th class="left">
-                  <p>ATT</p>
-               </th>
-               <td>
-                  <p>4.08</p>
-               </td>
-               <td>
-                  <p>(0.88)</p>
-               </td>
-               <td>
-                  <p/>
-               </td>
-               <td>
-                  <p>4.34</p>
-               </td>
-               <td>
-                  <p>(0.91)</p>
-               </td>
-               <td>
-                  <p/>
-               </td>
-               <td>
-                  <p>0.65</p>
-               </td>
-               <td>
-                  <p>4.70</p>
-               </td>
-               <td>
-                  <p>0.00</p>
-               </td>
-               <td>
-                  <p>0.31</p>
-               </td>
-            </tr>
-         </tbody>
-      </table>
-      <p>Figure 2 presents how the students perceived the FC method. 88.1% of the students considered the FC method with pre-materials and contact meetings as well-suited to them. 78.5% of the students indicated that they would like to participate in similarly arranged courses in the future. Almost two-thirds of the students (70.1%) stated that they would prefer to study using the FC method rather than in more traditional lectures.</p>
+      <h2>Introduction</h2>
+      <p>Storytelling has become a very popular method of education. In storytelling, the learner creates or tells a story that is related to the subject matter. Learner’s personal point of view connects the subject matter to a larger context. Storytelling as a learning method has many positive cognitive, social, and emotional benefits including improvement in language skills, concentration, imagination, comprehension, and critical thinking (Boltman 2001, pp. 17-18).</p>
+      <p>Due to the arrival of computers in school classrooms, digital storytelling has become a widely used and studied form of educational storytelling. Digital storytelling, sometimes called multimedia storytelling, is storytelling using methods of digital multimedia such as images, sound, and video. Often computers are used to compose the story. Digital storytelling is a method to learn digital information processing and multimedia production using modern digital tools. It also provides engagement to the learning process and encourages students in multimedia literacy (Viitanen et al. 2014, Çıralı et al. 2015).<br/>Most of the educational storytelling, including digital storytelling, is linear in structure. Stories present only one predetermined sequence of events. The reader of the story has no control of the story. An example of such a story is presented in Figure 1.</p>
       <figure>
          <img src="figure-1.jpg"
-              alt="Statements and response rates.&#xA;Statement: The method with pre-materials and contact meetings suited me.&#xA;31.8% responded &#34;Very well&#34;&#xA;56.3% responded &#34;Well&#34;&#xA;10% responded &#34;Not so well&#34;&#xA;1.9% responed &#34;Not at all&#34;&#xA;&#xA;Statement: In the future, I would like to study in similarly arranged courses.&#xA;28.8% responded &#34;Very well&#34;&#xA;49.7% responded &#34;Well&#34;&#xA;19% responded &#34;Not so well&#34;&#xA;2.5% responed &#34;Not at all&#34;&#xA;&#xA;Statement: I would prefer to study in traditional lectures.&#xA;70.1% responded &#34;No&#34;&#xA;29.9% responed &#34;Yes&#34;"/>
+              alt="1. You see a monster, you can attack the monster.&#xA;2. You Attack the monster, you can ues magic sword.&#xA;3. You use magic sword, the monster is defeated.&#xA;4. Monster is defeated."/>
          <figcaption>
-            <p>
-               <strong>Figure 2.</strong> Percentages of student perceptions of the FC method</p>
+            <p>Figure 1. A story with a linear structure.</p>
+            <p>Figure 2. A gamified story with nonlinear structure.</p>
+            <p>Figure 3. Twine flowchart with five passages and one branching.</p>
+            <p>Figure 4. Story structure control mechanisms for RenPy visual novel engine. Menu item gives options to the player. The Jump attribute moves to the given label in the storyline. This example is taken from RenPy website renpy.org.</p>
+            <p>Figure 5. An example of branching in Ink scripting language.</p>
+            <p>Figure 6. An example view of Fungus user interface inside Unity 3d environment.</p>
+            <p>Figure 7. The Scene view of Alice storytelling tool.</p>
+            <p>Figure 8. Visual presentation of the collected stories in Twine.</p>
+            <p>Figure 9. A more detailed view of two stories in Figure 8. Two extra passages on the lower right corner are omitted from the latter story. </p>
+            <p>Figure 10. The number of passages and the number of links between passages in collected stories.</p>
+            <p>Figure 11. An example of a story with only one passage. The student has not understood the idea of nonlinear and hyperlinks properly but has written the dialog in a traditional format. The text has been translated into English from the original Finnish language used in the project.</p>
+            <p>Figure 12. An example of a part of a story where the concepts of link text and link target were not fully understood and this has caused a problem with the story structure. There are several questions to the player with Yes and No answers and automatically incorrectly generated hyperlinks cause an illogical structure. The text has been translated into English from the original Finnish language used in the project.</p>
          </figcaption>
       </figure>
-      <h2>Discussion</h2>
-      <p>The purpose of this study was to investigate how students in higher education flipped classroom (FC) courses assess teacher content knowledge (CK), pedagogical content knowledge (PCK) and technological pedagogical content knowledge (TPACK) and attitudes to ICT in teaching (ATT), before and after the course. This comparison was done for the whole data set and for two groups: (1) first-year students and (2) second-year and higher students. We also investigated how students perceived FC method and what preferences for the future they had regarding the FC method. A comparison of the data as one group showed that the students assessed their teachers’ PCK, TPACK and ATT higher after the FC course. No difference was found in CK. After splitting the data into two groups, the results for the first-year students did not show statistically significant differences for CK, PCK, TPACK or ATT at T1 and T2. However, second-year and higher students assessed their teachers’ skill higher in T2 for all measured areas. The majority of the students perceived FC in a positive way and were willing to take FC-type courses in the future. The effect sizes were at a moderate level in general, however, they should be compared in the context in which the courses lasted for approximately one period of academic year. Results can be considered reasonable from this perspective.</p>
-      <p>These results indicate that the FC approach can change student perceptions of teachers’ TPACK and teachers’ attitudes to using technology. The three steps for ICT integration to teaching in the project and the individual support that was offered seem to improve the teachers’ TPACK-related skills. We assume that the FC model provided opportunities for the meaningful use of ICT to support learning. As suggested by Watson (2001) and Ertmer (2005), pedagogy and pedagogical beliefs are important factors for the successful integration of ICT in teaching. The FC model emphasizes the teacher as a content expert, as an expert in pedagogy and as an expert in the use of ICT in education. Results of this study suggest that, from a student perspective, teacher skills in integrating content, pedagogy and technology, are increasing. </p>
-      <p>In order to make changes successful, the change must be reasonable (see. Zhao et al., 2002). One of the reasons the results of this study indicate such successful integration of pedagogy and technology is the nature of the FC model, which is optimal for initiating change. In other words, FC is an easy-to-grasp model that allows teachers to consider pedagogy and ICT in their teaching more thoroughly. We assume that emphasizing collaborative and student-centered methods in teaching makes the expertise in pedagogy and in use of ICT more visible for students, thereby approaching the definition of skilled teaching with technology by Koehler and colleagues (2013). The role of the content specialist remains in pre-materials and contact meetings. Through more student-centered approaches, teachers can use time more effectively. Results show that students recognize the benefits of the FC model and the change in teaching skills, which indicates that the teachers developed professionally during the process.</p>
-      <p>The results indicate that the second-year and higher students perceived significant change in all CK, PCK, TPACK and ATT areas, whereas the first-year students did not. Higher year students may have a better understanding of teaching practices, technology use, teacher skill levels and teacher attitudes to the use of ICT in education. First-year students may not have this experience. This result can be considered logical and, thus, increases the reliability of this study. </p>
-      <p>These findings align well with the aspects presented in earlier studies for the successful integration of ICT (Brikerhoff, 2006; Ertmer 1999; 2005) and with the vision of how teacher training should be organized. Sufficient support for pedagogy, the use of ICT, a peer-support culture and self-study materials combined with time for developing teaching practices are important in developing the use of ICT in teaching. There must be a shared vision for ICT integration (Harris, 2005), and FC creates a framework for teachers participating the training and a framework for support personnel who train teachers. FC seems to influence teacher attitudes to using ICT in teaching, which is according to Teo and Tan (2012) one of the most important factor influencing the use of ICT in education. The FC project with support and training allows teachers to develop their skills systematically. Thus, it seems that support for teachers with the flipped classroom framework is effective for professional development and to improve their content related pedagogical-technological skills in higher education from the student perspective. </p>
-      <h2>Limitations and future research</h2>
-      <p>The present study has limitations. First, a convenience sample was used. Future researchers should consider stronger sampling methods in order to verify the results of the study. Second, only two aspects of ICT integration were addressed, namely the TPACK model and the Theory of Planned Behavior model for ICT in education. Future research should consider using other theoretical frameworks and measurement instruments based on these theories. Third, study did not include an in-depth investigation of the psychometric properties of the adapted instruments. Future research should be extended to a more in-depth investigation of reliability and validity. Fourth, typical analysis methods were used, but future research would benefit from using more sophisticated methods, such as structural equation modeling. Finally, the pedagogical investigations were based on the whole FC model. Future research should more specifically consider pedagogical approaches within FC.</p>
-      <h2>Acknowledgements</h2>
-      <p>All teachers and students who participated this study are gratefully acknowledged. This study was supported by the grant from Finnish Ministry of Education and Culture and Finnish [OKM/199/523/2016], and Suomen Akatemia/Academy of Finland [Grant 296799 and 273970].</p>
+      <p>Gamified stories or interactive stories provide the user of the story, a reader or a player, a possibility to affect the storyline. Such a storyline has branches and the structure is not linear but nonlinear. An example of a nonlinear gamified story is presented in Figure 2. The story starts from the left. The player is given two options which provide the player with more options. This creates a complex structure for the story with several possible outcomes.</p>
+      <figure>
+         <img src="figure-2.jpg"
+              alt="1: You see a monster. You can a) attack the monster or b) run away.&#xA;&#xA;2a: You attack the monster. You can use magic sword. The monser is defeated and you have now 10 copper coins and a red potion.&#xA;&#xA;2b You run away - The Monster saw you and attacks a) Use Magic sword or b) Use sacred amulet or c) just run away&#xA;&#xA;3a You used the magic sword. The monster is defeated and you have now 10 copper coins and a red potion.&#xA;&#xA;3b you use the sacred amulet. Monster freezes. You can use the magic sword or run away. If using the magic sword, the monster will be defeated and you gain 10 copper coins and a red potion. If running away: You managed to escape.&#xA;&#xA;3c You chose to just run away. You are not fast enough, the monster ate you. Game over."/>
+         <figcaption>
+            <p>Figure 2. A gamified story with nonlinear structure.</p>
+            <p>Figure 3. Twine flowchart with five passages and one branching.</p>
+            <p>Figure 4. Story structure control mechanisms for RenPy visual novel engine. Menu item gives options to the player. The Jump attribute moves to the given label in the storyline. This example is taken from RenPy website renpy.org.</p>
+            <p>Figure 5. An example of branching in Ink scripting language.</p>
+            <p>Figure 6. An example view of Fungus user interface inside Unity 3d environment.</p>
+            <p>Figure 7. The Scene view of Alice storytelling tool.</p>
+            <p>Figure 8. Visual presentation of the collected stories in Twine.</p>
+            <p>Figure 9. A more detailed view of two stories in Figure 8. Two extra passages on the lower right corner are omitted from the latter story. </p>
+            <p>Figure 10. The number of passages and the number of links between passages in collected stories.</p>
+            <p>Figure 11. An example of a story with only one passage. The student has not understood the idea of nonlinear and hyperlinks properly but has written the dialog in a traditional format. The text has been translated into English from the original Finnish language used in the project.</p>
+            <p>Figure 12. An example of a part of a story where the concepts of link text and link target were not fully understood and this has caused a problem with the story structure. There are several questions to the player with Yes and No answers and automatically incorrectly generated hyperlinks cause an illogical structure. The text has been translated into English from the original Finnish language used in the project.</p>
+         </figcaption>
+      </figure>
+      <p>There is little research focused on the nonlinear nature of gamified stories in education. Computer game development as a form of nonlinear storytelling is most often just a tool for teaching computer programming (for example Leutenegger et al. 2007, Topalli et al. 2018, Kalelioğlu 2015). Sometimes game development or interactivity of the story is used as a way to engage students but nonlinear nature of stories is not considered as a special feature (Tran 2016).</p>
+      <p>A notable exception is a study by Liu et al. (2010) where linear and nonlinear storytelling interfaces were compared. They measured co-creative performance in four factors: derivation, remix, ownership, and positive interdependence. In all four factors, the nonlinear group performed superior to the linear group. Researchers reported a positive outcome for the nonlinear storytelling.</p>
+      <p>In our earlier work, we have shown that nonlinear stories have similarity to computational algorithms (reference removed for the review). Based on this, we speculate that practicing nonlinear storytelling may have positive synergy with learning computational thinking skills. </p>
+      <p>In this article, we review some available types of nonlinear storytelling tools and software. These include general software that is not intended for writing nonlinear stories, as well as specialized nonlinear storytelling software. We present their features regarding the requirements of an educational game development. </p>
+      <p>We also present an analysis of stories collected in our earlier study to give an example of what kinds of results can be expected when nonlinear stories are collected from novice computer users.</p>
+      <p>In the research project an educational computer game was developed by information technology students and professionals. We wanted also to enable the participation of another group of adults who had very low information technology skills. The aim was to engage them in a computer game development, to empower them regarding the use of information technology, and to provide their non-information technology related expertise to the game development process (reference removed for the review). </p>
+      <p>In this article the collected stories are analyzed in detail. We are interested in common technical problems that novice users have. Participant in this project had only a short introduction to nonlinear storytelling and limited help from their teacher as they continued their work after school hours. This method of study tries to uncover the critical learning challenges and possible misconceptions in nonlinear storytelling.</p>
+      <h2>Nonlinear storytelling software</h2>
+      <p>Game plots can be understood as nonlinear stories or hypertext documents. There are many tools to produce such documents with internal hyperlinking. There also exists many types of game development processes from simple experimentations to complex professional projects. Therefore both the requirements of game development processes and the features available in tools must be considered when storytelling tools are chosen.</p>
+      <p>In our example game development project we chose the following key features for consideration when choosing the solution:</p>
+      <ol class="decimal">
+         <li>easy to use for people with no special information technology skills,</li>
+         <li>possibility to export stories in a simple form, or an integration with advanced game engines, and</li>
+         <li>open source licensing.</li>
+      </ol>
+      <p>The first requirement is given because the idea is to enable a low-threshold participation for everyone. The second requirement is important for us because the stories are used in another professional game engine. It is also generally good to prevent vendor-locking by using software with full export functionality.</p>
+      <p>The third requirement was chosen because we develop an educational software in an academic research project and it is important to be able to share the results. We also wanted to use external open source licensed resources and therefore open source licensing was a natural choice to avoid licensing problems and enable wide adoption.</p>
+      <p>In the following, some of the basic types of nonlinear storytelling software are introduced. Different types of hyperlinking methods are explained and the software’s selected key features regarding game development are discussed.</p>
+      <h2>Text editing</h2>
+      <p>The simplest way to write nonlinear stories is to add references to a text file for internal linking. For this purpose, any text editor can be used. Notable examples of texts produced in this manner are encyclopedias with internal linking. There also exist gamified storybooks, for example, Choose Your Own Adventure book series (Friedman, 1995) which have numbered chapters. At the end of each chapter, there are usually choices given to the reader. For example, the text might say “<em>If you want to fight, jump to chapter number 13. If you want to run away, jump to chapter 85.</em>”</p>
+      <p>A more advanced option is to use bookmarking and cross-referencing features in word processing or presentation software such as Microsoft Word, Microsoft PowerPoint, OpenOffice Writer, or OpenOffice Impress. This can be a good method in nonlinear storytelling for people who are familiar with word processing and presentation software. In addition gamification can also be used as an engaging method to teach the advanced features of office software.</p>
+      <h2>Hypertext and Wiki Software</h2>
+      <p>For hypertext documents, Hypertext Markup Language (HTML) is the standard markup language, especially used in Internet WWW pages (Berners-Lee, 2001). Basic hyperlinking of documents with HTML language requires only a small subset of HTML language (W3C, 2017). Hyperlinking is created with A HREF attributes and some additional attributes are required for forming valid HTML documents. The biggest drawback for utilizing HTML language with novice users is the need for understanding files and file systems. Each passage in the nonlinear story must be stored in its own file. For example, in our project, students did not have the required skills in file handling, and this makes the task of using HTML difficult.</p>
+      <p>Wiki software is an improvement in this matter as documents are stored in a database and the users do not need to manually manage them. Also, the markup language is simplified from HTML and users do not need to define document structure.</p>
+      <p>There are several different Wiki software and also many open source options exist. Documents are computer readable and can be exported in simple formats. This makes Wiki documents a very simple and efficient tool for writing nonlinear stories. Using Wiki for writing also teaches Wiki markup to students so that they become familiar with how the online encyclopedia Wikipedia and other online Wiki resources work. </p>
+      <h2>Game-oriented software</h2>
+      <p>There exist some game oriented software for nonlinear storytelling. These software have the advantage that they are designed for the purpose of writing game plots. They often have some means to control the story structure and maybe to visualize the story structure in a form of a flowchart. They often have features for a more complex game mechanics such as variables and scripting programming option. Let us review some of the most popular game oriented nonlinear writing tools.</p>
+      <p>
+         <em>Twine</em> is described on its website (<a href="twinery.org">twinery.org</a>) as a tool for telling interactive, nonlinear stories. Its user interface is a flowchart-based. Nodes of the flowchart are known as passages. They contain the text presented to the player as well as hyperlinks and possible macros for controlling the plot. An example of Twine flowchart is presented in Figure 3.</p>
+      <figure>
+         <img src="figure-3.jpg"
+              alt="A flowchart:&#xA;Branching: Hello! Could you please tell me how to go to&#xA;&#xA;Branch 1: &#xA;Hello! First you have to turn around and then walk straight two blocs from (text is cut here)&#xA;&#xA;Thank you very much! Double click this passage to edit it&#xA;&#xA;Branch 2:&#xA;Hello! Unfortunately I don't know this city so I can't help you.&#xA;Double click this passage to edit it.&#xA;&#xA;Okey. I'll try to ask someone else. Have a nice day.&#xA;Double click this passage to edit it.&#xA;"/>
+         <figcaption>
+            <p>Figure 3. Twine flowchart with five passages and one branching.</p>
+            <p>Figure 4. Story structure control mechanisms for RenPy visual novel engine. Menu item gives options to the player. The Jump attribute moves to the given label in the storyline. This example is taken from RenPy website renpy.org.</p>
+            <p>Figure 5. An example of branching in Ink scripting language.</p>
+            <p>Figure 6. An example view of Fungus user interface inside Unity 3d environment.</p>
+            <p>Figure 7. The Scene view of Alice storytelling tool.</p>
+            <p>Figure 8. Visual presentation of the collected stories in Twine.</p>
+            <p>Figure 9. A more detailed view of two stories in Figure 8. Two extra passages on the lower right corner are omitted from the latter story. </p>
+            <p>Figure 10. The number of passages and the number of links between passages in collected stories.</p>
+            <p>Figure 11. An example of a story with only one passage. The student has not understood the idea of nonlinear and hyperlinks properly but has written the dialog in a traditional format. The text has been translated into English from the original Finnish language used in the project.</p>
+            <p>Figure 12. An example of a part of a story where the concepts of link text and link target were not fully understood and this has caused a problem with the story structure. There are several questions to the player with Yes and No answers and automatically incorrectly generated hyperlinks cause an illogical structure. The text has been translated into English from the original Finnish language used in the project.</p>
+         </figcaption>
+      </figure>
+      <p>There are two methods for creating hyperlinks in Twine. The basic syntax is double brackets around the link text. This creates a link to the passage with the same title as the link text. If no passage exists with the same name, a new passage with the name is created. The second method has separate link text and target passage title. There are three syntaxes for this in Twine and its default Harlowe story format:</p>
+      <ul class="bullet">
+         <li>[[linktext|title]]</li>
+         <li>[[linktext-&gt;title]]</li>
+         <li>[[title&lt;-linktext]]</li>
+      </ul>
+      <p>
+         <em>RenPy</em> (<a href="renpy.org">renpy.org</a>) is a tool for creating visual novels. It has many options designed to integrate visual images into nonlinear storytelling. A story is written in a text file and story structure is created with menus, jumps, and labels. An example of a RenPy code, where two options are provided to the player, is presented in Figure 4. RenPy is a popular and mature software. It is at its best when the story is strongly visual.</p>
+      <p/>
+      <table>
+         <thead>
+            <tr>
+               <th>
+                  <p>    s “Sure, but what’s a \”visual novel?\””</p>
+                  <p>menu:</p>
+                  <p>    “It’s a videogame.”:</p>
+                  <p>        jump game</p>
+                  <p>    “It’s an interactive book.”:</p>
+                  <p>        jump book</p>
+                  <p>label game:</p>
+                  <p>    m “It’s a kind of videogame you can play on your computer or a console.”</p>
+               </th>
+            </tr>
+         </thead>
+      </table>
+      <p styleId="FigureCaption" styleName="[Figure Caption]">Figure 4. Story structure control mechanisms for RenPy visual novel engine. Menu item gives options to the player. The Jump attribute moves to the given label in the storyline. This example is taken from RenPy website renpy.org.</p>
+      <p>
+         <em>Inkle</em> is a software for combining visual art with nonlinear stories. It uses a scripting language <em>Ink</em>. Ink website (<a href="github.com/inkle/ink">github.com/inkle/ink</a>) describes it as “scripting language for writing interactive narrative, both for text-centric games as well as more graphical games that contain highly branching stories.” An example of Ink scripting is presented in Figure 5.</p>
+      <p>Another scripting type of software is <em>ChoiceScript</em>
+         <em/>(<a href="github.com/dfabulich/choicescript">github.com/dfabulich/choicescript</a>). Both Inkle and ChoiceScript are open source software. Inkle also has Unity 3d integration option by a plugin. As scripting languages, these are both textual in nature. This emphasizes the story logic and the story script is very concise. Both of these languages have clear syntaxes and are good for text-based game design when no structure visualization is required. </p>
+      <table>
+         <thead>
+            <tr>
+               <th>
+                  <p>== paragraph_1 === <br/>You stand by the wall of Analand, sword in hand.<br/>* [Open the gate] -&gt; paragraph_2 <br/>* [Smash down the gate] -&gt; paragraph_3<br/>* [Turn back and go home] -&gt; paragraph_4<br/>
+                     <br/>=== paragraph_2 ===<br/>You open the gate, and step out onto the path.</p>
+               </th>
+            </tr>
+         </thead>
+      </table>
+      <p styleId="FigureCaption" styleName="[Figure Caption]">Figure 5. An example of branching in Ink scripting language.</p>
+      <p>
+         <em>Fungus</em> (<a href="fungusgames.com">fungusgames.com</a>) is an open source software for writing stories inside Unity 3d development environment. It is a flowchart-based tool and usability of the tool has been highly paid attention to. The usability is especially good in using variables and conditional branching but these advanced features were not used in our pilot project. </p>
+      <p>The drawback of Fungus is that it requires Unity 3d installation. While Unity 3d is free for personal use, it is a significantly more complex software. The native Unity 3d integration can make the user interface difficult to use for people with low information technology experience. An example view of the user interface is presented in Figure 6.</p>
+      <figure>
+         <img src="figure-4.jpg"
+              alt="A screenshot of the Fungus user interface. Some of the parts that can be seen: Creation panel for creating different types of objects/blocks (Trees, walls, sounds, texts etc). There is an animation panel. Play controls. A block inspector. A panel for navigating assets. A flowchart. A game display."/>
+         <figcaption>
+            <p>Figure 6. An example view of Fungus user interface inside Unity 3d environment.</p>
+            <p>Figure 7. The Scene view of Alice storytelling tool.</p>
+            <p>Figure 8. Visual presentation of the collected stories in Twine.</p>
+            <p>Figure 9. A more detailed view of two stories in Figure 8. Two extra passages on the lower right corner are omitted from the latter story. </p>
+            <p>Figure 10. The number of passages and the number of links between passages in collected stories.</p>
+            <p>Figure 11. An example of a story with only one passage. The student has not understood the idea of nonlinear and hyperlinks properly but has written the dialog in a traditional format. The text has been translated into English from the original Finnish language used in the project.</p>
+            <p>Figure 12. An example of a part of a story where the concepts of link text and link target were not fully understood and this has caused a problem with the story structure. There are several questions to the player with Yes and No answers and automatically incorrectly generated hyperlinks cause an illogical structure. The text has been translated into English from the original Finnish language used in the project.</p>
+         </figcaption>
+      </figure>
+      <p>
+         <em>Alice</em> (<a href="alice.org">alice.org</a>) is a storytelling tool that is designed to be used in education. It is developed by Carnegie Mellon University and its aim is to provide an introduction to computer science concepts and computer programming in an engaging way of telling stories and creating games. Alice is a rather comprehensive storytelling tool. A 3d scene view of Alice is shown in Figure 7. As an educational tool, it is designed to be easy to use even if it has many advanced features. As an independent storytelling tool Alice is an engaging and compact tool. But it has many internal features in addition to the storytelling features and it cannot be easily integrated into external processes such as general game development processes. Alice has extensive learning resources. For example there is material for designing nonlinear narrative (<a href="https://www.alice.org/resources/lessons/design-interactive-narrative/">https://www.alice.org/resources/lessons/design-interactive-narrative/</a>).</p>
+      <figure>
+         <img src="figure-5.jpg"
+              alt="There is a large scene/world/camera view, with a run button and a edit code button. To the right hand side, there is a panel with camera options. Below these two, there are tabs to browse by class hierarchy, theme, gallery by group, to search gallery, shapes/text and my classes. The Browse by class hierarchy is highlighted: Large icons for selecting different class types: Biped classes, flyer classes, prop classes, quadruped classes, swimmer classes and transport classes."/>
+         <figcaption>
+            <p>Figure 7. The Scene view of Alice storytelling tool.</p>
+            <p>Figure 8. Visual presentation of the collected stories in Twine.</p>
+            <p>Figure 9. A more detailed view of two stories in Figure 8. Two extra passages on the lower right corner are omitted from the latter story. </p>
+            <p>Figure 10. The number of passages and the number of links between passages in collected stories.</p>
+            <p>Figure 11. An example of a story with only one passage. The student has not understood the idea of nonlinear and hyperlinks properly but has written the dialog in a traditional format. The text has been translated into English from the original Finnish language used in the project.</p>
+            <p>Figure 12. An example of a part of a story where the concepts of link text and link target were not fully understood and this has caused a problem with the story structure. There are several questions to the player with Yes and No answers and automatically incorrectly generated hyperlinks cause an illogical structure. The text has been translated into English from the original Finnish language used in the project.</p>
+         </figcaption>
+      </figure>
+      <h2>Methods</h2>
+      <p>An educational computer game was developed by university information technology students and professionals. To acquire content for the game, nonlinear stories were collected from a group of novice computer users. The group of adults (age 30-64 years) participated in a basic information technology training course intended for enhancing their employment opportunities.</p>
+      <p>During one learning session the serious game development project was introduced to the students and students tried the game. The game is an open world 3d game where the player’s avatar can walk around and complete educational tasks.</p>
+      <p>During a second learning session, the basic usage of nonlinear storytelling tool Twine was introduced to the students. Twine was selected for the project because it is an open source software and because it’s good integration with Unity 3d game engine.</p>
+      <p>After the introduction, students were instructed to write a sample story on personal computers at the computer laboratory of the school. Students were able to continue their stories at home after the session. Submitting their story for the game development research project was voluntary and not everybody wanted to include their work in the game.</p>
+      <h2>Results</h2>
+      <p>Fourteen stories (n = 14) were submitted to the project. The default visualization of Story List view by Twine is presented in Figure 8. In this visualization, each circle presents one passage in the story. Size of the circles correlates with the amount of text in a passage. Colors are only for visual purposes. The overall structure of the story is also visually presented by positions of circles.</p>
+      <figure>
+         <img src="figure-6.jpg"
+              alt="The visual presentation of each story is presented as clouds of circles."/>
+         <figcaption>
+            <p>Figure 8. Visual presentation of the collected stories in Twine.</p>
+            <p>Figure 9. A more detailed view of two stories in Figure 8. Two extra passages on the lower right corner are omitted from the latter story. </p>
+            <p>Figure 10. The number of passages and the number of links between passages in collected stories.</p>
+            <p>Figure 11. An example of a story with only one passage. The student has not understood the idea of nonlinear and hyperlinks properly but has written the dialog in a traditional format. The text has been translated into English from the original Finnish language used in the project.</p>
+            <p>Figure 12. An example of a part of a story where the concepts of link text and link target were not fully understood and this has caused a problem with the story structure. There are several questions to the player with Yes and No answers and automatically incorrectly generated hyperlinks cause an illogical structure. The text has been translated into English from the original Finnish language used in the project.</p>
+         </figcaption>
+      </figure>
+      <p>It can be seen from the visualization that there are three stories with only one passage (just a single sphere in the visualization). These stories have obviously some technical problems. Other stories seem structurally good. So the default visualization of the Story List view presented in Figure 8 can be used as a simple inspector of story structure. </p>
+      <p>A more detailed view of two of the stories, as presented by the Story Edit view of Twine, is presented in Figure 9 for comparison. As can be seen, the visualization in Figure 8 gives an approximate structure of the story. But the Story Edit view also presents the story flow and transitions between passages.</p>
+      <figure>
+         <img src="figure-7.jpg"
+              alt="A flowchart of two different passages as dscribed by the previous paragraph and the figure caption."/>
+         <figcaption>
+            <p>Figure 9. A more detailed view of two stories in Figure 8. Two extra passages on the lower right corner are omitted from the latter story. </p>
+            <p>Figure 10. The number of passages and the number of links between passages in collected stories.</p>
+            <p>Figure 11. An example of a story with only one passage. The student has not understood the idea of nonlinear and hyperlinks properly but has written the dialog in a traditional format. The text has been translated into English from the original Finnish language used in the project.</p>
+            <p>Figure 12. An example of a part of a story where the concepts of link text and link target were not fully understood and this has caused a problem with the story structure. There are several questions to the player with Yes and No answers and automatically incorrectly generated hyperlinks cause an illogical structure. The text has been translated into English from the original Finnish language used in the project.</p>
+         </figcaption>
+      </figure>
+      <p>It is possible to collect certain metrics from the stories to describe the story structure in analytical means. The number of passages and the number of links between passages in each story is presented in Figure 10. Here we can see again the three stories with only a single passage and no links.</p>
+      <figure>
+         <img src="figure-8.jpg" alt=""/>
+         <figcaption>
+            <p>Figure 10. The number of passages and the number of links between passages in collected stories.</p>
+            <p>Figure 11. An example of a story with only one passage. The student has not understood the idea of nonlinear and hyperlinks properly but has written the dialog in a traditional format. The text has been translated into English from the original Finnish language used in the project.</p>
+            <p>Figure 12. An example of a part of a story where the concepts of link text and link target were not fully understood and this has caused a problem with the story structure. There are several questions to the player with Yes and No answers and automatically incorrectly generated hyperlinks cause an illogical structure. The text has been translated into English from the original Finnish language used in the project.</p>
+         </figcaption>
+      </figure>
+      <p>We analyzed the three stories with only one passage and found that they all had the same problem: students had not correctly understood the syntax for creating hyperlinks. An example of the contents of one story is presented in Figure 11. It can be seen that the dialog has been written as a linear manuscript without any interaction with the player.</p>
+      <p>In all of these three cases, students had put double brackets over the whole dialog. Double brackets are used for creating hyperlinks, but they should include only the link text provided to the player or a link text and a link title. Double bracket notation works only with single line text so no hyperlink is created in this case.</p>
+      <figure>
+         <img src="figure-9.jpg"
+              alt="[[Bartender1&#xA;What would you like to have?&#xA;&#xA;Customer 1/1&#xA;A large dark beer&#xA;&#xA;Bartender2&#xA;Would you like to have German or Belgian, sir?&#xA;&#xA;Customer1/2&#xA;German, please.&#xA;&#xA;Bartender3&#xA;And you, sir?&#xA;&#xA;Customer2/1&#xA;A scotch and a small beer.&#xA;&#xA;Bartender4&#xA;Okay. Here you are!]]"/>
+         <figcaption>
+            <p>Figure 11. An example of a story with only one passage. The student has not understood the idea of nonlinear and hyperlinks properly but has written the dialog in a traditional format. The text has been translated into English from the original Finnish language used in the project.</p>
+            <p>Figure 12. An example of a part of a story where the concepts of link text and link target were not fully understood and this has caused a problem with the story structure. There are several questions to the player with Yes and No answers and automatically incorrectly generated hyperlinks cause an illogical structure. The text has been translated into English from the original Finnish language used in the project.</p>
+         </figcaption>
+      </figure>
+      <p>By default, Twine generates new passages using the link text as a new title. This was a somewhat difficult concept to learn in the introduction phase. The problem is that given two similar link texts, same continuation passage is assumed. This is not always the case and simple hyperlink syntax cannot be used. </p>
+      <p>In collected stories, only one story had this problem. A part of the story is presented in Figure 12. In this story, there are several questions with Yes and No answers. Questions are very different, “Do you need a bank?” and “Do you need a map?”, so the story should not continue in the same passage.</p>
+      <p>In the case of negative answer, the student has solved the problem by using “No” and “No.” which are interpreted as two different texts by Twine. But in the positive case both answers lead to the same passage. The problematic passage has been selected in Twine user interface so it is shown as light blue instead of regular white color in Figure 12. This passage has even a further Yes and No question which leads back to the passage itself in the positive answer case leading to a possible infinite loop in the story.</p>
+      <figure>
+         <img src="figure-10.jpg"
+              alt="Flowchart of a story as described in the figure caption below."/>
+         <figcaption>
+            <p>Figure 12. An example of a part of a story where the concepts of link text and link target were not fully understood and this has caused a problem with the story structure. There are several questions to the player with Yes and No answers and automatically incorrectly generated hyperlinks cause an illogical structure. The text has been translated into English from the original Finnish language used in the project.</p>
+         </figcaption>
+      </figure>
+      <p>It is worth noting that most of the stories were not finished completely. Out of the eleven stories that had more than one passage, only two had no unfinished passages. Some of the unfinished passages were story branches that were not written, but some were missing just the closure or the ending for the story.</p>
+      <p>Three stories had extra passages that were not connected to the story. This is not an error or a problem but can tell something about the creative process of the story. Unconnected passages can tell for example about the editing of the story or experimentation with the story structure.</p>
+      <h2>Discussion and conclusions</h2>
+      <p>In this article, nonlinear storytelling was introduced as a low-threshold method for co-creative educational game development. Some of the most important characteristic features of nonlinear stories were presented. Nonlinear stories can be seen as hypertext documents, interactive stories or game plots. These are all used in education in different contexts but there does not exist much research literature on the specific topic of creation of stories with nonlinear structure. </p>
+      <p>We presented several methods for writing nonlinear stories. Stories can be written with very commonplace tools such as HTML editors, wikis, word processors or presentation software. There also exist several tools for specifically writing nonlinear interactive stories. These tools often have features that make writing nonlinear stories easier such as flowchart visualization and integration with more advanced game engines. They often also have an easy use of scripting, such as using variables and conditional branching, although these advanced features were not utilized in this pilot project and were not introduced in detail in this article.</p>
+      <p>In our pilot study, 14 stories were collected from adult students with low information technology skills. Students were given only a short introduction to nonlinear storytelling and Twine software used for writing stories. The teacher was only limitedly available to supervise and help in technical problems because students continued their work unsupervised after school hours. This experimental setup was used to reveal common learning challenges and possible misconceptions in nonlinear storytelling.</p>
+      <p>Out of the 14 stories collected, three stories had some fundamental flaws so that stories contained no hyperlinks. Creating a nonlinear story with hyperlinks was introduced to students beforehand but based on these observations, more emphasis should be put on explaining the user interaction and the concept of branching in nonlinear stories. </p>
+      <p>The difference between the link text and the target passage title was emphasized during the introduction of the tool as it is maybe the most difficult concept in using hyperlinks. Making efficient passage titles should be considered an important subject in storytelling as it can cause confusion. In this study, only one student had technical problems with the independent link text and the target passage title.</p>
+      <p>Submitted stories had many unfinished passages. The process of writing a nonlinear story differs from traditional linear story as nonlinear story can have several branches and all of them must be finished. There are several techniques for this. For example, there can be several different endings or branches can be pieced together in a single ending. This idea could be made clear by practicing with small gamified stories first.</p>
+      <p>We did not include computer programming concepts such as variables and conditional branching in this study. Still, hyperlinks and complexity of the story structure presented challenges for the students. This is something that we are interested in our future research: how do these challenges, recognizing them, learning to solve them and gaining fluency in dealing with them, develop their thinking skills generally. </p>
+      <p>These skills are also very close to so-called computational thinking skills which are considered to be of great importance in computer science education. It would be therefore interesting to know if useful transferable skills are accumulated during the activity of nonlinear storytelling.</p>
+      <p>Most of the collected stories were of good quality and ready to be implemented in our game. The chosen software tool was found functional and students were able to use it very independently, although it would be better to give more support during the writing process especially in the early phases of learning.</p>
+      <p>Students’ views were not inquired formally but computer game development embedded in a regular information technology basic training was considered as a refreshing change for their study routines.</p>
+      <p>This study was a small scale pilot study to better understand nonlinear storytelling process and to increase understanding of how to implement nonlinear storytelling in education. In our future work we will develop teaching methods and materials for nonlinear storytelling in education based on the findings of this study. More research is needed to identify the special features and possible applications of nonlinear storytelling in education. This study will provide some guidance for designing these studies.</p>
+      <p>Most of the storytelling tools reviewed were open source licensed software. This allows the modification of software. In our future work, we plan to further modify some of the software features to answer the requirements of educational use. These modifications will include features such as enabling better co-creative processes through sharing and remixing stories.</p>
+      <h2>Acknowledgment</h2>
+      <p>This work was supported by European Union Regional Development Fund and the Leverage from the EU 2014-2020 programme.</p>
       <h2>References</h2>
-      <p class="ref">Adams Becker, S., Cummins, M., Davis, A., Freeman, A., Hall Giesinger, C., and Ananthanarayanan, V. (2017). <em>NMC Horizon Report: 2017 Higher Education Edition.</em> Austin, Texas: The New Media Consortium.</p>
-      <p class="ref">Ajzen, I. (1991). The theory of planned behavior. <em>Organizational Behavior and Human Decision Processes, 50</em>(2), 179-211. <a href="https://doi.org/10.1016/0749-5978(91)90020-T">https://doi.org/10.1016/0749-5978(91)90020-T</a>
-      </p>
-      <p class="ref">Baepler, P., Walker, J. D., &amp; Driessen, M. (2014). It’s not about seat time: Blending, flipping, and efficiency in active learning classrooms. <em>Computers &amp; Education, 78</em>, 227–236. <a href="https://doi.org/10.1016/j.compedu.2014.06.006">https://doi.org/10.1016/j.compedu.2014.06.006</a>
-      </p>
-      <p class="ref">Brinkerhoff, J. 2006. Effects of a Long-Duration, Professional Development Academy on Technology Skills, Computer Self-Efficacy, and Technology Integration Beliefs and Practices. <em>Journal of Research on Computing in Education, 39</em>(1), 22–43. <a href="https://doi.org/10.1080/15391523.2006.10782471">https://doi.org/10.1080/15391523.2006.10782471</a>
-      </p>
-      <p class="ref">Chen, F., Lui, A. M., &amp; Martinelli, S. M. (2017). A systematic review of the effectiveness of flipped classrooms in medical education. <em>Medical Education, 51</em>, 585–597. <a href="https://doi.org/10.1111/medu.13272">https://doi.org/10.1111/medu.13272</a>
-      </p>
-      <p class="ref">Chen, J. L. (2011). The effects of education compatibility and technological expectancy on e-learning acceptance. <em>Computers &amp; Education, 57</em>, 1501–1511. <a href="https://doi.org/10.1016/j.compedu.2011.02.009">https://doi.org/10.1016/j.compedu.2011.02.009</a>
-      </p>
-      <p class="ref">Ertmer, P. (1999) Addressing first- and second-order barriers to change: Strategies for technology integration. <em>Educational Technology Research and Development, 47</em>(4). 47–61. <a href="https://doi.org/10.1007/BF02299597">https://doi.org/10.1007/BF02299597</a>
-      </p>
-      <p class="ref">Ertmer, P. A. (2005). Teacher pedagogical beliefs: The final frontier in our quest for technology integration?. <em>Educational technology research and development, 53</em>(4), 25-39. <a href="https://doi.org/10.1007/BF02504683">https://doi.org/10.1007/BF02504683</a>
-      </p>
-      <p class="ref">Harris, J. (2005) Our Agenda for Technology Integration: It’s Time To Choose. <em>Contemporary Issues in Technology and Teacher Education, 5</em>(2), 116-122. </p>
-      <p class="ref">Koehler, M.J., Mishra, P., &amp; Cain, W. (2013). What is technological pedagogical content (TPACK)? <em>Journal of Education, 193</em>(3), 13–19. <a href="https://doi.org/10.1177/002205741319300303">https://doi.org/10.1177/002205741319300303</a>
-      </p>
-      <p class="ref">Lage, M. J., Platt, G. J., &amp; Treglia, M. (2000). Inverting the classroom: A gateway to creating an inclusive learning environment. <em>The Journal of Economic Education, 31</em>(1), 30–43. <a href="https://doi.org/10.1080/00220480009596759">https://doi.org/10.1080/00220480009596759</a>
-      </p>
-      <p class="ref">Lenhard, W. &amp; Lenhard, A. (2016). Calculation of Effect Sizes. available: https://www.psychometrica.de/ effectsize.html. Dettelbach (Germany): Psychometrica. <a href="https://doi.org10.13140/RG.2.1.3478.4245">https://doi.org10.13140/RG.2.1.3478.4245</a>
-      </p>
-      <p class="ref">Mishra, P., &amp; Koehler, M. J. (2006). Technological Pedagogical Content Knowledge: A Framework for Teacher Knowledge. <em>Teachers College Record, 108</em>(6), 1017–1054. <a href="https://doi.org/10.1111/j.1467-9620.2006.00684.x">https://doi.org/10.1111/j.1467-9620.2006.00684.x</a>
-      </p>
-      <p class="ref">Morris, S. B., &amp; DeShon, R. P. (2002). Combining effect size estimates in meta-analysis with repeated measures and independent-groups designs. <em>Psychological Methods, 7</em>(1), 105-125. <a href="https://doi.org/10.1037/1082-989X.7.1.105">https://doi.org/10.1037/1082-989X.7.1.105</a>
-      </p>
-      <p class="ref">Nunnally JC (1978) <em>Psychometric theory (2nd ed).</em> New York, NY: McGraw-Hill.</p>
-      <p class="ref">Shih, C. L., &amp; Chuang, H. H. (2013). The development and validation of an instrument for assessing college students’ perceptions of faculty knowledge in technology-supported class environments. <em>Computers &amp; Education, 63</em>, 109-118. <a href="https://doi.org/10.1016/j.compedu.2012.11.021">https://doi.org/10.1016/j.compedu.2012.11.021</a>
-      </p>
-      <p class="ref">Sointu, E. T., Valtonen, T., Cutucache, C., Kukkonen, J., Lambert, M. C., &amp; Mäkitalo- Siegl, K. (2017). Differences in preservice teachers’ readiness to use ICT in education and development of TPACK. In P. Resta &amp; S. Smith (Eds.), <em>Proceedings of Society for Information Technology &amp; Teacher Education International Conference 2017</em> (pp. 2462–2469). Chesapeake, VA: Association for the Advancement of Computing in Education (AACE).</p>
-      <p class="ref">Sointu, E. T. &amp; Valtonen, T. (2015). <em>Asiantuntijavideoluennot</em>
+      <p class="ref">Berners-Lee, T., Hendler, J., &amp; Lassila, O. (2001). The Semantic Web. <em>Scientific American</em>, <em>284</em>(5), 34–43. https://doi.org/10.1038/scientificamerican0501-34</p>
+      <p class="ref">Boltman, A. (2001). <em>Children’s Storytelling Technologies: Differences in Elaboration and Recall. Dissertation</em>. Faculty of the Graduate School of the University of Maryland, Maryland.</p>
+      <p class="ref">Çıralı, H., &amp; Usluel, Y. K. (2015). <em>A Descriptive Review Study about Digital Storytelling in Educational Context.</em> Presented at the 7th International Conference on Education and New Learning Technologies (EDULEARN15), Barcelona, Spain. Retrieved from https://www.researchgate.net/profile/Hatice_Cirali_Sarica/publication/284177441</p>
+      <p class="ref">Friedman, T. (1995). Making sense of software: Computer games and interactive textuality. In <em>Cybersociety</em>
+         <em>; Computer-Mediated Communication and Community.</em> Retrieved from https://www.researchgate.net/profile/Ted_Friedman/publication/277013129</p>
+      <p class="ref">Kalelioğlu, F. (2015). A new way of teaching programming skills to K-12 students: Code.org. <em>Computers in Human Behavior</em>, <em>52</em>, 200–210. https://doi.org/10.1016/j.chb.2015.05.047</p>
+      <p class="ref">Letonsaari, M., &amp; Selin, J. (2017). Modeling computational algorithms using nonlinear storytelling methods of computer game design. <em>Procedia Computer Science</em>, <em>119</em>, 131–138. https://doi.org/10.1016/j.procs.2017.11.169</p>
+      <p class="ref">Letonsaari, M., Selin, J., &amp; Lampi, M. (2019, May 14). <em>Co-creative Serious Games Design Process using Nonlinear Storyline Editing</em>. 582–588. https://doi.org/10.5220/0006320305820588</p>
+      <p class="ref">Leutenegger, S., &amp; Edgington, J. (2007). A games first approach to teaching introductory programming. <em>ACM SIGCSE Bulletin</em>, <em>39</em>(1), 115–118.</p>
+      <p class="ref">Liu, C.-C., Liu, K.-P., Chen, G.-D., &amp; Liu, B.-J. (2010). Children’s collaborative storytelling with linear and nonlinear approaches. <em>Procedia - Social and Behavioral Sciences</em>, <em>2</em>(2), 4787–4792. https://doi.org/10.1016/j.sbspro.2010.03.771</p>
+      <p class="ref">Tedre, M., &amp; Denning, P. J. (2016). The long quest for computational thinking. <em>Proceedings of the 16th </em>
+         <em>Koli</em>
+         <em> Calling International Conference on Computing Education Research</em>. https://doi.org/10.1145/2999541.2999542</p>
+      <p class="ref">Topalli, D., &amp; Cagiltay, N. E. (2018). Improving programming skills in engineering education through problem-based game projects with Scratch. <em>Computers &amp; Education</em>, <em>120</em>, 64–74. https://doi.org/10.1016/j.compedu.2018.01.011</p>
+      <p class="ref">Tran, K. M. (2016). “Her story was complex”: A Twine workshop for ten- to twelve-year-old girls. <em>E-Learning and Digital Media</em>, <em>13</em>(5–6), 212–226. https://doi.org/10.1177/2042753016689635</p>
+      <p class="ref">Viitanen, K., Harju, V., Niemi, H., &amp; Multisilta, J. (2014). Digitaalisentarinankerronnanmonetmahdollisuudet. In <em>Rajaton</em>
          <em/>
-         <em>oppimisympäristön</em>
-         <em/>
-         <em>pohjana</em> [Expert video lectures as basis for learning environments]. Retriewed from https://www.uef.fi/web/toty/ asiantuntijavideoluennot-2015-. </p>
-      <p class="ref">Teo, T. &amp; Tan, L. (2012). The theory of planned behavior (TPB) and pre-service teachers’ technology acceptance: A validation study using structural equation modeling. <em>Journal of Technology and Teacher Education, 20</em>(1), 89-104. </p>
-      <p class="ref">Valtonen, T., Sointu, E., Mäkitalo-Siegl, K., &amp; Kukkonen, J. (2015a). Developing a TPACK measurement instrument for 21st century pre-service teachers. <em>Seminar.Net, 11</em>(2), 87–100. Retrieved from https://journals.hioa.no/index.php/seminar/article/ view/2353.</p>
-      <p class="ref">Valtonen, T., Kukkonen, J., Kontkanen, S., Sormunen, K., Dillon, P., &amp; Sointu, E. (2015b). The impact of authentic learning experiences with ICT on pre-service teachers’ intentions to use ICT for teaching and learning. <em>Computers &amp; </em>
-         <em>Education</em>
-         <em>, 81</em>, 49–58.<a href="https://doi.org/10.1016/j.compedu.2014.09.008">https://doi.org/10.1016/j.compedu.2014.09.008</a>
-      </p>
-      <p class="ref">Valtonen, T., Sointu, W., Kukkonen, J., Kontkanen, S., Lambert, M., &amp; Mäkitalo-Siegl, K. (2017). TPACK updated to measure pre-service teachers’ twenty-first century skills. <em>Australasian Journal of Educational Technology, 33</em>(3), 15–31. <a href="https://doi.org/10.14742/ajet.3518">https://doi.org/10.14742/ajet.3518</a>
-      </p>
-      <p class="ref">Voogt, J., &amp; Roblin, N. P. (2012). A comparative analysis of international frameworks for 21st century competences: Implications for national curriculum policies. <em>Journal of Curriculum Studies, 44</em>, 299–321. <a href="https://doi.org/10.1080/00220272.2012.668938">https://doi.org/10.1080/00220272.2012.668938</a>
-      </p>
-      <p class="ref">Watson, D. M. (2001). Pedagogy before technology: Re-thinking the relationship between ICT and teaching. <em>Education and Information technologies, 6</em>(4), 251–266. <a href="https://doi.org/10.1023/A:1012976702296">https://doi.org/10.1023/A:1012976702296</a>
-      </p>
-      <p class="ref">Zhao, Y., Pugh, K., Sheldon, S. &amp; Bryers, J. (2002). Conditions for classroom technology innovations. <em>Teachers College Record, 104</em>(3), 482–515. <a href="https://doi.org/10.1111/1467-9620.00170">https://doi.org/10.1111/1467-9620.00170</a>
-      </p>
+         <em>luokkahuone</em>
+         <em>. </em>
+         <em>Opetus</em>
+         <em> 2000</em> (pp. 187–211). Jyväskylä: PSkustannus.</p>
+      <p class="ref">W3C. (2017). HTML 5.2, W3C Recommendation, 14 December 2017. Retrieved May 14, 2019, from https://www.w3.org/TR/html/</p>
+      <p class="ref">Wing, J. M. (2006). Computational Thinking. <em>Commun</em>
+         <em>. ACM</em>, <em>49</em>(3), 33–35. https://doi.org/10.1145/1118178.1118215</p>
    </body>
 </html>
