@@ -908,4 +908,120 @@
         <p:identity name="final"/>
     </p:declare-step>
     
+    <p:declare-step xmlns:p="http://www.w3.org/ns/xproc" name="merge-em" type="d2j:merge-em"
+        xmlns:c="http://www.w3.org/ns/xproc-step" version="1.0" exclude-inline-prefixes="c">
+        <p:serialization port="result" method="xml" indent="true"></p:serialization>
+        <p:input port="source"/>
+        <p:output port="result"/>
+        
+        <p:wrap match="text()[not(parent::em)][matches(. ,'^[&#xa; .,:;-]*$')]" wrapper="fmt"/>
+        <p:wrap match="text()[not(parent::*[matches(name(.) , '^(em)|(fmt)$')])]" wrapper="txt"></p:wrap>
+        
+        
+        <p:xslt version="2.0">
+            <p:input port="source"/>
+            <p:input port="parameters"><p:empty/></p:input>
+            <p:input port="stylesheet">
+                <p:inline>
+                    <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="2.0">
+                        <xsl:template match="node()|@*">
+                            <xsl:copy>
+                                <xsl:apply-templates select="@*|node()"/>
+                            </xsl:copy>
+                        </xsl:template>
+                        
+                        <xsl:template match="*[count(child::em) &gt; 1]">
+                            <xsl:copy>
+                                <xsl:copy-of select="@*"/>
+                                <xsl:variable name="context" select="."/>
+                                <xsl:variable name="prev" select="preceding-sibling::*[1]"/>
+                                <xsl:variable name="next" select="following-sibling::*[1]"/>
+                                <xsl:for-each-group select="*" group-adjacent="boolean(self::em or (self::fmt/preceding-sibling::*[1]/name()='em' and self::fmt/following-sibling::*[1]/name()='em'))">
+                                    <xsl:choose>
+                                        <xsl:when test="current-grouping-key()">
+                                            <em>
+                                                <xsl:for-each select="current-group()">
+                                                    <xsl:copy-of select="@*"/>
+                                                    <xsl:apply-templates select="*|text()"/>
+                                                </xsl:for-each>
+                                            </em>
+                                        </xsl:when>
+                                        <xsl:otherwise>
+                                            <xsl:for-each select="current-group()">
+                                                <xsl:apply-templates select="."/>
+                                            </xsl:for-each>
+                                        </xsl:otherwise>
+                                    </xsl:choose>
+                                </xsl:for-each-group>
+                            </xsl:copy>
+                        </xsl:template>
+                        
+                        <xsl:template match="txt|fmt"><xsl:apply-templates/></xsl:template>
+                        
+                    </xsl:stylesheet>
+                </p:inline>
+            </p:input>
+        </p:xslt>
+        
+        <p:identity/>
+    </p:declare-step>
+    
+    <p:declare-step xmlns:p="http://www.w3.org/ns/xproc" name="merge-strong" type="d2j:merge-strong"
+        xmlns:c="http://www.w3.org/ns/xproc-step" version="1.0" exclude-inline-prefixes="c">
+        <p:serialization port="result" method="xml" indent="true"></p:serialization>
+        <p:input port="source"/>
+        <p:output port="result"/>
+        
+        <p:wrap match="text()[not(parent::strong)][matches(. ,'^[&#xa; .,:;-]*$')]" wrapper="fmt"/>
+        <p:wrap match="text()[not(parent::*[matches(name(.) , '^(strong)|(fmt)$')])]" wrapper="txt"></p:wrap>
+        
+        
+        <p:xslt version="2.0">
+            <p:input port="source"/>
+            <p:input port="parameters"><p:empty/></p:input>
+            <p:input port="stylesheet">
+                <p:inline>
+                    <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="2.0">
+                        <xsl:template match="node()|@*">
+                            <xsl:copy>
+                                <xsl:apply-templates select="@*|node()"/>
+                            </xsl:copy>
+                        </xsl:template>
+                        
+                        <xsl:template match="*[count(child::strong) &gt; 1]">
+                            <xsl:copy>
+                                <xsl:copy-of select="@*"/>
+                                <xsl:variable name="context" select="."/>
+                                <xsl:variable name="prev" select="preceding-sibling::*[1]"/>
+                                <xsl:variable name="next" select="following-sibling::*[1]"/>
+                                <xsl:for-each-group select="*" group-adjacent="boolean(self::strong or (self::fmt/preceding-sibling::*[1]/name()='strong' and self::fmt/following-sibling::*[1]/name()='strong'))">
+                                    <xsl:choose>
+                                        <xsl:when test="current-grouping-key()">
+                                            <strong>
+                                                <xsl:for-each select="current-group()">
+                                                    <xsl:copy-of select="@*"/>
+                                                    <xsl:apply-templates select="*|text()"/>
+                                                </xsl:for-each>
+                                            </strong>
+                                        </xsl:when>
+                                        <xsl:otherwise>
+                                            <xsl:for-each select="current-group()">
+                                                <xsl:apply-templates select="."/>
+                                            </xsl:for-each>
+                                        </xsl:otherwise>
+                                    </xsl:choose>
+                                </xsl:for-each-group>
+                            </xsl:copy>
+                        </xsl:template>
+                        
+                        <xsl:template match="txt|fmt"><xsl:apply-templates/></xsl:template>
+                        
+                    </xsl:stylesheet>
+                </p:inline>
+            </p:input>
+        </p:xslt>
+        
+        <p:identity/>
+    </p:declare-step>
+    
 </p:library>

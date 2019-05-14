@@ -32,6 +32,10 @@
 
     <d2j:flat-docx-to-html/>
     
+    <d2j:merge-em/>
+    
+    <d2j:merge-strong/>
+    
     <d2j:translate-ocftable-to-initial-htmltable/> 
     
     <d2j:restructure-tables/> 

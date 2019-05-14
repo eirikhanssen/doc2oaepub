@@ -135,8 +135,7 @@
       <p styleId="FigureCaption" styleName="[Figure Caption]">Figure 4. Story structure control mechanisms for RenPy visual novel engine. Menu item gives options to the player. The Jump attribute moves to the given label in the storyline. This example is taken from RenPy website renpy.org.</p>
       <p>
          <em>Inkle</em> is a software for combining visual art with nonlinear stories. It uses a scripting language <em>Ink</em>. Ink website (<a href="github.com/inkle/ink">github.com/inkle/ink</a>) describes it as “scripting language for writing interactive narrative, both for text-centric games as well as more graphical games that contain highly branching stories.” An example of Ink scripting is presented in Figure 5.</p>
-      <p>Another scripting type of software is <em>ChoiceScript</em>
-         <em/>(<a href="github.com/dfabulich/choicescript">github.com/dfabulich/choicescript</a>). Both Inkle and ChoiceScript are open source software. Inkle also has Unity 3d integration option by a plugin. As scripting languages, these are both textual in nature. This emphasizes the story logic and the story script is very concise. Both of these languages have clear syntaxes and are good for text-based game design when no structure visualization is required. </p>
+      <p>Another scripting type of software is <em>ChoiceScript</em>(<a href="github.com/dfabulich/choicescript">github.com/dfabulich/choicescript</a>). Both Inkle and ChoiceScript are open source software. Inkle also has Unity 3d integration option by a plugin. As scripting languages, these are both textual in nature. This emphasizes the story logic and the story script is very concise. Both of these languages have clear syntaxes and are good for text-based game design when no structure visualization is required. </p>
       <table>
          <thead>
             <tr>
@@ -255,29 +254,20 @@
       <h2>Acknowledgment</h2>
       <p>This work was supported by European Union Regional Development Fund and the Leverage from the EU 2014-2020 programme.</p>
       <h2>References</h2>
-      <p class="ref">Berners-Lee, T., Hendler, J., &amp; Lassila, O. (2001). The Semantic Web. <em>Scientific American</em>, <em>284</em>(5), 34–43. https://doi.org/10.1038/scientificamerican0501-34</p>
+      <p class="ref">Berners-Lee, T., Hendler, J., &amp; Lassila, O. (2001). The Semantic Web. <em>Scientific American, 284</em>(5), 34–43. https://doi.org/10.1038/scientificamerican0501-34</p>
       <p class="ref">Boltman, A. (2001). <em>Children’s Storytelling Technologies: Differences in Elaboration and Recall. Dissertation</em>. Faculty of the Graduate School of the University of Maryland, Maryland.</p>
       <p class="ref">Çıralı, H., &amp; Usluel, Y. K. (2015). <em>A Descriptive Review Study about Digital Storytelling in Educational Context.</em> Presented at the 7th International Conference on Education and New Learning Technologies (EDULEARN15), Barcelona, Spain. Retrieved from https://www.researchgate.net/profile/Hatice_Cirali_Sarica/publication/284177441</p>
-      <p class="ref">Friedman, T. (1995). Making sense of software: Computer games and interactive textuality. In <em>Cybersociety</em>
-         <em>; Computer-Mediated Communication and Community.</em> Retrieved from https://www.researchgate.net/profile/Ted_Friedman/publication/277013129</p>
-      <p class="ref">Kalelioğlu, F. (2015). A new way of teaching programming skills to K-12 students: Code.org. <em>Computers in Human Behavior</em>, <em>52</em>, 200–210. https://doi.org/10.1016/j.chb.2015.05.047</p>
-      <p class="ref">Letonsaari, M., &amp; Selin, J. (2017). Modeling computational algorithms using nonlinear storytelling methods of computer game design. <em>Procedia Computer Science</em>, <em>119</em>, 131–138. https://doi.org/10.1016/j.procs.2017.11.169</p>
+      <p class="ref">Friedman, T. (1995). Making sense of software: Computer games and interactive textuality. In <em>Cybersociety; Computer-Mediated Communication and Community.</em> Retrieved from https://www.researchgate.net/profile/Ted_Friedman/publication/277013129</p>
+      <p class="ref">Kalelioğlu, F. (2015). A new way of teaching programming skills to K-12 students: Code.org. <em>Computers in Human Behavior, 52</em>, 200–210. https://doi.org/10.1016/j.chb.2015.05.047</p>
+      <p class="ref">Letonsaari, M., &amp; Selin, J. (2017). Modeling computational algorithms using nonlinear storytelling methods of computer game design. <em>Procedia Computer Science, 119</em>, 131–138. https://doi.org/10.1016/j.procs.2017.11.169</p>
       <p class="ref">Letonsaari, M., Selin, J., &amp; Lampi, M. (2019, May 14). <em>Co-creative Serious Games Design Process using Nonlinear Storyline Editing</em>. 582–588. https://doi.org/10.5220/0006320305820588</p>
-      <p class="ref">Leutenegger, S., &amp; Edgington, J. (2007). A games first approach to teaching introductory programming. <em>ACM SIGCSE Bulletin</em>, <em>39</em>(1), 115–118.</p>
-      <p class="ref">Liu, C.-C., Liu, K.-P., Chen, G.-D., &amp; Liu, B.-J. (2010). Children’s collaborative storytelling with linear and nonlinear approaches. <em>Procedia - Social and Behavioral Sciences</em>, <em>2</em>(2), 4787–4792. https://doi.org/10.1016/j.sbspro.2010.03.771</p>
-      <p class="ref">Tedre, M., &amp; Denning, P. J. (2016). The long quest for computational thinking. <em>Proceedings of the 16th </em>
-         <em>Koli</em>
-         <em> Calling International Conference on Computing Education Research</em>. https://doi.org/10.1145/2999541.2999542</p>
-      <p class="ref">Topalli, D., &amp; Cagiltay, N. E. (2018). Improving programming skills in engineering education through problem-based game projects with Scratch. <em>Computers &amp; Education</em>, <em>120</em>, 64–74. https://doi.org/10.1016/j.compedu.2018.01.011</p>
-      <p class="ref">Tran, K. M. (2016). “Her story was complex”: A Twine workshop for ten- to twelve-year-old girls. <em>E-Learning and Digital Media</em>, <em>13</em>(5–6), 212–226. https://doi.org/10.1177/2042753016689635</p>
-      <p class="ref">Viitanen, K., Harju, V., Niemi, H., &amp; Multisilta, J. (2014). Digitaalisentarinankerronnanmonetmahdollisuudet. In <em>Rajaton</em>
-         <em/>
-         <em>luokkahuone</em>
-         <em>. </em>
-         <em>Opetus</em>
-         <em> 2000</em> (pp. 187–211). Jyväskylä: PSkustannus.</p>
+      <p class="ref">Leutenegger, S., &amp; Edgington, J. (2007). A games first approach to teaching introductory programming. <em>ACM SIGCSE Bulletin, 39</em>(1), 115–118.</p>
+      <p class="ref">Liu, C.-C., Liu, K.-P., Chen, G.-D., &amp; Liu, B.-J. (2010). Children’s collaborative storytelling with linear and nonlinear approaches. <em>Procedia - Social and Behavioral Sciences, 2</em>(2), 4787–4792. https://doi.org/10.1016/j.sbspro.2010.03.771</p>
+      <p class="ref">Tedre, M., &amp; Denning, P. J. (2016). The long quest for computational thinking. <em>Proceedings of the 16th Koli Calling International Conference on Computing Education Research</em>. https://doi.org/10.1145/2999541.2999542</p>
+      <p class="ref">Topalli, D., &amp; Cagiltay, N. E. (2018). Improving programming skills in engineering education through problem-based game projects with Scratch. <em>Computers &amp; Education, 120</em>, 64–74. https://doi.org/10.1016/j.compedu.2018.01.011</p>
+      <p class="ref">Tran, K. M. (2016). “Her story was complex”: A Twine workshop for ten- to twelve-year-old girls. <em>E-Learning and Digital Media, 13</em>(5–6), 212–226. https://doi.org/10.1177/2042753016689635</p>
+      <p class="ref">Viitanen, K., Harju, V., Niemi, H., &amp; Multisilta, J. (2014). Digitaalisentarinankerronnanmonetmahdollisuudet. In <em>Rajatonluokkahuone. Opetus 2000</em> (pp. 187–211). Jyväskylä: PSkustannus.</p>
       <p class="ref">W3C. (2017). HTML 5.2, W3C Recommendation, 14 December 2017. Retrieved May 14, 2019, from https://www.w3.org/TR/html/</p>
-      <p class="ref">Wing, J. M. (2006). Computational Thinking. <em>Commun</em>
-         <em>. ACM</em>, <em>49</em>(3), 33–35. https://doi.org/10.1145/1118178.1118215</p>
+      <p class="ref">Wing, J. M. (2006). Computational Thinking. <em>Commun. ACM, 49</em>(3), 33–35. https://doi.org/10.1145/1118178.1118215</p>
    </body>
 </html>
