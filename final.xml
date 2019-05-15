@@ -14,9 +14,9 @@
          <dd>Email: <a href="mailto:mika.letonsaari@xamk.fi">mika.letonsaari@xamk.fi</a>
          </dd>
       </dl>
-      <section>
+      <section class="abstract">
          <h2>Abstract</h2>
-         <p class="abstract">Nonlinear storytelling is a method in digital storytelling where the storyline is not linear but has branches. This is typical for interactive stories such as computer game plots. In this study we present a review of nonlinear storytelling tools and educational computer game development software. Special attention is paid to usability, software licensing models, and integration with modern game engines. We present a pilot study where nonlinear stories (n = 14) were collected during a game development project. Participants were adults with low information technology skills and who were participating in an information technology training course intended for enhancing their employment opportunities. Collected stories are analyzed to show an example of what kind of content can be expected when nonlinear storytelling is used. In particular some common errors and misconceptions in nonlinear storytelling are explored. Usability of the collected stories in the context of game development is examined. These observations and findings can be used to develop storytelling process more meaningful to students and to harness the nonlinear storytelling method more effectively in education and educational game development.</p>
+         <p>Nonlinear storytelling is a method in digital storytelling where the storyline is not linear but has branches. This is typical for interactive stories such as computer game plots. In this study we present a review of nonlinear storytelling tools and educational computer game development software. Special attention is paid to usability, software licensing models, and integration with modern game engines. We present a pilot study where nonlinear stories (n = 14) were collected during a game development project. Participants were adults with low information technology skills and who were participating in an information technology training course intended for enhancing their employment opportunities. Collected stories are analyzed to show an example of what kind of content can be expected when nonlinear storytelling is used. In particular some common errors and misconceptions in nonlinear storytelling are explored. Usability of the collected stories in the context of game development is examined. These observations and findings can be used to develop storytelling process more meaningful to students and to harness the nonlinear storytelling method more effectively in education and educational game development.</p>
          <dl class="keywords">
             <dt>Keywords:</dt>
             <dd>digital storytelling</dd>
@@ -25,6 +25,7 @@
             <dd>storytelling software</dd>
          </dl>
       </section>
+      <!--"Abstract" END-->
       <section>
          <h2>Introduction</h2>
          <p>Storytelling has become a very popular method of education. In storytelling, the learner creates or tells a story that is related to the subject matter. Learner’s personal point of view connects the subject matter to a larger context. Storytelling as a learning method has many positive cognitive, social, and emotional benefits including improvement in language skills, concentration, imagination, comprehension, and critical thinking (Boltman 2001, pp. 17-18).</p>
@@ -52,6 +53,7 @@
          <p>In the research project an educational computer game was developed by information technology students and professionals. We wanted also to enable the participation of another group of adults who had very low information technology skills. The aim was to engage them in a computer game development, to empower them regarding the use of information technology, and to provide their non-information technology related expertise to the game development process (reference removed for the review). </p>
          <p>In this article the collected stories are analyzed in detail. We are interested in common technical problems that novice users have. Participant in this project had only a short introduction to nonlinear storytelling and limited help from their teacher as they continued their work after school hours. This method of study tries to uncover the critical learning challenges and possible misconceptions in nonlinear storytelling.</p>
       </section>
+      <!--"Introduction" END-->
       <section>
          <h2>Nonlinear storytelling software</h2>
          <p>Game plots can be understood as nonlinear stories or hypertext documents. There are many tools to produce such documents with internal hyperlinking. There also exists many types of game development processes from simple experimentations to complex professional projects. Therefore both the requirements of game development processes and the features available in tools must be considered when storytelling tools are chosen.</p>
@@ -65,17 +67,20 @@
          <p>The third requirement was chosen because we develop an educational software in an academic research project and it is important to be able to share the results. We also wanted to use external open source licensed resources and therefore open source licensing was a natural choice to avoid licensing problems and enable wide adoption.</p>
          <p>In the following, some of the basic types of nonlinear storytelling software are introduced. Different types of hyperlinking methods are explained and the software’s selected key features regarding game development are discussed.</p>
       </section>
+      <!--"Nonlinear storytelling software" END-->
       <section>
          <h2>Text editing</h2>
          <p>The simplest way to write nonlinear stories is to add references to a text file for internal linking. For this purpose, any text editor can be used. Notable examples of texts produced in this manner are encyclopedias with internal linking. There also exist gamified storybooks, for example, Choose Your Own Adventure book series (Friedman, 1995) which have numbered chapters. At the end of each chapter, there are usually choices given to the reader. For example, the text might say “<em>If you want to fight, jump to chapter number 13. If you want to run away, jump to chapter 85.</em>”</p>
          <p>A more advanced option is to use bookmarking and cross-referencing features in word processing or presentation software such as Microsoft Word, Microsoft PowerPoint, OpenOffice Writer, or OpenOffice Impress. This can be a good method in nonlinear storytelling for people who are familiar with word processing and presentation software. In addition gamification can also be used as an engaging method to teach the advanced features of office software.</p>
       </section>
+      <!--"Text editing" END-->
       <section>
          <h2>Hypertext and Wiki Software</h2>
          <p>For hypertext documents, Hypertext Markup Language (HTML) is the standard markup language, especially used in Internet WWW pages (Berners-Lee, 2001). Basic hyperlinking of documents with HTML language requires only a small subset of HTML language (W3C, 2017). Hyperlinking is created with A HREF attributes and some additional attributes are required for forming valid HTML documents. The biggest drawback for utilizing HTML language with novice users is the need for understanding files and file systems. Each passage in the nonlinear story must be stored in its own file. For example, in our project, students did not have the required skills in file handling, and this makes the task of using HTML difficult.</p>
          <p>Wiki software is an improvement in this matter as documents are stored in a database and the users do not need to manually manage them. Also, the markup language is simplified from HTML and users do not need to define document structure.</p>
          <p>There are several different Wiki software and also many open source options exist. Documents are computer readable and can be exported in simple formats. This makes Wiki documents a very simple and efficient tool for writing nonlinear stories. Using Wiki for writing also teaches Wiki markup to students so that they become familiar with how the online encyclopedia Wikipedia and other online Wiki resources work. </p>
       </section>
+      <!--"Hypertext and Wiki Software" END-->
       <section>
          <h2>Game-oriented software</h2>
          <p>There exist some game oriented software for nonlinear storytelling. These software have the advantage that they are designed for the purpose of writing game plots. They often have some means to control the story structure and maybe to visualize the story structure in a form of a flowchart. They often have features for a more complex game mechanics such as variables and scripting programming option. Let us review some of the most popular game oriented nonlinear writing tools.</p>
@@ -150,6 +155,7 @@
             </figcaption>
          </figure>
       </section>
+      <!--"Game-oriented software" END-->
       <section>
          <h2>Methods</h2>
          <p>An educational computer game was developed by university information technology students and professionals. To acquire content for the game, nonlinear stories were collected from a group of novice computer users. The group of adults (age 30-64 years) participated in a basic information technology training course intended for enhancing their employment opportunities.</p>
@@ -157,6 +163,7 @@
          <p>During a second learning session, the basic usage of nonlinear storytelling tool Twine was introduced to the students. Twine was selected for the project because it is an open source software and because it’s good integration with Unity 3d game engine.</p>
          <p>After the introduction, students were instructed to write a sample story on personal computers at the computer laboratory of the school. Students were able to continue their stories at home after the session. Submitting their story for the game development research project was voluntary and not everybody wanted to include their work in the game.</p>
       </section>
+      <!--"Methods" END-->
       <section>
          <h2>Results</h2>
          <p>Fourteen stories (n = 14) were submitted to the project. The default visualization of Story List view by Twine is presented in Figure 8. In this visualization, each circle presents one passage in the story. Size of the circles correlates with the amount of text in a passage. Colors are only for visual purposes. The overall structure of the story is also visually presented by positions of circles.</p>
@@ -205,6 +212,7 @@
          <p>It is worth noting that most of the stories were not finished completely. Out of the eleven stories that had more than one passage, only two had no unfinished passages. Some of the unfinished passages were story branches that were not written, but some were missing just the closure or the ending for the story.</p>
          <p>Three stories had extra passages that were not connected to the story. This is not an error or a problem but can tell something about the creative process of the story. Unconnected passages can tell for example about the editing of the story or experimentation with the story structure.</p>
       </section>
+      <!--"Results" END-->
       <section>
          <h2>Discussion and conclusions</h2>
          <p>In this article, nonlinear storytelling was introduced as a low-threshold method for co-creative educational game development. Some of the most important characteristic features of nonlinear stories were presented. Nonlinear stories can be seen as hypertext documents, interactive stories or game plots. These are all used in education in different contexts but there does not exist much research literature on the specific topic of creation of stories with nonlinear structure. </p>
@@ -220,27 +228,30 @@
          <p>This study was a small scale pilot study to better understand nonlinear storytelling process and to increase understanding of how to implement nonlinear storytelling in education. In our future work we will develop teaching methods and materials for nonlinear storytelling in education based on the findings of this study. More research is needed to identify the special features and possible applications of nonlinear storytelling in education. This study will provide some guidance for designing these studies.</p>
          <p>Most of the storytelling tools reviewed were open source licensed software. This allows the modification of software. In our future work, we plan to further modify some of the software features to answer the requirements of educational use. These modifications will include features such as enabling better co-creative processes through sharing and remixing stories.</p>
       </section>
-      <section>
+      <!--"Discussion and conclusions" END-->
+      <section class="acknowledgements">
          <h2>Acknowledgment</h2>
          <p>This work was supported by European Union Regional Development Fund and the Leverage from the EU 2014-2020 programme.</p>
       </section>
-      <section>
+      <!--"Acknowledgment" END-->
+      <section class="references">
          <h2>References</h2>
-         <p class="ref">Berners-Lee, T., Hendler, J., &amp; Lassila, O. (2001). The Semantic Web. <em>Scientific American, 284</em>(5), 34–43. https://doi.org/10.1038/scientificamerican0501-34</p>
-         <p class="ref">Boltman, A. (2001). <em>Children’s Storytelling Technologies: Differences in Elaboration and Recall. Dissertation</em>. Faculty of the Graduate School of the University of Maryland, Maryland.</p>
-         <p class="ref">Çıralı, H., &amp; Usluel, Y. K. (2015). <em>A Descriptive Review Study about Digital Storytelling in Educational Context.</em> Presented at the 7th International Conference on Education and New Learning Technologies (EDULEARN15), Barcelona, Spain. Retrieved from https://www.researchgate.net/profile/Hatice_Cirali_Sarica/publication/284177441</p>
-         <p class="ref">Friedman, T. (1995). Making sense of software: Computer games and interactive textuality. In <em>Cybersociety; Computer-Mediated Communication and Community.</em> Retrieved from https://www.researchgate.net/profile/Ted_Friedman/publication/277013129</p>
-         <p class="ref">Kalelioğlu, F. (2015). A new way of teaching programming skills to K-12 students: Code.org. <em>Computers in Human Behavior, 52</em>, 200–210. https://doi.org/10.1016/j.chb.2015.05.047</p>
-         <p class="ref">Letonsaari, M., &amp; Selin, J. (2017). Modeling computational algorithms using nonlinear storytelling methods of computer game design. <em>Procedia Computer Science, 119</em>, 131–138. https://doi.org/10.1016/j.procs.2017.11.169</p>
-         <p class="ref">Letonsaari, M., Selin, J., &amp; Lampi, M. (2019, May 14). <em>Co-creative Serious Games Design Process using Nonlinear Storyline Editing</em>. 582–588. https://doi.org/10.5220/0006320305820588</p>
-         <p class="ref">Leutenegger, S., &amp; Edgington, J. (2007). A games first approach to teaching introductory programming. <em>ACM SIGCSE Bulletin, 39</em>(1), 115–118.</p>
-         <p class="ref">Liu, C.-C., Liu, K.-P., Chen, G.-D., &amp; Liu, B.-J. (2010). Children’s collaborative storytelling with linear and nonlinear approaches. <em>Procedia - Social and Behavioral Sciences, 2</em>(2), 4787–4792. https://doi.org/10.1016/j.sbspro.2010.03.771</p>
-         <p class="ref">Tedre, M., &amp; Denning, P. J. (2016). The long quest for computational thinking. <em>Proceedings of the 16th Koli Calling International Conference on Computing Education Research</em>. https://doi.org/10.1145/2999541.2999542</p>
-         <p class="ref">Topalli, D., &amp; Cagiltay, N. E. (2018). Improving programming skills in engineering education through problem-based game projects with Scratch. <em>Computers &amp; Education, 120</em>, 64–74. https://doi.org/10.1016/j.compedu.2018.01.011</p>
-         <p class="ref">Tran, K. M. (2016). “Her story was complex”: A Twine workshop for ten- to twelve-year-old girls. <em>E-Learning and Digital Media, 13</em>(5–6), 212–226. https://doi.org/10.1177/2042753016689635</p>
-         <p class="ref">Viitanen, K., Harju, V., Niemi, H., &amp; Multisilta, J. (2014). Digitaalisentarinankerronnanmonetmahdollisuudet. In <em>Rajatonluokkahuone. Opetus 2000</em> (pp. 187–211). Jyväskylä: PSkustannus.</p>
-         <p class="ref">W3C. (2017). HTML 5.2, W3C Recommendation, 14 December 2017. Retrieved May 14, 2019, from https://www.w3.org/TR/html/</p>
-         <p class="ref">Wing, J. M. (2006). Computational Thinking. <em>Commun. ACM, 49</em>(3), 33–35. https://doi.org/10.1145/1118178.1118215</p>
+         <p>Berners-Lee, T., Hendler, J., &amp; Lassila, O. (2001). The Semantic Web. <em>Scientific American, 284</em>(5), 34–43. https://doi.org/10.1038/scientificamerican0501-34</p>
+         <p>Boltman, A. (2001). <em>Children’s Storytelling Technologies: Differences in Elaboration and Recall. Dissertation</em>. Faculty of the Graduate School of the University of Maryland, Maryland.</p>
+         <p>Çıralı, H., &amp; Usluel, Y. K. (2015). <em>A Descriptive Review Study about Digital Storytelling in Educational Context.</em> Presented at the 7th International Conference on Education and New Learning Technologies (EDULEARN15), Barcelona, Spain. Retrieved from https://www.researchgate.net/profile/Hatice_Cirali_Sarica/publication/284177441</p>
+         <p>Friedman, T. (1995). Making sense of software: Computer games and interactive textuality. In <em>Cybersociety; Computer-Mediated Communication and Community.</em> Retrieved from https://www.researchgate.net/profile/Ted_Friedman/publication/277013129</p>
+         <p>Kalelioğlu, F. (2015). A new way of teaching programming skills to K-12 students: Code.org. <em>Computers in Human Behavior, 52</em>, 200–210. https://doi.org/10.1016/j.chb.2015.05.047</p>
+         <p>Letonsaari, M., &amp; Selin, J. (2017). Modeling computational algorithms using nonlinear storytelling methods of computer game design. <em>Procedia Computer Science, 119</em>, 131–138. https://doi.org/10.1016/j.procs.2017.11.169</p>
+         <p>Letonsaari, M., Selin, J., &amp; Lampi, M. (2019, May 14). <em>Co-creative Serious Games Design Process using Nonlinear Storyline Editing</em>. 582–588. https://doi.org/10.5220/0006320305820588</p>
+         <p>Leutenegger, S., &amp; Edgington, J. (2007). A games first approach to teaching introductory programming. <em>ACM SIGCSE Bulletin, 39</em>(1), 115–118.</p>
+         <p>Liu, C.-C., Liu, K.-P., Chen, G.-D., &amp; Liu, B.-J. (2010). Children’s collaborative storytelling with linear and nonlinear approaches. <em>Procedia - Social and Behavioral Sciences, 2</em>(2), 4787–4792. https://doi.org/10.1016/j.sbspro.2010.03.771</p>
+         <p>Tedre, M., &amp; Denning, P. J. (2016). The long quest for computational thinking. <em>Proceedings of the 16th Koli Calling International Conference on Computing Education Research</em>. https://doi.org/10.1145/2999541.2999542</p>
+         <p>Topalli, D., &amp; Cagiltay, N. E. (2018). Improving programming skills in engineering education through problem-based game projects with Scratch. <em>Computers &amp; Education, 120</em>, 64–74. https://doi.org/10.1016/j.compedu.2018.01.011</p>
+         <p>Tran, K. M. (2016). “Her story was complex”: A Twine workshop for ten- to twelve-year-old girls. <em>E-Learning and Digital Media, 13</em>(5–6), 212–226. https://doi.org/10.1177/2042753016689635</p>
+         <p>Viitanen, K., Harju, V., Niemi, H., &amp; Multisilta, J. (2014). Digitaalisentarinankerronnanmonetmahdollisuudet. In <em>Rajatonluokkahuone. Opetus 2000</em> (pp. 187–211). Jyväskylä: PSkustannus.</p>
+         <p>W3C. (2017). HTML 5.2, W3C Recommendation, 14 December 2017. Retrieved May 14, 2019, from https://www.w3.org/TR/html/</p>
+         <p>Wing, J. M. (2006). Computational Thinking. <em>Commun. ACM, 49</em>(3), 33–35. https://doi.org/10.1145/1118178.1118215</p>
       </section>
+      <!--"References" END-->
    </body>
 </html>

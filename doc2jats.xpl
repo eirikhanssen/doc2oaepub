@@ -53,6 +53,8 @@
     <d2j:cleanup/>
     
     <d2j:group-h2-sections/> 
+
+    <d2j:add-classes-to-sections/>
     
     <d2j:html-head/>
    

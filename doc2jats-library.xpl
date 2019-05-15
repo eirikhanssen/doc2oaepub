@@ -1101,5 +1101,49 @@
         
         <p:identity/>
     </p:declare-step>
-    
+
+    <p:declare-step type="d2j:add-classes-to-sections" name="add-classes-to-sections">
+        <p:output port="result" sequence="true"/>
+        <p:serialization port="result" indent="true" method="xml" omit-xml-declaration="true"/>
+        <p:input port="source"/>
+        <p:input port="parameters" kind="parameter" sequence="true"/>
+       
+        <p:add-attribute match="section[p[matches(@class,'ref')]]" attribute-name="class" attribute-value="references"/>
+        <p:add-attribute match="section[h2[matches(.,'Ackno')]]" attribute-name="class" attribute-value="acknowledgements"/>
+        <p:add-attribute match="section[p[matches(@class,'abstract')]]" attribute-name="class" attribute-value="abstract"/>
+        
+        <p:delete match="section[@class='references']/p/@class[matches(.,'^ref$')]"></p:delete>
+        <p:delete match="section[@class='abstract']/p/@class[matches(.,'^abstract')]"></p:delete>
+
+        <p:xslt version="2.0">
+            <p:input port="source"/>
+            <p:input port="parameters"><p:empty/></p:input>
+            <p:input port="stylesheet">
+                <p:inline>
+                    <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="2.0"
+                        xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                        xmlns:pkg="http://schemas.microsoft.com/office/2006/xmlPackage"
+                        xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"
+                        xmlns:f="https://eirikhanssen.com/ns/doc2jats-functions"
+                        xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing"
+                        xmlns:d2j="http://eirikhanssen.no/doc2jats"
+                        exclude-result-prefixes="xs f w pkg wp d2j">
+                        <xsl:import href="doc2jats-functions.xsl"/>
+                        
+                        <xsl:template match="section">
+                            <xsl:copy>
+                                <xsl:apply-templates select="@*|node()"/>
+                            </xsl:copy>
+                            <xsl:comment><xsl:text>"</xsl:text><xsl:value-of select="h2[1]/text()"/><xsl:text>" END</xsl:text></xsl:comment>
+                        </xsl:template>
+                        
+                    </xsl:stylesheet>
+                </p:inline>
+            </p:input>
+        </p:xslt>
+       
+        <p:identity name="final"/>
+        
+    </p:declare-step>
+
 </p:library>
