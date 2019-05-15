@@ -1212,4 +1212,39 @@
 
     </p:declare-step>
 
+    <p:declare-step type="d2j:delete-empty-elements" name="delete-empty-elements" 
+        xmlns:d2j="http://eirikhanssen.no/doc2jats"
+        xmlns:pkg="http://schemas.microsoft.com/office/2006/xmlPackage"
+        xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"
+        xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing"
+        exclude-inline-prefixes="d2j pkg w wp">
+        <p:output port="result" sequence="true"/>
+        <p:serialization port="result" indent="true" method="xml" omit-xml-declaration="true"/>
+        <p:input port="source"/>
+        <p:input port="parameters" kind="parameter" sequence="true"/>
+        
+        <p:delete match="p[not(descendant::text())]"/>
+
+        <p:xslt version="2.0">
+            <p:input port="source"/>
+            <p:input port="parameters"><p:empty/></p:input>
+            <p:input port="stylesheet">
+                <p:inline>
+                    <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="2.0"
+                        xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                        exclude-result-prefixes="xs">
+                        <xsl:import href="doc2jats-functions.xsl"/>
+                        
+                        <!-- replace empty formatting with a space -->
+                        <xsl:template match="(em|strong|sub|sup)[not(descendant::text())]"><xsl:text> </xsl:text></xsl:template>
+                        
+                    </xsl:stylesheet>
+                </p:inline>
+            </p:input>
+        </p:xslt>
+
+        <p:identity name="final"/>
+        
+    </p:declare-step>
+
 </p:library>

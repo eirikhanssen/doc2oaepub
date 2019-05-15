@@ -63,6 +63,8 @@
     <d2j:html-head/>
    
     <d2j:header-and-skiplinks/>
+    
+    <d2j:delete-empty-elements/>
    
     <p:identity name="final"/>
     
