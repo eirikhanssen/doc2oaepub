@@ -32,7 +32,7 @@
              xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"
              xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing">
    <env>
-      <folder>/home/hanson/projects/doc2jats/samples/Jenny-Niu_Hannele-Niemi.docx-20190515-152151</folder>
+      <folder>/home/hanson/projects/doc2jats/samples/Jenny-Niu_Hannele-Niemi.docx-20190515-225335</folder>
    </env>
    <pkg:part pkg_name="/_rels/.rels">
       <pkg:xmlData>
@@ -62,7 +62,7 @@
                           TargetMode="External"/>
             <Relationship Id="rId26"
                           Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink"
-                          Target="https://doi.org/10.1111/bjet.12540"
+                          Target="https://doi.org/10.1002/trtr.1273"
                           TargetMode="External"/>
             <Relationship Id="rId3"
                           Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/settings"
@@ -72,8 +72,8 @@
                           Target="https://doi.org/10.2753/RPO1061-0405470602"
                           TargetMode="External"/>
             <Relationship Id="rId34"
-                          Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/theme"
-                          Target="theme/theme1.xml"/>
+                          Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/footer"
+                          Target="footer2.xml"/>
             <Relationship Id="rId7"
                           Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink"
                           Target="mailto:jenny.niu@helsinki.fi"
@@ -88,11 +88,11 @@
                           TargetMode="External"/>
             <Relationship Id="rId25"
                           Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink"
-                          Target="https://doi.org/10.1002/trtr.1273"
+                          Target="https://doi.org/10.1002/nur.4770180411"
                           TargetMode="External"/>
             <Relationship Id="rId33"
-                          Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/fontTable"
-                          Target="fontTable.xml"/>
+                          Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/header"
+                          Target="header2.xml"/>
             <Relationship Id="rId2"
                           Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/styles"
                           Target="styles.xml"/>
@@ -105,8 +105,9 @@
                           Target="https://doi.org/10.1080/1475939X.2015.1074610"
                           TargetMode="External"/>
             <Relationship Id="rId29"
-                          Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/header"
-                          Target="header1.xml"/>
+                          Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink"
+                          Target="https://doi.org/10.1007/s10648-010-9127-6"
+                          TargetMode="External"/>
             <Relationship Id="rId1"
                           Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/numbering"
                           Target="numbering.xml"/>
@@ -119,11 +120,11 @@
                           TargetMode="External"/>
             <Relationship Id="rId24"
                           Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink"
-                          Target="https://doi.org/10.1002/nur.4770180411"
+                          Target="https://doi.org/10.1007/s11423-008-9091-8"
                           TargetMode="External"/>
             <Relationship Id="rId32"
                           Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/footer"
-                          Target="footer2.xml"/>
+                          Target="footer1.xml"/>
             <Relationship Id="rId5"
                           Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/footnotes"
                           Target="footnotes.xml"/>
@@ -133,12 +134,15 @@
                           TargetMode="External"/>
             <Relationship Id="rId23"
                           Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink"
-                          Target="https://doi.org/10.1007/s11423-008-9091-8"
+                          Target="https://doi.org/10.1002/ace.370"
                           TargetMode="External"/>
             <Relationship Id="rId28"
                           Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink"
-                          Target="https://doi.org/10.1007/s10648-010-9127-6"
+                          Target="https://doi.org/10.1080/00048623.2014.951114"
                           TargetMode="External"/>
+            <Relationship Id="rId36"
+                          Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/theme"
+                          Target="theme/theme1.xml"/>
             <Relationship Id="rId10"
                           Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink"
                           Target="https://doi.org/10.1016/0362-3319(91)90003-M"
@@ -149,7 +153,7 @@
                           TargetMode="External"/>
             <Relationship Id="rId31"
                           Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/header"
-                          Target="header2.xml"/>
+                          Target="header1.xml"/>
             <Relationship Id="rId4"
                           Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/webSettings"
                           Target="webSettings.xml"/>
@@ -163,15 +167,19 @@
                           TargetMode="External"/>
             <Relationship Id="rId22"
                           Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink"
-                          Target="https://doi.org/10.1002/ace.370"
+                          Target="https://doi.org/10.4324/9781315759616.ch43"
                           TargetMode="External"/>
             <Relationship Id="rId27"
                           Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink"
-                          Target="https://doi.org/10.1080/00048623.2014.951114"
+                          Target="https://doi.org/10.1111/bjet.12540"
                           TargetMode="External"/>
             <Relationship Id="rId30"
-                          Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/footer"
-                          Target="footer1.xml"/>
+                          Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink"
+                          Target="https://journals.hioa.no/index.php/seminar/article/view/2306"
+                          TargetMode="External"/>
+            <Relationship Id="rId35"
+                          Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/fontTable"
+                          Target="fontTable.xml"/>
             <Relationship Id="rId8"
                           Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink"
                           Target="mailto:hannele.niemi@helsinki.fi"
@@ -183,13 +191,13 @@
       <pkg:xmlData>
          <Properties xmlns="http://schemas.openxmlformats.org/officeDocument/2006/extended-properties">
             <Template>seminar-template-sans-serif</Template>
-            <TotalTime>11</TotalTime>
+            <TotalTime>15</TotalTime>
             <Pages>26</Pages>
-            <Words>7951</Words>
-            <Characters>45325</Characters>
+            <Words>7973</Words>
+            <Characters>45452</Characters>
             <Application>Microsoft Office Word</Application>
             <DocSecurity>0</DocSecurity>
-            <Lines>377</Lines>
+            <Lines>378</Lines>
             <Paragraphs>106</Paragraphs>
             <ScaleCrop>false</ScaleCrop>
             <HeadingPairs>
@@ -217,7 +225,7 @@
             <Manager/>
             <Company/>
             <LinksUpToDate>false</LinksUpToDate>
-            <CharactersWithSpaces>53170</CharactersWithSpaces>
+            <CharactersWithSpaces>53319</CharactersWithSpaces>
             <SharedDoc>false</SharedDoc>
             <HyperlinkBase/>
             <HLinks>
@@ -260,10 +268,10 @@
             <cp:keywords/>
             <dc:description/>
             <cp:lastModifiedBy>eirikh</cp:lastModifiedBy>
-            <cp:revision>11</cp:revision>
-            <cp:lastPrinted>2019-05-14T11:08:00Z</cp:lastPrinted>
+            <cp:revision>13</cp:revision>
+            <cp:lastPrinted>2019-05-15T13:29:00Z</cp:lastPrinted>
             <dcterms:created xsi:type="dcterms:W3CDTF">2019-05-14T11:08:00Z</dcterms:created>
-            <dcterms:modified xsi:type="dcterms:W3CDTF">2019-05-15T09:19:00Z</dcterms:modified>
+            <dcterms:modified xsi:type="dcterms:W3CDTF">2019-05-15T13:57:00Z</dcterms:modified>
             <cp:category/>
          </cp:coreProperties>
       </pkg:xmlData>
@@ -299,7 +307,7 @@
                   </w:r>
                </w:p>
                <w:p w14:paraId="5E4C3007"
-                    w14:textId="77777777"
+                    w14:textId="5DB9FCAA"
                     w:rsidR="00DA0EE7"
                     w:rsidRDefault="00DA0EE7"
                     w:rsidP="007B1960">
@@ -317,11 +325,9 @@
                   <w:r>
                      <w:t xml:space="preserve"> </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
-                  <w:r>
-                     <w:t>og</w:t>
+                  <w:r w:rsidR="00AC0C3F">
+                     <w:t>and</w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
                   <w:r>
                      <w:t xml:space="preserve"> </w:t>
                   </w:r>
@@ -380,8 +386,6 @@
                         <w:t>jenny.niu@helsinki.fi</w:t>
                      </w:r>
                   </w:hyperlink>
-                  <w:bookmarkStart w:id="0" w:name="_GoBack"/>
-                  <w:bookmarkEnd w:id="0"/>
                   <w:r w:rsidR="007B1960">
                      <w:t xml:space="preserve"> </w:t>
                   </w:r>
@@ -8657,7 +8661,7 @@
                   </w:r>
                </w:p>
                <w:p w14:paraId="5221FA0D"
-                    w14:textId="77777777"
+                    w14:textId="0B2475F5"
                     w:rsidR="00DA0EE7"
                     w:rsidRPr="00DF4C27"
                     w:rsidRDefault="00DA0EE7"
@@ -8677,14 +8681,19 @@
                   <w:r w:rsidRPr="00DF4C27">
                      <w:t xml:space="preserve"> New York: Lawrence Erlbaum Associates. </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellStart"/>
-                  <w:r w:rsidRPr="00DF4C27">
-                     <w:t>doi</w:t>
+                  <w:hyperlink r:id="rId22" w:history="1">
+                     <w:r w:rsidR="001E3980" w:rsidRPr="00116592">
+                        <w:rPr>
+                           <w:rStyle w:val="Hyperlink"/>
+                        </w:rPr>
+                        <w:t>https://doi.org/10.4324/9781315759616.ch43</w:t>
+                     </w:r>
+                  </w:hyperlink>
+                  <w:r w:rsidR="001E3980">
+                     <w:t xml:space="preserve"> </w:t>
                   </w:r>
-                  <w:proofErr w:type="spellEnd"/>
-                  <w:r w:rsidRPr="00DF4C27">
-                     <w:t>: 10.4324/9781315759616.ch43</w:t>
-                  </w:r>
+                  <w:bookmarkStart w:id="0" w:name="_GoBack"/>
+                  <w:bookmarkEnd w:id="0"/>
                </w:p>
                <w:p w14:paraId="7C829DA9"
                     w14:textId="5C0D12CE"
@@ -8710,7 +8719,7 @@
                   <w:r w:rsidR="00261690">
                      <w:t xml:space="preserve"> </w:t>
                   </w:r>
-                  <w:hyperlink r:id="rId22" w:history="1">
+                  <w:hyperlink r:id="rId23" w:history="1">
                      <w:r w:rsidR="00261690" w:rsidRPr="00070EB2">
                         <w:rPr>
                            <w:rStyle w:val="Hyperlink"/>
@@ -8752,7 +8761,7 @@
                   <w:r w:rsidR="00261690">
                      <w:t xml:space="preserve"> </w:t>
                   </w:r>
-                  <w:hyperlink r:id="rId23" w:history="1">
+                  <w:hyperlink r:id="rId24" w:history="1">
                      <w:r w:rsidR="00261690" w:rsidRPr="00070EB2">
                         <w:rPr>
                            <w:rStyle w:val="Hyperlink"/>
@@ -8793,7 +8802,7 @@
                   <w:r w:rsidR="00261690">
                      <w:t xml:space="preserve"> </w:t>
                   </w:r>
-                  <w:hyperlink r:id="rId24" w:history="1">
+                  <w:hyperlink r:id="rId25" w:history="1">
                      <w:r w:rsidR="00261690" w:rsidRPr="00070EB2">
                         <w:rPr>
                            <w:rStyle w:val="Hyperlink"/>
@@ -8837,7 +8846,7 @@
                   <w:r w:rsidR="00261690">
                      <w:t xml:space="preserve"> </w:t>
                   </w:r>
-                  <w:hyperlink r:id="rId25" w:history="1">
+                  <w:hyperlink r:id="rId26" w:history="1">
                      <w:r w:rsidR="00261690" w:rsidRPr="00070EB2">
                         <w:rPr>
                            <w:rStyle w:val="Hyperlink"/>
@@ -8878,7 +8887,7 @@
                   <w:r w:rsidRPr="00DF4C27">
                      <w:t xml:space="preserve">(5), 1164-1175. </w:t>
                   </w:r>
-                  <w:hyperlink r:id="rId26" w:history="1">
+                  <w:hyperlink r:id="rId27" w:history="1">
                      <w:r w:rsidR="00261690" w:rsidRPr="00070EB2">
                         <w:rPr>
                            <w:rStyle w:val="Hyperlink"/>
@@ -8935,7 +8944,7 @@
                   <w:r w:rsidR="00261690">
                      <w:t xml:space="preserve"> </w:t>
                   </w:r>
-                  <w:hyperlink r:id="rId27" w:history="1">
+                  <w:hyperlink r:id="rId28" w:history="1">
                      <w:r w:rsidR="00261690" w:rsidRPr="00070EB2">
                         <w:rPr>
                            <w:rStyle w:val="Hyperlink"/>
@@ -9092,7 +9101,7 @@
                   <w:r>
                      <w:t xml:space="preserve"> </w:t>
                   </w:r>
-                  <w:hyperlink r:id="rId28" w:history="1">
+                  <w:hyperlink r:id="rId29" w:history="1">
                      <w:r w:rsidR="00261690" w:rsidRPr="00070EB2">
                         <w:rPr>
                            <w:rStyle w:val="Hyperlink"/>
@@ -9134,7 +9143,7 @@
                   </w:r>
                </w:p>
                <w:p w14:paraId="3A9816F7"
-                    w14:textId="77777777"
+                    w14:textId="23F922DF"
                     w:rsidR="00DA0EE7"
                     w:rsidRDefault="00DA0EE7"
                     w:rsidP="0089711F">
@@ -9157,7 +9166,18 @@
                      <w:t>Seminar.net: Media, Technology &amp; Lifelong Learning.</w:t>
                   </w:r>
                   <w:r>
-                     <w:t xml:space="preserve"> https://journals.hioa.no/index.php/seminar/article/view/2306.</w:t>
+                     <w:t xml:space="preserve"> </w:t>
+                  </w:r>
+                  <w:hyperlink r:id="rId30" w:history="1">
+                     <w:r w:rsidR="001E3980" w:rsidRPr="00116592">
+                        <w:rPr>
+                           <w:rStyle w:val="Hyperlink"/>
+                        </w:rPr>
+                        <w:t>https://journals.hioa.no/index.php/seminar/article/view/2306</w:t>
+                     </w:r>
+                  </w:hyperlink>
+                  <w:r w:rsidR="001E3980">
+                     <w:t>.</w:t>
                   </w:r>
                </w:p>
                <w:p w14:paraId="77B5E59B"
@@ -9243,10 +9263,10 @@
                   </w:r>
                </w:p>
                <w:sectPr w:rsidR="00DA0EE7" w:rsidRPr="002812F1" w:rsidSect="001B1D61">
-                  <w:headerReference w:type="default" r:id="rId29"/>
-                  <w:footerReference w:type="default" r:id="rId30"/>
-                  <w:headerReference w:type="first" r:id="rId31"/>
-                  <w:footerReference w:type="first" r:id="rId32"/>
+                  <w:headerReference w:type="default" r:id="rId31"/>
+                  <w:footerReference w:type="default" r:id="rId32"/>
+                  <w:headerReference w:type="first" r:id="rId33"/>
+                  <w:footerReference w:type="first" r:id="rId34"/>
                   <w:endnotePr>
                      <w:numFmt w:val="decimal"/>
                   </w:endnotePr>
@@ -9341,6 +9361,7 @@
                <w:rsid w:val="001A59C8"/>
                <w:rsid w:val="001B1D61"/>
                <w:rsid w:val="001C7167"/>
+               <w:rsid w:val="001E3980"/>
                <w:rsid w:val="001F535C"/>
                <w:rsid w:val="00224E0F"/>
                <w:rsid w:val="002445FF"/>
@@ -9381,6 +9402,7 @@
                <w:rsid w:val="009F723E"/>
                <w:rsid w:val="00A372FD"/>
                <w:rsid w:val="00A45553"/>
+               <w:rsid w:val="00AC0C3F"/>
                <w:rsid w:val="00AC48AD"/>
                <w:rsid w:val="00AD401F"/>
                <w:rsid w:val="00AF4BF3"/>
@@ -9444,527 +9466,101 @@
          </w:settings>
       </pkg:xmlData>
    </pkg:part>
-   <pkg:part pkg_name="/word/theme/theme1.xml">
+   <pkg:part pkg_name="/word/footer2.xml">
       <pkg:xmlData>
-         <a:theme xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main"
-                  name="Office-tema">
-            <a:themeElements>
-               <a:clrScheme name="Office">
-                  <a:dk1>
-                     <a:sysClr val="windowText" lastClr="000000"/>
-                  </a:dk1>
-                  <a:lt1>
-                     <a:sysClr val="window" lastClr="FFFFFF"/>
-                  </a:lt1>
-                  <a:dk2>
-                     <a:srgbClr val="1F497D"/>
-                  </a:dk2>
-                  <a:lt2>
-                     <a:srgbClr val="EEECE1"/>
-                  </a:lt2>
-                  <a:accent1>
-                     <a:srgbClr val="4F81BD"/>
-                  </a:accent1>
-                  <a:accent2>
-                     <a:srgbClr val="C0504D"/>
-                  </a:accent2>
-                  <a:accent3>
-                     <a:srgbClr val="9BBB59"/>
-                  </a:accent3>
-                  <a:accent4>
-                     <a:srgbClr val="8064A2"/>
-                  </a:accent4>
-                  <a:accent5>
-                     <a:srgbClr val="4BACC6"/>
-                  </a:accent5>
-                  <a:accent6>
-                     <a:srgbClr val="F79646"/>
-                  </a:accent6>
-                  <a:hlink>
-                     <a:srgbClr val="0000FF"/>
-                  </a:hlink>
-                  <a:folHlink>
-                     <a:srgbClr val="800080"/>
-                  </a:folHlink>
-               </a:clrScheme>
-               <a:fontScheme name="Office">
-                  <a:majorFont>
-                     <a:latin typeface="Cambria"/>
-                     <a:ea typeface=""/>
-                     <a:cs typeface=""/>
-                     <a:font script="Jpan" typeface="ＭＳ ゴシック"/>
-                     <a:font script="Hang" typeface="맑은 고딕"/>
-                     <a:font script="Hans" typeface="宋体"/>
-                     <a:font script="Hant" typeface="新細明體"/>
-                     <a:font script="Arab" typeface="Times New Roman"/>
-                     <a:font script="Hebr" typeface="Times New Roman"/>
-                     <a:font script="Thai" typeface="Angsana New"/>
-                     <a:font script="Ethi" typeface="Nyala"/>
-                     <a:font script="Beng" typeface="Vrinda"/>
-                     <a:font script="Gujr" typeface="Shruti"/>
-                     <a:font script="Khmr" typeface="MoolBoran"/>
-                     <a:font script="Knda" typeface="Tunga"/>
-                     <a:font script="Guru" typeface="Raavi"/>
-                     <a:font script="Cans" typeface="Euphemia"/>
-                     <a:font script="Cher" typeface="Plantagenet Cherokee"/>
-                     <a:font script="Yiii" typeface="Microsoft Yi Baiti"/>
-                     <a:font script="Tibt" typeface="Microsoft Himalaya"/>
-                     <a:font script="Thaa" typeface="MV Boli"/>
-                     <a:font script="Deva" typeface="Mangal"/>
-                     <a:font script="Telu" typeface="Gautami"/>
-                     <a:font script="Taml" typeface="Latha"/>
-                     <a:font script="Syrc" typeface="Estrangelo Edessa"/>
-                     <a:font script="Orya" typeface="Kalinga"/>
-                     <a:font script="Mlym" typeface="Kartika"/>
-                     <a:font script="Laoo" typeface="DokChampa"/>
-                     <a:font script="Sinh" typeface="Iskoola Pota"/>
-                     <a:font script="Mong" typeface="Mongolian Baiti"/>
-                     <a:font script="Viet" typeface="Times New Roman"/>
-                     <a:font script="Uigh" typeface="Microsoft Uighur"/>
-                  </a:majorFont>
-                  <a:minorFont>
-                     <a:latin typeface="Calibri"/>
-                     <a:ea typeface=""/>
-                     <a:cs typeface=""/>
-                     <a:font script="Jpan" typeface="ＭＳ 明朝"/>
-                     <a:font script="Hang" typeface="맑은 고딕"/>
-                     <a:font script="Hans" typeface="宋体"/>
-                     <a:font script="Hant" typeface="新細明體"/>
-                     <a:font script="Arab" typeface="Arial"/>
-                     <a:font script="Hebr" typeface="Arial"/>
-                     <a:font script="Thai" typeface="Cordia New"/>
-                     <a:font script="Ethi" typeface="Nyala"/>
-                     <a:font script="Beng" typeface="Vrinda"/>
-                     <a:font script="Gujr" typeface="Shruti"/>
-                     <a:font script="Khmr" typeface="DaunPenh"/>
-                     <a:font script="Knda" typeface="Tunga"/>
-                     <a:font script="Guru" typeface="Raavi"/>
-                     <a:font script="Cans" typeface="Euphemia"/>
-                     <a:font script="Cher" typeface="Plantagenet Cherokee"/>
-                     <a:font script="Yiii" typeface="Microsoft Yi Baiti"/>
-                     <a:font script="Tibt" typeface="Microsoft Himalaya"/>
-                     <a:font script="Thaa" typeface="MV Boli"/>
-                     <a:font script="Deva" typeface="Mangal"/>
-                     <a:font script="Telu" typeface="Gautami"/>
-                     <a:font script="Taml" typeface="Latha"/>
-                     <a:font script="Syrc" typeface="Estrangelo Edessa"/>
-                     <a:font script="Orya" typeface="Kalinga"/>
-                     <a:font script="Mlym" typeface="Kartika"/>
-                     <a:font script="Laoo" typeface="DokChampa"/>
-                     <a:font script="Sinh" typeface="Iskoola Pota"/>
-                     <a:font script="Mong" typeface="Mongolian Baiti"/>
-                     <a:font script="Viet" typeface="Arial"/>
-                     <a:font script="Uigh" typeface="Microsoft Uighur"/>
-                  </a:minorFont>
-               </a:fontScheme>
-               <a:fmtScheme name="Office">
-                  <a:fillStyleLst>
-                     <a:solidFill>
-                        <a:schemeClr val="phClr"/>
-                     </a:solidFill>
-                     <a:gradFill rotWithShape="1">
-                        <a:gsLst>
-                           <a:gs pos="0">
-                              <a:schemeClr val="phClr">
-                                 <a:tint val="50000"/>
-                                 <a:satMod val="300000"/>
-                              </a:schemeClr>
-                           </a:gs>
-                           <a:gs pos="35000">
-                              <a:schemeClr val="phClr">
-                                 <a:tint val="37000"/>
-                                 <a:satMod val="300000"/>
-                              </a:schemeClr>
-                           </a:gs>
-                           <a:gs pos="100000">
-                              <a:schemeClr val="phClr">
-                                 <a:tint val="15000"/>
-                                 <a:satMod val="350000"/>
-                              </a:schemeClr>
-                           </a:gs>
-                        </a:gsLst>
-                        <a:lin ang="16200000" scaled="1"/>
-                     </a:gradFill>
-                     <a:gradFill rotWithShape="1">
-                        <a:gsLst>
-                           <a:gs pos="0">
-                              <a:schemeClr val="phClr">
-                                 <a:shade val="51000"/>
-                                 <a:satMod val="130000"/>
-                              </a:schemeClr>
-                           </a:gs>
-                           <a:gs pos="80000">
-                              <a:schemeClr val="phClr">
-                                 <a:shade val="93000"/>
-                                 <a:satMod val="130000"/>
-                              </a:schemeClr>
-                           </a:gs>
-                           <a:gs pos="100000">
-                              <a:schemeClr val="phClr">
-                                 <a:shade val="94000"/>
-                                 <a:satMod val="135000"/>
-                              </a:schemeClr>
-                           </a:gs>
-                        </a:gsLst>
-                        <a:lin ang="16200000" scaled="0"/>
-                     </a:gradFill>
-                  </a:fillStyleLst>
-                  <a:lnStyleLst>
-                     <a:ln w="9525" cap="flat" cmpd="sng" algn="ctr">
-                        <a:solidFill>
-                           <a:schemeClr val="phClr">
-                              <a:shade val="95000"/>
-                              <a:satMod val="105000"/>
-                           </a:schemeClr>
-                        </a:solidFill>
-                        <a:prstDash val="solid"/>
-                     </a:ln>
-                     <a:ln w="25400" cap="flat" cmpd="sng" algn="ctr">
-                        <a:solidFill>
-                           <a:schemeClr val="phClr"/>
-                        </a:solidFill>
-                        <a:prstDash val="solid"/>
-                     </a:ln>
-                     <a:ln w="38100" cap="flat" cmpd="sng" algn="ctr">
-                        <a:solidFill>
-                           <a:schemeClr val="phClr"/>
-                        </a:solidFill>
-                        <a:prstDash val="solid"/>
-                     </a:ln>
-                  </a:lnStyleLst>
-                  <a:effectStyleLst>
-                     <a:effectStyle>
-                        <a:effectLst>
-                           <a:outerShdw blurRad="40000" dist="20000" dir="5400000" rotWithShape="0">
-                              <a:srgbClr val="000000">
-                                 <a:alpha val="38000"/>
-                              </a:srgbClr>
-                           </a:outerShdw>
-                        </a:effectLst>
-                     </a:effectStyle>
-                     <a:effectStyle>
-                        <a:effectLst>
-                           <a:outerShdw blurRad="40000" dist="23000" dir="5400000" rotWithShape="0">
-                              <a:srgbClr val="000000">
-                                 <a:alpha val="35000"/>
-                              </a:srgbClr>
-                           </a:outerShdw>
-                        </a:effectLst>
-                     </a:effectStyle>
-                     <a:effectStyle>
-                        <a:effectLst>
-                           <a:outerShdw blurRad="40000" dist="23000" dir="5400000" rotWithShape="0">
-                              <a:srgbClr val="000000">
-                                 <a:alpha val="35000"/>
-                              </a:srgbClr>
-                           </a:outerShdw>
-                        </a:effectLst>
-                        <a:scene3d>
-                           <a:camera prst="orthographicFront">
-                              <a:rot lat="0" lon="0" rev="0"/>
-                           </a:camera>
-                           <a:lightRig rig="threePt" dir="t">
-                              <a:rot lat="0" lon="0" rev="1200000"/>
-                           </a:lightRig>
-                        </a:scene3d>
-                        <a:sp3d>
-                           <a:bevelT w="63500" h="25400"/>
-                        </a:sp3d>
-                     </a:effectStyle>
-                  </a:effectStyleLst>
-                  <a:bgFillStyleLst>
-                     <a:solidFill>
-                        <a:schemeClr val="phClr"/>
-                     </a:solidFill>
-                     <a:gradFill rotWithShape="1">
-                        <a:gsLst>
-                           <a:gs pos="0">
-                              <a:schemeClr val="phClr">
-                                 <a:tint val="40000"/>
-                                 <a:satMod val="350000"/>
-                              </a:schemeClr>
-                           </a:gs>
-                           <a:gs pos="40000">
-                              <a:schemeClr val="phClr">
-                                 <a:tint val="45000"/>
-                                 <a:shade val="99000"/>
-                                 <a:satMod val="350000"/>
-                              </a:schemeClr>
-                           </a:gs>
-                           <a:gs pos="100000">
-                              <a:schemeClr val="phClr">
-                                 <a:shade val="20000"/>
-                                 <a:satMod val="255000"/>
-                              </a:schemeClr>
-                           </a:gs>
-                        </a:gsLst>
-                        <a:path path="circle">
-                           <a:fillToRect l="50000" t="-80000" r="50000" b="180000"/>
-                        </a:path>
-                     </a:gradFill>
-                     <a:gradFill rotWithShape="1">
-                        <a:gsLst>
-                           <a:gs pos="0">
-                              <a:schemeClr val="phClr">
-                                 <a:tint val="80000"/>
-                                 <a:satMod val="300000"/>
-                              </a:schemeClr>
-                           </a:gs>
-                           <a:gs pos="100000">
-                              <a:schemeClr val="phClr">
-                                 <a:shade val="30000"/>
-                                 <a:satMod val="200000"/>
-                              </a:schemeClr>
-                           </a:gs>
-                        </a:gsLst>
-                        <a:path path="circle">
-                           <a:fillToRect l="50000" t="50000" r="50000" b="50000"/>
-                        </a:path>
-                     </a:gradFill>
-                  </a:bgFillStyleLst>
-               </a:fmtScheme>
-            </a:themeElements>
-            <a:objectDefaults/>
-            <a:extraClrSchemeLst/>
-         </a:theme>
+         <w:ftr mc:Ignorable="w14 w15 w16se w16cid wp14">
+            <w:p w14:paraId="148D383E"
+                 w14:textId="5725D88D"
+                 w:rsidR="00CF46D6"
+                 w:rsidRPr="005B3F26"
+                 w:rsidRDefault="005B3F26"
+                 w:rsidP="005B3F26">
+               <w:pPr>
+                  <w:pStyle w:val="PageFooterFirst"/>
+               </w:pPr>
+               <w:r w:rsidRPr="007829D6">
+                  <w:t>©201</w:t>
+               </w:r>
+               <w:r w:rsidR="00167D60">
+                  <w:t>9</w:t>
+               </w:r>
+               <w:r w:rsidRPr="007829D6">
+                  <w:t xml:space="preserve"> (author name/s). This is an Open Access article distributed under the terms of the Creative Commons Attribution 4.0 International License (http://creativecommons.org/licenses/by/4.0/), allowing third parties to copy and redistribute the material in any medium or format and to remix, transform, and build upon the material for any purpose, even commercially, provided the original work is properly cited and states its license.</w:t>
+               </w:r>
+            </w:p>
+         </w:ftr>
       </pkg:xmlData>
    </pkg:part>
-   <pkg:part pkg_name="/word/fontTable.xml">
+   <pkg:part pkg_name="/word/header2.xml">
       <pkg:xmlData>
-         <w:fonts mc:Ignorable="w14 w15 w16se w16cid">
-            <w:font w:name="Symbol">
-               <w:panose1 w:val="05050102010706020507"/>
-               <w:charset w:val="02"/>
-               <w:family w:val="roman"/>
-               <w:pitch w:val="variable"/>
-               <w:sig w:usb0="00000000"
-                      w:usb1="10000000"
-                      w:usb2="00000000"
-                      w:usb3="00000000"
-                      w:csb0="80000000"
-                      w:csb1="00000000"/>
-            </w:font>
-            <w:font w:name="Times New Roman">
-               <w:panose1 w:val="02020603050405020304"/>
-               <w:charset w:val="00"/>
-               <w:family w:val="roman"/>
-               <w:pitch w:val="variable"/>
-               <w:sig w:usb0="E0002EFF"
-                      w:usb1="C000785B"
-                      w:usb2="00000009"
-                      w:usb3="00000000"
-                      w:csb0="000001FF"
-                      w:csb1="00000000"/>
-            </w:font>
-            <w:font w:name="Georgia">
-               <w:panose1 w:val="02040502050405020303"/>
-               <w:charset w:val="00"/>
-               <w:family w:val="roman"/>
-               <w:pitch w:val="variable"/>
-               <w:sig w:usb0="00000287"
-                      w:usb1="00000000"
-                      w:usb2="00000000"
-                      w:usb3="00000000"
-                      w:csb0="0000009F"
-                      w:csb1="00000000"/>
-            </w:font>
-            <w:font w:name="Courier New">
-               <w:panose1 w:val="02070309020205020404"/>
-               <w:charset w:val="00"/>
-               <w:family w:val="modern"/>
-               <w:pitch w:val="fixed"/>
-               <w:sig w:usb0="E0002EFF"
-                      w:usb1="C0007843"
-                      w:usb2="00000009"
-                      w:usb3="00000000"
-                      w:csb0="000001FF"
-                      w:csb1="00000000"/>
-            </w:font>
-            <w:font w:name="Wingdings">
-               <w:panose1 w:val="05000000000000000000"/>
-               <w:charset w:val="02"/>
-               <w:family w:val="auto"/>
-               <w:pitch w:val="variable"/>
-               <w:sig w:usb0="00000000"
-                      w:usb1="10000000"
-                      w:usb2="00000000"
-                      w:usb3="00000000"
-                      w:csb0="80000000"
-                      w:csb1="00000000"/>
-            </w:font>
-            <w:font w:name="MinionPro-Regular">
-               <w:altName w:val="Calibri"/>
-               <w:charset w:val="00"/>
-               <w:family w:val="auto"/>
-               <w:pitch w:val="variable"/>
-               <w:sig w:usb0="E00002AF"
-                      w:usb1="5000607B"
-                      w:usb2="00000000"
-                      w:usb3="00000000"
-                      w:csb0="0000009F"
-                      w:csb1="00000000"/>
-            </w:font>
-            <w:font w:name="Georgia-Bold">
-               <w:altName w:val="Georgia"/>
-               <w:charset w:val="00"/>
-               <w:family w:val="auto"/>
-               <w:pitch w:val="variable"/>
-               <w:sig w:usb0="00000287"
-                      w:usb1="00000000"
-                      w:usb2="00000000"
-                      w:usb3="00000000"
-                      w:csb0="0000009F"
-                      w:csb1="00000000"/>
-            </w:font>
-            <w:font w:name="Tahoma">
-               <w:panose1 w:val="020B0604030504040204"/>
-               <w:charset w:val="00"/>
-               <w:family w:val="swiss"/>
-               <w:pitch w:val="variable"/>
-               <w:sig w:usb0="E1002EFF"
-                      w:usb1="C000605B"
-                      w:usb2="00000029"
-                      w:usb3="00000000"
-                      w:csb0="000101FF"
-                      w:csb1="00000000"/>
-            </w:font>
-            <w:font w:name="Liberation Serif">
-               <w:altName w:val="Times New Roman"/>
-               <w:charset w:val="01"/>
-               <w:family w:val="swiss"/>
-               <w:pitch w:val="variable"/>
-               <w:sig w:usb0="00000003"
-                      w:usb1="00000000"
-                      w:usb2="00000000"
-                      w:usb3="00000000"
-                      w:csb0="00000001"
-                      w:csb1="00000000"/>
-            </w:font>
-            <w:font w:name="Verdana">
-               <w:panose1 w:val="020B0604030504040204"/>
-               <w:charset w:val="00"/>
-               <w:family w:val="swiss"/>
-               <w:pitch w:val="variable"/>
-               <w:sig w:usb0="A00006FF"
-                      w:usb1="4000205B"
-                      w:usb2="00000010"
-                      w:usb3="00000000"
-                      w:csb0="0000019F"
-                      w:csb1="00000000"/>
-            </w:font>
-            <w:font w:name="TimesNewRomanPS-ItalicMT">
-               <w:altName w:val="Times New Roman"/>
-               <w:charset w:val="00"/>
-               <w:family w:val="auto"/>
-               <w:pitch w:val="variable"/>
-               <w:sig w:usb0="E0000AFF"
-                      w:usb1="00007843"
-                      w:usb2="00000001"
-                      w:usb3="00000000"
-                      w:csb0="000001BF"
-                      w:csb1="00000000"/>
-            </w:font>
-            <w:font w:name="Calibri">
-               <w:panose1 w:val="020F0502020204030204"/>
-               <w:charset w:val="00"/>
-               <w:family w:val="swiss"/>
-               <w:pitch w:val="variable"/>
-               <w:sig w:usb0="E0002EFF"
-                      w:usb1="C000247B"
-                      w:usb2="00000009"
-                      w:usb3="00000000"
-                      w:csb0="000001FF"
-                      w:csb1="00000000"/>
-            </w:font>
-            <w:font w:name="DengXian">
-               <w:altName w:val="等线"/>
-               <w:panose1 w:val="02010600030101010101"/>
-               <w:charset w:val="86"/>
-               <w:family w:val="auto"/>
-               <w:pitch w:val="variable"/>
-               <w:sig w:usb0="A00002BF"
-                      w:usb1="38CF7CFA"
-                      w:usb2="00000016"
-                      w:usb3="00000000"
-                      w:csb0="0004000F"
-                      w:csb1="00000000"/>
-            </w:font>
-            <w:font w:name="Arial">
-               <w:panose1 w:val="020B0604020202020204"/>
-               <w:charset w:val="00"/>
-               <w:family w:val="swiss"/>
-               <w:pitch w:val="variable"/>
-               <w:sig w:usb0="E0002EFF"
-                      w:usb1="C000785B"
-                      w:usb2="00000009"
-                      w:usb3="00000000"
-                      w:csb0="000001FF"
-                      w:csb1="00000000"/>
-            </w:font>
-            <w:font w:name="Noto Serif CJK SC">
-               <w:panose1 w:val="00000000000000000000"/>
-               <w:charset w:val="00"/>
-               <w:family w:val="roman"/>
-               <w:notTrueType/>
-               <w:pitch w:val="default"/>
-            </w:font>
-            <w:font w:name="Lohit Devanagari">
-               <w:altName w:val="Cambria"/>
-               <w:panose1 w:val="00000000000000000000"/>
-               <w:charset w:val="00"/>
-               <w:family w:val="roman"/>
-               <w:notTrueType/>
-               <w:pitch w:val="default"/>
-            </w:font>
-            <w:font w:name="ArialMT">
-               <w:altName w:val="Arial"/>
-               <w:charset w:val="00"/>
-               <w:family w:val="auto"/>
-               <w:pitch w:val="variable"/>
-               <w:sig w:usb0="E0002AFF"
-                      w:usb1="C0007843"
-                      w:usb2="00000009"
-                      w:usb3="00000000"
-                      w:csb0="000001FF"
-                      w:csb1="00000000"/>
-            </w:font>
-            <w:font w:name="TimesNewRomanPSMT">
-               <w:altName w:val="Times New Roman"/>
-               <w:charset w:val="00"/>
-               <w:family w:val="auto"/>
-               <w:pitch w:val="variable"/>
-               <w:sig w:usb0="E0002AEF"
-                      w:usb1="C0007841"
-                      w:usb2="00000009"
-                      w:usb3="00000000"
-                      w:csb0="000001FF"
-                      w:csb1="00000000"/>
-            </w:font>
-            <w:font w:name="Georgia-Italic">
-               <w:altName w:val="Georgia"/>
-               <w:charset w:val="00"/>
-               <w:family w:val="auto"/>
-               <w:pitch w:val="variable"/>
-               <w:sig w:usb0="00000287"
-                      w:usb1="00000000"
-                      w:usb2="00000000"
-                      w:usb3="00000000"
-                      w:csb0="0000009F"
-                      w:csb1="00000000"/>
-            </w:font>
-            <w:font w:name="Cambria">
-               <w:panose1 w:val="02040503050406030204"/>
-               <w:charset w:val="00"/>
-               <w:family w:val="roman"/>
-               <w:pitch w:val="variable"/>
-               <w:sig w:usb0="E00006FF"
-                      w:usb1="420024FF"
-                      w:usb2="02000000"
-                      w:usb3="00000000"
-                      w:csb0="0000019F"
-                      w:csb1="00000000"/>
-            </w:font>
-         </w:fonts>
+         <w:hdr mc:Ignorable="w14 w15 w16se w16cid wp14">
+            <w:p w14:paraId="393FF7F2"
+                 w14:textId="77777777"
+                 w:rsidR="00CF46D6"
+                 w:rsidRDefault="00865BED"
+                 w:rsidP="00AC48AD">
+               <w:pPr>
+                  <w:pStyle w:val="Header"/>
+               </w:pPr>
+               <w:r>
+                  <w:rPr>
+                     <w:noProof/>
+                     <w:lang w:val="nb-NO"/>
+                  </w:rPr>
+                  <w:drawing>
+                     <wp:inline distT="0"
+                                distB="0"
+                                distL="0"
+                                distR="0"
+                                wp14:anchorId="72B988D6"
+                                wp14:editId="52C35C92">
+                        <wp:extent cx="5448300" cy="552450"/>
+                        <wp:effectExtent l="19050" t="0" r="0" b="0"/>
+                        <wp:docPr id="1" name="Bilde 1" descr="brevheader"/>
+                        <wp:cNvGraphicFramePr>
+                           <a:graphicFrameLocks xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main"
+                                                noChangeAspect="1"/>
+                        </wp:cNvGraphicFramePr>
+                        <a:graphic xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main">
+                           <a:graphicData uri="http://schemas.openxmlformats.org/drawingml/2006/picture">
+                              <pic:pic xmlns:pic="http://schemas.openxmlformats.org/drawingml/2006/picture">
+                                 <pic:nvPicPr>
+                                    <pic:cNvPr id="0" name="Picture 1" descr="brevheader"/>
+                                    <pic:cNvPicPr>
+                                       <a:picLocks noChangeAspect="1" noChangeArrowheads="1"/>
+                                    </pic:cNvPicPr>
+                                 </pic:nvPicPr>
+                                 <pic:blipFill>
+                                    <a:blip r:embed="rId1"/>
+                                    <a:srcRect/>
+                                    <a:stretch>
+                                       <a:fillRect/>
+                                    </a:stretch>
+                                 </pic:blipFill>
+                                 <pic:spPr bwMode="auto">
+                                    <a:xfrm>
+                                       <a:off x="0" y="0"/>
+                                       <a:ext cx="5448300" cy="552450"/>
+                                    </a:xfrm>
+                                    <a:prstGeom prst="rect">
+                                       <a:avLst/>
+                                    </a:prstGeom>
+                                    <a:noFill/>
+                                    <a:ln w="9525">
+                                       <a:noFill/>
+                                       <a:miter lim="800000"/>
+                                       <a:headEnd/>
+                                       <a:tailEnd/>
+                                    </a:ln>
+                                 </pic:spPr>
+                              </pic:pic>
+                           </a:graphicData>
+                        </a:graphic>
+                     </wp:inline>
+                  </w:drawing>
+               </w:r>
+            </w:p>
+         </w:hdr>
       </pkg:xmlData>
    </pkg:part>
    <pkg:part pkg_name="/word/styles.xml">
@@ -11733,30 +11329,13 @@
          </w:styles>
       </pkg:xmlData>
    </pkg:part>
-   <pkg:part pkg_name="/word/header1.xml">
-      <pkg:xmlData>
-         <w:hdr mc:Ignorable="w14 w15 w16se w16cid wp14">
-            <w:p w14:paraId="3C24DB8A"
-                 w14:textId="504BEBFC"
-                 w:rsidR="002812F1"
-                 w:rsidRDefault="002812F1">
-               <w:pPr>
-                  <w:pStyle w:val="Header"/>
-               </w:pPr>
-               <w:r w:rsidRPr="002812F1">
-                  <w:t>Teachers’ Pedagogical Role as Mediators in Leading and Guiding Students’ Learning in DST</w:t>
-               </w:r>
-            </w:p>
-         </w:hdr>
-      </pkg:xmlData>
-   </pkg:part>
    <pkg:part pkg_name="/word/numbering.xml">
       <pkg:xmlData>
          <w:numbering mc:Ignorable="w14 w15 w16se w16cid wp14">
             <w:abstractNum w:abstractNumId="0" w15:restartNumberingAfterBreak="0">
                <w:nsid w:val="FFFFFF7C"/>
                <w:multiLevelType w:val="singleLevel"/>
-               <w:tmpl w:val="825EC914"/>
+               <w:tmpl w:val="824AD8F2"/>
                <w:lvl w:ilvl="0">
                   <w:start w:val="1"/>
                   <w:numFmt w:val="decimal"/>
@@ -11773,7 +11352,7 @@
             <w:abstractNum w:abstractNumId="1" w15:restartNumberingAfterBreak="0">
                <w:nsid w:val="FFFFFF7D"/>
                <w:multiLevelType w:val="singleLevel"/>
-               <w:tmpl w:val="A3F4599E"/>
+               <w:tmpl w:val="6D5E0C42"/>
                <w:lvl w:ilvl="0">
                   <w:start w:val="1"/>
                   <w:numFmt w:val="decimal"/>
@@ -11790,7 +11369,7 @@
             <w:abstractNum w:abstractNumId="2" w15:restartNumberingAfterBreak="0">
                <w:nsid w:val="FFFFFF7E"/>
                <w:multiLevelType w:val="singleLevel"/>
-               <w:tmpl w:val="518264D4"/>
+               <w:tmpl w:val="FA483602"/>
                <w:lvl w:ilvl="0">
                   <w:start w:val="1"/>
                   <w:numFmt w:val="decimal"/>
@@ -11807,7 +11386,7 @@
             <w:abstractNum w:abstractNumId="3" w15:restartNumberingAfterBreak="0">
                <w:nsid w:val="FFFFFF7F"/>
                <w:multiLevelType w:val="singleLevel"/>
-               <w:tmpl w:val="B8F87CE8"/>
+               <w:tmpl w:val="B268AF3A"/>
                <w:lvl w:ilvl="0">
                   <w:start w:val="1"/>
                   <w:numFmt w:val="decimal"/>
@@ -11824,7 +11403,7 @@
             <w:abstractNum w:abstractNumId="4" w15:restartNumberingAfterBreak="0">
                <w:nsid w:val="FFFFFF80"/>
                <w:multiLevelType w:val="singleLevel"/>
-               <w:tmpl w:val="9B082548"/>
+               <w:tmpl w:val="B6C2D168"/>
                <w:lvl w:ilvl="0">
                   <w:start w:val="1"/>
                   <w:numFmt w:val="bullet"/>
@@ -11844,7 +11423,7 @@
             <w:abstractNum w:abstractNumId="5" w15:restartNumberingAfterBreak="0">
                <w:nsid w:val="FFFFFF81"/>
                <w:multiLevelType w:val="singleLevel"/>
-               <w:tmpl w:val="E5C0818E"/>
+               <w:tmpl w:val="BB4007EE"/>
                <w:lvl w:ilvl="0">
                   <w:start w:val="1"/>
                   <w:numFmt w:val="bullet"/>
@@ -11864,7 +11443,7 @@
             <w:abstractNum w:abstractNumId="6" w15:restartNumberingAfterBreak="0">
                <w:nsid w:val="FFFFFF82"/>
                <w:multiLevelType w:val="singleLevel"/>
-               <w:tmpl w:val="2BD4F18A"/>
+               <w:tmpl w:val="3BB29ACA"/>
                <w:lvl w:ilvl="0">
                   <w:start w:val="1"/>
                   <w:numFmt w:val="bullet"/>
@@ -11884,7 +11463,7 @@
             <w:abstractNum w:abstractNumId="7" w15:restartNumberingAfterBreak="0">
                <w:nsid w:val="FFFFFF83"/>
                <w:multiLevelType w:val="singleLevel"/>
-               <w:tmpl w:val="00DEAEC4"/>
+               <w:tmpl w:val="1048F82C"/>
                <w:lvl w:ilvl="0">
                   <w:start w:val="1"/>
                   <w:numFmt w:val="bullet"/>
@@ -11904,7 +11483,7 @@
             <w:abstractNum w:abstractNumId="8" w15:restartNumberingAfterBreak="0">
                <w:nsid w:val="FFFFFF88"/>
                <w:multiLevelType w:val="singleLevel"/>
-               <w:tmpl w:val="B3043760"/>
+               <w:tmpl w:val="FC5E3EA6"/>
                <w:lvl w:ilvl="0">
                   <w:start w:val="1"/>
                   <w:numFmt w:val="decimal"/>
@@ -11921,7 +11500,7 @@
             <w:abstractNum w:abstractNumId="9" w15:restartNumberingAfterBreak="0">
                <w:nsid w:val="FFFFFF89"/>
                <w:multiLevelType w:val="singleLevel"/>
-               <w:tmpl w:val="ED94CAF8"/>
+               <w:tmpl w:val="219A9300"/>
                <w:lvl w:ilvl="0">
                   <w:start w:val="1"/>
                   <w:numFmt w:val="bullet"/>
@@ -13565,134 +13144,6 @@
          </w:endnotes>
       </pkg:xmlData>
    </pkg:part>
-   <pkg:part pkg_name="/word/footer2.xml">
-      <pkg:xmlData>
-         <w:ftr mc:Ignorable="w14 w15 w16se w16cid wp14">
-            <w:p w14:paraId="148D383E"
-                 w14:textId="5725D88D"
-                 w:rsidR="00CF46D6"
-                 w:rsidRPr="005B3F26"
-                 w:rsidRDefault="005B3F26"
-                 w:rsidP="005B3F26">
-               <w:pPr>
-                  <w:pStyle w:val="PageFooterFirst"/>
-               </w:pPr>
-               <w:r w:rsidRPr="007829D6">
-                  <w:t>©201</w:t>
-               </w:r>
-               <w:r w:rsidR="00167D60">
-                  <w:t>9</w:t>
-               </w:r>
-               <w:r w:rsidRPr="007829D6">
-                  <w:t xml:space="preserve"> (author name/s). This is an Open Access article distributed under the terms of the Creative Commons Attribution 4.0 International License (http://creativecommons.org/licenses/by/4.0/), allowing third parties to copy and redistribute the material in any medium or format and to remix, transform, and build upon the material for any purpose, even commercially, provided the original work is properly cited and states its license.</w:t>
-               </w:r>
-            </w:p>
-         </w:ftr>
-      </pkg:xmlData>
-   </pkg:part>
-   <pkg:part pkg_name="/word/footnotes.xml">
-      <pkg:xmlData>
-         <w:footnotes mc:Ignorable="w14 w15 w16se w16cid wp14">
-            <w:footnote w:type="separator" w:id="-1">
-               <w:p w14:paraId="7487DB45"
-                    w14:textId="77777777"
-                    w:rsidR="000D2BD3"
-                    w:rsidRDefault="000D2BD3">
-                  <w:r>
-                     <w:separator/>
-                  </w:r>
-               </w:p>
-            </w:footnote>
-            <w:footnote w:type="continuationSeparator" w:id="0">
-               <w:p w14:paraId="18B363F4"
-                    w14:textId="77777777"
-                    w:rsidR="000D2BD3"
-                    w:rsidRDefault="000D2BD3">
-                  <w:r>
-                     <w:continuationSeparator/>
-                  </w:r>
-               </w:p>
-            </w:footnote>
-         </w:footnotes>
-      </pkg:xmlData>
-   </pkg:part>
-   <pkg:part pkg_name="/word/header2.xml">
-      <pkg:xmlData>
-         <w:hdr mc:Ignorable="w14 w15 w16se w16cid wp14">
-            <w:p w14:paraId="393FF7F2"
-                 w14:textId="77777777"
-                 w:rsidR="00CF46D6"
-                 w:rsidRDefault="00865BED"
-                 w:rsidP="00AC48AD">
-               <w:pPr>
-                  <w:pStyle w:val="Header"/>
-               </w:pPr>
-               <w:r>
-                  <w:rPr>
-                     <w:noProof/>
-                     <w:lang w:val="nb-NO"/>
-                  </w:rPr>
-                  <w:drawing>
-                     <wp:inline distT="0"
-                                distB="0"
-                                distL="0"
-                                distR="0"
-                                wp14:anchorId="72B988D6"
-                                wp14:editId="52C35C92">
-                        <wp:extent cx="5448300" cy="552450"/>
-                        <wp:effectExtent l="19050" t="0" r="0" b="0"/>
-                        <wp:docPr id="1" name="Bilde 1" descr="brevheader"/>
-                        <wp:cNvGraphicFramePr>
-                           <a:graphicFrameLocks xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main"
-                                                noChangeAspect="1"/>
-                        </wp:cNvGraphicFramePr>
-                        <a:graphic xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main">
-                           <a:graphicData uri="http://schemas.openxmlformats.org/drawingml/2006/picture">
-                              <pic:pic xmlns:pic="http://schemas.openxmlformats.org/drawingml/2006/picture">
-                                 <pic:nvPicPr>
-                                    <pic:cNvPr id="0" name="Picture 1" descr="brevheader"/>
-                                    <pic:cNvPicPr>
-                                       <a:picLocks noChangeAspect="1" noChangeArrowheads="1"/>
-                                    </pic:cNvPicPr>
-                                 </pic:nvPicPr>
-                                 <pic:blipFill>
-                                    <a:blip r:embed="rId1"/>
-                                    <a:srcRect/>
-                                    <a:stretch>
-                                       <a:fillRect/>
-                                    </a:stretch>
-                                 </pic:blipFill>
-                                 <pic:spPr bwMode="auto">
-                                    <a:xfrm>
-                                       <a:off x="0" y="0"/>
-                                       <a:ext cx="5448300" cy="552450"/>
-                                    </a:xfrm>
-                                    <a:prstGeom prst="rect">
-                                       <a:avLst/>
-                                    </a:prstGeom>
-                                    <a:noFill/>
-                                    <a:ln w="9525">
-                                       <a:noFill/>
-                                       <a:miter lim="800000"/>
-                                       <a:headEnd/>
-                                       <a:tailEnd/>
-                                    </a:ln>
-                                 </pic:spPr>
-                              </pic:pic>
-                           </a:graphicData>
-                        </a:graphic>
-                     </wp:inline>
-                  </w:drawing>
-               </w:r>
-            </w:p>
-         </w:hdr>
-      </pkg:xmlData>
-   </pkg:part>
-   <pkg:part pkg_name="/word/webSettings.xml">
-      <pkg:xmlData>
-         <w:webSettings mc:Ignorable="w14 w15 w16se w16cid"/>
-      </pkg:xmlData>
-   </pkg:part>
    <pkg:part pkg_name="/word/footer1.xml">
       <pkg:xmlData>
          <w:ftr mc:Ignorable="w14 w15 w16se w16cid wp14">
@@ -13745,6 +13196,577 @@
                </w:r>
             </w:p>
          </w:ftr>
+      </pkg:xmlData>
+   </pkg:part>
+   <pkg:part pkg_name="/word/footnotes.xml">
+      <pkg:xmlData>
+         <w:footnotes mc:Ignorable="w14 w15 w16se w16cid wp14">
+            <w:footnote w:type="separator" w:id="-1">
+               <w:p w14:paraId="7487DB45"
+                    w14:textId="77777777"
+                    w:rsidR="000D2BD3"
+                    w:rsidRDefault="000D2BD3">
+                  <w:r>
+                     <w:separator/>
+                  </w:r>
+               </w:p>
+            </w:footnote>
+            <w:footnote w:type="continuationSeparator" w:id="0">
+               <w:p w14:paraId="18B363F4"
+                    w14:textId="77777777"
+                    w:rsidR="000D2BD3"
+                    w:rsidRDefault="000D2BD3">
+                  <w:r>
+                     <w:continuationSeparator/>
+                  </w:r>
+               </w:p>
+            </w:footnote>
+         </w:footnotes>
+      </pkg:xmlData>
+   </pkg:part>
+   <pkg:part pkg_name="/word/theme/theme1.xml">
+      <pkg:xmlData>
+         <a:theme xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main"
+                  name="Office-tema">
+            <a:themeElements>
+               <a:clrScheme name="Office">
+                  <a:dk1>
+                     <a:sysClr val="windowText" lastClr="000000"/>
+                  </a:dk1>
+                  <a:lt1>
+                     <a:sysClr val="window" lastClr="FFFFFF"/>
+                  </a:lt1>
+                  <a:dk2>
+                     <a:srgbClr val="1F497D"/>
+                  </a:dk2>
+                  <a:lt2>
+                     <a:srgbClr val="EEECE1"/>
+                  </a:lt2>
+                  <a:accent1>
+                     <a:srgbClr val="4F81BD"/>
+                  </a:accent1>
+                  <a:accent2>
+                     <a:srgbClr val="C0504D"/>
+                  </a:accent2>
+                  <a:accent3>
+                     <a:srgbClr val="9BBB59"/>
+                  </a:accent3>
+                  <a:accent4>
+                     <a:srgbClr val="8064A2"/>
+                  </a:accent4>
+                  <a:accent5>
+                     <a:srgbClr val="4BACC6"/>
+                  </a:accent5>
+                  <a:accent6>
+                     <a:srgbClr val="F79646"/>
+                  </a:accent6>
+                  <a:hlink>
+                     <a:srgbClr val="0000FF"/>
+                  </a:hlink>
+                  <a:folHlink>
+                     <a:srgbClr val="800080"/>
+                  </a:folHlink>
+               </a:clrScheme>
+               <a:fontScheme name="Office">
+                  <a:majorFont>
+                     <a:latin typeface="Cambria"/>
+                     <a:ea typeface=""/>
+                     <a:cs typeface=""/>
+                     <a:font script="Jpan" typeface="ＭＳ ゴシック"/>
+                     <a:font script="Hang" typeface="맑은 고딕"/>
+                     <a:font script="Hans" typeface="宋体"/>
+                     <a:font script="Hant" typeface="新細明體"/>
+                     <a:font script="Arab" typeface="Times New Roman"/>
+                     <a:font script="Hebr" typeface="Times New Roman"/>
+                     <a:font script="Thai" typeface="Angsana New"/>
+                     <a:font script="Ethi" typeface="Nyala"/>
+                     <a:font script="Beng" typeface="Vrinda"/>
+                     <a:font script="Gujr" typeface="Shruti"/>
+                     <a:font script="Khmr" typeface="MoolBoran"/>
+                     <a:font script="Knda" typeface="Tunga"/>
+                     <a:font script="Guru" typeface="Raavi"/>
+                     <a:font script="Cans" typeface="Euphemia"/>
+                     <a:font script="Cher" typeface="Plantagenet Cherokee"/>
+                     <a:font script="Yiii" typeface="Microsoft Yi Baiti"/>
+                     <a:font script="Tibt" typeface="Microsoft Himalaya"/>
+                     <a:font script="Thaa" typeface="MV Boli"/>
+                     <a:font script="Deva" typeface="Mangal"/>
+                     <a:font script="Telu" typeface="Gautami"/>
+                     <a:font script="Taml" typeface="Latha"/>
+                     <a:font script="Syrc" typeface="Estrangelo Edessa"/>
+                     <a:font script="Orya" typeface="Kalinga"/>
+                     <a:font script="Mlym" typeface="Kartika"/>
+                     <a:font script="Laoo" typeface="DokChampa"/>
+                     <a:font script="Sinh" typeface="Iskoola Pota"/>
+                     <a:font script="Mong" typeface="Mongolian Baiti"/>
+                     <a:font script="Viet" typeface="Times New Roman"/>
+                     <a:font script="Uigh" typeface="Microsoft Uighur"/>
+                  </a:majorFont>
+                  <a:minorFont>
+                     <a:latin typeface="Calibri"/>
+                     <a:ea typeface=""/>
+                     <a:cs typeface=""/>
+                     <a:font script="Jpan" typeface="ＭＳ 明朝"/>
+                     <a:font script="Hang" typeface="맑은 고딕"/>
+                     <a:font script="Hans" typeface="宋体"/>
+                     <a:font script="Hant" typeface="新細明體"/>
+                     <a:font script="Arab" typeface="Arial"/>
+                     <a:font script="Hebr" typeface="Arial"/>
+                     <a:font script="Thai" typeface="Cordia New"/>
+                     <a:font script="Ethi" typeface="Nyala"/>
+                     <a:font script="Beng" typeface="Vrinda"/>
+                     <a:font script="Gujr" typeface="Shruti"/>
+                     <a:font script="Khmr" typeface="DaunPenh"/>
+                     <a:font script="Knda" typeface="Tunga"/>
+                     <a:font script="Guru" typeface="Raavi"/>
+                     <a:font script="Cans" typeface="Euphemia"/>
+                     <a:font script="Cher" typeface="Plantagenet Cherokee"/>
+                     <a:font script="Yiii" typeface="Microsoft Yi Baiti"/>
+                     <a:font script="Tibt" typeface="Microsoft Himalaya"/>
+                     <a:font script="Thaa" typeface="MV Boli"/>
+                     <a:font script="Deva" typeface="Mangal"/>
+                     <a:font script="Telu" typeface="Gautami"/>
+                     <a:font script="Taml" typeface="Latha"/>
+                     <a:font script="Syrc" typeface="Estrangelo Edessa"/>
+                     <a:font script="Orya" typeface="Kalinga"/>
+                     <a:font script="Mlym" typeface="Kartika"/>
+                     <a:font script="Laoo" typeface="DokChampa"/>
+                     <a:font script="Sinh" typeface="Iskoola Pota"/>
+                     <a:font script="Mong" typeface="Mongolian Baiti"/>
+                     <a:font script="Viet" typeface="Arial"/>
+                     <a:font script="Uigh" typeface="Microsoft Uighur"/>
+                  </a:minorFont>
+               </a:fontScheme>
+               <a:fmtScheme name="Office">
+                  <a:fillStyleLst>
+                     <a:solidFill>
+                        <a:schemeClr val="phClr"/>
+                     </a:solidFill>
+                     <a:gradFill rotWithShape="1">
+                        <a:gsLst>
+                           <a:gs pos="0">
+                              <a:schemeClr val="phClr">
+                                 <a:tint val="50000"/>
+                                 <a:satMod val="300000"/>
+                              </a:schemeClr>
+                           </a:gs>
+                           <a:gs pos="35000">
+                              <a:schemeClr val="phClr">
+                                 <a:tint val="37000"/>
+                                 <a:satMod val="300000"/>
+                              </a:schemeClr>
+                           </a:gs>
+                           <a:gs pos="100000">
+                              <a:schemeClr val="phClr">
+                                 <a:tint val="15000"/>
+                                 <a:satMod val="350000"/>
+                              </a:schemeClr>
+                           </a:gs>
+                        </a:gsLst>
+                        <a:lin ang="16200000" scaled="1"/>
+                     </a:gradFill>
+                     <a:gradFill rotWithShape="1">
+                        <a:gsLst>
+                           <a:gs pos="0">
+                              <a:schemeClr val="phClr">
+                                 <a:shade val="51000"/>
+                                 <a:satMod val="130000"/>
+                              </a:schemeClr>
+                           </a:gs>
+                           <a:gs pos="80000">
+                              <a:schemeClr val="phClr">
+                                 <a:shade val="93000"/>
+                                 <a:satMod val="130000"/>
+                              </a:schemeClr>
+                           </a:gs>
+                           <a:gs pos="100000">
+                              <a:schemeClr val="phClr">
+                                 <a:shade val="94000"/>
+                                 <a:satMod val="135000"/>
+                              </a:schemeClr>
+                           </a:gs>
+                        </a:gsLst>
+                        <a:lin ang="16200000" scaled="0"/>
+                     </a:gradFill>
+                  </a:fillStyleLst>
+                  <a:lnStyleLst>
+                     <a:ln w="9525" cap="flat" cmpd="sng" algn="ctr">
+                        <a:solidFill>
+                           <a:schemeClr val="phClr">
+                              <a:shade val="95000"/>
+                              <a:satMod val="105000"/>
+                           </a:schemeClr>
+                        </a:solidFill>
+                        <a:prstDash val="solid"/>
+                     </a:ln>
+                     <a:ln w="25400" cap="flat" cmpd="sng" algn="ctr">
+                        <a:solidFill>
+                           <a:schemeClr val="phClr"/>
+                        </a:solidFill>
+                        <a:prstDash val="solid"/>
+                     </a:ln>
+                     <a:ln w="38100" cap="flat" cmpd="sng" algn="ctr">
+                        <a:solidFill>
+                           <a:schemeClr val="phClr"/>
+                        </a:solidFill>
+                        <a:prstDash val="solid"/>
+                     </a:ln>
+                  </a:lnStyleLst>
+                  <a:effectStyleLst>
+                     <a:effectStyle>
+                        <a:effectLst>
+                           <a:outerShdw blurRad="40000" dist="20000" dir="5400000" rotWithShape="0">
+                              <a:srgbClr val="000000">
+                                 <a:alpha val="38000"/>
+                              </a:srgbClr>
+                           </a:outerShdw>
+                        </a:effectLst>
+                     </a:effectStyle>
+                     <a:effectStyle>
+                        <a:effectLst>
+                           <a:outerShdw blurRad="40000" dist="23000" dir="5400000" rotWithShape="0">
+                              <a:srgbClr val="000000">
+                                 <a:alpha val="35000"/>
+                              </a:srgbClr>
+                           </a:outerShdw>
+                        </a:effectLst>
+                     </a:effectStyle>
+                     <a:effectStyle>
+                        <a:effectLst>
+                           <a:outerShdw blurRad="40000" dist="23000" dir="5400000" rotWithShape="0">
+                              <a:srgbClr val="000000">
+                                 <a:alpha val="35000"/>
+                              </a:srgbClr>
+                           </a:outerShdw>
+                        </a:effectLst>
+                        <a:scene3d>
+                           <a:camera prst="orthographicFront">
+                              <a:rot lat="0" lon="0" rev="0"/>
+                           </a:camera>
+                           <a:lightRig rig="threePt" dir="t">
+                              <a:rot lat="0" lon="0" rev="1200000"/>
+                           </a:lightRig>
+                        </a:scene3d>
+                        <a:sp3d>
+                           <a:bevelT w="63500" h="25400"/>
+                        </a:sp3d>
+                     </a:effectStyle>
+                  </a:effectStyleLst>
+                  <a:bgFillStyleLst>
+                     <a:solidFill>
+                        <a:schemeClr val="phClr"/>
+                     </a:solidFill>
+                     <a:gradFill rotWithShape="1">
+                        <a:gsLst>
+                           <a:gs pos="0">
+                              <a:schemeClr val="phClr">
+                                 <a:tint val="40000"/>
+                                 <a:satMod val="350000"/>
+                              </a:schemeClr>
+                           </a:gs>
+                           <a:gs pos="40000">
+                              <a:schemeClr val="phClr">
+                                 <a:tint val="45000"/>
+                                 <a:shade val="99000"/>
+                                 <a:satMod val="350000"/>
+                              </a:schemeClr>
+                           </a:gs>
+                           <a:gs pos="100000">
+                              <a:schemeClr val="phClr">
+                                 <a:shade val="20000"/>
+                                 <a:satMod val="255000"/>
+                              </a:schemeClr>
+                           </a:gs>
+                        </a:gsLst>
+                        <a:path path="circle">
+                           <a:fillToRect l="50000" t="-80000" r="50000" b="180000"/>
+                        </a:path>
+                     </a:gradFill>
+                     <a:gradFill rotWithShape="1">
+                        <a:gsLst>
+                           <a:gs pos="0">
+                              <a:schemeClr val="phClr">
+                                 <a:tint val="80000"/>
+                                 <a:satMod val="300000"/>
+                              </a:schemeClr>
+                           </a:gs>
+                           <a:gs pos="100000">
+                              <a:schemeClr val="phClr">
+                                 <a:shade val="30000"/>
+                                 <a:satMod val="200000"/>
+                              </a:schemeClr>
+                           </a:gs>
+                        </a:gsLst>
+                        <a:path path="circle">
+                           <a:fillToRect l="50000" t="50000" r="50000" b="50000"/>
+                        </a:path>
+                     </a:gradFill>
+                  </a:bgFillStyleLst>
+               </a:fmtScheme>
+            </a:themeElements>
+            <a:objectDefaults/>
+            <a:extraClrSchemeLst/>
+         </a:theme>
+      </pkg:xmlData>
+   </pkg:part>
+   <pkg:part pkg_name="/word/header1.xml">
+      <pkg:xmlData>
+         <w:hdr mc:Ignorable="w14 w15 w16se w16cid wp14">
+            <w:p w14:paraId="3C24DB8A"
+                 w14:textId="504BEBFC"
+                 w:rsidR="002812F1"
+                 w:rsidRDefault="002812F1">
+               <w:pPr>
+                  <w:pStyle w:val="Header"/>
+               </w:pPr>
+               <w:r w:rsidRPr="002812F1">
+                  <w:t>Teachers’ Pedagogical Role as Mediators in Leading and Guiding Students’ Learning in DST</w:t>
+               </w:r>
+            </w:p>
+         </w:hdr>
+      </pkg:xmlData>
+   </pkg:part>
+   <pkg:part pkg_name="/word/webSettings.xml">
+      <pkg:xmlData>
+         <w:webSettings mc:Ignorable="w14 w15 w16se w16cid"/>
+      </pkg:xmlData>
+   </pkg:part>
+   <pkg:part pkg_name="/word/fontTable.xml">
+      <pkg:xmlData>
+         <w:fonts mc:Ignorable="w14 w15 w16se w16cid">
+            <w:font w:name="Symbol">
+               <w:panose1 w:val="05050102010706020507"/>
+               <w:charset w:val="02"/>
+               <w:family w:val="roman"/>
+               <w:pitch w:val="variable"/>
+               <w:sig w:usb0="00000000"
+                      w:usb1="10000000"
+                      w:usb2="00000000"
+                      w:usb3="00000000"
+                      w:csb0="80000000"
+                      w:csb1="00000000"/>
+            </w:font>
+            <w:font w:name="Times New Roman">
+               <w:panose1 w:val="02020603050405020304"/>
+               <w:charset w:val="00"/>
+               <w:family w:val="roman"/>
+               <w:pitch w:val="variable"/>
+               <w:sig w:usb0="E0002EFF"
+                      w:usb1="C000785B"
+                      w:usb2="00000009"
+                      w:usb3="00000000"
+                      w:csb0="000001FF"
+                      w:csb1="00000000"/>
+            </w:font>
+            <w:font w:name="Georgia">
+               <w:panose1 w:val="02040502050405020303"/>
+               <w:charset w:val="00"/>
+               <w:family w:val="roman"/>
+               <w:pitch w:val="variable"/>
+               <w:sig w:usb0="00000287"
+                      w:usb1="00000000"
+                      w:usb2="00000000"
+                      w:usb3="00000000"
+                      w:csb0="0000009F"
+                      w:csb1="00000000"/>
+            </w:font>
+            <w:font w:name="Courier New">
+               <w:panose1 w:val="02070309020205020404"/>
+               <w:charset w:val="00"/>
+               <w:family w:val="modern"/>
+               <w:pitch w:val="fixed"/>
+               <w:sig w:usb0="E0002EFF"
+                      w:usb1="C0007843"
+                      w:usb2="00000009"
+                      w:usb3="00000000"
+                      w:csb0="000001FF"
+                      w:csb1="00000000"/>
+            </w:font>
+            <w:font w:name="Wingdings">
+               <w:panose1 w:val="05000000000000000000"/>
+               <w:charset w:val="02"/>
+               <w:family w:val="auto"/>
+               <w:pitch w:val="variable"/>
+               <w:sig w:usb0="00000000"
+                      w:usb1="10000000"
+                      w:usb2="00000000"
+                      w:usb3="00000000"
+                      w:csb0="80000000"
+                      w:csb1="00000000"/>
+            </w:font>
+            <w:font w:name="MinionPro-Regular">
+               <w:altName w:val="Calibri"/>
+               <w:charset w:val="00"/>
+               <w:family w:val="auto"/>
+               <w:pitch w:val="variable"/>
+               <w:sig w:usb0="E00002AF"
+                      w:usb1="5000607B"
+                      w:usb2="00000000"
+                      w:usb3="00000000"
+                      w:csb0="0000009F"
+                      w:csb1="00000000"/>
+            </w:font>
+            <w:font w:name="Georgia-Bold">
+               <w:altName w:val="Georgia"/>
+               <w:charset w:val="00"/>
+               <w:family w:val="auto"/>
+               <w:pitch w:val="variable"/>
+               <w:sig w:usb0="00000287"
+                      w:usb1="00000000"
+                      w:usb2="00000000"
+                      w:usb3="00000000"
+                      w:csb0="0000009F"
+                      w:csb1="00000000"/>
+            </w:font>
+            <w:font w:name="Tahoma">
+               <w:panose1 w:val="020B0604030504040204"/>
+               <w:charset w:val="00"/>
+               <w:family w:val="swiss"/>
+               <w:pitch w:val="variable"/>
+               <w:sig w:usb0="E1002EFF"
+                      w:usb1="C000605B"
+                      w:usb2="00000029"
+                      w:usb3="00000000"
+                      w:csb0="000101FF"
+                      w:csb1="00000000"/>
+            </w:font>
+            <w:font w:name="Liberation Serif">
+               <w:altName w:val="Times New Roman"/>
+               <w:charset w:val="01"/>
+               <w:family w:val="swiss"/>
+               <w:pitch w:val="variable"/>
+               <w:sig w:usb0="00000003"
+                      w:usb1="00000000"
+                      w:usb2="00000000"
+                      w:usb3="00000000"
+                      w:csb0="00000001"
+                      w:csb1="00000000"/>
+            </w:font>
+            <w:font w:name="Verdana">
+               <w:panose1 w:val="020B0604030504040204"/>
+               <w:charset w:val="00"/>
+               <w:family w:val="swiss"/>
+               <w:pitch w:val="variable"/>
+               <w:sig w:usb0="A00006FF"
+                      w:usb1="4000205B"
+                      w:usb2="00000010"
+                      w:usb3="00000000"
+                      w:csb0="0000019F"
+                      w:csb1="00000000"/>
+            </w:font>
+            <w:font w:name="TimesNewRomanPS-ItalicMT">
+               <w:altName w:val="Times New Roman"/>
+               <w:charset w:val="00"/>
+               <w:family w:val="auto"/>
+               <w:pitch w:val="variable"/>
+               <w:sig w:usb0="E0000AFF"
+                      w:usb1="00007843"
+                      w:usb2="00000001"
+                      w:usb3="00000000"
+                      w:csb0="000001BF"
+                      w:csb1="00000000"/>
+            </w:font>
+            <w:font w:name="Calibri">
+               <w:panose1 w:val="020F0502020204030204"/>
+               <w:charset w:val="00"/>
+               <w:family w:val="swiss"/>
+               <w:pitch w:val="variable"/>
+               <w:sig w:usb0="E0002EFF"
+                      w:usb1="C000247B"
+                      w:usb2="00000009"
+                      w:usb3="00000000"
+                      w:csb0="000001FF"
+                      w:csb1="00000000"/>
+            </w:font>
+            <w:font w:name="DengXian">
+               <w:altName w:val="等线"/>
+               <w:panose1 w:val="02010600030101010101"/>
+               <w:charset w:val="86"/>
+               <w:family w:val="auto"/>
+               <w:pitch w:val="variable"/>
+               <w:sig w:usb0="A00002BF"
+                      w:usb1="38CF7CFA"
+                      w:usb2="00000016"
+                      w:usb3="00000000"
+                      w:csb0="0004000F"
+                      w:csb1="00000000"/>
+            </w:font>
+            <w:font w:name="Arial">
+               <w:panose1 w:val="020B0604020202020204"/>
+               <w:charset w:val="00"/>
+               <w:family w:val="swiss"/>
+               <w:pitch w:val="variable"/>
+               <w:sig w:usb0="E0002EFF"
+                      w:usb1="C000785B"
+                      w:usb2="00000009"
+                      w:usb3="00000000"
+                      w:csb0="000001FF"
+                      w:csb1="00000000"/>
+            </w:font>
+            <w:font w:name="Noto Serif CJK SC">
+               <w:panose1 w:val="00000000000000000000"/>
+               <w:charset w:val="00"/>
+               <w:family w:val="roman"/>
+               <w:notTrueType/>
+               <w:pitch w:val="default"/>
+            </w:font>
+            <w:font w:name="Lohit Devanagari">
+               <w:altName w:val="Cambria"/>
+               <w:panose1 w:val="00000000000000000000"/>
+               <w:charset w:val="00"/>
+               <w:family w:val="roman"/>
+               <w:notTrueType/>
+               <w:pitch w:val="default"/>
+            </w:font>
+            <w:font w:name="ArialMT">
+               <w:altName w:val="Arial"/>
+               <w:charset w:val="00"/>
+               <w:family w:val="auto"/>
+               <w:pitch w:val="variable"/>
+               <w:sig w:usb0="E0002AFF"
+                      w:usb1="C0007843"
+                      w:usb2="00000009"
+                      w:usb3="00000000"
+                      w:csb0="000001FF"
+                      w:csb1="00000000"/>
+            </w:font>
+            <w:font w:name="TimesNewRomanPSMT">
+               <w:altName w:val="Times New Roman"/>
+               <w:charset w:val="00"/>
+               <w:family w:val="auto"/>
+               <w:pitch w:val="variable"/>
+               <w:sig w:usb0="E0002AEF"
+                      w:usb1="C0007841"
+                      w:usb2="00000009"
+                      w:usb3="00000000"
+                      w:csb0="000001FF"
+                      w:csb1="00000000"/>
+            </w:font>
+            <w:font w:name="Georgia-Italic">
+               <w:altName w:val="Georgia"/>
+               <w:charset w:val="00"/>
+               <w:family w:val="auto"/>
+               <w:pitch w:val="variable"/>
+               <w:sig w:usb0="00000287"
+                      w:usb1="00000000"
+                      w:usb2="00000000"
+                      w:usb3="00000000"
+                      w:csb0="0000009F"
+                      w:csb1="00000000"/>
+            </w:font>
+            <w:font w:name="Cambria">
+               <w:panose1 w:val="02040503050406030204"/>
+               <w:charset w:val="00"/>
+               <w:family w:val="roman"/>
+               <w:pitch w:val="variable"/>
+               <w:sig w:usb0="E00006FF"
+                      w:usb1="420024FF"
+                      w:usb2="02000000"
+                      w:usb3="00000000"
+                      w:csb0="0000019F"
+                      w:csb1="00000000"/>
+            </w:font>
+         </w:fonts>
       </pkg:xmlData>
    </pkg:part>
 </pkg:package>
