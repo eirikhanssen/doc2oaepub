@@ -56,7 +56,13 @@
 
     <d2j:add-classes-to-sections/>
     
+    <d2j:group-main-and-asides/>
+    
+    <d2j:add-comments/>
+    
     <d2j:html-head/>
+   
+    <d2j:header-and-skiplinks/>
    
     <p:identity name="final"/>
     

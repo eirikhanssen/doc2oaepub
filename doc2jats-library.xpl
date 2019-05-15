@@ -1115,6 +1115,44 @@
         <p:delete match="section[@class='references']/p/@class[matches(.,'^ref$')]"></p:delete>
         <p:delete match="section[@class='abstract']/p/@class[matches(.,'^abstract')]"></p:delete>
 
+        <p:identity name="final"/>
+        
+    </p:declare-step>
+    
+    <p:declare-step type="d2j:group-main-and-asides" name="group-main-and-asides" exclude-inline-prefixes="d2j pkg w wp">
+        <p:output port="result" sequence="true"/>
+        <p:serialization port="result" indent="true" method="xml" omit-xml-declaration="true"/>
+        <p:input port="source"/>
+        <p:input port="parameters" kind="parameter" sequence="true"/>
+        
+        <p:wrap match="section" group-adjacent="boolean(self::section)" wrapper="main"/>
+
+        <p:add-attribute match="main" attribute-name="id" attribute-value="main"/>
+
+        <p:wrap match="dl[@class='author']" group-adjacent="boolean(self::dl[@class='author'])" wrapper="aside"></p:wrap>
+        
+        <p:add-attribute match="aside[dl/@class='author']" attribute-name="class" attribute-value="authors"/>       
+
+        <!-- The copyright content is hardcoded here, but really, it should depend on a parameter identifying the journal -->
+        <p:insert match="main" position="before">
+            <p:input port="insertion">
+                <p:inline><aside class="copyright">
+    <details><summary>©2018 (author name/s), CC-BY-4.0</summary>This is an Open Access article distributed under the terms of the Creative Commons Attribution 4.0 International License (<a href="http://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</a>), allowing third parties to copy and redistribute the material in any medium or format and to remix, transform, and build upon the material for any purpose, even commercially, provided the original work is properly cited and states its license. </details>
+</aside></p:inline>
+            </p:input>
+        </p:insert>
+        
+        <p:identity name="final"/>
+        
+    </p:declare-step>
+    
+    <p:declare-step type="d2j:add-comments" name="add-comments">
+        
+        <p:output port="result" sequence="true"/>
+        <p:serialization port="result" indent="true" method="xml" omit-xml-declaration="true"/>
+        <p:input port="source"/>
+        <p:input port="parameters" kind="parameter" sequence="true"/>
+        
         <p:xslt version="2.0">
             <p:input port="source"/>
             <p:input port="parameters"><p:empty/></p:input>
@@ -1141,9 +1179,37 @@
                 </p:inline>
             </p:input>
         </p:xslt>
-       
+        
         <p:identity name="final"/>
         
+    </p:declare-step>
+    
+    <p:declare-step type="d2j:header-and-skiplinks" name="header-and-skiplinks" 
+        xmlns:d2j="http://eirikhanssen.no/doc2jats"
+        xmlns:pkg="http://schemas.microsoft.com/office/2006/xmlPackage"
+        xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"
+        xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing"
+        exclude-inline-prefixes="d2j pkg w wp">
+        <p:output port="result" sequence="true"/>
+        <p:serialization port="result" indent="true" method="xml" omit-xml-declaration="true"/>
+        <p:input port="source"/>
+        <p:input port="parameters" kind="parameter" sequence="true"/>
+        
+        <p:insert match="body" position="first-child">
+            <p:input port="insertion">
+                <p:inline><nav><a class="skiplink" href="#main">Skip to Abstract</a></nav></p:inline>
+            </p:input>
+        </p:insert>
+
+        <!-- here 'Seminar' is hard-coded. but ideally the name of the journal should come from a parameter -->
+        <p:insert match="body" position="first-child">
+            <p:input port="insertion">
+                <p:inline><header class="seminar"> </header></p:inline>
+            </p:input>
+        </p:insert>  
+        
+        <p:identity name="final"/>
+
     </p:declare-step>
 
 </p:library>
