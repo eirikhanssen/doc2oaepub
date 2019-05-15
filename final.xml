@@ -1,7 +1,7 @@
 <html lang="en-US">
    <head>
       <meta charset="utf-8"/>
-      <title>Nonlinear Storytelling Method and Tools for Low-Threshold Game Development | Journal Article</title>
+      <title>Teachers’ Pedagogical Role as Mediators in Leading and Guiding Students’ Learning in Digital Storytelling (DST) | Journal Article</title>
       <link href="https://journals.hioa.no/styles/article.css" rel="stylesheet"/>
       <script src="https://journals.hioa.no/js/article.js" defer="defer"/>
    </head>
@@ -10,13 +10,14 @@
       <nav>
          <a class="skiplink" href="#main">Skip to Abstract</a>
       </nav>
-      <h1>Nonlinear Storytelling Method and Tools for Low-Threshold Game Development</h1>
+      <p/>
+      <h1>Teachers’ Pedagogical Role as Mediators in Leading and Guiding Students’ Learning in Digital Storytelling (DST)</h1>
       <aside class="authors">
          <dl class="author">
-            <dt>Letonsaari Mika, KarjalainenLeena, Selin Jukka</dt>
-            <dd>South-Eastern Finland</dd>
-            <dd>University of Applied Sciences</dd>
-            <dd>Email: <a href="mailto:mika.letonsaari@xamk.fi">mika.letonsaari@xamk.fi</a>
+            <dt>Jenny Niu og Hannele Niemi</dt>
+            <dd>Faculty of Educational Sciences</dd>
+            <dd>University of Helsinki</dd>
+            <dd>E-mail:<a href="mailto:jenny.niu@helsinki.fi">jenny.niu@helsinki.fi</a> and<a href="mailto:hannele.niemi@helsinki.fi">hannele.niemi@helsinki.fi</a>
             </dd>
          </dl>
       </aside>
@@ -27,241 +28,528 @@
       <main id="main">
          <section class="abstract">
             <h2>Abstract</h2>
-            <p>Nonlinear storytelling is a method in digital storytelling where the storyline is not linear but has branches. This is typical for interactive stories such as computer game plots. In this study we present a review of nonlinear storytelling tools and educational computer game development software. Special attention is paid to usability, software licensing models, and integration with modern game engines. We present a pilot study where nonlinear stories (n = 14) were collected during a game development project. Participants were adults with low information technology skills and who were participating in an information technology training course intended for enhancing their employment opportunities. Collected stories are analyzed to show an example of what kind of content can be expected when nonlinear storytelling is used. In particular some common errors and misconceptions in nonlinear storytelling are explored. Usability of the collected stories in the context of game development is examined. These observations and findings can be used to develop storytelling process more meaningful to students and to harness the nonlinear storytelling method more effectively in education and educational game development.</p>
+            <p>The aim of this study is to find out how the teachers act as mediators to lead and guide students’ learning in digital storytelling (DST). The research framework is based on Vygotsky’s mediation theory. The research project was carried out in the 2016-2017 school year. Four classes at Grade 5 from China and two classes at Grade 4 and Grade 5 from Finland participated in the study. We mainly focus on qualitative data from semi-structured interviews of teachers, researchers’ classroom observations, group discussions, and teachers’ course-planning documents. The main findings are that in DST, the main activities in teachers’ pedagogical role as mediators are facilitating, coaching, and scaffolding when they are doing pedagogical decisions. This study illustrates what teachers did in a DST project and how they have led and guided students’ learning when using the DST pedagogical method.</p>
             <dl class="keywords">
                <dt>Keywords:</dt>
-               <dd>digital storytelling</dd>
-               <dd>nonlinear storytelling</dd>
-               <dd>educational game</dd>
-               <dd>storytelling software</dd>
+               <dd>teachers’ pedagogical role</dd>
+               <dd>digital storytelling (DST)</dd>
+               <dd>student-centered knowledge creation</dd>
+               <dd>mediation theory</dd>
             </dl>
          </section>
          <!--"Abstract" END-->
          <section>
             <h2>Introduction</h2>
-            <p>Storytelling has become a very popular method of education. In storytelling, the learner creates or tells a story that is related to the subject matter. Learner’s personal point of view connects the subject matter to a larger context. Storytelling as a learning method has many positive cognitive, social, and emotional benefits including improvement in language skills, concentration, imagination, comprehension, and critical thinking (Boltman 2001, pp. 17-18).</p>
-            <p>Due to the arrival of computers in school classrooms, digital storytelling has become a widely used and studied form of educational storytelling. Digital storytelling, sometimes called multimedia storytelling, is storytelling using methods of digital multimedia such as images, sound, and video. Often computers are used to compose the story. Digital storytelling is a method to learn digital information processing and multimedia production using modern digital tools. It also provides engagement to the learning process and encourages students in multimedia literacy (Viitanen et al. 2014, Çıralı et al. 2015).<br/>Most of the educational storytelling, including digital storytelling, is linear in structure. Stories present only one predetermined sequence of events. The reader of the story has no control of the story. An example of such a story is presented in Figure 1.</p>
-            <figure>
-               <img src="figure-1.jpg"
-                    alt="1. You see a monster, you can attack the monster.&#xA;2. You Attack the monster, you can ues magic sword.&#xA;3. You use magic sword, the monster is defeated.&#xA;4. Monster is defeated."/>
-               <figcaption>
-                  <p>Figure 1. A story with a linear structure.</p>
-               </figcaption>
-            </figure>
-            <p>Gamified stories or interactive stories provide the user of the story, a reader or a player, a possibility to affect the storyline. Such a storyline has branches and the structure is not linear but nonlinear. An example of a nonlinear gamified story is presented in Figure 2. The story starts from the left. The player is given two options which provide the player with more options. This creates a complex structure for the story with several possible outcomes.</p>
-            <figure>
-               <img src="figure-2.jpg"
-                    alt="1: You see a monster. You can a) attack the monster or b) run away.&#xA;&#xA;2a: You attack the monster. You can use magic sword. The monser is defeated and you have now 10 copper coins and a red potion.&#xA;&#xA;2b You run away - The Monster saw you and attacks a) Use Magic sword or b) Use sacred amulet or c) just run away&#xA;&#xA;3a You used the magic sword. The monster is defeated and you have now 10 copper coins and a red potion.&#xA;&#xA;3b you use the sacred amulet. Monster freezes. You can use the magic sword or run away. If using the magic sword, the monster will be defeated and you gain 10 copper coins and a red potion. If running away: You managed to escape.&#xA;&#xA;3c You chose to just run away. You are not fast enough, the monster ate you. Game over."/>
-               <figcaption>
-                  <p>Figure 2. A gamified story with nonlinear structure.</p>
-               </figcaption>
-            </figure>
-            <p>There is little research focused on the nonlinear nature of gamified stories in education. Computer game development as a form of nonlinear storytelling is most often just a tool for teaching computer programming (for example Leutenegger et al. 2007, Topalli et al. 2018, Kalelioğlu 2015). Sometimes game development or interactivity of the story is used as a way to engage students but nonlinear nature of stories is not considered as a special feature (Tran 2016).</p>
-            <p>A notable exception is a study by Liu et al. (2010) where linear and nonlinear storytelling interfaces were compared. They measured co-creative performance in four factors: derivation, remix, ownership, and positive interdependence. In all four factors, the nonlinear group performed superior to the linear group. Researchers reported a positive outcome for the nonlinear storytelling.</p>
-            <p>In our earlier work, we have shown that nonlinear stories have similarity to computational algorithms (reference removed for the review). Based on this, we speculate that practicing nonlinear storytelling may have positive synergy with learning computational thinking skills. </p>
-            <p>In this article, we review some available types of nonlinear storytelling tools and software. These include general software that is not intended for writing nonlinear stories, as well as specialized nonlinear storytelling software. We present their features regarding the requirements of an educational game development. </p>
-            <p>We also present an analysis of stories collected in our earlier study to give an example of what kinds of results can be expected when nonlinear stories are collected from novice computer users.</p>
-            <p>In the research project an educational computer game was developed by information technology students and professionals. We wanted also to enable the participation of another group of adults who had very low information technology skills. The aim was to engage them in a computer game development, to empower them regarding the use of information technology, and to provide their non-information technology related expertise to the game development process (reference removed for the review). </p>
-            <p>In this article the collected stories are analyzed in detail. We are interested in common technical problems that novice users have. Participant in this project had only a short introduction to nonlinear storytelling and limited help from their teacher as they continued their work after school hours. This method of study tries to uncover the critical learning challenges and possible misconceptions in nonlinear storytelling.</p>
+            <p>In the twenty-first century, there have been enormous changes in technology and society. The fast development in information and communication technology (ICT) has created a lot of new opportunities as well as new demands in education. Throughout the world, countries are setting twenty-first-century competences as the aims of schools (Kennedy, 2008), which also places new requirements on the teacher’s pedagogical role. Lee and Tan (2018) describes that a twenty-first-century teacher is interactive with the students, who are also interactive among students themselves. They propose (McWilliam, 2009; Lee and Tan, 2018) that because of the contextual change of learning, the teacher’s role has gradually changed from “Sage-on-the-Stage” to “Guide-on-the-Side” and “Meddler-in-the Middle.” Teachers are gradually taking up the role of facilitators. Instead of being traditionally didactic for the transmission of knowledge in the class, teachers in the new learning context gradually become knowledge brokers and weave the bits and pieces of knowledge generated by students in the classroom during the learning activities. In our study, we applied digital storytelling (DST) as a pedagogical method that supports both students’ collaboration and their active knowledge creation with digital competences. The major task of our study is to investigate how teachers see their role in this student-centered learning approach. </p>
          </section>
          <!--"Introduction" END-->
          <section>
-            <h2>Nonlinear storytelling software</h2>
-            <p>Game plots can be understood as nonlinear stories or hypertext documents. There are many tools to produce such documents with internal hyperlinking. There also exists many types of game development processes from simple experimentations to complex professional projects. Therefore both the requirements of game development processes and the features available in tools must be considered when storytelling tools are chosen.</p>
-            <p>In our example game development project we chose the following key features for consideration when choosing the solution:</p>
-            <ol class="decimal">
-               <li>easy to use for people with no special information technology skills,</li>
-               <li>possibility to export stories in a simple form, or an integration with advanced game engines, and</li>
-               <li>open source licensing.</li>
-            </ol>
-            <p>The first requirement is given because the idea is to enable a low-threshold participation for everyone. The second requirement is important for us because the stories are used in another professional game engine. It is also generally good to prevent vendor-locking by using software with full export functionality.</p>
-            <p>The third requirement was chosen because we develop an educational software in an academic research project and it is important to be able to share the results. We also wanted to use external open source licensed resources and therefore open source licensing was a natural choice to avoid licensing problems and enable wide adoption.</p>
-            <p>In the following, some of the basic types of nonlinear storytelling software are introduced. Different types of hyperlinking methods are explained and the software’s selected key features regarding game development are discussed.</p>
+            <h2>Theoretical Framework and Concepts</h2>
+            <h3>Digital Storytelling (DST) as a Pedagogical Method </h3>
+            <p>DST can be defined from several different perspectives. It can describe the practices of everyday people who use digital tools to tell their stories. Ohler (2008) defined DST as a creative process in which traditional storytelling is combined with modern digital technology. From an educational perspective, DST is often defined as a reflective learning activity (Nelson &amp; Hull 2008) and as a self-representation of its creators (Kulla-Abbott &amp; Polman, 2008). According to Robin (2008), DST is a process of creating short stories that allows students and educators to enhance their information gathering; it cultivates students’ higher-order thinking, such as problem-solving skills and critical thinking, and it also facilitate their ability to work in collaborative teams. According to Jenkins et al. (2009), DST is a twenty-first century learning mode. Stewart and Ivala (2017) found that a DST praxis can lead to both reflective and critical engagement with one’s own writing practices, and it can strengthen the synergy between the spoken word, process-based writing and digital formats for composing. </p>
+            <p>DST is student-centered learning approach; it aims to give students a chance to create knowledge from their own starting points about the topic under discussion (Lambert, 2013; McGee, 2015; Robin, 2008; Rossiter &amp; Garcia, 2010). There is evidence suggesting that the method encourages active participation as well as shared learning and creativity (Lambert, 2013; McGee, 2015; Niemi et al., 2014; Sadik, 2008; Shelby-Caffey, Úbéda, &amp; Jenkins, 2014; Sukovic, 2014; Woodhouse, 2008). Niemi et al. (2014) and Niemi &amp; Multisilta (2016) applied DST in three countries in order to promote twenty-first century competences focusing on collaboration, active participation, and shared learning. They found that DST greatly affects student engagement.</p>
+            <p>Many of the above-mentioned DST studies focus on students’ actions or learning processes. Research (Vivitsou et al. 2017) has also focused on the teachers’ practices in supporting student work in DST. The teachers’ practices in their project (Vivitsou et al. 2017) covered four areas – digital literacy, knowledge and skill creation, collaboration and networking – as part of a global sharing pedagogy (Niemi &amp; Multisilta, 2016). Teachers structured and problematized the learning process in order to allow the students to learn in a freer way and helped them to draw connections with reality. In this way, the students actively engaged in informal (natural and technological) environments for knowledge creation and skill development. In our study, we want to find out more about how teachers mediate students’ learning when using DST. DST is like a project-based learning; it can be done in groups or individually. In our research design, we applied the DST pedagogical method to be carried out in groups so that the students could also learn how to work with others in order to develop their communication and collaboration skills. </p>
          </section>
-         <!--"Nonlinear storytelling software" END-->
+         <!--"Theoretical Framework and Concepts" END-->
          <section>
-            <h2>Text editing</h2>
-            <p>The simplest way to write nonlinear stories is to add references to a text file for internal linking. For this purpose, any text editor can be used. Notable examples of texts produced in this manner are encyclopedias with internal linking. There also exist gamified storybooks, for example, Choose Your Own Adventure book series (Friedman, 1995) which have numbered chapters. At the end of each chapter, there are usually choices given to the reader. For example, the text might say “<em>If you want to fight, jump to chapter number 13. If you want to run away, jump to chapter 85.</em>”</p>
-            <p>A more advanced option is to use bookmarking and cross-referencing features in word processing or presentation software such as Microsoft Word, Microsoft PowerPoint, OpenOffice Writer, or OpenOffice Impress. This can be a good method in nonlinear storytelling for people who are familiar with word processing and presentation software. In addition gamification can also be used as an engaging method to teach the advanced features of office software.</p>
+            <h2>A Theory of Mediation from a Vygotskian Perspective in DST</h2>
+            <p>According to Vygotsky (1978), learning is a mediated activity using tools, symbols, and social interaction, and he strongly emphasizes the role of sociocultural mediation in human development. Mediation takes place via three major classes of mediators: material tools, psychological tools, and other human beings (Vygotsky, 1978; Vygotsky &amp; Luria, 1994, pp. 99–174; Kozulin, 1990, pp. 111–121; Kozulin, 1997, pp. 62–64). The importance of mediation in learning is evidenced in many research studies. Feuerstein (1991) suggests that a child’s learning is shaped by the intervention of significant adults, which are referred to as mediators. In the mediated learning situation, adults, or more competent peers, place themselves between the environment and the learner, thus radically changing the conditions for learning. The mediator selects, changes, amplifies, and interprets objects and processes for the child (Kozulin &amp; Presseisen, 1995). </p>
+            <p>In our study, we applied mediated learning with DST in a social-cultural framework. Teachers act as mediators in students’ learning. When teachers set the learning objectives of the DST project and when they guide the students during the working process, they mediate the students’ learning through making pedagogical decisions concerning the learning activities, tasks, tools, and processes. From a Vygotskian perspective, teachers apply mediational practices between themselves and the students to scaffold the students within the zone of proximal development (ZPD) (Vygotsky, 1978).</p>
+            <p>In a DST project, the teacher initiates and designs the learning tools and activities, and the students interact with learning material and other resources and work in groups to create their digital story products together. During the learning process, the teacher guides and leads the learning through facilitating many activities, providing supports, and creating learning opportunities with pedagogical interventions. The teacher’s role in DST is different than in traditional instruction, as it shifts from knowledge transmission to the mediation of the students’ active learning. Teachers become mediators who support the students’ work. </p>
          </section>
-         <!--"Text editing" END-->
+         <!--"A Theory of Mediation from a Vygotskian Perspective in DST" END-->
          <section>
-            <h2>Hypertext and Wiki Software</h2>
-            <p>For hypertext documents, Hypertext Markup Language (HTML) is the standard markup language, especially used in Internet WWW pages (Berners-Lee, 2001). Basic hyperlinking of documents with HTML language requires only a small subset of HTML language (W3C, 2017). Hyperlinking is created with A HREF attributes and some additional attributes are required for forming valid HTML documents. The biggest drawback for utilizing HTML language with novice users is the need for understanding files and file systems. Each passage in the nonlinear story must be stored in its own file. For example, in our project, students did not have the required skills in file handling, and this makes the task of using HTML difficult.</p>
-            <p>Wiki software is an improvement in this matter as documents are stored in a database and the users do not need to manually manage them. Also, the markup language is simplified from HTML and users do not need to define document structure.</p>
-            <p>There are several different Wiki software and also many open source options exist. Documents are computer readable and can be exported in simple formats. This makes Wiki documents a very simple and efficient tool for writing nonlinear stories. Using Wiki for writing also teaches Wiki markup to students so that they become familiar with how the online encyclopedia Wikipedia and other online Wiki resources work. </p>
+            <h2>Research Question </h2>
+            <p>We wanted to find out what kinds of pedagogical decisions and actions teachers carried out in the process of DST and how they supported students in different phases of DST when students played a central role in exploring and building knowledge as creators, producers, and discussants rather than as mere passive listeners.</p>
+            <p>In our study, we focused on what teachers did before the DST project, in the beginning of the project, during the project, and at the end of the project; we used that data to identify the teachers’ pedagogical role in leading and guiding the students’ learning in DST. In this study, the following research question (RQ) is proposed:</p>
+            <p>Research Question: What are the teachers’ roles in leading and guiding students’ learning through mediation with digital storytelling (DST) as a pedagogical method? </p>
          </section>
-         <!--"Hypertext and Wiki Software" END-->
+         <!--"Research Question " END-->
          <section>
-            <h2>Game-oriented software</h2>
-            <p>There exist some game oriented software for nonlinear storytelling. These software have the advantage that they are designed for the purpose of writing game plots. They often have some means to control the story structure and maybe to visualize the story structure in a form of a flowchart. They often have features for a more complex game mechanics such as variables and scripting programming option. Let us review some of the most popular game oriented nonlinear writing tools.</p>
-            <p>
-               <em>Twine</em> is described on its website (<a href="twinery.org">twinery.org</a>) as a tool for telling interactive, nonlinear stories. Its user interface is a flowchart-based. Nodes of the flowchart are known as passages. They contain the text presented to the player as well as hyperlinks and possible macros for controlling the plot. An example of Twine flowchart is presented in Figure 3.</p>
-            <figure>
-               <img src="figure-3.jpg"
-                    alt="A flowchart:&#xA;Branching: Hello! Could you please tell me how to go to&#xA;&#xA;Branch 1: &#xA;Hello! First you have to turn around and then walk straight two blocs from (text is cut here)&#xA;&#xA;Thank you very much! Double click this passage to edit it&#xA;&#xA;Branch 2:&#xA;Hello! Unfortunately I don't know this city so I can't help you.&#xA;Double click this passage to edit it.&#xA;&#xA;Okey. I'll try to ask someone else. Have a nice day.&#xA;Double click this passage to edit it.&#xA;"/>
-               <figcaption>
-                  <p>Figure 3. Twine flowchart with five passages and one branching.</p>
-                  <p>Figure 4. Story structure control mechanisms for RenPy visual novel engine. Menu item gives options to the player. The Jump attribute moves to the given label in the storyline. This example is taken from RenPy website renpy.org.</p>
-                  <p>Figure 5. An example of branching in Ink scripting language.</p>
-               </figcaption>
-            </figure>
-            <p>There are two methods for creating hyperlinks in Twine. The basic syntax is double brackets around the link text. This creates a link to the passage with the same title as the link text. If no passage exists with the same name, a new passage with the name is created. The second method has separate link text and target passage title. There are three syntaxes for this in Twine and its default Harlowe story format:</p>
+            <h2>Research Method and Data Gathering</h2>
+            <h3>Participants</h3>
+            <p>This study design was based on qualitative research methods. Four classes in China in Beijing and two classes in Finland in Helsinki participated in this study. In Finland, each class had one primary school class teacher. At that time, four student teachers were doing their teaching practice in those two classes. In China, there were five teachers who were involved in the project: two math teachers, two classroom teachers, and one computer teacher. The participants in this study are presented in Table 1.</p>
+            <table>
+               <caption>
+                  <p>Table 1. Participants in the Study</p>
+               </caption>
+               <thead>
+                  <tr class="center">
+                     <th>
+                        <p>Public School</p>
+                     </th>
+                     <th>
+                        <p>Number of classes</p>
+                     </th>
+                     <th>
+                        <p>Student ages</p>
+                     </th>
+                     <th>
+                        <p>Number of DST sessions</p>
+                     </th>
+                     <th>
+                        <p>Number of participating teachers</p>
+                     </th>
+                     <th>
+                        <p>Experience using DST</p>
+                     </th>
+                  </tr>
+               </thead>
+               <tbody>
+                  <tr class="center">
+                     <td>
+                        <p>Finnish</p>
+                        <p>School in </p>
+                        <p>Helsinki </p>
+                     </td>
+                     <td>
+                        <p>2 (about 23 students each class)</p>
+                     </td>
+                     <td>
+                        <p>10–11</p>
+                     </td>
+                     <td>
+                        <p>8 (learning geometry shapes)</p>
+                     </td>
+                     <td>
+                        <p>2 class teachers + 4 student teachers</p>
+                     </td>
+                     <td>
+                        <p>First time using DST, have used designed based learning and project-based learning method before</p>
+                     </td>
+                  </tr>
+                  <tr class="center">
+                     <td>
+                        <p>Chinese </p>
+                        <p>School in</p>
+                        <p>Beijing</p>
+                     </td>
+                     <td>
+                        <p>4 (about 40 students each class)</p>
+                     </td>
+                     <td>
+                        <p>10–11</p>
+                     </td>
+                     <td>
+                        <p>10–12 (learning geometry area size calculation)</p>
+                     </td>
+                     <td>
+                        <p>2 math teachers + 2 head teachers + 1 computer teacher</p>
+                     </td>
+                     <td>
+                        <p>First time using DST, have not used other student-centered approach before</p>
+                     </td>
+                  </tr>
+               </tbody>
+            </table>
+         </section>
+         <!--"Research Method and Data Gathering" END-->
+         <section>
+            <h2>Data collection</h2>
+            <p>The data of this study were collected through interviews with teachers, classroom observations by researchers, teachers’ course-planning notes and documentation, and discussion notes among researchers and teachers. Table 2 describes the data collection process in this study. We analyzed the data to find out how teachers mediated the students’ learning based on what teachers did before the DST, and at the beginning, middle, and end of the projects. Our aim was to identify how the teachers mediated the students’ learning and what roles they played in the DST math learning project. </p>
+            <p>The researchers had several discussions and meetings with the participating teachers before the projects began. We discussed these questions together:</p>
             <ul class="bullet">
-               <li>[[linktext|title]]</li>
-               <li>[[linktext-&gt;title]]</li>
-               <li>[[title&lt;-linktext]]</li>
+               <li>What is DST?</li>
+               <li>What are the benefits of using DST?</li>
+               <li>What are the differences in DST compared to project–based learning?</li>
+               <li>What are the processes and steps of DST?</li>
+               <li>What are the learning outcomes?</li>
+               <li>What are the learning contents?</li>
+               <li>What kind of learning environments can be used to support the learning in DST?</li>
+               <li>How can assessments be carried out?</li>
             </ul>
-            <p>
-               <em>RenPy</em> (<a href="renpy.org">renpy.org</a>) is a tool for creating visual novels. It has many options designed to integrate visual images into nonlinear storytelling. A story is written in a text file and story structure is created with menus, jumps, and labels. An example of a RenPy code, where two options are provided to the player, is presented in Figure 4. RenPy is a popular and mature software. It is at its best when the story is strongly visual.</p>
+            <p>Those discussions helped teachers in their project planning and implementation. The Finnish teachers felt more confident about this method, since they were familiar with a student-centered approach. The Chinese teachers and students, in contrast, were used to a teacher-centered approach.</p>
             <p/>
             <table>
+               <caption>
+                  <p>Table 2. Data collection in the Study</p>
+               </caption>
                <thead>
-                  <tr>
+                  <tr class="center">
                      <th>
-                        <p>    s “Sure, but what’s a \”visual novel?\””</p>
-                        <p>menu:</p>
-                        <p>    “It’s a videogame.”:</p>
-                        <p>        jump game</p>
-                        <p>    “It’s an interactive book.”:</p>
-                        <p>        jump book</p>
-                        <p>label game:</p>
-                        <p>    m “It’s a kind of videogame you can play on your computer or a console.”</p>
+                        <p>Public School</p>
+                     </th>
+                     <th>
+                        <p>Interviews</p>
+                     </th>
+                     <th>
+                        <p>Classroom observation</p>
+                     </th>
+                     <th>
+                        <p>Course planning notes, documents</p>
+                     </th>
+                     <th>
+                        <p>Discussion notes between teachers and researchers</p>
+                     </th>
+                     <th>
+                        <p>DST videos</p>
                      </th>
                   </tr>
                </thead>
+               <tbody>
+                  <tr class="center">
+                     <td>
+                        <p>Finnish</p>
+                        <p>School in </p>
+                        <p>Helsinki </p>
+                     </td>
+                     <td>
+                        <p>2 separate classroom teacher interviews</p>
+                        <p>(90 minutes per each and recorded)</p>
+                        <p>1 group student teachers interview (120 minutes and recorded)</p>
+                     </td>
+                     <td>
+                        <p>6 times with notes, pictures, videos</p>
+                     </td>
+                     <td>
+                        <p>Teaching course materials, slides</p>
+                     </td>
+                     <td>
+                        <p>E-mails, </p>
+                        <p>shared Google documents</p>
+                     </td>
+                     <td>
+                        <p>12 videos</p>
+                     </td>
+                  </tr>
+                  <tr class="center">
+                     <td>
+                        <p>Chinese </p>
+                        <p>School in</p>
+                        <p>Beijing</p>
+                     </td>
+                     <td>
+                        <p>2 group interviews (about 120 minutes) and recorded</p>
+                     </td>
+                     <td>
+                        <p>10 times with notes, pictures, videos</p>
+                     </td>
+                     <td>
+                        <p>Teaching course materials, slides</p>
+                     </td>
+                     <td>
+                        <p>E-mails,</p>
+                        <p>Word documents,</p>
+                        <p>WeChat messages (a Chinese social media platform)</p>
+                     </td>
+                     <td>
+                        <p>20 videos</p>
+                     </td>
+                  </tr>
+               </tbody>
             </table>
-            <p styleId="FigureCaption" styleName="[Figure Caption]">Figure 4. Story structure control mechanisms for RenPy visual novel engine. Menu item gives options to the player. The Jump attribute moves to the given label in the storyline. This example is taken from RenPy website renpy.org.</p>
-            <p>
-               <em>Inkle</em> is a software for combining visual art with nonlinear stories. It uses a scripting language <em>Ink</em>. Ink website (<a href="github.com/inkle/ink">github.com/inkle/ink</a>) describes it as “scripting language for writing interactive narrative, both for text-centric games as well as more graphical games that contain highly branching stories.” An example of Ink scripting is presented in Figure 5.</p>
-            <p>Another scripting type of software is <em>ChoiceScript</em>(<a href="github.com/dfabulich/choicescript">github.com/dfabulich/choicescript</a>). Both Inkle and ChoiceScript are open source software. Inkle also has Unity 3d integration option by a plugin. As scripting languages, these are both textual in nature. This emphasizes the story logic and the story script is very concise. Both of these languages have clear syntaxes and are good for text-based game design when no structure visualization is required. </p>
-            <table>
+            <p>We did semi-structured group interviews for student teachers in Finland and a semi-structured group interview in China with all teachers. Semi-structured interviews allow researchers to develop in-depth accounts of experiences and perceptions with individuals (Cousin, 2009). Researchers can use group interviews as a more efficient use of resources and as a means of adding valuable insight to the interpretation of a social or behavioral event (Frey &amp; Fontana 1991). Before the interview, we developed an interview guide. Some example of the teacher interview questions are as follows. What is your overall experience with the DST method? How does DST change teachers’ pedagogy? How does DST support students’ learning? What did you do and how did you support the students’ learning in this DST project? What are your roles as a teacher in using DST method? Do you plan to use DST method in your future teaching? </p>
+            <p>We used the list of questions and topics that needed to be covered during the interview in a particular order. We followed the guide, and we allowed additional discussions around the topics where appropriate. This provided additional information and data besides what we planned to have. We noticed in our group interview that one person’s answer could stimulate another person’s thoughts, and then we saw additional perspectives. We also received immediate feedback if all the participants discussed the topic with one another. It also saved us a lot of time. But we were cautious not to allow one person to dominate the conversation; we led the conversation so that everyone had the chance to participate and contribute.</p>
+         </section>
+         <!--"Data collection" END-->
+         <section>
+            <h2>Analysis</h2>
+            <p>In this study, we used content analysis. When using content analysis, the aim is to build a model to describe the phenomenon in a conceptual form. Both inductive and deductive analysis processes are represented as three main phases: the preparation, organizing, and reporting of the research material (Elo &amp; Kyngäs, 2007). Content analysis is a research method for making valid inferences from data to their context; the purpose is to provide knowledge, new insights, a representation of facts, and a practical guide for action (Krippendorff, 1980). The challenge can be that each researcher interprets the data according to her or his subjective perspective (Sandelowski, 1995). Each inquiry is distinctive, and the results depend on the skills, insights, analytic abilities, and style of the investigator (Hoskins &amp; Mariano, 2004). In this study, the researchers discussed their observations and interview data to ensure their interpretations would be valid. </p>
+            <p>Creswell (2007) says that qualitative researchers approach their topic with a specific worldview, which contains a set of beliefs or assumptions. In this study, we had Finnish-, Chinese-, and English-speaking researchers, and we wanted to be aware of our cultural backgrounds while we aimed to understand what happened in Finnish and Chinese classrooms. As van Manen (1990, p. 33) notes, qualitative research asks “What is it?” Levitt (2015) argues that qualitative research requires one to adopt an interpretative rather than a procedure-driven way of working. Qualitative research relies on the identification of the “subjective interpretation of data,” which enables meaningful data interpretation (Levitt, 2015). Table 3 gives the process of the data analysis, in which three main concepts are identified. </p>
+            <p/>
+            <table class="TableGrid">
+               <caption>
+                  <p>Table 3. The Process of Qualitative Analysis in the Study</p>
+               </caption>
                <thead>
-                  <tr>
+                  <tr class="left-center">
                      <th>
-                        <p>== paragraph_1 === <br/>You stand by the wall of Analand, sword in hand.<br/>* [Open the gate] -&gt; paragraph_2 <br/>* [Smash down the gate] -&gt; paragraph_3<br/>* [Turn back and go home] -&gt; paragraph_4<br/>
-                           <br/>=== paragraph_2 ===<br/>You open the gate, and step out onto the path.</p>
+                        <p>EXTRACTED DATA EXAMPLES</p>
+                        <p>(activities, tasks, tools, processes etc. through pedagogical decisions)</p>
+                     </th>
+                     <th>
+                        <p>CODE</p>
+                     </th>
+                     <th>
+                        <p>CATEGORY</p>
+                     </th>
+                     <th>
+                        <p>THEME</p>
                      </th>
                   </tr>
                </thead>
+               <tbody>
+                  <tr class="center">
+                     <td>
+                        <p/>
+                        <p>Planning and designing learning environments/space,</p>
+                        <p>dividing groups,</p>
+                        <p>roleplay…</p>
+                        <p/>
+                        <p>Camera, iPhone, iPad, paperboard, iMoive software, </p>
+                        <figure>
+                           <img src="figure.png"/>
+                           <figcaption>____</figcaption>
+                        </figure>
+                        <p>digital story example, </p>
+                        <p>real-life examples of different geometry shapes…</p>
+                        <p/>
+                        <p>What do you try to achieve?</p>
+                        <p>What do you need?</p>
+                        <p>How do you do it?</p>
+                        <figure>
+                           <img src="figure.png"/>
+                           <figcaption>____</figcaption>
+                        </figure>
+                        <p>Can you explain it to me?</p>
+                        <p>What have you learned?</p>
+                        <p>You did so well; how did you do it?</p>
+                        <p>I like the way you discuss and agree in your group…</p>
+                     </td>
+                     <td>
+                        <p/>
+                        <p>Plan</p>
+                        <p>Initiate</p>
+                        <figure>
+                           <img src="figure.png"/>
+                           <figcaption>____</figcaption>
+                        </figure>
+                        <p>Organize</p>
+                        <p/>
+                        <p/>
+                        <p>Support</p>
+                        <p>Using tools</p>
+                        <p>Explaining</p>
+                        <p>Illustrating</p>
+                        <p>Demonstrating</p>
+                        <p/>
+                        <p/>
+                        <p/>
+                        <p>Ask good questions</p>
+                        <figure>
+                           <img src="figure.png"/>
+                           <figcaption>____</figcaption>
+                        </figure>
+                        <p>Provoke thinking</p>
+                        <p>Encouraging</p>
+                        <p/>
+                     </td>
+                     <td>
+                        <p/>
+                        <p>Facilitating the learning</p>
+                        <figure>
+                           <img src="figure.png"/>
+                           <figcaption>____</figcaption>
+                        </figure>
+                        <p/>
+                        <p/>
+                        <p/>
+                        <p/>
+                        <p>Scaffolding the learning</p>
+                        <figure>
+                           <img src="figure.png"/>
+                           <figcaption>____</figcaption>
+                        </figure>
+                        <p/>
+                        <p/>
+                        <p/>
+                        <p/>
+                        <p/>
+                        <p>Coaching the learning</p>
+                        <p/>
+                     </td>
+                     <td>
+                        <p/>
+                        <p>Mediators stimulate</p>
+                        <p>learning activities</p>
+                        <p/>
+                        <p/>
+                        <p>
+                           <strong>Mediating theLearning</strong>
+                        </p>
+                        <figure>
+                           <img src="figure.png"/>
+                           <figcaption>____</figcaption>
+                        </figure>
+                        <p/>
+                        <p/>
+                        <p>Tools and social </p>
+                        <p>interactions have an important role in learning</p>
+                        <p/>
+                        <p>The importance of sociocultural role in human development</p>
+                     </td>
+                  </tr>
+               </tbody>
             </table>
-            <p styleId="FigureCaption" styleName="[Figure Caption]">Figure 5. An example of branching in Ink scripting language.</p>
-            <p>
-               <em>Fungus</em> (<a href="fungusgames.com">fungusgames.com</a>) is an open source software for writing stories inside Unity 3d development environment. It is a flowchart-based tool and usability of the tool has been highly paid attention to. The usability is especially good in using variables and conditional branching but these advanced features were not used in our pilot project. </p>
-            <p>The drawback of Fungus is that it requires Unity 3d installation. While Unity 3d is free for personal use, it is a significantly more complex software. The native Unity 3d integration can make the user interface difficult to use for people with low information technology experience. An example view of the user interface is presented in Figure 6.</p>
-            <figure>
-               <img src="figure-4.jpg"
-                    alt="A screenshot of the Fungus user interface. Some of the parts that can be seen: Creation panel for creating different types of objects/blocks (Trees, walls, sounds, texts etc). There is an animation panel. Play controls. A block inspector. A panel for navigating assets. A flowchart. A game display."/>
-               <figcaption>
-                  <p>Figure 6. An example view of Fungus user interface inside Unity 3d environment.</p>
-               </figcaption>
-            </figure>
-            <p>
-               <em>Alice</em> (<a href="alice.org">alice.org</a>) is a storytelling tool that is designed to be used in education. It is developed by Carnegie Mellon University and its aim is to provide an introduction to computer science concepts and computer programming in an engaging way of telling stories and creating games. Alice is a rather comprehensive storytelling tool. A 3d scene view of Alice is shown in Figure 7. As an educational tool, it is designed to be easy to use even if it has many advanced features. As an independent storytelling tool Alice is an engaging and compact tool. But it has many internal features in addition to the storytelling features and it cannot be easily integrated into external processes such as general game development processes. Alice has extensive learning resources. For example there is material for designing nonlinear narrative (<a href="https://www.alice.org/resources/lessons/design-interactive-narrative/">https://www.alice.org/resources/lessons/design-interactive-narrative/</a>).</p>
-            <figure>
-               <img src="figure-5.jpg"
-                    alt="There is a large scene/world/camera view, with a run button and a edit code button. To the right hand side, there is a panel with camera options. Below these two, there are tabs to browse by class hierarchy, theme, gallery by group, to search gallery, shapes/text and my classes. The Browse by class hierarchy is highlighted: Large icons for selecting different class types: Biped classes, flyer classes, prop classes, quadruped classes, swimmer classes and transport classes."/>
-               <figcaption>
-                  <p>Figure 7. The Scene view of Alice storytelling tool.</p>
-               </figcaption>
-            </figure>
          </section>
-         <!--"Game-oriented software" END-->
+         <!--"Analysis" END-->
          <section>
-            <h2>Methods</h2>
-            <p>An educational computer game was developed by university information technology students and professionals. To acquire content for the game, nonlinear stories were collected from a group of novice computer users. The group of adults (age 30-64 years) participated in a basic information technology training course intended for enhancing their employment opportunities.</p>
-            <p>During one learning session the serious game development project was introduced to the students and students tried the game. The game is an open world 3d game where the player’s avatar can walk around and complete educational tasks.</p>
-            <p>During a second learning session, the basic usage of nonlinear storytelling tool Twine was introduced to the students. Twine was selected for the project because it is an open source software and because it’s good integration with Unity 3d game engine.</p>
-            <p>After the introduction, students were instructed to write a sample story on personal computers at the computer laboratory of the school. Students were able to continue their stories at home after the session. Submitting their story for the game development research project was voluntary and not everybody wanted to include their work in the game.</p>
+            <h2>Research Results</h2>
+            <p>How Teachers Prepared Students’ Learning before the DST Project</p>
+            <p>First, based on the research data, we describe what teachers did before the DST project. Both Finnish and Chinese teachers decided to use DST in students’ math learning. The teachers decided geometry instruction would be used in the DST project. In the Finnish classes, the teachers decided that the students would learn geometry shapes, the associated math concepts, and how those geometry shapes are used in real-life situations. In the Chinese classrooms, the teachers wanted students to learn how to calculate the area size of different geometry shapes and to apply their learning in real-life situations.</p>
+            <p>The teachers planned time for the project and made sure to have resources, such as iPads and computers, to create the digital stories. Even though DST is student-centered knowledge creation, the teachers made many arrangements to ensure students’ learning. The teachers’ planning work was demonstrated in the discussion notes, slides, and documents. In the teachers’ interviews, one teacher said the following:</p>
+            <p>“We also organize how many courses for the projects, how much time is needed, and what is to be covered in each lesson.”</p>
+            <p>“Teachers play important roles in selecting the topics.”</p>
+            <p>Another teacher had this to say: </p>
+            <p>“We also felt that it is important for teachers to do the pedagogical course planning—how much time is needed and what needs to be carried out in each lesson.”</p>
+            <p>From these descriptions of what teachers did before the DST project and even though the project gave students much freedom to design their own stories, the teachers needed to make many pedagogical decisions<strong/>(e.g.,<strong/>how the project would fit within the school curriculum). The teachers also facilitated the project through preparation. These two educational systems have different curriculums as well as different teaching and learning traditions; however, both countries strive to prepare students to work independently in their groups.</p>
          </section>
-         <!--"Methods" END-->
+         <!--"Research Results" END-->
          <section>
-            <h2>Results</h2>
-            <p>Fourteen stories (n = 14) were submitted to the project. The default visualization of Story List view by Twine is presented in Figure 8. In this visualization, each circle presents one passage in the story. Size of the circles correlates with the amount of text in a passage. Colors are only for visual purposes. The overall structure of the story is also visually presented by positions of circles.</p>
-            <figure>
-               <img src="figure-6.jpg"
-                    alt="The visual presentation of each story is presented as clouds of circles."/>
-               <figcaption>
-                  <p>Figure 8. Visual presentation of the collected stories in Twine.</p>
-               </figcaption>
-            </figure>
-            <p>It can be seen from the visualization that there are three stories with only one passage (just a single sphere in the visualization). These stories have obviously some technical problems. Other stories seem structurally good. So the default visualization of the Story List view presented in Figure 8 can be used as a simple inspector of story structure. </p>
-            <p>A more detailed view of two of the stories, as presented by the Story Edit view of Twine, is presented in Figure 9 for comparison. As can be seen, the visualization in Figure 8 gives an approximate structure of the story. But the Story Edit view also presents the story flow and transitions between passages.</p>
-            <figure>
-               <img src="figure-7.jpg"
-                    alt="A flowchart of two different passages as dscribed by the previous paragraph and the figure caption."/>
-               <figcaption>
-                  <p>Figure 9. A more detailed view of two stories in Figure 8. Two extra passages on the lower right corner are omitted from the latter story. </p>
-               </figcaption>
-            </figure>
-            <p>It is possible to collect certain metrics from the stories to describe the story structure in analytical means. The number of passages and the number of links between passages in each story is presented in Figure 10. Here we can see again the three stories with only a single passage and no links.</p>
-            <figure>
-               <img src="figure-8.jpg" alt=""/>
-               <figcaption>
-                  <p>Figure 10. The number of passages and the number of links between passages in collected stories.</p>
-               </figcaption>
-            </figure>
-            <p>We analyzed the three stories with only one passage and found that they all had the same problem: students had not correctly understood the syntax for creating hyperlinks. An example of the contents of one story is presented in Figure 11. It can be seen that the dialog has been written as a linear manuscript without any interaction with the player.</p>
-            <p>In all of these three cases, students had put double brackets over the whole dialog. Double brackets are used for creating hyperlinks, but they should include only the link text provided to the player or a link text and a link title. Double bracket notation works only with single line text so no hyperlink is created in this case.</p>
-            <figure>
-               <img src="figure-9.jpg"
-                    alt="[[Bartender1&#xA;What would you like to have?&#xA;&#xA;Customer 1/1&#xA;A large dark beer&#xA;&#xA;Bartender2&#xA;Would you like to have German or Belgian, sir?&#xA;&#xA;Customer1/2&#xA;German, please.&#xA;&#xA;Bartender3&#xA;And you, sir?&#xA;&#xA;Customer2/1&#xA;A scotch and a small beer.&#xA;&#xA;Bartender4&#xA;Okay. Here you are!]]"/>
-               <figcaption>
-                  <p>Figure 11. An example of a story with only one passage. The student has not understood the idea of nonlinear and hyperlinks properly but has written the dialog in a traditional format. The text has been translated into English from the original Finnish language used in the project.</p>
-               </figcaption>
-            </figure>
-            <p>By default, Twine generates new passages using the link text as a new title. This was a somewhat difficult concept to learn in the introduction phase. The problem is that given two similar link texts, same continuation passage is assumed. This is not always the case and simple hyperlink syntax cannot be used. </p>
-            <p>In collected stories, only one story had this problem. A part of the story is presented in Figure 12. In this story, there are several questions with Yes and No answers. Questions are very different, “Do you need a bank?” and “Do you need a map?”, so the story should not continue in the same passage.</p>
-            <p>In the case of negative answer, the student has solved the problem by using “No” and “No.” which are interpreted as two different texts by Twine. But in the positive case both answers lead to the same passage. The problematic passage has been selected in Twine user interface so it is shown as light blue instead of regular white color in Figure 12. This passage has even a further Yes and No question which leads back to the passage itself in the positive answer case leading to a possible infinite loop in the story.</p>
-            <figure>
-               <img src="figure-10.jpg"
-                    alt="Flowchart of a story as described in the figure caption below."/>
-               <figcaption>
-                  <p>Figure 12. An example of a part of a story where the concepts of link text and link target were not fully understood and this has caused a problem with the story structure. There are several questions to the player with Yes and No answers and automatically incorrectly generated hyperlinks cause an illogical structure. The text has been translated into English from the original Finnish language used in the project.</p>
-               </figcaption>
-            </figure>
-            <p>It is worth noting that most of the stories were not finished completely. Out of the eleven stories that had more than one passage, only two had no unfinished passages. Some of the unfinished passages were story branches that were not written, but some were missing just the closure or the ending for the story.</p>
-            <p>Three stories had extra passages that were not connected to the story. This is not an error or a problem but can tell something about the creative process of the story. Unconnected passages can tell for example about the editing of the story or experimentation with the story structure.</p>
+            <h2>How Teachers Mediated Students’ Learning in the Beginning of the DST Project</h2>
+            <p>In the beginning of the project, the teachers explained to the students what the DST project was about, the process and the steps, and how many lesson hours in this math learning project with DST. When introducing math learning with DST to students, the Chinese and Finnish teachers had different approaches. The Chinese teachers provided students structured guidance. For example, they showed a digital story video to the students to demonstrate what kinds of digital stories can be created. The video shows how students work in groups to discover and learn about the structural design of a bridge through activities, such as reading books, search information from internet, asking experts, discussing among the students, demonstrating it with paper boards and other objects. Then, the teachers explained to the students what they planned to do, the expected learning outcomes, and how the final assessment would be carried out.</p>
+            <p>The Finnish classes were more open and were less formal with the final assessment. In one class, the student teachers used roleplay to introduce a real-life problem and asked students to solve it by using geometry concepts. In the roleplay, the student teachers explained that a company had just developed a wonderful new product, but the old product package was outdated, so the company needed to design a sophisticated new product package. The student teachers asked the students to design a product package for their chosen product (e.g., mobile phone, iPad). The students could choose the product and design the product package using their knowledge of geometry. </p>
+            <p>In the Finnish school, the teachers divided students into groups. There were fewer students (i.e., about twenty-three students) in the Finnish class, and the groups each included three to five students. In the Chinese school, the teachers let the students form groups of five to six students. The Chinese students were excited, but there were problems. Six boys wanted to be in one group; however, the teachers preferred each group to have both boys and girls. Also, many high-achieving students gathered in one group. The teachers negotiated with the students to balance the group by gender and skill levels.</p>
+            <p>In the Chinese teachers’ group interview, one teacher said the following:</p>
+            <p>We introduced and explained to the students what the DST method is, and how we planned to use it in our math studying. We showed one example. Then we helped and participated in forming the groups. We also suggested that each group needs to define the roles of each group member.</p>
+            <p>In an interview, one Finnish teacher commented as follows:</p>
+            <p>We [the teacher and student teachers] first selected four topics. Then we asked the students to select which topic they were interested in. We formed the groups based on the students’ interests. If too many students were interested in one topic, then we had to decide and negotiate with the students. In the beginning, we had eight small groups; each group had about three students. We noticed that in one small group, one person was very active, and the other two students were not so active. It was difficult for the one active student to make the other two passive students join in the group work. Then we combined the small groups to the bigger group (five or six students together). Even in bigger group, there were only two students who were very active; these two students were able to motivate others to do things together.</p>
+            <p>We can see that at the beginning of the project, the teachers mediated the students’ learning in many ways. The teachers facilitated learning by introducing the method and theme. Then, pedagogical decisions were made by the teachers on how to introduce the DST project and to determine the themes. The formation of student groups was organized by the teachers, and they made pedagogical decisions about how the groups would be formed. </p>
          </section>
-         <!--"Results" END-->
+         <!--"How Teachers Mediated Students’ Learning in the Beginning of the DST Project" END-->
          <section>
-            <h2>Discussion and conclusions</h2>
-            <p>In this article, nonlinear storytelling was introduced as a low-threshold method for co-creative educational game development. Some of the most important characteristic features of nonlinear stories were presented. Nonlinear stories can be seen as hypertext documents, interactive stories or game plots. These are all used in education in different contexts but there does not exist much research literature on the specific topic of creation of stories with nonlinear structure. </p>
-            <p>We presented several methods for writing nonlinear stories. Stories can be written with very commonplace tools such as HTML editors, wikis, word processors or presentation software. There also exist several tools for specifically writing nonlinear interactive stories. These tools often have features that make writing nonlinear stories easier such as flowchart visualization and integration with more advanced game engines. They often also have an easy use of scripting, such as using variables and conditional branching, although these advanced features were not utilized in this pilot project and were not introduced in detail in this article.</p>
-            <p>In our pilot study, 14 stories were collected from adult students with low information technology skills. Students were given only a short introduction to nonlinear storytelling and Twine software used for writing stories. The teacher was only limitedly available to supervise and help in technical problems because students continued their work unsupervised after school hours. This experimental setup was used to reveal common learning challenges and possible misconceptions in nonlinear storytelling.</p>
-            <p>Out of the 14 stories collected, three stories had some fundamental flaws so that stories contained no hyperlinks. Creating a nonlinear story with hyperlinks was introduced to students beforehand but based on these observations, more emphasis should be put on explaining the user interaction and the concept of branching in nonlinear stories. </p>
-            <p>The difference between the link text and the target passage title was emphasized during the introduction of the tool as it is maybe the most difficult concept in using hyperlinks. Making efficient passage titles should be considered an important subject in storytelling as it can cause confusion. In this study, only one student had technical problems with the independent link text and the target passage title.</p>
-            <p>Submitted stories had many unfinished passages. The process of writing a nonlinear story differs from traditional linear story as nonlinear story can have several branches and all of them must be finished. There are several techniques for this. For example, there can be several different endings or branches can be pieced together in a single ending. This idea could be made clear by practicing with small gamified stories first.</p>
-            <p>We did not include computer programming concepts such as variables and conditional branching in this study. Still, hyperlinks and complexity of the story structure presented challenges for the students. This is something that we are interested in our future research: how do these challenges, recognizing them, learning to solve them and gaining fluency in dealing with them, develop their thinking skills generally. </p>
-            <p>These skills are also very close to so-called computational thinking skills which are considered to be of great importance in computer science education. It would be therefore interesting to know if useful transferable skills are accumulated during the activity of nonlinear storytelling.</p>
-            <p>Most of the collected stories were of good quality and ready to be implemented in our game. The chosen software tool was found functional and students were able to use it very independently, although it would be better to give more support during the writing process especially in the early phases of learning.</p>
-            <p>Students’ views were not inquired formally but computer game development embedded in a regular information technology basic training was considered as a refreshing change for their study routines.</p>
-            <p>This study was a small scale pilot study to better understand nonlinear storytelling process and to increase understanding of how to implement nonlinear storytelling in education. In our future work we will develop teaching methods and materials for nonlinear storytelling in education based on the findings of this study. More research is needed to identify the special features and possible applications of nonlinear storytelling in education. This study will provide some guidance for designing these studies.</p>
-            <p>Most of the storytelling tools reviewed were open source licensed software. This allows the modification of software. In our future work, we plan to further modify some of the software features to answer the requirements of educational use. These modifications will include features such as enabling better co-creative processes through sharing and remixing stories.</p>
+            <h2>How Teachers Mediated Students’ Learning during the DST Project</h2>
+            <p>After the teachers provided the information needed to start the projects, the teachers stepped aside, and the students were in the center of the stage while they made plans, divided responsibilities, searched for information, recorded the learning artifacts, discussed different alternatives, and synthesized and created their digital stories. The teachers, however, still played an active backstage role. </p>
+            <p>The teachers ensured that every child was participating in the learning. In China, the teachers had to find additional learning space for students (e.g., corridors) because the classroom was too small for so many groups engaged in active learning, and it was quite noisy when the students made video clips. </p>
+            <p>The teachers also had to provide some new tools and resources (e.g., iPads, computers). The teachers asked for support from the IT teacher, and they facilitated the students’ learning by providing help and support whenever needed.</p>
+            <p>In the teachers’ group interview, one teacher said the following:</p>
+            <p>“Through this project, we paid more attention to individual students’ different capability levels. We can give more support to the students who need [it].”</p>
+            <p>“And [we can] ensure all the students actively participate in the learning process and activities.”</p>
+            <p>Another teacher added the following:</p>
+            <p>“We asked the IT teacher to provide some training for students about how to use digital tools and how to create videos. We provide support to students when they ask for help.”</p>
+            <p>Teachers paid attention to the students’ progress and asked questions—an important coaching<strong/>strategy to create awareness among the students about their progress at a given time. The teachers used a praising strategy in their coaching by drawing attention to the students’ progress, their creative ideas, and their effort, which increased their confidence and motivation. The teachers often did not give direct answers and suggestions to the students; instead, the teachers asked good questions to help the students’ awareness of the situation and to help them move forward. Through coaching, the teachers tried to help students improve their work and learning.</p>
+            <p>The teachers also used scaffolding strategies, such as providing a checklist (i.e., the digital story assessment form showing how a good digital story looks) for students to use when they made their own stories. To scaffold the students’ learning, the teachers also used visual and tangible objects (e.g., toothpick sticks and candies to form different shapes) to illustrate geometry concepts. The teachers reminded students of previous learning related to geometry, which students then applied to the current problem. In the self-assessment and peer-assessment, the students were asked to give a grade to each question—five (extremely well), four (very well), three (well), two (moderately), and one (not really at all)—and to give suggestions for improvement. Here is the list of questions:</p>
+            <p>How are the important concepts, terms, and information, such as the triangle, square, and surface area, displayed in the video?</p>
+            <p>How well is the story of the video structured? Consider the introduction, the interchange between the pictures, the events, and the ending.</p>
+            <p>How well does the story give explanations and reasoning for such thing as why a certain shape is a triangle?</p>
+            <p>How does the video make the material that is supposed to be learned understandable for the viewer? Consider the conversations, pictures, animations, etc.</p>
+            <p>How does the subtitling help the viewers understand the most important mathematical terms as well as the material that is supposed to be learned?</p>
+            <p>How does the video keep the viewer engaged? Consider the music, the viewing angles, and the close and remote shooting.</p>
+            <p>What is your overall opinion of the video?</p>
+            <p>The assessment questionnaire was given to students before they started to make their digital story videos so that they could see what the important elements in good digital stories were.</p>
+            <p>In the interviews, we asked the teachers directly, “What are your roles as a teacher in using DST method?” One teacher gave very clear description in response:</p>
+            <p>“We are organizers for the project. We provide inspiration and guidance for the students. We are also coordinators when there are conflicts and difficulties. We are helpers and supporters during the process, as scaffolding to our students.”</p>
+            <p>One teacher stated the following, with which several other teachers agreed:</p>
+            <p>“One challenge for me as teacher in doing DST is that it takes longer than the usual way we teach. We notice that DST has many good sides. Students are very excited and engaged in what they are doing, and they learn many things besides math. Sometimes it takes longer for the students to carry out the activities than we expected. I feel that we need more time to plan for next DST project.” </p>
+            <p>Another teacher commented:</p>
+            <p>“This digital storytelling method needs many skills from children. As a teacher, I can observe what skills children already have and what they are good at and what skills need further development.” </p>
+            <p>The interview data clearly showed that the teachers mediate the students’ learning by facilitating, coaching, and scaffolding. This also showed the teachers’ professional competence in identifying the students’ needs and developing their potential. </p>
          </section>
-         <!--"Discussion and conclusions" END-->
+         <!--"How Teachers Mediated Students’ Learning during the DST Project" END-->
+         <section>
+            <h2>What Teachers Did to Mediate Students’ Learning at the End of the DST Project</h2>
+            <p>At the end of the project, each group presented their digital story to the whole class. After each group presentation, the teacher asked the group to self-assess their digital story and then asked other students to give a peer assessment; the teacher then provided their assessment. The assessment was designed for students’ improvement. The teacher asked the students to assess their digital story, based on the criteria in the assessment form, by asking two main questions: (a) what were the good elements in this digital story; (b) if you would have more time, how would you like to make the digital story better? In addition, the Finnish teachers asked their students questions to check students’ learning and understanding of the geometry shapes and concepts. The Chinese teachers asked students to solve three math problems related to calculating the area of geometry shapes.</p>
+            <p>In summary, at the end of the DST project, the teachers made pedagogical decisions on how the assessment would be used to achieve improvement-led assessment. The teachers facilitated the assessment by leading and guiding the assessment questions; they also used scaffolding to check if the students understood the math and geometrical concepts.</p>
+            <p>During one classroom observation, after one group of students made their digital story presentation, one Finnish teacher asked the other students the following:</p>
+            <p>“Can someone tell us what good things in this digital story were? If there were more time, how could they improve their digital stories?” </p>
+            <p>Later, in one interview with a student from that class, the researcher asked her: “What have you learned from this DST project?” The student said, “I learned…and I also learned how to give comments to others nicely.” This demonstrates that the teacher scaffolded the students in how to give feedback to others nicely.</p>
+            <p>In this DST project, the improvement-based assessment was used for learning and to help students to see what went well; their achievement made them feel proud of themselves and also increased their confidence in learning. At the same time, the assessment helped students see how they could develop further with suggestions. Additionally, we included learning reflection by asking good questions to the students after they finished their DST presentations. </p>
+            <p>In the teachers’ interview, we also asked this question: “What are the biggest changes for teachers in doing this DST project? The following are the teachers’ collective answers:</p>
+            <p>“With the traditional method, we teach the students, then the students do the exercise, and then we check whether they have done it correctly. Now with the digital storytelling method, the students need to find out how to solve the math problems.” </p>
+            <p>“The teachers step from the front of the stage to the back of the stage.” </p>
+            <p>“With the traditional method, students are more passive during studying. With DST, students are more engaged and more active.”</p>
+            <p>This [DST] method is totally different compared to traditional teaching methods. Compared to the traditional method, in which teachers are at center stage and teach knowledge to their students, the DST method is a student-centered approach. In this new method, we did not teach the students. It was the students who learn the knowledge by themselves. In this method, the key point is that the teachers step out from the center of the classroom.</p>
+            <p>The evidence indicates that DST can bring students to the center of the learning stage. Teachers had moved to the side of the classroom to have a more supportive role. When we looked through all the students’ DST videos, we noticed that they demonstrated the objectives the teachers had set before the projects. The Finnish students’ videos show how they proposed a real-life problem and how they used math concepts of geometry shapes to solve the problem and how they designed real product packages. The Chinese students’ videos show them learning how to calculate the area size of different geometry shapes and how to use their learning in real-life problems. It is interesting to see that the Finnish students’ videos have more creativity elements in terms the diversity of the products. The Chinese students’ videos have more common elements and were more knowledge focused. In both the Chinese and Finnish students’ videos, we can see that students have used other skills besides the math elements, such as language, music, ICT, and story logic structure. </p>
+            <p>Based on the research data of classroom observation, discussion with teachers, and the DST videos, we also noticed that the Finnish teachers used more coaching strategies than the Chinese ones in mediating students learning. The Finnish teachers asked more questions to provoke students’ learning. They paid more attention to students’ skills and competence development beyond simply math knowledge, such as communication skills. Chinese teachers focused more on students’ knowledge learning during the projects.</p>
+         </section>
+         <!--"What Teachers Did to Mediate Students’ Learning at the End of the DST Project" END-->
+         <section>
+            <h2>Summary of the Findings</h2>
+            <p>In this study, we focused on the teachers’ roles as mediators in leading and guiding students’ learning. The data described what the teachers did in the process of a DST project and demonstrated that the teachers made many pedagogical decisions based on the students’ needs and classroom situations. As mediators, they had the three main roles are (1) <strong>facilitating</strong>; (2) <strong>coaching</strong>; and (3) scaffolding the students’ learning:  </p>
+            <p>The teachers facilitated the DST project to enable students to actively engage in student-centered learning. Facilitating the students’ learning consists of important aspects in the process of teachers’ pedagogical decisions, which were related to managing the whole DST project. These aspects included the following: introducing the method and theme; creating a learning community; being responsible for the project’s process; providing needed information as well as a learning space; and creating an interactive and collaborative learning atmosphere. </p>
+            <p>The teachers used coaching tactics to inspire and lead the students in learning through roleplaying, asking good questions, praising the students’ progress, and giving positive and constructive feedback. Teachers’ coaching<strong/>of the students’ learning includes aspects that help students to improve their work, which included the following: inspiring the students; uncovering the students’ potential, talents, and goals; clarifying and helping the students breaking down tasks; and motivating and empowering the students by praising their progress and emphasizing their strengths.</p>
+            <p>Scaffolding strategies were used by teachers to demonstrate the learning outcome product through an existing digital story; they also used visual and tangible objects (e.g., paper board, toothpick sticks) to illustrate the geometry shapes. Scaffolding includes teachers’ pedagogical decisions that provide structural or mental tools to support students’ learning and can include the following: demonstrating and modelling what the students need to do; providing checklists for the students’ expected outcome product; using visual and tangible objects to illustrate the geometry shapes; and checking for understanding.</p>
+            <p>The focus of this research was to find how teachers led and guided students’ learning, which reflects the teachers’ pedagogical role as mediators. Figure 1 illustrates the teachers’ pedagogical role as mediators in facilitating, coaching, and scaffolding through pedagogical decision making for the students’ learning in DST.</p>
+            <figure>
+               <img src="figure.png"/>
+               <figcaption>
+                  <p>Figure 1. Summary of the teachers’ pedagogical role as mediators in DST</p>
+               </figcaption>
+            </figure>
+         </section>
+         <!--"Summary of the Findings" END-->
+         <section>
+            <h2>Discussion</h2>
+            <p>The aim of this study was to discover the teachers’ pedagogical role as mediators (Vygotsky, 1978) in leading and guiding the students’ learning with DST. The teacher’s role is changing from knowledge transmission at the center of the classroom stage to a supportive role from the side of the classroom, which enables the students’ active knowledge construction. As McWilliam (2009, p. 281–293) stated, teachers’ pedagogical identity shifted from “Sage-on-the stage” to “Guide-on-the-side.” We identified the three main functions of facilitating, coaching and scaffolding, which the teachers did as mediators through pedagogical decision making in the DST project.</p>
+            <p>Facilitation is a common term in education. A facilitator helps a group of people to understand their common objectives and helps them to plan how to achieve these objectives (Bens, 2012). This requires that the facilitator design and run the group activity smoothly so to achieve the objectives. Facilitating enables groups to work more effectively to collaborate and achieve their goals (Kaner et al. 2007). The facilitator’s job is to support everyone to do their best thinking and working. To do this, the facilitator encourages full participation, promotes mutual understanding, and cultivates shared responsibility (Kaner et al. 2007). In education, facilitating works with the goal of having students take as much responsibility for their own learning as possible (Metz, 2013). Teachers may shift to a facilitative role to increase student ownership of the learning process (Underhill 1999).</p>
+            <p>One main characteristic of the DST method is the student-centered knowledge creation approach. The students are at the center of the learning stage; however, this will not happen without teachers facilitating the learning process. Facilitating means planning, guiding, and managing the group activity by creating a flourishing learning process and environment; this ensures everyone’s participation and success in meeting the objectives of the group activity. Facilitation was very visible in this DST project. As Gu (2018) has pointed out, teachers are the organizers of the learning process, designers of the learning environment, and helpers of the students’ learning experience. In this DST project, teachers facilitated the students’ learning by (a) introducing the method and theme, (b) creating learning community, (c) being responsible for the learning process, (d) providing needed information and a supportive learning environment, and (e) supporting interactions within the collaborative learning process.</p>
+            <p>The concept of coaching is often used in sport or in goal-oriented learning processes. It is a form of development in which a person (i.e., coach) supports a learner or client in achieving a specific goal by providing training and guidance (Passmore, 2016). Coaching is the process of aiming for improved performance. In this DST study, coaching was often associated with asking good questions to discover the right direction, to build motivation, and to define concrete actions. Through the teachers’ questions, the students became aware of the learning outcomes; they uncovered their potential and built their inner strength, confidence, and motivation. Additionally, the teachers encouraged the students even when there were difficulties; they praised the students’ progress, built students’ strength and motivation, and led the students to concrete actions. The teachers, therefore, played an extremely important role in coaching students in the right direction and providing motivation to achieve better performance. </p>
+            <p>Scaffolding is a structure of “support points” for performing an action to develop the children’s zone of proximal development (ZPD) (Vygotsky, 1978; Obukhova &amp; Korepanova, 2009). At school, in classroom practice, teachers can use various scaffolding strategies to support the students’ development in their zone of proximal development (ZPD). In Vivitsou et al.’s (2017) study, teachers used scaffolding techniques in DST. In this DST project, to support student-centered learning, the teachers scaffolded the students by showing them a good digital story and then by encouraging them to use paper board to cut different geometry shapes. The teachers provided a checklist for assessing the digital stories. Visual and tangible objects were used to illustrate the geometry shapes.  Scaffolding is the support given during the learning process, which is tailored to the needs of the students; the intention is to help the students achieve their learning goals (Sawyer, 2013). Some scaffolding means (Van de Pol et al. 2010) are modeling, explaining, demonstrating, and giving feedbacks and handouts. </p>
+            <p>These three concepts identified in the teachers’ work in the DST project are widely used in educational settings, not only in the context of DST. We can conclude that findings suggest the teachers’ pedagogical role as mediators is in DST is very essential. The teachers made concrete and realistic pedagogical planning, and made decisions to react and adjust to the learning situation and on the students’ needs and capacities in order to develop the students’ active learning and to achieve the desired learning outcomes. </p>
+         </section>
+         <!--"Discussion" END-->
+         <section>
+            <h2>Limitations and Further Study</h2>
+            <p>In this study, the main topic of learning with DST was related to geometry for ten- and eleven-year-old students. Also, this study studies the teacher’s role only in one subject matter and only in two schools and with students at a specific age level. It is important to expand the study to other subject matters, such as language, ICT, and music. The project could also be more inter-disciplinary in using DST in learning. It would be important to find out whether teacher’s role would change if the students were younger or older or if the learning concepts were more abstract and difficult. In this study, the teachers led and guided the students’ learning in groups, and the study did not provide detailed information about how teachers supported for weaker students in an individualized manner. Further studies could focus more on how teachers support individualized learning in the student-centered learning method.</p>
+            <p>This study was carried out in Finland and in China, which have very different education systems and different cultural backgrounds. Additional studies could be done in other countries. Additionally, it is also important to find out how teachers integrate their teaching with their national curriculum over a longer period of time.</p>
+            <p>Even though these research findings were discovered using DST, it would be interesting to find out if the same results could be found and tested in other student-centered pedagogical methods or approaches with a different emphasis. Future studies can pursue research in project-based or problem-based learning, or in phenomenon-based learning. We suggest that more research should be carried out to help teachers who use student-centered pedagogical methods and approaches.</p>
+         </section>
+         <!--"Limitations and Further Study" END-->
          <section class="acknowledgements">
-            <h2>Acknowledgment</h2>
-            <p>This work was supported by European Union Regional Development Fund and the Leverage from the EU 2014-2020 programme.</p>
+            <h2>Acknowledgements</h2>
+            <p>Authors want to thank the Advanced Innovation Center for Future Education (AICFE), Beijing Normal University, and University of Helsinki for financing the project.</p>
+            <p>Authors express thanks to their co-researchers: Baoping Li from Beijing Normal University and Marianna Vivitsou from the University of Helsinki for project implementation and data collection.</p>
+            <p/>
          </section>
-         <!--"Acknowledgment" END-->
+         <!--"Acknowledgements" END-->
          <section class="references">
             <h2>References</h2>
-            <p>Berners-Lee, T., Hendler, J., &amp; Lassila, O. (2001). The Semantic Web. <em>Scientific American, 284</em>(5), 34–43. https://doi.org/10.1038/scientificamerican0501-34</p>
-            <p>Boltman, A. (2001). <em>Children’s Storytelling Technologies: Differences in Elaboration and Recall. Dissertation</em>. Faculty of the Graduate School of the University of Maryland, Maryland.</p>
-            <p>Çıralı, H., &amp; Usluel, Y. K. (2015). <em>A Descriptive Review Study about Digital Storytelling in Educational Context.</em> Presented at the 7th International Conference on Education and New Learning Technologies (EDULEARN15), Barcelona, Spain. Retrieved from https://www.researchgate.net/profile/Hatice_Cirali_Sarica/publication/284177441</p>
-            <p>Friedman, T. (1995). Making sense of software: Computer games and interactive textuality. In <em>Cybersociety; Computer-Mediated Communication and Community.</em> Retrieved from https://www.researchgate.net/profile/Ted_Friedman/publication/277013129</p>
-            <p>Kalelioğlu, F. (2015). A new way of teaching programming skills to K-12 students: Code.org. <em>Computers in Human Behavior, 52</em>, 200–210. https://doi.org/10.1016/j.chb.2015.05.047</p>
-            <p>Letonsaari, M., &amp; Selin, J. (2017). Modeling computational algorithms using nonlinear storytelling methods of computer game design. <em>Procedia Computer Science, 119</em>, 131–138. https://doi.org/10.1016/j.procs.2017.11.169</p>
-            <p>Letonsaari, M., Selin, J., &amp; Lampi, M. (2019, May 14). <em>Co-creative Serious Games Design Process using Nonlinear Storyline Editing</em>. 582–588. https://doi.org/10.5220/0006320305820588</p>
-            <p>Leutenegger, S., &amp; Edgington, J. (2007). A games first approach to teaching introductory programming. <em>ACM SIGCSE Bulletin, 39</em>(1), 115–118.</p>
-            <p>Liu, C.-C., Liu, K.-P., Chen, G.-D., &amp; Liu, B.-J. (2010). Children’s collaborative storytelling with linear and nonlinear approaches. <em>Procedia - Social and Behavioral Sciences, 2</em>(2), 4787–4792. https://doi.org/10.1016/j.sbspro.2010.03.771</p>
-            <p>Tedre, M., &amp; Denning, P. J. (2016). The long quest for computational thinking. <em>Proceedings of the 16th Koli Calling International Conference on Computing Education Research</em>. https://doi.org/10.1145/2999541.2999542</p>
-            <p>Topalli, D., &amp; Cagiltay, N. E. (2018). Improving programming skills in engineering education through problem-based game projects with Scratch. <em>Computers &amp; Education, 120</em>, 64–74. https://doi.org/10.1016/j.compedu.2018.01.011</p>
-            <p>Tran, K. M. (2016). “Her story was complex”: A Twine workshop for ten- to twelve-year-old girls. <em>E-Learning and Digital Media, 13</em>(5–6), 212–226. https://doi.org/10.1177/2042753016689635</p>
-            <p>Viitanen, K., Harju, V., Niemi, H., &amp; Multisilta, J. (2014). Digitaalisentarinankerronnanmonetmahdollisuudet. In <em>Rajatonluokkahuone. Opetus 2000</em> (pp. 187–211). Jyväskylä: PSkustannus.</p>
-            <p>W3C. (2017). HTML 5.2, W3C Recommendation, 14 December 2017. Retrieved May 14, 2019, from https://www.w3.org/TR/html/</p>
-            <p>Wing, J. M. (2006). Computational Thinking. <em>Commun. ACM, 49</em>(3), 33–35. https://doi.org/10.1145/1118178.1118215</p>
+            <p>Bens, I. (2012). <em>Facilitating with ease! Core skills for facilitators, team leaders and members, managers, consultants, and trainers.</em> San Francisco: Wiley.</p>
+            <p>Creswell, J.W. (2007). <em>Qualitative inquiry and research design: Choosing among five approaches (2nd ed.).</em> Thousand Oaks, CA: Sage.</p>
+            <p>Elo, S. &amp; Kyngäs, H. (2008), The qualitative content analysis process. <em>Journal of Advanced Nursing, 62</em>: 107-115. <a href="https://doi.org/10.1111/j.1365-2648.2007.04569.x">https://doi.org/10.1111/j.1365-2648.2007.04569.x</a>
+            </p>
+            <p>Feuerstein, R. (1990). The theory of structural cognitive modifiability. In B. Presseisen (Ed.), <em>Learning and thinking styles: Classroom interaction</em>, (pp. 68–134). Washington, DC: National Education Association.</p>
+            <p>Feuerstein, R., &amp; Feuerstein, S. (1991). Mediated learning experience: A theoretical review. In R. Feuerstein, P. Klein, &amp; A. Tannenbaum (Eds.), <em>Mediated learning experience: Theoretical, psychological, and learning implications</em>, (pp. 3–52). Tel Aviv and London: Freund</p>
+            <p>Frey, J. &amp; Fontana, A. (1991). The Group Interview in Social Research. <em>The Social Science Journal, 28</em>(2), 175-187. <a href="https://doi.org/10.1016/0362-3319(91)90003-M">https://doi.org/10.1016/0362-3319(91)90003-M</a>
+            </p>
+            <p>Cousin, G. (2009). <em>Researching learning in higher education: an introduction to contemporary methods and approaches.</em> New York: Routledge.</p>
+            <p>Creswell, J. W., Hanson, W. E., Clark Plano, V. L., &amp; Morales, A. (2007). Qualitative Research Designs: Selection and Implementation. <em>The Counseling Psychologist, 35</em>(2), 236–264. <a href="https://doi.org/10.1177/0011000006287390">https://doi.org/10.1177/0011000006287390</a>
+            </p>
+            <p>Gu, M. (2018). Challenges and solutions faced by China’s teachers in the era of globalization. In H. Niemi, A. Toom, A. Kallioniemi &amp; J. Lavonen (Eds.), <em>The teachers’ role in the changing globalizing world</em> (pp. 109-123). Leiden: Brill Sense.</p>
+            <p>Hoskins C.N. &amp; Mariano C. (2004). <em>Research in Nursing and Health: Understanding and Using Quantitative and Qualitative Methods. 2nd ed.,</em> New York: Springer Publishing Company.</p>
+            <p>Jenkins, H., Purushotma, R., Weigel, M., Clinton, K., &amp; Robinson, A. J. (2009). <em>Confronting the challenges of participatory culture: Media education for the twenty-first century.</em> Chicago, IL: MacArthur Foundation. <a href="https://doi.org/10.7551/mitpress/8435.001.0001">https://doi.org/10.7551/mitpress/8435.001.0001</a>
+            </p>
+            <p>Kaner, S. with Lind, L., Toldi, C., Fisk, S. and Berger, D. (2007). <em>Facilitator’s Guide to Participatory Decision-Making</em>. San Fransisco: Jossey-Bass</p>
+            <p>Kennedy, K. J. (2008). Globalised economies and liberalised curriculum: New challenges for national citizenship education. In D. Grossman, W. O. Lee &amp; K. Kennedy (Eds.), <em>Citizenship curriculum in Asia and the Pacific</em> (pp. 13–26). Hong Kong: Springer/Comparative Education Research Centre, University of Hong Kong.</p>
+            <p>Kozulin, A. (1990). <em>Vygotsky’s psychology: A biography of ideas.</em> Cambridge, MA: Harvard University Press.</p>
+            <p>Kozulin, A. (Ed.). (1997). <em>The ontogeny of cognitive modifiability.</em> Jerusalem:  International Centre for the Enhancement of Learning Potential, ICELP Press</p>
+            <p>Kozulin, A. &amp; Presseisen, B.Z. (1995) Mediated Learning Experience and Psychological Tools: Vygotsky’s and Feuerstein’s perspectives in a study of student learning, <em>Educational Psychologist, 30</em>(2), 67–75. <a href="https://doi.org/10.1207/s15326985ep3002_3">https://doi.org/10.1207/s15326985ep3002_3</a>
+            </p>
+            <p>Krippendorff K. (1980) <em>Content Analysis: An Introduction to its Methodology.</em> Newbury Park : Sage Publications.</p>
+            <p>Kulla-Abbott, T., &amp; Polman, J. (2008). Engaging student voice and fulfilling curriculum goals with digital stories. <em>THEN Journal: Technology Humanities Education and Narrative, 5(</em>1), 38–60.</p>
+            <p>Lambert, J. (2013). <em>Digital storytelling: Capturing lives, creating community.</em> New York, NY: Routledge. <a href="https://doi.org/10.4324/9780203102329">https://doi.org/10.4324/9780203102329</a>
+            </p>
+            <p>Lee, W., &amp; Tan, J. P. (2018 in print). The new roles of twenty-first-century teachers: Facilitator, knowledge broker, and pedagogical weaver. In H. Niemi, A. Toom, A. Kallioniemi, and J. Lavonen (Eds.), <em>The teachers’ role in the changing globalizing world </em>(pp. 11-31). Leiden: Brill Sense.</p>
+            <p>Levitt, H.M. (2015). Interpretation-driven guidelines for designing and evaluating grounded theory research: a constructivist-social justice approach. In O. C. G. Gelo, A. Pritz, &amp; Rieken (Eds.), <em>Psychotherapy research</em> (pp.455-483). Vienna: Springer. Retrieved from <a href="https://link.springer.com/chapter/10.1007/978-3-7091-1382-0_22">https://link.springer.com/chapter/10.1007/978-3-7091-1382-0_22</a>. <a href="https://doi.org/10.1007/978-3-7091-1382-0_22">https://doi.org/10.1007/978-3-7091-1382-0_22</a>
+            </p>
+            <p>McGee, P. (2015). <em>The instructional value of digital storytelling: Higher education, professional, and adult learning settings.</em> New York, NY: Routledge. <a href="https://doi.org/10.4324/9780203066140">https://doi.org/10.4324/9780203066140</a>
+            </p>
+            <p>McWilliam, E. L. (2009). Teaching for creativity: From sage to guide to meddler. <em>Asia Pacific Journal of Education, 29</em>(3), 281–293. <a href="https://doi.org/10.1080/02188790903092787">https://doi.org/10.1080/02188790903092787</a>
+            </p>
+            <p>Metz, Terrence (2013), <em>“The FAST Facilitative Session Leader”.</em> Productivity Press, Boca Raton, Florida.</p>
+            <p>Nelson, M. E., &amp; Hull, G. (2008). Self-presentation through multimedia: A Bakhtinian perspective on digital storytelling.” In K.  Lundby (Ed.), <em>Digital storytelling, mediatized stories: Self-representations in new media</em> (pp. 123–144). New York: Peter Lang.</p>
+            <p>Niemi, H., Harju, V., Vivitsou, M., Viitanen, K., Multisilta, J., &amp; Kuokkanen, A. (2014). Digital storytelling for 21st-century skills in virtual learning environments, <em>Creative Education, 5</em>(9), 657–671. <a href="https://doi.org/10.4236/ce.2014.59078">https://doi.org/10.4236/ce.2014.59078</a>
+            </p>
+            <p>Niemi, H., &amp; Multisilta, J. (2016). Digital storytelling promoting twenty-first century skills and student engagement. <em>Technology, Pedagogy and Education, 25</em>(4), 451-468. <a href="https://doi.org/10.1080/1475939X.2015.1074610">https://doi.org/10.1080/1475939X.2015.1074610</a>
+            </p>
+            <p>Nieuwerburgh, Christian van (2012). <em>Coaching in Education: Getting Better Results for Students, Educators, and Parents. Professional Coaching Series.</em> London: Karnac Books. ISBN 9781780490793. OCLC 778418798</p>
+            <p>Obukhova, L. F., &amp; Korepanova, I. A. (2009). The Zone of Proximal Development: A spatiotemporal model. <em>Journal of Russian &amp; East European Psychology, 47</em>(6), 25-47. <a href="https://doi.org/10.2753/RPO1061-0405470602">https://doi.org/10.2753/RPO1061-0405470602</a>
+            </p>
+            <p>Ohler, J. (2008). <em>Digital storytelling in the classroom: New media pathways to literacy, learning and creativity.</em> Thousand Oaks, CA: Corwin Press.</p>
+            <p>Passmore, J. (Ed.). (2016). <em>Excellence in coaching: The industry guide (3rd ed.)</em>. Philadelphia: Kogan Page. </p>
+            <p>Robin, B. (2008). The effective uses of digital storytelling as a teaching and learning tool. In D. Lapp, J. Flood, &amp; S. B. Heath (Eds.), <em>Handbook of research on teaching literacy through the communicative and visual arts. Vol. 2.</em> New York: Lawrence Erlbaum Associates. doi: 10.4324/9781315759616.ch43</p>
+            <p>Rossiter, M., &amp; Garcia, P. A. (2010). Digital storytelling: A new player on the narrative field. <em>New directions for adult and continuing education, 126</em>, 3748. <a href="https://doi.org/10.1002/ace.370">https://doi.org/10.1002/ace.370</a>
+            </p>
+            <p>Sadik, A. (2008). Digital storytelling: A meaningful technology-integrated approach for engaged student learning. <em>Educational Technology Research &amp; Development, 56</em>, 487506. <a href="https://doi.org/10.1007/s11423-008-9091-8">https://doi.org/10.1007/s11423-008-9091-8</a>
+            </p>
+            <p>Sandelowski M. (1995). Qualitative analysis: what it is and how to begin? <em>Research in Nursing &amp; Health 18</em>, 371–375. <a href="https://doi.org/10.1002/nur.4770180411">https://doi.org/10.1002/nur.4770180411</a>
+            </p>
+            <p>Shelby-Caffey, C., bda, E., &amp; Jenkins, B. (2014). Digital storytelling revisited. <em>The Reading Teacher, 68</em>(3), 191199. <a href="https://doi.org/10.1002/trtr.1273">https://doi.org/10.1002/trtr.1273</a>
+            </p>
+            <p>Stewart, K. D., &amp; Ivala, E. (2017). Silence, voice, and “other languages”: Digital storytelling as a site for resistance and restoration in a South African higher education classroom. <em>British Journal of Educational Technology, 48</em>(5), 1164-1175. <a href="https://doi.org/10.1111/bjet.12540">https://doi.org/10.1111/bjet.12540</a>
+            </p>
+            <p>Sukovic, S. (2014). iTell: Transliteracy and digital storytelling. <em>Australian Academic &amp; Research Libraries, 45</em>(3), 205229. <a href="https://doi.org/10.1080/00048623.2014.951114">https://doi.org/10.1080/00048623.2014.951114</a>
+            </p>
+            <p>Sawyer, R. Keith. <em>The Cambridge Handbook of the Learning Sciences.</em> New York: Cambridge University Press, 2006</p>
+            <p>Toom, A. &amp; Husu, J. (2018 in print). Teacher’s work in changing educational contexts: Balancing the role and the person. In H. Niemi, A. Toom, A. Kallioniemi &amp; J. Lavonen (Eds.), <em>The teachers’ role in the changing globalizing world</em> (pp. 1-9). Leiden: Brill Sense.</p>
+            <p>Underhill, Adrian (1999). “Facilitation in Language Teaching”. In Arnold, Jane. <em>Affect in Language Learning.</em> p. 126. ISBN 0521650410.</p>
+            <p>Van de Pol, Janneke, Volman, Monique, &amp; Beishuizen, Jos. (2010). Scaffolding in Teacher–Student Interaction: A Decade of Research<em>. Educational Psychology Review, 22</em>:271–296. <a href="https://doi.org/10.1007/s10648-010-9127-6">https://doi.org/10.1007/s10648-010-9127-6</a>
+            </p>
+            <p>Van Manen, Max, (1990). <em>Researching lived experience.</em> Albany, NY: State University of New York Press (SUNY) Press.</p>
+            <p>Vivitsou, M., Niemi, H., Wei, G., Kallunki, V., &amp; Miao, R. (2017). Teachers’ practices to support students’ work in digital storytelling: A study on Finnish and Chinese school teachers’ experiences. <em>Seminar.net: Media, Technology &amp; Lifelong Learning.</em> https://journals.hioa.no/index.php/seminar/article/view/2306.</p>
+            <p>Vygotsky, L. (1978). <em>Mind in society.</em> Cambridge, MA: MIT Press.</p>
+            <p>Vygotsky, L. S. &amp; Luria, A. N. (1994). Tool and symbol in the child development. In R. Van der Veer &amp; J. Valsiner (Ed.), <em>The Vygotsky reader</em>, 99–174. Oxford: Blackwell.</p>
+            <p>Woodhouse, J. (2008). <em>Storytelling: A telling approach in healthcare education.</em> Paper presented at the Narrative Practitioner Conference, Wrexham, England.</p>
          </section>
          <!--"References" END-->
       </main>
