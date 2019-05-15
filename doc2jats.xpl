@@ -45,15 +45,17 @@
     <d2j:replace-symbols/>
     
     <d2j:restructure-figures/>
-    
+  
     <d2j:filter-w-document/> 
 
     <d2j:author-group/>
 
     <d2j:cleanup/>
     
-    <d2j:html-head/>
+    <d2j:group-h2-sections/> 
     
+    <d2j:html-head/>
+   
     <p:identity name="final"/>
     
     <p:store name="store-ocf" href="flat-ocf.xml" method="xml" encoding="UTF-8" indent="true" omit-xml-declaration="true">

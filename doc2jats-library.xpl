@@ -1016,4 +1016,89 @@
         <p:identity/>
     </p:declare-step>
     
+    
+    <p:declare-step xmlns:p="http://www.w3.org/ns/xproc" name="group-h2-sections" type="d2j:group-h2-sections"
+        xmlns:c="http://www.w3.org/ns/xproc-step" version="1.0" exclude-inline-prefixes="c">
+        <p:serialization port="result" method="xml" indent="true"></p:serialization>
+        <p:input port="source"/>
+        <p:output port="result"/>
+        
+        <p:xslt version="2.0">
+            <p:input port="source"/>
+            <p:input port="parameters"><p:empty/></p:input>
+            <p:input port="stylesheet">
+                <p:inline>
+                    <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="2.0"
+                        xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                        xmlns:pkg="http://schemas.microsoft.com/office/2006/xmlPackage"
+                        xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"
+                        xmlns:f="https://eirikhanssen.com/ns/doc2jats-functions"
+                        xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing"
+                        xmlns:d2j="http://eirikhanssen.no/doc2jats"
+                        exclude-result-prefixes="xs f w pkg wp d2j">
+                        <xsl:import href="doc2jats-functions.xsl"/>
+                        
+                        <xsl:template match="h2">
+                            <xsl:copy>
+                                <xsl:attribute name="group-start" select="count(preceding-sibling::h2)+1"></xsl:attribute>
+                                <xsl:apply-templates/>
+                            </xsl:copy>
+                        </xsl:template>
+                        
+                        <xsl:template match="*[preceding-sibling::h2][not(self::h2)]">
+                            <xsl:copy>
+                                <xsl:attribute name="group-member" select="count(preceding-sibling::h2)"></xsl:attribute>
+                                <xsl:apply-templates select="@*|node()"/>
+                            </xsl:copy>
+                        </xsl:template>
+
+                    </xsl:stylesheet>
+                </p:inline>
+            </p:input>
+        </p:xslt>
+        
+        <p:xslt version="2.0">
+            <p:input port="source"/>
+            <p:input port="parameters"><p:empty/></p:input>
+            <p:input port="stylesheet">
+                <p:inline>
+                    <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="2.0"
+                        xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                        xmlns:pkg="http://schemas.microsoft.com/office/2006/xmlPackage"
+                        xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"
+                        xmlns:f="https://eirikhanssen.com/ns/doc2jats-functions"
+                        xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing"
+                        xmlns:d2j="http://eirikhanssen.no/doc2jats"
+                        exclude-result-prefixes="xs f w pkg wp d2j">
+                        <xsl:import href="doc2jats-functions.xsl"/>
+                        
+                        <xsl:template match="*[@group-start]">
+                            <xsl:variable name="group" select="@group-start"/>
+                            <section>
+                                <xsl:copy>
+                                    <xsl:apply-templates select="@*|node()"/>
+                                </xsl:copy>
+                                <xsl:apply-templates mode="grouping" select="following-sibling::*[@group-member=$group]"/>
+                            </section>
+                        </xsl:template>
+                        
+                        <xsl:template match="*[@group-member]"/>
+                        
+                        <xsl:template match="*[@group-member]" mode="grouping">
+                            <xsl:copy>
+                                <xsl:apply-templates select="@*|node()"/>
+                            </xsl:copy>
+                        </xsl:template>
+                        
+                    </xsl:stylesheet>
+                </p:inline>
+            </p:input>
+        </p:xslt>
+        
+        <p:delete match="@group-start"/>
+        <p:delete match="@group-member"/>
+        
+        <p:identity/>
+    </p:declare-step>
+    
 </p:library>

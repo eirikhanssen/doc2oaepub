@@ -5,7 +5,9 @@
     xmlns:pkg="http://schemas.microsoft.com/office/2006/xmlPackage"
     xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"
     xmlns:f="https://eirikhanssen.com/ns/doc2jats-functions"
-    exclude-result-prefixes="xs f"
+    xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing"
+    xmlns:d2j="http://eirikhanssen.no/doc2jats"
+    exclude-result-prefixes="xs f w pkg wp d2j"
     version="2.0">
     
     <xsl:template name="part">
