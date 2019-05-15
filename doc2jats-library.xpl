@@ -137,16 +137,11 @@
                         <xsl:import href="doc2jats-functions.xsl"/>
                         <xsl:param name="folder"/>
                         <xsl:strip-space elements="*"/>
-                        <!--<xsl:variable name="test"><xsl:sequence select="//pkg:part[@pkg_name='/_rels/.rels']//rp:Relationship[not(@TargetMode='External')]/string(@Target)"/></xsl:variable>-->
-                        <!--<xsl:variable name="rels"><xsl:sequence select="string(pkg:part[@pkg_name='/_rels/.rels']//@*)"></xsl:sequence></xsl:variable>-->
+                        
                         <xsl:template match="/pkg:package">
                             <xsl:copy>
                                 <xsl:copy-of select="node() | @*"/>
-                                <!-- 
-                                    <xsl:for-each select="$rels/@pkg_name">
-                                    <xsl:call-template name="part"><xsl:with-param name="epath" select="$folder"/><xsl:with-param name="ipath" select="."/></xsl:call-template>    
-                                    </xsl:for-each>
-                                -->
+                        
                                 <xsl:for-each select="//pkg:part[@pkg_name='/_rels/.rels']//rp:Relationship[not(@TargetMode='External')]/string(@Target)">
                                     <xsl:call-template name="part"><xsl:with-param name="epath" select="$folder"/><xsl:with-param name="ipath" select="concat('/',.)"/></xsl:call-template>
                                 </xsl:for-each>
@@ -243,23 +238,6 @@
                         </xsl:template>
                         
                         <xsl:template match="w:p/w:pPr"/>
-                        
-                        <!-- translate paragraph elements depending on style name -->
-                        <!--
-                            
-                            <xsl:template match="w:p">
-                            <xsl:call-template name="elementFromStyle">
-                            <xsl:with-param name="source-element" select="."/>
-                            </xsl:call-template>
-                            </xsl:template>
-                            
-                            <xsl:template match="w:tc">
-                            <xsl:call-template name="tableElementFromStyle">
-                            <xsl:with-param name="source-element" select="."/>
-                            </xsl:call-template>
-                            </xsl:template>
-                            
-                        -->
                         
                     </xsl:stylesheet>
                 </p:inline>
