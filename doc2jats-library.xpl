@@ -716,7 +716,8 @@
                         <xsl:import href="doc2jats-functions.xsl"/>
                         
                         <xsl:template match="figcaption[parent::figure/following-sibling::p[matches(@styleId, '^FigureCaption')]]">
-                            <figcaption><xsl:apply-templates mode="figcaption" select="parent::figure/following-sibling::p[matches(@styleId, '^FigureCaption')]"></xsl:apply-templates></figcaption>
+                            <xsl:variable name="figure_parent" select="parent::figure"/>
+                            <figcaption><xsl:apply-templates mode="figcaption" select="parent::figure/following-sibling::p[matches(@styleId, '^FigureCaption')][generate-id(preceding-sibling::figure[1]) = generate-id($figure_parent)]"></xsl:apply-templates></figcaption>
                         </xsl:template>    
                         
                         <xsl:template mode="figcaption" match="p[matches(@styleId, '^FigureCaption')]"><p><xsl:apply-templates/></p></xsl:template>

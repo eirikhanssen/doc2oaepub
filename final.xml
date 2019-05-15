@@ -34,17 +34,6 @@
                  alt="1. You see a monster, you can attack the monster.&#xA;2. You Attack the monster, you can ues magic sword.&#xA;3. You use magic sword, the monster is defeated.&#xA;4. Monster is defeated."/>
             <figcaption>
                <p>Figure 1. A story with a linear structure.</p>
-               <p>Figure 2. A gamified story with nonlinear structure.</p>
-               <p>Figure 3. Twine flowchart with five passages and one branching.</p>
-               <p>Figure 4. Story structure control mechanisms for RenPy visual novel engine. Menu item gives options to the player. The Jump attribute moves to the given label in the storyline. This example is taken from RenPy website renpy.org.</p>
-               <p>Figure 5. An example of branching in Ink scripting language.</p>
-               <p>Figure 6. An example view of Fungus user interface inside Unity 3d environment.</p>
-               <p>Figure 7. The Scene view of Alice storytelling tool.</p>
-               <p>Figure 8. Visual presentation of the collected stories in Twine.</p>
-               <p>Figure 9. A more detailed view of two stories in Figure 8. Two extra passages on the lower right corner are omitted from the latter story. </p>
-               <p>Figure 10. The number of passages and the number of links between passages in collected stories.</p>
-               <p>Figure 11. An example of a story with only one passage. The student has not understood the idea of nonlinear and hyperlinks properly but has written the dialog in a traditional format. The text has been translated into English from the original Finnish language used in the project.</p>
-               <p>Figure 12. An example of a part of a story where the concepts of link text and link target were not fully understood and this has caused a problem with the story structure. There are several questions to the player with Yes and No answers and automatically incorrectly generated hyperlinks cause an illogical structure. The text has been translated into English from the original Finnish language used in the project.</p>
             </figcaption>
          </figure>
          <p>Gamified stories or interactive stories provide the user of the story, a reader or a player, a possibility to affect the storyline. Such a storyline has branches and the structure is not linear but nonlinear. An example of a nonlinear gamified story is presented in Figure 2. The story starts from the left. The player is given two options which provide the player with more options. This creates a complex structure for the story with several possible outcomes.</p>
@@ -53,16 +42,6 @@
                  alt="1: You see a monster. You can a) attack the monster or b) run away.&#xA;&#xA;2a: You attack the monster. You can use magic sword. The monser is defeated and you have now 10 copper coins and a red potion.&#xA;&#xA;2b You run away - The Monster saw you and attacks a) Use Magic sword or b) Use sacred amulet or c) just run away&#xA;&#xA;3a You used the magic sword. The monster is defeated and you have now 10 copper coins and a red potion.&#xA;&#xA;3b you use the sacred amulet. Monster freezes. You can use the magic sword or run away. If using the magic sword, the monster will be defeated and you gain 10 copper coins and a red potion. If running away: You managed to escape.&#xA;&#xA;3c You chose to just run away. You are not fast enough, the monster ate you. Game over."/>
             <figcaption>
                <p>Figure 2. A gamified story with nonlinear structure.</p>
-               <p>Figure 3. Twine flowchart with five passages and one branching.</p>
-               <p>Figure 4. Story structure control mechanisms for RenPy visual novel engine. Menu item gives options to the player. The Jump attribute moves to the given label in the storyline. This example is taken from RenPy website renpy.org.</p>
-               <p>Figure 5. An example of branching in Ink scripting language.</p>
-               <p>Figure 6. An example view of Fungus user interface inside Unity 3d environment.</p>
-               <p>Figure 7. The Scene view of Alice storytelling tool.</p>
-               <p>Figure 8. Visual presentation of the collected stories in Twine.</p>
-               <p>Figure 9. A more detailed view of two stories in Figure 8. Two extra passages on the lower right corner are omitted from the latter story. </p>
-               <p>Figure 10. The number of passages and the number of links between passages in collected stories.</p>
-               <p>Figure 11. An example of a story with only one passage. The student has not understood the idea of nonlinear and hyperlinks properly but has written the dialog in a traditional format. The text has been translated into English from the original Finnish language used in the project.</p>
-               <p>Figure 12. An example of a part of a story where the concepts of link text and link target were not fully understood and this has caused a problem with the story structure. There are several questions to the player with Yes and No answers and automatically incorrectly generated hyperlinks cause an illogical structure. The text has been translated into English from the original Finnish language used in the project.</p>
             </figcaption>
          </figure>
          <p>There is little research focused on the nonlinear nature of gamified stories in education. Computer game development as a form of nonlinear storytelling is most often just a tool for teaching computer programming (for example Leutenegger et al. 2007, Topalli et al. 2018, Kalelioğlu 2015). Sometimes game development or interactivity of the story is used as a way to engage students but nonlinear nature of stories is not considered as a special feature (Tran 2016).</p>
@@ -109,13 +88,6 @@
                <p>Figure 3. Twine flowchart with five passages and one branching.</p>
                <p>Figure 4. Story structure control mechanisms for RenPy visual novel engine. Menu item gives options to the player. The Jump attribute moves to the given label in the storyline. This example is taken from RenPy website renpy.org.</p>
                <p>Figure 5. An example of branching in Ink scripting language.</p>
-               <p>Figure 6. An example view of Fungus user interface inside Unity 3d environment.</p>
-               <p>Figure 7. The Scene view of Alice storytelling tool.</p>
-               <p>Figure 8. Visual presentation of the collected stories in Twine.</p>
-               <p>Figure 9. A more detailed view of two stories in Figure 8. Two extra passages on the lower right corner are omitted from the latter story. </p>
-               <p>Figure 10. The number of passages and the number of links between passages in collected stories.</p>
-               <p>Figure 11. An example of a story with only one passage. The student has not understood the idea of nonlinear and hyperlinks properly but has written the dialog in a traditional format. The text has been translated into English from the original Finnish language used in the project.</p>
-               <p>Figure 12. An example of a part of a story where the concepts of link text and link target were not fully understood and this has caused a problem with the story structure. There are several questions to the player with Yes and No answers and automatically incorrectly generated hyperlinks cause an illogical structure. The text has been translated into English from the original Finnish language used in the project.</p>
             </figcaption>
          </figure>
          <p>There are two methods for creating hyperlinks in Twine. The basic syntax is double brackets around the link text. This creates a link to the passage with the same title as the link text. If no passage exists with the same name, a new passage with the name is created. The second method has separate link text and target passage title. There are three syntaxes for this in Twine and its default Harlowe story format:</p>
@@ -166,12 +138,6 @@
                  alt="A screenshot of the Fungus user interface. Some of the parts that can be seen: Creation panel for creating different types of objects/blocks (Trees, walls, sounds, texts etc). There is an animation panel. Play controls. A block inspector. A panel for navigating assets. A flowchart. A game display."/>
             <figcaption>
                <p>Figure 6. An example view of Fungus user interface inside Unity 3d environment.</p>
-               <p>Figure 7. The Scene view of Alice storytelling tool.</p>
-               <p>Figure 8. Visual presentation of the collected stories in Twine.</p>
-               <p>Figure 9. A more detailed view of two stories in Figure 8. Two extra passages on the lower right corner are omitted from the latter story. </p>
-               <p>Figure 10. The number of passages and the number of links between passages in collected stories.</p>
-               <p>Figure 11. An example of a story with only one passage. The student has not understood the idea of nonlinear and hyperlinks properly but has written the dialog in a traditional format. The text has been translated into English from the original Finnish language used in the project.</p>
-               <p>Figure 12. An example of a part of a story where the concepts of link text and link target were not fully understood and this has caused a problem with the story structure. There are several questions to the player with Yes and No answers and automatically incorrectly generated hyperlinks cause an illogical structure. The text has been translated into English from the original Finnish language used in the project.</p>
             </figcaption>
          </figure>
          <p>
@@ -181,11 +147,6 @@
                  alt="There is a large scene/world/camera view, with a run button and a edit code button. To the right hand side, there is a panel with camera options. Below these two, there are tabs to browse by class hierarchy, theme, gallery by group, to search gallery, shapes/text and my classes. The Browse by class hierarchy is highlighted: Large icons for selecting different class types: Biped classes, flyer classes, prop classes, quadruped classes, swimmer classes and transport classes."/>
             <figcaption>
                <p>Figure 7. The Scene view of Alice storytelling tool.</p>
-               <p>Figure 8. Visual presentation of the collected stories in Twine.</p>
-               <p>Figure 9. A more detailed view of two stories in Figure 8. Two extra passages on the lower right corner are omitted from the latter story. </p>
-               <p>Figure 10. The number of passages and the number of links between passages in collected stories.</p>
-               <p>Figure 11. An example of a story with only one passage. The student has not understood the idea of nonlinear and hyperlinks properly but has written the dialog in a traditional format. The text has been translated into English from the original Finnish language used in the project.</p>
-               <p>Figure 12. An example of a part of a story where the concepts of link text and link target were not fully understood and this has caused a problem with the story structure. There are several questions to the player with Yes and No answers and automatically incorrectly generated hyperlinks cause an illogical structure. The text has been translated into English from the original Finnish language used in the project.</p>
             </figcaption>
          </figure>
       </section>
@@ -204,10 +165,6 @@
                  alt="The visual presentation of each story is presented as clouds of circles."/>
             <figcaption>
                <p>Figure 8. Visual presentation of the collected stories in Twine.</p>
-               <p>Figure 9. A more detailed view of two stories in Figure 8. Two extra passages on the lower right corner are omitted from the latter story. </p>
-               <p>Figure 10. The number of passages and the number of links between passages in collected stories.</p>
-               <p>Figure 11. An example of a story with only one passage. The student has not understood the idea of nonlinear and hyperlinks properly but has written the dialog in a traditional format. The text has been translated into English from the original Finnish language used in the project.</p>
-               <p>Figure 12. An example of a part of a story where the concepts of link text and link target were not fully understood and this has caused a problem with the story structure. There are several questions to the player with Yes and No answers and automatically incorrectly generated hyperlinks cause an illogical structure. The text has been translated into English from the original Finnish language used in the project.</p>
             </figcaption>
          </figure>
          <p>It can be seen from the visualization that there are three stories with only one passage (just a single sphere in the visualization). These stories have obviously some technical problems. Other stories seem structurally good. So the default visualization of the Story List view presented in Figure 8 can be used as a simple inspector of story structure. </p>
@@ -217,9 +174,6 @@
                  alt="A flowchart of two different passages as dscribed by the previous paragraph and the figure caption."/>
             <figcaption>
                <p>Figure 9. A more detailed view of two stories in Figure 8. Two extra passages on the lower right corner are omitted from the latter story. </p>
-               <p>Figure 10. The number of passages and the number of links between passages in collected stories.</p>
-               <p>Figure 11. An example of a story with only one passage. The student has not understood the idea of nonlinear and hyperlinks properly but has written the dialog in a traditional format. The text has been translated into English from the original Finnish language used in the project.</p>
-               <p>Figure 12. An example of a part of a story where the concepts of link text and link target were not fully understood and this has caused a problem with the story structure. There are several questions to the player with Yes and No answers and automatically incorrectly generated hyperlinks cause an illogical structure. The text has been translated into English from the original Finnish language used in the project.</p>
             </figcaption>
          </figure>
          <p>It is possible to collect certain metrics from the stories to describe the story structure in analytical means. The number of passages and the number of links between passages in each story is presented in Figure 10. Here we can see again the three stories with only a single passage and no links.</p>
@@ -227,8 +181,6 @@
             <img src="figure-8.jpg" alt=""/>
             <figcaption>
                <p>Figure 10. The number of passages and the number of links between passages in collected stories.</p>
-               <p>Figure 11. An example of a story with only one passage. The student has not understood the idea of nonlinear and hyperlinks properly but has written the dialog in a traditional format. The text has been translated into English from the original Finnish language used in the project.</p>
-               <p>Figure 12. An example of a part of a story where the concepts of link text and link target were not fully understood and this has caused a problem with the story structure. There are several questions to the player with Yes and No answers and automatically incorrectly generated hyperlinks cause an illogical structure. The text has been translated into English from the original Finnish language used in the project.</p>
             </figcaption>
          </figure>
          <p>We analyzed the three stories with only one passage and found that they all had the same problem: students had not correctly understood the syntax for creating hyperlinks. An example of the contents of one story is presented in Figure 11. It can be seen that the dialog has been written as a linear manuscript without any interaction with the player.</p>
@@ -238,7 +190,6 @@
                  alt="[[Bartender1&#xA;What would you like to have?&#xA;&#xA;Customer 1/1&#xA;A large dark beer&#xA;&#xA;Bartender2&#xA;Would you like to have German or Belgian, sir?&#xA;&#xA;Customer1/2&#xA;German, please.&#xA;&#xA;Bartender3&#xA;And you, sir?&#xA;&#xA;Customer2/1&#xA;A scotch and a small beer.&#xA;&#xA;Bartender4&#xA;Okay. Here you are!]]"/>
             <figcaption>
                <p>Figure 11. An example of a story with only one passage. The student has not understood the idea of nonlinear and hyperlinks properly but has written the dialog in a traditional format. The text has been translated into English from the original Finnish language used in the project.</p>
-               <p>Figure 12. An example of a part of a story where the concepts of link text and link target were not fully understood and this has caused a problem with the story structure. There are several questions to the player with Yes and No answers and automatically incorrectly generated hyperlinks cause an illogical structure. The text has been translated into English from the original Finnish language used in the project.</p>
             </figcaption>
          </figure>
          <p>By default, Twine generates new passages using the link text as a new title. This was a somewhat difficult concept to learn in the introduction phase. The problem is that given two similar link texts, same continuation passage is assumed. This is not always the case and simple hyperlink syntax cannot be used. </p>
