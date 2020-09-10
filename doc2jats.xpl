@@ -49,6 +49,8 @@
     <d2j:filter-w-document/> 
 
     <d2j:author-group/>
+    
+    <d2j:rename-elements/>
 
     <d2j:cleanup/>
     
@@ -65,6 +67,12 @@
     <d2j:header-and-skiplinks/>
     
     <d2j:delete-empty-elements/>
+    
+    <d2j:generate-ids-in-references/>
+    
+<!--    <d2j:generate-ids-in-headings/>-->
+    
+<!--<d2j:link-citations-to-references/>-->
    
     <p:identity name="final"/>
     

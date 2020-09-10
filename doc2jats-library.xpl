@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <p:library version="1.0" 
-    xmlns:p="http://www.w3.org/ns/xproc" 
+    xmlns:p="http://www.w3.org/ns/xproc"
     xmlns:d2j="http://eirikhanssen.no/doc2jats" 
     xmlns:pkg="http://schemas.microsoft.com/office/2006/xmlPackage"
     xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"
@@ -709,14 +709,56 @@
         
     </p:declare-step>
     
+    <p:declare-step type="d2j:rename-elements">
+        <p:output port="result" sequence="true"/>
+        <p:serialization port="result" indent="true" method="xml" omit-xml-declaration="true"/>
+        <p:input port="source"/>
+        <p:input port="parameters" kind="parameter" sequence="true"/>
+        
+        
+        <p:xslt name="rename_elements" version="2.0">
+            <p:input port="source"/>
+            <p:input port="parameters"/>
+            <p:input port="stylesheet">
+                <p:inline>
+                    <xsl:stylesheet 
+                        xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+                        xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+                        exclude-result-prefixes="xs w mc pkg"
+                        version="2.0">
+                        <xsl:template match="p[matches(@styleId, '.*[rR]eference.*')]">
+                            <xsl:copy>
+                                <xsl:attribute name="class">reference</xsl:attribute>
+                                <xsl:apply-templates/>
+                            </xsl:copy>
+                        </xsl:template>
+
+                        <xsl:template match="@* | node()">
+                            <xsl:copy copy-namespaces="no">
+                                <xsl:apply-templates select="@* | node()"/>
+                            </xsl:copy>
+                        </xsl:template>
+                    </xsl:stylesheet>
+                </p:inline>
+            </p:input>
+        </p:xslt>
+        
+        <p:namespace-rename from="http://schemas.openxmlformats.org/wordprocessingml/2006/main" to=""/>
+        <p:namespace-rename from="http://schemas.openxmlformats.org/markup-compatibility/2006" to=""/>
+        <p:delete match="document/@*"/>
+        <p:rename match="document" new-name="html"></p:rename>
+        <p:add-attribute match="html" name="lang" attribute-name="lang" attribute-value="en-US"></p:add-attribute>
+    </p:declare-step>
+    
     <p:declare-step type="d2j:cleanup">
         <p:output port="result" sequence="true"/>
         <p:serialization port="result" indent="true" method="xml" omit-xml-declaration="true"/>
         <p:input port="source"/>
         <p:input port="parameters" kind="parameter" sequence="true"/>
         <p:delete match="w:br[@w:type='page']"/>
-        <p:delete match="w:sectPr"/>
-
+        <p:delete match="w:sectPr"/><!-- needed? -->
+        <p:delete match="sectPr"/>
         <p:xslt name="replace-symbols-xsl" version="2.0">
             <p:input port="source"/>
             <p:input port="parameters"/>
@@ -740,7 +782,9 @@
                 </p:inline>
             </p:input>
         </p:xslt>
-
+        <!-- unwrap formatting elements with only white space "\p{Z}" and/or punctuation "\p{P}"-->
+        <p:unwrap match="em[matches(., '^((\p{Z}+)|(\p{P}))+$')]"></p:unwrap>
+        <p:unwrap match="strong[matches(., '^((\p{Z}+)|(\p{P}))+$')]"></p:unwrap>
         <p:namespace-rename from="http://schemas.openxmlformats.org/wordprocessingml/2006/main" to=""/>
         <p:namespace-rename from="http://schemas.openxmlformats.org/markup-compatibility/2006" to=""/>
         <p:delete match="document/@*"/>
@@ -1221,6 +1265,43 @@
             </p:input>
         </p:xslt>
 
+        <p:identity name="final"/>
+        
+    </p:declare-step>
+    
+    <p:declare-step type="d2j:generate-ids-in-references" name="generate-ids-in-references" 
+        xmlns:d2j="http://eirikhanssen.no/doc2jats"
+        exclude-inline-prefixes="d2j">
+        <p:output port="result" sequence="true"/>
+        <p:serialization port="result" indent="true" method="xml" omit-xml-declaration="true"/>
+        <p:input port="source"/>
+        <p:input port="parameters" kind="parameter" sequence="true"/>
+        
+        <p:xslt version="2.0">
+            <p:input port="source"/>
+            <p:input port="parameters"><p:empty/></p:input>
+            <p:input port="stylesheet">
+                <p:inline>
+                    <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="2.0"
+                        xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                        xmlns:f="https://eirikhanssen.com/ns/doc2jats-functions"
+                        exclude-result-prefixes="xs f">
+                        <xsl:import href="doc2jats-functions.xsl"/>
+                        <xsl:template match="section[@class='references']/p">
+                            <xsl:copy>
+                                <xsl:attribute name="class" select="'ref'"></xsl:attribute>
+                                <!-- Debug line under disabled -->
+                                <!-- <xsl:attribute name="idStringBase" select="f:getStringForIDCreation(.)"></xsl:attribute> -->
+                                <xsl:attribute name="id" select="f:generateIDFromString(f:getStringForIDCreation(.))"></xsl:attribute>
+                                <xsl:apply-templates select="@*|node()"/>
+                            </xsl:copy>
+                        </xsl:template>
+                        
+                    </xsl:stylesheet>
+                </p:inline>
+            </p:input>
+        </p:xslt>
+        
         <p:identity name="final"/>
         
     </p:declare-step>

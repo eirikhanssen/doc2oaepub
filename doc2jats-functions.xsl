@@ -29,6 +29,23 @@
         <xsl:value-of select="$format"/>
     </xsl:function>
     
+    <xsl:function name="f:getStringForIDCreation" as="text()">
+        <xsl:param name="reference" as="node()"></xsl:param>
+        <xsl:variable name="referencePlainText" select="string($reference)"/>
+        <xsl:variable name="stringForIDCreation" select="replace($referencePlainText, '^(.+?\((\d+\w?)\)\.).+$','$1')"/>
+        <xsl:value-of select="$stringForIDCreation"/>
+    </xsl:function>
+    
+    <xsl:function name="f:generateIDFromString" as="text()">
+        <xsl:param name="input" as="text()"></xsl:param>
+        <xsl:variable name="year" select="replace($input, '^.+?(\d{4}\w?).*$','$1')"/>
+        <!-- Delete all text except Surnames (words that begin with uppercase letter, followed by lower case letters -->
+<!--        <xsl:variable name="significantNames" select="replace($input, '(\s+[\p{Lu}]\.,?)|(\s+)|(&amp;)|(,)|(\.)|(\()|(\))|(\d)','')"/>-->
+        <xsl:variable name="significantNames" select="replace($input, '(\s+[\p{Lu}]\p{P}+)|(\p{Z})|(&amp;)|(\p{P})|(\d)|(\p{M})','')"/>
+        <xsl:variable name="id" select="concat($significantNames, $year)"/>
+        <xsl:value-of select="$id"/>
+    </xsl:function>
+    
     <xsl:function name="f:nameFromStyle" as="text()">
         <xsl:param name="node" as="node()"></xsl:param>
         
@@ -66,6 +83,7 @@
                     <style>Blokksitat</style>
                     <style>Blockquote</style>
                     <style>Quotations</style>
+                    <style>NJSR-Quotations</style>
                 </rename>
             </stylemapping>
         </xsl:variable>
