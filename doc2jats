@@ -1,4 +1,7 @@
 #!/bin/bash
+# call with path to docx-file as a param
+# will create a folder with name composed of filename + timestamp
+echo "remember to rewrite as python script"
 timestamp=$(date +%Y%m%d-%H%M%S)
 docxfolder="$1-$timestamp"
 
@@ -17,4 +20,6 @@ mkdir $docxfolder && cd $docxfolder && unzip ../$1 && cd ..
 FOLDER=$(readlink -f $docxfolder)
 
 #calabash -p filename=$1 -p timestamp=$timestamp -p folder=$foldername doc2jats.xpl
-calabash -p folder=$FOLDER $PIPELINE | pygmentize -l xml | less -R
+calabash -p folder=$FOLDER $PIPELINE | pygmentize -O style=native -l xml | less -R
+# should check if pygmentize is installed before trying to use it
+#calabash -p folder=$FOLDER $PIPELINE | less
