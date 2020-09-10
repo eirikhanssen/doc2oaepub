@@ -72,7 +72,7 @@
     
     <d2j:generate-ids-in-headings/>
     
-<!--<d2j:link-citations-to-references/>-->
+    <d2j:link-citations-to-references/>
    
     <p:identity name="final"/>
     

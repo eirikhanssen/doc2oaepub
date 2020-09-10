@@ -1340,5 +1340,120 @@
         <p:identity name="final"/>
         
     </p:declare-step>
+    
+    <p:declare-step type="d2j:link-citations-to-references" name="link-citations-to-references" 
+        xmlns:d2j="http://eirikhanssen.no/doc2jats"
+        exclude-inline-prefixes="d2j">
+        <p:output port="result" sequence="true"/>
+        <p:serialization port="result" indent="true" method="xml" omit-xml-declaration="true"/>
+        <p:input port="source"/>
+        <p:input port="parameters" kind="parameter" sequence="true"/>
+
+        <!-- Locate Citations where authors and year are inside parens -->
+        <p:xslt version="2.0">
+            <p:input port="source"/>
+            <p:input port="parameters"><p:empty/></p:input>
+            <p:input port="stylesheet">
+                <p:inline>
+                    <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="2.0"
+                        xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                        xmlns:f="https://eirikhanssen.com/ns/doc2jats-functions"
+                        xmlns:pkg="http://schemas.microsoft.com/office/2006/xmlPackage"
+                        xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"
+                        xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing"
+                        exclude-result-prefixes="xs f pkg w wp">
+                        <xsl:import href="doc2jats-functions.xsl"/>
+                        
+                        <xsl:template match="p[not(@ref)]/text()">
+                            <xsl:analyze-string select="." regex="\(.+?\)">
+                                <xsl:matching-substring>
+                                <!--parens begin-->
+                                        <xsl:analyze-string select="." regex="(((\w+)|(\s+))+\s*((\.)|(\w+)|(,)|(&amp;))+\s*)+\d{{4}}\w?(,\s*p\.\s*\d+)?">
+                                            <xsl:matching-substring>
+                                                <cite><xsl:value-of select="."/></cite>
+                                            </xsl:matching-substring>
+                                            <xsl:non-matching-substring>
+                                                <xsl:value-of select="."/>
+                                            </xsl:non-matching-substring>
+                                        </xsl:analyze-string>
+                                <!--parens end-->
+                                </xsl:matching-substring>
+                                <xsl:non-matching-substring>
+                                    <xsl:value-of select="."/>
+                                </xsl:non-matching-substring>
+                            </xsl:analyze-string>
+                        </xsl:template>
+                        
+                    </xsl:stylesheet>
+                </p:inline>
+            </p:input>
+        </p:xslt>
+        
+        <!-- cite2 - Locate et al./and colleagues citations where authors are outside parens and year is inside parens -->
+        <p:xslt version="2.0">
+            <p:input port="source"/>
+            <p:input port="parameters"><p:empty/></p:input>
+            <p:input port="stylesheet">
+                <p:inline>
+                    <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="2.0"
+                        xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                        xmlns:f="https://eirikhanssen.com/ns/doc2jats-functions"
+                        xmlns:pkg="http://schemas.microsoft.com/office/2006/xmlPackage"
+                        xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"
+                        xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing"
+                        exclude-result-prefixes="xs f pkg w wp">
+                        <xsl:import href="doc2jats-functions.xsl"/>
+                        
+                        <xsl:template match="p[not(@ref)]/text()">
+                            <xsl:analyze-string select="." regex="\w+\s+((et al\.)|(and colleagues)|(and)|(&amp;))+\s*\(\d{{4}}\w?\)">
+                                <xsl:matching-substring>
+                                         <cite2><xsl:value-of select="."/></cite2>
+                                </xsl:matching-substring>
+                                <xsl:non-matching-substring>
+                                    <xsl:value-of select="."/>
+                                </xsl:non-matching-substring>
+                            </xsl:analyze-string>
+                        </xsl:template>
+                        
+                    </xsl:stylesheet>
+                </p:inline>
+            </p:input>
+        </p:xslt>
+        
+        <!-- cite3 - Locate citations where authors are outside parens and year is inside parens -->
+        <p:xslt version="2.0">
+            <p:input port="source"/>
+            <p:input port="parameters"><p:empty/></p:input>
+            <p:input port="stylesheet">
+                <p:inline>
+                    <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="2.0"
+                        xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                        xmlns:f="https://eirikhanssen.com/ns/doc2jats-functions"
+                        xmlns:pkg="http://schemas.microsoft.com/office/2006/xmlPackage"
+                        xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"
+                        xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing"
+                        exclude-result-prefixes="xs f pkg w wp">
+                        <xsl:import href="doc2jats-functions.xsl"/>
+                        
+                        <xsl:template match="p[not(@ref)]/text()">
+                            <xsl:analyze-string select="." regex="\w+\s+((et al\.)|(and colleagues)|(and)|(&amp;))+\s*\(\d{{4}}\w?\)">
+                                <xsl:matching-substring>
+                                    <cite3><xsl:value-of select="."/></cite3>
+                                </xsl:matching-substring>
+                                <xsl:non-matching-substring>
+                                    <xsl:value-of select="."/>
+                                </xsl:non-matching-substring>
+                            </xsl:analyze-string>
+                        </xsl:template>
+                        
+                    </xsl:stylesheet>
+                </p:inline>
+            </p:input>
+        </p:xslt>
+        
+        <p:identity name="final"/>
+        
+    </p:declare-step>
 
 </p:library>
+
