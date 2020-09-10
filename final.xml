@@ -1,7 +1,7 @@
 <html lang="en-US">
    <head>
       <meta charset="utf-8"/>
-      <title>Teachers’ Pedagogical Role as Mediators in Leading and Guiding Students’ Learning in Digital Storytelling (DST) | Journal Article</title>
+      <title>New Technology and Professional Work | Journal Article</title>
       <link href="https://journals.hioa.no/styles/article.css" rel="stylesheet"/>
       <script src="https://journals.hioa.no/js/article.js" defer="defer"/>
    </head>
@@ -10,16 +10,15 @@
       <nav>
          <a class="skiplink" href="#main">Skip to Abstract</a>
       </nav>
-      <h1>Teachers’ Pedagogical Role as Mediators in Leading and Guiding Students’ Learning in Digital Storytelling (DST)</h1>
-      <aside class="authors">
-         <dl class="author">
-            <dt>Jenny Niu and Hannele Niemi</dt>
-            <dd>Faculty of Educational Sciences</dd>
-            <dd>University of Helsinki</dd>
-            <dd>E-mail:<a href="mailto:jenny.niu@helsinki.fi">jenny.niu@helsinki.fi</a> and<a href="mailto:hannele.niemi@helsinki.fi">hannele.niemi@helsinki.fi</a>
-            </dd>
-         </dl>
-      </aside>
+      <p styleId="Title" styleName="Title">Essay</p>
+      <h1>New Technology and Professional Work</h1>
+      <p styleId="Authors0" styleName="[Authors]">Stan Lester</p>
+      <ul class="">
+         <li>Stan Lester Developments, UK</li>
+         <li>
+            <strong>Contact:</strong>Stan Lester, Stan Lester Developments, UK, <a href="mailto:s.lester@devmts.co.uk">s.lester@devmts.co.uk</a>
+         </li>
+      </ul>
       <aside class="copyright">
          <details>
             <summary>©2018 (author name/s), CC-BY-4.0</summary>This is an Open Access article distributed under the terms of the Creative Commons Attribution 4.0 International License (<a href="http://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</a>), allowing third parties to copy and redistribute the material in any medium or format and to remix, transform, and build upon the material for any purpose, even commercially, provided the original work is properly cited and states its license. </details>
@@ -27,500 +26,151 @@
       <main id="main">
          <section class="abstract">
             <h2>Abstract</h2>
-            <p>The aim of this study is to find out how the teachers act as mediators to lead and guide students’ learning in digital storytelling (DST). The research framework is based on Vygotsky’s mediation theory. The research project was carried out in the 2016-2017 school year. Four classes at Grade 5 from China and two classes at Grade 4 and Grade 5 from Finland participated in the study. We mainly focus on qualitative data from semi-structured interviews of teachers, researchers’ classroom observations, group discussions, and teachers’ course-planning documents. The main findings are that in DST, the main activities in teachers’ pedagogical role as mediators are facilitating, coaching, and scaffolding when they are doing pedagogical decisions. This study illustrates what teachers did in a DST project and how they have led and guided students’ learning when using the DST pedagogical method.</p>
-            <dl class="keywords">
-               <dt>Keywords:</dt>
-               <dd>teachers’ pedagogical role</dd>
-               <dd>digital storytelling (DST)</dd>
-               <dd>student-centered knowledge creation</dd>
-               <dd>mediation theory</dd>
-            </dl>
+            <p>Until recently, the main effect of technology on professional or knowledge-based work has been to augment and expand it, partly as described in Autor, Levy and Murnane’s 2003 analysis. There are now increasingly instances of knowledge-based work being automated and substituted, developments that are more familiar from factory and basic administrative settings. Two widely-quoted studies, by Frey and Osborne (2013) and Susskind and Susskind (2015), point towards significant technology-driven job losses including in professional fields. Subsequent analyses indicate that while some occupations will disappear or be deskilled, others will be created. The argument made here is that the most significant effect will be occupational transformation, necessitating different types of skills in a net movement towards work that is more digitally-oriented but also complex, creative and value-based. These changes have implications that are already beginning to affect the way that professions are organised and how practitioners are educated and trained.</p>
          </section>
          <!--"Abstract" END-->
          <section>
+            <h2>Keywords</h2>
+            <dl class="keywords">
+               <dd>Professions and technology</dd>
+               <dd>technology and work</dd>
+               <dd>Industry 4.0</dd>
+               <dd>Frey and Osborne</dd>
+               <dd>Susskind and Susskind</dd>
+            </dl>
+         </section>
+         <!--"Keywords" END-->
+         <section>
             <h2>Introduction</h2>
-            <p>In the twenty-first century, there have been enormous changes in technology and society. The fast development in information and communication technology (ICT) has created a lot of new opportunities as well as new demands in education. Throughout the world, countries are setting twenty-first-century competences as the aims of schools (Kennedy, 2008), which also places new requirements on the teacher’s pedagogical role. Lee and Tan (2018) describes that a twenty-first-century teacher is interactive with the students, who are also interactive among students themselves. They propose (McWilliam, 2009; Lee and Tan, 2018) that because of the contextual change of learning, the teacher’s role has gradually changed from “Sage-on-the-Stage” to “Guide-on-the-Side” and “Meddler-in-the Middle.” Teachers are gradually taking up the role of facilitators. Instead of being traditionally didactic for the transmission of knowledge in the class, teachers in the new learning context gradually become knowledge brokers and weave the bits and pieces of knowledge generated by students in the classroom during the learning activities. In our study, we applied digital storytelling (DST) as a pedagogical method that supports both students’ collaboration and their active knowledge creation with digital competences. The major task of our study is to investigate how teachers see their role in this student-centered learning approach. </p>
+            <p>A popular interpretation of emerging technological advances is to posit a “fourth industrial revolution” (Schwab, 2016) or “second machine age” (Brynjolfsson &amp; McAfee, 2014). This can be seen as a step-change from the initial emergence of computerisation and automation, analogous to the impact on the water- and steam-powered industrial revolution of electrification and the internal combustion engine. As has happened with previous technological advances, there is an expectation of widespread disruption to jobs, changes in the way that work is organised (e.g., Johannessen, 2019), and in some quarters a revisitation of ideas such as the ‘end of work’ (Rifkin, 1995).  </p>
+            <p>A significant difference between the initial computer age and current advances is that the latter are expected to have a widespread impact on the nature of professional and knowledge-based work, and potentially on the organisation of professions themselves. The main effects of computerisation on professional jobs have so far been to enhance what practitioners do or make them more efficient, to enable new ways of working, and to create new fields of work associated with the technology itself. To date, large-scale disruption to employment has tended to occur in lower- to middle-skilled occupations, particularly in manufacturing and in basic administrative work, leaving professional work largely unaffected. Increasing technological capability is now predicted to encroach significantly on knowledge-based work, with consequences for professions, their organisation, and the education and training of practitioners (e.g., Susskind &amp; Susskind, 2015).</p>
+            <p>A difficulty with making predictions about the effects of technological advances is that they are dependent on assumptions about how technology can be transferred into the workplace (and used by the populace in general), the economics of technological substitution, choices made by actors from governments and multinational corporations through to individuals, and the way in which work and its organisation is able to evolve. There is a danger of descending into speculative futurology which can make for thought-provoking reading but is rarely a good basis for policy decisions or deciding on practical matters such as the design and content of professional courses. A common tendency (“Amara’s law”) has been to overestimate the effects of technological changes in the short term, but underestimate (and mispredict) them in the longer term.</p>
+            <p>The remainder of this paper examines current evidence and discussion on the impact of technology on work, and argues that while there will be implications for professions, making sense of these needs to consider more than the ability of emerging technologies to automate or substitute for tasks currently associated with professional occupations.</p>
          </section>
          <!--"Introduction" END-->
          <section>
-            <h2>Theoretical Framework and Concepts</h2>
-            <h3>Digital Storytelling (DST) as a Pedagogical Method </h3>
-            <p>DST can be defined from several different perspectives. It can describe the practices of everyday people who use digital tools to tell their stories. Ohler (2008) defined DST as a creative process in which traditional storytelling is combined with modern digital technology. From an educational perspective, DST is often defined as a reflective learning activity (Nelson &amp; Hull 2008) and as a self-representation of its creators (Kulla-Abbott &amp; Polman, 2008). According to Robin (2008), DST is a process of creating short stories that allows students and educators to enhance their information gathering; it cultivates students’ higher-order thinking, such as problem-solving skills and critical thinking, and it also facilitate their ability to work in collaborative teams. According to Jenkins et al. (2009), DST is a twenty-first century learning mode. Stewart and Ivala (2017) found that a DST praxis can lead to both reflective and critical engagement with one’s own writing practices, and it can strengthen the synergy between the spoken word, process-based writing and digital formats for composing. </p>
-            <p>DST is student-centered learning approach; it aims to give students a chance to create knowledge from their own starting points about the topic under discussion (Lambert, 2013; McGee, 2015; Robin, 2008; Rossiter &amp; Garcia, 2010). There is evidence suggesting that the method encourages active participation as well as shared learning and creativity (Lambert, 2013; McGee, 2015; Niemi et al., 2014; Sadik, 2008; Shelby-Caffey, Úbéda, &amp; Jenkins, 2014; Sukovic, 2014; Woodhouse, 2008). Niemi et al. (2014) and Niemi &amp; Multisilta (2016) applied DST in three countries in order to promote twenty-first century competences focusing on collaboration, active participation, and shared learning. They found that DST greatly affects student engagement.</p>
-            <p>Many of the above-mentioned DST studies focus on students’ actions or learning processes. Research (Vivitsou et al. 2017) has also focused on the teachers’ practices in supporting student work in DST. The teachers’ practices in their project (Vivitsou et al. 2017) covered four areas – digital literacy, knowledge and skill creation, collaboration and networking – as part of a global sharing pedagogy (Niemi &amp; Multisilta, 2016). Teachers structured and problematized the learning process in order to allow the students to learn in a freer way and helped them to draw connections with reality. In this way, the students actively engaged in informal (natural and technological) environments for knowledge creation and skill development. In our study, we want to find out more about how teachers mediate students’ learning when using DST. DST is like a project-based learning; it can be done in groups or individually. In our research design, we applied the DST pedagogical method to be carried out in groups so that the students could also learn how to work with others in order to develop their communication and collaboration skills. </p>
+            <h2>Technology and work: A summary</h2>
+            <p>A widely-used model for conceptualising the effect of technology on work is that set out by Autor, Levy,and Murnane (2003). These authors propose three principal effects of introducing new technology. Firstly, it can <em>enhance or augment</em> jobs, when it makes work more effective, efficient or less difficult, or enables tasks to be done that would otherwise be impossible, unsafe or uneconomic. Secondly, it can <em>automate</em> them, as has happened with much assembly-line work, removing or reducing the need for human input. Finally, it can enable them to be <em>substituted</em> by alternative means of achieving equivalent ends, as has happened with telephonists and typists. To apply their model, Autor and colleagues divide work into four types, namely, routine manual (e.g., picking, sorting and other rule-based tasks), non-routine manual (such as driving and janitorial tasks), routine cognitive (e.g., book-keeping, filing and retrieval), and non-routine cognitive (activities that require the use of mental models and abstract thinking). They conclude that routine manual work is most susceptible to automation, and routine cognitive work to substitution. Technology tends to complement or augment non-routine cognitive work, while there is limited opportunity to substitute, automate or complement non-routine manual tasks.</p>
+            <p>Since Autor et al.’s paper, advances in technologies such as artificial intelligence, machine learning, optics, and mobile robotics are making automation of increasingly non-routine manual tasks possible, as well as providing improved complementarity (for instance, through the use of augmented reality and global positioning systems). In addition, some apparently non-routine cognitive activities, particularly those relating to analysis, diagnosis, and some types of research and drafting, now appear within the scope of automation or substitution (Brynjolfsson &amp; McAfee, 2011;Casserta &amp; Madsen, 2019; Frey &amp; Osborne, 2013; Susskind &amp; Susskind, 2015). In part, this is being made possible by focusing on what computers can do most effectively, such as processing vast amounts of information (“big data”) or making precise measurements very quickly, rather than attempting to create algorithms that emulate how humans would go about a task (cf., Dreyfus &amp; Dreyfus, 1986). Nevertheless, most writers agree that there are limits to automation or substitution, both due to technological limitations or “bottlenecks” and in relation to social acceptability (e.g.,Arntz, Gregory &amp; Zierahn, 2016; Frey &amp; Osborne, 2013). “Bottlenecks” occur where it is difficult or impossible to emulate or bypass human activity; Collins (2018), for instance, discusses the limitations of computers in relation to social and contextual intelligence, and argues that a qualitative leap in machine learning is necessary before significant advances will be made in this area.</p>
+            <p>A more recent perspective on Autor and colleagues’ model is provided by Nokelainen, Nevalainen and Niemi (2018), who modify their two dimensions to routine-complex and instrumental-meaningful. Routine instrumental work is most susceptible to technological automation or substitution. In the longer term, much complex instrumental work will increasingly also be displaced, as there is no additional value provided by having it performed by people and the only limitations are the capability and affordability of technology. Routine meaningful work (typically straightforward tasks where there is social value through human interaction) might ideally be done by people, but there may be economic pressures for automation. As Share and Pender (2018) indicate for social care, in some cases there can be benefits from tasks being done by machines; in the current coronavirus pandemic, for instance, there are obvious benefits relating to infection control. In complex meaningful work, including “ethical decision-making, artistic, philosophical, therapeutic and caring tasks” (Nokelainen et al., 2018, p. 21), intrinsic value is provided by the activities being carried out by people, making it relatively resistant to automation or substitution; ultimately, the potential for displacement is not principally a factor of technological capability. Nokelainen et al.’s conceptualisation has the benefit of building on the work of Autor, Levy and Murnane (2003), while avoiding the latter’s assumptions about technological limitations based on complexity; it offers a more resilient model in the light of subsequent discussions such as those of Susskind and Susskind (2015), Crookes and Conway (2018), and Blease et al. (2019).</p>
+            <p>One of the most widely-reported recent studies of the potential impact of technology on work is that of Frey and Osborne (2013; 2017). Their quantitative study examined 702 occupations from the United States occupational database O*NET. According to their analysis, 47% of US occupations do not contain significant technological bottlenecks and therefore are at risk of automation over the next decade or two, given foreseeable developments in technology. However, subsequent analyses of their approach suggest that it contains two significant flaws. Bonin, Gregory and Zierahn (2015) attempted to apply the same methodology in Germany, and Arntz and colleagues (2016) across the OECD countries. By taking a finer-grained approach which looked at tasks and activities within jobs, both groups concluded that while many jobs include automatable activities, the proportion of occupations that are likely to disappear is around 9%, rising to 12% in countries with a large manufacturing sector such as Germany. Not dissimilarly, McKinsey (2017) suggest that 60% of occupations have at least a third of their tasks capable of automation, but only 5% can be fully automated. However, a caveat is necessary in that all of these studies focus principally on activities that can be automated or directly substituted for. They pay less attention to wider-scale substitution, where activities that may themselves not be easily performed by technology—Susskind (2018) for instance gives the example of lawyers representing clients in court—nevertheless may be at least in part substituted by different, technology-facilitated approaches that achieve equivalent ends.</p>
+            <p>The second objection to using Frey and Osborne’s conclusions as a prediction of labour market impact is that they treat occupations as fixed in the face of advancing technology (Frey &amp; Osborne, 2013, p. 39). This doesn’t take account of the likelihood of new areas of work emerging (De Groen, Lenaerts, Bose, &amp; Paquier, 2017); of jobs and occupations being transformed rather than eliminated (Bonin et al., 2015; Gifford &amp; Houghton, 2019); or substantial differences in the make-up of nominally the same occupation in different workplaces (Autor &amp; Handel, 2013). In addition to automation, substitution and complementarity, technology can also create work, as well as transforming it where workers take on different, hard-to-automate responsibilities and tasks (Bonin et al., 2015; CEDEFOP, 2017). More subtly, the boundary between complementarity and substitution can be fuzzy, for instance, where efficiency is increased to the point where less workers are required, sometimes accompanied either by upskilling or deskilling of those who remain (Fischer &amp; Pöhler, 2018).</p>
+            <p>The most striking qualitative headline from the above is the extension of automation and substitution into areas of cognitive and complex manual work that have hitherto seemed immune to it. Quantitatively, however, the predictions are of a continuing hollowing-out of middle-level occupations, where more easily automatable and substitutable jobs in administration, manufacturing, construction and the like are lost, balanced by growth in professional and managerial work, personal service occupations, and non-routine but low-skilled and often temporary or on-demand manual and customer-facing work (among others, Frontier Economics, 2018). Predicting the long-term impact on the labour market is extremely difficult as it depends in addition to technological capability on factors such as how the returns to technological investment are distributed, the social, political and economic actions of decision-makers, and what new areas of work become necessary and valued. The current consensus is that predictions of “the end of work” are very wide of the mark, and while the “second machine age” will create significant disruption to jobs and to society more generally, its net quantitative effect is likely to be balanced with a mixture of job losses and gains (Autor, 2015; Hislop, Coombs, Taneva, &amp; Barnard, 2017). What does appear inevitable, however, is that this disruption will extend to professional occupations much more than has previously been the case, affecting the day-to-day work and skills of practitioners but also extending to the way that professions are conceptualised and organised.</p>
          </section>
-         <!--"Theoretical Framework and Concepts" END-->
+         <!--"Technology and work: A summary" END-->
          <section>
-            <h2>A Theory of Mediation from a Vygotskian Perspective in DST</h2>
-            <p>According to Vygotsky (1978), learning is a mediated activity using tools, symbols, and social interaction, and he strongly emphasizes the role of sociocultural mediation in human development. Mediation takes place via three major classes of mediators: material tools, psychological tools, and other human beings (Vygotsky, 1978; Vygotsky &amp; Luria, 1994, pp. 99–174; Kozulin, 1990, pp. 111–121; Kozulin, 1997, pp. 62–64). The importance of mediation in learning is evidenced in many research studies. Feuerstein (1991) suggests that a child’s learning is shaped by the intervention of significant adults, which are referred to as mediators. In the mediated learning situation, adults, or more competent peers, place themselves between the environment and the learner, thus radically changing the conditions for learning. The mediator selects, changes, amplifies, and interprets objects and processes for the child (Kozulin &amp; Presseisen, 1995). </p>
-            <p>In our study, we applied mediated learning with DST in a social-cultural framework. Teachers act as mediators in students’ learning. When teachers set the learning objectives of the DST project and when they guide the students during the working process, they mediate the students’ learning through making pedagogical decisions concerning the learning activities, tasks, tools, and processes. From a Vygotskian perspective, teachers apply mediational practices between themselves and the students to scaffold the students within the zone of proximal development (ZPD) (Vygotsky, 1978).</p>
-            <p>In a DST project, the teacher initiates and designs the learning tools and activities, and the students interact with learning material and other resources and work in groups to create their digital story products together. During the learning process, the teacher guides and leads the learning through facilitating many activities, providing supports, and creating learning opportunities with pedagogical interventions. The teacher’s role in DST is different than in traditional instruction, as it shifts from knowledge transmission to the mediation of the students’ active learning. Teachers become mediators who support the students’ work. </p>
+            <h2>The potential impact on professions</h2>
+            <p>The idea of “a profession” is difficult to define precisely, as any characteristics that can be posited for professions are typically either found among at least some occupations that would not normally be regarded as such, or are lacking in some fields that are widely thought of as professions (Lester, 2017). The best that can be done is usually to posit a few attributes that epitomise what is intended. At a theoretical level, expert knowledge, the exercise of independent thought, and commitment to the field in a way that extends beyond any employment or contractual relationship are fairly widely-applicable principles (Hoyle &amp; John, 1995). Practically, some form of self-organising structure is typically present, with criteria for becoming a member of the profession (in modern terms, usually including attainment at degree level or above), and scope to eject members who practise incompetently or unethically (Belfall, 1999). The purpose here is to focus on occupations that approximate to the above criteria as opposed to “higher-level” or knowledge-based work more generally, although parts of the discussion will have this wider relevance.</p>
+            <p>As noted in the previous section, the main effect to date of advancing technology on professions has been to complement and enhance work, as well as to create new fields relating to the technology and its application. Technology has typically made practitioners more efficient and better-informed, enabled them to carry out new tasks, increased communication and accountability, and in some cases increased their exposure to market forces and client or patient choice. Its structural effects have nevertheless tended to have been limited and evolutionary within professions themselves. It has had more effect on ancillary occupations, for instance, assistants who might have typed up practitioners’ reports, managed their appointments, researched and collated straightforward data, or organised documents for processing. New fields have typically been accommodated within existing ones (such as the various branches of engineering, or the library and information field), or created new professions that so far have formalised themselves to only a limited degree. Some of these newer fields, such as computer programming and software engineering, have evolved rapidly in parallel with the development of the technology, while others such as web design are partly rooted in technology and partly in pre-existing fields such as graphic design, communications and marketing. The structural effect on established professions has been minimal, andsocietal, economic and legislative pressures appear to have had greater effect in for instance the reform of the UK legal professions;the increasing diversity of professional entry-routes;the upgrading of nursing and social work to graduate professions;and the emergence of “splinter” and cross-professional groups such as family mediators, vocational rehabilitation practitionersand physician associates (Lester, 2009; Lester, 2016).</p>
+            <p>The emergence of technologies that are able to automate, enable substitution of, or substantially reduce the time spent on even quite complex professional tasks is, however, likely to have a more direct impact on professional occupations, at least in the medium term. Susskind and Susskind (2015) are informative about the kinds of changes that are taking place and that <em>might</em> happen here. Their basic analysis accords with that set out in the previous section in that certain types of professional work will be capable of being performed more effectively by machines, including much analysis, diagnosis, and retrieval and assembly of data. The implication of this over time is that professional work will move away from the acquisition and distribution of knowledge, and focus on areas such as making interpretive and moral decisions that are less susceptible to technology. A second theme that they identify is the capacity of technology to empower consumers to access knowledge and make decisions that are commonly the preserve of professionals, potentially making available “professional” expertise at minimum cost. In the longer term, they envisage substantial erosion of knowledge-based work and consequent widespread technological unemployment, along with challenges both to individual professions and to the professional ideal of ethically responsible, self-regulating practitioners.</p>
+            <p>Susskind and Susskind’s conclusions differ in some important ways from those presented by, among others, Bonin et al. (2015), Frontier Economics (2018), Hislop et al. (2017), and McKinsey (2017). In part this can be explained by their analysis being more conjectural and extending over a longer timescale (up to five decades rather than two), as well as taking greater account of the potential that technology provides for substitution. Nevertheless, they make assumptions that mean that their conclusions need to be treated with caution. They view professional work as essentially technical-rational, emphasising the application of expert knowledge to convergent matters, and they also place it in a transactional, market-driven context. While many professionals do focus on work that is transactional and technical-rational, this fails to recognise the importance or even presence of work that is creative, interpretive, concerned with divergent and value-based matters, and collaborative. They are also largely dismissive of professional ethics, suggesting that these can be substituted by organisational, contractual and market arrangements (Susskind &amp; Susskind, 2015, p. 233 et seq.). A result of framing work in this way is that aspects that are complex and meaningful or are more subject to technological bottlenecks are downplayed, leading to the potential for substitution or automation being overestimated. Secondly, and shared with Frey and Osborne’s 2013 analysis, there is underestimation of the opportunities created by technology, both directly and by transforming jobs by removing tasks that are better-performed electronically. Even if highly knowledgeable workers become no longer essential for many technical-rational tasks, there is plenty of intellectually complex, creative and indeterminate or value-driven work that can be done, some of which is likely to become increasingly vital as rising populations, increasing demands for goods and services, and unanticipated events continue to create existential threats. A recent British study of the impact of artificial intelligence on work (Gifford &amp; Houghton, 2019) indicates that artificial intelligence systems are, at least at present, creating and expected to create more opportunities for work than they are replacing or rendering redundant. Again, social, political and economic decisions are likely to play at least as important a role here as are purely technological capacities for substitution or automation. </p>
+            <p>An example that illustrates the continuing need for human interpretation and decision-making is what has been described as the “black box” issue (e.g.,Casserta &amp; Madsen, 2019; Remus &amp; Levy, 2017). This refers to situations where the logic used by computers in producing outputs or predictions is not transparent, enabling, for instance, harmful or unethical factors to become unintentionally embedded into decision-making or into the legal system. An example of this is provided by recruitment selection, where even highly complex algorithms that are set up with full awareness of discriminatory factors can nevertheless result in decisions that are biased against underrepresented groups (Bogen &amp; Rieke, 2018). The problem is not that individual “black box” issues cannot be overcome, but that they can arise unpredictably and therefore require an ongoing need for human oversight. Collins (2018) points here to the danger of a “surrender to machines,” accepting computer outputs as authoritative without considering the possibility of errors, misinterpretations and malfunctions.</p>
+            <p>On balance, it is likely that a significant proportion of professional tasks will become susceptible to automation or substitution, and as Susskind and Susskind argue, some will be done more effectively, efficiently and consistently by machines. Areas such as medical diagnosis (Blease et al., 2019), legal drafting (Susskind &amp; Susskind, 2015), routine research and data analysis (Pandit, 2018), and the assembly and auditing of accounts (Conway, 2018) are obvious examples, but in principle any activity that follows an operational logic is susceptible—over time, anything that can be described as “complex-but-routine,” which may increasingly approximate to Nokelainen and colleagues’ (2018) complex and instrumental work. This kind of work is likely to become increasingly commodified, with the likelihood of practitioners becoming displaced in one way or another. Displacement may be into standardised and increasingly price-sensitive work (the province of what Johannessen, 2019, terms the “precariat”) or out of the field altogether, but it can also involve movement into complex and meaningful activities which as suggested above are likely to become more necessary and critical. Overall, therefore, a gradual qualitative shift in professional work can be posited to activities that are complex and meaningful, typically employing creativity, contextual interpretation, value-based decisions, and interpersonal negotiation (e.g., Conway, 2018; Flood, 2019; Valin, 2018). This accords with an increasing focus for professionals on the “swampy lowland” of divergent issues and wicked problems that are not subject to neat solutions (Schön, 1983), with creative-interpretive activity (Lester, 2017), and with relationships concerned with realisation (Schiff, 1970) and co-creation (Reeves &amp; Knell, 2006). In common with what has been said above about work in general, the result is likely to be both job losses and gains, along with the deskilling of some professional work to technician-type or paraprofessional roles, and the upskilling of other aspects as the focus moves to consistently non-routine and complex-meaningful activities.</p>
+            <p>The effect of these trends on individual professions will be influenced by a range of factors. The obvious one is the proportion of the profession’s mainstream work that is complex-but-routine. Where this is relatively large, other things being equal there will be a high degree of technological disruption as many activities become automated or substituted. Whether this results in job losses or widespread deskilling then depends on further factors; the most significant one is whether enough non-susceptible work can be substituted so that the net result is job transformation rather than job losses. In addition, there may be limits to acceptable technological decision-making in some fields due to safety or ethical concerns, as well as continued (or resurgent) markets for some personally-provided services analogous to the growth in interest in craft-produced goods and foods. Several scenarios then emerge. On a rough continuum, these start from (a) minimal impact because the profession’s work is not widely susceptible to automation or substitution; (b) relatively straightforward transformation, where enough non-susceptible work emerges to accommodate the majority of practitioners, with or without significant reskilling; (c) major disruption, with a mix of transformation and job losses; and (d) atrophy, where there is no continuing outlet for the profession’s skills and expertise in their current form. This is further complicated by the emergence of new fields, some fast-moving and ultimately, at least partly, substitutable (cf.,the evolution of computer programming), which will interact with existing professions in potentially complex ways.  </p>
          </section>
-         <!--"A Theory of Mediation from a Vygotskian Perspective in DST" END-->
+         <!--"The potential impact on professions" END-->
          <section>
-            <h2>Research Question </h2>
-            <p>We wanted to find out what kinds of pedagogical decisions and actions teachers carried out in the process of DST and how they supported students in different phases of DST when students played a central role in exploring and building knowledge as creators, producers, and discussants rather than as mere passive listeners.</p>
-            <p>In our study, we focused on what teachers did before the DST project, in the beginning of the project, during the project, and at the end of the project; we used that data to identify the teachers’ pedagogical role in leading and guiding the students’ learning in DST. In this study, the following research question (RQ) is proposed:</p>
-            <p>Research Question: What are the teachers’ roles in leading and guiding students’ learning through mediation with digital storytelling (DST) as a pedagogical method? </p>
+            <h2>Professional organisation and education</h2>
+            <p>The above analysis, even if not as extreme as Susskind and Susskind’s conclusion, still suggests some far-reaching implications for how professions are organised and for the education and training of professionals.</p>
+            <p>A prominent theme in the discussions above is that some occupations will disappear, some will undergo transformation, and other new ones will appear. For professions, this creates structural pressures, and suggests that some existing groupings will need to be rethought if they are not to become redundant. Professions define themselves in various ways; for some the idea of a body of knowledge is central, some newer groupings have coalesced around occupational functions, while a trend over the last two decades or so has been definition around what might be termed a body of practice. This latter is broader than the idea of a set of functions or skills, and encompasses underlying principles and how they are embodied in practices that can typically evolve and be applied across an indeterminate range of contexts, in what has been termed a “centre-outwards” perspective (Lester, 2014; 2017). <em>Given the same level of occupational disruption</em>, functionally-defined professions are likely to be most vulnerable to change, while those that start from a body-of-practice perspective will be most resilient. Groups that are relatively specialised and have come into being or evolved to provide well-defined services are the most likely to become redundant, while those that take a broad view of their fields and can transcend occupational functions and bodies of detailed knowledge are potentially more resilient. Further factors include deskilling, in some fields making professional modes of organising less useful to practitioners and their clients or employers; the growth of new technology-oriented occupations that may be too dynamic to allow traditional forms of professionalisation to appear; and the evolution of relatively new fields, such as those concerned with the environment, with ethics, and with human-machine interaction, into clearer professional groupings (though not necessarily formal professions).  </p>
+            <p>Implications for education and training are perhaps the most difficult to predict, as they are affected by all of the factors discussed above. There are some obvious implications in terms of the technology itself, so that existing practitioners will need to be increasingly technologically adept (including in fields where technology has to date played a limited role), including being able to work competently with related risk-related and ethical matters. As specific, detailed knowledge becomes easier to access via technology, continued movement is likely away from the learning of a “body of knowledge” as the foundation for professional practice, and towards a concern more directly with practices (Boud, 2016). Echoing a trend reported more than a decade ago (Lester, 2009), increased emphasis will be needed on understanding the principles underlying the area of work in order to aid, among other things, knowing what knowledge and skills to acquire and apply, how to interpret information and develop practice in context, and how to interpret and maintain oversight of information and analyses provided by machines. This suggests a (continuing) shift away from purely technical-rational expertise towards creative-interpretive professionalism and critical judgement, with areas such as ethics, sustainability, interpersonal, and intercultural skills becoming more important (Penprase, 2018). On the other hand, care is needed to avoid losing the skills and expertise that enable practitioners to recognise problems and intervene effectively when technology malfunctions, is sabotaged, or produces suspect answers (Billett, 2018).</p>
+            <p>A second major need is towards increased flexibility of professional development, parallel with the expected evolution of professional fields. This may point to more interprofessional courses, different pathways to specialism, and overall a greater range of routes to qualifying that are less predicated on teenage career choices or constrained by “silos” dictated by current professional boundaries. These directions are an extension of what is already happening, although route flexibility is likely to become more common and extend to more professions that is currently the case.</p>
+            <p>Alongside this, there are likely to be implications for early-career, work-based training. A common pattern in many professions is to serve a fairly loose form of apprenticeship as the final preparation to practise. In this model, the time taken up by training is often balanced by the novice practitioner undertaking tasks that are initially relatively routine, but are nevertheless necessary and contribute to the employer’s business. As Susskind and Susskind (2015) argue, not only is this generally inefficient as a training process, but if in future many of these tasks are automated or become unnecessary, work-based training will need to become more focussed, particularly where it is accompanied by commercial pressures to bring the novice practitioner up to speed more quickly. Studies by Eraut (2008) and Allen and colleagues (2015), among others, point to practitioners needing creative-interpretive skills increasingly early in their careers, generating pressure for more expansive and effective initial training. Putting these factors together suggests that early-career training will need to be geared to developing deep insights and high-level practice relatively quickly.  An emergent example is provided by degree- and master’s-level apprenticeships in the UK, where academic and workplace learning are specified through an apprenticeship standard and delivered in a way that (at least in the best examples) is genuinely integrated rather than through simply running off- and on-job training in parallel (Kuczera &amp; Field, 2018; Lester &amp; Bravenboer, 2020).</p>
          </section>
-         <!--"Research Question " END-->
+         <!--"Professional organisation and education" END-->
          <section>
-            <h2>Research Method and Data Gathering</h2>
-            <h3>Participants</h3>
-            <p>This study design was based on qualitative research methods. Four classes in China in Beijing and two classes in Finland in Helsinki participated in this study. In Finland, each class had one primary school class teacher. At that time, four student teachers were doing their teaching practice in those two classes. In China, there were five teachers who were involved in the project: two math teachers, two classroom teachers, and one computer teacher. The participants in this study are presented in Table 1.</p>
-            <table>
-               <caption>
-                  <p>Table 1. Participants in the Study</p>
-               </caption>
-               <thead>
-                  <tr class="center">
-                     <th>
-                        <p>Public School</p>
-                     </th>
-                     <th>
-                        <p>Number of classes</p>
-                     </th>
-                     <th>
-                        <p>Student ages</p>
-                     </th>
-                     <th>
-                        <p>Number of DST sessions</p>
-                     </th>
-                     <th>
-                        <p>Number of participating teachers</p>
-                     </th>
-                     <th>
-                        <p>Experience using DST</p>
-                     </th>
-                  </tr>
-               </thead>
-               <tbody>
-                  <tr class="center">
-                     <td>
-                        <p>Finnish</p>
-                        <p>School in </p>
-                        <p>Helsinki </p>
-                     </td>
-                     <td>
-                        <p>2 (about 23 students each class)</p>
-                     </td>
-                     <td>
-                        <p>10–11</p>
-                     </td>
-                     <td>
-                        <p>8 (learning geometry shapes)</p>
-                     </td>
-                     <td>
-                        <p>2 class teachers + 4 student teachers</p>
-                     </td>
-                     <td>
-                        <p>First time using DST, have used designed based learning and project-based learning method before</p>
-                     </td>
-                  </tr>
-                  <tr class="center">
-                     <td>
-                        <p>Chinese </p>
-                        <p>School in</p>
-                        <p>Beijing</p>
-                     </td>
-                     <td>
-                        <p>4 (about 40 students each class)</p>
-                     </td>
-                     <td>
-                        <p>10–11</p>
-                     </td>
-                     <td>
-                        <p>10–12 (learning geometry area size calculation)</p>
-                     </td>
-                     <td>
-                        <p>2 math teachers + 2 head teachers + 1 computer teacher</p>
-                     </td>
-                     <td>
-                        <p>First time using DST, have not used other student-centered approach before</p>
-                     </td>
-                  </tr>
-               </tbody>
-            </table>
+            <h2>Conclusion</h2>
+            <p>The “fourth industrial revolution” or “second machine age” is widely predicted to have a significant effect on work, particularly as technology starts to automate or result in the substitution of more complex types of activity. On balance, current analyses suggest that this will result in job losses in some areas, broadly offset by the emergence of new occupations. More significant, however, is occupational transformation, with implications for both initial education and reskilling. Importantly, many professional occupations will be affected directly by automation and substitution, with human expertise becoming less essential for even some highly complex tasks. This does not, however, spell mass redundancy across these occupations, but it will see changes to the tasks, fundamental skills and modes of organising of practitioners.</p>
+            <p>An increasingly nimble response is likely to be needed from professional governing bodies, whether these are state-backed regulators or independent associations, and higher education institutions. The former to some extent hold the key to adaptability, as where professional boundaries and entry-routes are maintained too rigidly, practitioners can be inhibited from developing their roles in new directions and educational institutions from developing programmes that are capable of preparing practitioners for upcoming challenges. In the latter, there are some good examples of programmes and frameworks that support learning for the kind of creative-interpretive practice discussed above, but there are also programmes that assume a largely “business as usual” approach even in areas where there is a high likelihood of substantial change.</p>
          </section>
-         <!--"Research Method and Data Gathering" END-->
-         <section>
-            <h2>Data collection</h2>
-            <p>The data of this study were collected through interviews with teachers, classroom observations by researchers, teachers’ course-planning notes and documentation, and discussion notes among researchers and teachers. Table 2 describes the data collection process in this study. We analyzed the data to find out how teachers mediated the students’ learning based on what teachers did before the DST, and at the beginning, middle, and end of the projects. Our aim was to identify how the teachers mediated the students’ learning and what roles they played in the DST math learning project. </p>
-            <p>The researchers had several discussions and meetings with the participating teachers before the projects began. We discussed these questions together:</p>
-            <ul class="bullet">
-               <li>What is DST?</li>
-               <li>What are the benefits of using DST?</li>
-               <li>What are the differences in DST compared to project–based learning?</li>
-               <li>What are the processes and steps of DST?</li>
-               <li>What are the learning outcomes?</li>
-               <li>What are the learning contents?</li>
-               <li>What kind of learning environments can be used to support the learning in DST?</li>
-               <li>How can assessments be carried out?</li>
-            </ul>
-            <p>Those discussions helped teachers in their project planning and implementation. The Finnish teachers felt more confident about this method, since they were familiar with a student-centered approach. The Chinese teachers and students, in contrast, were used to a teacher-centered approach.</p>
-            <table>
-               <caption>
-                  <p>Table 2. Data collection in the Study</p>
-               </caption>
-               <thead>
-                  <tr class="center">
-                     <th>
-                        <p>Public School</p>
-                     </th>
-                     <th>
-                        <p>Interviews</p>
-                     </th>
-                     <th>
-                        <p>Classroom observation</p>
-                     </th>
-                     <th>
-                        <p>Course planning notes, documents</p>
-                     </th>
-                     <th>
-                        <p>Discussion notes between teachers and researchers</p>
-                     </th>
-                     <th>
-                        <p>DST videos</p>
-                     </th>
-                  </tr>
-               </thead>
-               <tbody>
-                  <tr class="center">
-                     <td>
-                        <p>Finnish</p>
-                        <p>School in </p>
-                        <p>Helsinki </p>
-                     </td>
-                     <td>
-                        <p>2 separate classroom teacher interviews</p>
-                        <p>(90 minutes per each and recorded)</p>
-                        <p>1 group student teachers interview (120 minutes and recorded)</p>
-                     </td>
-                     <td>
-                        <p>6 times with notes, pictures, videos</p>
-                     </td>
-                     <td>
-                        <p>Teaching course materials, slides</p>
-                     </td>
-                     <td>
-                        <p>E-mails, </p>
-                        <p>shared Google documents</p>
-                     </td>
-                     <td>
-                        <p>12 videos</p>
-                     </td>
-                  </tr>
-                  <tr class="center">
-                     <td>
-                        <p>Chinese </p>
-                        <p>School in</p>
-                        <p>Beijing</p>
-                     </td>
-                     <td>
-                        <p>2 group interviews (about 120 minutes) and recorded</p>
-                     </td>
-                     <td>
-                        <p>10 times with notes, pictures, videos</p>
-                     </td>
-                     <td>
-                        <p>Teaching course materials, slides</p>
-                     </td>
-                     <td>
-                        <p>E-mails,</p>
-                        <p>Word documents,</p>
-                        <p>WeChat messages (a Chinese social media platform)</p>
-                     </td>
-                     <td>
-                        <p>20 videos</p>
-                     </td>
-                  </tr>
-               </tbody>
-            </table>
-            <p>We did semi-structured group interviews for student teachers in Finland and a semi-structured group interview in China with all teachers. Semi-structured interviews allow researchers to develop in-depth accounts of experiences and perceptions with individuals (Cousin, 2009). Researchers can use group interviews as a more efficient use of resources and as a means of adding valuable insight to the interpretation of a social or behavioral event (Frey &amp; Fontana 1991). Before the interview, we developed an interview guide. Some example of the teacher interview questions are as follows. What is your overall experience with the DST method? How does DST change teachers’ pedagogy? How does DST support students’ learning? What did you do and how did you support the students’ learning in this DST project? What are your roles as a teacher in using DST method? Do you plan to use DST method in your future teaching? </p>
-            <p>We used the list of questions and topics that needed to be covered during the interview in a particular order. We followed the guide, and we allowed additional discussions around the topics where appropriate. This provided additional information and data besides what we planned to have. We noticed in our group interview that one person’s answer could stimulate another person’s thoughts, and then we saw additional perspectives. We also received immediate feedback if all the participants discussed the topic with one another. It also saved us a lot of time. But we were cautious not to allow one person to dominate the conversation; we led the conversation so that everyone had the chance to participate and contribute.</p>
-         </section>
-         <!--"Data collection" END-->
-         <section>
-            <h2>Analysis</h2>
-            <p>In this study, we used content analysis. When using content analysis, the aim is to build a model to describe the phenomenon in a conceptual form. Both inductive and deductive analysis processes are represented as three main phases: the preparation, organizing, and reporting of the research material (Elo &amp; Kyngäs, 2007). Content analysis is a research method for making valid inferences from data to their context; the purpose is to provide knowledge, new insights, a representation of facts, and a practical guide for action (Krippendorff, 1980). The challenge can be that each researcher interprets the data according to her or his subjective perspective (Sandelowski, 1995). Each inquiry is distinctive, and the results depend on the skills, insights, analytic abilities, and style of the investigator (Hoskins &amp; Mariano, 2004). In this study, the researchers discussed their observations and interview data to ensure their interpretations would be valid. </p>
-            <p>Creswell (2007) says that qualitative researchers approach their topic with a specific worldview, which contains a set of beliefs or assumptions. In this study, we had Finnish-, Chinese-, and English-speaking researchers, and we wanted to be aware of our cultural backgrounds while we aimed to understand what happened in Finnish and Chinese classrooms. As van Manen (1990, p. 33) notes, qualitative research asks “What is it?” Levitt (2015) argues that qualitative research requires one to adopt an interpretative rather than a procedure-driven way of working. Qualitative research relies on the identification of the “subjective interpretation of data,” which enables meaningful data interpretation (Levitt, 2015). Table 3 gives the process of the data analysis, in which three main concepts are identified. </p>
-            <table class="TableGrid">
-               <caption>
-                  <p>Table 3. The Process of Qualitative Analysis in the Study</p>
-               </caption>
-               <thead>
-                  <tr class="left-center">
-                     <th>
-                        <p>EXTRACTED DATA EXAMPLES</p>
-                        <p>(activities, tasks, tools, processes etc. through pedagogical decisions)</p>
-                     </th>
-                     <th>
-                        <p>CODE</p>
-                     </th>
-                     <th>
-                        <p>CATEGORY</p>
-                     </th>
-                     <th>
-                        <p>THEME</p>
-                     </th>
-                  </tr>
-               </thead>
-               <tbody>
-                  <tr class="center">
-                     <td>
-                        <p>Planning and designing learning environments/space,</p>
-                        <p>dividing groups,</p>
-                        <p>roleplay…</p>
-                        <p>Camera, iPhone, iPad, paperboard, iMoive software, </p>
-                        <figure>
-                           <img src="figure.png"/>
-                           <figcaption>____</figcaption>
-                        </figure>
-                        <p>digital story example, </p>
-                        <p>real-life examples of different geometry shapes…</p>
-                        <p>What do you try to achieve?</p>
-                        <p>What do you need?</p>
-                        <p>How do you do it?</p>
-                        <figure>
-                           <img src="figure.png"/>
-                           <figcaption>____</figcaption>
-                        </figure>
-                        <p>Can you explain it to me?</p>
-                        <p>What have you learned?</p>
-                        <p>You did so well; how did you do it?</p>
-                        <p>I like the way you discuss and agree in your group…</p>
-                     </td>
-                     <td>
-                        <p>Plan</p>
-                        <p>Initiate</p>
-                        <figure>
-                           <img src="figure.png"/>
-                           <figcaption>____</figcaption>
-                        </figure>
-                        <p>Organize</p>
-                        <p>Support</p>
-                        <p>Using tools</p>
-                        <p>Explaining</p>
-                        <p>Illustrating</p>
-                        <p>Demonstrating</p>
-                        <p>Ask good questions</p>
-                        <figure>
-                           <img src="figure.png"/>
-                           <figcaption>____</figcaption>
-                        </figure>
-                        <p>Provoke thinking</p>
-                        <p>Encouraging</p>
-                     </td>
-                     <td>
-                        <p>Facilitating the learning</p>
-                        <figure>
-                           <img src="figure.png"/>
-                           <figcaption>____</figcaption>
-                        </figure>
-                        <p>Scaffolding the learning</p>
-                        <figure>
-                           <img src="figure.png"/>
-                           <figcaption>____</figcaption>
-                        </figure>
-                        <p>Coaching the learning</p>
-                     </td>
-                     <td>
-                        <p>Mediators stimulate</p>
-                        <p>learning activities</p>
-                        <p>
-                           <strong>Mediating theLearning</strong>
-                        </p>
-                        <figure>
-                           <img src="figure.png"/>
-                           <figcaption>____</figcaption>
-                        </figure>
-                        <p>Tools and social </p>
-                        <p>interactions have an important role in learning</p>
-                        <p>The importance of sociocultural role in human development</p>
-                     </td>
-                  </tr>
-               </tbody>
-            </table>
-         </section>
-         <!--"Analysis" END-->
-         <section>
-            <h2>Research Results</h2>
-            <p>How Teachers Prepared Students’ Learning before the DST Project</p>
-            <p>First, based on the research data, we describe what teachers did before the DST project. Both Finnish and Chinese teachers decided to use DST in students’ math learning. The teachers decided geometry instruction would be used in the DST project. In the Finnish classes, the teachers decided that the students would learn geometry shapes, the associated math concepts, and how those geometry shapes are used in real-life situations. In the Chinese classrooms, the teachers wanted students to learn how to calculate the area size of different geometry shapes and to apply their learning in real-life situations.</p>
-            <p>The teachers planned time for the project and made sure to have resources, such as iPads and computers, to create the digital stories. Even though DST is student-centered knowledge creation, the teachers made many arrangements to ensure students’ learning. The teachers’ planning work was demonstrated in the discussion notes, slides, and documents. In the teachers’ interviews, one teacher said the following:</p>
-            <p>“We also organize how many courses for the projects, how much time is needed, and what is to be covered in each lesson.”</p>
-            <p>“Teachers play important roles in selecting the topics.”</p>
-            <p>Another teacher had this to say: </p>
-            <p>“We also felt that it is important for teachers to do the pedagogical course planning—how much time is needed and what needs to be carried out in each lesson.”</p>
-            <p>From these descriptions of what teachers did before the DST project and even though the project gave students much freedom to design their own stories, the teachers needed to make many pedagogical decisions (e.g., how the project would fit within the school curriculum). The teachers also facilitated the project through preparation. These two educational systems have different curriculums as well as different teaching and learning traditions; however, both countries strive to prepare students to work independently in their groups.</p>
-         </section>
-         <!--"Research Results" END-->
-         <section>
-            <h2>How Teachers Mediated Students’ Learning in the Beginning of the DST Project</h2>
-            <p>In the beginning of the project, the teachers explained to the students what the DST project was about, the process and the steps, and how many lesson hours in this math learning project with DST. When introducing math learning with DST to students, the Chinese and Finnish teachers had different approaches. The Chinese teachers provided students structured guidance. For example, they showed a digital story video to the students to demonstrate what kinds of digital stories can be created. The video shows how students work in groups to discover and learn about the structural design of a bridge through activities, such as reading books, search information from internet, asking experts, discussing among the students, demonstrating it with paper boards and other objects. Then, the teachers explained to the students what they planned to do, the expected learning outcomes, and how the final assessment would be carried out.</p>
-            <p>The Finnish classes were more open and were less formal with the final assessment. In one class, the student teachers used roleplay to introduce a real-life problem and asked students to solve it by using geometry concepts. In the roleplay, the student teachers explained that a company had just developed a wonderful new product, but the old product package was outdated, so the company needed to design a sophisticated new product package. The student teachers asked the students to design a product package for their chosen product (e.g., mobile phone, iPad). The students could choose the product and design the product package using their knowledge of geometry. </p>
-            <p>In the Finnish school, the teachers divided students into groups. There were fewer students (i.e., about twenty-three students) in the Finnish class, and the groups each included three to five students. In the Chinese school, the teachers let the students form groups of five to six students. The Chinese students were excited, but there were problems. Six boys wanted to be in one group; however, the teachers preferred each group to have both boys and girls. Also, many high-achieving students gathered in one group. The teachers negotiated with the students to balance the group by gender and skill levels.</p>
-            <p>In the Chinese teachers’ group interview, one teacher said the following:</p>
-            <p>We introduced and explained to the students what the DST method is, and how we planned to use it in our math studying. We showed one example. Then we helped and participated in forming the groups. We also suggested that each group needs to define the roles of each group member.</p>
-            <p>In an interview, one Finnish teacher commented as follows:</p>
-            <p>We [the teacher and student teachers] first selected four topics. Then we asked the students to select which topic they were interested in. We formed the groups based on the students’ interests. If too many students were interested in one topic, then we had to decide and negotiate with the students. In the beginning, we had eight small groups; each group had about three students. We noticed that in one small group, one person was very active, and the other two students were not so active. It was difficult for the one active student to make the other two passive students join in the group work. Then we combined the small groups to the bigger group (five or six students together). Even in bigger group, there were only two students who were very active; these two students were able to motivate others to do things together.</p>
-            <p>We can see that at the beginning of the project, the teachers mediated the students’ learning in many ways. The teachers facilitated learning by introducing the method and theme. Then, pedagogical decisions were made by the teachers on how to introduce the DST project and to determine the themes. The formation of student groups was organized by the teachers, and they made pedagogical decisions about how the groups would be formed. </p>
-         </section>
-         <!--"How Teachers Mediated Students’ Learning in the Beginning of the DST Project" END-->
-         <section>
-            <h2>How Teachers Mediated Students’ Learning during the DST Project</h2>
-            <p>After the teachers provided the information needed to start the projects, the teachers stepped aside, and the students were in the center of the stage while they made plans, divided responsibilities, searched for information, recorded the learning artifacts, discussed different alternatives, and synthesized and created their digital stories. The teachers, however, still played an active backstage role. </p>
-            <p>The teachers ensured that every child was participating in the learning. In China, the teachers had to find additional learning space for students (e.g., corridors) because the classroom was too small for so many groups engaged in active learning, and it was quite noisy when the students made video clips. </p>
-            <p>The teachers also had to provide some new tools and resources (e.g., iPads, computers). The teachers asked for support from the IT teacher, and they facilitated the students’ learning by providing help and support whenever needed.</p>
-            <p>In the teachers’ group interview, one teacher said the following:</p>
-            <p>“Through this project, we paid more attention to individual students’ different capability levels. We can give more support to the students who need [it].”</p>
-            <p>“And [we can] ensure all the students actively participate in the learning process and activities.”</p>
-            <p>Another teacher added the following:</p>
-            <p>“We asked the IT teacher to provide some training for students about how to use digital tools and how to create videos. We provide support to students when they ask for help.”</p>
-            <p>Teachers paid attention to the students’ progress and asked questions—an important coaching strategy to create awareness among the students about their progress at a given time. The teachers used a praising strategy in their coaching by drawing attention to the students’ progress, their creative ideas, and their effort, which increased their confidence and motivation. The teachers often did not give direct answers and suggestions to the students; instead, the teachers asked good questions to help the students’ awareness of the situation and to help them move forward. Through coaching, the teachers tried to help students improve their work and learning.</p>
-            <p>The teachers also used scaffolding strategies, such as providing a checklist (i.e., the digital story assessment form showing how a good digital story looks) for students to use when they made their own stories. To scaffold the students’ learning, the teachers also used visual and tangible objects (e.g., toothpick sticks and candies to form different shapes) to illustrate geometry concepts. The teachers reminded students of previous learning related to geometry, which students then applied to the current problem. In the self-assessment and peer-assessment, the students were asked to give a grade to each question—five (extremely well), four (very well), three (well), two (moderately), and one (not really at all)—and to give suggestions for improvement. Here is the list of questions:</p>
-            <p>How are the important concepts, terms, and information, such as the triangle, square, and surface area, displayed in the video?</p>
-            <p>How well is the story of the video structured? Consider the introduction, the interchange between the pictures, the events, and the ending.</p>
-            <p>How well does the story give explanations and reasoning for such thing as why a certain shape is a triangle?</p>
-            <p>How does the video make the material that is supposed to be learned understandable for the viewer? Consider the conversations, pictures, animations, etc.</p>
-            <p>How does the subtitling help the viewers understand the most important mathematical terms as well as the material that is supposed to be learned?</p>
-            <p>How does the video keep the viewer engaged? Consider the music, the viewing angles, and the close and remote shooting.</p>
-            <p>What is your overall opinion of the video?</p>
-            <p>The assessment questionnaire was given to students before they started to make their digital story videos so that they could see what the important elements in good digital stories were.</p>
-            <p>In the interviews, we asked the teachers directly, “What are your roles as a teacher in using DST method?” One teacher gave very clear description in response:</p>
-            <p>“We are organizers for the project. We provide inspiration and guidance for the students. We are also coordinators when there are conflicts and difficulties. We are helpers and supporters during the process, as scaffolding to our students.”</p>
-            <p>One teacher stated the following, with which several other teachers agreed:</p>
-            <p>“One challenge for me as teacher in doing DST is that it takes longer than the usual way we teach. We notice that DST has many good sides. Students are very excited and engaged in what they are doing, and they learn many things besides math. Sometimes it takes longer for the students to carry out the activities than we expected. I feel that we need more time to plan for next DST project.” </p>
-            <p>Another teacher commented:</p>
-            <p>“This digital storytelling method needs many skills from children. As a teacher, I can observe what skills children already have and what they are good at and what skills need further development.” </p>
-            <p>The interview data clearly showed that the teachers mediate the students’ learning by facilitating, coaching, and scaffolding. This also showed the teachers’ professional competence in identifying the students’ needs and developing their potential. </p>
-         </section>
-         <!--"How Teachers Mediated Students’ Learning during the DST Project" END-->
-         <section>
-            <h2>What Teachers Did to Mediate Students’ Learning at the End of the DST Project</h2>
-            <p>At the end of the project, each group presented their digital story to the whole class. After each group presentation, the teacher asked the group to self-assess their digital story and then asked other students to give a peer assessment; the teacher then provided their assessment. The assessment was designed for students’ improvement. The teacher asked the students to assess their digital story, based on the criteria in the assessment form, by asking two main questions: (a) what were the good elements in this digital story; (b) if you would have more time, how would you like to make the digital story better? In addition, the Finnish teachers asked their students questions to check students’ learning and understanding of the geometry shapes and concepts. The Chinese teachers asked students to solve three math problems related to calculating the area of geometry shapes.</p>
-            <p>In summary, at the end of the DST project, the teachers made pedagogical decisions on how the assessment would be used to achieve improvement-led assessment. The teachers facilitated the assessment by leading and guiding the assessment questions; they also used scaffolding to check if the students understood the math and geometrical concepts.</p>
-            <p>During one classroom observation, after one group of students made their digital story presentation, one Finnish teacher asked the other students the following:</p>
-            <p>“Can someone tell us what good things in this digital story were? If there were more time, how could they improve their digital stories?” </p>
-            <p>Later, in one interview with a student from that class, the researcher asked her: “What have you learned from this DST project?” The student said, “I learned…and I also learned how to give comments to others nicely.” This demonstrates that the teacher scaffolded the students in how to give feedback to others nicely.</p>
-            <p>In this DST project, the improvement-based assessment was used for learning and to help students to see what went well; their achievement made them feel proud of themselves and also increased their confidence in learning. At the same time, the assessment helped students see how they could develop further with suggestions. Additionally, we included learning reflection by asking good questions to the students after they finished their DST presentations. </p>
-            <p>In the teachers’ interview, we also asked this question: “What are the biggest changes for teachers in doing this DST project? The following are the teachers’ collective answers:</p>
-            <p>“With the traditional method, we teach the students, then the students do the exercise, and then we check whether they have done it correctly. Now with the digital storytelling method, the students need to find out how to solve the math problems.” </p>
-            <p>“The teachers step from the front of the stage to the back of the stage.” </p>
-            <p>“With the traditional method, students are more passive during studying. With DST, students are more engaged and more active.”</p>
-            <p>This [DST] method is totally different compared to traditional teaching methods. Compared to the traditional method, in which teachers are at center stage and teach knowledge to their students, the DST method is a student-centered approach. In this new method, we did not teach the students. It was the students who learn the knowledge by themselves. In this method, the key point is that the teachers step out from the center of the classroom.</p>
-            <p>The evidence indicates that DST can bring students to the center of the learning stage. Teachers had moved to the side of the classroom to have a more supportive role. When we looked through all the students’ DST videos, we noticed that they demonstrated the objectives the teachers had set before the projects. The Finnish students’ videos show how they proposed a real-life problem and how they used math concepts of geometry shapes to solve the problem and how they designed real product packages. The Chinese students’ videos show them learning how to calculate the area size of different geometry shapes and how to use their learning in real-life problems. It is interesting to see that the Finnish students’ videos have more creativity elements in terms the diversity of the products. The Chinese students’ videos have more common elements and were more knowledge focused. In both the Chinese and Finnish students’ videos, we can see that students have used other skills besides the math elements, such as language, music, ICT, and story logic structure. </p>
-            <p>Based on the research data of classroom observation, discussion with teachers, and the DST videos, we also noticed that the Finnish teachers used more coaching strategies than the Chinese ones in mediating students learning. The Finnish teachers asked more questions to provoke students’ learning. They paid more attention to students’ skills and competence development beyond simply math knowledge, such as communication skills. Chinese teachers focused more on students’ knowledge learning during the projects.</p>
-         </section>
-         <!--"What Teachers Did to Mediate Students’ Learning at the End of the DST Project" END-->
-         <section>
-            <h2>Summary of the Findings</h2>
-            <p>In this study, we focused on the teachers’ roles as mediators in leading and guiding students’ learning. The data described what the teachers did in the process of a DST project and demonstrated that the teachers made many pedagogical decisions based on the students’ needs and classroom situations. As mediators, they had the three main roles are (1) <strong>facilitating</strong>; (2) <strong>coaching</strong>; and (3) scaffolding the students’ learning:  </p>
-            <p>The teachers facilitated the DST project to enable students to actively engage in student-centered learning. Facilitating the students’ learning consists of important aspects in the process of teachers’ pedagogical decisions, which were related to managing the whole DST project. These aspects included the following: introducing the method and theme; creating a learning community; being responsible for the project’s process; providing needed information as well as a learning space; and creating an interactive and collaborative learning atmosphere. </p>
-            <p>The teachers used coaching tactics to inspire and lead the students in learning through roleplaying, asking good questions, praising the students’ progress, and giving positive and constructive feedback. Teachers’ coaching of the students’ learning includes aspects that help students to improve their work, which included the following: inspiring the students; uncovering the students’ potential, talents, and goals; clarifying and helping the students breaking down tasks; and motivating and empowering the students by praising their progress and emphasizing their strengths.</p>
-            <p>Scaffolding strategies were used by teachers to demonstrate the learning outcome product through an existing digital story; they also used visual and tangible objects (e.g., paper board, toothpick sticks) to illustrate the geometry shapes. Scaffolding includes teachers’ pedagogical decisions that provide structural or mental tools to support students’ learning and can include the following: demonstrating and modelling what the students need to do; providing checklists for the students’ expected outcome product; using visual and tangible objects to illustrate the geometry shapes; and checking for understanding.</p>
-            <p>The focus of this research was to find how teachers led and guided students’ learning, which reflects the teachers’ pedagogical role as mediators. Figure 1 illustrates the teachers’ pedagogical role as mediators in facilitating, coaching, and scaffolding through pedagogical decision making for the students’ learning in DST.</p>
-            <figure>
-               <img src="figure.png"/>
-               <figcaption>
-                  <p>Figure 1. Summary of the teachers’ pedagogical role as mediators in DST</p>
-               </figcaption>
-            </figure>
-         </section>
-         <!--"Summary of the Findings" END-->
-         <section>
-            <h2>Discussion</h2>
-            <p>The aim of this study was to discover the teachers’ pedagogical role as mediators (Vygotsky, 1978) in leading and guiding the students’ learning with DST. The teacher’s role is changing from knowledge transmission at the center of the classroom stage to a supportive role from the side of the classroom, which enables the students’ active knowledge construction. As McWilliam (2009, p. 281–293) stated, teachers’ pedagogical identity shifted from “Sage-on-the stage” to “Guide-on-the-side.” We identified the three main functions of facilitating, coaching and scaffolding, which the teachers did as mediators through pedagogical decision making in the DST project.</p>
-            <p>Facilitation is a common term in education. A facilitator helps a group of people to understand their common objectives and helps them to plan how to achieve these objectives (Bens, 2012). This requires that the facilitator design and run the group activity smoothly so to achieve the objectives. Facilitating enables groups to work more effectively to collaborate and achieve their goals (Kaner et al. 2007). The facilitator’s job is to support everyone to do their best thinking and working. To do this, the facilitator encourages full participation, promotes mutual understanding, and cultivates shared responsibility (Kaner et al. 2007). In education, facilitating works with the goal of having students take as much responsibility for their own learning as possible (Metz, 2013). Teachers may shift to a facilitative role to increase student ownership of the learning process (Underhill 1999).</p>
-            <p>One main characteristic of the DST method is the student-centered knowledge creation approach. The students are at the center of the learning stage; however, this will not happen without teachers facilitating the learning process. Facilitating means planning, guiding, and managing the group activity by creating a flourishing learning process and environment; this ensures everyone’s participation and success in meeting the objectives of the group activity. Facilitation was very visible in this DST project. As Gu (2018) has pointed out, teachers are the organizers of the learning process, designers of the learning environment, and helpers of the students’ learning experience. In this DST project, teachers facilitated the students’ learning by (a) introducing the method and theme, (b) creating learning community, (c) being responsible for the learning process, (d) providing needed information and a supportive learning environment, and (e) supporting interactions within the collaborative learning process.</p>
-            <p>The concept of coaching is often used in sport or in goal-oriented learning processes. It is a form of development in which a person (i.e., coach) supports a learner or client in achieving a specific goal by providing training and guidance (Passmore, 2016). Coaching is the process of aiming for improved performance. In this DST study, coaching was often associated with asking good questions to discover the right direction, to build motivation, and to define concrete actions. Through the teachers’ questions, the students became aware of the learning outcomes; they uncovered their potential and built their inner strength, confidence, and motivation. Additionally, the teachers encouraged the students even when there were difficulties; they praised the students’ progress, built students’ strength and motivation, and led the students to concrete actions. The teachers, therefore, played an extremely important role in coaching students in the right direction and providing motivation to achieve better performance. </p>
-            <p>Scaffolding is a structure of “support points” for performing an action to develop the children’s zone of proximal development (ZPD) (Vygotsky, 1978; Obukhova &amp; Korepanova, 2009). At school, in classroom practice, teachers can use various scaffolding strategies to support the students’ development in their zone of proximal development (ZPD). In Vivitsou et al.’s (2017) study, teachers used scaffolding techniques in DST. In this DST project, to support student-centered learning, the teachers scaffolded the students by showing them a good digital story and then by encouraging them to use paper board to cut different geometry shapes. The teachers provided a checklist for assessing the digital stories. Visual and tangible objects were used to illustrate the geometry shapes.  Scaffolding is the support given during the learning process, which is tailored to the needs of the students; the intention is to help the students achieve their learning goals (Sawyer, 2013). Some scaffolding means (Van de Pol et al. 2010) are modeling, explaining, demonstrating, and giving feedbacks and handouts. </p>
-            <p>These three concepts identified in the teachers’ work in the DST project are widely used in educational settings, not only in the context of DST. We can conclude that findings suggest the teachers’ pedagogical role as mediators is in DST is very essential. The teachers made concrete and realistic pedagogical planning, and made decisions to react and adjust to the learning situation and on the students’ needs and capacities in order to develop the students’ active learning and to achieve the desired learning outcomes. </p>
-         </section>
-         <!--"Discussion" END-->
-         <section>
-            <h2>Limitations and Further Study</h2>
-            <p>In this study, the main topic of learning with DST was related to geometry for ten- and eleven-year-old students. Also, this study studies the teacher’s role only in one subject matter and only in two schools and with students at a specific age level. It is important to expand the study to other subject matters, such as language, ICT, and music. The project could also be more inter-disciplinary in using DST in learning. It would be important to find out whether teacher’s role would change if the students were younger or older or if the learning concepts were more abstract and difficult. In this study, the teachers led and guided the students’ learning in groups, and the study did not provide detailed information about how teachers supported for weaker students in an individualized manner. Further studies could focus more on how teachers support individualized learning in the student-centered learning method.</p>
-            <p>This study was carried out in Finland and in China, which have very different education systems and different cultural backgrounds. Additional studies could be done in other countries. Additionally, it is also important to find out how teachers integrate their teaching with their national curriculum over a longer period of time.</p>
-            <p>Even though these research findings were discovered using DST, it would be interesting to find out if the same results could be found and tested in other student-centered pedagogical methods or approaches with a different emphasis. Future studies can pursue research in project-based or problem-based learning, or in phenomenon-based learning. We suggest that more research should be carried out to help teachers who use student-centered pedagogical methods and approaches.</p>
-         </section>
-         <!--"Limitations and Further Study" END-->
+         <!--"Conclusion" END-->
          <section class="acknowledgements">
             <h2>Acknowledgements</h2>
-            <p>Authors want to thank the Advanced Innovation Center for Future Education (AICFE), Beijing Normal University, and University of Helsinki for financing the project.</p>
-            <p>Authors express thanks to their co-researchers: Baoping Li from Beijing Normal University and Marianna Vivitsou from the University of Helsinki for project implementation and data collection.</p>
+            <p>An earlier version of this paper was presented at the Universities Association for Lifelong Learning’s Work and Learning Conference, University of the Arts, London, on 28th June 2019.  </p>
+            <p>Part of the literature on technology and work was reviewed for the Erasmus+ Strategic Partnership project Digi4VET, for which the author is the UK partner and scientific co-ordinator. Digi4VET is designed to support preparedness for and use of new technology in vocational education and training. The project is led by SBG Dresden in Germany, and supported by funding from the European Commission via the Bundesinstitut für Berufsbildung (BIBB). European Commission support does not constitute an endorsement of the contents of this article, which reflects the views only of the author, and the Commission cannot be held responsi<softHyphen/>ble for any use which may be made of the information contained in it.</p>
          </section>
          <!--"Acknowledgements" END-->
+         <section>
+            <h2>Essay history</h2>
+            <p styleId="History" styleName="[History]">Received: 23Apr 2020</p>
+            <p styleId="History" styleName="[History]">Accepted:17Jun 2020</p>
+            <p styleId="History" styleName="[History]">Published: XX Jun 2020</p>
+         </section>
+         <!--"Essay history" END-->
          <section class="references">
             <h2>References</h2>
-            <p>Bens, I. (2012). <em>Facilitating with ease! Core skills for facilitators, team leaders and members, managers, consultants, and trainers.</em> San Francisco: Wiley.</p>
-            <p>Creswell, J.W. (2007). <em>Qualitative inquiry and research design: Choosing among five approaches (2nd ed.).</em> Thousand Oaks, CA: Sage.</p>
-            <p>Elo, S. &amp; Kyngäs, H. (2008), The qualitative content analysis process. <em>Journal of Advanced Nursing, 62</em>: 107-115. <a href="https://doi.org/10.1111/j.1365-2648.2007.04569.x">https://doi.org/10.1111/j.1365-2648.2007.04569.x</a>
+            <p class="ref" id="AllenMagnussonHortonEvansBallCurtisJohnson2015">Allen, H., Magnusson, C., Horton, K., Evans, K., Ball, E., Curtis, K., &amp; Johnson, M. (2015). People, liminal spaces and experience: Understanding recontextualisation of knowledge for newly qualified nurses. <em>Nurse Education Today,35</em>(2), 78-83.<a href="https://doi.org/10.1016/j.nedt.2014.10.018">https://doi.org/10.1016/j.nedt.2014.10.018</a>
             </p>
-            <p>Feuerstein, R. (1990). The theory of structural cognitive modifiability. In B. Presseisen (Ed.), <em>Learning and thinking styles: Classroom interaction</em>, (pp. 68–134). Washington, DC: National Education Association.</p>
-            <p>Feuerstein, R., &amp; Feuerstein, S. (1991). Mediated learning experience: A theoretical review. In R. Feuerstein, P. Klein, &amp; A. Tannenbaum (Eds.), <em>Mediated learning experience: Theoretical, psychological, and learning implications</em>, (pp. 3–52). Tel Aviv and London: Freund</p>
-            <p>Frey, J. &amp; Fontana, A. (1991). The Group Interview in Social Research. <em>The Social Science Journal, 28</em>(2), 175-187. <a href="https://doi.org/10.1016/0362-3319(91)90003-M">https://doi.org/10.1016/0362-3319(91)90003-M</a>
+            <p class="ref" id="Autor2015">Autor, D. (2015). Why are there still so many jobs? The history and future of workplace automation. <em>Journal of Economic Perspectives,29</em>(3), 3-30.<a href="https://doi.org/10.1257/jep.29.3.3">https://doi.org/10.1257/jep.29.3.3</a>
             </p>
-            <p>Cousin, G. (2009). <em>Researching learning in higher education: an introduction to contemporary methods and approaches.</em> New York: Routledge.</p>
-            <p>Creswell, J. W., Hanson, W. E., Clark Plano, V. L., &amp; Morales, A. (2007). Qualitative Research Designs: Selection and Implementation. <em>The Counseling Psychologist, 35</em>(2), 236–264. <a href="https://doi.org/10.1177/0011000006287390">https://doi.org/10.1177/0011000006287390</a>
+            <p class="ref" id="AutorHandel2013">Autor, D., &amp; Handel, M. (2013). Putting Tasks to the test: Human capital, job tasks, and wages. <em>Journal of Labor Economics,31</em>(2), 59-96.<a href="https://doi.org/10.1086/669332">https://doi.org/10.1086/669332</a>
             </p>
-            <p>Gu, M. (2018). Challenges and solutions faced by China’s teachers in the era of globalization. In H. Niemi, A. Toom, A. Kallioniemi &amp; J. Lavonen (Eds.), <em>The teachers’ role in the changing globalizing world</em> (pp. 109-123). Leiden: Brill Sense.</p>
-            <p>Hoskins C.N. &amp; Mariano C. (2004). <em>Research in Nursing and Health: Understanding and Using Quantitative and Qualitative Methods. 2nd ed.,</em> New York: Springer Publishing Company.</p>
-            <p>Jenkins, H., Purushotma, R., Weigel, M., Clinton, K., &amp; Robinson, A. J. (2009). <em>Confronting the challenges of participatory culture: Media education for the twenty-first century.</em> Chicago, IL: MacArthur Foundation. <a href="https://doi.org/10.7551/mitpress/8435.001.0001">https://doi.org/10.7551/mitpress/8435.001.0001</a>
+            <p class="ref" id="AutorLevyMurnane2003">Autor, D., Levy, F., &amp; Murnane, R. (2003). The skill content of recent technological change: An empirical exploration. <em>Quarterly Journal of Economics,118</em>(4), 1279-1333. <a href="https://doi.org/10.1162/003355303322552801">https://doi.org/10.1162/003355303322552801</a>
             </p>
-            <p>Kaner, S. with Lind, L., Toldi, C., Fisk, S. and Berger, D. (2007). <em>Facilitator’s Guide to Participatory Decision-Making</em>. San Fransisco: Jossey-Bass</p>
-            <p>Kennedy, K. J. (2008). Globalised economies and liberalised curriculum: New challenges for national citizenship education. In D. Grossman, W. O. Lee &amp; K. Kennedy (Eds.), <em>Citizenship curriculum in Asia and the Pacific</em> (pp. 13–26). Hong Kong: Springer/Comparative Education Research Centre, University of Hong Kong.</p>
-            <p>Kozulin, A. (1990). <em>Vygotsky’s psychology: A biography of ideas.</em> Cambridge, MA: Harvard University Press.</p>
-            <p>Kozulin, A. (Ed.). (1997). <em>The ontogeny of cognitive modifiability.</em> Jerusalem:  International Centre for the Enhancement of Learning Potential, ICELP Press</p>
-            <p>Kozulin, A. &amp; Presseisen, B.Z. (1995) Mediated Learning Experience and Psychological Tools: Vygotsky’s and Feuerstein’s perspectives in a study of student learning, <em>Educational Psychologist, 30</em>(2), 67–75. <a href="https://doi.org/10.1207/s15326985ep3002_3">https://doi.org/10.1207/s15326985ep3002_3</a>
+            <p class="ref" id="ArntzGregoryZierahn2016">Arntz, M., Gregory, T., &amp; Zierahn, U. (2016). <em>The risk of automation for jobs in OECD countries</em>. Paris, France: OECD (Social, Employment and Migration Working Paper 189). Retrieved from <a href="https://www.oecd-ilibrary.org/the-risk-of-automation-for-jobs-in-oecd-countries_5jlz9h56dvq7.pdf?itemId=%2Fcontent%2Fpaper%2F5jlz9h56dvq7-en&amp;mimeType=pdf">https://www.oecd-ilibrary.org/the-risk-of-automation-for-jobs-in-oecd-countries_5jlz9h56dvq7.pdf?itemId=%2Fcontent%2Fpaper%2F5jlz9h56dvq7-en&amp;mimeType=pdf</a>
             </p>
-            <p>Krippendorff K. (1980) <em>Content Analysis: An Introduction to its Methodology.</em> Newbury Park : Sage Publications.</p>
-            <p>Kulla-Abbott, T., &amp; Polman, J. (2008). Engaging student voice and fulfilling curriculum goals with digital stories. <em>THEN Journal: Technology Humanities Education and Narrative, 5(</em>1), 38–60.</p>
-            <p>Lambert, J. (2013). <em>Digital storytelling: Capturing lives, creating community.</em> New York, NY: Routledge. <a href="https://doi.org/10.4324/9780203102329">https://doi.org/10.4324/9780203102329</a>
+            <p class="ref" id="Belfall1999">Belfall, D. (1999). <em>Creating value for members</em>.  Toronto, ON: Canadian Society for Association Executives.</p>
+            <p class="ref" id="Billett2018">Billett, S. (2018). Accessing and securing conceptual and symbolic knowledge required for digital era work. In C. Harteis (Ed.), <em>The impact of digitalization in the workplace</em> (pp. 197-212). Cham, Switzerland: Springer. <a href="https://doi.org/10.1007/978-3-319-63257-5_13">https://doi.org/10.1007/978-3-319-63257-5_13</a>
             </p>
-            <p>Lee, W., &amp; Tan, J. P. (2018 in print). The new roles of twenty-first-century teachers: Facilitator, knowledge broker, and pedagogical weaver. In H. Niemi, A. Toom, A. Kallioniemi, and J. Lavonen (Eds.), <em>The teachers’ role in the changing globalizing world </em>(pp. 11-31). Leiden: Brill Sense.</p>
-            <p>Levitt, H.M. (2015). Interpretation-driven guidelines for designing and evaluating grounded theory research: a constructivist-social justice approach. In O. C. G. Gelo, A. Pritz, &amp; Rieken (Eds.), <em>Psychotherapy research</em> (pp.455-483). Vienna: Springer. Retrieved from <a href="https://link.springer.com/chapter/10.1007/978-3-7091-1382-0_22">https://link.springer.com/chapter/10.1007/978-3-7091-1382-0_22</a>. <a href="https://doi.org/10.1007/978-3-7091-1382-0_22">https://doi.org/10.1007/978-3-7091-1382-0_22</a>
+            <p class="ref" id="BleaseKaptchukBernsteinMandlHalamkaDesRoches2019">Blease, C., Kaptchuk, T., Bernstein, M., Mandl, K., Halamka, J., &amp; DesRoches, C. (2019).  Artificial intelligence and the future of primary care: Exploratory qualitative study of UK General Practitioners’ views. <em>Journal of Medical Internet Research,21</em>(3), e12802.<a href="https://doi.org/10.2196/12802">https://doi.org/10.2196/12802</a>
             </p>
-            <p>McGee, P. (2015). <em>The instructional value of digital storytelling: Higher education, professional, and adult learning settings.</em> New York, NY: Routledge. <a href="https://doi.org/10.4324/9780203066140">https://doi.org/10.4324/9780203066140</a>
+            <p class="ref" id="BogenRieke2018">Bogen, M., &amp; Rieke, A. (2018). <em>Help wanted: An examination of hiring algorithms, equity and bias</em>. Washington, DC: Upturn.</p>
+            <p class="ref" id="BoninGregoryZierahn2015">Bonin, H., Gregory, T., &amp; Zierahn, U. (2015). <em>Übertragung der studie von Frey/Osborne (2013) auf Deutschland</em>. Mannheim, Germany: Zentrum fur Europaische Wirtschaftsforschung.  </p>
+            <p class="ref" id="Boud2016">Boud, D. (2016). Taking professional practice seriously: Implications for deliberate course design. In F. Trede &amp; C. McEwen (Eds.), <em>Educating the deliberate professional: Preparing for future practices</em> (pp. 157-174). Dordrecht, The Netherlands: Springer.<a href="https://doi.org/10.1007/978-3-319-32958-1_11">https://doi.org/10.1007/978-3-319-32958-1_11</a>
             </p>
-            <p>McWilliam, E. L. (2009). Teaching for creativity: From sage to guide to meddler. <em>Asia Pacific Journal of Education, 29</em>(3), 281–293. <a href="https://doi.org/10.1080/02188790903092787">https://doi.org/10.1080/02188790903092787</a>
+            <p class="ref" id="BrynjolfssonMcAfee2011">Brynjolfsson, E., &amp; McAfee, A. (2011). <em>Race against the machine</em>. Lexington, KY: Digital Frontier Press.</p>
+            <p class="ref" id="BrynjolfssonMcAfee2014">Brynjolfsson, E., &amp; McAfee, A. (2014). <em>The Second Machine Age</em>. New York, NY: Norton.</p>
+            <p class="ref" id="CassertaMadsen2019">Casserta, S., &amp; Madsen, M. (2019). The legal profession in the era of digital capitalism: Disruption or new dawn? <em>Laws,8</em>(1), 1-17. <a href="https://doi.org/10.3390/laws8010001">https://doi.org/10.3390/laws8010001</a>
             </p>
-            <p>Metz, Terrence (2013), <em>“The FAST Facilitative Session Leader”.</em> Productivity Press, Boca Raton, Florida.</p>
-            <p>Nelson, M. E., &amp; Hull, G. (2008). Self-presentation through multimedia: A Bakhtinian perspective on digital storytelling.” In K.  Lundby (Ed.), <em>Digital storytelling, mediatized stories: Self-representations in new media</em> (pp. 123–144). New York: Peter Lang.</p>
-            <p>Niemi, H., Harju, V., Vivitsou, M., Viitanen, K., Multisilta, J., &amp; Kuokkanen, A. (2014). Digital storytelling for 21st-century skills in virtual learning environments, <em>Creative Education, 5</em>(9), 657–671. <a href="https://doi.org/10.4236/ce.2014.59078">https://doi.org/10.4236/ce.2014.59078</a>
+            <p class="ref" id="CEDEFOP2017">CEDEFOP (2017). <em>People, machines, robots and skills: CEDEFOP briefing note</em>. Thessaloniki, Greece: CEDEFOP. Retrieved from <a href="https://www.cedefop.europa.eu/en/publications-and-resources/publications/9121">https://www.cedefop.europa.eu/en/publications-and-resources/publications/9121</a>
             </p>
-            <p>Niemi, H., &amp; Multisilta, J. (2016). Digital storytelling promoting twenty-first century skills and student engagement. <em>Technology, Pedagogy and Education, 25</em>(4), 451-468. <a href="https://doi.org/10.1080/1475939X.2015.1074610">https://doi.org/10.1080/1475939X.2015.1074610</a>
+            <p class="ref" id="Collins2018">Collins, H. (2018). <em>Artifictional intelligence: Against humanity’s surrender to computers</em>.  Cambridge, United Kingdom: Polity.</p>
+            <p class="ref" id="Conway2018">Conway, E. (2018). The future of accountancy: Beyond the numbers. In L. Crookes &amp; E. Conway (Eds.), <em>Technology challenges in accounting and finance</em> (pp. 187-196).  Cham, Switzerland: Palgrave Macmillan.<a href="https://doi.org/10.1007/978-3-319-91113-7_10">https://doi.org/10.1007/978-3-319-91113-7_10</a>
             </p>
-            <p>Nieuwerburgh, Christian van (2012). <em>Coaching in Education: Getting Better Results for Students, Educators, and Parents. Professional Coaching Series.</em> London: Karnac Books. ISBN 9781780490793. OCLC 778418798</p>
-            <p>Obukhova, L. F., &amp; Korepanova, I. A. (2009). The Zone of Proximal Development: A spatiotemporal model. <em>Journal of Russian &amp; East European Psychology, 47</em>(6), 25-47. <a href="https://doi.org/10.2753/RPO1061-0405470602">https://doi.org/10.2753/RPO1061-0405470602</a>
+            <p class="ref" id="CrookesConway2018">Crookes, L., &amp; Conway, E. (2018). Technology challenges in accountancy and finance. In L. Crookes and E. Conway (Eds.), <em>Technology challenges in accounting and finance</em> (pp. 61-84). Cham, Switzerland: Palgrave Macmillan. <a href="https://doi.org/10.1007/978-3-319-91113-7_4">https://doi.org/10.1007/978-3-319-91113-7_4</a>
             </p>
-            <p>Ohler, J. (2008). <em>Digital storytelling in the classroom: New media pathways to literacy, learning and creativity.</em> Thousand Oaks, CA: Corwin Press.</p>
-            <p>Passmore, J. (Ed.). (2016). <em>Excellence in coaching: The industry guide (3rd ed.)</em>. Philadelphia: Kogan Page. </p>
-            <p>Robin, B. (2008). The effective uses of digital storytelling as a teaching and learning tool. In D. Lapp, J. Flood, &amp; S. B. Heath (Eds.), <em>Handbook of research on teaching literacy through the communicative and visual arts. Vol. 2.</em> New York: Lawrence Erlbaum Associates. <a href="https://doi.org/10.4324/9781315759616.ch43">https://doi.org/10.4324/9781315759616.ch43</a>
+            <p class="ref" id="DeGroenLenaertsBosePaquier2017">De Groen, W., Lenaerts, K., Bose, R., &amp; Paquier, F. (2017). <em>Impact of digitalisation and the on-demand economy on labour markets and the consequences for employment and industrial relations</em>. Brussels, Belgium: European Economic and Social Committee.<a href="https://doi.org/10.2139/ssrn.2730550">https://doi.org/10.2139/ssrn.2730550</a>
             </p>
-            <p>Rossiter, M., &amp; Garcia, P. A. (2010). Digital storytelling: A new player on the narrative field. <em>New directions for adult and continuing education, 126</em>, 3748. <a href="https://doi.org/10.1002/ace.370">https://doi.org/10.1002/ace.370</a>
+            <p class="ref" id="DreyfusDreyfus1986">Dreyfus, H., &amp; Dreyfus, S. (1986). <em>Mind over machine: The power of human intuition and expertise in the age of the computer</em>. Oxford, United Kingdom: Basil Blackwell.</p>
+            <p class="ref" id="Eraut2008">Eraut, M. (2008). Learning from other people in the workplace. In K. Hall, P. Murphy &amp; K. Soler (Eds.), <em>Pedagogy and Practice: Culture and identities </em>(pp. 40-57). London, United Kingdom: Sage.</p>
+            <p class="ref" id="FischerPöhler2018">Fischer, C., &amp; Pöhler, A. (2018). Supporting the change to digitalized production environments through learning organization development. In C. Harteis (Ed.), <em>The impact of digitalization in the workplace</em> (pp. 141-160). Cham, Switzerland: Springer.<a href="https://doi.org/10.1007/978-3-319-63257-5_10">https://doi.org/10.1007/978-3-319-63257-5_10</a>
             </p>
-            <p>Sadik, A. (2008). Digital storytelling: A meaningful technology-integrated approach for engaged student learning. <em>Educational Technology Research &amp; Development, 56</em>, 487506. <a href="https://doi.org/10.1007/s11423-008-9091-8">https://doi.org/10.1007/s11423-008-9091-8</a>
+            <p class="ref" id="Flood2019">Flood, J. (2019). Legal professionals of the future. In M. DeStefano &amp; G. Dobrauz-Saldapenna (Eds.), <em>New Suits: Appetite for disruption in the legal world</em>(pp. 115-130). Bern, Switzerland: Stampfli Verlag. </p>
+            <p class="ref" id="FreyOsborne2013">Frey, C., &amp; Osborne, M. (2013). <em>The future of employment: How susceptible are jobs to computerization?</em> Oxford, United Kingdom: University of Oxford.</p>
+            <p class="ref" id="FreyOsborne2017">Frey, C., &amp; Osborne, M. (2017). The future of employment: How susceptible are jobs to computerization? <em>Technological Forecasting and Social Change,114</em>, 254-280.<a href="https://doi.org/10.1016/j.techfore.2016.08.019">https://doi.org/10.1016/j.techfore.2016.08.019</a>
             </p>
-            <p>Sandelowski M. (1995). Qualitative analysis: what it is and how to begin? <em>Research in Nursing &amp; Health 18</em>, 371–375. <a href="https://doi.org/10.1002/nur.4770180411">https://doi.org/10.1002/nur.4770180411</a>
+            <p class="ref" id="FrontierEconomics2018">Frontier Economics (2018). <em>The impact of artificial intelligence on work: An evidence review prepared for the Royal Society and the British Academy</em>. London, United Kingdom: Frontier Economics.</p>
+            <p class="ref" id="GiffordHoughton2019">Gifford, J., &amp; Houghton, E. (2019). <em>People and machines: From hype to reality</em>. London, United Kingdom: Chartered Institute of Personnel and Development.</p>
+            <p class="ref" id="HislopCoombsTanevaBarnard2017">Hislop, D., Coombs, C., Taneva, S., &amp; Barnard, S. (2017). <em>The impact of artificial intelligence, robotics and automation on work</em>. London, United Kingdom: Chartered Institute of Personnel and Development.</p>
+            <p class="ref" id="HoyleJohn1995">Hoyle, E., &amp; John, P. (1995). <em>Professional Knowledge and Professional Practice</em>. London, United Kingdom: Cassell.</p>
+            <p class="ref" id="Johannessen2019">Johannessen, A. (2019). <em>The workplace of the future</em>. Abingdon, United Kingdom: Routledge.</p>
+            <p class="ref" id="KuczeraField2018">Kuczera, M., &amp; Field, S. (2018). <em>Apprenticeship in England, United Kingdom.</em> Paris, France: OECD Publishing.<a href="https://doi.org/10.1787/9789264298507-en">https://doi.org/10.1787/9789264298507-en</a>
             </p>
-            <p>Shelby-Caffey, C., bda, E., &amp; Jenkins, B. (2014). Digital storytelling revisited. <em>The Reading Teacher, 68</em>(3), 191199. <a href="https://doi.org/10.1002/trtr.1273">https://doi.org/10.1002/trtr.1273</a>
+            <p class="ref" id="Lester2009">Lester, S. (2009). Routes to qualified status: Practices and trends among UK professional bodies. <em>Studies in Higher Education, 34</em>(2), 223-236.<a href="https://doi.org/10.1080/03075070802528296">https://doi.org/10.1080/03075070802528296</a>
             </p>
-            <p>Stewart, K. D., &amp; Ivala, E. (2017). Silence, voice, and “other languages”: Digital storytelling as a site for resistance and restoration in a South African higher education classroom. <em>British Journal of Educational Technology, 48</em>(5), 1164-1175. <a href="https://doi.org/10.1111/bjet.12540">https://doi.org/10.1111/bjet.12540</a>
+            <p class="ref" id="Lester2014">Lester, S. (2014). Professional standards, competence and capability. <em>Higher Education, Skills and Work-based Learning,4</em>(1), 31-43.<a href="https://doi.org/10.1108/HESWBL-04-2013-0005">https://doi.org/10.1108/HESWBL-04-2013-0005</a>
             </p>
-            <p>Sukovic, S. (2014). iTell: Transliteracy and digital storytelling. <em>Australian Academic &amp; Research Libraries, 45</em>(3), 205229. <a href="https://doi.org/10.1080/00048623.2014.951114">https://doi.org/10.1080/00048623.2014.951114</a>
+            <p class="ref" id="Lester2016">Lester, S. (2016). The development of self-regulation in four UK professional communities. <em>Professions and Professionalism,6</em>(1), 1-14.</p>
+            <p class="ref" id="Lester2017">Lester, S. (2017). Reconciling activity-based descriptions of competence with professional work. <em>Higher Education, Skills and Work-based Learning,7</em>(4), 381-393.<a href="https://doi.org/10.1108/HESWBL-07-2017-0042">https://doi.org/10.1108/HESWBL-07-2017-0042</a>
             </p>
-            <p>Sawyer, R. Keith. <em>The Cambridge Handbook of the Learning Sciences.</em> New York: Cambridge University Press, 2006</p>
-            <p>Toom, A. &amp; Husu, J. (2018 in print). Teacher’s work in changing educational contexts: Balancing the role and the person. In H. Niemi, A. Toom, A. Kallioniemi &amp; J. Lavonen (Eds.), <em>The teachers’ role in the changing globalizing world</em> (pp. 1-9). Leiden: Brill Sense.</p>
-            <p>Underhill, Adrian (1999). “Facilitation in Language Teaching”. In Arnold, Jane. <em>Affect in Language Learning.</em> p. 126. ISBN 0521650410.</p>
-            <p>Van de Pol, Janneke, Volman, Monique, &amp; Beishuizen, Jos. (2010). Scaffolding in Teacher–Student Interaction: A Decade of Research<em>. Educational Psychology Review, 22</em>:271–296. <a href="https://doi.org/10.1007/s10648-010-9127-6">https://doi.org/10.1007/s10648-010-9127-6</a>
+            <p class="ref" id="LesterBravenboer2020">Lester, S., &amp; Bravenboer, D. (2020). <em>Sustainable degree apprenticeships</em>. London, United Kingdom: Middlesex University.</p>
+            <p class="ref" id="McKinsey2017">McKinsey (2017). <em>A future that works: Automation, employment and productivity</em>. New York, NY: McKinsey Global Institute. </p>
+            <p class="ref" id="NokelainenNevalainenNiemi2018">Nokelainen, P., Nevalainen, T., &amp; Niemi, K. (2018). Mind or machine? Opportunities and limits of automation. In C. Harteis (Ed.), <em>The impact of digitalization in the workplace</em> (pp. 13-24). Cham, Switzerland: Springer.<a href="https://doi.org/10.1007/978-3-319-63257-5_2">https://doi.org/10.1007/978-3-319-63257-5_2</a>
             </p>
-            <p>Van Manen, Max, (1990). <em>Researching lived experience.</em> Albany, NY: State University of New York Press (SUNY) Press.</p>
-            <p>Vivitsou, M., Niemi, H., Wei, G., Kallunki, V., &amp; Miao, R. (2017). Teachers’ practices to support students’ work in digital storytelling: A study on Finnish and Chinese school teachers’ experiences. <em>Seminar.net: Media, Technology &amp; Lifelong Learning.</em>
-               <a href="https://journals.hioa.no/index.php/seminar/article/view/2306">https://journals.hioa.no/index.php/seminar/article/view/2306</a>.</p>
-            <p>Vygotsky, L. (1978). <em>Mind in society.</em> Cambridge, MA: MIT Press.</p>
-            <p>Vygotsky, L. S. &amp; Luria, A. N. (1994). Tool and symbol in the child development. In R. Van der Veer &amp; J. Valsiner (Ed.), <em>The Vygotsky reader</em>, 99–174. Oxford: Blackwell.</p>
-            <p>Woodhouse, J. (2008). <em>Storytelling: A telling approach in healthcare education.</em> Paper presented at the Narrative Practitioner Conference, Wrexham, England.</p>
+            <p class="ref" id="Pandit2018">Pandit, N. (2018). <em>Artificial intelligence and its impact on the legal profession and its regulatory framework</em>. Birmingham, United Kingdom: CEPLER (Working Paper 01/2019).  Retrieved from <a href="http://epapers.bham.ac.uk/3263/">http://epapers.bham.ac.uk/3263/</a>
+            </p>
+            <p class="ref" id="Penprase2018">Penprase, B. (2018). The Fourth Industrial Revolution and Higher Education. In N. Gleason (Ed.), <em>Higher Education in the era of the Fourth Industrial Revolution</em> (pp. 207-229). Singapore: Palgrave Macmillan.  </p>
+            <p class="ref" id="ReevesKnell2006">Reeves R., &amp; Knell, J. (2006). Good work and professional work. In J. Craig (Ed.), <em>Production values: Futures for professionalism </em>(pp. 211-218). London, United Kingdom: Demos.</p>
+            <p class="ref" id="RemusLevy2017">Remus, D., &amp; Levy, F. (2017). Can robots be lawyers? Computers, lawyers and the practice of law. <em>Georgetown Journal of Legal Ethics,30</em>(3), 501-558.  </p>
+            <p class="ref" id="Rifkin1995">Rifkin, J. (1995). <em>The end of work</em>. New York, NY: Putnam.</p>
+            <p class="ref" id="Schiff1970">Schiff, S. (1970). Training the Professional. <em>University of Chicago Magazine42</em>(4), 8-14.</p>
+            <p class="ref" id="Schön1983">Schön, D. (1983). <em>The reflective practitioner: How professionals think in action</em>. New York, NY: Basic Books.</p>
+            <p class="ref" id="Schwab2016">Schwab, K. (2016). <em>The fourth industrial revolution</em>. Geneva, Switzerland: World Economic Forum.</p>
+            <p class="ref" id="SharePender2018">Share, P., &amp; Pender, J. (2018). Preparing for a Robot Future? Social professions, social robotics and the challenges ahead.  <em>Irish Journal of Applied Social Studies, 18</em>(1), 4.  Retrieved from <a href="https://arrow.dit.ie/ijass/vol18/iss1/4">https://arrow.dit.ie/ijass/vol18/iss1/4</a>
+            </p>
+            <p class="ref" id="Susskind2018">Susskind, R. (2018). AI, work and ‘outcome thinking’. <em>British Academy Review,</em> Autumn, 30-31.</p>
+            <p class="ref" id="SusskindSusskind2015">Susskind, R., &amp; Susskind, D. (2015). <em>The future of the professions: How technology will transform the work of human experts</em>. Oxford, United Kingdom: Oxford University Press.</p>
+            <p class="ref" id="Valin2018">Valin, J. (2018). <em>Humans still needed: An analysis of skills and tools in public relations</em>.  London, United Kingdom: Chartered Institute for Public Relations.</p>
          </section>
          <!--"References" END-->
       </main>
