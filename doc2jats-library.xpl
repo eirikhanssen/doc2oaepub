@@ -1420,7 +1420,7 @@
             </p:input>
         </p:xslt>
         
-        <!-- cite3 - Locate citations where authors are outside parens and year is inside parens -->
+        <!-- cite3 - Locate citations where authors are outside parens and year is inside parens, with common prefix before citation -->
         <p:xslt version="2.0">
             <p:input port="source"/>
             <p:input port="parameters"><p:empty/></p:input>
@@ -1434,16 +1434,27 @@
                         xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing"
                         exclude-result-prefixes="xs f pkg w wp">
                         <xsl:import href="doc2jats-functions.xsl"/>
-                        
-                        <xsl:template match="p[not(@ref)]/text()">
-                            <xsl:analyze-string select="." regex="\w+\s+((et al\.)|(and colleagues)|(and)|(&amp;))+\s*\(\d{{4}}\w?\)">
-                                <xsl:matching-substring>
-                                    <cite3><xsl:value-of select="."/></cite3>
-                                </xsl:matching-substring>
-                                <xsl:non-matching-substring>
-                                    <xsl:value-of select="."/>
-                                </xsl:non-matching-substring>
-                            </xsl:analyze-string>
+                            
+                            <!-- allow Scottish and Duch surnames that have space inside -->
+                            <xsl:template match="p[not(@class='ref')]/text()">
+                                <xsl:analyze-string select="." regex="(((((Mc)|(De)\s\p{{Lu}})|(\p{{Lu}}))\p{{Ll}}+)((,)|(and)|(\s*))+)+\(\d{{4}}\)">
+                                    <xsl:matching-substring>
+                                        
+                                        <!-- these words should not be part of the name -->
+                                        <xsl:analyze-string select="." regex="^((As )|( by )|( in ))">
+                                            <xsl:matching-substring>
+                                                <xsl:value-of select="."/>
+                                            </xsl:matching-substring>
+                                            <xsl:non-matching-substring>
+                                                <cite3><xsl:value-of select="."/></cite3>
+                                            </xsl:non-matching-substring>
+                                        </xsl:analyze-string>
+
+                                    </xsl:matching-substring>
+                                    <xsl:non-matching-substring>
+                                        <xsl:value-of select="."/>
+                                    </xsl:non-matching-substring>
+                                </xsl:analyze-string>
                         </xsl:template>
                         
                     </xsl:stylesheet>
@@ -1451,6 +1462,9 @@
             </p:input>
         </p:xslt>
         
+        <!-- TODO: cite4, two years in the parens: is that of Frey and Osborne (2013; 2017). -->
+        <!-- TODO: for citations with names and multiple years in parens: (Authors et al., 2014;2016) . -->
+        <!--     (Lester, 2014; 2017) Not  (<cite>Lester, 2014</cite>; 2017), but (<cite>Lester, 2014</cite>; <cite>2017</cite>)-->
         <p:identity name="final"/>
         
     </p:declare-step>
