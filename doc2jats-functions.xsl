@@ -40,12 +40,23 @@
         <xsl:param name="input" as="text()"></xsl:param>
         <xsl:variable name="year" select="replace($input, '^.+?(\d{4}\w?).*$','$1')"/>
         <!-- Delete all text except Surnames (words that begin with uppercase letter, followed by lower case letters -->
-<!--        <xsl:variable name="significantNames" select="replace($input, '(\s+[\p{Lu}]\.,?)|(\s+)|(&amp;)|(,)|(\.)|(\()|(\))|(\d)','')"/>-->
         <xsl:variable name="significantNames" select="replace($input, '(\s+[\p{Lu}]\p{P}+)|(\p{Z})|(&amp;)|(\p{P})|(\d)|(\p{M})','')"/>
         <xsl:variable name="id" select="concat($significantNames, $year)"/>
         <xsl:value-of select="$id"/>
     </xsl:function>
-    
+
+    <xsl:function name="f:generateHeadingIdFromElementContents">
+        <xsl:param name="element" as="node()"></xsl:param>
+        <xsl:param name="sequenceNum" as="xs:string"></xsl:param>
+        <!-- replace spaces with UnDeRsCoRe -->
+        <xsl:variable name="idText0" select="replace(string($element), '\p{Z}+','UnDeRsCoRe')"/>
+        <!-- delete marks and punctuation -->
+        <xsl:variable name="idText1" select="replace(string($idText0), '(\p{P})|(\p{M})','')"/>
+        <!-- replace UnDeRsCoRe with _ and make the string lower-case-->
+        <xsl:variable name="idText" select="lower-case(replace($idText1, 'UnDeRsCoRe','_'))"/>
+        <xsl:value-of select="concat($sequenceNum, '-', $idText)"/>
+    </xsl:function>
+
     <xsl:function name="f:nameFromStyle" as="text()">
         <xsl:param name="node" as="node()"></xsl:param>
         

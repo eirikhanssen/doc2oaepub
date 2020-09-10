@@ -70,7 +70,7 @@
     
     <d2j:generate-ids-in-references/>
     
-<!--    <d2j:generate-ids-in-headings/>-->
+    <d2j:generate-ids-in-headings/>
     
 <!--<d2j:link-citations-to-references/>-->
    

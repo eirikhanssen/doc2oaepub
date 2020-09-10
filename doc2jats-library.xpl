@@ -1306,4 +1306,39 @@
         
     </p:declare-step>
 
+    <p:declare-step type="d2j:generate-ids-in-headings" name="generate-ids-in-headings" 
+        xmlns:d2j="http://eirikhanssen.no/doc2jats"
+        exclude-inline-prefixes="d2j">
+        <p:output port="result" sequence="true"/>
+        <p:serialization port="result" indent="true" method="xml" omit-xml-declaration="true"/>
+        <p:input port="source"/>
+        <p:input port="parameters" kind="parameter" sequence="true"/>
+        
+        <p:xslt version="2.0">
+            <p:input port="source"/>
+            <p:input port="parameters"><p:empty/></p:input>
+            <p:input port="stylesheet">
+                <p:inline>
+                    <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="2.0"
+                        xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                        xmlns:f="https://eirikhanssen.com/ns/doc2jats-functions"
+                        exclude-result-prefixes="xs f">
+                        <xsl:import href="doc2jats-functions.xsl"/>
+                        <xsl:template match="h1|h2|h3|h4|h5|h6">
+                            <xsl:variable name="seq" select="string(1 + count(preceding::*[name(.)=('h1','h2','h3','h4','h5','h6')]))"/>
+                            <xsl:copy>
+                                <xsl:attribute name="id" select="f:generateHeadingIdFromElementContents(., $seq)"></xsl:attribute>
+                                <xsl:apply-templates select="@*|node()"/>
+                            </xsl:copy>
+                        </xsl:template>
+                        
+                    </xsl:stylesheet>
+                </p:inline>
+            </p:input>
+        </p:xslt>
+        
+        <p:identity name="final"/>
+        
+    </p:declare-step>
+
 </p:library>
