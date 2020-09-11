@@ -1367,7 +1367,7 @@
                         <xsl:template match="p[not(@ref)]/text()">
                             <xsl:analyze-string select="." regex="\([^\)]+?\)">
                                 <xsl:matching-substring>                  
-                                    <xsl:analyze-string select="." regex="((\p{{Lu}}\p{{Ll}}+((-)|(\s))?)*\p{{Lu}}\p{{Ll}}+((\s)|(,)|(and)|(&amp;)|(et al\.)|(and colleagues’?))+)+(\s?(\d{{4}}[a-z]?)\s?);(\s?(\d{{4}}[a-z]?)\s?;?\s?)+">
+                                    <xsl:analyze-string select="." regex="((\p{{Lu}}\p{{Ll}}+((-)|(\s))?)*\p{{Lu}}\p{{Ll}}+((\s)|(,)|(and)|(&amp;)|(et al\.)|(and colleagues’?))+)+(\s?(\d{{4}}[a-z]?)\s?)((\s?,?\s?)(p\.\s?\d+)|(pp\.\s?\d+((-)|(–))\s?\d+))?;(\s?(\d{{4}}[a-z]?)\s?;?\s?((\s?,?\s?)(p\.\s?\d+)|(pp\.\s?\d+((-)|(–))\s?\d+))?)+">
                                         <!--parens begin-->
                                         <xsl:matching-substring>
                                             <cite_inside_multiple><xsl:value-of select="."/></cite_inside_multiple>
@@ -1452,7 +1452,7 @@
                         <xsl:import href="doc2jats-functions.xsl"/>
                         
                         <xsl:template match="p[not(@ref)]/text()">
-                            <xsl:analyze-string select="." regex="((\p{{Lu}}\p{{Ll}}+((-)|(\s))?)*\p{{Lu}}\p{{Ll}}+(\s|,|(and)|(&amp;)|(et al\.)|(and colleagues’?))*)+\s?\((\s?\d{{4}}[a-z]?\s?;?)(\s?\d{{4}}[a-z]?\s?;?)+\)">
+                            <xsl:analyze-string select="." regex="((\p{{Lu}}\p{{Ll}}+((-)|(\s))?)*\p{{Lu}}\p{{Ll}}+(\s|,|(and)|(&amp;)|(et al\.)|(and colleagues’?))*)+\s?\((\s?\d{{4}}[a-z]?\s?((\s?,?\s?)(p\.\s?\d+)|(pp\.\s?\d+((-)|(–))\s?\d+))?);(\s?\d{{4}}[a-z]?\s?;?((\s?,?\s?)(p\.\s?\d+)|(pp\.\s?\d+((-)|(–))\s?\d+))?)+\)">
                                 <xsl:matching-substring>
                                     <xsl:analyze-string select="." regex="^(\p{{Lu}}\p{{Ll}}+, and )|(As )">
                                         <xsl:matching-substring><xsl:value-of select="."/></xsl:matching-substring>
