@@ -1423,7 +1423,14 @@
                                     <xsl:analyze-string select="." regex="((\p{{Lu}}\p{{Ll}}+((-)|(\s))?)*\p{{Lu}}\p{{Ll}}+(\s|,|(and)|(&amp;)|(et al\.)|(and colleagues))*)+((\d{{4}}[a-z]?\s?)((p\.\s?\d+)|(pp\.\s?\d+((-)|(–))\s?\d+))?;?)((\d{{4}}[a-z]?\s?)((p\.\s?\d+)|(pp\.\s?\d+((-)|(–))\s?\d+))?;?)*">
                                         <!--parens begin-->
                                         <xsl:matching-substring>
-                                            <cite_inside><xsl:value-of select="."/></cite_inside>
+                                            <xsl:analyze-string select="." regex=";">
+                                                <xsl:matching-substring>
+                                                    <xsl:value-of select="."/>
+                                                </xsl:matching-substring>
+                                                <xsl:non-matching-substring>
+                                                    <cite_inside><xsl:value-of select="."/></cite_inside>
+                                                </xsl:non-matching-substring>
+                                            </xsl:analyze-string>
                                         </xsl:matching-substring>
                                         <xsl:non-matching-substring>
                                             <xsl:value-of select="."/>
