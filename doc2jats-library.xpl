@@ -1420,7 +1420,7 @@
                         <xsl:template match="p[not(@ref)]/text()">
                             <xsl:analyze-string select="." regex="\([^\)]+?\)">
                                 <xsl:matching-substring>                  
-                                    <xsl:analyze-string select="." regex="((\p{{Lu}}\p{{Ll}}+((-)|(\s))?)*\p{{Lu}}\p{{Ll}}+(\s|,|(and)|(&amp;)|(et al\.)|(and colleagues))*)+((\d{{4}}[a-z]?\s?)((p\.\s?\d+)|(pp\.\s?\d+((-)|(–))\s?\d+))?;?)((\d{{4}}[a-z]?\s?)((p\.\s?\d+)|(pp\.\s?\d+((-)|(–))\s?\d+))?;?)*">
+                                    <xsl:analyze-string select="." regex="((\p{{Lu}}\p{{Ll}}+((-)|(\s))?)*\p{{Lu}}\p{{Ll}}+(\s|,|(and)|(&amp;)|(et al\.)|(and colleagues))*)+\s?((\d{{4}}[a-z]?)((\s?,?\s?)(p\.\s?\d+)|(pp\.\s?\d+((-)|(–))\s?\d+))?;?)((\d{{4}}[a-z]?)((\s?,?\s?)(p\.\s?\d+)|(pp\.\s?\d+((-)|(–))\s?\d+))?;?)*">
                                         <!--parens begin-->
                                         <xsl:matching-substring>
                                             <xsl:analyze-string select="." regex=";">
@@ -1507,7 +1507,7 @@
                         
                         <xsl:template match="p[not(@ref)]/text()">
 <!--                            <xsl:analyze-string select="." regex="\w+\s+((et al\.)|(and colleagues)|(and)|(&amp;))+\s*\(\d{{4}}[a-z]?\)">-->
-                            <xsl:analyze-string select="." regex="((\p{{Lu}}\p{{Ll}}+((-)|(\s))?)*\p{{Lu}}\p{{Ll}}+(\s|,|(and)|(&amp;)|(et al\.)|(and colleagues))*)+\(((\d{{4}}[a-z]?\s?)((p\.\s?\d+)|(pp\.\s?\d+((-)|(–))\s?\d+))?;?)((\d{{4}}[a-z]?\s?)((p\.\s?\d+)|(pp\.\s?\d+((-)|(–))\s?\d+))?;?)*\)">
+                            <xsl:analyze-string select="." regex="((\p{{Lu}}\p{{Ll}}+((-)|(\s))?)*\p{{Lu}}\p{{Ll}}+(\s|,|(and)|(&amp;)|(et al\.)|(and colleagues))*)+\s?\(((\d{{4}}[a-z]?)((\s?,?\s?)(p\.\s?\d+)|(pp\.\s?\d+((-)|(–))\s?\d+))?;?)((\d{{4}}[a-z]?)((\s?,?\s?)(p\.\s?\d+)|(pp\.\s?\d+((-)|(–))\s?\d+))?;?)*\)">
                                 <xsl:matching-substring>
                                     <cite_outside><xsl:value-of select="."/></cite_outside>
                                 </xsl:matching-substring>
