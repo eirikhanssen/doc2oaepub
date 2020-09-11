@@ -1460,8 +1460,7 @@
                         <xsl:template match="p[not(@ref)]/text()">
                             <xsl:analyze-string select="." regex="\w+\s+((et al\.)|(and colleagues)|(and)|(&amp;))+\s*\(\d{{4}}[a-z]?\)">
                                 <xsl:matching-substring>
-<!--                                        <cite_outside_et_al><xsl:value-of select="."/></cite_outside_et_al>-->
-                                        <cite2><xsl:value-of select="."/></cite2>
+                                    <cite_outside_et_al><xsl:value-of select="."/></cite_outside_et_al>
                                 </xsl:matching-substring>
                                 <xsl:non-matching-substring>
                                     <xsl:value-of select="."/>
@@ -1501,9 +1500,8 @@
                                                 <xsl:value-of select="."/>
                                             </xsl:matching-substring>
                                             <xsl:non-matching-substring>
-<!--                                                <cite_outside><xsl:value-of select="."/></cite_outside>-->
-                                                <cite3><xsl:value-of select="."/></cite3>
-                                            </xsl:non-matching-substring>
+                                                <cite_outside><xsl:value-of select="."/></cite_outside>
+                                              </xsl:non-matching-substring>
                                         </xsl:analyze-string>
 
                                     </xsl:matching-substring>
