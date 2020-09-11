@@ -1508,6 +1508,41 @@
             </p:input>
         </p:xslt>
         
+
+        
+        <p:add-attribute match="cite_outside_multiple|cite_inside_multiple" attribute-name="data-multiple" attribute-value="multiple"/>
+        <p:add-attribute match="cite_outside_multiple|cite_outside" attribute-name="data-outside" attribute-value="outside"/>
+        <p:add-attribute match="cite_inside_multiple|cite_inside" attribute-name="data-inside" attribute-value="inside"/>
+        <p:rename match="cite_outside|cite_inside|cite_outside_multiple|cite_inside_multiple" new-name="cite"></p:rename>
+        
+        <p:add-attribute match="cite[matches(text(),'(et al\.)|(and colleagues)')]" attribute-name="data-et-al" attribute-value="et-al"></p:add-attribute>
+        
+<!--     Link citations to reference list -->
+        <!--<p:xslt version="2.0">
+            <p:input port="source"/>
+            <p:input port="parameters"><p:empty/></p:input>
+            <p:input port="stylesheet">
+                <p:inline>
+                    <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="2.0"
+                        xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                        xmlns:f="https://eirikhanssen.com/ns/doc2jats-functions"
+                        xmlns:pkg="http://schemas.microsoft.com/office/2006/xmlPackage"
+                        xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"
+                        xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing"
+                        exclude-result-prefixes="xs f pkg w wp">
+                        <xsl:import href="doc2jats-functions.xsl"/>
+                        <xsl:strip-space elements="cite"/>
+                        
+                        <xsl:template match="cite[@data-inside][not(@data-multiple)][not(@data-et-al)]">
+                            <xsl:variable name="url" select="f:generateIDFromString(f:getStringForIDCreation(.))"/>
+                            <cite><a href="{concat('#',$url)}"><xsl:apply-templates/></a></cite>
+                        </xsl:template>
+                        
+                    </xsl:stylesheet>
+                </p:inline>
+            </p:input>
+        </p:xslt>-->
+        
         <p:identity name="final"/>
         
     </p:declare-step>
