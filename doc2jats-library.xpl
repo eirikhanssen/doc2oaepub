@@ -1587,20 +1587,21 @@
                         <xsl:import href="doc2jats-functions.xsl"/>
                         <xsl:strip-space elements="cite"/>
                         
-                        <!-- generate the simplest IDs where authors are inside parens-->
+                        <!-- generate links where authors are inside parens-->
                         <xsl:template match="cite[@data-inside][not(@data-multiple)][not(@data-et-al)]">
                             <xsl:variable name="url" select="f:generateIDFromString(f:getStringForIDCreation(.))"/>
                             <cite><xsl:apply-templates select="@*"/><a href="{concat('#',$url)}"><xsl:apply-templates select="node()"/></a></cite>
                         </xsl:template>
-                        <!-- generate the simplest IDs where authors are outside of parens-->
+                        <!-- generate links where authors are outside of parens-->
                         <xsl:template match="cite[@data-outside][not(@data-multiple)][not(@data-et-al)]">
                             <xsl:variable name="url" select="f:generateIDFromString(f:getStringForIDCreation(.))"/>
                             <cite><xsl:apply-templates select="@*"/><a href="{concat('#',$url)}"><xsl:apply-templates select="node()"/></a></cite>
                         </xsl:template>
                         
-                        <!-- generate IDs where authors are inside of parens, and there are multiple years-->
+                        <!-- generate links where authors are inside of parens, and there are multiple years-->
                         <xsl:template match="cite[@data-inside][@data-multiple][not(@data-et-al)]">
                             <xsl:variable name="input" select="."/>
+                            <xsl:variable name="author_part_text" select="replace($input, '^(\D+)\d.*$','$1')"/>
                             <xsl:variable name="url" select="f:generateIDFromString(f:getStringForIDCreation($input))"/>
                             <xsl:variable name="author_part_url" select="replace(f:generateIDFromString(f:getStringForIDCreation($input)), '^(\D+)\d.+$','$1')"/>
                             <span><xsl:apply-templates select="@*"/>
@@ -1608,8 +1609,31 @@
                                     <xsl:matching-substring><xsl:value-of select="."/></xsl:matching-substring>
                                     <xsl:non-matching-substring>
                                         <xsl:variable name="year_part_url" select="replace(., '^(\D+)?(\d+\w?).*$','$2')"/>
-                                        <cite><a href="{concat('#',$author_part_url, $year_part_url)}"><xsl:value-of select="."/></a></cite>
+                                        <cite><a title="{concat($author_part_text, $year_part_url)}" href="{concat('#',$author_part_url, $year_part_url)}"><xsl:value-of select="."/></a></cite>
                                     </xsl:non-matching-substring>
+                                </xsl:analyze-string>
+                            </span>
+                        </xsl:template>
+                        
+                        <!-- generate links where authors are outside of parens, and there are multiple years-->
+                        <xsl:template match="cite[@data-outside][@data-multiple][not(@data-et-al)]">
+                            <xsl:variable name="input" select="."/>
+                            <xsl:variable name="author_part_text" select="replace($input, '^([^(]+)\(.*$','$1')"/>
+                            <xsl:variable name="url" select="f:generateIDFromString(f:getStringForIDCreation($input))"/>
+                            <xsl:variable name="author_part_url" select="replace(f:generateIDFromString(f:getStringForIDCreation($input)), '^(\D+)\d.+$','$1')"/>
+                            <span><xsl:apply-templates select="@*"/>
+                                <xsl:analyze-string select="." regex="([^\(]+\()|(\).*)">
+                                    <xsl:matching-substring><xsl:value-of select="."/></xsl:matching-substring>
+                                    <xsl:non-matching-substring>
+                                        <xsl:analyze-string select="." regex="\s*;\s*">
+                                            <xsl:matching-substring><xsl:value-of select="."/></xsl:matching-substring>
+                                            <xsl:non-matching-substring>
+                                                <xsl:variable name="year_part_url" select="replace(., '^(\D+)?(\d+\w?).*$','$2')"/>
+                                                <cite><a title="{concat($author_part_text, $year_part_url)}" href="{concat('#',$author_part_url, $year_part_url)}"><xsl:value-of select="."/></a></cite>
+                                            </xsl:non-matching-substring>
+                                        </xsl:analyze-string>
+                                    </xsl:non-matching-substring>
+                                    
                                 </xsl:analyze-string>
                             </span>
                         </xsl:template>
@@ -1618,6 +1642,21 @@
                 </p:inline>
             </p:input>
         </p:xslt>
+        
+        <p:delete match="cite[parent::span[@data-multiple][@data-inside]][count(preceding-sibling::cite) = 0]/a/@title"/>
+        <!--
+            Remove the title when it is not needed because the link text is sufficient (good for accessibility)
+            (<span data-multiple="multiple" data-inside="inside">
+                <cite><a title="Lester, 2014" href="#Lester2014">Lester, 2014</a></cite>
+                <cite><a title="Lester, 2017" href="#Lester2017">2017</a></cite>
+             </span>)
+            
+            (<span data-multiple="multiple" data-inside="inside">
+                <cite><a href="#Lester2014">Lester, 2014</a></cite>
+                <cite><a title="Lester, 2017" href="#Lester2017">2017</a></cite>
+            </span>)
+        
+        -->
         
         <p:identity name="final"/>
         
