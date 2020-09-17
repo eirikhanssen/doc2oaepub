@@ -74,7 +74,7 @@
                 <p:inline>
                     <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="2.0">
                         <xsl:import href="doc2jats-functions.xsl"/>
-                        <xsl:param name="folder" select="'Err: folder is unspecified!'"/>
+                        <xsl:param name="input_folder"/>
                         
                         <xsl:template match="/">
                             <xsl:apply-templates/>
@@ -82,7 +82,7 @@
                         
                         <xsl:template match="env">
                             <xsl:copy>
-                                <folder><xsl:value-of select="$folder"/></folder>
+                                <folder><xsl:value-of select="$input_folder"/></folder>
                             </xsl:copy>
                         </xsl:template>
                     </xsl:stylesheet>
@@ -109,14 +109,14 @@
                 <p:inline>
                     <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="2.0" xmlns:pkg="http://schemas.microsoft.com/office/2006/xmlPackage">
                         <xsl:import href="doc2jats-functions.xsl"/>
-                        <xsl:param name="folder" select="folder"/>
+                        <xsl:param name="input_folder"/>
                         <xsl:strip-space elements="*"/>
                         
                         <xsl:template match="/pkg:package">
                             <xsl:copy>
                                 <xsl:copy-of select="node() | @*"/>
-                                <xsl:call-template name="part"><xsl:with-param name="epath" select="$folder"/><xsl:with-param name="ipath" select="'/_rels/.rels'"/></xsl:call-template>
-                                <xsl:call-template name="part"><xsl:with-param name="epath" select="$folder"/><xsl:with-param name="ipath" select="'/word/_rels/document.xml.rels'"/></xsl:call-template>
+                                <xsl:call-template name="part"><xsl:with-param name="epath" select="$input_folder"/><xsl:with-param name="ipath" select="'/_rels/.rels'"/></xsl:call-template>
+                                <xsl:call-template name="part"><xsl:with-param name="epath" select="$input_folder"/><xsl:with-param name="ipath" select="'/word/_rels/document.xml.rels'"/></xsl:call-template>
                             </xsl:copy>
                         </xsl:template>
                         
@@ -135,7 +135,7 @@
                         xmlns:pkg="http://schemas.microsoft.com/office/2006/xmlPackage"
                         xmlns:rp="http://schemas.openxmlformats.org/package/2006/relationships">
                         <xsl:import href="doc2jats-functions.xsl"/>
-                        <xsl:param name="folder"/>
+                        <xsl:param name="input_folder"/>
                         <xsl:strip-space elements="*"/>
                         
                         <xsl:template match="/pkg:package">
@@ -143,11 +143,11 @@
                                 <xsl:copy-of select="node() | @*"/>
                         
                                 <xsl:for-each select="//pkg:part[@pkg_name='/_rels/.rels']//rp:Relationship[not(@TargetMode='External')]/string(@Target)">
-                                    <xsl:call-template name="part"><xsl:with-param name="epath" select="$folder"/><xsl:with-param name="ipath" select="concat('/',.)"/></xsl:call-template>
+                                    <xsl:call-template name="part"><xsl:with-param name="epath" select="$input_folder"/><xsl:with-param name="ipath" select="concat('/',.)"/></xsl:call-template>
                                 </xsl:for-each>
                                 
                                 <xsl:for-each select="//pkg:part[@pkg_name='/word/_rels/document.xml.rels']//rp:Relationship[not(@TargetMode='External')][@Type != 'http://schemas.openxmlformats.org/officeDocument/2006/relationships/image'][@Type != 'http://schemas.microsoft.com/office/2007/relationships/hdphoto']/string(@Target)">
-                                    <xsl:call-template name="part"><xsl:with-param name="epath" select="$folder"/><xsl:with-param name="ipath" select="concat('/word/',.)"/></xsl:call-template>
+                                    <xsl:call-template name="part"><xsl:with-param name="epath" select="$input_folder"/><xsl:with-param name="ipath" select="concat('/word/',.)"/></xsl:call-template>
                                 </xsl:for-each>
                             </xsl:copy>
                         </xsl:template>
@@ -808,7 +808,7 @@
                         <meta charset="utf-8"/>
                         <title>Journal Article</title>
                         <link href="https://journals.hioa.no/styles/article.css" rel="stylesheet"/>
-                        <script src="https://journals.hioa.no/js/article.js" defer="defer"></script>
+                        <script src="https://journals.hioa.no/js/article.js" defer="defer"> </script>
                     </head>
                 </p:inline>
             </p:input>
@@ -1517,8 +1517,8 @@
         
         <p:add-attribute match="cite[matches(text(),'(et al\.)|(and colleagues)')]" attribute-name="data-et-al" attribute-value="et-al"></p:add-attribute>
         
-<!--     Link citations to reference list -->
-        <!--<p:xslt version="2.0">
+        <!-- Link citations to reference list -->
+        <p:xslt version="2.0">
             <p:input port="source"/>
             <p:input port="parameters"><p:empty/></p:input>
             <p:input port="stylesheet">
@@ -1533,6 +1533,7 @@
                         <xsl:import href="doc2jats-functions.xsl"/>
                         <xsl:strip-space elements="cite"/>
                         
+                        <!-- generate the simplest url -->
                         <xsl:template match="cite[@data-inside][not(@data-multiple)][not(@data-et-al)]">
                             <xsl:variable name="url" select="f:generateIDFromString(f:getStringForIDCreation(.))"/>
                             <cite><a href="{concat('#',$url)}"><xsl:apply-templates/></a></cite>
@@ -1541,7 +1542,7 @@
                     </xsl:stylesheet>
                 </p:inline>
             </p:input>
-        </p:xslt>-->
+        </p:xslt>
         
         <p:identity name="final"/>
         
