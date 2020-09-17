@@ -1598,6 +1598,22 @@
                             <cite><xsl:apply-templates select="@*"/><a href="{concat('#',$url)}"><xsl:apply-templates select="node()"/></a></cite>
                         </xsl:template>
                         
+                        <!-- generate IDs where authors are inside of parens, and there are multiple years-->
+                        <xsl:template match="cite[@data-inside][@data-multiple][not(@data-et-al)]">
+                            <xsl:variable name="input" select="."/>
+                            <xsl:variable name="url" select="f:generateIDFromString(f:getStringForIDCreation($input))"/>
+                            <xsl:variable name="author_part_url" select="replace(f:generateIDFromString(f:getStringForIDCreation($input)), '^(\D+)\d.+$','$1')"/>
+                            <span><xsl:apply-templates select="@*"/>
+                                <xsl:analyze-string select="." regex="\s*;\s*">
+                                    <xsl:matching-substring><xsl:value-of select="."/></xsl:matching-substring>
+                                    <xsl:non-matching-substring>
+                                        <xsl:variable name="year_part_url" select="replace(., '^(\D+)?(\d+\w?).*$','$2')"/>
+                                        <cite><a href="{concat('#',$author_part_url, $year_part_url)}"><xsl:value-of select="."/></a></cite>
+                                    </xsl:non-matching-substring>
+                                </xsl:analyze-string>
+                            </span>
+                        </xsl:template>
+                        
                     </xsl:stylesheet>
                 </p:inline>
             </p:input>
