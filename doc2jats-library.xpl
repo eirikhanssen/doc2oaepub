@@ -1560,11 +1560,11 @@
                         <xsl:import href="doc2jats-functions.xsl"/>
                         
                         
- <!--                       <xsl:template match="cite/text()">
+                        <xsl:template match="cite/text()">
                             <xsl:variable name="input" select="."/>
                             <xsl:variable name="txt1" select="replace($input, '(\w)\s*,(\w)','$1, $2')"/>
                             <xsl:value-of select="$txt1"/>
-                        </xsl:template>-->
+                        </xsl:template>
                         
                     </xsl:stylesheet>
                 </p:inline>
