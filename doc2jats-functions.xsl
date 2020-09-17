@@ -36,6 +36,40 @@
         <xsl:value-of select="$stringForIDCreation"/>
     </xsl:function>
     
+    <xsl:function name="f:countAuthorsInRef" as="xs:int">
+        <!-- the input string should be the first text node of a reference paragraph -->
+        <xsl:param name="str_reference_beginning" as="text()"/>
+        <!-- "Autor, D., Levy, F., &amp; Murnane, R. (2003). The skill content of recent technological change: An empirical exploration." -->
+
+        <!-- keep the authors, and delete everything beginning with the first parens -->
+        <xsl:variable name="authors1" select="replace($str_reference_beginning, '^([^(]+)\(.+$', '$1')"/>
+        <!-- "Autor, D., Levy, F., &amp; Murnane, R. " -->   
+        
+        <!-- replace ampersand with a comma-->
+        <xsl:variable name="authors2" select="replace($authors1, '&amp;', ',')"/>
+        <!-- "Autor, D., Levy, F., , Murnane, R. " -->
+        
+        <!-- remove initials (Capital letter followed by a period) -->
+        <xsl:variable name="authors3" select="replace($authors2, '\p{Lu}[.]','')"/>
+        <!-- "Autor, , Levy, , , Murnane,  " -->
+            
+        <!-- remove all spaces -->
+        <xsl:variable name="authors4" select="replace($authors3, '\s+', '')"/>
+        <!-- "Autor,,Levy,,,Murnane," -->
+        
+        <!-- replace consequtive commas with a single comma -->
+        <xsl:variable name="authors5" select="replace($authors4, ',+',',')"/>
+        <!-- "Autor,Levy,Murnane," -->
+
+        <!-- delete all characters that are not a comma -->
+        <xsl:variable name="authors6" select="replace($authors5, '[^,]','')"/>
+        <!-- ",,," -->
+            
+        <!-- count the number of commas (the string length) and you have the number of authors -->
+        <xsl:value-of select="string-length($authors6)"/>
+        <!-- 3 authors. A value of 0 would indicate that author is Anonymous or an organization -->
+    </xsl:function>
+    
     <xsl:function name="f:generateIDFromString" as="text()">
         <xsl:param name="input" as="text()"></xsl:param>
         <xsl:variable name="year" select="replace($input, '^.+?(\d{4}\w?).*$','$1')"/>

@@ -1487,7 +1487,7 @@
                         exclude-result-prefixes="xs f pkg w wp">
                         <xsl:import href="doc2jats-functions.xsl"/>
                         
-                        <xsl:template match="p[not(@ref)]/text()">
+                        <xsl:template match="p[not(@class='ref')]/text()">
                             <xsl:analyze-string select="." regex="((\p{{Lu}}\p{{Ll}}+((-)|(\s))?)*\p{{Lu}}\p{{Ll}}+(\s|,|(and)|(&amp;)|(et al\.)|(and colleagues’?))*)+\s?\(((\d{{4}}[a-z]?)((\s?,?\s?)(p\.\s?\d+)|(pp\.\s?\d+((-)|(–))\s?\d+))?)(;?/s?(\d{{4}}[a-z]?)((\s?,?\s?)(p\.\s?\d+)|(pp\.\s?\d+((-)|(–))\s?\d+))?)*\)">
                                 <xsl:matching-substring>
                                     <xsl:analyze-string select="." regex="^(\p{{Lu}}\p{{Ll}}+, and )|(As )">
@@ -1517,6 +1517,34 @@
         
         <p:add-attribute match="cite[matches(text(),'(et al\.)|(and colleagues)')]" attribute-name="data-et-al" attribute-value="et-al"></p:add-attribute>
         
+        <!-- count authors in a reference -->
+        <p:xslt version="2.0">
+            <p:input port="source"/>
+            <p:input port="parameters"><p:empty/></p:input>
+            <p:input port="stylesheet">
+                <p:inline>
+                    <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="2.0"
+                        xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                        xmlns:f="https://eirikhanssen.com/ns/doc2jats-functions"
+                        xmlns:pkg="http://schemas.microsoft.com/office/2006/xmlPackage"
+                        xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"
+                        xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing"
+                        exclude-result-prefixes="xs f pkg w wp">
+                        <xsl:import href="doc2jats-functions.xsl"/>
+                        
+                        
+                        <xsl:template match="section[@class='references']/p[@class='ref']">
+                            <xsl:copy>
+                                <xsl:attribute name="data-authors" select="f:countAuthorsInRef(./text()[1])"/>
+                                <xsl:apply-templates select="@*|node()"/>
+                            </xsl:copy>
+                        </xsl:template>
+                        
+                    </xsl:stylesheet>
+                </p:inline>
+            </p:input>
+        </p:xslt>
+        
         <!-- Link citations to reference list -->
         <p:xslt version="2.0">
             <p:input port="source"/>
@@ -1533,7 +1561,7 @@
                         <xsl:import href="doc2jats-functions.xsl"/>
                         <xsl:strip-space elements="cite"/>
                         
-                        <!-- generate the simplest url -->
+                        <!-- generate the simplest IDs -->
                         <xsl:template match="cite[@data-inside][not(@data-multiple)][not(@data-et-al)]">
                             <xsl:variable name="url" select="f:generateIDFromString(f:getStringForIDCreation(.))"/>
                             <cite><a href="{concat('#',$url)}"><xsl:apply-templates/></a></cite>
