@@ -1508,8 +1508,6 @@
             </p:input>
         </p:xslt>
         
-
-        
         <p:add-attribute match="cite_outside_multiple|cite_inside_multiple" attribute-name="data-multiple" attribute-value="multiple"/>
         <p:add-attribute match="cite_outside_multiple|cite_outside" attribute-name="data-outside" attribute-value="outside"/>
         <p:add-attribute match="cite_inside_multiple|cite_inside" attribute-name="data-inside" attribute-value="inside"/>
@@ -1561,10 +1559,15 @@
                         <xsl:import href="doc2jats-functions.xsl"/>
                         <xsl:strip-space elements="cite"/>
                         
-                        <!-- generate the simplest IDs -->
+                        <!-- generate the simplest IDs where authors are inside parens-->
                         <xsl:template match="cite[@data-inside][not(@data-multiple)][not(@data-et-al)]">
                             <xsl:variable name="url" select="f:generateIDFromString(f:getStringForIDCreation(.))"/>
-                            <cite><a href="{concat('#',$url)}"><xsl:apply-templates/></a></cite>
+                            <cite><xsl:apply-templates select="@*|node()"/><a href="{concat('#',$url)}"></a></cite>
+                        </xsl:template>
+                        <!-- generate the simplest IDs where authors are outside of parens-->
+                        <xsl:template match="cite[@data-outside][not(@data-multiple)][not(@data-et-al)]">
+                            <xsl:variable name="url" select="f:generateIDFromString(f:getStringForIDCreation(.))"/>
+                            <cite><xsl:apply-templates select="@*|node()"/><a href="{concat('#',$url)}"></a></cite>
                         </xsl:template>
                         
                     </xsl:stylesheet>

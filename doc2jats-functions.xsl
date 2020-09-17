@@ -73,6 +73,7 @@
     <xsl:function name="f:generateIDFromString" as="text()">
         <xsl:param name="input" as="text()"></xsl:param>
         <xsl:variable name="year" select="replace($input, '^.+?(\d{4}\w?).*$','$1')"/>
+        <xsl:variable name="no_and" select="replace($input, ' and ',', ')"/>
         <!-- Delete all text except Surnames (words that begin with uppercase letter, followed by lower case letters -->
         <xsl:variable name="significantNames" select="replace($input, '(\s+[\p{Lu}]\p{P}+)|(\p{Z})|(&amp;)|(\p{P})|(\d)|(\p{M})','')"/>
         <xsl:variable name="id" select="concat($significantNames, $year)"/>
