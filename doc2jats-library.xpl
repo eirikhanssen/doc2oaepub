@@ -1588,7 +1588,7 @@
                         
                         <xsl:variable name="refs">
                             <refs>
-                                <xsl:for-each select="//p[class='ref']">
+                                <xsl:for-each select="//p[@class='ref']">
                                     <ref id="{@id}" data-count-authors="{@data-count-authors}" data-year="{replace(@id, '^(\D+)(\d.+)$','$2')}" data-authors="{replace(@id, '^(\D+)(\d.+)$','$1')}"/>
                                 </xsl:for-each>
                             </refs>
@@ -1655,8 +1655,35 @@
                         
                         -->
                         <xsl:template match="cite[@data-et-al][@data-inside][not(@data-multiple)]">
+                            <xsl:variable name="input" select="."/>
+                            <xsl:variable name="author_part_text" select="replace($input, '^(\D+)\d.*$','$1')"/>
+                            <xsl:variable name="first_author" select="replace($author_part_text, '\s*et\s*al[.],?\s*','')"/>
+                            <xsl:variable name="year" select="replace($input, '^(\D+)?(\d+\w?).*$','$2')"/>
+                            <xsl:variable name="matching_ref">
+                                <xsl:sequence select="$refs/refs/ref[@data-count-authors &gt; 2][@data-year = $year][starts-with(@id, $first_author)]"/>
+                            </xsl:variable>
+                            <xsl:variable name="matching_ref_count" select="count($matching_ref/ref)"/>
                             <xsl:copy>
-                                <xsl:apply-templates select="@*|node()"/>
+                                <xsl:apply-templates select="@*"/>
+<!--                                <DEBUG>
+                                    <year><xsl:value-of select="$year"/></year>
+                                    <first_author><xsl:value-of select="$first_author"/></first_author>
+                                    <matching_ref>
+                                        <xsl:sequence select="$matching_ref"/>
+                                    </matching_ref>
+                                    <matching_ref_count><xsl:value-of select="$matching_ref_count"/></matching_ref_count>
+                                </DEBUG>-->
+                                <xsl:choose>
+                                    <xsl:when test="$matching_ref_count = 1">
+<!--                                        <WHEN-BRANCH/>            -->
+                                        <a href="{concat('#',$matching_ref/ref/@id)}"><xsl:apply-templates select="node()"/></a>
+                                    </xsl:when>
+                                    <xsl:otherwise>
+<!--                                        <OTHERWISE-BRANCH><xsl:sequence select="$matching_ref"/></OTHERWISE-BRANCH>-->
+                                        <xsl:apply-templates select="node()"/>
+                                        <xsl:message><xsl:text>No perfect match in reference list for et al. citation [</xsl:text><xsl:apply-templates/><xsl:text>] Possible num of matches: </xsl:text><xsl:value-of select="$matching_ref_count"/><xsl:if test="$matching_ref_count &gt; 0"><xsl:text> Candidates: </xsl:text><xsl:sequence select="$matching_ref"/></xsl:if></xsl:message>
+                                    </xsl:otherwise>
+                                </xsl:choose>
                             </xsl:copy>
                         </xsl:template>
                         
@@ -1677,7 +1704,6 @@
                 <cite><a href="#Lester2014">Lester, 2014</a></cite>
                 <cite><a title="Lester, 2017" href="#Lester2017">2017</a></cite>
             </span>)
-        
         -->
         
         <p:identity name="final"/>
