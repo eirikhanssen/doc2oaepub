@@ -1533,7 +1533,7 @@
                         
                         <xsl:template match="section[@class='references']/p[@class='ref']">
                             <xsl:copy>
-                                <xsl:attribute name="data-authors" select="f:countAuthorsInRef(./text()[1])"/>
+                                <xsl:attribute name="data-count-authors" select="f:countAuthorsInRef(./text()[1])"/>
                                 <xsl:apply-templates select="@*|node()"/>
                             </xsl:copy>
                         </xsl:template>
@@ -1585,7 +1585,14 @@
                         xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing"
                         exclude-result-prefixes="xs f pkg w wp">
                         <xsl:import href="doc2jats-functions.xsl"/>
-                        <xsl:strip-space elements="cite"/>
+                        
+                        <xsl:variable name="refs">
+                            <refs>
+                                <xsl:for-each select="//p[class='ref']">
+                                    <ref id="{@id}" data-count-authors="{@data-count-authors}" data-year="{replace(@id, '^(\D+)(\d.+)$','$2')}" data-authors="{replace(@id, '^(\D+)(\d.+)$','$1')}"/>
+                                </xsl:for-each>
+                            </refs>
+                        </xsl:variable>
                         
                         <!-- generate links where authors are inside parens-->
                         <xsl:template match="cite[@data-inside][not(@data-multiple)][not(@data-et-al)]">
@@ -1636,6 +1643,21 @@
                                     
                                 </xsl:analyze-string>
                             </span>
+                        </xsl:template>
+                        
+                        <!-- 
+                            generate links for et-al-references
+                            get the first author's name from the text
+                            get the year
+                            look up in the references section and see if there is one and only one match on a reference with atleast 3 authors
+                            where the first author and the year matches
+                            if that's the case, use that id as a link.
+                        
+                        -->
+                        <xsl:template match="cite[@data-et-al][@data-inside][not(@data-multiple)]">
+                            <xsl:copy>
+                                <xsl:apply-templates select="@*|node()"/>
+                            </xsl:copy>
                         </xsl:template>
                         
                     </xsl:stylesheet>
