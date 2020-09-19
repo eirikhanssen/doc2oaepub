@@ -1798,8 +1798,73 @@
             </p:input>
         </p:xslt>
         
-        
-        
+        <!-- report broken links to references, duplicates, and uncited references-->
+        <p:xslt version="2.0">
+            <p:input port="source"/>
+            <p:input port="parameters"><p:empty/></p:input>
+            <p:input port="stylesheet">
+                <p:inline>
+                    <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="2.0"
+                        xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                        xmlns:f="https://eirikhanssen.com/ns/doc2jats-functions"
+                        xmlns:pkg="http://schemas.microsoft.com/office/2006/xmlPackage"
+                        xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"
+                        xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing"
+                        exclude-result-prefixes="xs f pkg w wp">
+                        <xsl:import href="doc2jats-functions.xsl"/>
+                        
+                        <xsl:variable name="refs">
+                            <refs>
+                                <xsl:for-each select="//p[@class='ref']">
+                                    <ref id="{@id}" data-count-authors="{@data-count-authors}" data-year="{replace(@id, '^(\D+)(\d.+)$','$2')}" data-authors="{replace(@id, '^(\D+)(\d.+)$','$1')}"/>
+                                </xsl:for-each>
+                            </refs>
+                        </xsl:variable>
+                        
+                        <xsl:template match="cite/a">
+                            <xsl:copy>
+                                <xsl:apply-templates select="@*|node()"/>
+                            </xsl:copy>
+                            <xsl:variable name="rid" select="replace(@href, '^#(.+)$','$1')"/>
+                            <xsl:variable name="matching_ref">
+                                <xsl:sequence select="$refs/refs/ref[@id = $rid]"/>
+                            </xsl:variable>
+                            <xsl:variable name="matching_ref_count" select="count($matching_ref/ref)"/>
+                            <xsl:choose>
+                                <xsl:when test="$matching_ref_count = 0">
+                                    <xsl:message><xsl:text>Warning: Missing reference in list with id="</xsl:text><xsl:value-of select="$rid"/><xsl:text>" not found for citation [</xsl:text><xsl:apply-templates select="node()"/><xsl:text>]</xsl:text></xsl:message>
+                                </xsl:when>
+                            </xsl:choose>
+                            
+                        </xsl:template>
+
+                        <xsl:template match="p[@class='ref']">
+                            <xsl:variable name="self_id" select="@id"/>
+                            <xsl:variable name="self_link" select="concat('#',@id)"/>
+                            <xsl:variable name="links_to_self">
+                                <xsl:sequence select="//a[@href=$self_link]"/>
+                            </xsl:variable>
+                            <xsl:variable name="count_links_to_self" select="count($links_to_self/a)"/>
+                            <xsl:variable name="duplicate_ref_ids">
+                                <xsl:sequence select="following-sibling::p[@class='ref'][@id=$self_id]"/>
+                            </xsl:variable>
+                            <xsl:variable name="count_duplicate_ref_ids" select="count($duplicate_ref_ids/p)"/>
+                            <xsl:copy>
+                                <xsl:attribute name="data-count-cited" select="$count_links_to_self"/>
+                                <xsl:apply-templates select="@*|node()"/>
+                            </xsl:copy>
+                            <xsl:if test="$count_links_to_self = 0">
+                                <xsl:message><xsl:text>Warning: uncited reference in reference list with [id="</xsl:text><xsl:value-of select="@id"/><xsl:text>"]</xsl:text></xsl:message>
+                            </xsl:if>
+                            <xsl:if test="$count_duplicate_ref_ids &gt; 0">
+                                <xsl:message><xsl:text>Warning: duplicate reference id for references in reference list with [id="</xsl:text><xsl:value-of select="$self_id"/><xsl:text>"]</xsl:text></xsl:message>
+                            </xsl:if>
+                        </xsl:template>
+                        
+                    </xsl:stylesheet>
+                </p:inline>
+            </p:input>
+        </p:xslt>
         
         <p:delete match="cite[parent::span[@data-multiple][@data-inside]][count(preceding-sibling::cite) = 0]/a/@title"/>
         <!--
