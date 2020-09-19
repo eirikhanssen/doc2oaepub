@@ -1586,6 +1586,8 @@
                         exclude-result-prefixes="xs f pkg w wp">
                         <xsl:import href="doc2jats-functions.xsl"/>
                         
+                        <xsl:variable name="debugmode" select="true()"/>
+                        
                         <xsl:variable name="refs">
                             <refs>
                                 <xsl:for-each select="//p[@class='ref']">
@@ -1654,10 +1656,16 @@
                             if that's the case, use that id as a link.
                         
                         -->
+                        <!-- generate links for et-al-references: authors inside parens -->
                         <xsl:template match="cite[@data-et-al][@data-inside][not(@data-multiple)]">
+                            <!-- 
+                                to disable debugmode for this template, use $debugmode and false()
+                                to enable debugmode for this template, use $debugmode and true()
+                            -->
+                            <xsl:variable name="template_debugmode" select="$debugmode and false()"/>
                             <xsl:variable name="input" select="."/>
                             <xsl:variable name="author_part_text" select="replace($input, '^(\D+)\d.*$','$1')"/>
-                            <xsl:variable name="first_author" select="replace($author_part_text, '\s*et\s*al[.],?\s*','')"/>
+                            <xsl:variable name="first_author" select="replace($author_part_text, '(\s*et\s*al[.],?\s*)|(\s*,?\s*and colleagues\s*)','')"/>
                             <xsl:variable name="year" select="replace($input, '^(\D+)?(\d+\w?).*$','$2')"/>
                             <xsl:variable name="matching_ref">
                                 <xsl:sequence select="$refs/refs/ref[@data-count-authors &gt; 2][@data-year = $year][starts-with(@id, $first_author)]"/>
@@ -1665,21 +1673,60 @@
                             <xsl:variable name="matching_ref_count" select="count($matching_ref/ref)"/>
                             <xsl:copy>
                                 <xsl:apply-templates select="@*"/>
-<!--                                <DEBUG>
+                                <xsl:if test="$template_debugmode = true()"><DEBUG>
                                     <year><xsl:value-of select="$year"/></year>
                                     <first_author><xsl:value-of select="$first_author"/></first_author>
                                     <matching_ref>
                                         <xsl:sequence select="$matching_ref"/>
                                     </matching_ref>
                                     <matching_ref_count><xsl:value-of select="$matching_ref_count"/></matching_ref_count>
-                                </DEBUG>-->
+                                </DEBUG></xsl:if>
                                 <xsl:choose>
                                     <xsl:when test="$matching_ref_count = 1">
-<!--                                        <WHEN-BRANCH/>            -->
+                                        <xsl:if test="$template_debugmode = true()"><WHEN-BRANCH/></xsl:if>           
                                         <a href="{concat('#',$matching_ref/ref/@id)}"><xsl:apply-templates select="node()"/></a>
                                     </xsl:when>
                                     <xsl:otherwise>
-<!--                                        <OTHERWISE-BRANCH><xsl:sequence select="$matching_ref"/></OTHERWISE-BRANCH>-->
+                                        <xsl:if test="$template_debugmode = true()"><OTHERWISE-BRANCH><xsl:sequence select="$matching_ref"/></OTHERWISE-BRANCH></xsl:if>
+                                        <xsl:apply-templates select="node()"/>
+                                        <xsl:message><xsl:text>No perfect match in reference list for et al. citation [</xsl:text><xsl:apply-templates/><xsl:text>] Possible num of matches: </xsl:text><xsl:value-of select="$matching_ref_count"/><xsl:if test="$matching_ref_count &gt; 0"><xsl:text> Candidates: </xsl:text><xsl:sequence select="$matching_ref"/></xsl:if></xsl:message>
+                                    </xsl:otherwise>
+                                </xsl:choose>
+                            </xsl:copy>
+                        </xsl:template>
+                        
+                        <!-- generate links for et-al-references: authors outside parens -->
+                        <xsl:template match="cite[@data-et-al][@data-outside][not(@data-multiple)]">
+                            <!-- 
+                                to disable debugmode for this template, use $debugmode and false()
+                                to enable debugmode for this template, use $debugmode and true()
+                            -->
+                            <xsl:variable name="template_debugmode" select="$debugmode and false()"/>
+                            <xsl:variable name="input" select="."/>
+                            <xsl:variable name="author_part_text" select="replace($input, '^(\D+)\(?\d.*$','$1')"/>
+                            <xsl:variable name="first_author" select="replace($author_part_text, '(\s*et\s*al[.],?\s*)|(\s*,?\s*and colleagues\s*)|(\W)','')"/>
+                            <xsl:variable name="year" select="replace($input, '^(\D+)?\(?(\d+\w?).*$','$2')"/>
+                            <xsl:variable name="matching_ref">
+                                <xsl:sequence select="$refs/refs/ref[@data-count-authors &gt; 2][@data-year = $year][starts-with(@id, $first_author)]"/>
+                            </xsl:variable>
+                            <xsl:variable name="matching_ref_count" select="count($matching_ref/ref)"/>
+                            <xsl:copy>
+                                <xsl:apply-templates select="@*"/>
+                                <xsl:if test="$template_debugmode = true()"><DEBUG>
+                                    <year><xsl:value-of select="$year"/></year>
+                                    <first_author><xsl:value-of select="$first_author"/></first_author>
+                                    <matching_ref>
+                                        <xsl:sequence select="$matching_ref"/>
+                                    </matching_ref>
+                                    <matching_ref_count><xsl:value-of select="$matching_ref_count"/></matching_ref_count>
+                                </DEBUG></xsl:if>
+                                <xsl:choose>
+                                    <xsl:when test="$matching_ref_count = 1">
+                                        <xsl:if test="$template_debugmode = true()"><WHEN-BRANCH/></xsl:if>             
+                                        <a href="{concat('#',$matching_ref/ref/@id)}"><xsl:apply-templates select="node()"/></a>
+                                    </xsl:when>
+                                    <xsl:otherwise>
+                                        <xsl:if test="$template_debugmode = true()"><OTHERWISE-BRANCH><xsl:sequence select="$matching_ref"/></OTHERWISE-BRANCH></xsl:if>
                                         <xsl:apply-templates select="node()"/>
                                         <xsl:message><xsl:text>No perfect match in reference list for et al. citation [</xsl:text><xsl:apply-templates/><xsl:text>] Possible num of matches: </xsl:text><xsl:value-of select="$matching_ref_count"/><xsl:if test="$matching_ref_count &gt; 0"><xsl:text> Candidates: </xsl:text><xsl:sequence select="$matching_ref"/></xsl:if></xsl:message>
                                     </xsl:otherwise>
