@@ -13,6 +13,8 @@ import os.path
 import shlex
 import subprocess
 import zipfile
+from configparser import ConfigParser
+from pathlib import Path
 
 debugmode = False
 settings = {
@@ -20,13 +22,62 @@ settings = {
     'pipeline_filename': 'doc2jats.xpl',
     'pygmentize_style': 'native',
     'do_less': False,
-    'do_pygmentize': False
+    'do_pygmentize': False,
+    'journal':'default', ## short name of journal (seminar | pp | ...)
+    'journals':['default',
+                'fleks',
+                'formakademisk',
+                'human',
+                'information',
+                'nat',
+                'nordiccie',
+                'njsr',
+                'nbf',
+                'pp',
+                'radopen',
+                'rerm',
+                'yrke',
+                'seminar',
+                'techneA',
+                'arkiv',
+                'ungdomsforskning']
    }
+
+def load_config():
+    global settings
+    config = ConfigParser()
+    config.read(settings['configfile'])
+    settings['journal'] = config.get('main', 'journal')
+    #settings['pygmentize_style'] = config.get('pygmentize_style')
+    
+def save_config():
+    global settings
+    config = ConfigParser()
+    config.read(settings['configfile'])
+    if not config.has_section('main'):
+        config.add_section('main')
+    config.set('main', 'journal', settings['journal'])
+    #config.set('main', 'pygmentize_style', settings['pygmentize_style'])
+        
+    with open(settings['configfile'], 'w') as f:
+        config.write(f)
 
 def init():
     global settings
     if debugmode():
         print("init()")
+    
+    if os.path.exists(os.path.join(Path.home(), '.config')) and os.path.isdir(os.path.join(Path.home(), '.config')):
+        settings['configfile'] = os.path.join(Path.home(), '.config', 'doc2oaepub.ini')
+    else:
+        settings['configfile'] = os.path.join(Path.home(), '.doc2oaepub.ini')
+    
+    if os.path.exists(settings['configfile']):
+        load_config()
+    else:
+        save_config()
+        
+    
     if check_args_ok():
         settings['cwd'] = os.path.realpath(os.getcwd())
         settings['timestamp'] = re.sub(':', '', datetime.now().isoformat()[:19])
@@ -64,7 +115,17 @@ def init():
 
 def main():
     global settings
-    input("I will convert %s to html. Press Enter to continue or CTRL-C to exit:" % settings['inputfile_basename'])
+    response = None
+    journals_string = ", ".join(settings['journals'])
+    while response != "":
+        response = input("Convert \"%s\" to html for journal \"%s\"\n1) To continue with these settings, press [Enter].\n2) To change journal, type short name of a journal followed by [Enter]. Suggestions: %s\n3) To exit, press [CTRL-C].\n\nMake your choice: " % (settings['inputfile_basename'], settings['journal'], journals_string))
+        if response != "" and re.match('^\w+$',response) != None:
+            settings['journal'] = response
+            print('\nChange journal to [%s]\n' % response)
+            save_config()
+        elif response != "":
+            print('\nOnly alphanumeric characters are allowed for short-name. You typed [%s]. Illegal characters: [%s]\n' % (response, re.sub('\w','',response)))
+    print("")
     if debugmode():
         print("main()")
     if not is_tool('calabash'):
@@ -116,7 +177,7 @@ def unpack_docx():
 
 def run_pipeline():
     global settings
-    command_line_calabash = "calabash -p input_folder=%s output_xml=%s output_flat_ocf=%s %s" % (settings['extract_folder_abs'], settings['output_filepath_xml_abs'], settings['output_filepath_flat_ocf_abs'], settings['pipeline_path'])
+    command_line_calabash = "calabash -p input_folder=%s output_xml=%s output_flat_ocf=%s journal=%s %s" % (settings['extract_folder_abs'], settings['output_filepath_xml_abs'], settings['output_filepath_flat_ocf_abs'], settings['journal'], settings['pipeline_path'])
     command_line_pygmentize_html = "pygmentize -l xml -O style=%s %s" % (settings['pygmentize_style'], settings['output_filepath_html_abs'])
     command_line_pygmentize_xml = "pygmentize -l xml -O style=%s %s" % (settings['pygmentize_style'], settings['output_filepath_xml_abs'])
     command_line_less = "less -R"
@@ -130,6 +191,7 @@ def run_pipeline():
     print('Please wait while calabash is transforming %s with %s' % (settings['inputfile_basename'], settings['pipeline_filename']))
     time_begin = datetime.now()
     if debugmode():
+        print(command_line_calabash)
         print("args_calabash:\n" + str(args_calabash))
         input("Press Enter to continue or CTRL-C to cancel")
     proc_calabash = subprocess.Popen(args_calabash, stdout=subprocess.PIPE, stderr=subprocess.PIPE, shell=False)
@@ -161,10 +223,10 @@ def run_pipeline():
                      htmlfile.write("<!DOCTYPE html>\n")
                      htmlfile.write(transformed_xml)
                      htmlfile.close()
-                print("\nPreview the xml file:\n%s\n" % command_line_preview_xml)
-                print("Preview the html file:\n%s\n" % command_line_preview_html)
+                print("\nPreview the xml file:\n%s" % command_line_preview_xml)
+                print("\nPreview the html file:\n%s" % command_line_preview_html)
                 if error_log != "":
-                    print("NOTICE: Some errors have been caught. Error log has been stored in: %s\n%s\n" % (settings['error_path'], error_log))
+                    print("\nNOTICE: Some errors have been caught. Error log has been stored in: %s\n%s\n" % (settings['error_path'], error_log))
             else:
                 print("The calabash process has terminated after %d seconds with an error status code: %d" % (time_elapsed_seconds, exitcode))
                 print("Error log has been stored in: %s\nError:\n %s\n\n" % (settings['error_filename'], error_log))

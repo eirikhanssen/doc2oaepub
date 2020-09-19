@@ -301,7 +301,7 @@
                                 <xsl:if test="matches($content,'@')"><xsl:text>mailto:</xsl:text></xsl:if>
                                 <xsl:value-of select="$content"/>
                             </xsl:variable>
-                            <a href="{$src}">
+                            <xsl:text> </xsl:text><a href="{$src}">
                                 <xsl:value-of select="$content"/>
                             </a>
                         </xsl:template>
@@ -915,6 +915,7 @@
                                 
                    <!--  !!!! BUGGY CODE !!!!  -->
                             </dl>
+                            <xsl:message><xsl:text>Note to developer: remember to fix buggy code in p:xslt name="group-authors"</xsl:text></xsl:message>
                         </xsl:template>
                         
                         <xsl:template mode="authors" match="p[matches(@styleId, '^AuthorDetails')]">
@@ -1223,12 +1224,12 @@
             </p:input>
         </p:insert>
         
-        <!-- TODO: here 'Seminar' is hard-coded. but ideally the name of the journal should come from a parameter -->
+        
         <p:insert match="body" position="first-child">
             <p:input port="insertion">
-                <p:inline><header class="seminar"> </header></p:inline>
+                <p:inline><header> </header></p:inline>
             </p:input>
-        </p:insert>  
+        </p:insert>
         
         <p:identity name="final"/>
 
@@ -1589,6 +1590,7 @@
                         
                         <xsl:template match="cite/text()">
                             <xsl:variable name="input" select="."/>
+                            <!-- fix space between comma separated words. -->
                             <xsl:variable name="txt1" select="replace($input, '(\w)\s*,(\w)','$1, $2')"/>
                             <xsl:value-of select="$txt1"/>
                         </xsl:template>
@@ -1879,6 +1881,36 @@
                 <cite><a title="Lester, 2017" href="#Lester2017">2017</a></cite>
             </span>)
         -->
+        
+        <p:identity name="final"/>
+        
+    </p:declare-step>
+
+    <p:declare-step type="d2j:text-corrections" name="text-corrections" 
+        xmlns:d2j="http://eirikhanssen.no/doc2jats"
+        xmlns:pkg="http://schemas.microsoft.com/office/2006/xmlPackage"
+        xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"
+        xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing"
+        exclude-inline-prefixes="d2j pkg w wp">
+        <p:output port="result" sequence="true"/>
+        <p:serialization port="result" indent="true" method="xml" omit-xml-declaration="true"/>
+        <p:input port="source"/>
+        <p:input port="parameters" kind="parameter" sequence="true"/>
+        
+        <p:xslt version="2.0">
+            <p:input port="source"/>
+            <p:input port="parameters"><p:empty/></p:input>
+            <p:input port="stylesheet">
+                <p:inline>
+                    <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="2.0"
+                        xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                        exclude-result-prefixes="xs">
+                        <xsl:import href="doc2jats-functions.xsl"/>
+                        
+                    </xsl:stylesheet>
+                </p:inline>
+            </p:input>
+        </p:xslt>
         
         <p:identity name="final"/>
         
