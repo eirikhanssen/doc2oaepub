@@ -3,7 +3,7 @@
     xmlns:p="http://www.w3.org/ns/xproc"
     xmlns:c="http://www.w3.org/ns/xproc-step"
     version="1.0"
-    xmlns:d2j="http://eirikhanssen.no/doc2jats">
+    xmlns:d2ep="http://eirikhanssen.no/doc2oaepub">
     
     <p:serialization port="result" indent="true" method="xml"></p:serialization>
     
@@ -23,67 +23,67 @@
 <!--        <p:pipe port="result" step="store-final"></p:pipe>-->
         <p:pipe port="result" step="end"></p:pipe>
     </p:output>
-    <p:import href="doc2jats-library.xpl"/>
+    <p:import href="doc2oaepub-library.xpl"/>
     
-    <d2j:docx-root/>
+    <d2ep:docx-root/>
     
-    <d2j:env/>
+    <d2ep:env/>
     
-    <d2j:docx-flatten name="flat-ocf"/>
+    <d2ep:docx-flatten name="flat-ocf"/>
 
-    <d2j:delete-needless-markup name="delete-needless-markup"/>
+    <d2ep:delete-needless-markup name="delete-needless-markup"/>
     
-    <d2j:formatting name="formatting"/>
+    <d2ep:formatting name="formatting"/>
 
-    <d2j:flat-docx-to-html name="flat-docx-to-html"/>
+    <d2ep:flat-docx-to-html name="flat-docx-to-html"/>
     
-    <d2j:merge-em name="merge-em"/>
+    <d2ep:merge-em name="merge-em"/>
     
-    <d2j:merge-strong name="merge-strong"/>
+    <d2ep:merge-strong name="merge-strong"/>
     
-    <d2j:translate-ocftable-to-initial-htmltable name="translate-ocftable-to-initial-htmltable"/> 
+    <d2ep:translate-ocftable-to-initial-htmltable name="translate-ocftable-to-initial-htmltable"/> 
     
-    <d2j:restructure-tables name="restructure-tables"/> 
+    <d2ep:restructure-tables name="restructure-tables"/> 
 
-    <d2j:group-lists name="group-lists"/> 
+    <d2ep:group-lists name="group-lists"/> 
     
-    <d2j:replace-symbols name="replace-symbols"/>
+    <d2ep:replace-symbols name="replace-symbols"/>
     
-    <d2j:restructure-figures name="restructure-figures"/>
+    <d2ep:restructure-figures name="restructure-figures"/>
   
-    <d2j:filter-w-document name="filter-w-document"/> 
+    <d2ep:filter-w-document name="filter-w-document"/> 
 
-    <d2j:author-group name="author-group"/>
+    <d2ep:author-group name="author-group"/>
     
-    <d2j:rename-elements name="rename-elements"/>
+    <d2ep:rename-elements name="rename-elements"/>
 
-    <d2j:cleanup name="cleanup"/>
+    <d2ep:cleanup name="cleanup"/>
 
     <p:add-attribute match="html" attribute-name="data-journal">
         <p:with-option name="attribute-value" select="$journal"></p:with-option>
     </p:add-attribute>
 
-    <d2j:group-h2-sections name="group-h2-sections"/> 
+    <d2ep:group-h2-sections name="group-h2-sections"/> 
 
-    <d2j:add-classes-to-sections name="add-classes-to-sections"/>
+    <d2ep:add-classes-to-sections name="add-classes-to-sections"/>
     
-    <d2j:group-main-and-asides name="group-main-and-asides"/>
+    <d2ep:group-main-and-asides name="group-main-and-asides"/>
     
-    <d2j:add-comments name="add-comments"/>
+    <d2ep:add-comments name="add-comments"/>
     
-    <d2j:html-head name="html-head"/>
+    <d2ep:html-head name="html-head"/>
    
-    <d2j:header-and-skiplinks name="header-and-skiplinks"/>
+    <d2ep:header-and-skiplinks name="header-and-skiplinks"/>
     
-    <d2j:delete-empty-elements name="delete-empty-elements"/>
+    <d2ep:delete-empty-elements name="delete-empty-elements"/>
     
-    <d2j:generate-ids-in-references name="generate-ids-in-references"/>
+    <d2ep:generate-ids-in-references name="generate-ids-in-references"/>
     
-    <d2j:generate-ids-in-headings name="generate-ids-in-headings"/>
+    <d2ep:generate-ids-in-headings name="generate-ids-in-headings"/>
     
-    <d2j:link-citations-to-references name="link-citations-to-references"/>
+    <d2ep:link-citations-to-references name="link-citations-to-references"/>
     
-    <d2j:text-corrections name="text-corrections"/>
+    <d2ep:text-corrections name="text-corrections"/>
     
     <p:identity name="final"/>
     

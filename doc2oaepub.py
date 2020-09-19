@@ -19,7 +19,7 @@ from pathlib import Path
 debugmode = False
 settings = {
     'debugmode': debugmode,
-    'pipeline_filename': 'doc2jats.xpl',
+    'pipeline_filename': 'doc2oaepub.xpl',
     'pygmentize_style': 'native',
     'do_less': False,
     'do_pygmentize': False,
@@ -270,9 +270,9 @@ def display_usage():
     global settings
     if debugmode():
         print("display_usage()")
-    message = """doc2jats.py:
+    message = """doc2oaepub.py:
 Convert a .docx file to semantic html
-Usage: doc2jats.py path/to/filename.docx
+Usage: doc2oaepub.py path/to/filename.docx
 Converted files will be located in a folder called filename-files
 """
     print(message)

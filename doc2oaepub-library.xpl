@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <p:library version="1.0" 
     xmlns:p="http://www.w3.org/ns/xproc"
-    xmlns:d2j="http://eirikhanssen.no/doc2jats" 
+    xmlns:d2ep="http://eirikhanssen.no/doc2oaepub" 
     xmlns:pkg="http://schemas.microsoft.com/office/2006/xmlPackage"
     xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"
     xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing">
     
-    <p:declare-step type="d2j:docx-root" name="docx-root">
+    <p:declare-step type="d2ep:docx-root" name="docx-root">
         <p:output port="result" sequence="true"/>
         <p:serialization port="result" indent="true" method="xml" omit-xml-declaration="true"/>
         
@@ -56,7 +56,7 @@
         
     </p:declare-step>
     
-    <p:declare-step type="d2j:env" name="env">
+    <p:declare-step type="d2ep:env" name="env">
         <p:output port="result" sequence="true"/>
         <p:serialization port="result" indent="true" method="xml" omit-xml-declaration="true"/>
         <p:input port="source"/>
@@ -73,7 +73,7 @@
             <p:input port="stylesheet">
                 <p:inline>
                     <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="2.0">
-                        <xsl:import href="doc2jats-functions.xsl"/>
+                        <xsl:import href="doc2oaepub-functions.xsl"/>
                         <xsl:param name="input_folder"/>
                         
                         <xsl:template match="/">
@@ -96,7 +96,7 @@
         
     </p:declare-step>
     
-    <p:declare-step type="d2j:docx-flatten" name="docx-flatten">
+    <p:declare-step type="d2ep:docx-flatten" name="docx-flatten">
         <p:output port="result" sequence="true"/>
         <p:serialization port="result" indent="true" method="xml" omit-xml-declaration="true"/>
         <p:input port="source"/>
@@ -108,7 +108,7 @@
             <p:input port="stylesheet">
                 <p:inline>
                     <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="2.0" xmlns:pkg="http://schemas.microsoft.com/office/2006/xmlPackage">
-                        <xsl:import href="doc2jats-functions.xsl"/>
+                        <xsl:import href="doc2oaepub-functions.xsl"/>
                         <xsl:param name="input_folder"/>
                         <xsl:strip-space elements="*"/>
                         
@@ -134,7 +134,7 @@
                     <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="2.0" 
                         xmlns:pkg="http://schemas.microsoft.com/office/2006/xmlPackage"
                         xmlns:rp="http://schemas.openxmlformats.org/package/2006/relationships">
-                        <xsl:import href="doc2jats-functions.xsl"/>
+                        <xsl:import href="doc2oaepub-functions.xsl"/>
                         <xsl:param name="input_folder"/>
                         <xsl:strip-space elements="*"/>
                         
@@ -161,7 +161,7 @@
         
     </p:declare-step>
     
-    <p:declare-step type="d2j:filter-w-document" name="filter-w-document">
+    <p:declare-step type="d2ep:filter-w-document" name="filter-w-document">
         <p:output port="result" sequence="true"/>
         <p:serialization port="result" indent="true" method="xml" omit-xml-declaration="true"/>
         <p:input port="source"/>
@@ -172,7 +172,7 @@
         <p:identity name="final"/>
     </p:declare-step>
     
-    <p:declare-step type="d2j:flat-docx-to-html" name="docx-flatten">
+    <p:declare-step type="d2ep:flat-docx-to-html" name="docx-flatten">
         <p:output port="result" sequence="true"/>
         <p:serialization port="result" indent="true" method="xml" omit-xml-declaration="true"/>
         <p:input port="source"/>
@@ -184,10 +184,10 @@
             <p:input port="stylesheet">
                 <p:inline>
                     <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-                        xmlns:f="https://eirikhanssen.com/ns/doc2jats-functions"
+                        xmlns:f="https://eirikhanssen.com/ns/doc2oaepub-functions"
                         version="2.0"
                         exclude-result-prefixes="f">
-                        <xsl:import href="doc2jats-functions.xsl"/>
+                        <xsl:import href="doc2oaepub-functions.xsl"/>
                         <xsl:strip-space elements="*"/>
                         
                         <xsl:template match="w:r|w:t"><xsl:apply-templates/></xsl:template>
@@ -251,14 +251,14 @@
             <p:input port="stylesheet">
                 <p:inline>
                     <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-                        xmlns:f="https://eirikhanssen.com/ns/doc2jats-functions"
+                        xmlns:f="https://eirikhanssen.com/ns/doc2oaepub-functions"
                         xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main"
                         xmlns:r="http://schemas.openxmlformats.org/package/2006/relationships"
                         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
                         
                         version="2.0"
                         exclude-result-prefixes="f a r mc">
-                        <xsl:import href="doc2jats-functions.xsl"/>
+                        <xsl:import href="doc2oaepub-functions.xsl"/>
                         <xsl:strip-space elements="*"/>
                         
                         <xsl:template match="p[matches(@styleId , '^Keywords')]">
@@ -349,7 +349,7 @@
         <p:identity name="final"/>
     </p:declare-step>
     
-    <p:declare-step type="d2j:translate-ocftable-to-initial-htmltable">
+    <p:declare-step type="d2ep:translate-ocftable-to-initial-htmltable">
         <p:output port="result" sequence="true"/>
         <p:serialization port="result" indent="true" method="xml" omit-xml-declaration="true"/>
         <p:input port="source"/>
@@ -375,7 +375,7 @@
                         exclude-result-prefixes="xs w r pr wp a pic xhtml w14 wps"
                         version="2.0">
                         
-                        <xsl:import href="doc2jats-functions.xsl"/>
+                        <xsl:import href="doc2oaepub-functions.xsl"/>
                         
                         <xsl:template match="w:tbl">
                             <xsl:variable name="tablestyle" select="w:tblPr/w:tblStyle/@w:val"/>
@@ -432,7 +432,7 @@
         <p:delete match="w:tcPr"></p:delete>
     </p:declare-step>
     
-    <p:declare-step type="d2j:restructure-tables">
+    <p:declare-step type="d2ep:restructure-tables">
         <p:output port="result" sequence="true"/>
         <p:serialization port="result" indent="true" method="xml" omit-xml-declaration="true"/>
         <p:input port="source"/>
@@ -473,7 +473,7 @@
                         exclude-result-prefixes="xs w xhtml"
                         version="2.0">
                         
-                        <xsl:import href="doc2jats-functions.xsl"/>
+                        <xsl:import href="doc2oaepub-functions.xsl"/>
                         
                         <xsl:template match="table[preceding-sibling::*[1][self::p][matches(@styleId, '^TableCaption')]]">
                             <xsl:variable name="caption" select="preceding-sibling::*[1][self::p][matches(@styleId, '^TableCaption')]"/>
@@ -507,7 +507,7 @@
         
     </p:declare-step>
     
-    <p:declare-step type="d2j:group-lists">
+    <p:declare-step type="d2ep:group-lists">
         <p:output port="result" sequence="true"/>
         <p:serialization port="result" indent="true" method="xml" omit-xml-declaration="true"/>
         <p:input port="source"/>
@@ -535,7 +535,7 @@
                         exclude-result-prefixes="xs w r pr wp a pic xhtml w14 wps"
                         version="2.0">
                         
-                        <xsl:import href="doc2jats-functions.xsl"/>
+                        <xsl:import href="doc2oaepub-functions.xsl"/>
                         
                         <xsl:template match="lists">
                             <xsl:copy>
@@ -599,7 +599,7 @@
                         exclude-result-prefixes="xs w r pr wp a pic xhtml w14 wps"
                         version="2.0">
                         
-                        <xsl:import href="doc2jats-functions.xsl"/>
+                        <xsl:import href="doc2oaepub-functions.xsl"/>
                         
                         <xsl:template match="lists">
                             <xsl:apply-templates/>
@@ -629,7 +629,7 @@
         
     </p:declare-step>
     
-    <p:declare-step type="d2j:replace-symbols">
+    <p:declare-step type="d2ep:replace-symbols">
         <p:output port="result" sequence="true"/>
         <p:serialization port="result" indent="true" method="xml" omit-xml-declaration="true"/>
         <p:input port="source"/>
@@ -649,7 +649,7 @@
                         exclude-result-prefixes="xs w xhtml"
                         version="2.0">
                         
-                        <xsl:import href="doc2jats-functions.xsl"/>
+                        <xsl:import href="doc2oaepub-functions.xsl"/>
                         <w:sym w:font="Wingdings" w:char="F0E0"/>
                         <xsl:template match="w:sym">
                             <!-- replace a word entity with the "right arrow" symbol -->
@@ -671,7 +671,7 @@
         
     </p:declare-step>
     
-    <p:declare-step type="d2j:restructure-figures">
+    <p:declare-step type="d2ep:restructure-figures">
         <p:output port="result" sequence="true"/>
         <p:serialization port="result" indent="true" method="xml" omit-xml-declaration="true"/>
         <p:input port="source"/>
@@ -691,7 +691,7 @@
                         exclude-result-prefixes="xs w xhtml"
                         version="2.0">
                         
-                        <xsl:import href="doc2jats-functions.xsl"/>
+                        <xsl:import href="doc2oaepub-functions.xsl"/>
                         
                         <xsl:template match="figcaption[parent::figure/following-sibling::p[matches(@styleId, '^FigureCaption')]]">
                             <xsl:variable name="figure_parent" select="parent::figure"/>
@@ -709,7 +709,7 @@
         
     </p:declare-step>
     
-    <p:declare-step type="d2j:rename-elements">
+    <p:declare-step type="d2ep:rename-elements">
         <p:output port="result" sequence="true"/>
         <p:serialization port="result" indent="true" method="xml" omit-xml-declaration="true"/>
         <p:input port="source"/>
@@ -751,7 +751,7 @@
         <p:add-attribute match="html" name="lang" attribute-name="lang" attribute-value="en-US"></p:add-attribute>
     </p:declare-step>
     
-    <p:declare-step type="d2j:cleanup">
+    <p:declare-step type="d2ep:cleanup">
         <p:output port="result" sequence="true"/>
         <p:serialization port="result" indent="true" method="xml" omit-xml-declaration="true"/>
         <p:input port="source"/>
@@ -792,11 +792,11 @@
         <p:add-attribute match="html" name="lang" attribute-name="lang" attribute-value="en-US"></p:add-attribute>
     </p:declare-step>
     
-    <p:declare-step type="d2j:html-head" name="html-head"
+    <p:declare-step type="d2ep:html-head" name="html-head"
         xmlns:pkg="http://schemas.microsoft.com/office/2006/xmlPackage"
         xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"
         xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing"
-        exclude-inline-prefixes="d2j pkg w wp">
+        exclude-inline-prefixes="d2ep pkg w wp">
         <p:output port="result" sequence="true"/>
         <p:serialization port="result" indent="true" method="xml" omit-xml-declaration="true"/>
         <p:input port="source"/>
@@ -824,7 +824,7 @@
                         xmlns:xs="http://www.w3.org/2001/XMLSchema"
                         exclude-result-prefixes="xs"
                         version="2.0">
-                        <xsl:import href="doc2jats-functions.xsl"/>
+                        <xsl:import href="doc2oaepub-functions.xsl"/>
                         
                         <xsl:template match="/html/head/title">
                             <xsl:copy>
@@ -843,7 +843,7 @@
     </p:declare-step>
     
     
-    <p:declare-step type="d2j:formatting" name="formatting">
+    <p:declare-step type="d2ep:formatting" name="formatting">
         <p:output port="result" sequence="true"/>
         <p:serialization port="result" indent="true" method="xml" omit-xml-declaration="true"/>
         <p:input port="source"/>
@@ -868,7 +868,7 @@
         
     </p:declare-step>
     
-    <p:declare-step type="d2j:delete-needless-markup" name="delete-needless-markup">
+    <p:declare-step type="d2ep:delete-needless-markup" name="delete-needless-markup">
         <p:output port="result" sequence="true"/>
         <p:serialization port="result" indent="true" method="xml" omit-xml-declaration="true"/>
         <p:input port="source"/>
@@ -883,7 +883,7 @@
     </p:declare-step>
     
     
-    <p:declare-step type="d2j:author-group" name="author-group">
+    <p:declare-step type="d2ep:author-group" name="author-group">
         <p:output port="result" sequence="true"/>
         <p:serialization port="result" indent="true" method="xml" omit-xml-declaration="true"/>
         <p:input port="source"/>
@@ -899,7 +899,7 @@
                         xmlns:xs="http://www.w3.org/2001/XMLSchema"
                         exclude-result-prefixes="xs"
                         version="2.0">
-                        <xsl:import href="doc2jats-functions.xsl"/>
+                        <xsl:import href="doc2oaepub-functions.xsl"/>
                         
                         
                         
@@ -932,7 +932,7 @@
         <p:identity name="final"/>
     </p:declare-step>
     
-    <p:declare-step xmlns:p="http://www.w3.org/ns/xproc" name="merge-em" type="d2j:merge-em"
+    <p:declare-step xmlns:p="http://www.w3.org/ns/xproc" name="merge-em" type="d2ep:merge-em"
         xmlns:c="http://www.w3.org/ns/xproc-step" version="1.0" exclude-inline-prefixes="c">
         <p:serialization port="result" method="xml" indent="true"></p:serialization>
         <p:input port="source"/>
@@ -986,7 +986,7 @@
         <p:identity/>
     </p:declare-step>
     
-    <p:declare-step xmlns:p="http://www.w3.org/ns/xproc" name="merge-strong" type="d2j:merge-strong"
+    <p:declare-step xmlns:p="http://www.w3.org/ns/xproc" name="merge-strong" type="d2ep:merge-strong"
         xmlns:c="http://www.w3.org/ns/xproc-step" version="1.0" exclude-inline-prefixes="c">
         <p:serialization port="result" method="xml" indent="true"></p:serialization>
         <p:input port="source"/>
@@ -1041,7 +1041,7 @@
     </p:declare-step>
     
     
-    <p:declare-step xmlns:p="http://www.w3.org/ns/xproc" name="group-h2-sections" type="d2j:group-h2-sections"
+    <p:declare-step xmlns:p="http://www.w3.org/ns/xproc" name="group-h2-sections" type="d2ep:group-h2-sections"
         xmlns:c="http://www.w3.org/ns/xproc-step" version="1.0" exclude-inline-prefixes="c">
         <p:serialization port="result" method="xml" indent="true"></p:serialization>
         <p:input port="source"/>
@@ -1056,11 +1056,11 @@
                         xmlns:xs="http://www.w3.org/2001/XMLSchema"
                         xmlns:pkg="http://schemas.microsoft.com/office/2006/xmlPackage"
                         xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"
-                        xmlns:f="https://eirikhanssen.com/ns/doc2jats-functions"
+                        xmlns:f="https://eirikhanssen.com/ns/doc2oaepub-functions"
                         xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing"
-                        xmlns:d2j="http://eirikhanssen.no/doc2jats"
-                        exclude-result-prefixes="xs f w pkg wp d2j">
-                        <xsl:import href="doc2jats-functions.xsl"/>
+                        xmlns:d2ep="http://eirikhanssen.no/doc2oaepub"
+                        exclude-result-prefixes="xs f w pkg wp d2ep">
+                        <xsl:import href="doc2oaepub-functions.xsl"/>
                         
                         <xsl:template match="h2">
                             <xsl:copy>
@@ -1090,11 +1090,11 @@
                         xmlns:xs="http://www.w3.org/2001/XMLSchema"
                         xmlns:pkg="http://schemas.microsoft.com/office/2006/xmlPackage"
                         xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"
-                        xmlns:f="https://eirikhanssen.com/ns/doc2jats-functions"
+                        xmlns:f="https://eirikhanssen.com/ns/doc2oaepub-functions"
                         xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing"
-                        xmlns:d2j="http://eirikhanssen.no/doc2jats"
-                        exclude-result-prefixes="xs f w pkg wp d2j">
-                        <xsl:import href="doc2jats-functions.xsl"/>
+                        xmlns:d2ep="http://eirikhanssen.no/doc2oaepub"
+                        exclude-result-prefixes="xs f w pkg wp d2ep">
+                        <xsl:import href="doc2oaepub-functions.xsl"/>
                         
                         <xsl:template match="*[@group-start]">
                             <xsl:variable name="group" select="@group-start"/>
@@ -1125,7 +1125,7 @@
         <p:identity/>
     </p:declare-step>
 
-    <p:declare-step type="d2j:add-classes-to-sections" name="add-classes-to-sections">
+    <p:declare-step type="d2ep:add-classes-to-sections" name="add-classes-to-sections">
         <p:output port="result" sequence="true"/>
         <p:serialization port="result" indent="true" method="xml" omit-xml-declaration="true"/>
         <p:input port="source"/>
@@ -1142,7 +1142,7 @@
         
     </p:declare-step>
     
-    <p:declare-step type="d2j:group-main-and-asides" name="group-main-and-asides" exclude-inline-prefixes="d2j pkg w wp">
+    <p:declare-step type="d2ep:group-main-and-asides" name="group-main-and-asides" exclude-inline-prefixes="d2ep pkg w wp">
         <p:output port="result" sequence="true"/>
         <p:serialization port="result" indent="true" method="xml" omit-xml-declaration="true"/>
         <p:input port="source"/>
@@ -1169,7 +1169,7 @@
         
     </p:declare-step>
     
-    <p:declare-step type="d2j:add-comments" name="add-comments">
+    <p:declare-step type="d2ep:add-comments" name="add-comments">
         
         <p:output port="result" sequence="true"/>
         <p:serialization port="result" indent="true" method="xml" omit-xml-declaration="true"/>
@@ -1185,11 +1185,11 @@
                         xmlns:xs="http://www.w3.org/2001/XMLSchema"
                         xmlns:pkg="http://schemas.microsoft.com/office/2006/xmlPackage"
                         xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"
-                        xmlns:f="https://eirikhanssen.com/ns/doc2jats-functions"
+                        xmlns:f="https://eirikhanssen.com/ns/doc2oaepub-functions"
                         xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing"
-                        xmlns:d2j="http://eirikhanssen.no/doc2jats"
-                        exclude-result-prefixes="xs f w pkg wp d2j">
-                        <xsl:import href="doc2jats-functions.xsl"/>
+                        xmlns:d2ep="http://eirikhanssen.no/doc2oaepub"
+                        exclude-result-prefixes="xs f w pkg wp d2ep">
+                        <xsl:import href="doc2oaepub-functions.xsl"/>
                         
                         <xsl:template match="section">
                             <xsl:copy>
@@ -1207,12 +1207,12 @@
         
     </p:declare-step>
     
-    <p:declare-step type="d2j:header-and-skiplinks" name="header-and-skiplinks" 
-        xmlns:d2j="http://eirikhanssen.no/doc2jats"
+    <p:declare-step type="d2ep:header-and-skiplinks" name="header-and-skiplinks" 
+        xmlns:d2ep="http://eirikhanssen.no/doc2oaepub"
         xmlns:pkg="http://schemas.microsoft.com/office/2006/xmlPackage"
         xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"
         xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing"
-        exclude-inline-prefixes="d2j pkg w wp">
+        exclude-inline-prefixes="d2ep pkg w wp">
         <p:output port="result" sequence="true"/>
         <p:serialization port="result" indent="true" method="xml" omit-xml-declaration="true"/>
         <p:input port="source"/>
@@ -1235,12 +1235,12 @@
 
     </p:declare-step>
 
-    <p:declare-step type="d2j:delete-empty-elements" name="delete-empty-elements" 
-        xmlns:d2j="http://eirikhanssen.no/doc2jats"
+    <p:declare-step type="d2ep:delete-empty-elements" name="delete-empty-elements" 
+        xmlns:d2ep="http://eirikhanssen.no/doc2oaepub"
         xmlns:pkg="http://schemas.microsoft.com/office/2006/xmlPackage"
         xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"
         xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing"
-        exclude-inline-prefixes="d2j pkg w wp">
+        exclude-inline-prefixes="d2ep pkg w wp">
         <p:output port="result" sequence="true"/>
         <p:serialization port="result" indent="true" method="xml" omit-xml-declaration="true"/>
         <p:input port="source"/>
@@ -1256,7 +1256,7 @@
                     <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="2.0"
                         xmlns:xs="http://www.w3.org/2001/XMLSchema"
                         exclude-result-prefixes="xs">
-                        <xsl:import href="doc2jats-functions.xsl"/>
+                        <xsl:import href="doc2oaepub-functions.xsl"/>
                         
                         <!-- replace empty formatting with a space -->
                         <xsl:template match="(em|strong|sub|sup)[not(descendant::text())]"><xsl:text> </xsl:text></xsl:template>
@@ -1270,9 +1270,9 @@
         
     </p:declare-step>
     
-    <p:declare-step type="d2j:generate-ids-in-references" name="generate-ids-in-references" 
-        xmlns:d2j="http://eirikhanssen.no/doc2jats"
-        exclude-inline-prefixes="d2j">
+    <p:declare-step type="d2ep:generate-ids-in-references" name="generate-ids-in-references" 
+        xmlns:d2ep="http://eirikhanssen.no/doc2oaepub"
+        exclude-inline-prefixes="d2ep">
         <p:output port="result" sequence="true"/>
         <p:serialization port="result" indent="true" method="xml" omit-xml-declaration="true"/>
         <p:input port="source"/>
@@ -1285,9 +1285,9 @@
                 <p:inline>
                     <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="2.0"
                         xmlns:xs="http://www.w3.org/2001/XMLSchema"
-                        xmlns:f="https://eirikhanssen.com/ns/doc2jats-functions"
+                        xmlns:f="https://eirikhanssen.com/ns/doc2oaepub-functions"
                         exclude-result-prefixes="xs f">
-                        <xsl:import href="doc2jats-functions.xsl"/>
+                        <xsl:import href="doc2oaepub-functions.xsl"/>
                         <xsl:template match="section[@class='references']/p">
                             <xsl:copy>
                                 <xsl:attribute name="class" select="'ref'"></xsl:attribute>
@@ -1307,9 +1307,9 @@
         
     </p:declare-step>
 
-    <p:declare-step type="d2j:generate-ids-in-headings" name="generate-ids-in-headings" 
-        xmlns:d2j="http://eirikhanssen.no/doc2jats"
-        exclude-inline-prefixes="d2j">
+    <p:declare-step type="d2ep:generate-ids-in-headings" name="generate-ids-in-headings" 
+        xmlns:d2ep="http://eirikhanssen.no/doc2oaepub"
+        exclude-inline-prefixes="d2ep">
         <p:output port="result" sequence="true"/>
         <p:serialization port="result" indent="true" method="xml" omit-xml-declaration="true"/>
         <p:input port="source"/>
@@ -1322,9 +1322,9 @@
                 <p:inline>
                     <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="2.0"
                         xmlns:xs="http://www.w3.org/2001/XMLSchema"
-                        xmlns:f="https://eirikhanssen.com/ns/doc2jats-functions"
+                        xmlns:f="https://eirikhanssen.com/ns/doc2oaepub-functions"
                         exclude-result-prefixes="xs f">
-                        <xsl:import href="doc2jats-functions.xsl"/>
+                        <xsl:import href="doc2oaepub-functions.xsl"/>
                         <xsl:template match="h1|h2|h3|h4|h5|h6">
                             <xsl:variable name="seq" select="string(1 + count(preceding::*[name(.)=('h1','h2','h3','h4','h5','h6')]))"/>
                             <xsl:copy>
@@ -1342,9 +1342,9 @@
         
     </p:declare-step>
     
-    <p:declare-step type="d2j:link-citations-to-references" name="link-citations-to-references" 
-        xmlns:d2j="http://eirikhanssen.no/doc2jats"
-        exclude-inline-prefixes="d2j">
+    <p:declare-step type="d2ep:link-citations-to-references" name="link-citations-to-references" 
+        xmlns:d2ep="http://eirikhanssen.no/doc2oaepub"
+        exclude-inline-prefixes="d2ep">
         <p:output port="result" sequence="true"/>
         <p:serialization port="result" indent="true" method="xml" omit-xml-declaration="true"/>
         <p:input port="source"/>
@@ -1358,12 +1358,12 @@
                 <p:inline>
                     <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="2.0"
                         xmlns:xs="http://www.w3.org/2001/XMLSchema"
-                        xmlns:f="https://eirikhanssen.com/ns/doc2jats-functions"
+                        xmlns:f="https://eirikhanssen.com/ns/doc2oaepub-functions"
                         xmlns:pkg="http://schemas.microsoft.com/office/2006/xmlPackage"
                         xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"
                         xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing"
                         exclude-result-prefixes="xs f pkg w wp">
-                        <xsl:import href="doc2jats-functions.xsl"/>
+                        <xsl:import href="doc2oaepub-functions.xsl"/>
                         
                         <xsl:template match="p[not(@ref)]/text()">
                             <xsl:analyze-string select="." regex="\([^\)]+?\)">
@@ -1398,12 +1398,12 @@
                 <p:inline>
                     <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="2.0"
                         xmlns:xs="http://www.w3.org/2001/XMLSchema"
-                        xmlns:f="https://eirikhanssen.com/ns/doc2jats-functions"
+                        xmlns:f="https://eirikhanssen.com/ns/doc2oaepub-functions"
                         xmlns:pkg="http://schemas.microsoft.com/office/2006/xmlPackage"
                         xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"
                         xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing"
                         exclude-result-prefixes="xs f pkg w wp">
-                        <xsl:import href="doc2jats-functions.xsl"/>
+                        <xsl:import href="doc2oaepub-functions.xsl"/>
                         
                         <xsl:template match="p[not(@ref)]/text()">
                             <xsl:analyze-string select="." regex="\([^\)]+?\)">
@@ -1445,12 +1445,12 @@
                 <p:inline>
                     <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="2.0"
                         xmlns:xs="http://www.w3.org/2001/XMLSchema"
-                        xmlns:f="https://eirikhanssen.com/ns/doc2jats-functions"
+                        xmlns:f="https://eirikhanssen.com/ns/doc2oaepub-functions"
                         xmlns:pkg="http://schemas.microsoft.com/office/2006/xmlPackage"
                         xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"
                         xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing"
                         exclude-result-prefixes="xs f pkg w wp">
-                        <xsl:import href="doc2jats-functions.xsl"/>
+                        <xsl:import href="doc2oaepub-functions.xsl"/>
                         
                         <xsl:template match="p[not(@ref)]/text()">
                             <xsl:analyze-string select="." regex="((\p{{Lu}}\p{{Ll}}+((-)|(\s))?)*\p{{Lu}}\p{{Ll}}+(\s|,|(and)|(&amp;)|(et al\.)|(and colleagues’?))*)+\s?\((\s?\d{{4}}[a-z]?\s?((\s?,?\s?)(p\.\s?\d+)|(pp\.\s?\d+((-)|(–))\s?\d+))?);(\s?\d{{4}}[a-z]?\s?;?((\s?,?\s?)(p\.\s?\d+)|(pp\.\s?\d+((-)|(–))\s?\d+))?)+\)">
@@ -1481,12 +1481,12 @@
                 <p:inline>
                     <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="2.0"
                         xmlns:xs="http://www.w3.org/2001/XMLSchema"
-                        xmlns:f="https://eirikhanssen.com/ns/doc2jats-functions"
+                        xmlns:f="https://eirikhanssen.com/ns/doc2oaepub-functions"
                         xmlns:pkg="http://schemas.microsoft.com/office/2006/xmlPackage"
                         xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"
                         xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing"
                         exclude-result-prefixes="xs f pkg w wp">
-                        <xsl:import href="doc2jats-functions.xsl"/>
+                        <xsl:import href="doc2oaepub-functions.xsl"/>
                         
                         <xsl:template match="p[not(@class='ref')]/text()">
                             <xsl:analyze-string select="." regex="((\p{{Lu}}\p{{Ll}}+((-)|(\s))?)*\p{{Lu}}\p{{Ll}}+(\s|,|(and)|(&amp;)|(et al\.)|(and colleagues’?))*)+\s?\(((\d{{4}}[a-z]?)((\s?,?\s?)(p\.\s?\d+)|(pp\.\s?\d+((-)|(–))\s?\d+))?)(;?/s?(\d{{4}}[a-z]?)((\s?,?\s?)(p\.\s?\d+)|(pp\.\s?\d+((-)|(–))\s?\d+))?)*\)">
@@ -1517,12 +1517,12 @@
                 <p:inline>
                     <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="2.0"
                         xmlns:xs="http://www.w3.org/2001/XMLSchema"
-                        xmlns:f="https://eirikhanssen.com/ns/doc2jats-functions"
+                        xmlns:f="https://eirikhanssen.com/ns/doc2oaepub-functions"
                         xmlns:pkg="http://schemas.microsoft.com/office/2006/xmlPackage"
                         xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"
                         xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing"
                         exclude-result-prefixes="xs f pkg w wp">
-                        <xsl:import href="doc2jats-functions.xsl"/>
+                        <xsl:import href="doc2oaepub-functions.xsl"/>
                         
                         <xsl:template match="p[not(@class='ref')]/text()">
                             <xsl:analyze-string select="." regex="\p{{Lu}}\p{{Lu}}+\s*,?\s*(\d{{4}}[a-z]?)((\s?,?\s?)(p\.\s?\d+)|(pp\.\s?\d+((-)|(–))\s?\d+))?">
@@ -1551,12 +1551,12 @@
                 <p:inline>
                     <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="2.0"
                         xmlns:xs="http://www.w3.org/2001/XMLSchema"
-                        xmlns:f="https://eirikhanssen.com/ns/doc2jats-functions"
+                        xmlns:f="https://eirikhanssen.com/ns/doc2oaepub-functions"
                         xmlns:pkg="http://schemas.microsoft.com/office/2006/xmlPackage"
                         xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"
                         xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing"
                         exclude-result-prefixes="xs f pkg w wp">
-                        <xsl:import href="doc2jats-functions.xsl"/>
+                        <xsl:import href="doc2oaepub-functions.xsl"/>
                         
                         
                         <xsl:template match="section[@class='references']/p[@class='ref']">
@@ -1580,12 +1580,12 @@
                 <p:inline>
                     <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="2.0"
                         xmlns:xs="http://www.w3.org/2001/XMLSchema"
-                        xmlns:f="https://eirikhanssen.com/ns/doc2jats-functions"
+                        xmlns:f="https://eirikhanssen.com/ns/doc2oaepub-functions"
                         xmlns:pkg="http://schemas.microsoft.com/office/2006/xmlPackage"
                         xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"
                         xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing"
                         exclude-result-prefixes="xs f pkg w wp">
-                        <xsl:import href="doc2jats-functions.xsl"/>
+                        <xsl:import href="doc2oaepub-functions.xsl"/>
                         
                         
                         <xsl:template match="cite/text()">
@@ -1608,12 +1608,12 @@
                 <p:inline>
                     <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="2.0"
                         xmlns:xs="http://www.w3.org/2001/XMLSchema"
-                        xmlns:f="https://eirikhanssen.com/ns/doc2jats-functions"
+                        xmlns:f="https://eirikhanssen.com/ns/doc2oaepub-functions"
                         xmlns:pkg="http://schemas.microsoft.com/office/2006/xmlPackage"
                         xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"
                         xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing"
                         exclude-result-prefixes="xs f pkg w wp">
-                        <xsl:import href="doc2jats-functions.xsl"/>
+                        <xsl:import href="doc2oaepub-functions.xsl"/>
                         
                         <xsl:variable name="debugmode" select="true()"/>
                         
@@ -1808,12 +1808,12 @@
                 <p:inline>
                     <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="2.0"
                         xmlns:xs="http://www.w3.org/2001/XMLSchema"
-                        xmlns:f="https://eirikhanssen.com/ns/doc2jats-functions"
+                        xmlns:f="https://eirikhanssen.com/ns/doc2oaepub-functions"
                         xmlns:pkg="http://schemas.microsoft.com/office/2006/xmlPackage"
                         xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"
                         xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing"
                         exclude-result-prefixes="xs f pkg w wp">
-                        <xsl:import href="doc2jats-functions.xsl"/>
+                        <xsl:import href="doc2oaepub-functions.xsl"/>
                         
                         <xsl:variable name="refs">
                             <refs>
@@ -1886,12 +1886,12 @@
         
     </p:declare-step>
 
-    <p:declare-step type="d2j:text-corrections" name="text-corrections" 
-        xmlns:d2j="http://eirikhanssen.no/doc2jats"
+    <p:declare-step type="d2ep:text-corrections" name="text-corrections" 
+        xmlns:d2ep="http://eirikhanssen.no/doc2oaepub"
         xmlns:pkg="http://schemas.microsoft.com/office/2006/xmlPackage"
         xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"
         xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing"
-        exclude-inline-prefixes="d2j pkg w wp">
+        exclude-inline-prefixes="d2ep pkg w wp">
         <p:output port="result" sequence="true"/>
         <p:serialization port="result" indent="true" method="xml" omit-xml-declaration="true"/>
         <p:input port="source"/>
@@ -1905,7 +1905,7 @@
                     <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="2.0"
                         xmlns:xs="http://www.w3.org/2001/XMLSchema"
                         exclude-result-prefixes="xs">
-                        <xsl:import href="doc2jats-functions.xsl"/>
+                        <xsl:import href="doc2oaepub-functions.xsl"/>
                         
                     </xsl:stylesheet>
                 </p:inline>
