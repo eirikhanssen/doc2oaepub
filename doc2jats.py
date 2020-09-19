@@ -46,6 +46,7 @@ def init():
         settings['output_filepath_xml_rel'] = os.path.join(settings['output_folder_rel'], settings['output_filename_xml'])
         settings['output_filepath_xml_abs'] = os.path.abspath(settings['output_filepath_xml_rel'])
         settings['error_filename'] = settings['inputfile_baseroot'] + '-' + settings['timestamp'] + '.error.txt'
+        settings['error_path'] = os.path.join(settings['output_folder_rel'], settings['error_filename'])
         settings['output_filepath_flat_ocf_rel'] = os.path.join(settings['output_folder_rel'], settings['inputfile_basename'] + "-ocf.xml")
         settings['output_filepath_flat_ocf_abs'] = os.path.abspath(settings['output_filepath_flat_ocf_rel'])
         settings['error_filepath_rel'] = os.path.join(settings['output_folder_rel'], settings['error_filename'])
@@ -162,9 +163,15 @@ def run_pipeline():
                      htmlfile.close()
                 print("\nPreview the xml file:\n%s\n" % command_line_preview_xml)
                 print("Preview the html file:\n%s\n" % command_line_preview_html)
+                if error_log != "":
+                    print("NOTICE: Some errors have been caught. Error log has been stored in: %s\n%s\n" % (settings['error_path'], error_log))
             else:
                 print("The calabash process has terminated after %d seconds with an error status code: %d" % (time_elapsed_seconds, exitcode))
-                print("Error log has been stored in: %s\nError:\n %s\n" % (settings['error_filename'], error_log))
+                print("Error log has been stored in: %s\nError:\n %s\n\n" % (settings['error_filename'], error_log))
+            if error_log != "":
+                with open(settings['error_path'], 'a') as errorfile:
+                    errorfile.write(error_log)
+                    errorfile.close()
             break;
     return
    

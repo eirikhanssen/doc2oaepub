@@ -1508,6 +1508,33 @@
             </p:input>
         </p:xslt>
         
+        <!-- cite_org: Locate citation where author is organization (caps).  -->
+        <p:xslt version="2.0">
+            <p:input port="source"/>
+            <p:input port="parameters"><p:empty/></p:input>
+            <p:input port="stylesheet">
+                <p:inline>
+                    <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="2.0"
+                        xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                        xmlns:f="https://eirikhanssen.com/ns/doc2jats-functions"
+                        xmlns:pkg="http://schemas.microsoft.com/office/2006/xmlPackage"
+                        xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"
+                        xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing"
+                        exclude-result-prefixes="xs f pkg w wp">
+                        <xsl:import href="doc2jats-functions.xsl"/>
+                        
+                        <xsl:template match="p[not(@class='ref')]/text()">
+                            <xsl:analyze-string select="." regex="\p{{Lu}}\p{{Lu}}+\s*,?\s*(\d{{4}}[a-z]?)((\s?,?\s?)(p\.\s?\d+)|(pp\.\s?\d+((-)|(–))\s?\d+))?">
+                                <xsl:matching-substring><cite data-org="org"><xsl:value-of select="."/></cite></xsl:matching-substring>
+                                <xsl:non-matching-substring><xsl:value-of select="."/></xsl:non-matching-substring>
+                            </xsl:analyze-string>
+                        </xsl:template>
+                        
+                    </xsl:stylesheet>
+                </p:inline>
+            </p:input>
+        </p:xslt>
+        
         <p:add-attribute match="cite_outside_multiple|cite_inside_multiple" attribute-name="data-multiple" attribute-value="multiple"/>
         <p:add-attribute match="cite_outside_multiple|cite_outside" attribute-name="data-outside" attribute-value="outside"/>
         <p:add-attribute match="cite_inside_multiple|cite_inside" attribute-name="data-inside" attribute-value="inside"/>
@@ -1683,11 +1710,9 @@
                                 </DEBUG></xsl:if>
                                 <xsl:choose>
                                     <xsl:when test="$matching_ref_count = 1">
-                                        <xsl:if test="$template_debugmode = true()"><WHEN-BRANCH/></xsl:if>           
                                         <a href="{concat('#',$matching_ref/ref/@id)}"><xsl:apply-templates select="node()"/></a>
                                     </xsl:when>
                                     <xsl:otherwise>
-                                        <xsl:if test="$template_debugmode = true()"><OTHERWISE-BRANCH><xsl:sequence select="$matching_ref"/></OTHERWISE-BRANCH></xsl:if>
                                         <xsl:apply-templates select="node()"/>
                                         <xsl:message><xsl:text>No perfect match in reference list for et al. citation [</xsl:text><xsl:apply-templates/><xsl:text>] Possible num of matches: </xsl:text><xsl:value-of select="$matching_ref_count"/><xsl:if test="$matching_ref_count &gt; 0"><xsl:text> Candidates: </xsl:text><xsl:sequence select="$matching_ref"/></xsl:if></xsl:message>
                                     </xsl:otherwise>
@@ -1722,11 +1747,9 @@
                                 </DEBUG></xsl:if>
                                 <xsl:choose>
                                     <xsl:when test="$matching_ref_count = 1">
-                                        <xsl:if test="$template_debugmode = true()"><WHEN-BRANCH/></xsl:if>             
                                         <a href="{concat('#',$matching_ref/ref/@id)}"><xsl:apply-templates select="node()"/></a>
                                     </xsl:when>
                                     <xsl:otherwise>
-                                        <xsl:if test="$template_debugmode = true()"><OTHERWISE-BRANCH><xsl:sequence select="$matching_ref"/></OTHERWISE-BRANCH></xsl:if>
                                         <xsl:apply-templates select="node()"/>
                                         <xsl:message><xsl:text>No perfect match in reference list for et al. citation [</xsl:text><xsl:apply-templates/><xsl:text>] Possible num of matches: </xsl:text><xsl:value-of select="$matching_ref_count"/><xsl:if test="$matching_ref_count &gt; 0"><xsl:text> Candidates: </xsl:text><xsl:sequence select="$matching_ref"/></xsl:if></xsl:message>
                                     </xsl:otherwise>
@@ -1734,10 +1757,49 @@
                             </xsl:copy>
                         </xsl:template>
                         
+                        <!-- generate links for org ref -->
+                        <xsl:template match="cite[@data-org]">
+                            <!-- 
+                                to disable debugmode for this template, use $debugmode and false()
+                                to enable debugmode for this template, use $debugmode and true()
+                            -->
+                            <xsl:variable name="template_debugmode" select="$debugmode and false()"/>
+                            <xsl:variable name="input" select="."/>
+                            <xsl:variable name="org" select="replace($input, '^(\p{Lu}+)\P{Lu}+.+$','$1')"/>
+                            <xsl:variable name="year" select="replace($input, '^\D+(\d+\w).*$', '$1')"/>
+                            <xsl:variable name="matching_ref">
+                                <xsl:sequence select="$refs/refs/ref[@id = concat($org,$year)]"/>
+                            </xsl:variable>
+                            <xsl:variable name="matching_ref_count" select="count($matching_ref/ref)"/>
+                            <xsl:copy>
+                                <xsl:apply-templates select="@*"/>
+                                <xsl:if test="$template_debugmode = true()"><DEBUG>
+                                    <year><xsl:value-of select="$year"/></year>
+                                    <org><xsl:value-of select="$org"/></org>
+                                    <matching_ref>
+                                        <xsl:sequence select="$matching_ref"/>
+                                    </matching_ref>
+                                    <matching_ref_count><xsl:value-of select="$matching_ref_count"/></matching_ref_count>
+                                </DEBUG></xsl:if>
+                                <xsl:choose>
+                                    <xsl:when test="$matching_ref_count = 1">
+                                        <a href="{concat('#',$matching_ref/ref/@id)}"><xsl:apply-templates select="node()"/></a>
+                                    </xsl:when>
+                                    <xsl:otherwise>
+                                        <xsl:apply-templates select="node()"/>
+                                        <xsl:message><xsl:text>No match in reference list for org type citation [</xsl:text><xsl:apply-templates/><xsl:text>]</xsl:text></xsl:message>
+                                    </xsl:otherwise>
+                                </xsl:choose>
+                            </xsl:copy>
+                        </xsl:template>
+                       
                     </xsl:stylesheet>
                 </p:inline>
             </p:input>
         </p:xslt>
+        
+        
+        
         
         <p:delete match="cite[parent::span[@data-multiple][@data-inside]][count(preceding-sibling::cite) = 0]/a/@title"/>
         <!--
